@@ -1,0 +1,24 @@
+# Build çıktıları — git'e girmez
+build/
+
+# Binary araç klasörleri — kullanıcı yerel olarak indirir
+tools/
+
+# Unreal arşivleri — telif; hiçbir zaman commit edilmez
+*.pak
+*.ucas
+*.utoc
+*.uasset
+*.uexp
+*.ubulk
+
+# Geçici / OS artıkları
+*.tmp
+*.log
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
