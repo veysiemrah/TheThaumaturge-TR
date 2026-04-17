@@ -169,34 +169,68 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 
 ## Proje durumu (en son)
 
-### Çevirilmiş StringTable'lar
+### Çevirilmiş StringTable'lar (25 adet / ~1431 entry)
 
 | Dosya | Entry | Notlar |
 |---|---|---|
-| `Panels_ST` | 186 | Menüler, paneller, ayarlar, envanter kategorileri, codex kategori başlıkları |
+| `Panels_ST` | 186 | Menüler, paneller, ayarlar, envanter kategorileri, codex başlıkları |
 | `Tutorial_ST` | 48 | Eğitici pop-up açıklama metinleri |
 | `TutorialName_ST` | 48 | Eğitici başlıkları |
-
-**Toplam: 282 entry.**
+| `AbilityName_ST` | 145 | Yetenek isimleri (oyuncu + salutor + düşman silahları + boss) |
+| `AbilityDescription_ST` | 42 | Yetenek açıklamaları (sadece oyuncu+salutor+boss, düşman silahları açıklamasız) |
+| `Map_ST` | 169 | Lokasyon/oda adları (Varşova semtleri özel isim aynen) |
+| `MapDescriptions_ST` | 14 | Bölge atmosferik tanımları (uzun, edebi) |
+| `MapPinTypes_ST` | 13 | Harita pin etiketleri (Berber, Terzi, Fayton vs.) |
+| `Combat_ST` | 170 | Savaş UI (boyut isimleri, rasputin çağrıları, ipuçları) |
+| `CombatLog_ST` | 12 | Savaş log bildirimleri |
+| `PopupsTexts_ST` | 112 | Pop-up, pano (StartBoard, Q102Demo), difficulty, Ligia mektubu, stüdyo manifesti |
+| `Flaw_Name_ST` | 12 | Kusur adları (Kibir, Hırs, Düşüncesizlik vs.) |
+| `Flaw_CombatDescription_ST` | 4 | Kusurun savaşta tetiklenme metni |
+| `Flaw_PanelDescription_ST` | 12 | Kusur panel efekt metni |
+| `FlawsPanel_Descriptions_ST` | 22 | Kusurların edebi kökenleri (Wiktor anlatıcı) |
+| `StatusName_ST` | 46 | Savaş durumları (Parçalanma, Acı, Rasputin Boyundurukları vs.) |
+| `StatusDescription_ST` | 49 | Durum açıklamaları (teknik) |
+| `Progression_EffectName_ST` | 32 | Yetenek ağacı efekt isimleri |
+| `Progression_EffectDescription_ST` | 14 | Yetenek ağacı efekt açıklamaları |
+| `ImprintsDescription_ST` | 72 | NPC iz/kişilik etiketleri |
+| `BarberName_ST` | 22 | Saç/sakal stil isimleri (yaratıcı dönem argosu) |
+| `BarberDescription_ST` | 22 | Saç/sakal stil açıklamaları (uzun, dönem tınılı) |
+| `Street_Addresses_ST` | 33 | Sokak adları (32 aynen, 1 çeviri: Plac Zielony) |
+| `UnitDataLoreDescription_ST` | 16 | Salutor/düşman lore tek-cümle tanımları |
+| `Achievements_ST` | 116 | Steam/Xbox başarımları (58 isim + 58 açıklama) |
 
 Deploy edilmiş mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
-### Henüz çevrilmedi (24 adet StringTable kaldı)
+### Kalan 2 StringTable
 
-`Achievements_ST` (oyun-içi menüsü yok, sona bırakıldı), `AbilityName_ST`, `AbilityDescription_ST`, `BarberDescription_ST`, `BarberName_ST`, `Combat_ST`, `CombatLog_ST`, `DebugText_ST`, `Exploration_ST`, `Flaw_CombatDescription_ST`, `Flaw_Name_ST`, `Flaw_PanelDescription_ST`, `FlawsPanel_Descriptions_ST`, `ImprintsDescription_ST`, `Map_ST`, `MapDescriptions_ST`, `MapPinTypes_ST`, `PopupsTexts_ST`, `Progression_EffectDescription_ST`, `Progression_EffectName_ST`, `StatusDescription_ST`, `StatusName_ST`, `Street_Addresses_ST`, `UnitDataLoreDescription_ST`.
+#### `Exploration_ST` — teknik sorun
 
-### Sonraki adım
+Asset yapısı **çoklu-namespace** (birden fazla alt-namespace içeriyor, en azından `Interaction_Inspect`). Mevcut `scripts/stringtable_dump.ps1` ilk bulduğu namespace'i okuyor ama entry parsing sonraki byte'larla uyuşmuyor (`StringTable.RawExport.Data` blob format'ı bu yapıda farklı olabilir).
 
-Kullanıcıya hangi StringTable'ın çevrileceği sorulur. Görünürlük sırasına göre öneriler:
-1. `AbilityName_ST` + `AbilityDescription_ST` (her savaşta görünür)
-2. `Map_ST` + `MapDescriptions_ST` + `MapPinTypes_ST` (harita)
-3. `Combat_ST` + `CombatLog_ST` (savaş bildirimleri)
-4. `PopupsTexts_ST` (kaydetme/yükleme/olay pop-up'ları)
-5. `Flaw_*_ST` (salutor araştırma sistemi)
+Script güncellemesi gerekli:
+- Tüm alt-namespace'leri sırayla oku
+- Her namespace için ayrı entry listesi
+- `stringtable_apply.ps1` de aynı şekilde güncellenmeli (hem roundtrip korunsun)
+
+Alternatif: Asset'i UAssetGUI GUI'sinde açıp manuel entry sayısını bul, byte layout'u reverse et.
+
+#### `DebugText_ST`
+
+Debug metinleri; oyuncu görmez. Çeviri önceliği düşük, opsiyonel.
+
+### QA aşaması — bekleyen belirsizlikler
+
+Çevirilerin `Notes` sütunlarında kullanıcı onayı için işaretli notlar var. Kritik olanlar:
+
+- `AbilityName_ST` Bukavac_H → "Sırp Darbesi" (PL: "Surmijski cios" — Güney Slav/Srem bölge sıfatı; pragmatik seçim)
+- `Combat_ST` Salutor_Dimension1/2 — parçalı cümle inject sırası PL'den farklı; TR'de "Bu Salutor, [BOYUT] Boyutundandır. ..." olarak yeniden yapılandırıldı
+- `ImprintsDescription_ST` Maria → "Sigara İçen Kadın" (Palaczka hem tiryaki hem ateşçi anlamına gelir, bağlam belirsiz)
+- `Achievements_ST` wordplay: "Bülbül Muhabbeti" (Trele morele), "Şek Şük!" (Sztymunek), "Yerine!" (Waruj!), "Arabistanlı Wiktor" (Lawrence göndermesi)
+- `Flaw_*` Pycha/Duma ayrımı — TR'de Gurur/Kibir farkıyla korundu
 
 ### Diyalog çevirisi (henüz başlanmadı)
 
-~30.000 `Seq-*.uasset` dosyası `Quests/Dialogues/**/Seq/{en,pl}/Lines/` altında. Bunların içinde gerçek metin var mı ya da hash referansı mı tam bilinmiyor; ilk birkaç dosyada kamera verisi görünüyordu. **Diyaloga geçmeden önce yeniden analiz gerek.** Önce StringTable'lar bitsin.
+~30.000 `Seq-*.uasset` dosyası `Quests/Dialogues/**/Seq/{en,pl}/Lines/` altında. Bunların içinde gerçek metin var mı ya da hash referansı mı tam bilinmiyor; ilk birkaç dosyada kamera verisi görünüyordu. **Diyaloga geçmeden önce yeniden analiz gerek.**
 
 ---
 
