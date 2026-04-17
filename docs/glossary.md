@@ -17,6 +17,31 @@ Projede sabit tutulan terminoloji. Bir StringTable'da onaylanan terim, diğerler
 | Wpisy | Kayıtlar | Codex kategorisi |
 | Dobytek | Eşya | Envanter |
 | Percepcja | Algı | Kaynak/istatistik |
+| Umiejętność | Yetenek | Saldırı/beceri, savaş sistemi |
+| Ulepszenie | Yükseltme | Yetenek yükseltmesi |
+| Sekwencja | Zincir | Sıralı saldırı komboları |
+| Skupienie / [FOCUS] | Odak | Savaş kaynağı; kırılınca Parçalanma |
+| Cecha | Nitelik | Düşman direnci; boyuta bağlı |
+| Uśpić / Usypianie | Bastırmak | Niteliği etkisizleştirme |
+| Rozproszenie | Dağıtma | Odağı düşüren yetenek |
+| Stan | Durum | Savaş efektleri (buff/debuff) |
+| Rozbicie | Parçalanma | Odak biten düşmanın durumu |
+| Cierpienie | Acı | Negatif durum örneği |
+| Silny atak | Güçlü Saldırı | Parçalanmış düşmana yapılan finisher |
+| Ślad | İz | Eşyalardaki kişilik izi (Algı mekaniği) |
+| Kolejka działań | Eylem Sırası | Savaş timeline'ı |
+| Tempo | Hız | Yetenek döngü süresi |
+| Manipulacja | Manipülasyon | Gözlem→Çıkarım sonrası sosyal güç |
+| Pakt | Ant | Tılsımkâr-Salutor bağı |
+| Więź | Bağ | Salutorla kurulan bağ |
+| Jarzmo | Boyunduruk | Bağa bağlı durum (Rasputin savaşı) |
+| Cień | Gölge | Vahşi salutoru savunan varlıklar |
+| Grymuar | grimuar | Tılsımkârın kitabı |
+| Duma | Kibir | Wiktor'un Kusuru |
+| Wizja | Vizyon | Upyr'in gösterdiği imgeler |
+| Poskromienie | Ehlileştirme | Salutoru kontrol altına alma |
+| Upyr | Upyr | Özel isim — Wiktor'un Salutoru |
+| Bukavac | Bukavac | Özel isim — Eylem boyutu salutoru |
 
 ## Dört Boyut (Progression)
 
