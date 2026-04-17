@@ -1,79 +1,84 @@
-# Geçici iş akışı notları
+# İş akışı notları
 
-(Görev 9'da tam `docs/workflow.md`'ye taşınacak.)
+(Bu dosya Görev 9'da tam `docs/workflow.md`'ye taşınacak.)
 
-## 2026-04-17 oturumu — teknik keşif özeti
+## 2026-04-17 — Teknik keşif ve POC tamamlandı ✅
 
-### Doğrulanan gerçekler
-
-**Oyun dosya yapısı (Xbox GDK sürümü):**
-- `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\` altında UE5 IoStore
-- `pakchunk0-WinGDK.{pak,ucas,utoc}` — 13 GB (ana içerik, 80.229 chunk)
-- `pakchunk1-WinGDK.{pak,ucas,utoc}` — 4.9 GB (ek içerik, 111.074 chunk)
-- `*optional-WinGDK.*` — opsiyonel grafik veri
-- `global.{ucas,utoc}` — yalnız ScriptObjects
-
-**AES şifreleme:** YOK. retoc anahtarsız okuyor.
-
-**Oyun dilleri:** Yalnız `en/` ve `pl/` (iki dil).
-
-**Metin depolama mimarisi:**
-1. **StringTable asset'leri** (`*_ST.uasset`) — UI, başarım, yetenek, tutorial metinleri. ~30 adet:
-   - `Achievements_ST`, `Tutorial_ST`, `Combat_ST`, `CombatLog_ST`, `Exploration_ST`
-   - `Map_ST`, `MapPinTypes_ST`, `MapDescriptions_ST`, `PopupsTexts_ST`, `Panels_ST`
-   - `Street_Addresses_ST`, `DebugText_ST`
-   - `AbilityName_ST`, `AbilityDescription_ST`
-   - `Flaw_Name_ST`, `Flaw_CombatDescription_ST`, `Flaw_PanelDescription_ST`, `FlawsPanel_Descriptions_ST`
-   - `Progression_EffectName_ST`, `Progression_EffectDescription_ST`
-   - `StatusName_ST`, `StatusDescription_ST`, `UnitDataLoreDescription_ST`
-   - `BarberName_ST`, `BarberDescription_ST`, `TutorialName_ST`, `ImprintsDescription_ST`
-2. **DataTable asset'leri** (`*_DT.uasset`, `UI/Data/` altında) — UI metinleri, pop-up'lar, kredi listesi vb.
-3. **Dialog asset'leri** — `GrimoireContent/Quests/Dialogues/.../{Seq,VO,Lipsync}/{en,pl}/` altında. Kamera/animasyon verisi; gerçek diyalog metninin saklandığı asıl alan .usmap ile çözülmeden netlemek güç.
-
-**Referans — diğer fan çevirileri (sadece halka açık bilgi):**
-- İtalyanca (TurinaR, RPG Italia) — ~138 dosya, 274k kelime
-- Ukraynaca (Mapsherua, Nexus Mods) — %100 tam
-- Brezilya Portekizcesi, Çin-İng dual subs — mevcut
-- **Kapalı dağıtımlar — indirilmeyecek / analiz edilmeyecek** (bkz. proje ilkeleri)
-
-### Araçlar (indirildi, durum)
-
-| Araç | Sürüm | Durum | Kullanım |
-|---|---|---|---|
-| retoc | v0.1.5 | ✅ çalışıyor | IoStore ↔ Legacy dönüşüm, mod pak üretim |
-| FModel | Dec 2025 | ✅ indirildi | Görsel denetim (GUI), yedek |
-| UAssetGUI | v1.0.3 | ⚠️ .usmap gerekiyor | `tojson`/`fromjson` CLI, asıl düzenleme aracı |
-| UEExtractor | v1.0.7.5 | ❌ terpedo | Non-interactive terminal crash (`Console.CursorVisible`), proje dışına çıkarılabilir |
-| UnrealLocres | v1.1.1 | ❌ locres yok, uygulanamaz | Proje dışına |
-| .NET 10 Runtime | 10.0.6 | ✅ kuruldu | UEExtractor için |
-| .NET 8 Desktop Runtime | 8.0 | ✅ kuruldu | UAssetGUI için |
-
-### Tanımlanan asıl eksik
-
-UE5 "unversioned" asset'lerini düzgün okumak için **`.usmap` mappings dosyası** gerekli. UE4SS ile oyun çalışırken DLL inject edilerek bir kerelik üretilir.
-
-### Planlanan iş akışı (revize)
+### Doğrulanan pipeline
 
 ```
 Bir kerelik kurulum:
-  UE4SS indir → Binaries/WinGDK/ içine → oyun bir kez çalıştır → Mappings.usmap al
+  UE4SS'i oyun Binaries klasörüne koy → oyunu bir kez çalıştır → Ctrl+Numpad 6 → Mappings.usmap üretilir
+  (Mappings dosyasını tools/Mappings.usmap olarak sakla, UE4SS daha sonra kaldırılabilir.)
 
 Rutin akış:
-  1. retoc to-legacy <paks-dir> <legacy-out>  (hedef asset'leri seçerek filter ile)
-  2. UAssetGUI tojson <asset>.uasset <asset>.json VER_UE5_X Mappings
-  3. JSON'da String alanlarını Türkçeyle değiştir
-  4. UAssetGUI fromjson <asset>.json <asset>.uasset Mappings
-  5. retoc to-zen <modified-dir> <mod-pak-out>
-  6. Mod pak'ı <paks> klasörüne bırak → test
+  1. retoc to-legacy --filter "<asset_name>" Paks_dir  build/sample
+  2. UAssetGUI tojson <asset>.uasset <asset>.json VER_UE5_1 Mappings
+  3. scripts/stringtable_edit.ps1 ile JSON içindeki base64 blob parse edilir, key/value düzenlenir
+  4. UAssetGUI fromjson <modified>.json <new>.uasset Mappings
+  5. retoc to-zen --version UE5_1 build/staging/TheThaumaturge build/output/pakchunk99-WinGDK_P.utoc
+  6. Oyun Paks/ klasörüne kopyala
 ```
 
-### Sonraki adım (bir sonraki oturum)
+### Oyun mimarisi — KRİTİK BULGU
 
-1. UE4SS'in en güncel sürümünü indir (`tools/UE4SS/`).
-2. Oyun Binaries klasörüne kopyala.
-3. Oyunu bir kez çalıştır (ana menü yeter), `Mappings.usmap` üretilir.
-4. Mappings.usmap'i `tools/UE4SS/` klasörünün içinde referans olarak tut.
-5. Test: UAssetGUI ile `Achievements_ST.uasset`'i JSON'a çevir — başarıyla parse edilmeli.
-6. JSON'da birkaç başarım adını Türkçe yap, geri .uasset'e çevir, mod pakla, oyuna enjekte et, Ayarlar/Başarımlar menüsünde Türkçe görünüyor mu kontrol et.
+**Oyunun dil seçimi menü/UI metinlerini değiştirmiyor.** Tüm diller (EN, PL, FR, DE, RU, ES, vb.) aynı StringTable'dan okuyor.
 
-Bu başarılı olursa gerçek çeviri iş akışı başlar (UI StringTable'larından).
+**Doğrulama:** Panels_ST'de `Menu_Quit` değerini "Wyjdź z gry" → "TR TEST" yaptığımızda **hangi dil seçili olursa olsun** ana menüde "TR TEST" görünüyor.
+
+**Anlamı:**
+- **UI/menü/başarım/item/yetenek metinleri** → Tek StringTable, tek çeviri, tüm dillerde görünür.
+- **Diyalog/alt yazı** → `Seq/en/` ve `Seq/pl/` ayrı asset'ler. Kullanıcı dil seçimine göre biri yüklenir.
+
+Bu yapı çeviri iş hacmini yarıya indiriyor. UI tarafı için **tek bir Türkçe katman** yeterli.
+
+### Mevcut StringTable listesi (27 adet)
+
+`GrimoireContent/UI/Data/StringTables/`:
+- Achievements_ST (116 entry)
+- AbilityName_ST, AbilityDescription_ST
+- BarberName_ST, BarberDescription_ST
+- Combat_ST, CombatLog_ST
+- DebugText_ST
+- Exploration_ST
+- Flaw_Name_ST, Flaw_CombatDescription_ST, Flaw_PanelDescription_ST, FlawsPanel_Descriptions_ST
+- ImprintsDescription_ST
+- Map_ST, MapDescriptions_ST, MapPinTypes_ST
+- Panels_ST (186 entry) ← menü başlıkları
+- PopupsTexts_ST
+- Progression_EffectName_ST, Progression_EffectDescription_ST
+- StatusName_ST, StatusDescription_ST, UnitDataLoreDescription_ST
+- Street_Addresses_ST
+- Tutorial_ST, TutorialName_ST
+
+### Diyalog asset yapısı (ileride ele alınacak)
+
+`GrimoireContent/Quests/Dialogues/<quest_id>/Assets/<scene_GRAPH>/`:
+- `Seq/{en,pl}/Lines/Seq-*.uasset` — line metinleri (ayrıştırılmalı)
+- `Seq/*.uasset` — kamera/animasyon (dile bağımsız)
+- `VO/{en,pl}/VO-*.uasset` — voice over metadata
+- `Lipsync/{en,pl}/Lip-*.uasset` — dudak senkronu
+
+İlk sürüm için **Seq/en/Lines** üzerinde Türkçe yazılabilir (oyuncu English dilini seçer, TR alt yazı görür).
+
+### Araçlar — sabit yığın
+
+| Araç | Sürüm | Yol | Görev |
+|---|---|---|---|
+| retoc | v0.1.5 | `tools/retoc/` | IoStore ↔ Legacy |
+| UAssetGUI | v1.0.3 | `tools/UAssetGUI/` | .uasset ↔ .json |
+| UnrealLocres | v1.1.1 | `tools/UnrealLocres/` | Yedek (kullanılmıyor) |
+| FModel | Dec 2025 | `tools/FModel/` | Görsel denetim |
+| Mappings.usmap | UE5.1.1 | `tools/Mappings.usmap` | UAssetGUI tojson için |
+| stringtable_edit.ps1 | - | `scripts/` | StringTable data blob düzenleme |
+| .NET 10 Runtime | 10.0.6 | sistem | UEExtractor için (artık değil) |
+| .NET 8 Desktop Runtime | 8.0 | sistem | UAssetGUI için |
+
+**Artık gerekmeyen:** UEExtractor (non-interactive terminal'de crash). UnrealLocres (.locres yok). UE4SS (usmap alındı — oyun klasöründen kaldırılabilir).
+
+### Sonraki adımlar
+
+1. UE4SS'i oyun Binaries'ten temizle (log hataları yaratıyor, gerek yok).
+2. Test mod pak'ını oyundan kaldır ("TR TEST" geri alınsın).
+3. Gerçek çeviriye başla — önce küçük bir StringTable (örn. Panels_ST veya Achievements_ST) tamamen çevrilir, glossary oluşur.
+4. `pack.ps1` ve `extract.ps1` scriptlerini güncel yaklaşıma göre yaz.
