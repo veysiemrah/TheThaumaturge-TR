@@ -2,7 +2,8 @@
 build/
 
 # Binary araç klasörleri — kullanıcı yerel olarak indirir
-tools/
+tools/*
+!tools/README.md
 
 # Unreal arşivleri — telif; hiçbir zaman commit edilmez
 *.pak
