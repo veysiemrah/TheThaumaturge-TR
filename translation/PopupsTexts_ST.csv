@@ -1,0 +1,165 @@
+Key,PL,TR,Notes
+NewFact,Spostrzeżenie:,Gözlem:,
+NewConclusion,Wniosek:,Çıkarım:,
+NewFlaw,Przejmujesz nową Skazę:,Yeni bir Kusur edindin:,
+CombatAction_DeadTarget,Wróg pokonany,Düşman yenildi,
+CombatAction_Interrupted,Przerwano,Kesildi,
+NewConclusion_Button,Pokaż Wnioski,Çıkarımları göster,
+NewFact_Button,Pokaż Spostrzeżenia,Gözlemleri göster,
+CombatAction_RemoveAction,Działanie zaniechane,Eylem iptal edildi,
+Reinforcement_NextRound,Posiłki przybędą w następnej rundzie,Takviye bir sonraki turda gelir,
+CombatAction_Cancel,Anulowano,İptal edildi,
+Reinforcement,Wrogie posiłki są w drodze,Düşman takviyesi yolda,
+SaveBlocked_1,Zapis gry niemożliwy,Oyun kaydedilemiyor,
+SaveBlocked_2,Obecnie nie można zapisać gry,Şu anda oyun kaydedilemez,
+LoadBlocked_1,Wczytanie gry niemożliwe,Oyun yüklenemiyor,
+LoadBlocked_2,Obecnie nie można wczytać gry,Şu anda oyun yüklenemez,
+NewProgressionUpgrades_Title,Rozwijasz:,Geliştiriyorsun:,
+DifficultyLevel_Title,Poziom trudności,Zorluk Seviyesi,
+PopupCommon_Button,Kontynuuj,Devam,
+NewInsight_Title,Spostrzeżenie,Gözlem,
+Consequences,Podjęte wcześniej wybory doprowadziły cię do obecnej sytuacji.,Daha önce verdiğin kararlar seni şu anki duruma getirdi.,
+DifficultyLevel_Button_1,Walka jest łatwiejsza. Tryb dla osób pragnących skupić się na fabule.,Savaş daha kolay. Hikâyeye odaklanmak isteyenler için mod.,
+DifficultyLevel_Button_2,"Walka stawia wyzwanie, jednocześnie umożliwiając dużą swobodę.",Savaş meydan okur; aynı zamanda büyük bir özgürlük sunar.,
+PopupCommon_Next,Dalej,İleri,
+PopupCommon_Begin,Rozpocznij,Başla,
+ObjectiveUpdated,Aktualizujesz dziennik,Günlük güncellendi,
+Progression_Title,Rozwijasz:,Geliştiriyorsun:,
+QuestCompleted,Kończysz zadanie,Görev tamamlandı,
+Experience,Doświadczenie,Deneyim,
+StartBoard_1,"<b>Thaumata</> to słowo wywodzące się z greki. Oznacza <b>""cuda""</>.
+
+Thaumaturg, lub też <b>tempermanta</>, to ktoś zdolny do odkrywania sekretów ludzi i miejsc. Rozpoznaje Skazy, czyli piętno odciśnięte na ludzkiej psyche i może je zeń wydobyć na powierzchnię. Czy jest zatem lekarzem dusz?","<b>Thaumata</>, Yunanca kökenli bir sözcüktür. Anlamı <b>""mucizeler""</>dir.
+
+Tılsımkâr — ya da bir başka adıyla <b>tempermanta</> — insanların ve mekânların sırlarını keşfedebilen kimsedir. Kusurları, yani insan ruhuna kazınmış damgaları tanır ve onları yüzeye çıkarabilir. Öyleyse o, ruhların hekimi midir?",Çoklu satır
+StartBoard_2,"<b>Nie da się w pełni pojąć istoty bycia thaumaturgiem, nie rodząc się jednym z nich.</>","<b>Tılsımkâr olarak doğmadan, Tılsımkâr olmanın özünü tam kavramak mümkün değil.</>",
+ProgressionPoints,Punkty Thaumaturgii,Tılsımkârlık Puanları,
+ProgressionPoint,Punkt Thaumaturgii,Tılsımkârlık Puanı,
+Saving,Zapisywanie,Kaydediliyor,
+InsiteFormatConnector,"Spostrzeżenie: {insightname}
+nosi {imprintstate}: {owner}","Gözlem: {insightname}
+{imprintstate} taşıyor: {owner}",Çoklu satır; placeholder'lar korundu
+ItemAdded,Podnosisz:,Aldın:,
+ItemRemoved,Oddajesz:,Verdin:,
+Imprint_Discovered,Ślad znajomy,Bilinen İz,
+Imprint_OwnerRevealed,Ślad pewny,Kesin İz,
+Imprint_Undiscovered,Ślad nieznany,Bilinmeyen İz,
+ConfirmationPopup,Czy chcesz udać się w wybrane miejsce?,Seçilen yere gitmek ister misin?,
+Conclusion,Wniosek,Çıkarım,
+Expand,Rozwiń,Genişlet,
+Imprint_DiscoveredName,Ślad znajomy - {name},Bilinen İz — {name},
+Imprint_OwnerRevealed_Name,Ślad pewny - {name},Kesin İz — {name},
+EndPrologueBoard,"Wiktorze,
+
+tata nie żyje. Będę odwlekać pogrzeb. Liczę, że zdążysz do Warszawy na czas. Mam nadzieję, żeś zdrów i cały. Że nic Ci na drodze nie stanie, żeby go pożegnać.
+
+Ligia
+","Wiktor,
+
+Babamız öldü. Cenazeyi olabildiğince erteleyeceğim. Varşova'ya vaktinde yetişmeni umuyorum. Sağ salim olmanı diliyorum. Ona veda edebilmen için yoluna bir şey çıkmasın.
+
+Ligia
+",Ligia'dan Wiktor'a mektup
+PopupCommon_ButtonManipulate,Zmanipuluj,Manipüle Et,
+LogEntry,Dodajesz wpis:,Kayıt ekledin:,
+LocationYear_q001,31 sierpnia 1905,31 Ağustos 1905,
+LocationYear_q101,7 września 1905,7 Eylül 1905,
+LocationYear_Warsaw,Warszawa,Varşova,
+LocationYear_Causacus,Zakaukazie,Güney Kafkasya,
+PointsUnlocked_Unlocked,Zdobywasz,Kazandın,
+PointsUnlocked_ProgressionPoint,Punkt Thaumaturgii,Tılsımkârlık Puanı,
+LogEntry_PerceptionAvailable,Dostepna Percepcja:,Algı kullanılabilir:,PL'de tipo: Dostepna→Dostępna
+LogEntry_Flaw,Przejmujesz Skazę:,Kusur edindin:,
+NewQuest,Otrzymujesz zadanie:,Görev aldın:,
+PopupCommon_Show,Pokaż,Göster,
+NewInsight_Undiscovered_Info,Podejdź i odkryj tajemnicę drzemiącą w przedmiocie.,Yaklaş ve eşyada uyuyan sırrı keşfet.,
+NewInsight_Undiscovered,Ukryte spostrzeżenie,Gizli gözlem,
+LocationYear_q401_pps_dead,12 października 1905,12 Ekim 1905,
+LocationYear_q401_with_rasputin,17 lutego 1906,17 Şubat 1906,
+LocationYear_q401_no_rasputin,20 sierpnia 1907,20 Ağustos 1907,
+LocationYear_Paris,Paryż,Paris,
+LocationYear_Russia,Carskie Sioło,Tsarskoye Selo,"Rus Çarı'nın yaz sarayı; özel isim, aynen"
+LocationYear_q401_committee_flat,1 stycznia 1906,1 Ocak 1906,
+LocationYear_q302_last_day_of_summer,22 września,22 Eylül,
+StartBoard_Statement,"Fool’s Theory to zespół osób o różnych poglądach, różnego wyznania, orientacji seksualnej i tożsamości płciowej. Naszym celem jest opowiadanie dojrzałych historii, które mają stanowić źródło refleksji dla Graczy.
+
+Pragniemy zaznaczyć, że tworząc grę tak bardzo inspirowaną przeszłością, nie mogliśmy pominąć ukazania pewnych postaw i poglądów, słusznie uznawanych dziś za niedopuszczalne.
+
+Losy postaci historycznych obecnych w grze są luźną interpretacją prawdziwych zdarzeń lub całkowitym wytworem naszej wyobraźni.","Fool’s Theory; farklı görüşlere, farklı inançlara, cinsel yönelimlere ve cinsiyet kimliklerine sahip kişilerden oluşan bir ekiptir. Amacımız, oyunculara üzerinde düşünülecek bir kaynak olabilecek olgun hikâyeler anlatmaktır.
+
+Belirtmek isteriz ki, geçmişten bu denli ilham alan bir oyun yaparken, bugün haklı olarak kabul edilemez sayılan bazı tutum ve görüşleri göstermekten kaçınamadık.
+
+Oyunda yer alan tarihî kişilerin kaderleri, gerçek olayların serbest bir yorumu ya da tamamen hayal gücümüzün ürünüdür.",Stüdyo açıklama panosu
+SkipTutorialWarning,Czy na pewno pominąć ten samouczek?,Bu eğitimi geçmek istediğinden emin misin?,
+ControllerDisconnectedWarning_1,Kontroler odłączony,Kontrolör bağlantısı kesildi,
+ControllerDisconnectedWarning_2,"Podłącz ponownie kontroler, aby kontynuować.",Devam etmek için kontrolörü yeniden bağla.,
+Q102Demo_StartBoard,"Nazywasz się <b>Wiktor Szulski.</>
+
+Jesteś <b>thaumaturgiem</> - potrafisz odczytywać sekrety ukryte w ludzkich duszach i rozmawiać z ciemnością.
+
+<b>Twoje Miasto,</> z którego wygnano cię lata temu, woła, abyś zmierzył się ze swoją przeszłością. Podczas badania miejsca <b>nagłej i tajemniczej śmierci</> twojego ojca, zostałeś zaatakowany i <b>porwany.</>
+
+Wygląda na to, że <b>Warszawa 1905</b> roku ma dla ciebie plany na resztę wieczoru.","Senin adın <b>Wiktor Szulski.</>
+
+<b>Tılsımkârsın</> — insan ruhlarında saklı sırları okuyabilir, karanlıkla konuşabilirsin.
+
+Yıllar önce seni sürgün eden <b>Şehrin,</> geçmişinle yüzleşmeni ister gibi sana sesleniyor. Babanın <b>ani ve gizemli ölümünün</> yaşandığı yeri incelerken saldırıya uğradın ve <b>kaçırıldın.</>
+
+Görünüşe göre <b>1905 Varşova'sının</> akşamın geri kalanı için sana dair planları var.",Wiktor tanıtım panosu
+Q102Demo_EndBoard,"<b>Lelek</> jest twój.
+
+W <b>Warszawie,</> za sekretami i mrokami ludzkich intencji, kryją się jeszcze <b>inne salutory,</> które mogą zwiększyć twoją thaumaturgiczną <b>potęgę.</>
+
+Tylko od ciebie zależy, czy <b>Abaurycy Niedzic</> stanie się twym <b>wrogiem,</> czy wiernym <b>przyjacielem.</>
+
+Premiera <b>Q4 2023</>
+
+Dodaj do whishlisty.","<b>Lelek</> artık senin.
+
+<b>Varşova'da,</> insan niyetlerinin sırlarının ve karanlıklarının ardında, Tılsımkârlık <b>gücünü</> artırabilecek <b>başka salutorlar</> da gizli.
+
+<b>Abaurycy Niedzic'in</> sana <b>düşman</> mı yoksa sadık bir <b>dost</> mu olacağına yalnız sen karar vereceksin.
+
+Çıkış <b>2023 4. çeyrek</>
+
+İstek listene ekle.",Demo sonu panosu
+NewInsight_DrawConclusion,Wyciągnij wniosek,Çıkarım yap,
+PointNoReturn_Popup,"Stajesz w obliczu <tag>punktu zwrotnego w historii</>. Jeśli teraz zdecydujesz udać się razem z Rasputinem, stracisz możliwość ukończenia części zadań pobocznych.",Bir <tag>hikâye dönüm noktasıyla</> karşı karşıyasın. Şimdi Rasputin'le birlikte gitmeye karar verirsen bazı yan görevleri tamamlama imkânını yitirirsin.,
+Warning_Popup,Droga bez powrotu,Geri Dönüşsüz Yol,
+Log_QuestTracker,Zadanie wkrótce umknie:,Görev yakında elden kaçacak:,
+AddToWhishlist_Button,Dodaj do whishlisty,İstek Listene Ekle,
+NewInsight_HoldOnScreen,Zatrzymaj na ekranie,Ekranda tut,
+LocationStory_Title_Prologue,Prolog,Prolog,
+LocationStory_Title_Act1,Akt I,Perde I,"Akt = tiyatro perdesi; dönem tınısı"
+LocationStory_Title_Act2,Akt II,Perde II,
+LocationStory_Title_Act3,Akt III,Perde III,
+LocationStory_Title_Epilogue,Epilog,Epilog,
+LocationStory_Text_Prologue,Ku lepszemu,Daha İyiye Doğru,
+LocationStory_Text_Act1,"Miasto, które nie zapomina",Unutmayan Şehir,
+LocationStory_Text_Act2,"Kto nie traci, ten nie zyskuje","Kaybetmeyen, kazanmaz",
+LocationStory_Text_Act3,Apokryfy pisane krwią,Kanla Yazılmış Apokrifler,
+LocationStory_Text_Epilogue,Ku nowemu,Yeniye Doğru,
+LocationYear_q301_start,19 września,19 Eylül,
+LocationYear_q201_start,12 września,12 Eylül,
+AllSaveSlotsTaken,Wszystkie miejsca na zapis są zajęte.,Tüm kayıt yuvaları dolu.,
+SaveName,Nazwa:,İsim:,
+OverrideSavePopup,Czy chcesz nadpisać istniejący zapis gry pod tą nazwą?,Bu isim altındaki mevcut kayıt dosyasının üzerine yazmak ister misin?,
+LoadSaveConfirmPopup,Czy na pewno chcesz wczytać ten zapis?,Bu kaydı yüklemek istediğinden emin misin?,
+DeleteSaveConfirmPopup,Czy na pewno chcesz usunąć ten zapis?,Bu kaydı silmek istediğinden emin misin?,
+Q001Demo_EndBoard,Premiera w tym roku,Bu yıl çıkıyor,
+Q001Demo_AddToWishlist,Dodaj do listy życzeń,İstek Listene Ekle,
+DifficultyLevel_Button_3,"Walka jest wymagająca. Aby wygrać, musisz uważnie planować działania.",Savaş zorludur. Kazanmak için eylemlerini özenle planlamalısın.,
+DifficultyLevel_Button_1_Title,Fabularny,Hikâye,
+DifficultyLevel_Button_2_Title,Zbalansowany,Dengeli,
+DifficultyLevel_Button_3_Title,Wyzwania,Meydan Okuma,
+DisplaySettingsWarning_Popup,Opcje wyświetlania wrócą do poprzednich ustawień za 15 sekund. Czy chcesz zatwierdzić obecne ustawienia?,Görüntü ayarları 15 saniye içinde önceki ayarlara döner. Mevcut ayarları onaylamak ister misin?,
+Quest_TimeLimited,Zadanie limitowane,Süreli Görev,
+Quest_TimeRunningOut,Zadanie wkrótce wygaśnie,Görevin süresi yakında dolacak,
+Quest_TimeIsOver,Zadanie wygasło,Görevin süresi doldu,
+ResolutionPopupText,Czy chcesz zachować obecne ustawienia rozdzielczości?,Mevcut çözünürlük ayarlarını tutmak ister misin?,
+RebindCancelText,Press escape to cancel.,İptal etmek için Escape tuşuna bas.,Kaynak İngilizce kalmış
+RebindPressKeyToBind,Press any button to bind it.,Atamak için herhangi bir tuşa bas.,Kaynak İngilizce kalmış
+VoiceLanguage,Dostępny jest nowy język dialogów - polski. Czy chcesz go teraz włączyć?,Yeni diyalog dili mevcut — Polonyaca. Şimdi etkinleştirmek ister misin?,
+Chunks_NotDownloaded,Aby kontynuować rozgrywkę poczekaj na zakończenie pobierania.,Oyuna devam etmek için indirmenin bitmesini bekle.,
+Chunks_Downloaded,"Pobieranie ukończone, możesz już kontynuować rozgrywkę.","İndirme tamamlandı, oyuna devam edebilirsin.",
+PS_ActivityDescription,Otwórz ostatni zapis gry,Son oyun kaydını aç,

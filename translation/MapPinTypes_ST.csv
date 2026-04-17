@@ -1,0 +1,14 @@
+Key,PL,TR,Notes
+Barber,Golibroda,Berber,
+Entrance,Przejście,Geçit,
+Insight,Sekret,Sır,
+InsightDiscovered,Odkryty sekret,Keşfedilmiş Sır,
+NewQuest,Nowe zadanie,Yeni Görev,
+Objective,Cel,Hedef,
+POI,Coś interesującego,İlgi Çekici Yer,Point of Interest
+TimeSkip,Miejsce odpoczynku,Dinlenme Yeri,
+Tailor,Krawiec,Terzi,
+Carriage,Dorożka,Fayton,"Dorożka = dönem şehir atlı arabası"
+Tram,Przystanek tramwajowy,Tramvay Durağı,
+Wagon,Wóz,Yük Arabası,"Wóz = köylü arabası; Fayton'dan ayırt için ""yük"" eklendi"
+Chaise,Bryczka,Hafif Fayton,"Bryczka = hafif gezinti faytonu"

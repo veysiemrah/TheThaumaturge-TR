@@ -1,0 +1,170 @@
+Key,PL,TR,Notes
+BZR_Bimber_Shop,Sklep,Kaçak İçki Dükkânı,"Key: Bimber = kaçak içki"
+BZR_Exterior,Bazar Różyckiego,Różycki Pazarı,Tarihî Varşova pazarı
+BZR_Faldzej_ext,Podwórze,Avlu,
+BZR_Shop,Sklep,Dükkân,
+BZR_Shop_Backdoor,Zaplecze sklepu,Dükkân Arkası,
+BZR_SmallShop,Mały sklepik,Küçük Dükkân,
+CH_SummerHouse_Attic,Poddasze,Tavan Arası,
+CH_SummerHouse_Exterior,Podwórko,Avlu,
+CH_SummerHouse_Interior,Dom letniskowy Szulskich,Szulskilerin Yazlık Evi,
+CM_AnielaApartment_Ext,Powązkowska,Powązkowska,Sokak adı - aynen
+CM_AnielaApartment_Int,Powązkowska 7,Powązkowska 7,
+CM_Exterior,Powązki,Powązki,Varşova mezarlık semti
+CM_Mausoleum,Mauzoleum Szulskich,Szulskilerin Mozolesi,
+CM_WTA_Headquarters,Siedziba WTA,WTA Karargâhı,WTA = oyun-içi örgüt kısaltması
+CYT_Interior,Cytadela,Sitadel,
+DEBUG_102,Q102,Q102,Debug
+DEBUG_103,Q103,Q103,Debug
+DEBUG_104,Q104,Q104,Debug
+DEBUG_201,Q201,Q201,Debug
+DEBUG_202,Q202,Q202,Debug
+DEBUG_203,Q203,Q203,Debug
+DEBUG_204,Q204,Q204,Debug
+DEBUG_301,Q301,Q301,Debug
+DEBUG_302,Q302,Q302,Debug
+DEBUG_CombatDemo_Depricated,Combat Demo,Combat Demo,Debug
+DEBUG_CombatLobby_Depricated,Demo Lobby,Demo Lobby,Debug
+DEBUG_Demo,Demo,Demo,Debug
+DEBUG_PW01,LW_PW01,LW_PW01,Debug
+DEBUG_Ritual,Ritual,Ritual,Debug
+DEBUG_SMC01,LW_SMC01,LW_SMC01,Debug
+DEBUG_SMC02,LW_SMC02,LW_SMC02,Debug
+DEBUG_SMG01,LW_SMG01,LW_SMG01,Debug
+DS_Exterior,Dolina Szwajcarska,İsviçre Vadisi,Tarihî Varşova parkı
+DS_Palace,Salon Wielkiej Alei,Büyük Cadde Salonu,
+EPL_Exterior,Epilog,Epilog,
+FL_Courtyard,Dziedziniec,Avlu,
+FL_FilterStation,Stacja filtrów,Filtre İstasyonu,
+GRZ_ArielApartment,Mieszkanie Ariela,Ariel'in Dairesi,
+GRZ_Barber,Golibroda,Berber,
+GRZ_Exterior,Mirów,Mirów,Varşova semti
+GRZ_Hideout,Kryjówka spiskowców,Komplocuların Sığınağı,
+GRZ_House,Kamienica,Apartman,
+GRZ_Mordechaj_Offce,Biuro Mordechaja,Mordechaj'ın Bürosu,
+GRZ_RichHouse,Mieszkanie Dicksteina,Dickstein'ın Dairesi,
+GRZ_RichHouse_2Floor,Drugie piętro,İkinci Kat,
+GRZ_Synagoge,Synagoga Nożyków,Nożyk Sinagogu,Varşova'daki tarihi sinagog
+GRZ_Synagoge_Room,Kancelaria,Kançılarya,
+GRZ_SzulskiShop,Sklep Szulskich,Szulskilerin Dükkânı,
+Misc_WorldFirst,FirstChapter,FirstChapter,Debug (iç bölüm adı)
+Misc_WorldSecond,SecondChapter,SecondChapter,Debug
+MM_Start,Main Menu,Ana Menü,
+POL_Forest_Clearing,Leśna Polana,Orman Açıklığı,
+PP_Bark,Barka Javiera,Javier'in Mavnası,
+PP_Beach,Plaża,Kumsal,
+PP_Corner,Zaułek,Arka Sokak,
+PP_Exterior,Port Praski,Praga Limanı,
+PP_Kitchen,Kuchnia dla biedoty,Yoksul Mutfağı,
+PP_Port_Warehouse,Magazyn portowy,Liman Deposu,
+PP_Shed,Szopa,Baraka,
+PP_hideout,Katownia Ochrany,Okhrana İşkencehanesi,Ochrana = Rus gizli polis
+PP_Warehouse_Backdoor,Zaplecze,Arka Bölüm,
+PR_Church,Cerkiew Św. Marii Magdaleny,Aziz Maria Magdalena Kilisesi,Praga'daki Ortodoks kilisesi
+PR_Exterior,Praga,Praga,
+PR_FaldzejApartment,Mieszkanie Fałdżeja,Fałdżej'in Dairesi,
+PR_FaldzejApartment_Office,Gabinet Fałdżeja,Fałdżej'in Çalışma Odası,
+PR_Fort,Cytadela,Sitadel,
+PR_Fort_Cell,Cela w Cytadeli,Sitadel Hücresi,
+PR_Hospital,Szpital,Hastane,
+PR_Interior_0floor,Hol główny,Ana Hol,
+PR_Interior_1floor,Pierwsze piętro,Birinci Kat,
+PR_Interior_Dungeon,Podziemia,Yeraltı,
+PR_Interior_Sidewing,Boczne skrzydło,Yan Kanat,
+PR_Tavern,Berk Rotblit's Tavern,Berk Rotblit'in Meyhanesi,Kaynakta İngilizce kalmış
+PRL_Farm,Spalone gospodarstwo,Yanmış Çiftlik,
+PRL_House,Chata,Kulübe,
+PRL_,Prolog,Prolog,
+PRL_outsider_house_inside,prl_outsider_house_inside,prl_outsider_house_inside,Internal ID - görünmez
+PRL_outsider_house_outside,prl_outsider_house_outside,prl_outsider_house_outside,Internal ID
+PRL_Tavern,Gospoda,Han,Kırsal küçük han/meyhane
+PRL_tavern_player_wakes_up,prl_tavern_player_wakes_up,prl_tavern_player_wakes_up,Internal ID
+PRL_Trail,Szlak górski,Dağ Yolu,
+PRL_Village,Wioska,Köy,
+PRL_village_reached,prl_village_reached,prl_village_reached,Internal ID
+PRL_WiseWomanHouse,Chata Szeptuchy,Bilge Kadının Kulübesi,"Szeptucha = Slav halk şifacısı (""fısıldayan kadın"")"
+PW_BrokenHouse,Rudera,Harabe,
+PW_Brothel_Corridor,Piętro,Kat,
+PW_Brothel_Room,Pokój,Oda,
+PW_Coast,Nabrzeże,Rıhtım,
+PW_Exterior,Powiśle,Powiśle,Varşova semti
+PW_HideoutA,Kryjówka,Sığınak,
+PW_HideoutB,Loże,Localar,
+PW_Lunapar,Lupanar,Lupanar,Latin orijinali; Roma dönem geneleviden kalan kelime
+PW_Raffinerie,Rafineria cukru,Şeker Rafinerisi,
+PW_Raffinerie_Hall,Główna hala,Ana Hol,
+PW_Raffinerie_Office,Gabinet dyrektora,Müdür Odası,
+PW_RefugeCamp,Przytulisko,Barınak,
+PW_Shack,Rudera malarza,Ressamın Harabesi,
+PW_Tent,Główny namiot,Ana Çadır,
+RST_Ballroom,Sala balowa,Balo Salonu,
+SG_Burned_House,Spalone Domostwo,Yanmış Hane,
+SK_StationBuilding,Budynek Stacji,İstasyon Binası,
+SK_Train_Station,Stacja Kolejowa,Tren İstasyonu,
+SMC_AntiqueShop,Antykwariat,Antikacı,
+SMC_ArtBar,Elizjum,Elyzyum,
+SMC_Bar,"Bar ""Meta, Seta i Lorneta""","""Meta, Seta ve Dürbün"" Barı","PL'de kadeh/yudum/dürbün alaylı içki tekerlemesi"
+SMC_BarDistrict,Dzielnica Barowa,Bar Semti,
+SMC_Basement,Suterena,Bodrum Katı,
+SMC_BossOffice,Biuro Herr Neumayera,Bay Neumayer'in Bürosu,
+SMC_Editorial,"Redakcja ""Kurjera Warszawskiego""","""Varşova Kuryesi"" Redaksiyonu",Tarihî Varşova gazetesi
+SMC_Exterior,Śródmieście Południowe,Güney Śródmieście,Varşova semt adı yön sıfatı çevrildi
+SMC_Foyer,Foyer,Foyer,Dönem Fransızca sözcüğü - aynen
+SMC_HotelApartment,Apartament Hotelowy,Otel Süiti,
+SMC_ImperialHotel,Hotel Imperialny,İmperyal Hotel,
+SMC_ImperialHotel_Apartment,Apartament 213,213 No'lu Süit,
+SMC_ImperialHotel_Apartment237,Apartament 237,237 No'lu Süit,
+SMC_ImperialHotel_Balcony,Balkon,Balkon,
+SMC_ImperialHotel_Corridor,Korytarz,Koridor,
+SMC_InformerHouse,Nowogrodzka 22,Nowogrodzka 22,Sokak adı
+SMC_LondonBar,Bar Londyński,Londra Barı,
+SMC_LondonBar_Facilities,Zaplecze baru,Bar Arkası,
+SMC_Police_Station,Komisariat,Karakol,
+SMC_Police_Station_Archive,Archiwum,Arşiv,
+SMC_Police_Station_Interior,Główny hol,Ana Hol,
+SMC_Police_Station_WoroninOffice,Gabinet Woronina,Woronin'in Çalışma Odası,
+SMC_PoorHouse,Mieszkanie Krajewskich,Krajewskilerin Dairesi,
+SMC_RaillwayStation_Hall,Hala Dworca,Gar Salonu,
+SMC_RaillwayStation_Platform,Peron Dworca,Gar Peronu,
+SMC_Restaurant,Restauracja,Restoran,
+SMC_Restaurant_Backdoor,Boczna uliczka,Yan Sokak,
+SMC_SecretMeetingSpot,Mieszkanie,Daire,
+SMC_SwietlanaApartment,Apartament Swietłany,Swietłana'nın Dairesi,
+SMC_Train_Station_Interior,Dworzec Wiedeński,Viyana Garı,Varşova'nın tarihî Varşova-Viyana garı
+SMG_Exterior,Śródmieście Północne,Kuzey Śródmieście,
+SMG_Green_Square,Plac Zielony,Yeşil Meydan,
+SMG_Neglected_Apartment,Plebańska 1,Plebańska 1,
+SMG_Patisserie,Cukiernia,Pastane,
+SMG_Tailor,Pracownia Krawiecka,Terzi Atölyesi,
+SMG_WiktorHouse,Kamienica Szulskich,Szulskilerin Apartmanı,
+SMG_WiktorHouse_0floor,Parter,Zemin Kat,
+SMG_WiktorHouse_1floor,Pierwsze piętro,Birinci Kat,
+SMG_WiktorHouse_Basement,Piwnica,Bodrum,
+SMG_WiktorHouse_Garden,Ogród,Bahçe,
+SMG_WiktorHouse_Interior,Wnętrze domu,Evin İçi,
+SMG_WiktorRoom,Pokój Wiktora,Wiktor'un Odası,
+WCM_Cemetery,Wiejski Cmentarz,Köy Mezarlığı,
+WL_Brothel,Dom Szlimakowskiej,Szlimakowska'nın Evi,
+WL_Brothel_Interior,Salon,Salon,
+WL_Brothel_Rooms,Sypialnie,Yatak Odaları,
+WL_Exterior,Wola,Wola,Varşova semti
+BZR_Berk_Rotblitz,U Berka Rotblitza,Berk Rotblitz'in Yeri,"PL ""U X"" = ""X'in yanında/yerinde"""
+BZR_Berk_Rotblitz_Basement,Piwnica,Bodrum,
+BZR_BZR01_Hideout,Magazyn,Depo,
+DEBUG_BZR01,LW_BZR01,LW_BZR01,Debug
+GRZ_Gamblers_Den,Szulernia,Kumarhane,
+DEBUG_SMG04,LW_SMG04,LW_SMG04,Debug
+GRZ_pharmacy,Stara apteka,Eski Eczane,
+GRZ_host_flat,Mieszkanie Złodziejki,Hırsız Kadının Dairesi,Złodziejka = dişil hırsız
+GRZ_brothel,"Dom publiczny ""Harem""","""Harem"" Genelevi",
+PW_bar,"Bar ""Księżycówka""","""Ay Suyu"" Barı","Księżycówka = Ay içkisi/kaçak içki lakabı"
+PW_Cold_Storage,Lodownia,Buzhane,
+PW_pawnshop,Lombard,Rehinci,
+PW_killers_hideout,Kryjówka mordercy,Katilin Sığınağı,
+pp_warehouse,Magazyn,Depo,
+ds_upstairs_corridor,Korytarz,Koridor,
+pw_illegal_ring,Loch,Zindan,
+ds_room,Pokój,Oda,
+CM_AnielaApartment,Mieszkanie Nadarzyńskich,Nadarzyńskilerin Dairesi,
+SMC_patriot_house,Mieszkanie Wiśniewskich,Wiśniewskilerin Dairesi,
+DEBUG_SMG03,LW_SMG03,LW_SMG03,Debug

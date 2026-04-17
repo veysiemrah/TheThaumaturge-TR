@@ -1,0 +1,47 @@
+Key,PL,TR,Notes
+Name_Debuff_Vulnerable,Rozbicie,Parçalanma,"Glossary: Rozbicie = Parçalanma"
+Name_Offensive_Suffer,Cierpienie,Acı,"Glossary: Cierpienie = Acı"
+Name_Offensive_Bleed,Krwawienie,Kanama,
+Name_Offensive_Pay,Zapłata,Bedel,"Djinn Salutoru statüsü"
+Name_Offensive_Debt,Krwawy dług,Kanlı Borç,
+Name_Offensive_Focus,Przerażenie,Dehşet,
+Name_Counter_Self,Kontratak,Karşı Saldırı,
+Name_Counter_Team,Zespołowy kontratak,Takım Karşı Saldırısı,
+Name_Convert_DmgToFocus,Psychiczna obrona,Ruhsal Savunma,
+Name_Defensive_40,Postawa obronna,Savunma Duruşu,
+Name_Defensive_60,Gruba skóra,Kalın Deri,
+Name_Defensive_80,Hart,Metanet,Hart = dönem Türkçesi metanet
+Name_Block_4,Dodatkowy pancerz,Ek Zırh,
+Name_Buff_Dmg_Max,Perfekcjonizm,Mükemmeliyetçilik,
+Name_Buff_Dmg_Basic,Adrenalina,Adrenalin,
+Name_Buff_Dmg_Prog,Adrenalina,Adrenalin,
+Name_Buff_Dmg_Chance,Loteria,Piyango,
+Name_Buff_Dmg_Salutor_1,Więź siły,Güç Bağı,
+Name_Buff_Dmg_Salutor_2,Więź brutalności,Vahşet Bağı,
+Name_Buff_Speed_Next,Szybkość,Hız,
+Name_Buff_Speed_Temp,Ponaglenie,İvedilik,
+Name_Buff_Speed_Salutor,Więź szybkości,Hız Bağı,
+Name_Buff_Hide_Action,Nieprzewidywalność,Öngörülemezlik,
+Name_Resist_NegativeStates,Niewrażliwość na Stany,Durumlara Bağışıklık,
+Name_Resist_ActionManipulation,Niezachwiany,Sarsılmaz,
+Name_Debuff_Dmg,Osłabienie,Zayıflama,
+Name_Debuff_Speed,Spowolnienie,Yavaşlama,
+Name_Debuff_Mark,Oznaczenie wroga,Düşmanı İşaretleme,
+Name_Debuff_Def,Odsłonięcie,Açık Hedef,
+Name_Debuff_Heal,Powikłania,Komplikasyonlar,
+Name_Debuff_Stun,Ogłuszenie,Sersemleme,
+Name_Debuff_NewSalutor,Osłabienie wymiarów,Boyut Zayıflığı,
+Name_Trap_Hit,Ryzyko,Risk,
+Name_Trap_Vulnerable,Rykoszet,Rikoşet,
+Name_Inborn_ResistDmg,Odporność,Direnç,
+Name_Inborn_Konieczkin,Pod komendą naczelnika,Komiserin Emrinde,"Naczelnik = amir/komiser/şef"
+Name_Inborn_Restore,Regeneracja,Yenilenme,
+Name_Inborn_Focus,Skupienie,Odak,Glossary
+Name_Inborn_BlockStatus,Niewrażliwość,Bağışıklık,"Odporność=Direnç ile ayırt için Bağışıklık"
+Name_Rasputin_Bukavac,Jarzmo Bukavaca,Bukavac'ın Boyunduruğu,Glossary: Jarzmo = Boyunduruk
+Name_Rasputin_Djinn,Jarzmo Djinna,Djinn'in Boyunduruğu,
+Name_Rasputin_Golem,Jarzmo Golema,Golem'in Boyunduruğu,
+Name_Rasputin_Krampus,Jarzmo Krampusa,Krampus'un Boyunduruğu,
+Name_Rasputin_Lelek,Jarzmo Lelka,Lelek'in Boyunduruğu,
+Name_Rasputin_Morana,Jarzmo Morany,Morana'nın Boyunduruğu,
+Name_Rasputin_Weles,Jarzmo Welesa,Weles'in Boyunduruğu,

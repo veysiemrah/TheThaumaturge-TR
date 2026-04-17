@@ -1,0 +1,146 @@
+Key,PL,TR,Notes
+Engage,Zawiązanie walki,Savaşa Giriş,
+Skip,Pomiń turę,Turu Atla,
+Player_A1,Szybki atak,Hızlı Saldırı,
+Player_A2,Akcja reakcja,Eylem Tepki,PL'de kafiyeli ikileme; TR'de kısa tutuldu
+Player_A3,Błyskawiczna kombinacja,Yıldırım Kombinasyonu,
+Player_B1,Planowany atak,Planlı Saldırı,
+Player_B2,Przemyślane rozwinięcie,Düşünülmüş Hamle,
+Player_B3,Kończący argument,Nihai Argüman,
+Player_C1,Rozproszenie,Dağıtma,Glossary: Rozproszenie = Dağıtma
+Player_C2,Dekoncentracja,Dikkat Dağıtma,
+Player_C3,Tortura,İşkence,
+Player_D1,Zadawniona rana,Eski Yara,
+Player_D2,Katusze,Eziyet,
+Player_D3,Udręczenie,Çile,
+Player_H,Wstrząs mózgu,Beyin Sarsıntısı,Güçlü Saldırı
+Bukavac_01,Fatum,Kader,
+Bukavac_02,Krwawe gody,Kanlı Düğün,
+Bukavac_03,Skowyt,Uluma,
+Bukavac_H,Surmijski cios,Sırp Darbesi,"Surmijski — Güney Slav/Srem bölge sıfatı; pragmatik ""Sırp"" seçildi, alternatif önerilere açık"
+Djinn_01,Podszept Karina,Karin'in Fısıltısı,"Karin = Arap geleneğinde insanın karanlık cin eşi"
+Djinn_02,Koszmar derwisza,Derviş Kâbusu,
+Djinn_03,Życiowe zadłużenie,Hayat Borcu,
+Djinn_H,Ostatnie życzenie,Son Dilek,
+Golem_01,Shem,Shem,"İbranice ""İsim"" — Golem'e can veren sözcük, çevrilmez"
+Golem_02,Afar,Afar,"İbranice ""toz"", çevrilmez"
+Golem_03,Dam,Dam,"İbranice ""kan"", çevrilmez"
+Golem_H,Mét,Mét,"İbranice ""ölü"", çevrilmez"
+Krampus_01,Szatański figiel,Şeytan Oyunu,
+Krampus_02,Czarci pakt,Şeytan Antı,Pakt = Ant (glossary)
+Krampus_03,Diabelska kara,Şeytanî Ceza,
+Krampus_H,Śmiertelny sznaps,Ölümcül Schnapps,"Krampus Alpler kökenli; schnapps Alman içkisi, aynen bırakıldı"
+Lelek_01,Zwodnicza pieśń,Aldatıcı Şarkı,
+Lelek_02,Żałobne tony,Yas Nağmeleri,
+Lelek_03,Posępny trel,Kasvetli Nağme,Trel = kuş ötüşü/tril
+Lelek_H,Lament umrzyka,Ölünün Ağıdı,
+Morana_01,W objęciach śmierci,Ölümün Kucağında,
+Morana_02,Cena spokoju,Huzurun Bedeli,
+Morana_03,Morowe tchnienie,Veba Nefesi,
+Morana_H,Zimowy sen,Kış Uykusu,
+Upyr_01,Upiorne upojenie,Hortlak Sarhoşluğu,PL'deki aliterasyon TR'de kayboldu
+Upyr_02,Krwawa pokuta,Kanlı Kefaret,
+Upyr_03,Liberum Veto,Liberum Veto,Polonya tarihi/latince terim; çevrilmez
+Upyr_H,Już nie dla świata,Dünyaya Veda,"Lit: ""Artık dünya için değil"" — kısaltıldı"
+Weles_01,Całus na szczęście,Şans Öpücüğü,
+Weles_02,Śliski zakład,Sinsi Bahis,"Śliski = kaygan/sinsi; Weles kurnaz tanrı"
+Weles_03,Jadowity uśmiech,Zehirli Tebessüm,
+Weles_H,Fortunny obrót,Talih Dönüşü,
+Salutor_Sacrifice,Zerwanie więzi,Bağı Koparma,Glossary: Więź = Bağ
+Rasputin_01,Kara za grzechy,Günahların Cezası,
+Rasputin_02,Zatrucie więzi z Bukavacem,Bukavac Bağını Zehirleme,
+Rasputin_03,Zatrucie więzi z Lelkiem,Lelek Bağını Zehirleme,
+Rasputin_04,Zatrucie więzi z Welesem,Weles Bağını Zehirleme,
+Rasputin_05,Zatrucie więzi z Golemem,Golem Bağını Zehirleme,
+Rasputin_06,Zatrucie więzi z Djinnem,Djinn Bağını Zehirleme,
+Rasputin_07,Zatrucie więzi z Moraną,Morana Bağını Zehirleme,
+Rasputin_08,Zatrucie więzi z Krampusem,Krampus Bağını Zehirleme,
+Rasputin_H,Pokuta,Kefaret,
+Guard_01,Defensywne przejście,Savunma Geçişi,
+Counter_01,Szykowanie kontrataku,Karşı Saldırı Hazırlığı,
+Counter_02,Defensywa zespołowa,Takım Savunması,
+Blunt_Fast_01,Obicie,Pataklama,
+Blunt_Fast_02,Szast-prast,Şipşak,PL onomatopoeia; TR'de şipşak yakın karşılık
+Blunt_Fast_03,Ogłuszające uderzenie,Sersemletici Darbe,
+Blunt_Fast_04,Uszkodzenie czaszki,Kafatası Hasarı,
+Blunt_Fast_05,Obuch,Topuz,"Obuch = topuz/çomak, küt silah"
+Blunt_Medium_01,Odstraszacz,Caydırıcı,
+Blunt_Medium_02,Pogruchotanie,Paramparça Etme,
+Blunt_Medium_03,Wściekłe uderzenie,Öfkeli Darbe,
+Blunt_Medium_04,Rozłupanie czaszki,Kafatası Yarma,
+Blunt_Medium_05,Ciężki obuch,Ağır Topuz,
+Blunt_Slow_01,Niszczyciel,Yok Edici,
+Blunt_Slow_02,Połamanie,Kırma,
+Blunt_Slow_03,Planowane uderzenie,Planlı Darbe,
+Blunt_Slow_04,Zdruzgotanie czaszki,Kafatası Dağıtma,
+Blunt_Slow_05,Srogi obuch,Sert Topuz,
+Blunt_H,Ogłuszająca kombinacja,Sersemletici Kombinasyon,
+Derringer_Fast_01,Raniący pocisk,Yaralayıcı Mermi,
+Derringer_Medium_01,Penetrujący pocisk,Delici Mermi,
+Derringer_Slow_01,Rozrywający pocisk,Parçalayıcı Mermi,
+Derringer_H,Amunicja powalająca,Devirici Mermi,
+Firearms_Fast_01,Szybki strzał,Hızlı Atış,
+Firearms_Fast_02,Stylowy strzał,Zarif Atış,"Stylowy = şık/zarif; dönem tınısı için ""zarif"""
+Firearms_Medium_01,Celny strzał,İsabetli Atış,
+Firearms_Medium_02,Precyzjny strzał,Hassas Atış,"PL tipo (Precyzyjny olmalı); TR'de düzgün"
+Firearms_Slow_01,Cyzelowany strzał,İtinalı Atış,"Cyzelować = ince işlemek"
+Firearms_Slow_02,Mierzony strzał,Nişanlı Atış,
+Fist_Body_01_Fast_01,Posiniaczenie,Morartma,
+Fist_Body_01_Medium_01,Potłuczenie,Bereleme,
+Fist_Body_01_Slow_01,Poturbowanie,Hırpalama,
+Fist_Body_02_Fast_01,Przetrzepanie skóry,Post Silkme,Türkçe deyim: dayak atmak
+Fist_Body_02_Fast_02,Ciągła presja,Sürekli Baskı,
+Fist_Body_02_Medium_01,Uderzenie w korpus,Gövdeye Darbe,
+Fist_Body_02_Medium_02,Całym sobą,Var Gücüyle,
+Fist_Body_02_Slow_01,Porządek ciosów,Yumruk Dizisi,
+Fist_Body_02_Slow_02,Zmasakrowanie,Katletme,
+Fist_Head_01_Fast_01,Szybki wymach,Hızlı Savurma,
+Fist_Head_01_Fast_02,Hak,Kroşe,Boks terimi
+Fist_Head_01_Medium_01,Wolny wymach,Yavaş Savurma,
+Fist_Head_01_Medium_02,Gong,Gong,Boks referansı
+Fist_Head_01_Slow_01,Potężny wymach,Güçlü Savurma,
+Fist_Head_01_Slow_02,Ryjcopranie,Suratı Dağıtma,"Ryj = surat (argo); PL kaba"
+Fist_Head_02_Fast_01,Szybka pięść,Hızlı Yumruk,
+Fist_Head_02_Fast_02,Błyskawiczny cios,Yıldırım Darbesi,
+Fist_Head_02_Medium_01,Ciężka pięść,Ağır Yumruk,
+Fist_Head_02_Medium_02,Odważny cios,Cesur Darbe,
+Fist_Head_02_Slow_01,Miażdżąca pięść,Ezici Yumruk,
+Fist_Head_02_Slow_02,Potężny cios,Güçlü Darbe,
+Fist_Kick_01_Fast_01,Szybki kopniak,Hızlı Tekme,
+Fist_Kick_01_Medium_01,Kopniak,Tekme,
+Fist_Kick_01_Slow_01,Obalający kopniak,Devirici Tekme,
+Fist_Throw_01,Rzut,Fırlatma,
+Fist_H,Łamignat,Kemik Kıran,
+Knife_01_Fast_01,Płytkie cięcie,Yüzeysel Kesik,
+Knife_01_Medium_01,Prezycyjne cięcie,Hassas Kesik,PL tipo (Precyzyjne olmalı)
+Knife_01_Slow_01,Głębokie cięcie,Derin Kesik,
+Knife_02_Fast_01,Wątłe pchnięcie,Zayıf Saplama,
+Knife_02_Medium_01,Zdradliwie pchnięcie,Haince Saplama,
+Knife_02_Slow_01,Głębokie pchnięcie,Derin Saplama,
+Knife_H,Nawałnica cięć,Kesik Fırtınası,Nawałnica = sağanak/fırtına
+Pistol_H,Amunicja specjalna,Özel Mermi,
+Rifle_Fast_01,Strzał na oślep,Körlemesine Atış,
+Rifle_Medium_01,Amatorski strzał,Acemi Atışı,
+Rifle_Slow_01,Przymierzony strzał,Nişan Almış Atış,
+Rifle_H,Snajperski strzał,Keskin Nişancı Atışı,
+Sabre_01_Fast_01,Szybkie cięcie,Hızlı Kesik,
+Sabre_01_Fast_02,Sieknięcie,Şak Kesme,Sieknąć = hızlı yatay kesmek
+Sabre_01_Medium_01,Precyzyjne cięcie,Hassas Kesik,
+Sabre_01_Medium_02,Wzdłuż ciała,Boydan Boya,"Lit: vücut boyunca"
+Sabre_01_Slow_01,Żgnięcie,Saplama,
+Sabre_01_Slow_02,Rozpłatanie,Yarma,
+Sabre_02_Fast_01,Raniące ostrze,Yaralayıcı Kılıç,
+Sabre_02_Medium_01,Przebijające ostrze,Delici Kılıç,
+Sabre_02_Slow_01,Powolne ostrze,Yavaş Kılıç,
+Sabre_H,Zabójcza kombinacja,Öldürücü Kombinasyon,
+Fist_Ally_01,Szybki prosty,Hızlı Direkt,Boks: direkt yumruk
+Fist_Ally_02,Prawy sierpowy,Sağ Kroşe,Boks terimi
+Buff_Heal_HP_01,Uzdrowienie,Şifa,
+Buff_Heal_HP_02,Doraźna pomoc,Acil Yardım,
+Buff_Heal_Focus_01,Psychoterapia,Psikoterapi,
+Buff_Heal_Focus_02,"Spokojnie, panowie","Sakin Olun, Beyler",
+Buff_Dmg_01,Podżeganie,Kışkırtma,
+Buff_Dmg_02,Kamraci!,Yoldaşlar!,Dönem tınısı (sol hareket referansı)
+Buff_Def_01,Policyjna osłona,Polis Kalkanı,
+Buff_Speed_01,Szybciej!,Daha Hızlı!,
+Debuff_Mark_01,Oznaczenie wroga,Düşmanı İşaretleme,

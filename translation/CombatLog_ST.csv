@@ -1,0 +1,13 @@
+Key,PL,TR,Notes
+CombatLog_Damage_Focus,skupienie ({int_f}),odak ({int_f}),
+CombatLog_NewState,Stan,Durum,
+CombatLog_Inborn_Vulnerable,Czasowe uśpienie cechy,Niteliğin geçici bastırılması,
+CombatLog_Inborn_Salutor,Uśpienie cechy,Niteliğin bastırılması,
+CombatLog_Death,Wyeliminowany,Saf dışı,
+CombatLog_NewWave,Nadeszły posiłki,Takviye geldi,
+CombatLog_Ability_Interrupted,Przerwanie działania,Eylem kesildi,
+CombatLog_Ability_Delayed,Spowolnienie działania,Eylem yavaşlatıldı,
+CombatLog_Heal_HP,leczenie ({int_h}),şifa ({int_h}),
+CombatLog_Damage_HP,obrażenia ({int_d}),hasar ({int_d}),
+CombatLog_NewRound,Runda {int_r},Tur {int_r},
+CombatLog_Ability_SpeedUp,Przyspieszenie działania,Eylem hızlandırıldı,

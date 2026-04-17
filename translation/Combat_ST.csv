@@ -1,0 +1,173 @@
+Key,PL,TR,Notes
+Dimension_Mind,Umysł,Akıl,
+Dimension,Wymiar:,Boyut:,
+PowerUp,Ulepszona,Yükseltilmiş,
+NoMaxStress,Wróg nie jest w stanie Rozbicia,Düşman Parçalanma durumunda değil,
+Dimension_Deed,Czyn,Eylem,
+Dimension_Word,Słowo,Söz,
+Dimension_Heart,Serce,Yürek,
+Interaction_Select,Wybierz,Seç,
+Interaction_Attack,Zaatakuj,Saldır,
+Interaction_Support,Wesprzyj,Destekle,
+Interaction_ChangeSalutor,Zmień salutora,Salutoru değiştir,
+Damage,obrażenia,hasar,
+HP,Punkty życia,Can Puanı,
+SelectSalutor,Wybierz salutora:,Salutoru seç:,
+Flaw,Skaza,Kusur,
+Emotion,Emocja,Duygu,
+CurrentResistances,obecnie,şu an,
+Status,Stan,Durum,
+Statuses,Stany,Durumlar,
+CanBeAppliedXtimes," Można nałożyć"," Uygulanabilir",Leading space korundu
+Round,runda,tur,
+Interaction_GiveOrder,Wydaj rozkaz,Emir ver,
+Undo,cofnij decyzję,kararı geri al,
+TutorialUnderstood,Kontynuuj,Devam,
+Interaction_TakeAction,Podejmij działanie,Eyleme geç,
+ChainType_Counter,Sekwencja kontr,Karşı Zincir,
+ChainDescription_Deed,"<i>Umiejętności Wymiaru Czyn oddają precyzyjne, wyćwiczone ruchy, wsparte tężyzną fizyczną.</>","<i>Eylem Boyutu yetenekleri, fiziksel güçle desteklenmiş hassas ve eğitimli hareketleri yansıtır.</>",
+ChainDescription_Heart,"<i>Umiejętności Wymiaru Serce oddają impulsywne, gwałtowne ruchy, powodowane namiętnościami.</>","<i>Yürek Boyutu yetenekleri, tutkuların tetiklediği ani ve şiddetli hareketleri yansıtır.</>",
+ChainDescription_Mind,"<i>Umiejętności Wymiaru Umysł oddają analityczne podejście i przemyślane decyzje, prowadzone logiką i wiedzą.</>","<i>Akıl Boyutu yetenekleri, mantık ve bilgiyle yönlendirilen analitik yaklaşımı ve düşünülmüş kararları yansıtır.</>",
+ChainDescription_Word,"<i>Umiejętności Wymiaru Słowo oddają subtelne lecz stanowcze sugestie, wsparte retoryką i charyzmą.</>","<i>Söz Boyutu yetenekleri, retorik ve karizmayla desteklenmiş ince ama kesin telkinleri yansıtır.</>",
+ChainType_Heart,Szybkie ataki,Hızlı saldırılar,
+ChainType_Word,Wpływy,Nüfuzlar,
+ChainType_Deed,Obrażenia w czasie,Zaman içinde hasar,
+ChainType_Mind,Planowane ataki,Planlı saldırılar,
+UpgradeType_Combat,Ulepszenie sekwencji walki,Savaş zinciri yükseltmesi,
+AbilityDescription_ApplyStatus_1,"Wywołuje u siebie ","Kendine şu durumu uygular: ",Trailing space korundu
+AbilityDescription_ApplyStatus_2,"oraz wywołuje u siebie ","ve kendine şu durumu uygular: ",Trailing space
+AbilityDescription_ApplyStatus_3,"Wywołuje ","Uygular: ",Trailing space
+AbilityDescription_ApplyStatus_4,"oraz wywołuje ","ve uygular: ",Trailing space
+AbilityDescription_Round1,"w obecnej rundzie stan ","bu turda şu durumu: ",Trailing space
+AbilityDescription_Round2,"na 2 rundy stan ","2 tur boyunca şu durumu: ",Trailing space
+AbilityDescription_Round3,"na 3 rundy stan ","3 tur boyunca şu durumu: ",Trailing space
+AbilityDescription_Round4,"na 4 rundy stan ","4 tur boyunca şu durumu: ",Trailing space
+AbilityDescription_Round5,"na 5 rund stan ","5 tur boyunca şu durumu: ",Trailing space
+AbilityDescription_Round1_2,1 rundę,1 tur,
+AbilityDescription_Round2_2,2 rundy,2 tur,
+AbilityDescription_SlowsDown,"Spowalnia tempo twojej umiejętności o ","Yeteneğinin Hızını şu kadar yavaşlatır: ",Trailing space
+AbilityDescription_STRIncrease,"Obniża [FOCUS] wroga o ","Düşmanın [FOCUS]'unu şu kadar azaltır: ",Trailing space
+AbilityDescription_ApplyDMG,Zadaje [DAMAGE],[DAMAGE] verir,
+AbilityDescription_STRReducePlayer,"Zwiększa Twoje [FOCUS] o ","[FOCUS]'unu şu kadar artırır: ",Trailing space
+AbilityDescription_ApplyDMGAndSTR,Zadaje wrogom [DAMAGE] i obniża ich [FOCUS],Düşmanlara [DAMAGE] verir ve [FOCUS]'larını azaltır,
+AbilityDescription_ApplySTR,Obniża [FOCUS],[FOCUS]'u azaltır,
+AbilityDescription_ApplyStatuses_1,"Wywołuje: ","Uygular: ",Trailing space
+AbilityDescription_ApplyStatuses_2," oraz wywołuje:"," ve uygular:",Leading space
+AbilityDescription_DMGIncrease_2,"Zwiększa zadawane [DAMAGE] o ","Verilen [DAMAGE]'i şu kadar artırır: ",Trailing space
+UpgradeType_CombatAbility,Umiejętności walki,Savaş yetenekleri,
+Focus,Skupienie,Odak,
+SlowAttack,wolna,yavaş,
+VerySlowAttack,bardzo wolna,çok yavaş,
+Suggested,Sugerowany,Önerilen,
+Rounds,rundy,tur,
+InteractionChoose_Ability,Wybierz umiejętność,Yetenek seç,
+InteractionChoose_Target,Wybierz cel,Hedef seç,
+NotActive_Temporary,Uśpiona czasowo.,Geçici olarak bastırılmış.,
+NotActive_Permanently,Uśpiona na dobre.,Tamamen bastırılmış.,
+VulnerableState,"Użyj Silnego ataku tego salutora na wroga pod wpływem stanu Rozbicie. To najlepszy wybór.","Bu salutorun Güçlü Saldırısını Parçalanma durumundaki düşmana kullan. En iyi tercih budur.",
+Salutor_Dimension1,"Salutor z Wymiaru ","Bu Salutor, ",Parçalı cümle; inject için pragmatik yeniden yapılandırma
+Salutor_Dimension2,", który potrafi uśpić Cechę wskazanego wroga."," Boyutundandır. İşaretlenen düşmanın Niteliğini bastırabilir.",Leading space + Dimension ismiyle birleşiyor
+SalutorDescription_Bukavac,"Jego zdolności są ofensywne i oparte o stany. Idealny do dobijania ciężko rannych wrogów.","Yetenekleri saldırganlık üzerine kurulu ve durumlara dayalıdır. Ağır yaralı düşmanları devirmek için ideal.",
+SalutorDescription_Djin,"Kuglarz stanów, lecz część jego mocy może cię zranić.","Durumların hokkabazıdır, fakat gücünün bir kısmı seni yaralayabilir.",
+SalutorDescription_Upyr,"Potrafi leczyć, a siła jego umiejętności ofensywnych zależy od ilości twoich punktów życia.","İyileştirebilir; saldırı yeteneklerinin gücü, sahip olduğun Can Puanı miktarına bağlıdır.",
+SalutorDescription_Morana,"Przerywa i spowalnia tempo działań wroga. Wymienia Twoje brakujące skupienie na obrażenia.","Düşmanın eylem Hızını keser ve yavaşlatır. Eksik Odağını hasara çevirir.",
+SalutorDescription_Lelek,"Skutecznie pozbawia wrogów skupienia, potrafi przenieść Twoje stany na nich.","Düşmanları Odağından etkili biçimde yoksun bırakır, durumlarını onlara aktarabilir.",
+SalutorDescription_Golem,"Zadaje potężne obrażenia, część zdolności wymaga jednak konkretnych warunków od wroga.","Büyük hasar verir; ancak yeteneklerinin bir kısmı düşmandan belirli koşullar ister.",
+SalutorDescription_Weles,"Potężny salutor, którego skuteczność zależy od... szczęścia.","Güçlü bir salutor; etkinliği ise… şansa bağlı.",
+SalutorDescription_Krampus,"Posiada zdolności ofensywne, defensywne, a także lecznicze, związane ze skupieniem.","Saldırı, savunma ve iyileştirme yeteneklerine sahiptir; Odak ile bağlantılıdır.",
+ThisRound,ta runda,bu tur,
+UseBukavac,Bukavacem,Bukavac ile,Instrumental case
+UseGolem,Golemem,Golem ile,
+RequiredDimensionStrength,"Wymagana siła Wymiaru ","Gerekli Boyut gücü: ",Trailing space - Dimension adı inject edilir
+ToDeactivate,by uśpić,bastırmak için,
+NotHaveRequiredSalutor,"Nie posiadasz odpowiedniego salutora, aby uśpić.","Bastırmak için uygun bir salutorun yok.",
+UseUpyr,Upyrem,Upyr ile,
+UseDjinn,Djinnem,Djinn ile,
+UseLelek,Lelkiem,Lelek ile,
+UseMorana,Moraną,Morana ile,
+UseWeles,Welesem,Weles ile,
+UseKrampus,Krampusem,Krampus ile,
+Or,lub,veya,
+UpgradeType_SkillUpgrade,Ulepszenie umiejętności,Yetenek Yükseltmesi,
+UpgradeType_AdditionalSkill,Dodatkowa umiejętność,Ek Yetenek,
+UpgradeType_NoPoints,× Brak punktów,× Puan yok,
+UpgradeType.CombatSkillEnhancement,Ulepszenie umiejętności walki,Savaş Yeteneği Yükseltmesi,
+NotActive_Permanently2,Cecha,Nitelik,
+AbilityDisablesTargetTrait,Ta umiejętność usypia Cechę wroga.,Bu yetenek düşmanın Niteliğini bastırır.,
+Trait_Deactivate,Cecha uśpiona,Nitelik bastırıldı,
+ReinforcementsArrive_NextRound,Posiłki przybędą w następnej rundzie.,Takviyeler bir sonraki turda gelir.,
+Progression_Points,Punkty Thaumaturgii,Tılsımkârlık Puanı,
+Stun_ActionCancel,"Jesteś Ogłuszony
+Działanie zostało przerwane","Sersemledin.
+Eylem kesildi.",İki satırlı string
+NoActive,Nieaktywny,Etkisiz,
+Sugestion_ResistDmg_Bukavac,Zadanie obrażeń przez stan ignoruje odporność wroga na bezpośrednie obrażenia.,"Durum yoluyla verilen hasar, düşmanın doğrudan hasara karşı direncini yok sayar.",
+Sugestion_ResistDmg_Lelek,Pozbawienie wroga skupienia i wywołanie stanu Rozbicie ignoruje jego odporność na bezpośrednie obrażenia.,"Düşmanı Odağından yoksun bırakıp Parçalanma durumu uygulamak, doğrudan hasar direncini yok sayar.",
+Sugestion_ResistDmg_Djin,Zadanie obrażeń przez stan ignoruje odporność wroga na bezpośrednie obrażenia.,"Durum yoluyla verilen hasar, düşmanın doğrudan hasara karşı direncini yok sayar.",
+Sugestion_ResistDmg_Morana,Pozbawienie wroga skupienia i zamiana brakującego skupienia na obrażenia ignoruje jego odporność na bezpośrednie obrażenia.,"Düşmanı Odağından yoksun bırakıp eksik Odağı hasara çevirmek, doğrudan hasar direncini yok sayar.",
+Suggestion_RestoreHP_Golem,"Potrafi zadać ogromne obrażenia, co pozwala wykończyć każdego wroga, nie dając mu szans na leczenie.","Büyük hasar verebilir; bu sayede iyileşme şansı tanımadan her düşmanı bitirebilir.",
+Suggestion_RestoreHP_Lelek,"Potrafi swoim Silnym Atakiem szybko wykończyć Rozbitego wroga, nie dając mu szansy na leczenie.","Güçlü Saldırısıyla Parçalanmış bir düşmanı iyileşme fırsatı bırakmadan hızla bitirebilir.",
+Suggestion_RestoreHP_Bukavac,"Porafi wywołać stany zadające obrażenia, skuteczne przeciwko często leczącym się wrogom.","Hasar veren durumlar uygulayabilir; sık iyileşen düşmanlara karşı etkilidir.",PL'de typo: Porafi→Potrafi
+Suggestion_RestoreHP_Weles,"Potrafi zadawać ogromne obrażenia, jeśli tylko szczęście się do ciebie uśmiechnie.",Talih sana gülerse büyük hasar verebilir.,
+Suggestion_BlockedFocus_Golem,"Potrafi wykończyć wroga odpornego na pozbawianie skupienia, spowalnianie i przerywanie działań.","Odak kaybetmeye, yavaşlatmaya ve eylem kesilmelerine dirençli düşmanı bitirebilir.",
+Suggestion_BlockedFocus_Djin,"Potrafi wykończyć wroga odpornego na pozbawianie skupienia, spowalnianie i przerywanie działań.","Odak kaybetmeye, yavaşlatmaya ve eylem kesilmelerine dirençli düşmanı bitirebilir.",
+Suggestion_BlockedFocus_Upyr,"Potrafi wykończyć wroga odpornego na pozbawianie skupienia, spowalnianie i przerywanie działań.","Odak kaybetmeye, yavaşlatmaya ve eylem kesilmelerine dirençli düşmanı bitirebilir.",
+Suggestion_BlockedFocus_Weles,"Potrafi wykończyć wroga odpornego na pozbawianie skupienia, spowalnianie i przerywanie działań.","Odak kaybetmeye, yavaşlatmaya ve eylem kesilmelerine dirençli düşmanı bitirebilir.",
+Suggestion_IgnoreTempStatus_Golem,"Potrafi zadać ogromne obrażenia, co szybko wykończy każdego wroga, nawet odpornego na stany.","Büyük hasar verebilir; bu her düşmanı hızla bitirir — durumlara dirençli olsa bile.",
+Suggestion_IgnoreTempStatus_Lelek,"Potrafi szybko pozbawić wroga skupienia, wywołując stan Rozbicie. Pozbawia też odporności na stany.",Düşmanı hızla Odağından yoksun bırakıp Parçalanma durumu uygular. Durum direncini de kırar.,
+Suggestion_IgnoreTempStatus_Weles,Potrafi wykończyć wroga odpornego na stany.,Durumlara dirençli düşmanı bitirebilir.,
+Suggestion_IgnoreTempStatus_Upyr,Potrafi wykończyć wroga odpornego na stany.,Durumlara dirençli düşmanı bitirebilir.,
+Suggestion_ReasonLowHP_Upyr,"Potrafi odzyskiwać twoje punkty życia, co może skutecznie uchronić przed porażką.","Can Puanlarını geri kazandırabilir; bu yenilgiden korumak için etkilidir.",
+Suggestion_LowFocus_Krampus,"Potrafi odzyskiwać skupienie, co może skutecznie uchronić od stanu Rozbicie.","Odak geri kazandırabilir; bu Parçalanma durumundan korumak için etkilidir.",
+Suggestion_DangerousAttack_Morana,"Potrafi przerwać lub spowolnić tempo działań wroga, co może skutecznie uchronić przed porażką.","Düşmanın eylem Hızını kesebilir ya da yavaşlatabilir; bu yenilgiden korumak için etkilidir.",
+Suggestion_ReasonEnemyHPVulnerable,Ataki oparte na obrażeniach przyniosą lepszy efekt przeciwko temu wrogowi,Hasara dayalı saldırılar bu düşmana karşı daha iyi sonuç verir,
+Suggestion_EnemyFocusVulnerable,Pozbawienie skupienia przyniesie lepszy efekt przeciwko temu wrogowi,Odak kaybettirmek bu düşmana karşı daha iyi sonuç verir,
+ProgressionStep_PerceptionTests,"To Ulepszenie umożliwia korzystanie z Percepcji w Wymiarze ","Bu Yükseltme şu Boyutta Algı kullanmayı sağlar: ",Trailing space
+ProgressionStep_Manipulation,"To Ulepszenie Pozwala Dokonywać Manipulacji Wymiarem ","Bu Yükseltme şu Boyutta Manipülasyon yapmayı sağlar: ",Trailing space
+ProgressionStep_DimensionPoints,"To Ulepszenie dodaje punkt do Wymiaru ","Bu Yükseltme şu Boyuta puan ekler: ",Trailing space
+UpgradeType_Perception,Percepcja,Algı,
+UpgradeType_Manipulation,Manipulacja,Manipülasyon,
+UpgradeType_DimensionPoint,Siła Wymiaru,Boyut Gücü,
+StatusDescription_Thaumaturge,(u ciebie),(sende),
+StatusDescription_Self,(u siebie),(kendinde),
+StatusDescription_Max," Maks. "," Maks. ",Leading+trailing space
+StatusDescription_X,x.,x.,
+EffectSumUp," Efekt sumuje się "," Etki birikir ",Leading+trailing space
+Cost,Koszt,Maliyet,
+Flaw_DimensionPoints,Wzmocniona przez zdobyte Skazy.,Kazanılan Kusurlarla güçlendirilmiş.,
+NeedRasputinActivation,Opanowanie wymaga pomocy Rasputina.,Ehlileştirmek Rasputin'in yardımını gerektirir.,
+ActivatedByRasputin,Salutor poskromiony dzięki pomocy Rasputina.,Salutor Rasputin'in yardımıyla ehlileştirildi.,
+NeedRasputinActivationProgression,Dalszy rozwój Wymiaru jest niemożliwy aż do czasu poskromienia salutora u Rasputina.,Salutor Rasputin'de ehlileştirilene dek Boyut gelişimi mümkün değil.,
+NoEffect,Nie wywiera efektu na celu.,Hedef üzerinde etki yok.,
+AbilityWeak,Osłabiona przez wpływ stanów celu.,Hedefin durumlarının etkisiyle zayıflatılmış.,
+Salutor,Salutor,Salutor,
+HealingDrawback,"Każde kolejne działanie przywracające [HP], będzie odnawiało ich mniej.",[HP] geri kazandıran her bir sonraki eylem daha az [HP] yeniler.,
+AbilityDescription_Hidden,Efekty tego działania zostały przed tobą zatajone.,Bu eylemin etkileri senden gizlendi.,
+AbilityName_Hidden,Zatajone działanie,Gizlenmiş eylem,
+AbilityDescription_ApplyPlayerDMG,Zadaje ci [DAMAGE],Sana [DAMAGE] verir,
+SalutorLostForever,"Wskutek zerwania więzi, tego salutora już przy tobie nie ma.",Bağın koparılması sonucu bu salutor artık yanında değil.,
+AbilityDescription_ApplyPlayerDMGandSTR,Zadaje ci [DAMAGE] i obniża twoje [FOCUS],Sana [DAMAGE] verir ve [FOCUS]'unu azaltır,
+AbilityDescription_ApplySTRAnyone,Zadaje [DAMAGE] i obniża [FOCUS],[DAMAGE] verir ve [FOCUS] azaltır,
+DimensionCurrentPower,"Wynosi ","Değeri: ",Trailing space
+DimensionCurrentPowerFlaws,Wzmocniona przez Skazy:,Kusurlarla güçlendirilmiş:,
+InputAction_CancelAction,Anuluj akcję,Eylemi iptal et,
+InputAction_ShowEnemyStatus,Pokaż stan wroga,Düşmanın durumunu göster,
+InputAction_Confirm,Zatwierdź,Onayla,
+InputAction_Timeline,Podejrzyj kolejkę działań,Eylem Sırasına bak,
+InputAction_ChangeActiveUnit,Przełącz między sobą a salutorem,Kendin ve salutorun arasında geçiş yap,
+InputAction_PreviousEnemy,Poprzedni przeciwnik,Önceki düşman,
+InputAction_NextEnemy,Następny przeciwnik,Sonraki düşman,
+InputAction_ShowWiktorsStatus,Pokaż swój stan,Kendi durumunu göster,
+InputAction_SalutorSelection,Wybierz salutora,Salutor seç,
+InputAction_AbillitySelection,Wybierz umiejętność,Yetenek seç,
+InputAction_CombatBegin,Stań do walki,Savaşa gir,
+Permanently,Na stałe,Kalıcı olarak,
+ActivatedByRasputin_Upyr,"Wasza więź znów jest silna, dzięki pomocy Rasputina.",Rasputin'in yardımıyla bağınız yeniden güçlü.,
+NeedRasputinActivation_Upyr,Twoja więź z nim jest osłabiona i grozi zerwaniem.,Onunla bağın zayıfladı ve kopma tehlikesi altında.,
+Attributes,Atrybut,Özellik,
+Attributes_HP,"To Ulepszenie na stałe zwiększa [HP] o ","Bu Yükseltme [HP]'ni kalıcı olarak şu kadar artırır: ",Trailing space
+Attributes_Foc,"To Ulepszenie na stałe zwiększa [Focus] o ","Bu Yükseltme [Focus]'unu kalıcı olarak şu kadar artırır: ",Trailing space
+InputAction_OpenThaumaturgy,Rozwiń thaumaturgię,Tılsımkârlığı aç,
+InputAction_OpenUpgrades,Dostosuj ulepszenia,Yükseltmeleri düzenle,
+AbilityDescription_Dot,.,.,
+ShowLog,Pokaż przebieg walki,Savaş akışını göster,

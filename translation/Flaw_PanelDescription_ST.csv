@@ -1,0 +1,13 @@
+Key,PL,TR,Notes
+Flaw.Progression.Deed.1,Zwiększa siłę Wymiaru [DEED] o 1.,[DEED] Boyutunun gücünü 1 artırır.,
+Flaw.Progression.Deed.2,"Za pokonanie każdego wroga, przywróci twoje [HP] w liczbie 5.",Her düşmanı yendiğinde [HP]'ni 5 kadar yeniler.,
+Flaw.Progression.Deed.3,Zwiększa siłę Wymiaru [DEED] o 1.,[DEED] Boyutunun gücünü 1 artırır.,
+Flaw.Progression.Heart.1,Zwiększa siłę Wymiaru [HEART] o 1.,[HEART] Boyutunun gücünü 1 artırır.,
+Flaw.Progression.Heart.2,"Raz na walkę pozwala uniknąć śmierci. Zamiast zginąć, zachowasz [HP] w liczbie 1.",Savaş başına bir kez ölümden kurtulmanı sağlar. Ölmek yerine 1 [HP] ile sağ kalırsın.,
+Flaw.Progression.Heart.3,Zwiększa siłę Wymiaru [HEART] o 1.,[HEART] Boyutunun gücünü 1 artırır.,
+Flaw.Progression.Mind.1,Zwiększa siłe Wymiaru [MIND] o 1.,[MIND] Boyutunun gücünü 1 artırır.,PL'de tipo: siłe→siłę
+Flaw.Progression.Mind.2,"Pozwala podwoić zadawane obrażenia, jeśli twoje [HP] nie przekraczają 9.",[HP]'n 9'u aşmıyorsa verdiğin hasarı ikiye katlar.,
+Flaw.Progression.Mind.3,Zwiększa siłę Wymiaru [MIND] o 1.,[MIND] Boyutunun gücünü 1 artırır.,
+Flaw.Progression.Word.1,Zwiększa siłę Wymiaru [WORD] o 1.,[WORD] Boyutunun gücünü 1 artırır.,
+Flaw.Progression.Word.2,"Podwójnie obniża [FOCUS] wroga, jeśli twoje [HP] nie przekraczają 9.",[HP]'n 9'u aşmıyorsa düşmanın [FOCUS]'unu iki kat azaltır.,
+Flaw.Progression.Word.3,Zwiększa siłę Wymiaru [WORD] o 1.,[WORD] Boyutunun gücünü 1 artırır.,

@@ -1,0 +1,23 @@
+Key,PL,TR,Notes
+Flaw.Progression.Deed.1,"Należała do Vesny, prostej chłopki z Zakaukazia, która w odwecie za okrucieństwo własnego ojca, zabiła go.","Güney Kafkasyalı sade bir köylü olan Vesna'ya aitti; kendi babasının zalimliğine karşılık onu öldürmüştü.",
+Flaw.Progression.Deed.2,"Należała do mojej drogiej siostry. Tak, jak moja Duma, tak i ta Skaza, jest pochodną Pychy. Skazy naszego ojca.","Sevgili kız kardeşime aitti. Benim Kibir'im gibi bu Kusur da Gurur'dan türer. Babamızın Kusurundan.","Pycha = Gurur; Duma = Kibir. Farkı koruyan çeviri"
+Flaw.Progression.Deed.3,"Należała do generał-gubernatora Skałona. Jest szansa, że bez niej, przestanie być ciemiężycielem Warszawy.","General-Vali Skałon'a aitti. Belki onsuz Varşova'nın zalimi olmaktan vazgeçer.",
+Flaw.Progression.Heart.1_weak,"Moja wrodzona Skaza. To ona wpędziła mnie nie raz w kłopoty, ale też czasem pozwoliła ich uniknąć. Jest integralną częścią mnie.","Doğuştan gelen Kusurum. Beni defalarca başı derde soktu, ama zaman zaman dertlerden sıyrılmama da yardım etti. Benim ayrılmaz bir parçam.",
+Flaw.Progression.Heart.1_medium,"Moja Skaza rośnie w siłę, czuję to. Im dalej będę ją podsycał, tym potężniejsza się stanie. Może otworzyć mi niektóre drzwi, ale i zamknąć inne.","Kusurum güçleniyor, hissediyorum. Onu ne kadar körüklersem o kadar kudretli olacak. Bana bazı kapılar açabilir, ama bir kısmını da kapatabilir.",
+Flaw.Progression.Heart.1_strong,"Jestem dumnym człowiekiem., thaumaturgiem. Przerosłem nawet ojca. Moja dojrzała Duma to moje narzędzie, moje zbawienie, moje Ja.","Ben kibirli bir insanım, bir Tılsımkârım. Babamı bile aştım. Olgunlaşmış Kibir'im artık aletim, kurtuluşum, Ben'im.",PL'de yazım hatası temizlendi
+Flaw.Progression.Heart.2,"Należała do Leili, dziewczyny wychowanej przez ulicę. Zuchwalość pozwalała jej przetrwać, ale i sprowadziła ją na drogę występku.","Sokağın yetiştirdiği bir kız olan Leila'ya aitti. Küstahlığı onu hayatta tuttu, ama onu suç yoluna da sürükledi.",
+Flaw.Progression.Heart.3,"Należała do Szymona, młodziutkiego thaumaturga, nieświadomego swoich mocy. Pozbawiając go Skazy, dalem mu szansę na życie bez stygmy.","Güçlerinin farkında olmayan çok genç bir Tılsımkâr olan Szymon'a aitti. Kusurunu ondan alarak ona damgasız bir yaşam şansı verdim.",
+Flaw.Progression.Mind.1,"Należała do Danisa, tragicznie zakochanego Kozaka, który wciąż rzucał wyzwanie śmierci.","Trajik biçimde âşık olmuş bir Kazak olan Danis'e aitti; hep ölüme meydan okurdu.",
+Flaw.Progression.Mind.2,"Należała do Kajetana, malarza zwłok z Powiśla. Być może bez niej, odnajdzie w życiu jakiś sens.",Powiśle'li bir ceset ressamı olan Kajetan'a aitti. Belki onsuz hayatta bir anlam bulur.,
+Flaw.Progression.Mind.3,"Należała do mojego młodszego kuzyna, Pietii. Pozbawiony jej, powinien stanąć na wysokości zadania i wziąć odpowiedzialność za siebie i innych.","Küçük kuzenim Pietia'ya aitti. Ondan yoksun kalınca vazifesinin hakkını verip hem kendi hem de başkalarının sorumluluğunu alacaktır.",
+Flaw.Progression.Word.1,"Należała do Zofii Skałonówny. Bez niej, dziewczyna znajdzie wytchnienie od skandali. Mam taką nadzieję.","Zofia Skałonówna'ya aitti. Onsuz kız skandallardan biraz soluk alacak. Umudum bu.",
+Flaw.Progression.Word.2,"Należała do Edka i wpędzała go w coraz to nowe tarapaty. Czyniła go więźniem jego własnych kłamstw. Ale nigdy więcej.","Edek'e aitti; onu hep yeni dertlere soktu. Onu kendi yalanlarının mahkûmu yaptı. Ama artık asla.",
+Flaw.Progression.Word.3,"Należała do Włodzimierza, przeciwnika wszelkiej thaumaturgii. Być może, bez niej, będzie mu dane przejrzeć na oczy.",Her türlü Tılsımkârlığın düşmanı olan Włodzimierz'e aitti. Belki onsuz gözleri açılır.,
+Flaw.Progression.Deed.1_salutor,"Za tą Skazą, podąża Bukavac.",Bu Kusurun ardından Bukavac gelir.,
+Flaw.Progression.Deed.2_salutor,"Za tą Skazą, jak i za krwią Szulskich, podąża Golem.","Bu Kusurun ve Szulski kanının ardından Golem gelir.",
+Flaw.Progression.Heart.1_salutor,"Za tą Skazą, podąża Upyr.",Bu Kusurun ardından Upyr gelir.,
+Flaw.Progression.Heart.2_salutor,"Za tą Skazą, podąża Djinn.",Bu Kusurun ardından Djinn gelir.,
+Flaw.Progression.Mind.1_salutor,"Za tą Skazą, podąża Lelek.",Bu Kusurun ardından Lelek gelir.,
+Flaw.Progression.Mind.2_salutor,"Za tą Skazą, podąża Morana.",Bu Kusurun ardından Morana gelir.,
+Flaw.Progression.Word.1_salutor,"Za tą Skazą, podąża Weles.",Bu Kusurun ardından Weles gelir.,
+Flaw.Progression.Word.2_salutor,"Za tą Skazą, podąża Krampus.",Bu Kusurun ardından Krampus gelir.,
