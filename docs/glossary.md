@@ -46,6 +46,25 @@ Projede sabit tutulan terminoloji. Bir StringTable'da onaylanan terim, diğerler
 | Komitywa | Cemiyet | Devrimci grup adı |
 | Szeptucha | Bilge Kadın | Slav halk şifacısı (lafzen "fısıldayan") |
 
+## 12 Kusur İsimleri (Flaw_Name_ST) — PL / EN / TR
+
+Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + resmi EN + TR karşılıkları:
+
+| PL | EN (resmi) | TR | Boyut | Kaynak karakter |
+|---|---|---|---|---|
+| Duma | Pride | Kibir | Heart.1 | Wiktor |
+| Zuchwałość | Audacity | Küstahlık | Heart.2 | Leila |
+| Trwoga | Fright | Korku | Heart.3 | Szymon (Przerażenie=Dehşet ile ayrım) |
+| Porywczość | Vehemence | Hiddet | Deed.1 | Vesna |
+| Ambicja | Ambition | Hırs | Deed.2 | Wiktor'un kız kardeşi/Ligia |
+| Zawiść | Malice | Haset | Deed.3 | General-Vali Skałon |
+| Lekkomyślność | Recklessness | Düşüncesizlik | Mind.1 | Danis |
+| Zaniedbanie | Negligence | İhmal | Mind.2 | Kajetan |
+| Egoizm | Selfishness | Bencillik | Mind.3 | Pietia |
+| Intryganctwo | Scheming | Entrikacılık | Word.1 | Zofia Skałonówna |
+| Demagogia | Demagoguery | Demagoji | Word.2 | Edek |
+| Fanatyzm | Fanaticism | Fanatizm | Word.3 | Włodzimierz |
+
 ## Dört Boyut (Progression)
 
 | Polonya | Türkçe | Sembol/anlam |

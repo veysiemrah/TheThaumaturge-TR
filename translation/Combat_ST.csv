@@ -141,7 +141,7 @@ NeedRasputinActivationProgression,Dalszy rozwój Wymiaru jest niemożliwy aż do
 NoEffect,Nie wywiera efektu na celu.,Hedef üzerinde etki yok.,
 AbilityWeak,Osłabiona przez wpływ stanów celu.,Hedefin durumlarının etkisiyle zayıflatılmış.,
 Salutor,Salutor,Salutor,
-HealingDrawback,"Każde kolejne działanie przywracające [HP], będzie odnawiało ich mniej.",[HP] geri kazandıran her bir sonraki eylem daha az [HP] yeniler.,
+HealingDrawback,"Każde kolejne działanie przywracające [HP], będzie odnawiało ich mniej.",[HP] geri kazandıran her bir sonraki eylem öncekinden daha az yeniler.,"PL 1×[HP] ile simetrik; 'ich'→'öncekinden'"
 AbilityDescription_Hidden,Efekty tego działania zostały przed tobą zatajone.,Bu eylemin etkileri senden gizlendi.,
 AbilityName_Hidden,Zatajone działanie,Gizlenmiş eylem,
 AbilityDescription_ApplyPlayerDMG,Zadaje ci [DAMAGE],Sana [DAMAGE] verir,

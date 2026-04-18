@@ -20,7 +20,7 @@ Morana_02,"Zadaje 8x większe [DAMAGE] niż liczy brakujące [FOCUS] wroga. Przy
 Morana_03,"Przerywa zaplanowane działanie wroga.","Düşmanın planlanmış eylemini keser.",
 Morana_H,"Spowalnia zaplanowane działania wszystkich wrogów.","Tüm düşmanların planlanmış eylemlerini yavaşlatır.",
 Upyr_01,"Przywraca ci [HP] równe [GameplayEffect.Instant.Heal.Hp.Upyr], czyli połowę utraconych.","[GameplayEffect.Instant.Heal.Hp.Upyr] kadar, yani kaybedilenin yarısı kadar [HP]'ni yeniler.",
-Upyr_02,"[HP] celu decydują, jak duże [DAMAGE] zadaje ta umiejętność. Im więcej ich jest, tym zadawane [DAMAGE] będą większe.","Bu yeteneğin verdiği [DAMAGE]'i hedefin [HP]'si belirler. [HP] ne kadar çoksa verilen [DAMAGE] de o kadar büyük olur.",
+Upyr_02,"[HP] celu decydują, jak duże [DAMAGE] zadaje ta umiejętność. Im więcej ich jest, tym zadawane [DAMAGE] będą większe.","Hedefin [HP]'si bu yeteneğin verdiği [DAMAGE] miktarını belirler. Ne kadar çoksa, [DAMAGE] o kadar büyük olur.","PL 1×[HP] 2×[DAMAGE] ile simetrik"
 Upyr_03,"Uwalnia cię od negatywnych stanów.","Seni negatif durumlardan kurtarır.",
 Upyr_H,"Przywraca ci [HP] równe [GameplayEffect.Instant.Heal.Hp.Upyr], czyli połowie utraconych.","[GameplayEffect.Instant.Heal.Hp.Upyr] kadar, yani kaybedilenin yarısı kadar [HP]'ni yeniler.",
 Weles_01,"Daje 50% szans, że zadane [DAMAGE] będą potrojone.","Verilen [DAMAGE]'in üçe katlanması için %50 şans verir.",
