@@ -195,6 +195,16 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Prowodyr | Elebaşı | |
 | Łobuz | Külhanbeyi | |
 | Dryndziarz | Faytoncu | Dönem argo |
+| Cudotwórca | Mucizekâr | Rasputin lakabı; halk dili |
+| Lekarz | Hekim | Dönem tınısı; doktor yerine |
+| Rabin | rabbi | Yahudi din adamı (küçük harf ismi öncesi: ""rabbi Sofer"") |
+| Starosta | köy muhtarı | Slav köy reisi |
+| Brygadzista | Ustabaşı | Ekip şefi |
+| Lichwiarz | Tefeci | |
+| Carewicz | Çareviç | Rus veliaht prensi (Aleksy) |
+| Caryca | Çariçe | Rus imparatoriçesi |
+| Hrabina | Kontes | |
+| Syreni Gród | Denizkızı Şehri | Varşova lakabı (armada deniz kızı) |
 
 ## Silah Kategorisi Terimleri (AbilityName_ST)
 
