@@ -1,0 +1,12 @@
+Hash,NodeName,PL,TR,Notes
+22E8879A4080A201286939B7BFAE2043,CinematicNode_Choice_1,Podnieś ręce do góry.,Ellerini kaldır.,
+B5FC23B84CCB9EEB0B5D2E859717AC33,CinematicNode_Choice_1,Zapytaj dlaczego.,Nedenini sor.,
+9588752043854C2E4C236F9CE52EA67B,CinematicNode_Response_5,"Chyba powinienem cię aresztować, thaumaturgu.","Seni tutuklamam gerek galiba, tılsımkâr.",Wujek Woronin tanınmadan önce — şaka tehdidi
+758E80D446A8BD7E5B2A7BAC476030DD,CinematicNode_Response_6,"Nie zatrzymuję cię. Ligia jest tam pewnie sama wśród tych sępów, które się zleciały wokół Stasia.","Seni tutmuyorum. Ligia orada muhtemelen Stasio'nun etrafına üşüşen o akbabaların arasında yapayalnız.",
+53C550D3458578A4880EE1AF513B77FA,CinematicNode_Response_6,"Na pewno się ucieszy na twój widok. Leć, pogadamy później.","Seni görünce sevinir kesin. Koş, sonra konuşuruz.",
+2A7C78A24184D8A819899C9C2532638B,CinematicNode_Response_7,...,...,
+19F917914DA698FA2726BFBB73BB7C58,CinematicNode_Response_7,"Opuść ręce, jeszcze ktoś zobaczy.","İndir ellerini, biri görecek.",
+BEAA51D54918E1B3E09318B991BAC140,CinematicNode_Response_8,"Nic nie zrobiłem panie władzo, w czym problem?","Bir şey yapmadım beyim, sorun nedir?","'Panie władzo' = memur bey; Wiktor Wujek'i tanımadan resmî"
+E61D1F544522EFA016A0BCB8B4B61564,CinematicNode_Response_8,Ja też cię ledwo poznałem.,Ben de seni zar zor tanıdım.,
+E87D382A46EAD8374C843FA67FC8A378,CinematicNode_Response_9,"Wciąż nie wiesz, kim jestem? Nie dziwię się, ostatni raz widzieliśmy się dwadzieścia kilo temu...","Hâlâ kim olduğumu anlamadın mı? Şaşırmam, son kez yirmi küsur yıl önce görüşmüştük...","'dwadzieścia kilo' = yirmi küsur (argo kilo/yıl)"
+156E52534F9497965B2ABB974C68FB58,CinematicNode_Response_9,Wujek Woronin?,Wujek Woronin?,

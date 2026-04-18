@@ -1,0 +1,21 @@
+Hash,NodeName,PL,TR,Notes
+30E0060347FE5F33E39FCEB796E2782A,CinematicNode_Choice_1,"Powiedz, żeby się nie trudziła.",Zahmet etmesin de.,
+79560015472B94CDAAC032B6E47E3EF9,CinematicNode_Choice_1,"Powiedz, żeby zrobiła kakao dla Ligii.",Ligia'ya kakao yapmasını söyle.,
+F75D242E444C38FB5D931F9FE53AF412,CinematicNode_Response_10,"Pan Wiktor, tyle lat, tyle lat... Dobry Bóg, jaki panicz zmoknięty!","Pan Wiktor, nice yıl, nice yıl... Aman Tanrım, küçük efendim ne kadar ıslanmış!","Grażyna hizmetkâr — Wiktor'a 'panicz' (küçük efendi)"
+B80FF7F84D562F03E438498B7446EB5B,CinematicNode_Response_10,"Dobry wieczór, Grażynko.","İyi akşamlar, Grażynka.","Wiktor Grażyna'ya 'sen' + küçültme — sıcak"
+A779152C46F4E2C7345BC4B1F41995DF,CinematicNode_Response_10,"Dobry, dobry, ale mokry pan jest.","İyi akşamlar, iyi akşamlar, ama siz sırılsıklam olmuşsunuz.",
+8D19B0D04DB4D4D4D0CBADBF4893C3AB,CinematicNode_Response_10," Proszę do kuchni, przy piecu się panicz ogrzeje. I tego sędziego, pijaka, może stamtąd wyciągnie?"," Buyurun mutfağa, küçük efendim sobanın yanında ısınsın. Şu yargıç denen sarhoşu da belki oradan çıkarırsınız?",
+EFF61FBE4353F049DDD898A358CFDB79,CinematicNode_Response_10,A gdzie moja siostra?,Kız kardeşim nerede?,
+1331F0AF46FB8340213EC6A49E88A789,CinematicNode_Response_10,"W gabinecie, z notariuszem już czeka. Mówiła, że pan się spóźni. ","Çalışma odasında, noterle birlikte bekliyor. Geç kalacağınızı söylemişti. ",
+F9D840844A59DAD9FDB61C926DB6B3E7,CinematicNode_Response_13,Zrobić paniczowi kakao? Rozgrzałby się trochę.,Küçük efendime kakao yapayım mı? Biraz ısınırdı.,
+F3B1D2C9422FC6A3AE27C3B4C700D608,CinematicNode_Response_14,"Nie kłopocz się, Grażynko. Przywykłem do większych chłodów.","Zahmet etme Grażynka. Daha beter soğuklara alıştım.",
+67370A754F75C0433804BDB98C078192,CinematicNode_Response_15,Niech Grażynka zrobi takie tłuściutkie Ligii.,Grażynka o bol yağlı türden Ligia'ya yapıversin.,
+DB9BCD5148396727FE2405B6EF336F50,CinematicNode_Response_15,Dla niej też nie zabraknie.,Onun için de az kalmaz.,
+CF9A8C0042BFFE28460DDCB692BAD848,CinematicNode_Response_15,"Pana siostra to się nie przyzna do tego, ale bardzo przeżywa to wszystko.","Kız kardeşiniz bunu söylemez ama her şeyi çok ağır yaşıyor.",
+6D5C341344F6A96640CAE8B25E79E5FD,CinematicNode_Response_8,"Panienko, goście już są. Notariusz też czeka na górze. Nerwowy jakiś. Może mu za mocną tę herbatę zrobiłam?","Küçük hanım, konuklar geldi. Noter de yukarıda bekliyor. Biraz sinirli. Çayı fazla demli mi yaptım acaba?","'Panienko' = küçük hanım (Ligia'ya)"
+71FA3A0149BD9AD2A25FB78A491D5F6B,CinematicNode_Response_8,"Dziękuję, Grażynko, goście niech poczekają, najpierw chcę się zająć testamentem.","Teşekkür ederim Grażynka, konuklar biraz beklesin, önce vasiyetle ilgileneceğim.",
+10AD324940DEB72C767F00B3E444E57A,CinematicNode_Response_8,To ja tylko przepłuczę czymś gardło i dołączę na górze.,Ben boğazımı bir şeyle ıslatayım sonra yukarı gelirim.,
+FB9817324FED88CEA108CE86C9A61FE5,CinematicNode_Response_8,"Przypilnuj, żeby wujek trafił na górę trzeźwy. Sam też się może nie zasiedź.","Wujek'in yukarıya ayık varmasını kolla. Kendin de fazla oyalanma.",
+7E8E4A474D51FAB2015A538F62723EF7,CinematicNode_Response_8,"Panicz Wiktor! Dobry Boże, pół twarzy zasłonięte, ale ja od razu poznałam! Wygląda panicz jak pan Stanisław za młodu. Zupełnie taki sam.","Küçük efendi Wiktor! Tanrım, yüzünün yarısı örtük ama hemen tanıdım! Küçük efendi Pan Stanisław'ın gençliğine çekmiş. Tıpkı onun gibi.",
+D7EFA5F242D384BAFBA2488F81B5A6B9,CinematicNode_Response_9,Dobrze pana znowu widzieć.,Sizi yeniden görmek güzel.,
+4F6F2B1048E67663702EB1990158FE61,CinematicNode_Response_9,"Ale dłużej to ja teraz nie porozmawiam, bo i goście, i kakao, i państwu coś przygotować na później trzeba. Jeszcze porozmawiamy.","Ama şimdi daha fazla sohbet edemem — konuklar, kakao, bir de sizlere sonraya bir şeyler hazırlamak gerek. İleride dertleşiriz.",

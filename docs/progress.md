@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-18
+**Son güncelleme:** 2026-04-18 (q101 kalan story)
 
 ---
 
@@ -11,8 +11,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog** | 60 asset | 687 asset | %8.7 | ~1627 |
-| **GENEL** | — | — | — | **~3166 satır** |
+| **Diyalog** | 72 asset | 687 asset | %10.5 | ~1926 |
+| **GENEL** | — | — | — | **~3465 satır** |
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -100,9 +100,9 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | q001_08_before_confrontantion_chats | 3 | Luka'dan önce köylüler |
 | q001_09_traveler_chat | 2 | Albuquerque yolcusu boşta |
 
-### q101 — Hapishaneye ziyaret — 12/40
+### q101 — Babanın cenazesi + vasiyet — 24/40
 
-**Assets — 12/24 (~268 satır çevrildi)**
+**Assets — 24/24 ✓** (567 satır)
 
 | Blok | Asset | Satır | İçerik | Durum |
 |---|---|---|---|---|
@@ -116,12 +116,22 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | 01h | 1 | 15 | İşçi çığırtkan | ✓ |
 | 01k | 1 | 5 | Wanda kettling sonrası | ✓ |
 | 01m | 1 | 29 | Asker çavuşu konuşması | ✓ |
-| 02-bloğu (mezarlık) | ~6 | ? | Annesi mezarı, tanışmalar | ✗ |
-| 03-bloğu (vasiyet) | ~6 | ? | Vasiyet sahnesi | ✗ |
+| 02 | 1 | 26 | Mezarlık girişi (Konstancja gazeteci, kavgacı köylüler) | ✓ |
+| 02a | 1 | 21 | Ligia ile buluşma | ✓ |
+| 02b | 1 | 55 | Babanın mezarı (taziye ilanı + Konieczkin) | ✓ |
+| 02c | 1 | 39 | Mezarlıktan ayrılış (Konstancja vs Sędzia, Pietia tanışma) | ✓ |
+| 02d | 1 | 9 | Wujek Woronin mozolede tanışma | ✓ |
+| 02e | 1 | 7 | Wujek Woronin cenazede konuşma | ✓ |
+| 02f | 1 | 13 | Mordechaj Chajat taziye (kalp esprisi) | ✓ |
+| 03a | 1 | 20 | Grażyna karşılama | ✓ |
+| 03b | 1 | 46 | Vasiyet okuma (Kara Grimuar, Nadia dışlama) | ✓ |
+| 03e | 1 | 8 | Noter öncesi sabırsızlık | ✓ |
+| 03f | 1 | 48 | Woronin vasiyet öncesi (kehribar likörü) | ✓ |
+| 03g | 1 | 7 | Pietia vasiyet sonrası | ✓ |
 
 **Chats — 0/16 ✗**
 
-Hiçbir Chat asset'i çevrilmedi. q001 Chats tamamlandıktan sonra q101 Chats sıraya gelecek (dosya listesi `docs/dialog-assets.txt` → q101/Chats/).
+Hiçbir Chat asset'i çevrilmedi. Assets tamam; Chats sıraya geldi (dosya listesi `docs/dialog-assets.txt` → q101/Chats/).
 
 ### Ana story kalan — 0 çevrildi
 
@@ -178,13 +188,14 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 ## Öncelik sırası
 
 1. **q001 Chats** ✓ tamam
-2. **q101 kalan** (12 Assets + 16 Chats) — doğal devam
-3. **q102, q103, q104** — ana story ilerlemesi
-4. **q201-q401** — bölüm 2-4
-5. **sq001** (vizyon sekansları) — paralel olarak sokulabilir
-6. **lw_*** yan görevler — opsiyonel, en geç
-7. **Encounters, Global_chats, Diğer** — en geç
-8. **DebugText_ST** — opsiyonel, oyuncu görmez
+2. **q101 Assets** ✓ tamam (02 mezarlık + 03 vasiyet dahil)
+3. **q101 Chats** (16 asset) — NPC sokak sohbetleri
+4. **q102, q103, q104** — ana story ilerlemesi
+5. **q201-q401** — bölüm 2-4
+6. **sq001** (vizyon sekansları) — paralel olarak sokulabilir
+7. **lw_*** yan görevler — opsiyonel, en geç
+8. **Encounters, Global_chats, Diğer** — en geç
+9. **DebugText_ST** — opsiyonel, oyuncu görmez
 
 ---
 
