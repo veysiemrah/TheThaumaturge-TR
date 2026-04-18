@@ -214,17 +214,97 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 
 ---
 
-## Öncelik sırası
+## Diyalog dışı metin asset'leri (2026-04-18 keşfi)
 
-1. **q001** ✓ tamam (42/42)
-2. **q101** ✓ tamam (40/40)
-3. **q102** ✓ tamam (27/27)
-4. **q103** ✓ tamam (33/33)
-5. **q104, q201-q401** — ana story ilerlemesi
-6. **sq001** (39 asset) — Upyr vizyon sekansları
-7. **lw_*** yan görevler (~197) — opsiyonel, en geç
-8. **Encounters, Global_chats, Diğer** — en geç
-9. **DebugText_ST** — opsiyonel, oyuncu görmez
+Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen ek asset aileleri. Hepsi dialog asset formatıyla aynı base64 blob + hash+text çiftleri kullanıyor; `scripts/dialog_dump.ps1 -AllRawExports` ve `dialog_apply.ps1 -AllRawExports` ile direkt dump/apply edilebilir.
+
+### Readables — mektuplar, gazeteler, notlar, kitaplar
+
+**47 asset**, `GrimoireContent/Quests/Readables/` altında.
+- Alt dizinler: q001–q302, LivingWorld (lw_*), BZR, PP, SMC, SMG
+- İçerik: mektuplar (Ligia'dan Wiktor'a), Tyflis'te gazete (Herold Tyfilski), kitap sayfaları, aile mektupları, Proletariatis Brdzola propaganda yazısı
+- Örnek q001_readable: 16 satır (1 gazete kapak + 1 gazete makalesi + 4 mektup + 1 not başlığı)
+- **Tahmini 700–1200 satır** toplamda
+
+### Journal — görev günlüğü girdileri
+
+**91 asset**, `GrimoireContent/Quests/Journal/` altında.
+- Alt dizinler: q001–q401, sq001, lw_*, LW_Tailors, POI + **Codex** (aşağıda)
+- İçerik: Wiktor'un birinci tekil ağızdan quest özet cümleleri ("Jestem niemal u celu...", "Rasputin mnie uleczył...")
+- Örnek q001_journal: 37 satır (quest başlığı + tüm adım notları)
+- Quest başlığı + objective metinleri burada
+- **Tahmini 1800–2500 satır** toplamda
+
+### Codex DataTable'ları — aile/frakt/lokasyon/lore/salutor
+
+**5 asset**, `Quests/Journal/Codex/`:
+- `CodexCharactersDT` — karakter ensiklopedi girdileri (~300 satır)
+- `CodexFactionsDT` — hizipler
+- `CodexLocationsDT` — lokasyonlar
+- `CodexLoreDT` — hikâye/dünya lore
+- `CodexSalutorsDT` — salutor lore
+- **Tahmini 800–1500 satır** toplamda
+- Wiktor anlatıcı, edebî dilde; StringTable değil — Data Table formatında ama dialog pipeline çalışıyor
+
+### InsightsConclusions (İzler ve Çıkarımlar) — 39 asset
+
+**41 asset toplam** (2'si zaten çevrilmiş ST: ImprintsDescription_ST + FlawsPanel_Descriptions_ST).
+- `GrimoireContent/Quests/InsightsConclusions/` altında
+- İçerik: Eşya/nesne incelemelerinden çıkan İz metinleri ("Bu kadında Ambicja İzi görüyorum"), Çıkarım açıklamaları
+- Örnek IC_bzr01: 13 satır (eşya açıklamaları + İzler + Çıkarımlar)
+- **Tahmini 400–600 satır** toplamda
+
+### Vset — ortam NPC mırıltıları
+
+**508 asset**, `GrimoireContent/Quests/Vset/` altında.
+- BZR/PP/SMC/SMG/CM lokasyonları için atmosferik NPC replikleri
+- Her asset kısa: 2–8 satır (bar müşterisi, tezgâhtar, geçici NPC iç sesleri)
+- Örnek bzr_vset_bar_client_f_01: 3 satır ("Spokojnie tu, lubię tu bywać.")
+- **Tahmini 1500–4000 satır** toplamda
+- Öncelik: düşük (oyun atmosferi, ana akış değil)
+
+### ImprintsDescription_DT — 1 asset
+
+`Quests/InsightsConclusions/ImprintsDescription_DT.uasset` (InsightsConclusions'ın DT varyantı, StringTable'a ek). ImprintsDescription_ST ile eşleşen/tamamlayan metinler olabilir — incelenmeli.
+
+---
+
+## Genel toplam (tahmin)
+
+| Kategori | Asset | Satır (tahmini) |
+|---|---|---|
+| StringTable | 27 | ~1540 (1 kaldı — DebugText) |
+| Dialog (ana+chat) | 687 | 50K–70K (60 çevrildi) |
+| Readables | 47 | ~700–1200 |
+| Journal | 91 | ~1800–2500 |
+| Codex DT | 5 | ~800–1500 |
+| InsightsConclusions | 39 | ~400–600 |
+| Vset | 508 | ~1500–4000 |
+| **TOPLAM ek** | **~690 asset** | **~5200–9800 satır** |
+
+Yani mevcut diyalog 60/687 + StringTable 26/27'ye ek olarak **yaklaşık 690 metin-asset** daha var. Bu metinler **zaten mevcut dialog pipeline ile** çevrilebilir (format aynı).
+
+---
+
+## Öncelik sırası (güncellendi)
+
+**Yüksek öncelik (hikâye ve bilgi):**
+1. ~~q001~~ ✓ (42/42)
+2. ~~q101~~ ✓ (40/40)
+3. ~~q102~~ ✓ (27/27)
+4. ~~q103~~ ✓ (33/33)
+5. **Journal** (91 asset) — görev başlıkları + günlük — UI'da direkt görülür
+6. **Codex DT** (5 asset) — karakter/lokasyon/lore ansiklopedisi
+7. **Readables** (47 asset) — mektuplar, gazeteler
+8. **q104, q201-q401** — ana story ilerlemesi
+9. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları
+10. **sq001** (39 asset) — Upyr vizyonları
+
+**Düşük öncelik:**
+11. **lw_*** yan görevler (~197 diyalog) + ilgili Readable/Journal/IC
+12. **Vset** (508 asset) — atmosferik NPC mırıltıları
+13. **GenericEncounters, Global_chats, Diğer** (~85)
+14. **DebugText_ST** — oyuncu görmez
 
 ---
 
@@ -237,4 +317,6 @@ Her çeviri seti commit'inden sonra:
 3. İlgili bölüm tablosuna yeni asset satırlarını ekle ✓ ile
 4. CLAUDE.md "Proje durumu" özetini güncelle (bu dosyaya link verir)
 
-Manifest referansı: `docs/dialog-assets.txt` (687 asset, statik).
+Manifest referansları:
+- `docs/dialog-assets.txt` — 687 dialog asset (statik)
+- Readable/Journal/Codex/IC/Vset — `build/audit_content/TheThaumaturge/Content/GrimoireContent/Quests/` altında extract'lı
