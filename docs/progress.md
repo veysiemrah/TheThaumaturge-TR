@@ -231,19 +231,25 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 **91 asset**, `GrimoireContent/Quests/Journal/` altında.
 - Alt dizinler: q001–q401, sq001, lw_*, LW_Tailors, POI + **Codex** (aşağıda)
 - İçerik: Wiktor'un birinci tekil ağızdan quest özet cümleleri ("Jestem niemal u celu...", "Rasputin mnie uleczył...")
-- Örnek q001_journal: 37 satır (quest başlığı + tüm adım notları)
-- Quest başlığı + objective metinleri burada
-- **Tahmini 1800–2500 satır** toplamda
+- **Ölçüldü:** Tümü dump'lı, **1327 satır** toplamda
+- Kırılım:
+  - Ana story (q001–q302 + sq001): **25 asset / 385 satır**
+  - LW quest journals (lw_bzr01 ... lw_smg04 + Tailor): **14 asset / 242 satır**
+  - POI journals: **27 asset / 135 satır** (her biri ~5 satır)
+  - Postcards (POI kartpostalları): **17 asset / 68 satır** (her biri 4 satır)
+  - Codex DataTable (aşağıda): 5 asset / 497 satır
+- Source CSV'leri `source/pl/*_journal.csv` + `source/pl/Codex*.csv` + `source/pl/lw_POI_*.csv` altında hazır
+- JSON'lar `build/journal_json/` altında (git'e girmez)
 
 ### Codex DataTable'ları — aile/frakt/lokasyon/lore/salutor
 
-**5 asset**, `Quests/Journal/Codex/`:
-- `CodexCharactersDT` — karakter ensiklopedi girdileri (~300 satır)
-- `CodexFactionsDT` — hizipler
-- `CodexLocationsDT` — lokasyonlar
-- `CodexLoreDT` — hikâye/dünya lore
-- `CodexSalutorsDT` — salutor lore
-- **Tahmini 800–1500 satır** toplamda
+**5 asset**, `Quests/Journal/Codex/` (Journal'ın alt-klasörü):
+- `CodexCharactersDT` — 305 satır (karakter ansiklopedisi)
+- `CodexFactionsDT` — 35 satır (hizipler)
+- `CodexLocationsDT` — 75 satır (lokasyonlar)
+- `CodexLoreDT` — 34 satır (dünya lore)
+- `CodexSalutorsDT` — 48 satır (salutor'lar)
+- **Toplam: 497 satır** (ölçüldü)
 - Wiktor anlatıcı, edebî dilde; StringTable değil — Data Table formatında ama dialog pipeline çalışıyor
 
 ### InsightsConclusions (İzler ve Çıkarımlar) — 39 asset
@@ -269,20 +275,20 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 
 ---
 
-## Genel toplam (tahmin)
+## Genel toplam
 
-| Kategori | Asset | Satır (tahmini) |
-|---|---|---|
-| StringTable | 27 | ~1540 (1 kaldı — DebugText) |
-| Dialog (ana+chat) | 687 | 50K–70K (60 çevrildi) |
-| Readables | 47 | ~700–1200 |
-| Journal | 91 | ~1800–2500 |
-| Codex DT | 5 | ~800–1500 |
-| InsightsConclusions | 39 | ~400–600 |
-| Vset | 508 | ~1500–4000 |
-| **TOPLAM ek** | **~690 asset** | **~5200–9800 satır** |
+| Kategori | Asset | Satır | Durum |
+|---|---|---|---|
+| StringTable | 27 | ~1540 | 26 ✓, 1 kaldı (DebugText) |
+| Dialog (ana+chat) | 687 | 50K–70K | 148 ✓ (3810 satır) |
+| Readables | 47 | ~700–1200 (tahmini) | ✗ |
+| Journal | 86 | **830** (ölçüldü, Codex hariç) | ✗ — source CSV hazır |
+| Codex DT | 5 | **497** (ölçüldü) | ✗ — source CSV hazır |
+| InsightsConclusions | 39 | ~400–600 (tahmini) | ✗ |
+| Vset | 508 | ~1500–4000 (tahmini) | ✗ |
+| **Ek toplam** | **~685 asset** | **~5000–9500 satır** | ~10% ölçüldü |
 
-Yani mevcut diyalog 60/687 + StringTable 26/27'ye ek olarak **yaklaşık 690 metin-asset** daha var. Bu metinler **zaten mevcut dialog pipeline ile** çevrilebilir (format aynı).
+Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 
 ---
 
@@ -320,3 +326,31 @@ Her çeviri seti commit'inden sonra:
 Manifest referansları:
 - `docs/dialog-assets.txt` — 687 dialog asset (statik)
 - Readable/Journal/Codex/IC/Vset — `build/audit_content/TheThaumaturge/Content/GrimoireContent/Quests/` altında extract'lı
+
+---
+
+## Bir sonraki oturum için hazırlık (2026-04-18 akşamı)
+
+**Yapılmış keşif:**
+- Journal 91 asset tamamen dump'lı, `source/pl/` altında 91 CSV hazır
+- JSON'lar `build/journal_json/` altında (git dışı ama lokal var)
+- Toplam 1327 satır ölçüldü
+
+**İlk yapılacak çeviri (öncelik sırasıyla):**
+1. Ana story Journal (25 asset / 385 satır) — q001, q101, q102a/b, q103, q103b, q104, q201, q201b/c, q202a/b/c, q203/b/c, q301a/b/c/d, q302a/b/c/d, sq001
+2. Codex DataTable (5 asset / 497 satır) — karakter/frakt/lokasyon/lore/salutor
+3. LW Journal (14 asset / 242 satır)
+4. POI Journal + Postcards (44 asset / 203 satır)
+
+**Pipeline:** Her journal için `translation/<name>.csv` yaz (Hash,NodeName,PL,TR,Notes); sonra `dialog_apply -AllRawExports` → `UAssetGUI fromjson` → staging/journal altına. `retoc to-zen` ile mevcut mod pak'a ekle.
+
+**Kritik not:** Journal dosyaları `Quests/Journal/<quest>/<name>.uasset` yolunda. Staging yolu orijinali koruyacak. Codex DT'ler `Quests/Journal/Codex/` altında.
+
+**Bootstrap için:**
+```powershell
+# Ana story journal'dan başlamak istersen:
+ls source/pl/q*_journal.csv       # 25 dosya
+ls source/pl/Codex*.csv           # 5 dosya
+ls source/pl/lw_*_journal.csv     # 14 dosya
+ls source/pl/lw_POI_*.csv         # 47 dosya (POI + Postcards)
+```
