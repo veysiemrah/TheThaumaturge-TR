@@ -169,6 +169,8 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 
 ## Proje durumu (en son)
 
+**Review tam kapandı (2026-04-18):** StringTable 26/26 + Default_dialogues 6/6 + q001 prolog 28/28 + q101 01-bloğu 12/12. Detaylı günlük: `docs/translation-review.md` → Bölüm 7. Bu turda 28 düzeltme deploy'lu; kullanıcı kararı bekleyen nokta kalmadı (tek istisna: `ImprintsDescription_ST Maria_Palaczka` — kullanıcı oyunda görünce netleşecek).
+
 ### Çevirilmiş StringTable'lar (26 adet / ~1539 entry)
 
 | Dosya | Entry | Notlar |
