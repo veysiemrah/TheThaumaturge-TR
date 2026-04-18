@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-18 (q101 Chats)
+**Son güncelleme:** 2026-04-18 (q102)
 
 ---
 
@@ -11,8 +11,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog** | 88 asset | 687 asset | %12.8 | ~1995 |
-| **GENEL** | — | — | — | **~3534 satır** |
+| **Diyalog** | 115 asset | 687 asset | %16.7 | ~2810 |
+| **GENEL** | — | — | — | **~4349 satır** |
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -150,11 +150,23 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | q101_03d_ligia_with_notary_chat | 1 | Ligia başlama çağrısı |
 | q101_ligia_and_woronin_chat | 7 | Ligia + Wujek özel konuşma |
 
-### Ana story kalan — 0 çevrildi
+### q102 — Lelek yakalama — 27/27 ✓ (856 satır)
+
+| Blok | Asset | Satır | İçerik |
+|---|---|---|---|
+| 00b–d | 3 | 173 | Ligia grimuar hakkında + yatak odası (sigara, Swietłana) + Grażyna mutfak |
+| 01a | 1 | 6 | Wiktor'un kaçırılması |
+| 02a–d | 4 | 226 | London Bar'da Abaurycy yüzleşmesi + Kazaklar + Lelek ipuçları |
+| 03b | 1 | 34 | Kazaklarla sokakta |
+| 04a | 1 | 96 | Art Bar — Abaurycy'nin şair yönü, Kusur keşfi |
+| 05_a–g | 9 | 184 | Side Bar — Danis + Kazaklar + Rus ruleti + Lelek yakalama |
+| 06a | 1 | 53 | Ertesi sabah — Ligia + Abaurycy + borç |
+| Chats | 8 | 36 | NPC sokak sohbetleri (Abaurycy bar, bouncer, Kazaklar vb.) |
+
+### Ana story kalan
 
 | Quest | Assets | Chats | Toplam | Açıklama |
 |---|---|---|---|---|
-| q102 | 19 | 8 | 27 | Lelek yakalama |
 | q103 | 21 | 12 | 33 | Weles/Hotel Imperialny |
 | q104 | 30 | 30 | 60 | ? (en yoğun blok) |
 | q201 | 10 | 14 | 24 | Bölüm 2 başlangıç |
@@ -164,7 +176,7 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | q301 | 18 | 18 | 36 | Bölüm 3 |
 | q302 | 15 | 12 | 27 | |
 | q401 | 7 | — | 7 | Bölüm 4 finali |
-| **Toplam** | 159 | 119 | **278** | |
+| **Toplam** | 140 | 111 | **251** | |
 
 ### Sq001 — Upyr vizyon sekansları — 0/39 ✗
 
@@ -206,7 +218,7 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 
 1. **q001** ✓ tamam (42/42)
 2. **q101** ✓ tamam (40/40)
-3. **q102** (27 asset) — Lelek yakalama
+3. **q102** ✓ tamam (27/27)
 4. **q103** (33 asset) — Weles / Hotel Imperialny
 5. **q104, q201-q401** — ana story ilerlemesi
 6. **sq001** (39 asset) — Upyr vizyon sekansları
