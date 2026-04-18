@@ -13,7 +13,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog** | 148 asset | 687 asset | %21.5 | ~3810 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
-| **GENEL** | — | — | — | **~5735 satır** |
+| **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
+| **GENEL** | — | — | — | **~6232 satır** |
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -337,11 +338,13 @@ Manifest referansları:
 - JSON'lar `build/journal_json/` altında (git dışı ama lokal var)
 - Toplam 1327 satır ölçüldü
 
-**Yapılan:** Ana story Journal 25/25 ✓ (386 satır, 2026-04-18)
+**Yapılan:**
+- Ana story Journal 25/25 ✓ (386 satır, 2026-04-18)
+- Codex DT 5/5 ✓ (497 satır, 2026-04-19)
 
 **İlk yapılacak çeviri (öncelik sırasıyla):**
 1. ~~Ana story Journal (25 asset / 385 satır)~~ ✓ TAMAM
-2. Codex DataTable (5 asset / 497 satır) — karakter/frakt/lokasyon/lore/salutor
+2. ~~Codex DataTable (5 asset / 497 satır)~~ ✓ TAMAM
 3. LW Journal (14 asset / 242 satır)
 4. POI Journal + Postcards (44 asset / 203 satır)
 
