@@ -1,0 +1,30 @@
+Hash,NodeName,PL,TR,Notes
+1258B30D43C8AAE0EFE02BB443B7B9C3,CinematicNode_Choice_2,Przedstaw się.,Kendini tanıt.,
+67CFC3F04B33F7E9DE16EAA084930DE0,CinematicNode_Choice_2,"Powiedz, że ci się śpieszy.",Acelen olduğunu söyle.,
+6A589F37484A6A57D52B1381F8524512,CinematicNode_Choice_2,Odejdź.,Uzaklaş.,
+BB44272F4F179F526B7D9FABD6862E23,CinematicNode_Choice_3,Odgryź się.,Alay et.,
+EB7C96224DBD44FD22059C87275088AE,CinematicNode_Choice_3,"Poproś, żeby cię wpuściła.",İçeri almasını rica et.,
+43D868B64A4136AFF355658F3ABEFC64,CinematicNode_Choice_3,Odejdź.,Uzaklaş.,
+49854FE44ED729F2D8B6C0BE12D85BAA,CinematicNode_Response_20,Słucham pana?,Buyurun beyefendi?,Aniela hizmetkâr
+74847FED4C83EF4AD3B62C8A15EE6A4F,CinematicNode_Response_21,Czy to jest odpowiednia pora na odwiedziny?,Ziyaret için uygun bir saat mi sizce?,
+6B96355D417482601A0CBFB77008F367,CinematicNode_Response_21,Co się dzieje?,Ne oluyor?,
+5F6C8C494F8CDA514CE7C1B74CFFA9BB,CinematicNode_Response_22,"Proszę mnie wpuścić, to pilne.",İçeri alın lütfen; acil bir durum.,
+1737683A4786E6857C8FDE9C76471236,CinematicNode_Response_23,Nazywam się Wiktor Szulski.,Adım Wiktor Szulski.,
+7E7E327B4F5923BBAA1B7CB2BA26B8F7,CinematicNode_Response_24,"Państwo już pospali. Rano pan wróci, jak przyzwoici ludzie robią.","Ev sahipleri uyudular. Sabahleyin gelin, efendim; düzgün insanlar öyle yapar.",
+795C1915438D9C393D95DB83B94F4574,CinematicNode_Response_25,Tak bez anonsu? Co ja mojemu państwu powiem?,Haber vermeden mi? Efendilerime ne söyleyeyim?,
+9F63EF0246613E39969797BAD0CCE8A4,CinematicNode_Response_26,"Bez obaw, ja do Rasputina.","Endişelenmeyin, ben Rasputin'e geldim.",
+29DE5295451B4B84B73808A162F7953D,CinematicNode_Response_27,"<i>Przeczuwam</>, że przebywa w saloniku.",Salonda olduğunu <i>hissediyorum</>.,
+DCE653154ECF86DF1B9F45988AB4269E,CinematicNode_Response_28,"Grigorij Rasputin powiedział, że mogę go tu znaleźć.",Grigorij Rasputin onu burada bulabileceğimi söyledi.,
+2B9AFBBA451AC6518E0166A20897744A,CinematicNode_Response_29,Pan Gburski.,Pan Gburski.,Aniela yanlış isim — 'gbur' = kaba
+997075C443FB0B2AD95ECC8D511CD57C,CinematicNode_Response_30,Chyba wrócę później.,Sanırım sonra döneyim.,
+5C7C14004F894F635C7E81B51EE5F224,CinematicNode_Response_31,Najlepiej za dnia.,En iyisi gündüzleyin.,
+A51390FD460EEEF2BA6F5FBE1B187504,CinematicNode_Response_32,Do widzenia.,Hoşça kalın.,
+74D68D3B4635130703E73C8C4C9D9D63,CinematicNode_Response_33,Pan Szulski.,Pan Szulski.,
+4ADB368342B16A774BEBB18F8B1A3C5E,CinematicNode_Response_34,"Pan się wykończy, jak po nocy spać nie zacznie.","Geceleri uyumamaya başlarsanız kendinizi tüketirsiniz.",
+9923F26E4423FEA1903591A192961EEF,CinematicNode_Response_34,Ja do Rasputina.,Ben Rasputin'e geldim.,
+2DDAB01E4EF5DBC3086BBE8F47DBAF47,CinematicNode_Response_35,Zastałem Rasputina?,Rasputin evde mi?,
+7E20B58840E946734F619B9559302544,CinematicNode_Response_36,Z pani też żadna jutrzenka. Jest Rasputin?,Siz de pek sabah yıldızı değilsiniz. Rasputin burada mı?,Wiktor sataşır
+0D20661041FB8E0035AFC4B558A7AF5D,CinematicNode_Response_37,Niestety tak.,Maalesef evet.,
+D95EE3A24874578D7DE2ED91A4B1637E,CinematicNode_Response_38,"Proszę wybaczyć moje wcześniejsze zachowanie, nie byłem sobą.","Önceki davranışımı bağışlayın, kendimde değildim.",
+DB4216A44F9AA693429824AF798CD525,CinematicNode_Response_38,"Do Rasputina, tak? Proszę.","Rasputin'e mi, öyle mi? Buyurun.",
+299ACF3842A1AFDA97145791F7BD3127,CinematicNode_Response_39,Pan <i>Szujski</>.,Pan <i>Szujski</>.,Aniela yanlış isim tekrar

@@ -1,0 +1,22 @@
+Hash,NodeName,PL,TR,Notes
+E1FD4A354FBF78AC18998BA7100E4AAB,CinematicNode_Choice_1,"Zapytaj, czemu dzwoni.",Neden aradığını sor.,
+997F293E4AA445488262948A1AFC5FAC,CinematicNode_Choice_1,"Dowiedz się, skąd ma twój numer.",Numarını nereden aldığını öğren.,
+5E1C8E06456FC5AA8F01C4B1B5EC6B0C,CinematicNode_Choice_1,"Zwróć uwagę, że jest późno.",Geç saat olduğuna dikkat çek.,
+B66603FF45F93031AF783DA3CBC7334C,CinematicNode_Response_10,"Tak, to niesamowity wynalazek. Jest też trochę późno.","Evet, muhteşem bir icat. Saat de biraz geç.",
+BC7AFEA746554CC3D3834F805F697A67,CinematicNode_Response_11,"Wiktor, odbierz! Wiem, że tam jesteś.","Wiktor, aç! Orada olduğunu biliyorum.",
+C15548AE44DD2B8D7925728EA8EB93AA,CinematicNode_Response_6,Słucham?,Alo?,
+68C0A9884F08FEDED62612A43CAB9EF7,CinematicNode_Response_6,"Tutaj mówię...? Słyszy mnie teraz? Wiktor? Wiktor, jesteś tam?",Buradan konuşuyorum...? Duyuyor musun şimdi? Wiktor? Wiktor orada mısın?,Rasputin telefon bilmez
+B52B176E4DF126F87B3A3CABAC48944A,CinematicNode_Response_6,Grigorij? Tak...,Grigorij? Evet...,Rasputin'in adı Grigorij
+0AF866984B5C2FE8297101B706B7FB51,CinematicNode_Response_6,Wiktor? Gdzie jesteś?,Wiktor? Neredesin?,
+70246624402BF36719B9D69EF9A9A173,CinematicNode_Response_6,Po drugiej stronie drutu. W domu. Gdzie zadzwonił telefon.,Telin öbür ucunda. Evdeyim. Telefonun çaldığı yerde.,
+7ADC74C144DBDEF8F8F560BE5FBE1B32,CinematicNode_Response_6,Niesamowite...,Muhteşem...,
+2167A24D45CC420F4C43E987D4520013,CinematicNode_Response_7,Coś się stało?,Bir şey mi oldu?,
+5EDD25AD43DBCC0BD4679B849237F238,CinematicNode_Response_7,U mnie? Nie.,Bende mi? Yok.,
+0B504B374D689E3260271C9BA579601B,CinematicNode_Response_8,"Skąd wiedziałeś, że mam telefon w domu?",Evde telefonum olduğunu nereden bildin?,
+A1A4513F446BAA494741E6ADA409A134,CinematicNode_Response_8,Coś cię przerywa... Wiktor.,Sesin kesiliyor... Wiktor.,
+818FA4284D764C4B1A0012B1B5AE7498,CinematicNode_Response_9,"Telekomunikuję się z tobą, żeby ci powiedzieć, że znalazłem sobie przystań, tu, w Warszawie.","Seninle telekomünike oluyorum ki söyleyeyim, kendime burada, Varşova'da bir sığınak buldum.","Rasputin 'telekomünike' diye abartılı kullanır — aynen korudum"
+4D2846264A99F71A1B72D1B355BE3F4B,CinematicNode_Response_9,"Gdybyś mnie potrzebował.",Bana ihtiyacın olursa diye.,
+79464F274C63F927D11268B1446938A3,CinematicNode_Response_9,"Jestem przy cmentarzu... Który to numer? Tak, tak... Powązkowska siedem. Numer siódmy, przy cmentarzu. Powązkowska.","Mezarlığın yanındayım... Numara neydi? Evet evet... Powązkowska yedi. Yedi numara, mezarlığın yanında. Powązkowska.","Powązkowska sokak adı; Powązki mezarlığı glossary'de"
+072CB0874D0750380AB090A128C0E0C7,CinematicNode_Response_9,Cieszę się. Dobrze cię słyszeć.,Sevindim. Sesini duymak güzel.,
+5621460A4313BDF52760F094979B7641,CinematicNode_Response_9,Ciebie też dobrze słychać. Do zobaczenia.,Seni de duymak güzel. Görüşürüz.,
+D25ADBD34DFD1AA909A323BF9FF08AF8,CinematicNode_Response_9,Chcę już kończyć. Co teraz...? W ten sposób? Wspaniały aparat. Niesamowity. Słucham...? O. A teraz...?,Kapatmak istiyorum artık. Şimdi ne yapmalı...? Böyle mi? Muhteşem alet. Olağanüstü. Alo...? Ha. Peki şimdi...?,

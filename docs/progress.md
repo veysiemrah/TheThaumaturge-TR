@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-18 (q102)
+**Son güncelleme:** 2026-04-18 (q103)
 
 ---
 
@@ -11,8 +11,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog** | 115 asset | 687 asset | %16.7 | ~2810 |
-| **GENEL** | — | — | — | **~4349 satır** |
+| **Diyalog** | 148 asset | 687 asset | %21.5 | ~3810 |
+| **GENEL** | — | — | — | **~5349 satır** |
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -167,7 +167,7 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 
 | Quest | Assets | Chats | Toplam | Açıklama |
 |---|---|---|---|---|
-| q103 | 21 | 12 | 33 | Weles/Hotel Imperialny |
+| ~~q103~~ | ~~21~~ | ~~12~~ | ~~33~~ | Weles/Hotel Imperialny ✓ tamam |
 | q104 | 30 | 30 | 60 | ? (en yoğun blok) |
 | q201 | 10 | 14 | 24 | Bölüm 2 başlangıç |
 | q201b | 9 | 14 | 23 | q201 varyant |
@@ -219,7 +219,7 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 1. **q001** ✓ tamam (42/42)
 2. **q101** ✓ tamam (40/40)
 3. **q102** ✓ tamam (27/27)
-4. **q103** (33 asset) — Weles / Hotel Imperialny
+4. **q103** ✓ tamam (33/33)
 5. **q104, q201-q401** — ana story ilerlemesi
 6. **sq001** (39 asset) — Upyr vizyon sekansları
 7. **lw_*** yan görevler (~197) — opsiyonel, en geç
