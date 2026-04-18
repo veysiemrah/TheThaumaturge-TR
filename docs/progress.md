@@ -345,13 +345,18 @@ Manifest referansları:
 - Codex DT 5/5 ✓ (497 satır, 2026-04-19)
 - LW Journal 14/14 ✓ (242 satır, 2026-04-19)
 - POI Journal + Postcards 47/47 ✓ (212 satır, 2026-04-19) — **Journal kategorisi %100 tamam**
+- Readables 47/47 dump'landı (1989 satır, 2026-04-19) — `source/pl_readables/` hazır
 
 **İlk yapılacak çeviri (öncelik sırasıyla):**
 1. ~~Ana story Journal (25 asset / 385 satır)~~ ✓ TAMAM
 2. ~~Codex DataTable (5 asset / 497 satır)~~ ✓ TAMAM
 3. ~~LW Journal (14 asset / 242 satır)~~ ✓ TAMAM
 4. ~~POI Journal + Postcards (47 asset / 212 satır)~~ ✓ TAMAM
-5. Readables (47 asset / ~700-1200 satır) — mektuplar, gazeteler, kitaplar
+5. **Readables (47 asset / 1989 satır)** — source'lar hazır, çeviri bekliyor
+   - Ana story quest (q001-q302) = 12 asset / ~810 satır
+   - LW bölge = 14 asset / ~420 satır
+   - POI + fluff = 12 asset / ~620 satır
+   - Ortam (BZR/PP/SMC/SMG/Tailor) = 5 asset / ~104 satır
 6. q104-q401 ana story dialog
 7. sq001 dialog (39 asset) — Upyr vizyonları
 
