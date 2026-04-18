@@ -14,7 +14,8 @@
 param(
     [Parameter(Mandatory=$true)][string] $JsonPath,
     [Parameter(Mandatory=$true)][string] $CsvPath,
-    [Parameter(Mandatory=$true)][string] $OutJsonPath
+    [Parameter(Mandatory=$true)][string] $OutJsonPath,
+    [switch] $AllRawExports
 )
 
 function Write-FString {
@@ -53,7 +54,7 @@ $totalMissing = 0
 
 foreach ($exp in $exports) {
     $name = $exp.ObjectName
-    if ($name -notmatch '^CinematicNode_(Choice|Response)') { continue }
+    if (-not $AllRawExports -and $name -notmatch '^CinematicNode_(Choice|Response)') { continue }
     $data = [Convert]::FromBase64String($exp.Data)
 
     # Her hash-text çiftinin konumunu bul (sonra tersten replace edeceğiz ki offset'ler karışmasın)

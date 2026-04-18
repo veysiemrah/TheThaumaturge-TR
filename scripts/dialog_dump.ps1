@@ -7,7 +7,8 @@
 param(
     [Parameter(Mandatory=$true)][string] $JsonPath,
     [string] $CsvPath = $null,
-    [switch] $SkipNumericTexts
+    [switch] $SkipNumericTexts,
+    [switch] $AllRawExports
 )
 
 $json = Get-Content $JsonPath -Raw | ConvertFrom-Json -Depth 50
@@ -18,8 +19,9 @@ $seenHashes = New-Object System.Collections.Generic.HashSet[string]
 
 foreach ($exp in $exports) {
     $name = $exp.ObjectName
-    # Metin sadece CinematicNode_* export'larında beklenir
-    if ($name -notmatch '^CinematicNode_(Choice|Response)') { continue }
+    # Varsayılan: sadece CinematicNode_* export'ları (dialogue graph asset'leri).
+    # Chat asset'leri (GameplayChat) tek export'ludur, adı asset adıdır — o durumda -AllRawExports kullan.
+    if (-not $AllRawExports -and $name -notmatch '^CinematicNode_(Choice|Response)') { continue }
     $data = [Convert]::FromBase64String($exp.Data)
 
     for ($pos = 0; $pos -lt $data.Length - 37; $pos++) {
