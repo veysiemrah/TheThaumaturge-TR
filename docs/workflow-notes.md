@@ -171,16 +171,15 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 
 **Tam ilerleme çizelgesi:** `docs/progress.md` — kanonik kayıt. Kategori/bölüm bazında asset/satır sayıları, ✓/✗ işaretli. Her çeviri seti sonrası önce orası güncellenir.
 
-### Hızlı özet (2026-04-18)
+### Hızlı özet (2026-04-19)
 
 - **StringTable:** 26/27 ✓ (~1539 entry). Kalan: `DebugText_ST` (opsiyonel, oyuncu görmez).
-- **Diyalog:** 60/687 asset ✓ (~1627 satır):
-  - Default_dialogues 6/6 ✓
-  - q001 prolog Assets 28/28 ✓
-  - q001 Chats 14/14 ✓
-  - q101 01-bloğu Assets 12/24
+- **Diyalog:** 148/687 asset ✓ (~3810 satır) — Bölüm 1 (q001-q103) + Default + Chat.
+- **Journal:** 91/91 ✓ (%100) — ana story 25 + LW 14 + POI/Postcards 47 + Codex DT 5; ~1337 satır.
+- **Readables:** 15/47 ✓ (ana story quest q001-q302, ~811 satır). Kalan 32 asset / ~1178 satır; source'lar `source/pl_readables/` hazır.
 - **Review:** Tam kapalı (2026-04-18); 28 düzeltme deploy'lu. Günlük: `docs/translation-review.md` → Bölüm 7.
 - **Deploy'lu mod pak:** `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
+- **Sıradaki iş:** Readables (LW + POI + ortam = 32 asset), sonra q104+ dialog ve sq001. Detay: `docs/progress.md`.
 
 ### StringTable byte layout'u (doğrulandı)
 

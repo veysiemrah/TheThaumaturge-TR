@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-18 (ana story Journal 25/25 ✓)
+**Son güncelleme:** 2026-04-19 (ana story Readables 15/47 ✓; Journal tümü + Codex tümü tamam)
 
 ---
 
@@ -18,6 +18,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables (ana story)** | 15 asset | 47 asset | %32 | ~811 |
 | **GENEL** | — | — | — | **~7497 satır** |
+
+**Journal kategorisi %100 tamam** (91/91 asset). Codex DT %100 tamam.
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -334,40 +336,88 @@ Manifest referansları:
 
 ---
 
-## Bir sonraki oturum için hazırlık (2026-04-18 akşamı)
+## Bir sonraki oturum için hazırlık (2026-04-19 akşamı)
 
-**Yapılmış keşif:**
-- Journal 91 asset tamamen dump'lı, `source/pl/` altında 91 CSV hazır
-- JSON'lar `build/journal_json/` altında (git dışı ama lokal var)
-- Toplam 1327 satır ölçüldü
+**Yapılan (2026-04-18/19):**
+- Ana story Journal 25/25 ✓ (386 satır)
+- Codex DT 5/5 ✓ (497 satır) — %100
+- LW Journal 14/14 ✓ (242 satır) — %100
+- POI Journal + Postcards 47/47 ✓ (212 satır) — %100 — **Journal kategorisi tamam**
+- Readables 47/47 dump'landı (1989 satır, `source/pl_readables/`)
+- Ana story Readables 15/47 ✓ (~811 satır)
 
-**Yapılan:**
-- Ana story Journal 25/25 ✓ (386 satır, 2026-04-18)
-- Codex DT 5/5 ✓ (497 satır, 2026-04-19)
-- LW Journal 14/14 ✓ (242 satır, 2026-04-19)
-- POI Journal + Postcards 47/47 ✓ (212 satır, 2026-04-19) — **Journal kategorisi %100 tamam**
-- Readables 47/47 dump'landı (1989 satır, 2026-04-19) — `source/pl_readables/` hazır
+**İlk yapılacak çeviri (sıradaki oturum için):**
+1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓
+2. **Readables devam (32/47 kaldı ≈ 1178 satır)** — source'lar `source/pl_readables/` hazır
+   - LW bölge Readables (14 asset / ~420 satır):
+     `lw_bzr01_readable`, `lw_cm01_readable`, `lw_grz01_readable`, `lw_pp01_readable`,
+     `lw_pw01_readable`, `lw_pw02_readable`, `lw_smc01_readable` + `_chat`,
+     `lw_smc02_readable`, `lw_smc03_readable`, `lw_smg01_readables`, `lw_smg02_readable`,
+     `lw_smg03_readables`, `lw_smg04_readables`, `lw_Tailor_Readables`
+   - POI Readables (6 asset / ~360 satır):
+     `lw_BZR_POI_Readable`, `lw_CM_POI_Readable`, `lw_GRZ_POI_Readable`,
+     `lw_PP_POI_Readable`, `lw_PW_POI_Readable`, `lw_SMC_POI_Readable`, `lw_SMG_POI_Readable`
+   - POI fluff Readables (6 asset / ~260 satır):
+     `lw_cm_POI_readable_fluff`, `lw_pp_POI_readable_fluff`, `lw_pw_POI_readable_fluff`,
+     `lw_smc_POI_readable_fluff`, `lw_smg_POI_readable_fluff`
+   - Ortam Readables (5 asset / ~104 satır):
+     `BZR_readables`, `PP_readables` + `PP_readables_chats`, `SMC_readables`, `SMG_readables`
+3. q104-q401 ana story dialog
+4. sq001 dialog (39 asset) — Upyr vizyonları
+5. InsightsConclusions (39 asset / ~400-600 satır)
 
-**İlk yapılacak çeviri (öncelik sırasıyla):**
-1. ~~Ana story Journal (25 asset / 385 satır)~~ ✓ TAMAM
-2. ~~Codex DataTable (5 asset / 497 satır)~~ ✓ TAMAM
-3. ~~LW Journal (14 asset / 242 satır)~~ ✓ TAMAM
-4. ~~POI Journal + Postcards (47 asset / 212 satır)~~ ✓ TAMAM
-5. **Readables (47 asset / 1989 satır)** — source'lar hazır, çeviri bekliyor
-   - Ana story quest (q001-q302) = 12 asset / ~810 satır
-   - LW bölge = 14 asset / ~420 satır
-   - POI + fluff = 12 asset / ~620 satır
-   - Ortam (BZR/PP/SMC/SMG/Tailor) = 5 asset / ~104 satır
-6. q104-q401 ana story dialog
-7. sq001 dialog (39 asset) — Upyr vizyonları
-
-**Pipeline:** Her journal için `translation/<name>.csv` yaz (Hash,NodeName,PL,TR,Notes); sonra `dialog_apply -AllRawExports` → `UAssetGUI fromjson` → staging/journal altına. `retoc to-zen` ile mevcut mod pak'a ekle.
-
-**Kritik not:** Journal dosyaları `Quests/Journal/<quest>/<name>.uasset` yolunda. Staging yolu orijinali koruyacak. Codex DT'ler `Quests/Journal/Codex/` altında.
-
-**Bootstrap için:**
+**Pipeline (Readables):**
 ```powershell
-# Ana story journal'dan başlamak istersen:
+# Apply
+pwsh scripts/dialog_apply.ps1 `
+    -JsonPath build/readables_json/<name>.json `
+    -CsvPath translation/<name>.csv `
+    -OutJsonPath build/work/<name>_tr.json -AllRawExports
+
+# Stage (yol oyundaki orijinali yansıtır; retoc to-legacy --filter <name> ile doğrula)
+.\tools\UAssetGUI\UAssetGUI.exe fromjson `
+    build/work/<name>_tr.json `
+    build/staging/TheThaumaturge/Content/GrimoireContent/Quests/Readables/<sub>/<name>.uasset `
+    Mappings
+
+# Pak + deploy — mevcut mod pak'a ekler
+.\tools\retoc\retoc.exe to-zen --version UE5_1 `
+    build/staging/TheThaumaturge `
+    build/output/pakchunk99-WinGDK_P.utoc
+Copy-Item build/output/pakchunk99-WinGDK_P.* `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\" -Force
+```
+
+**Readables staging yol haritası:**
+- Ana story quest: `Readables/<quest>/Assets/<name>.uasset` (q001-q302)
+- Chat varyantları: `Readables/<quest>/Chats/<name>_chat.uasset`
+- LW bölge: `Readables/LivingWorld/<lw_key>/Assets/<name>.uasset` veya doğrudan `LivingWorld/<lw_key>/<name>.uasset` (lw_bzr01, lw_smg01-04, lw_Tailors farklı)
+- POI: `Readables/LivingWorld/lw_POIs/<bölge>/<name>.uasset`
+- Ortam: `Readables/<BZR|PP|SMC|SMG>/Assets/<name>.uasset`
+- Yolları her zaman `retoc to-legacy --filter <name>` ile doğrula.
+
+**JSON'lar `build/readables_json/` altında** (47 dosya, git dışı).
+
+**Bootstrap komutları:**
+```powershell
+# Kalan Readables çevirileri:
+ls source/pl_readables/lw_*_readable*.csv     # 14 LW bölge
+ls source/pl_readables/lw_*_POI_Readable.csv  # 6 POI
+ls source/pl_readables/lw_*_fluff.csv         # 6 POI fluff
+ls source/pl_readables/{BZR,PP,SMC,SMG}*.csv  # 5 ortam
+
+# Çeviri şablonu:
+# translation/<name>.csv yaz (Hash,NodeName,PL,TR,Notes)
+# Sonra apply + stage + deploy döngüsü
+```
+
+**Glossary kısa hatırlatma:** Skaza→Kusur, Ślad→İz, Wymiar→Boyut, Pakt→Ant, Szeptucha→Bilge Kadın, Thaumaturg→Tılsımkâr, Cudotwórca→Mucizekâr, lekarz→hekim, rabin→rabbi, Kazak/Kazaklar, Yahudi cemaat terimleri (Chamaił, neszama, hawdala, parnose) PL'den düz aktarıldı.
+
+---
+
+## Eski bootstrap (Journal için — artık tamamlandı, referans)
+
+```powershell
 ls source/pl/q*_journal.csv       # 25 dosya
 ls source/pl/Codex*.csv           # 5 dosya
 ls source/pl/lw_*_journal.csv     # 14 dosya
