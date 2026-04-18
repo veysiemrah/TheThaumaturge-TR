@@ -22,7 +22,7 @@ FD8FB1DD4E5FC44C6FEEC3A2E6ED8213,CinematicNode_Choice_4,"Zapytaj, czemu nie wyś
 DAD47D934102B6F1AF39A493521086EB,CinematicNode_Choice_6,"Powiedz, że nie.",Hayır de.,
 D297613C4ABF9A4C76529C80D20E609E,CinematicNode_Response_0,"<i>Pielgrzymie</>! Rad żem, żeś w me progi zawitał.","<i>Hacı'cım</>! Eşiğime adım attığına memnun oldum.","Pielgrzym = Hacı/Gezgin (Abaurycy'nin Wiktor'a taktığı lakap); arkaik dönem tınısı korundu"
 F5890CCC4DBD9E5F3D15CE9963CC3AF8,CinematicNode_Response_12,"Kanalizację na dzielnicy mieli kłaść dla Neumayera, ale robotnicy rozkopali tylko wszystko, a teraz strajkują albo się szwendają.","Neumayer için mahalleye kanalizasyon döşeyeceklerdi, ama işçiler her yeri kazıp bıraktı, şimdi de ya grevdeler ya avarelik ediyorlar.",
-D6F159E54FC4EF548F079987F527B1D6,CinematicNode_Response_12," A jak nasyłam na nich moje Mojki, to zaraz przyłażą nowi."," Adamlarımı (Mojki'yi) üstlerine salsam hemen yenileri çıkıyor.","Mojki = Abaurycy'nin çetesi; korunur"
+D6F159E54FC4EF548F079987F527B1D6,CinematicNode_Response_12," A jak nasyłam na nich moje Mojki, to zaraz przyłażą nowi."," Mojki'yi üstlerine salsam hemen yenileri çıkıyor.","Mojki = Abaurycy'nin çetesi (glossary); parantez açıklama kaldırıldı — grup adı okuyucu tarafından tanınır"
 E304AC674526DEFD3C0D56B159D054BC,CinematicNode_Response_12,"Zrób coś z tym, zanim ja ich wszystkich pozabijam.",Ben hepsini öldürmeden bu işle bir ilgilen.,
 6A05A5AF4DEE9DB27CF14D9A3E16E828,CinematicNode_Response_15,Mam inny temat.,Başka bir konum var.,
 8E56D5A3412DDF9C3F15EA8D5E924855,CinematicNode_Response_15,"Siwucha nie ocenia, dajesz.","Siwucha yargılamaz, at gitsin.","Siwucha = sert Polonya votkası (dönem içkisi); korunur"
