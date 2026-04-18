@@ -1,0 +1,22 @@
+Hash,NodeName,PL,TR,Notes
+3D571BDF400813FB697B6AA50336073C,CinematicNode_Choice_1,Weź stronę Anatolija.,Anatolij'in tarafını tut.,
+897197114F009DE9DC7F78B5002516A9,CinematicNode_Choice_1,Poprzyj wyrok Szeptuchy.,Bilge Kadın'ın kararını destekle.,"Szeptucha = Bilge Kadın (glossary)"
+DE14E4664C9E712AEC28A0926A12F1F4,CinematicNode_Choice_1,"Spraw, żeby Anatolij się uspokoił.",Anatolij'i sakinleştir.,
+F230DED7486B83C8C51E2584AA586AC6,CinematicNode_Response_5,Niedoczekanie twoje! Oddalam taki wyrok!,Hayatta olmaz! Böyle kararı reddediyorum!,
+0F0911FC4A3F88F053C90896DFC2B084,CinematicNode_Response_5,"No i mówiłem, że tak będzie. A sam chciał do ciebie przychodzić. Pierwszy był do rozsądzania!",Ben söylemiştim böyle olacak diye. Oysa sana gelmek isteyen kendiydi. Davayı ilk açan oydu!,
+EEC83C47492B77B3A83C1595CAB0E70C,CinematicNode_Response_5,"Ja swoje powiedziałam i zdania nie zmienię. Zabierać się stąd, bo już się gapie złazić zaczęli!","Ben lafımı söyledim, fikrimi değiştirmem. Defolun buradan, meraklılar birikmeye başladı bile!",
+4680192C44308B77150E5BA8181D8687,CinematicNode_Response_5,"Nie gapie, a świadek! A niech słucha! Bezstronnie podejdzie do tego. Panie, ten tutaj kłamca i złodziej pamiątkę po mojej matce mi ukradł, a ta czarownica mówi, że mam mu jeszcze swoją gęś oddać!","Meraklı değil, tanık! Bırak dinlesin! Tarafsız yaklaşsın. Beyim, bu yalancı hırsız anamdan kalan hatırayı çaldı, bu cadı da kazımı ona vermem gerektiğini söylüyor!",
+AC274A314DCBB33306FBEDB218D6C378,CinematicNode_Response_5,Boś mi moją zadusił! A mnie żadne szkiełka po twojej matce potrzebne do niczego nie są!,Çünkü benim kazımı boğdun! Ananın o cam kırıklarının bana zerre faydası yok!,
+A3247EDC48A43A14537DF8A6D4E4F90C,CinematicNode_Response_5,"Bo jak żeś gęś zadusił, to wiadomo, żeś to ty zrobił, a jak Bogdan ci wisiorek kradł, to jeszcze nie udowodniłeś!","Çünkü kazı boğduğun kesin, senin yaptığın; ama Bogdan'ın kolyeyi çaldığını daha kanıtlamadın!",
+417E197D4A3EB1C87C8E34B64DBFA409,CinematicNode_Response_5,I gdzie tu sprawiedliwość?,Nerede adalet bunda?,
+6BB3113042929075672700B8AF4D5A5A,CinematicNode_Response_6,"Jeśli ta pamiątka była znacznej wartości, to wtedy nawet gęś tego nie rekompensuje.","Eğer o hatıra epey değerliydiyse, bir kaz bile onu tazmin etmez.",
+367E83894A1E2AE7E6CA5C85B796E4D4,CinematicNode_Response_6,"Gówno było, nie pamiątka!","Bok bir şeydi, ne hatırası!",
+7F593C33477F9208B4C2EEA9509D8B4B,CinematicNode_Response_6,"Wartość gęsi jest znana, więc Anatolij powinien za gęś oddać, co ją zadusił. Wisiorek nie wiadomo, czy zginął, czy sam go przepił i teraz głupiego szuka.",Kazın değeri belli; Anatolij boğduğu kazın bedelini ödemeli. Kolyenin kaybolup kaybolmadığı belirsiz — belki kendisi içkiye yatırdı ve şimdi enayi arıyor.,
+990A9EC246D0D87447DDD7BD367BD328,CinematicNode_Response_6,Czarownica!,Cadı!,
+792557374827E6D74C2134AE4A7AB2E9,CinematicNode_Response_6,"Dziękuję. Wytrzeźwieje, to mu się na spokojnie wyjaśni.","Teşekkürler. Ayıldığında, ona sakin sakin açıklanır.",
+5B5594DB4BED1B31D4D72B9AD154A5DE,CinematicNode_Response_7,"Siwa pani ma rację, bez wyceny wartości skradzionego przedmiotu i dowodu jego kradzieży, to tylko pomówienie. A zaduszenie gęsi to już zdecydowany samosąd.","Kır saçlı hanım haklı: Çalınan eşyanın değerlemesi ve hırsızlık kanıtı olmadan bu yalnızca iftiradır. Kazı boğmak ise düpedüz kendi adaletini sağlamak.",
+138BE05940181D184973E68E0081C286,CinematicNode_Response_7,"A ciebie kto pytał, wszarzu pospolity?!",Sana kim sordu bayağı bitli?!,"'wszarz' = aşağılama"
+D285E73E46C22E5413B667A705705947,CinematicNode_Response_7,"Pan się nie przejmuje, jak wytrzeźwieje, to sam będzie przepraszał. Tylko gęsi szkoda.","Siz aldırmayın beyim, ayıldığında kendi özür dileyecek. Yazık sadece kaza.",
+C12F5413472CBD0A6D1E1BA4B66718DF,CinematicNode_Response_8,Może posłuchaj spokojnie słów mądrej kobiety?,Belki bilge bir kadının sözlerini sakince dinlersin?,
+41E26D69444C35E0AD375E8BF4A3486E,CinematicNode_Response_8,"No... W sumie to... Przepraszam, Bogdan.","Eee… aslında… Özür dilerim, Bogdan.",
+E18EA91D4685DDB8CD703E91A39843A1,CinematicNode_Response_9,"Właź i mów, po coś przylazł.","Gir içeri ve söyle, ne diye geldin.",

@@ -1,0 +1,21 @@
+Hash,NodeName,PL,TR,Notes
+844DC6104EA6C71EF909669A9E915439,CinematicNode_Choice_1,Nie okazuj strachu. Powiedz że owszem.,Korkunu belli etme. Evet de.,
+3AE839FB431DD17037673591302A8FC1,CinematicNode_Choice_1,Nie szukasz kłopotów. Powiedz że jesteś tylko przejazdem.,Bela aramıyorsun. Sadece geçtiğini söyle.,
+318947AA40F283FEEA3086A2BE1D6C21,CinematicNode_Response_10,<ru>Idyosh s nami!</> My carskie soldaty.,<ru>Idyosh s nami!</> Biz Çarın askerleriyiz.,"Rusça <ru> tag'i aynen korunur; 'Bizimle geliyorsun'"
+442AD2CD4D8FD0472CF958BFA09CE749,CinematicNode_Response_10,Twarze raczej nie pasują do munduru. Bardziej do złodziei.,Yüzler üniformaya pek uymuyor. Daha çok hırsıza yakışır.,
+6903081B47D73F8C18224181CDEFA298,CinematicNode_Response_10,Chyba nie chce rozmawiać z nami po dobroci.,Galiba bizimle iyilikle konuşmak istemiyor.,
+32F301FE476E47740A550BB91A0B3488,CinematicNode_Response_11,I się ruskie doigrały.,Ruslar sonunda haddini aştı işte.,
+12469C61420E06E9487097A7F7420AF9,CinematicNode_Response_11,"Nie doniosą. Wstydu sobie narobią, jak powiedzą komu, że ich taki kaleka sprał.","İhbar etmezler. Böyle bir sakatın onları pataklaıp birine söyleseler, rezil olurlar.",
+85A0E7DE4B240AE34B23048B6E19F764,CinematicNode_Response_12,"Panowie, czy gospoda to tutaj?","Beyler, han burası mı?",
+304B7D444A7C4A00631FA08E4C89EC02,CinematicNode_Response_12,"<ru>Ey, putnik!</> Ty z daleka idziesz?","<ru>Ey, putnik!</> Uzaktan mı geliyorsun?","'putnik' = yolcu (Rusça); tag içeriği aynen"
+94E3372A4598C443365CBB92FD07FD34,CinematicNode_Response_12,Owszem. Jestem zmęczony.,Evet. Yorgunum.,
+96BEB720485B0DA58ADCB7953BD346A6,CinematicNode_Response_13,Ładne buty. Ciepłe?,Güzel çizmeler. Sıcak mı?,
+D03A02EC499E11156FFDA2AFA8E55711,CinematicNode_Response_7,"Już w tym tygodniu dostaliście, co wasze!",Bu hafta hissenizi zaten aldınız!,
+EFB0AD8D420533163CC077B92EF114AE,CinematicNode_Response_7,"<ru>Molchat'!</> My tu są od pilnowania porządku, a to kosztuje. Zimno się robi, koszty wzrosły.","<ru>Molchat'!</> Biz burada düzen sağlamak için varız, bu da masraflı. Hava soğuyor, masraflar arttı.","'Molchat'!' = Sus! (Rusça)"
+213BC2C74F7B3F13D7370BB2D0958274,CinematicNode_Response_7,"<ru>Ey, ty!</>","<ru>Ey, ty!</>","'Hey, sen!' (Rusça); aynen"
+9B068DCE46B5D9194D4708BF3E78ADCC,CinematicNode_Response_8,"Rzeczywiście, buty mam wyjątkowo ciepłe, dziękuję.","Gerçekten de çizmelerim fazlasıyla sıcak, teşekkürler.",
+94DE2EFE460F921F8D37B2963B7B982A,CinematicNode_Response_8,"Doigracie się kiedyś, doigracie.","Bir gün haddinizi aşacaksınız, aşacaksınız.",
+0CEC3676450D7AF0D2F3DCA0BA365C82,CinematicNode_Response_8,"Nie kuś, Luka, nie kuś. Zaraz do ciebie wrócimy, jak tylko załatwimy formalności z tym turystą.","Uğraştırma Luka, uğraştırma. Şu turistle işi bitirir bitirmez sana döneriz.",
+039E841647D8D46738F520AC36AAD407,CinematicNode_Response_9,Przyjechałem tylko na chwilę. Szukam jednego uzdrowiciela.,Kısa bir süreliğine geldim. Bir şifacı arıyorum.,
+09AC1B144AB02F29F2CF1BA52E79936B,CinematicNode_Response_9,Musisz wpierw złożyć datek. Na carską armię. Na przykład ciepłe buty.,Önce bir bağış yapman gerek. Çarın ordusuna. Mesela sıcak çizmeler.,
+AAC220F24518FE4F7D3630958343B596,CinematicNode_Response_9,"I płaszcz. Płaszcz też mu nie będzie potrzebny, kiedy straci buty.",Bir de palto. Çizmelerini kaybettikten sonra paltoya da ihtiyacı olmaz zaten.,

@@ -91,8 +91,8 @@ Belirtmek isteriz ki, geçmişten bu denli ilham alan bir oyun yaparken, bugün 
 
 Oyunda yer alan tarihî kişilerin kaderleri, gerçek olayların serbest bir yorumu ya da tamamen hayal gücümüzün ürünüdür.",Stüdyo açıklama panosu
 SkipTutorialWarning,Czy na pewno pominąć ten samouczek?,Bu eğitimi geçmek istediğinden emin misin?,
-ControllerDisconnectedWarning_1,Kontroler odłączony,Kontrolör bağlantısı kesildi,
-ControllerDisconnectedWarning_2,"Podłącz ponownie kontroler, aby kontynuować.",Devam etmek için kontrolörü yeniden bağla.,
+ControllerDisconnectedWarning_1,Kontroler odłączony,Kumanda bağlantısı kesildi,
+ControllerDisconnectedWarning_2,"Podłącz ponownie kontroler, aby kontynuować.",Devam etmek için kumandayı yeniden bağla.,
 Q102Demo_StartBoard,"Nazywasz się <b>Wiktor Szulski.</>
 
 Jesteś <b>thaumaturgiem</> - potrafisz odczytywać sekrety ukryte w ludzkich duszach i rozmawiać z ciemnością.
@@ -159,7 +159,7 @@ Quest_TimeIsOver,Zadanie wygasło,Görevin süresi doldu,
 ResolutionPopupText,Czy chcesz zachować obecne ustawienia rozdzielczości?,Mevcut çözünürlük ayarlarını tutmak ister misin?,
 RebindCancelText,Press escape to cancel.,İptal etmek için Escape tuşuna bas.,Kaynak İngilizce kalmış
 RebindPressKeyToBind,Press any button to bind it.,Atamak için herhangi bir tuşa bas.,Kaynak İngilizce kalmış
-VoiceLanguage,Dostępny jest nowy język dialogów - polski. Czy chcesz go teraz włączyć?,Yeni diyalog dili mevcut — Polonyaca. Şimdi etkinleştirmek ister misin?,
+VoiceLanguage,Dostępny jest nowy język dialogów - polski. Czy chcesz go teraz włączyć?,Yeni diyalog dili mevcut — Lehçe. Şimdi etkinleştirmek ister misin?,
 Chunks_NotDownloaded,Aby kontynuować rozgrywkę poczekaj na zakończenie pobierania.,Oyuna devam etmek için indirmenin bitmesini bekle.,
 Chunks_Downloaded,"Pobieranie ukończone, możesz już kontynuować rozgrywkę.","İndirme tamamlandı, oyuna devam edebilirsin.",
 PS_ActivityDescription,Otwórz ostatni zapis gry,Son oyun kaydını aç,

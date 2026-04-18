@@ -102,7 +102,7 @@ SG_Burned_House,Spalone Domostwo,Yanmış Hane,
 SK_StationBuilding,Budynek Stacji,İstasyon Binası,
 SK_Train_Station,Stacja Kolejowa,Tren İstasyonu,
 SMC_AntiqueShop,Antykwariat,Antikacı,
-SMC_ArtBar,Elizjum,Elyzyum,
+SMC_ArtBar,Elizjum,Elizyum,"Elizjum = Elysium'un PL formu; TR yerleşik yazım Elizyum"
 SMC_Bar,"Bar ""Meta, Seta i Lorneta""","""Meta, Seta ve Dürbün"" Barı","PL'de kadeh/yudum/dürbün alaylı içki tekerlemesi"
 SMC_BarDistrict,Dzielnica Barowa,Bar Semti,
 SMC_Basement,Suterena,Bodrum Katı,
@@ -111,7 +111,7 @@ SMC_Editorial,"Redakcja ""Kurjera Warszawskiego""","""Varşova Kuryesi"" Redaksi
 SMC_Exterior,Śródmieście Południowe,Güney Śródmieście,Varşova semt adı yön sıfatı çevrildi
 SMC_Foyer,Foyer,Foyer,Dönem Fransızca sözcüğü - aynen
 SMC_HotelApartment,Apartament Hotelowy,Otel Süiti,
-SMC_ImperialHotel,Hotel Imperialny,İmperyal Hotel,
+SMC_ImperialHotel,Hotel Imperialny,İmperyal Oteli,"Hotel Süiti / Otel Süiti ile tutarlılık"
 SMC_ImperialHotel_Apartment,Apartament 213,213 No'lu Süit,
 SMC_ImperialHotel_Apartment237,Apartament 237,237 No'lu Süit,
 SMC_ImperialHotel_Balcony,Balkon,Balkon,

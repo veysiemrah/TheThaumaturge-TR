@@ -187,6 +187,15 @@ Projede sabit tutulan terminoloji. Bir StringTable'da onaylanan terim, diğerler
 | Bokobrody | Favoriler | |
 | Ryj (ryjcopranie) | Surat (argo) | |
 
+## Günün Vakitleri (Exploration_ST TimeOfDay_*)
+
+| Polonya | Türkçe | Notlar |
+|---|---|---|
+| Południe | Öğle | |
+| Późne popołudnie | İkindi | Dönem tınısı; "geç öğleden sonra" yerine |
+| Noc | Gece | |
+| Wczesny poranek | Şafak | "Erken sabah" yerine daha kısa/atmosferik |
+
 ## Codex Kategorileri (Glossary_Category_*)
 
 | Polonya | Türkçe |

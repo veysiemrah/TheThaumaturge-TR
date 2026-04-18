@@ -27,20 +27,13 @@ $json = Get-Content $JsonPath -Raw | ConvertFrom-Json -Depth 50
 $export = $json.Exports | Where-Object { $_.'$type' -match "RawExport" } | Select-Object -First 1
 $data = [Convert]::FromBase64String($export.Data)
 
-# Find namespace
-$pos = 0
-for ($i = 0; $i -lt 32; $i++) {
-    $len = [BitConverter]::ToInt32($data, $i)
-    if ($len -gt 0 -and $len -lt 256 -and ($i + 4 + $len -le $data.Length)) {
-        $candidate = [System.Text.Encoding]::UTF8.GetString($data, $i + 4, $len - 1)
-        if ($candidate -match "^[a-zA-Z][a-zA-Z0-9_]+$") {
-            $namespace = $candidate
-            $pos = $i + 4 + $len
-            break
-        }
-    }
-}
-
+# StringTable layout (UE 5.1 IoStore, bu oyundaki sabit):
+# [6 byte prefix: 00 01 00 00 00 00]
+# [FString namespace]   (Exploration_ST'de boş: len=1, "\0")
+# [int32 entry_count]
+# [FString key + FString value] * count
+$pos = 6
+$namespace = Read-FString -data $data -pos ([ref]$pos)
 $count = [BitConverter]::ToInt32($data, $pos); $pos += 4
 
 Write-Host "Namespace: $namespace"

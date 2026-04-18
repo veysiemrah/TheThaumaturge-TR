@@ -1,0 +1,50 @@
+Hash,NodeName,PL,TR,Notes
+774269A94957273992D7358DAEEF2DD0,CinematicNode_Choice_3,"Powiedz, że jesteś niewinny.",Masum olduğunu söyle.,
+4CB6F9DB4CB2FA4B423007AB143480BB,CinematicNode_Choice_3,Przyznaj z dumą że pobiłeś się z rosyjskimi żołnierzami.,Rus askerlerle dövüştüğünü gururla kabul et.,
+001DA85441BDF9CF462F0ABEAE8A6AF3,CinematicNode_Choice_3,Niech on powie pierwszy.,Bırak o önce söylesin.,
+B8810D674439A00B1CE455BFC60392C2,CinematicNode_Choice_4,"Powiedz, że jesteś thaumaturgiem.",Tılsımkâr olduğunu söyle.,
+EFB4A8D5490B47D5A17FB08AC39129DB,CinematicNode_Choice_4,"Przyznaj, że nie zrozumiałeś pytania.",Soruyu anlamadığını kabul et.,
+BD92BF2B40CD23368020E1BD13A25797,CinematicNode_Choice_4,Przedstaw się.,Kendini tanıt.,
+084AA9F441154F85C78ABFB70463CC84,CinematicNode_Choice_4,Zapytaj od kogo są oni.,Onların kimin adamı olduğunu sor.,
+EE759B914991523DFF9356A6487A6A72,CinematicNode_Choice_5,"Powiedz, że pozory mylą.",Görünüşün aldatıcı olduğunu söyle.,
+01A509DF49C3C0EE7E3225BAEDA4003E,CinematicNode_Choice_5,"Powiedz, że przyjechałeś tylko na pogrzeb.",Yalnızca cenaze için geldiğini söyle.,
+1BB355F94E1E43AD090C2E9ECD4B2278,CinematicNode_Response_13,"Co się tak gapisz, <dl>szopenfeldziarzu</>?","Ne öyle bakıyorsun, <dl>dükkân kurdu</>?","szopenfeldziarz = mağaza hırsızı (Varşova argo)"
+7FC682B3466401AC026D1F9A5178FCC1,CinematicNode_Response_13,"Nie wiem, co to znaczy.",Ne anlama geldiğini bilmiyorum.,
+C81932614AAED7294C4D488EDDDED62A,CinematicNode_Response_13,"A ty co się tak rzucasz? Pierwszy raz w dużym mieście? Z kulturą, jak nie wiesz, do kogo mordę rozpuszczasz.","Sen de ne diye çıkışıyorsun? Büyük şehre ilk gelişin mi? Kime laf attığını bilmiyorsan terbiyeli ol.",
+B8742D174388B2A1CE29B69781A76F91,CinematicNode_Response_14,A ty jesteś od kogoś?,Sen birinin adamı mısın?,
+2969BC9140756E7273FC0EAB8E756523,CinematicNode_Response_15,Za niewinność.,Masumiyetimizden.,
+F16D79714312E9E8B641768EFA9CB5FE,CinematicNode_Response_15,Jak nas wszystkich.,Hepimiz gibi.,
+2058EAC74E4C0CC73BAC9EBEE673EEB6,CinematicNode_Response_16,Dałem kilku rosyjskim żołnierzom do zrozumienia co myślę o zaborach.,Birkaç Rus askerine işgal hakkında ne düşündüğümü anlattım.,
+EB7B85CF4722B6A0C81987B2119B32D9,CinematicNode_Response_16,Też mam czasem takie chwile.,Benim de öyle anlarım olur bazen.,
+85837A8F4949222B5D3283B9626E0C70,CinematicNode_Response_16,A ja też ruskiemu w mordę dałem!,Ben de bir Rus'un suratına indirdim!,
+58E7BC844F9232AD8EE101ACF4A978C6,CinematicNode_Response_16,"Siedział taki ryży <dl>biber, udziudziany, to ja mu angielką twarz stłukłem i apiać kopem w arbuz i gleba</>!","Oturuyordu şişman kızıl bir <dl>herif, dandik süslenmiş; ben de İngiliz boksuyla suratını dağıttım, bir de tekmeyle karpuza vurdum ve yere serdim</>!",
+5DA7F8414AE0A4779D7B399ADA521F38,CinematicNode_Response_16, I mu <dl>pugilares</> zawinąłem jeszcze!, Bir de <dl>cüzdanını</> aşırdım!,"pugilares = cüzdan (dönem)"
+C5B206994863942C74349692AD6051D6,CinematicNode_Response_16,"A na chuj się odzywasz, jak cię nikt nie pytał o nic?!","Siktir, sana bir şey soran mı oldu?!",
+3400F54C4FB21A845C68F2A4880A85BD,CinematicNode_Response_17,Przede wszystkim jestem thaumaturgiem.,Her şeyden önce ben bir Tılsımkârım.,
+0883960A4ACF8E8752B754ACA79FC0E7,CinematicNode_Response_17,"A to ja mam szacunek do takich. Znam jednego bardzo przyzwoitego Żyda z Powiśla, co też jest czarodziej.","A, böylelerine saygı duyarım ben. Powiśle'den çok düzgün bir Yahudi tanırım; o da büyücüdür.",
+CB29F49B4E48072D4970DC8B2EC82DBF,CinematicNode_Response_17,A to u ciebie jak z napletkiem?,Peki senin sünnet durumun nasıl?,
+A0A1487A4A18686BBE750481B8C715C2,CinematicNode_Response_17,A chuj się interesujesz moim napletkiem?,Siktir oradan; sünnetim senin neyine?,
+5E963C994E110D6DC3A0E6AEFD1DC73F,CinematicNode_Response_17,"Nie no, tak tylko...","Yok yok, sordum öyle…",
+1147037345A4163AE3C89CA7C9E8EB39,CinematicNode_Response_17,<dl>Szmondak.</> ,<dl>Şmondak.</> ,"Yidişçe/Varşova argosu — sünnetsiz/aşağılama"
+370BA161461511AFB06A13B15F029BAC,CinematicNode_Response_17,Ale na <dl>syreniaka</> nie wyglądasz.,Ama <dl>Varşovalıya</> benzemiyorsun.,"syreniak = Varşova yerlisi (şehir arması Denizkızı)"
+D8D50D7E48E1E6D7F0A26BB0BCD05F66,CinematicNode_Response_18,Nie bardzo rozumiem pytania...,Soruyu pek anlamadım…,
+B99C90AB41CE15F97E00E49522EFFAF5,CinematicNode_Response_18,"To dobrze, że pytasz, a nie mordę rozpuszczasz od razu, jak co poniektórzy.","İyi ki sorup da bazıları gibi hemen ağzını bozmuyorsun.",
+24946AA74E3AC9D94F2C4DA393328351,CinematicNode_Response_18,"Pytanie się tyczy, czy jesteś na mieście <dl>zblatowany</>, ustawiony z kimś.","Soru şu: şehirde <dl>bağlantın</> var mı, biriyle ayarlanmış mısın?","zblatowany = bağlantılı/tanıdık (suç argo)"
+8AF53B3E4F61FCDD3A329EA80D3ADEF7,CinematicNode_Response_18,Czy pracujesz dla kogoś?,Biri için mi çalışıyorsun?,
+C6E02A984ACE1F9598FAC4866AE90E62,CinematicNode_Response_19,Nazywam się Wiktor Szulski i pracuję na własny rachunek.,"Adım Wiktor Szulski, kendi hesabıma çalışırım.",
+B8DE5EDF49B120EE5C6B188EC8D7E50F,CinematicNode_Response_19,To <dl>uważanie</>.,<dl>İtibar getirir</> bu.,"uważanie = saygı/itibar (dönem argo)"
+4FC7EC3349C8E83B21CD43BECC7DE84B,CinematicNode_Response_20,A wy?,Ya siz?,
+2A247A9547655FA1FAF14EB06FA2504F,CinematicNode_Response_20,"Synku, ja to jeszcze <dl>gwoździowe</> z Krukiem na Bazarze Różyckiego zbierałem. Mój tatko dla niego robił.","Evlat, ben daha Różycki Pazarı'nda Kruk'la <dl>haraç</> topluyordum. Babam onun için çalışırdı.","gwoździowe = haraç/geçiş parası (argo); Różycki Pazarı = glossary"
+AF21541C4C6ABE7692FC9AB48E985682,CinematicNode_Response_20,"Ale to stare czasy. Poza tym, to grzeczny jestem, tylko kiedy <dl>gołda</> mi wjedzie, to <dl>kacapów</> zaczepiam.","Ama o eski zamanlardı. Bunun dışında kibar biriyim; yalnız <dl>votka</> kafaya vurunca <dl>Moskoflara</> sataşırım.","gołda = votka (argo); kacap = Rus için aşağılayıcı (Moskof)"
+426E6E2A4C8B47B933D814B0D726159D,CinematicNode_Response_20,A ja z Mojkami chodzę.,Ben de Mojki'yle gezerim.,"Mojki = Abaurycy'nin çetesi (DD_smc_abaurycy)"
+84A814FF454F1968754BEDBEC0ED49A3,CinematicNode_Response_20,"A gówno, nie z Mojkami chodzisz! Mojkami sobie mordy nie wycieraj, bo ich znam!","Bok yersin, Mojki'yle gezmiyorsun! Mojki'yi ağzına dolama, onları ben tanırım!",
+3CCE1F334E0AF5DE9AE4029B38B403EA,CinematicNode_Response_20,"Lepiej, żebyś szczerzej odpowiedział, bo ja szybko <dl>uważanie</> tracę. Uczulony jestem na takich.","İyisi mi dürüst cevap ver, yoksa <dl>itibarımı</> çabuk kaybederim. Böylelerine alerjim var.",
+7E47931E4A97D1F1E4BFF183C5BBEE30,CinematicNode_Response_20,Jesteś od kogoś?,Birinin adamı mısın?,
+101F07B942AE603BAD8EF1A4C68AE057,CinematicNode_Response_21,Przyjechałem tylko na pogrzeb ojca.,Sadece babamın cenazesi için geldim.,
+0F7267BB45DF0BFD96B3E3A22BDD58FF,CinematicNode_Response_21,"Mam nadzieję, że <dl>trupowe</> cię nie ominie.",Umarım <dl>cenaze payı</> sana da düşer.,"trupowe = cenaze parası/yas harçlığı (argo)"
+AF8159A7415C16F3BAF583B1CF9868E2,CinematicNode_Response_22,Nie należy oceniać książki po okładce.,Kitabı kapağına göre yargılamamak gerekir.,
+370E426A43ACB566BE3BC786B286A174,CinematicNode_Response_22,"Ale charakterny, jak <dl>syreniak</>.","Ama karakterli, <dl>Varşovalı</> gibi.",
+E26E627B4D1279A434E7DA8C709AA6C8,CinematicNode_Response_22,Urodziłem się tutaj. Teraz wróciłem do domu.,Burada doğdum. Şimdi eve döndüm.,
+722A18664752B13CEAA7EC99EB76A19F,CinematicNode_Response_23,Witaj w Syrenim Grodzie.,Denizkızı Şehri'ne hoş geldin.,"Syreni Gród = Varşova'nın lakabı (şehir arması Denizkızı)"
+E0351D914B77C74872AA7083A00CD559,CinematicNode_Response_24,"To jest jeden z tych, co poszli na ruskich z gołymi pięściami!",Bu da çıplak yumrukla Ruslara saldıranlardan biri!,
+C9E9298D4321F6EDAB196BB5DD708F1A,CinematicNode_Response_25,Za co takiego <dl>aliganta</> posadzili?,Böyle bir <dl>şıkırdımı</> niye içeri atmışlar ki?,"aligant = Şıkırdım (glossary; dönem argo elegant)"

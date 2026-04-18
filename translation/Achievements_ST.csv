@@ -54,12 +54,12 @@ ACH_grz01_well_fight,Wiktor z Arabii,Arabistanlı Wiktor,Lawrence of Arabia gön
 ACH_smg02_long_lecture,Wymagający profesor,Titiz Profesör,
 ACH_bzr01_kafar_saved,Sztymunek!,Şek Şük!,Varşova argo — uyum/düzen ünlemi
 ACH_combat_states,Pokojowe rozwiązanie,Barışçıl Çözüm,
-ACH_combat_6_rounds,Szybki i zdenerwowany,Hızlı ve Sinirli,Fast & Furious göndermesi
+ACH_combat_6_rounds,Szybki i zdenerwowany,Hızlı ve Öfkeli,Fast & Furious göndermesi — TR yerleşik çeviri
 ACH_all_upyr_visions,Teraz rozumiem,Şimdi Anlıyorum,
 ACH_q001_got_bukavac_desc,"Złap salutora, który nawiedza mieszkańców wioski.",Köyün sakinlerini rahatsız eden salutoru yakala.,
 ACH_A1_started_desc,Zakończ sprawy w wiosce i udaj się do Warszawy.,Köydeki işleri bitir ve Varşova'ya git.,
 ACH_q102_got_lelek_desc,Pochwyć grasującego po Śródmieściu Południowym Lelka.,Güney Śródmieście'de dolanan Lelek'i yakala.,
-ACH_q103_got_weles_desc,"Pochwyć Welesa, Salutora zwabionego do Hotelu Imperialnego.",İmperyal Hotel'e çekilmiş Salutor Weles'i yakala.,
+ACH_q103_got_weles_desc,"Pochwyć Welesa, Salutora zwabionego do Hotelu Imperialnego.",İmperyal Otel'e çekilmiş Salutor Weles'i yakala.,"Otel tutarlılığı (Map_ST: İmperyal Oteli / Otel Süiti)"
 ACH_A2_started_desc,Dowiedz się o pewnym dworskim sekrecie.,Bir saray sırrını öğren.,
 ACH_q201b_got_golem_desc,"Nie pozwól, żeby Golem wymknął ci się z rąk.",Golem'in elinden kaçmasına izin verme.,
 ACH_q201b_gave_away_golem_desc,Dotrzymaj obietnicy danej Arielowi Rofe i oddaj mu Golema.,Ariel Rofe'ye verdiğin sözü tut ve Golem'i ona ver.,

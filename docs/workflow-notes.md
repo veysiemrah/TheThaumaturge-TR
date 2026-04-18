@@ -169,7 +169,7 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 
 ## Proje durumu (en son)
 
-### Çevirilmiş StringTable'lar (25 adet / ~1431 entry)
+### Çevirilmiş StringTable'lar (26 adet / ~1539 entry)
 
 | Dosya | Entry | Notlar |
 |---|---|---|
@@ -198,25 +198,28 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 | `Street_Addresses_ST` | 33 | Sokak adları (32 aynen, 1 çeviri: Plac Zielony) |
 | `UnitDataLoreDescription_ST` | 16 | Salutor/düşman lore tek-cümle tanımları |
 | `Achievements_ST` | 116 | Steam/Xbox başarımları (58 isim + 58 açıklama) |
+| `Exploration_ST` | 108 | Etkileşim butonları, ReduceStress alt-etkileşimleri, TimeOfDay, InputAction, Pride diyalog mesajları |
 
 Deploy edilmiş mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
-### Kalan 2 StringTable
-
-#### `Exploration_ST` — teknik sorun
-
-Asset yapısı **çoklu-namespace** (birden fazla alt-namespace içeriyor, en azından `Interaction_Inspect`). Mevcut `scripts/stringtable_dump.ps1` ilk bulduğu namespace'i okuyor ama entry parsing sonraki byte'larla uyuşmuyor (`StringTable.RawExport.Data` blob format'ı bu yapıda farklı olabilir).
-
-Script güncellemesi gerekli:
-- Tüm alt-namespace'leri sırayla oku
-- Her namespace için ayrı entry listesi
-- `stringtable_apply.ps1` de aynı şekilde güncellenmeli (hem roundtrip korunsun)
-
-Alternatif: Asset'i UAssetGUI GUI'sinde açıp manuel entry sayısını bul, byte layout'u reverse et.
+### Kalan 1 StringTable
 
 #### `DebugText_ST`
 
 Debug metinleri; oyuncu görmez. Çeviri önceliği düşük, opsiyonel.
+
+### StringTable byte layout'u (doğrulandı)
+
+Tüm `*_ST.uasset` dosyalarındaki `RawExport.Data` base64 blob'u şu yapıya sahip:
+
+```
+[6 byte prefix: 00 01 00 00 00 00]
+[FString namespace]   (Exploration_ST'de boş: len=1, sadece "\0")
+[int32 entry_count]
+[FString key + FString value] * count
+```
+
+`scripts/stringtable_dump.ps1` ve `stringtable_apply.ps1` artık sabit 6-byte prefix'ten sonra namespace'i doğrudan okuyor (regex taraması yerine). Boş namespace bu sayede desteklenir — eski regex yaklaşımı Exploration_ST'de ilk key'i ("Interaction_Inspect") namespace sanarak parse'ı bozuyordu.
 
 ### QA aşaması — bekleyen belirsizlikler
 
@@ -241,6 +244,14 @@ Debug metinleri; oyuncu görmez. Çeviri önceliği düşük, opsiyonel.
 - Build artifact'leri `build/` altında — `.gitignore`'da, commit'e girmez
 - CSV encoding: UTF-8 BOM (PowerShell `Export-Csv -Encoding UTF8` varsayılan)
 - Commit mesajları + narrative metinler — **Türkçe tam yazımla**, diakritik kullan
+
+### CSV parse bütünlüğü (kritik)
+
+CSV'de **PL veya TR sütunu virgül içeriyorsa o alan ÇİFT TIRNAK içine alınmalı**. Aksi hâlde `Import-Csv` kolonları kaydırır, `dialog_apply.ps1` / `stringtable_apply.ps1` yanlış metni deploy eder — çeviri kaybı sessizce olur (2026-04-18 review'da 10 satırda tespit edildi).
+
+**Kural:** Bir alanın içinde `,` `"` veya satır sonu varsa → o alanı `"..."` ile sar. İç tırnaklar `""` olarak kaçırılır.
+
+**Denetim:** CSV düzenlemelerinden sonra `pwsh scripts/validate_csv_columns.ps1` çalıştır. "Toplam gerçek CSV kolon uyuşmazlığı: 0" çıkmalı.
 
 ---
 

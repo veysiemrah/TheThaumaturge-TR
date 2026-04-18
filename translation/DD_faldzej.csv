@@ -1,0 +1,95 @@
+Hash,NodeName,PL,TR,Notes
+F92E8CB34C3D7B1F968C72B1EB0922AA,CinematicNode_Choice_0,"Zapytaj, skąd znał ojca i Sofera.",Babamı ve Sofer'i nereden tanıdığını sor.,
+DA325CF8408BD36A3408DF98F8EF5D74,CinematicNode_Choice_0,Porozmawiajcie o nim.,Onun hakkında konuşun.,
+F795F9204152AFA41849A296FC57A543,CinematicNode_Choice_0,Zacznij temat Ariela Rofe.,Ariel Rofe konusunu aç.,
+457AB6D54B7030953E58D5AFD94EA4F8,CinematicNode_Choice_0,Odejdź.,Ayrıl.,
+68012F5B40906E5490807B97BF1DF707,CinematicNode_Choice_1,"Zapytaj, skąd pochodzi.",Nereli olduğunu sor.,
+7770AA77485E346F9FD8A7AD681A1444,CinematicNode_Choice_1,Dowiedz się więcej o Tatarach.,Tatarlar hakkında daha fazlasını öğren.,
+3997109E4FCC2FA55758BBAA50F587FD,CinematicNode_Choice_1,"Zapytaj, kim on się czuje.",Kendini kim olarak hissettiğini sor.,
+6DE27319430320CB54823EBA193BE84F,CinematicNode_Choice_1,Wspomnij wasze pierwsze spotkanie.,İlk karşılaşmanızı hatırlat.,
+F1E220294C3AF58F8B8B1881C3CF6FB5,CinematicNode_Choice_1,Zmień temat.,Konuyu değiştir.,
+4A3C0884442C73C018A9409E7259F326,CinematicNode_Choice_2,Zapytaj o ojca.,Babamı sor.,
+2DAD4D8744027D24F871F5A956EAD1B0,CinematicNode_Choice_2,Zapytaj o Sofera.,Sofer'i sor.,
+DE31FC374AA17A7252751FB898038447,CinematicNode_Choice_2,"Powiedz, że wiesz, że leczył Sofera.",Sofer'i tedavi ettiğini bildiğini söyle.,
+21264DE5476B1F1E5AE356BFE5476B5B,CinematicNode_Choice_2,Zapytaj o sprawę aptekarza Horowitza.,Eczacı Horowitz meselesini sor.,
+AA6A435944A1BE69C8EF49B2AC988A03,CinematicNode_Choice_2,Zmień temat.,Konuyu değiştir.,
+F5A505944AF6842B8FAA399FD1008D89,CinematicNode_Choice_3,"Przyznaj, że wydał ci się dziwakiem.",Onu garip biri bulduğunu kabul et.,
+2087A15B4E78337CFA8FBFBEF0DE74BC,CinematicNode_Choice_3,"Powiedz, że zaimponował ci siłą woli.",İrade gücüyle seni etkilediğini söyle.,
+734DF8D44AB429F0C8E815BACF8B8CE2,CinematicNode_Choice_3,Wywiń się od odpowiedzi.,Cevaptan kaçın.,
+6C79B7C44ABC0F38BA75EBB77A0C97C9,CinematicNode_Response_0,"Obawiam się, że twoja prośba jest zbyt szeroka. Zadaj mi pytanie.",Maalesef rican çok geniş. Bana bir soru sor.,"Fałdżej → Wiktor: 'sen' (yaşlı bilge → genç; style-guide)"
+DE88E5FD42C41BBCD1ACAB89E87E85D9,CinematicNode_Response_1,Udało ci się rozwiązać sprawę twojego uzdrowiciela?,Şifacının meselesini çözebildin mi?,"Fałdżej → Wiktor: 'sen'"
+AD3F73254E19D970049581B76BCC5F35,CinematicNode_Response_1,Pracuję nad tym.,Üzerinde çalışıyorum.,
+782444254B6BF7A62A577799A4F985B4,CinematicNode_Response_1,Rozumiem.,Anlıyorum.,
+D03BABBE46433FD3B44CECA358C85608,CinematicNode_Response_10,Byłem u Rofe.,Rofe'ye uğradım.,
+3DD046BB4FA1B7258FCC0880C65E6555,CinematicNode_Response_11,Opowiedz mi o ojcu.,Babamdan bahsedin.,
+6542455A4D44A8EA05ACEF974E450D33,CinematicNode_Response_11,"Stanisława poznałem podczas powstania styczniowego, jeszcze jako kawalera. Byliśmy w jednym oddziale, pod Trauguttem.","Stanisław'la Ocak Ayaklanması sırasında tanıştım, ben daha bekârdım. Aynı birlikteydik, Traugutt'un emrinde.","Powstanie styczniowe = 1863 Ocak Ayaklanması (Rus karşıtı Polonya isyanı); Traugutt = R. Traugutt, ayaklanma diktatörü"
+9A026CE644CFA7A23E1E8AA3C70F4438,CinematicNode_Response_11,Wielu thaumaturgów wtedy walczyło?,O zaman çok Tılsımkâr savaştı mı?,
+E7965FF5488072BD3A899E968069B778,CinematicNode_Response_11,"Nie obnosiliśmy się z tym. Zresztą, wszyscy krwawimy na czerwono.","Bununla övünmedik. Zaten hepimiz kırmızı kan döküyoruz.",
+7B8512AA479FB083BAA7259C2259F184,CinematicNode_Response_11,"Bywałem częstym gościem w waszym domu, ale z czasem coraz rzadziej.","Evinize sık uğrardım, ama zamanla azaldı.",
+093276484AF21272DC6CF39D7DB2E1BE,CinematicNode_Response_11,Coś się stało?,Bir şey mi oldu?,
+600532EE4A5F85C0E75B888C75414861,CinematicNode_Response_11,"Proza życia. Stanisław skupił się na rodzinie, a ja na praktyce.","Hayatın nesri. Stanisław ailesine, ben muayenehaneme odaklandık.","'proza życia' = hayatın sıradanlığı; edebi karşılık 'hayatın nesri'"
+A2562298456A54F29B873D8538F3377B,CinematicNode_Response_12,Co z Soferem?,Sofer'le ne oldu?,
+ABFAB24E49A80EDA6BF1BF9D034F26A9,CinematicNode_Response_12,"Starego rabina przedstawił mi Stanisław. To on zabiegał o to, aby nas ze sobą spotkać.",Yaşlı rabbiyi bana Stanisław tanıttı. Bizi bir araya getirmek için o uğraşmıştı.,
+2E1F7542414587A941108DA2B0B76075,CinematicNode_Response_12,"Sofer był potężnym kabalistą, bardzo szanowanym w swojej gminie. To on powołał do życia Golema.","Sofer güçlü bir Kabalistti, cemaatinde büyük saygı görüyordu. Golem'i hayata o geçirdi.",
+DCF4B90A475834BD5D7F8AAD364FC466,CinematicNode_Response_12,"Nie miałem okazji lepiej go poznać. Krótko po nałożeniu tamtej klątwy, zmarł.","Onu yakından tanıma fırsatım olmadı. O laneti okuduktan kısa süre sonra öldü.",
+EEB5A06047A6C76A3C95CEBFD6D8DFAF,CinematicNode_Response_12,"Myślisz, że przywołanie Golema mogło do tego doprowadzić?",Golem'i çağırmanın buna yol açmış olabileceğini mi düşünüyorsun?,
+4FBB883A46188FE448D97498C015A8C4,CinematicNode_Response_12,"Nie, nie. Zabił go nadmiar ciasteczek, które tak uwielbiał.","Yok, yok. Onu öldüren çok sevdiği kurabiyelerin fazlası oldu.",
+497DE7EB478A5CC36D8363B5F2A686F9,CinematicNode_Response_13,Mam inne pytania.,Başka sorularım var.,
+82A4FB914390E97ABE5CEB8095056322,CinematicNode_Response_13,Tak?,Buyurun?,"'Tak?' burada dinliyorum/evet? anlamında, saygılı ton için 'Buyurun?'"
+154FF9E744AF7509EE4BC8BF682A003F,CinematicNode_Response_14,"Kim, według ciebie, jesteś?",Sence kimsin?,
+F17E860E417BBE7AC57985A59842D2D2,CinematicNode_Response_14,Lekarzem.,Bir hekimim.,"Dönem tınısı için 'hekim' (doktor yerine)"
+2397F8CC4B3FCA570EF27FA64629D404,CinematicNode_Response_14,"Chciałem raczej zapytać, kim się czujesz?","Daha çok şunu soracaktım: kendini kim olarak hissediyorsun?",
+76D609144CEB3BE106D3E3A6E36A9AED,CinematicNode_Response_14,"Tatarem. Polakiem. Sługą Allaha. Jestem nimi wszystkimi. Chcę wierzyć, że jestem też porządnym człowiekiem.",Tatar. Polonyalı. Allah'ın kulu. Hepsiyim bunların. Bir de iyi bir insan olduğuma inanmak istiyorum.,
+4CBFBA8945B4BF5DC197F984877AB042,CinematicNode_Response_14,"Unikam nadawania ludziom etykiet, Wiktorze. To zgubna droga.","İnsanlara etiket yapıştırmaktan kaçınırım, Wiktor. Vahim bir yoldur.",
+CC14FBA4446DA0E4ED1F1A80AEB5AA1B,CinematicNode_Response_15,"Kiedy spotkaliśmy się po raz pierwszy, sprawdzałeś mnie.",İlk karşılaştığımızda beni sınıyordunuz.,
+697C903549082373E0063CA96F01E857,CinematicNode_Response_15,"Musiałem wiedzieć, z jakiej gliny jesteś ulepiony. Żart niezamierzony.",Ne hamurdan yoğrulduğunu bilmem gerekiyordu. Kasıtsız bir şaka.,"PL'de 'glina' (kil) Golem göndermesi — TR'de 'hamur' deyimiyle karşılandı"
+8E873D834742B7449F99BEB93D6A20CB,CinematicNode_Response_16,"Mam przeczucie, że źle wypadłem w twoich oczach. Nie podołałem.",Gözünüzde kötü bir izlenim bıraktığımı hissediyorum. Başarılı olamadım.,
+E1AE38B94989F1D51D9D1A873A46442C,CinematicNode_Response_16,"Nic straconego. W końcu wciąż rozmawiamy, prawda?","Kaybedilmiş bir şey yok. Ne de olsa hâlâ konuşuyoruz, değil mi?",
+222B9CD641D8CE4BD9F74BBA1935F14C,CinematicNode_Response_17,Zaimponowałeś mi wtedy. Okazałeś się synem swojego potężnego ojca.,O zaman beni etkiledin. Kudretli babanın oğlu olduğunu gösterdin.,
+F59CF6154F26A5D2B77840966D7D79B4,CinematicNode_Response_18,Opiekowałeś się Soferem. Znalazłem wypisaną przez ciebie receptę.,Sofer'le siz ilgilendiniz. Yazdığınız reçeteyi buldum.,
+0165356F4644C54AA52019A936149F75,CinematicNode_Response_18,Tak było. Beznadziejny przypadek uzależnienia od błahostki.,Öyleydi. Önemsiz bir şeye bağımlılığın umutsuz bir vakasıydı.,
+9F4A11AC4F8FFE037F40A298BDC1C91A,CinematicNode_Response_18,"Gdybyśmy poznali się wcześniej, może wciąż by żył.","Daha erken tanışsaydık, belki hâlâ yaşıyor olurdu.",
+1392C25540373F6890C063AE5B8CD346,CinematicNode_Response_19,Opowiedz mi o sprawie Horowitza. Jak wpłynęła na komitywę?,Horowitz meselesini anlatın. Cemiyeti nasıl etkiledi?,"Komitywa = Cemiyet (glossary)"
+92D727CE4008C5BBB5A6259058822850,CinematicNode_Response_19,To tak naprawdę przez niego komitywa zaczęła się rozpadać.,Aslında Cemiyet onun yüzünden dağılmaya başladı.,
+0AEBB4E040CEAFD3A9DFABACC2DA5542,CinematicNode_Response_19,"Był chemikiem PPSu, który dużo wiedział. Pojawiło się ryzyko, że zostanie niechybnie odkryty.","PPS'in çok şey bilen bir kimyageriydi. Er geç ifşa olacağı riski belirdi.","PPS = Polska Partia Socjalistyczna (Polonya Sosyalist Partisi); kısaltma korundu"
+33F048D449733C9D67CB71A1F327EF80,CinematicNode_Response_19,Więc mój ojciec go zabił?,Yani babam onu öldürdü mü?,
+271E2EA94513DE71C7EA1A97D36B7CA4,CinematicNode_Response_19,"Stanisław wziął na siebie ciężar tej decyzji, licząc się z konsekwencjami. Wiedział, że gmina żydowska będzie miała mu to za złe, a Sofer nie mógł się sprzeciwić woli swoich.","Stanisław, sonuçlarını bilerek bu kararın yükünü üstlendi. Yahudi cemaatinin buna kızacağını biliyordu, Sofer de kendi toplumunun iradesine karşı çıkamazdı.",
+56ED0A5942ABAA4931ED559551713918,CinematicNode_Response_19,To by go zdemaskowało i pogrążyło nas wszystkich. Stanisław wyświadczyl nam przysługę.,"Bu onun maskesini düşürüp hepimizi batırırdı. Stanisław bize iyilik yaptı.","PL tipo: 'wyświadczyl'→'wyświadczył'"
+57E09AE74AF1DFA004D152A8FBE16778,CinematicNode_Response_19,PPSowi pewnie też.,Muhtemelen PPS'e de.,
+A96AE57D4EAE0A643CB0CBB8F583FDAE,CinematicNode_Response_2,<ar>As-salam alejkum.</> Trafiłeś. Dobrze.,<ar>As-salamu alaykum.</> Doğru yere geldin. Güzel.,"Arapça selam korundu; tag <ar>...</>"
+D5017F63437072DD3331948EDFA1C2D0,CinematicNode_Response_2,"A więc to jest ta praktyka, gdzie walczący z caratem znajdują ratunek?",Demek Çarlığa karşı savaşanların sığındığı muayenehane burası?,
+31F049194F7906DED6DD5BB47ED710E6,CinematicNode_Response_2,"Niech cię to nie zmyli. Tych, co nie walczą, też przyjmuję.","Seni yanıltmasın. Savaşmayanları da kabul ederim.",
+920793594A4C8A0139DCB7ABAACA2972,CinematicNode_Response_2,Czasem i thaumaturg się trafi. Co cię sprowadza?,Ara sıra bir Tılsımkâr da düşer buraya. Seni getiren nedir?,
+7562BD3D487C82575CF7A586180C0D0C,CinematicNode_Response_20,Jesteś stąd?,Buralı mısınız?,
+129817684C2CF8561A6E3D9DC86D1D78,CinematicNode_Response_20,"Pytasz, czy jestem z Warszawy, tak? Przybyłem tu dopiero po powstaniu. Moja rodzina pochodzi spod Wilna.","Varşovalı mıyım diye soruyorsun, değil mi? Buraya ancak ayaklanmadan sonra geldim. Ailem Wilno civarından.","Wilno = bugünkü Vilnius; Polonya-Litvanya bağlamında özgün ad korundu"
+3283156A44510326DBDBE9908968A138,CinematicNode_Response_20,"Ale moje serce bije tak sami, jak twoje.","Ama benim yüreğim seninkiyle aynı çarpıyor.","PL tipo: 'sami'→'samo'"
+FB6217184513E51C174FA6B9D4B778E5,CinematicNode_Response_21,Opowiedz mi więcej o Tatarach.,Tatarlar hakkında biraz daha anlatın.,
+6F667C8E41DEE7F38F3804B25EEB2DF3,CinematicNode_Response_21,"Moi przodkowie osiedlili się w okolicach Wilna, przeszło sześć wieków temu. Ponieważ pochodzili ze szlachty, zachowaliśmy swoją odrębność religijną i tradycje.","Atalarım Wilno civarına altı yüzyıldan fazla önce yerleşti. Soylu sınıftan geldikleri için dinî ve gelenek ayrılığımızı koruduk.",
+CB7500E34EAD0241F10B389DD3F92EAB,CinematicNode_Response_21,Wszyscy jesteście muzułmanami?,Hepiniz Müslüman mısınız?,
+B2733C654B6FFF579508BBB7CA6EEA71,CinematicNode_Response_21,A czy wy wszyscy jesteście katolikami? Każdy żyje podług swojego serca.,Peki siz hepiniz Katolik misiniz? Herkes kendi gönlünce yaşar.,
+C1A1BF944DD05CA4E64128B5E4F3C654,CinematicNode_Response_21,I tak powinno być.,Ve öyle de olmalı.,
+3B7BF4C6405E4ECA13E687B256CDC8C1,CinematicNode_Response_22,Mam inne pytania.,Başka sorularım var.,
+461F2D124247183B2C12F7AD687CEA59,CinematicNode_Response_22,Śmiało.,Çekinme.,"Fałdżej → Wiktor: 'sen'"
+249F38B14FAFA93037AFFAB739CA43C3,CinematicNode_Response_23,"A co ty o mnie wtedy pomyślałeś, jeśli mogę wiedzieć?","Peki sen o zaman benim için ne düşündün, sorabilir miyim?",
+3691133B4750BBE318F6E6873EAA332B,CinematicNode_Response_24,"Prawdę mówiąc, sam nie wiem.","Doğrusunu söylemek gerekirse, bilmiyorum.",
+6F34C35D451EC2879FE315831D8C7F14,CinematicNode_Response_24,Nie kłam.,Yalan söyleme.,
+931C415148AAD791D03552AC66EACC14,CinematicNode_Response_25,Wziąłem cię za dziwaka.,Seni garip biri sandım.,
+D301F88241EF3B9ADD925E92F5DEAA30,CinematicNode_Response_25,Ja ciebie także. Ciekawostka.,Ben de seni. İlginç.,
+6765D45743756934C7F2CCA0A3F8C525,CinematicNode_Response_26,"Przyznam, że mi zaimponowałeś. Zwłaszcza, że wyglądasz dość...","İtiraf edeyim, beni etkiledin. Özellikle de epey…","Cümle kesintisi; sonraki replikle tamamlanır (Staro?)"
+3925CB3B470182292C8DB79D543CE5C7,CinematicNode_Response_26,Staro?,…yaşlı göründüğünden mi?,"Önceki repliğin devamı/sorusu: '...yaşlı göründüğünden'"
+EC43306642E98D2E8CECD6A9407AC246,CinematicNode_Response_26,Doświadczenie przychodzi z wiekiem. Nie zapominaj.,Tecrübe yaşla gelir. Bunu unutma.,
+58C08A1E4839F51B034B958734BA5A8B,CinematicNode_Response_26,"Pamiętaj także, że uprzejmość i łagodność nie mają nic wspólnego z byciem słabym.","Ayrıca unutma: nezaket ve yumuşaklığın zayıflıkla alakası yoktur.",
+27DAEBF046EE5EE9854F4DA891808DE0,CinematicNode_Response_26,"Oraz, że nic nie kosztują.","Ve bir mal olmazlar.",
+6884D48C4BE5B33A3181F8B27CE7487B,CinematicNode_Response_3,Tak?,Evet?,
+965BAF8840681666E90CEEB9FBFB19D2,CinematicNode_Response_4,"Opowiedz mi, jak poznali się Żyd, Tatar i mój ojciec.","Anlatın — bir Yahudi, bir Tatar ve babam nasıl tanıştı?",
+C1F1EC104560E294A2B52198D6974148,CinematicNode_Response_4,"Wybieraj, który pierwszy?","Seç, hangisi önce?",
+52CC347140C0905CB80D70B0452AE565,CinematicNode_Response_5,Opowiedz mi o sobie.,Kendinizden bahsedin.,
+40ADFC764FB3010F57538FAC639AE6DC,CinematicNode_Response_6,"Wesprze naszą sprawę, dołączy do paktu.","Davamıza destek olacak, Ant'a katılacak.","Pakt = Ant (glossary)"
+C42D825544F75A32AFE37C8E0E94F294,CinematicNode_Response_6,To wspaniała wiadomość. Zatem spodziewam się go wkrótce.,Harika bir haber. Öyleyse onu yakında bekliyorum.,
+4D576795425E46A96F16A8A3C9F9A07A,CinematicNode_Response_7,Muszę już iść.,Artık gitmeliyim.,
+80285E6A41E3EA6AFC3ED98013EF9CD9,CinematicNode_Response_7,Niech Allah cię prowadzi.,Allah yolunu açık etsin.,
+BB01C2CF4E8B96E48E59098436EF786E,CinematicNode_Response_8,Słucham. Co chcesz wiedzieć?,Dinliyorum. Ne öğrenmek istersin?,
+E76F013E4162AE3347A7CB89A2DC6BE2,CinematicNode_Response_9,Nie będzie w stanie do nas dołączyć.,Bize katılacak hâli yok.,
+DC4A102F41233A5B8FB6069D5427BAAA,CinematicNode_Response_9,A to dlaczego?,Peki neden?,
+79891D30451B406B8AB3229F31530C85,CinematicNode_Response_9,Zmarł na moich oczach. Pogrom go dosięgnął.,Gözlerimin önünde öldü. Onu pogrom buldu.,"Pogrom = Yahudi karşıtı katliam; Türkçede terim aynen geçer"
+8FE434AF4CC78499C541A88D93C2FCE7,CinematicNode_Response_9,Tym szybciej musimy zawiązać pakt.,O zaman Ant'ı daha hızlı kurmalıyız.,

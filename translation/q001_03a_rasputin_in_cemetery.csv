@@ -1,0 +1,36 @@
+Hash,NodeName,PL,TR,Notes
+176121B8444431113325DE98527EFDCD,CinematicNode_Choice_2,"Powiedz mu, że mogą mieć rację.",Haklı olabileceklerini söyle.,
+9B9A037A4F8D72898C6A1E8EF06837F8,CinematicNode_Choice_2,Zapytaj kobietę o fatum wiszące nad wioską.,Kadına köyün üstündeki kader hakkında sor.,
+BFF091534A4FC3C28742BEB60CEB0B1E,CinematicNode_Choice_2,Dopytaj o śmierć starosty.,Köy başının ölümünü sor.,"starosta = köy başı/muhtar"
+6B000A6C491DB78E7BE7EE9B96827478,CinematicNode_Choice_3,"Zapytaj, co on tu robi.",Burada ne yaptığını sor.,
+1826CE464D4E38F174B8AB8E47BB5DDD,CinematicNode_Choice_3,Podziękuj mu za pomoc.,Yardımı için teşekkür et.,
+D68E966646BA578D6B1999990E08C9B0,CinematicNode_Choice_3,"Wyjaśnij, co się zmieniło.",Ne değiştiğini açıkla.,
+6132B7C6486EF13203A71DB60D1902FC,CinematicNode_Response_10,Jak umarł ten starosta?,Bu köy başı nasıl öldü?,
+1F88C9E8449D9135EC66D59F3B02DBE1,CinematicNode_Response_10,"Pożar był, panie. Płomienie pod niebo strzelały, a on płonął i przeklinał, klątwy rzucał. I rzucił! Zgliszcza po tym wszystkim to przeklęte miejsce. Złą ziemię licho przejęło.","Yangın çıktı beyim. Alevler göğe yükseldi, o yanarken sövüp lanet savuruyordu. Ve lanet etti! O kül yığını artık lanetli bir yer. Kötü toprağa şer girdi.","licho = şer/kötü ruh (Slav halk inancı)"
+F64927E44E20598B56C8D4B7E30F11B1,CinematicNode_Response_10,"Nie zachęcaj jej, jak zacznie, to nie można jej zatrzymać.","Onu cesaretlendirme, başladı mı durdurulmaz.",
+C4778BB54163E343F28D65B04DCCC5FA,CinematicNode_Response_10,To też może być działanie salutora.,Bu da bir salutorun işi olabilir.,
+E24639FE47690CFEC3765CB3A8C15661,CinematicNode_Response_10,Co masz na myśli?,Ne demek istiyorsun?,
+66BC36A1415CAD703771B7981CFB12AD,CinematicNode_Response_11,"Szeptucha mówiła, że to licho to <i>Bukavac</>!",Bilge Kadın bu şerin <i>Bukavac</> olduğunu söylemişti!,"Szeptucha = Bilge Kadın (glossary)"
+572D64E84AECB547A720589D1D8B5D36,CinematicNode_Response_11,"Czy ten stwór, który was nawiedza, dzwoni łańcuchami, wije się i szczerzy pysk wypełniony ostrymi zębiskami?","Size musallat olan bu yaratık zincir sesi çıkarıyor, kıvranıyor ve keskin dişlerle dolu ağzını mı sergiliyor?",
+9E3775AA405759335DA1EEB8FA148516,CinematicNode_Response_11,<i>Bukavac</>!,<i>Bukavac</>!,
+7433C50648AFCF41992DA09EDF0F5771,CinematicNode_Response_11,Gdzie mieszkał ten starosta?,Bu köy başı nerede yaşıyordu?,
+644390D54A171752947960BEA1C143A7,CinematicNode_Response_11,Pokażę ci.,Sana göstereyim.,
+690450CA4984AB6CB8B0259782441E34,CinematicNode_Response_11,Dajmy odpocząć duszy Wasilija na dzisiaj. Amen.,Bugünlük Vasiliy'nin ruhunu dinlendirelim. Âmin.,
+D2A76F2C4CF01B9FF7C95A9DB8804085,CinematicNode_Response_12,"Nie mam nawet słów, żeby powiedzieć, jak bardzo jestem wdzięczny za to, co pan dla mnie zrobił. Nie czułem się tak od... lat.","Sizin benim için yaptıklarınıza ne kadar minnettar olduğumu anlatacak sözüm yok. Yıllardır böyle hissetmemiştim.",
+9D23C0BF48BB2C5E4145BE99A644919E,CinematicNode_Response_12,"Cieszę się, że pomogłem.",Yardım edebildiğime sevindim.,
+7298F1EF4341E1B7DCF514A9833381F2,CinematicNode_Response_13,"Żyjesz. Czy to znaczy, że pomogłem, thaumaturgu?","Yaşıyorsun. Bu, yardım ettim anlamına mı geliyor, Tılsımkâr?",
+490D70D349E777507D6E269FB1EED0F1,CinematicNode_Response_14,Co takiego się zmieniło we wsi po śmierci starosty?,Köy başının ölümünden sonra köyde ne değişti?,
+56678AD74EAB20BC65FFDEA09A95CE16,CinematicNode_Response_14,"Wszystko źle, panie. Wszystko na głowie postawało. Ludzie, jak się kłócili, tak teraz drą koty, aż sztachety w ruch idą.","Her şey kötü beyim. Her şey baş aşağı. İnsanlar eskiden tartışırdı; şimdi ise kedi-köpek gibi kapışıyorlar, çitler havada uçuyor.",
+49C73F534EEB6732E0154D8BFADCAA69,CinematicNode_Response_14,"Baby cierpliwości do dzieci nie mają, chłopy do bab, a sąsiad do sąsiada. Słowo każde obraźliwe może się wydawać i afront od razu gotowy, awantura.","Kadınların çocuklarına, erkeklerin kadınlarına, komşunun komşuya sabrı kalmadı. Her söz hakaret gibi gelebiliyor; ardından tartışma, kavga.",
+0C262ACA4E2C564241ED4BA204AD139F,CinematicNode_Response_14,"Takie tragedie, jak śmierć Wasilija, odciskają swoje piętno na wszystkich. Musi minąć czas, żeby się z tym pogodzili.",Vasiliy'nin ölümü gibi trajediler herkeste iz bırakır. Bunu kabullenmeleri için zaman gerekir.,
+862C2704470FF441F6EA048E4A1F484B,CinematicNode_Response_14,"To nie musi znaczyć, że mroczne siły opętały to miejsce.","Bu, buraya karanlık güçlerin musallat olduğu anlamına gelmez illa.",
+2952FF484D7AA5BC46AD8B86BB4AA099,CinematicNode_Response_15,"Widzę go! Mojego <i>Upyra</>. Wrócił. Czuję z każdą chwilą, jak nasza więź się umacnia.","Onu görüyorum! <i>Upyr</>'ımı. Döndü. Her an bağımızın güçlendiğini hissediyorum.",
+E81FDBBB4A8991195F8876AAF35DC04F,CinematicNode_Response_15,"Cieszę się, ale pohamuj radość, jesteśmy na cmentarzu.","Sevinçliyim, ama sevincini dizginle — mezarlıktayız.",
+15F79B8E40B4975A8C149EBA6C35F12B,CinematicNode_Response_8,"Kiedy mi powiedziano, że jest pan na cmentarzu, byłem pewien, że zobaczę, jak wskrzesza pan zmarłych.","Bana mezarlıkta olduğunuzu söylediklerinde, ölüleri dirilttiğinizi göreceğimden emindim.",
+10F12D424A202F0CD79E069D8B2364A5,CinematicNode_Response_8,Jeszcze nie. Dzisiaj tylko modlę się o spokój duszy Wasilija. Cała wioska cierpi po jego stracie. Był tu starostą.,Henüz değil. Bugün yalnızca Vasiliy'nin ruhunun huzuru için dua ediyorum. Kaybından sonra tüm köy acı çekiyor. Burada köy başıydı.,
+22383ABE4C8C8A3C4B2E1E8E96027613,CinematicNode_Response_8,On przeklął to miejsce! Z jego śmiercią mrok i fatum zawisły nad wioską.,Bu yeri o lanetledi! Onun ölümüyle köyün üstüne karanlık ve kader çöktü.,
+5FAB781A4E387A2EDE98C4BEB102FDBE,CinematicNode_Response_8,Sam widzisz. Każda krzywda ma u nich swoje wytłumaczenie w gusłach.,Kendin görüyorsun. Her kötülüğün açıklaması onlarda batıl inançlarda bulunur.,"gusły = batıl inanç/büyü"
+08FC8803453B480A1B9914A953669032,CinematicNode_Response_8,"Wierzą, że po śmierci Wasilija wieś opętała jakaś wyjąca nocami poczwara, czy inny <i>ya'vietz.</>",Vasiliy'nin ölümünden sonra köye geceleri uluyan bir ucube ya da başka bir <i>ya'vietz</> musallat olduğuna inanıyorlar.,"ya'vietz — Slav halk inancı kötü varlık; aynen korunur"
+237FCAAB4A466627610A1F807F0D26BC,CinematicNode_Response_9,"Kiedy mnie uzdrawiałeś, miałem sen, marę...","Beni iyileştirirken bir rüya gördüm, hayal gibi…",
+D9456ED1427E78E3A7196BB035779739,CinematicNode_Response_9,"Ale na granicy tego snu i jawy wydawało mi się, że widziałem... salutora. To on może mieć wpływ na mieszkańców wioski i wyć po nocach.",Ama o rüya ile uyanıklığın sınırında sanki… bir salutor gördüm. Köy halkını etkileyip geceleri uluyan o olabilir.,
+9BB4E344450B081FDAA1DEBF2B8BC206,CinematicNode_Response_9,"To dobrzy ludzie, ale mało lotni, Wiktorze. Obawiam się, że może chodzić im o pociąg.","İyi insanlardır ama zekâları sınırlı, Wiktor. Korkarım kastettikleri bir tren olabilir.","'pociąg' = tren / çekim; Rasputin alaycı — köyde tren istasyonu var"

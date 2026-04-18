@@ -2,7 +2,7 @@ Key,PL,TR,Notes
 Engage,Zawiązanie walki,Savaşa Giriş,
 Skip,Pomiń turę,Turu Atla,
 Player_A1,Szybki atak,Hızlı Saldırı,
-Player_A2,Akcja reakcja,Eylem Tepki,PL'de kafiyeli ikileme; TR'de kısa tutuldu
+Player_A2,Akcja reakcja,Etki Tepki,"Türkçe yerleşik fizik deyimi (Newton 3. yasa) + kafiyeli; 'Eylem Boyutu' ile karışmaz"
 Player_A3,Błyskawiczna kombinacja,Yıldırım Kombinasyonu,
 Player_B1,Planowany atak,Planlı Saldırı,
 Player_B2,Przemyślane rozwinięcie,Düşünülmüş Hamle,

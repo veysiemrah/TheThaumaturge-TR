@@ -34,7 +34,7 @@ Name_Debuff_NewSalutor,Osłabienie wymiarów,Boyut Zayıflığı,
 Name_Trap_Hit,Ryzyko,Risk,
 Name_Trap_Vulnerable,Rykoszet,Rikoşet,
 Name_Inborn_ResistDmg,Odporność,Direnç,
-Name_Inborn_Konieczkin,Pod komendą naczelnika,Komiserin Emrinde,"Naczelnik = amir/komiser/şef"
+Name_Inborn_Konieczkin,Pod komendą naczelnika,Amirin Emrinde,"Naczelnik = Amir (glossary — Konieczkin polis amiri)"
 Name_Inborn_Restore,Regeneracja,Yenilenme,
 Name_Inborn_Focus,Skupienie,Odak,Glossary
 Name_Inborn_BlockStatus,Niewrażliwość,Bağışıklık,"Odporność=Direnç ile ayırt için Bağışıklık"

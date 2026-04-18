@@ -1,0 +1,21 @@
+Hash,NodeName,PL,TR,Notes
+656A1F184A0CA909E6774886E29DA7A2,CinematicNode_Choice_1,Podziękuj i wsiadaj.,Teşekkür et ve bin.,
+73F18F6E4FA49DC6436BDAB03C18CDAF,CinematicNode_Choice_1,"Zapytaj, czy w wiosce jest uzdrowiciel.",Köyde bir şifacı olup olmadığını sor.,
+9B79B109481BE2AC83B99494F7D7FF59,CinematicNode_Choice_1,"Zapytaj, czy jeszcze chwilę na ciebie poczeka.",Biraz daha seni bekleyip beklemeyeceğini sor.,
+F0F8142148B6C6B77E4F2BAE2C32A1D1,CinematicNode_Response_5,Dzień dobry. Jedzie pan może do wsi?,Günaydın. Köye mi gidiyorsunuz?,"Wagoner (Arabacı) Wiktor'a 'pan' der — dönem köylü saygısı"
+D637D92F48B30A7F46C2C198B3E5D96F,CinematicNode_Response_5,"Dobry. A gdzie mam jechać? Tu nie ma gdzie jeździć, panie. Stacja, wieś i cmentarz. Tyle. Wyżej koń nie pojedzie.","Günaydın. Başka nereye gideyim beyim? Gidecek yer yok burada. İstasyon, köy, bir de mezarlık. O kadar. Yukarı at çıkmaz.",
+706ED8A44F68F18A88B17CAC1F77FE0E,CinematicNode_Response_5,Interesuje mnie właśnie ta wioska.,Tam da bu köyle ilgileniyorum.,
+902CBE0648F878A8719CD29F8929273B,CinematicNode_Response_5,"Jak pan masz tylko powód, żeby tam jechać, to siadaj pan.","Oraya gitmek için sebebiniz varsa, binin bari beyim.",
+CA0C0325499B21918C7A2AA7E4C0D69A,CinematicNode_Response_6,Będę wdzięczny.,Minnettar olurum.,
+764CDE0D4AD2268B6D28F9922DAAF7EB,CinematicNode_Response_6,Zawsze to będzie miło do kogo gębę otworzyć.,Konuşacak biri olması da güzel zaten.,
+A1D08E834132C89A1D2118A75DC69D53,CinematicNode_Response_7,Zaczeka pan na mnie chwilę? Chciałem się jeszcze rozejrzeć.,Beni biraz bekler misiniz? Etrafı bir kolaçan etmek istedim.,
+A8D062AF44BE25B2F5A21EB6E2736FC3,CinematicNode_Response_7,Już teraz to pana nie zostawię przecież.,Şu aşamadan sonra sizi bırakmam elbette.,
+151DDC0A4649E960796A34BD0A765BBE,CinematicNode_Response_7,Dziękuję.,Teşekkürler.,
+6F6A87444E46E298E2C60DB7E58FD6E2,CinematicNode_Response_8,Gotowyś pan?,Hazır mısınız beyim?,
+C75C6A804E7C51C9AFD6339E27381968,CinematicNode_Response_9,A w tej wiosce to sami miejscowi mieszkają?,Bu köyde yalnızca yerliler mi oturur?,
+0CFC9A5C484C30AB3E7178BB8C901CE9,CinematicNode_Response_9,"A kto inny by chciał na takim zadupiu mieszkać, panie?","Başka kim böyle ıssız bir yerde oturmak ister ki beyim?",
+F9BADFBD4ACBC2CFD29388940A872B13,CinematicNode_Response_9,"Ale mi chodzi o to, czy nie ma tu jakiegoś przyjezdnego, gościa.","Demem o ki, burada yabancı biri, dışarıdan gelen bir misafir var mı?",
+38ECE1514602C11222312394C2802D60,CinematicNode_Response_9,"A, pan na uzdrawianie przyjechał? To on to żaden gość tu. On tu już siedzi miesiącami, panie. Ludzie udręczone, to i ma kogo uzdrawiać.","Aa, şifa için mi geldiniz? O burada artık misafir sayılmaz. Aylardır oturuyor beyim. Halk dertten çekiyor, o da tedavi edecek birini hep buluyor.",
+CC3479AF48D25E45EEE1FB9DD129FBF7,CinematicNode_Response_9,A gdzie go znajdę?,Onu nerede bulurum?,
+02045E264FCABFF140FC71BF6ACD6B23,CinematicNode_Response_9,"Siedzi w gospodzie pewnie jeszcze. Modli się o tej porze. O, on to się dużo modli, panie.","Büyük ihtimalle hâlâ handadır. Bu saatte dua eder. Oo, o çok dua eder beyim.","Rasputin Ortodoks — 'modli się' = dua eder"
+263B4CA448CCE3BA13BE4DA0AAE52E17,CinematicNode_Response_9,To siadasz pan?,E hadi biniyor musunuz beyim?,

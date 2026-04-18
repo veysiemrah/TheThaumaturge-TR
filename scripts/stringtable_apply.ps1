@@ -59,23 +59,13 @@ if (-not $export) { throw "RawExport bulunamadı." }
 $data = [Convert]::FromBase64String($export.Data)
 Write-Host "Orijinal data: $($data.Length) bytes"
 
-# Find namespace
-$nsStart = 0
-for ($i = 0; $i -lt 32; $i++) {
-    $len = [BitConverter]::ToInt32($data, $i)
-    if ($len -gt 0 -and $len -lt 256 -and ($i + 4 + $len -le $data.Length)) {
-        $cand = [System.Text.Encoding]::UTF8.GetString($data, $i + 4, $len - 1)
-        if ($cand -match "^[a-zA-Z][a-zA-Z0-9_]+$") {
-            $nsStart = $i
-            $nsEnd = $i + 4 + $len
-            break
-        }
-    }
-}
-if ($nsStart -eq 0 -and $nsEnd -eq 0) { throw "Namespace bulunamadı." }
-
-# Entry count position
-$pos = $nsEnd
+# StringTable layout (UE 5.1 IoStore):
+# [6 byte prefix: 00 01 00 00 00 00]
+# [FString namespace]   (Exploration_ST'de boş)
+# [int32 entry_count]
+# [FString key + FString value] * count
+$pos = 6
+$null = Read-FString -data $data -pos ([ref]$pos)   # namespace skip
 $count = [BitConverter]::ToInt32($data, $pos)
 $entriesStart = $pos + 4
 Write-Host "Entry count: $count"

@@ -1,0 +1,387 @@
+# Çeviri Review Rehberi (kendime talimat)
+
+**Bu doküman gelecekteki oturumlarda Claude'un kendine talimatıdır.** Kullanıcı "review yap" / "gözden geçir" dediğinde buradaki süreci takip et.
+
+İş birimi: **CSV dosyaları üzerinde metin-tabanlı inceleme** (kullanıcı oyunda test etmez; bu Claude'un görevidir). Tespit edilen her sorun: düzelt, CSV'yi yaz, pipeline'ı çalıştır, deploy et, bu dokümanın tablosunda durumu güncelle.
+
+---
+
+## 0. Review başlangıç kontrolü (her oturumda)
+
+```
+1. docs/glossary.md oku — terim otoritesi taze mi?
+2. docs/style-guide.md oku — karar güncel mi?
+3. Bu dokümanın "Sık sorunlar" ve "Değişim günlüğü" bölümüne bak
+4. Kullanıcıdan review odağı al: "StringTable genelinde tutarlılık mı?",
+   "belirli karakter/asset mı?", "tag/placeholder denetimi mi?"
+```
+
+**Varsayılan odak:** Son review'dan sonra eklenen yeni asset'ler. `git log --oneline docs/translation-review.md` son durum noktasını verir.
+
+---
+
+## 1. Review kriterleri — ne için bakıyorum?
+
+Aşağıdaki 9 kategori. Her kategori için operasyonel tarama yöntemi ekli.
+
+### 1.1 Glossary tutarlılığı
+
+`docs/glossary.md` kırılma noktaları:
+
+| Kategori | Kilit terimler (tutarlı olması gereken) |
+|---|---|
+| Oyun mekaniği | Tılsımkâr, Kusur, Boyut (Yürek/Eylem/Akıl/Söz), Odak, Parçalanma, Yetenek, Ant, Bağ, İz, Manipülasyon |
+| Salutorlar | Upyr, Bukavac, Djinn, Golem, Krampus, Lelek, Morana, Weles |
+| Karakterler | Wiktor, Rasputin, Ligia, Fałdżej, Samira, Abaurycy, Wanda, Vesna, Luka, Stanisław |
+| Yer adları | Varşova, Kafkaslar, Güney Kafkasya, Paris, Mirów, Powiśle, Praga, Sitadel, Wola, Śródmieście |
+| Dönem terimleri | Cemiyet (≠Komiser), Ant (≠Pakt), Bilge Kadın (≠Şeptuha), Amir (≠Komiser), Hacı/Yerli |
+| Wordplay | Bülbül Muhabbeti, Şek Şük, Yerine!, Şıkırdım, Proletarya Casanovası |
+
+**Tarama komutu (Grep):**
+
+```
+# Glossary terimi taraması — tutarlılık için farklı varyantları ara
+Grep pattern="(Kumanda|Kontrolör|Kontroler)" path="translation" glob="*.csv"
+Grep pattern="(Amir|Komiser|Naczelnik)" path="translation" glob="*.csv"
+Grep pattern="(Ant|Pakt)" path="translation" glob="*.csv"
+Grep pattern="(Bağ|Więź)" path="translation" glob="*.csv"
+Grep pattern="(Kibir|Gurur|Duma|Pycha)" path="translation" glob="*.csv"
+Grep pattern="(Cemiyet|Komitywa)" path="translation" glob="*.csv"
+Grep pattern="(Hekim|Doktor)" path="translation" glob="*.csv"
+```
+
+Aynı asset içinde tek terim için birden çok çeviri varsa otomatik kırmızı bayrak.
+
+### 1.2 Placeholder/tag koruma (zorunlu)
+
+PL'deki her `<tag>`, `{}`, `[]` TR'de birebir (aynı adette, aynı sırada, aynı içerikle).
+
+| Tag | PL | TR davranışı |
+|---|---|---|
+| `<tag>...</>` | `<tag>Algı</>yı` | içerik çevrilir, ek dışında |
+| `<i>...</>` | `<i>İz</>` | içerik çevrilir/korunur (italik) |
+| `<b>...</>` | `<b>Thaumata</>` | içerik aynen (özel terim) |
+| `<dl>...</>` | `<dl>syreniak</>` | argo — TR argosuna aktarılır |
+| `<ru>...</>` | `<ru>Arestovat'!</>` | Rusça içerik **aynen** (çevrilmez) |
+| `<fr>...</>` | `<fr>Au revoir.</>` | Fransızca içerik **aynen** |
+| `<ar>...</>` | `<ar>As-salamu alaykum.</>` | Arapça içerik **aynen** (Latin harf) |
+| `<br>` | satır sonu | **aynen** |
+| `{int}`, `{string}`, `{0}`, `%s` | runtime değişken | **aynen** |
+| `[FOCUS]`, `[HP]`, `[DAMAGE]` | oyun değişkeni | **aynen** |
+| `[Status.Offensive.Dmg_Debt]` | runtime ref | **aynen** |
+
+**Tarama komutu:**
+
+```
+# CSV satırı başına PL ve TR tag sayısı eşit mi?
+# Manuel: suspicious satırları ara
+Grep pattern="<(tag|i|b|dl|ru|fr|ar)>" path="translation" glob="*.csv" output_mode="content" -n=true
+```
+
+Kontrol algoritması: bir satırın PL ve TR kolonundaki tag adedi eşit olmalı. Eşit değilse o asset için detaylı incele.
+
+### 1.3 Karakter sesi
+
+| Karakter | Ton özeti | Dikkat |
+|---|---|---|
+| **Wiktor** | alaycı, aristokrat, Kibir Kusuru taşır | "Ben" şişirilmez; serin |
+| **Rasputin** | bilge + küfürlü (karakter); Wiktor'a "sen" | "topal am" gibi küfürler korunmalı |
+| **Ligia** | aile tonu, samimi | Wiktor'a "sen" |
+| **Fałdżej** | yaşlı Tatar hekim, saygılı; Wiktor'a "sen" | Arapça selam korunur |
+| **Samira/Sara** | sarkastik, güvensiz | "sen" yoldaş |
+| **Abaurycy** | gangster argosu, küfürlü; "Hacı'cım" | Yoğun "V.Ş." lakabı, "Mojki" grup adı |
+| **Wanda** | PPS flörtöz, Fransızca; "sihirbaz bey" | "soğan" kod, "pączki Berk Rotblitz" kod |
+| **Abaurycy↔Wanda** karakterleri ayırt | Farklı argo tonları | Abaurycy: sokak; Wanda: entellektüel flört |
+| **Köylüler** | rustik, batıl inançlı, "beyim" hitap | Vesna öfkeli, Luka kısa, Bilge Kadın bilge |
+| **Amca (Ligia+Wiktor sahnesinde)** | polis/asker, aile | "Oğlum", üniformalı |
+
+### 1.4 Hitap (siz/sen)
+
+- Wiktor → yaşlı/otorite: **siz** (Rasputin, Fałdżej, Bilge Kadın, polis, terzi'ye karşı — müşteri olarak ama sen de olabilir)
+- Wiktor → yoldaş/akran: **sen** (Samira, Wanda, Abaurycy, Ligia)
+- Yaşlı/bilge → Wiktor: **sen** (Rasputin, Fałdżej, amca)
+- Köylü → Wiktor: **siz** / "beyim"
+- Yoldaş → Wiktor: **sen**
+- Terzi ↔ Wiktor: terzi "bayım" der (siz); Wiktor "sen" (üst sınıf alt sınıfa)
+
+### 1.5 Noktalama
+
+- Üç nokta: `…` (U+2026) ✓, `...` (3 ASCII) ✗ (dönüştür)
+- Tırnak: `""` TR düz; iç `''`
+- Uzun çizgi: `—` (U+2014) parantetik
+- Kısa çizgi: `-` birleşik isim
+
+**Tarama:**
+
+```
+# Üç ASCII nokta (...) taraması — kaynağa sadakat gerekiyor mu?
+Grep pattern="\.\.\." path="translation" glob="*.csv" output_mode="content" -n=true
+# Not: CSV'nin PL kolonu kaynak, dokunulmaz. TR kolonunda … tercih edilir.
+```
+
+### 1.6 Özel isimler ve yazım
+
+- Polonya diakritikleri: Grażyna, Łódź, Fałdżej (korunur)
+- Karakter adları çevrilmez
+- Tarihî: Franz Ferdinand (TR), Tsarskoye Selo (aynen), 1863 Ocak Ayaklanması
+
+### 1.7 Doğallık
+
+- Pasif yapının PL'den doğrudan çekilmesi → etken tercih
+- Uzun birleşik cümleleri kısalt
+- Deyim literal ≠ iyi çeviri; TR deyimine aktar (Przyganiał kocioł → Tencere kazana dibi kara)
+
+### 1.8 Dönem tınısı (1905 Varşova)
+
+- UI'da sade; diyalogda dönem rengi
+- "içtima" (resmî), "cemiyet" (sol hareket), "esvap" (dönem kıyafet), "hekim" (diyalogda doktor yerine)
+
+### 1.9 Risk noktaları
+
+- **Cümle parçalı inject** — `Combat_ST Salutor_Dimension1/2` gibi birden çok satırdan birleşen; PL vs TR sıra farkı TR'de yapıyı kırabilir
+- **Tag içi/dışı ek** — `<tag>Algı</>yı` ✓ vs `<tag>Algıyı</>` ✗
+- **Sahne notu [...]** — bazı asset'lerde geliştirici notu; çevrilebilir ama oyuncu görmeyebilir
+
+---
+
+## 2. Review süreci — adım adım
+
+### Adım 1: Kapsam seç
+
+Kullanıcının talimatına göre:
+- "Tümünü review et" → **Bölüm 4** tablosundaki asset'leri sırayla
+- "Belirli bir asset / karakter" → sadece o asset
+- "Yeni eklenenler" → `git log --oneline translation/ -10` → son commit'ler
+
+### Adım 2: Çapraz terim taraması (proje geneli)
+
+Aşağıdaki Grep taramalarını sırayla çalıştır; aykırı sonuç çıkarsa not al:
+
+```
+Grep pattern="Kontrolör" path="translation"  # Kumanda olması lazım
+Grep pattern="Komiser" path="translation"    # Amir/amcacığım dışında yoksa bayrak
+Grep pattern="Pakt" path="translation"       # Ant olmalı
+Grep pattern="Hotel(?! Imperialny)" path="translation"  # Otel tercih
+Grep pattern="Polonyaca" path="translation"  # Lehçe tercih
+Grep pattern="\.\.\." path="translation" glob="*.csv"   # … tercih (TR sütununda)
+```
+
+### Adım 3: Asset-bazlı derin inceleme
+
+Her asset için:
+1. CSV'yi oku (Read)
+2. PL kolonunun karakter sesi ile TR kolonu eşleşiyor mu?
+3. Tag sayısı eşit mi? (PL `<tag>` sayısı ≈ TR `<tag>` sayısı)
+4. Glossary terimleri tutarlı çevrilmiş mi?
+5. Notes kolonunda işaretli belirsizlik var mı?
+
+### Adım 4: Tespit raporu
+
+Her sorunu şu formatta not al:
+
+```
+[ASSET] q001_XX_name.csv satır N
+  Hash: XXXXXX
+  PL:  "..."
+  TR:  "..."
+  Sorun: (tutarsızlık / tag hatası / doğal olmayan çeviri / glossary ihlali)
+  Öneri: "..."
+```
+
+### Adım 5: Düzeltme + deploy
+
+Onay alınmış düzeltmeler için:
+1. `Edit` ile CSV'yi güncelle
+2. `pwsh scripts/dialog_apply.ps1` (dialog) veya `scripts/stringtable_apply.ps1`
+3. `UAssetGUI fromjson` → staging
+4. `retoc to-zen` → mod pak
+5. Oyun kapalı kontrol → `Paks/`'a kopyala
+6. **Bu dokümanın Bölüm 4'ündeki tablo** güncelle (`—` → `✅` veya `🔄`)
+7. **Bu dokümanın Bölüm 7 Değişim Günlüğü'ne** kısa not ekle
+
+---
+
+## 3. StringTable review takip tablosu
+
+**27 StringTable / 26 çevrilmiş / ~1539 entry**
+
+| Asset | Entry | Son review | Durum | Bilinen sorun / Not |
+|---|---|---|---|---|
+| `Panels_ST` | 186 | 2026-04-18 | ✅ | Temiz |
+| `Tutorial_ST` | 48 | 2026-04-18 | 🔄 | CSV parse düzeltildi (ProgressionPanel); InbornStates2'de eksik `<tag>Nitelikle</>` eklendi; uzun pop-up taşma riski hâlâ kontrol edilmedi |
+| `TutorialName_ST` | 48 | 2026-04-18 | ✅ | Tutorial mekaniği isimleri — glossary ile tam uyum (Zincirler/İzler/Nitelikler/Gözlemler/Manipülasyon/Eşya/Harita/Kayıtlar/Tılsımkârlık/Boyunduruk/Eylem Sırası) |
+| `AbilityName_ST` | 145 | 2026-04-18 | 🔄 | 145 yetenek ismi tarandı: Salutor (Bukavac/Djinn/Golem/Krampus/Lelek/Morana/Upyr/Weles), silah kategori (Blunt/Fist/Knife/Sabre/Rifle/Pistol/Derringer), Rasputin "Bağını Zehirleme" formu, boks terimleri (Kroşe/Gong/Direkt) hepsi tutarlı. **Düzeltme:** Player_A2 "Eylem Tepki" → "Etki Tepki" (Türkçe yerleşik + Boyut adıyla karışmaz). Bukavac_H "Sırp Darbesi" alternatife açık |
+| `AbilityDescription_ST` | 42 | 2026-04-18 | 🟡 | Upyr_02 TR'de 2×[HP] — PL'de 1×; kullanıcı kararına (UI icon ikame ise OK) |
+| `Map_ST` | 169 | 2026-04-18 | ✅ | Berk Rotblit/Rotblitz kaynakta da var; `İmperyal Oteli`, `Elizyum` düzeltildi |
+| `MapDescriptions_ST` | 14 | 2026-04-18 | ✅ | Edebi lokasyon betimlemeleri (Powązki, Praga, Powiśle, Port Praski, Bazar Różyckiego, Dolina Szwajcarska); "niedom/eve-olmayan" neolojizmi başarılı aktarım |
+| `MapPinTypes_ST` | 13 | 2026-04-18 | ✅ | Ulaşım tipleri glossary ile tam uyum (Fayton/Yük Arabası/Hafif Fayton/Tramvay) |
+| `Combat_ST` | 170 | 2026-04-18 | 🔄 | Salutor_Dimension1/2 parçalı cümle yapısı doğrulandı (4 Boyut için akıyor); HealingDrawback TR'de 2×[HP] — kullanıcı kararına (PL'de 1×) |
+| `CombatLog_ST` | 12 | 2026-04-18 | ✅ | Savaş log mesajları — `{int_f}`, `{int_h}`, `{int_d}`, `{int_r}` placeholder'ları korunmuş |
+| `PopupsTexts_ST` | 112 | 2026-04-18 | ✅ | Kumanda/Lehçe düzeltildi |
+| `Flaw_Name_ST` | 12 | 2026-04-18 | 🟡 | Tartışmalı nüanslar: `Atılganlık` (Porywczość — "Hiddet/Tezcanlılık" alternatifi), `Dehşet` (Trwoga — "Korku" alternatifi), `Kıskançlık` (Zawiść — "Haset" alternatifi). Duma/Pycha → Kibir/Gurur ayrımı ✓ |
+| `Flaw_CombatDescription_ST` | 4 | 2026-04-18 | ✅ | {name} ve [HP] placeholder bütünlüğü ve dil temiz |
+| `Flaw_PanelDescription_ST` | 12 | 2026-04-18 | ✅ | [DEED/HEART/MIND/WORD] ve [HP] placeholder'ları tutarlı; Mind.2 & Word.2 "9'u aşmıyorsa" → PL "nie przekraczają 9" doğru çeviri |
+| `FlawsPanel_Descriptions_ST` | 22 | 2026-04-18 | ✅ | Wiktor sesi + Pycha/Duma ayrımı iyi; Heart.1_weak Türkçe deyim düzeltildi ("başımı derde soktu") |
+| `StatusName_ST` | 46 | 2026-04-18 | ✅ | Amir düzeltildi |
+| `StatusDescription_ST` | 49 | 2026-04-18 | ✅ | Teknik durum tanımları — `[DAMAGE]/[FOCUS]/[HP]/[V.DMG]/[V.FOC]` + `<Tag_Neg>` tutarlı; Rasputin boyunduruk salutor tanımları (Bukavac/Djinn/Golem/Krampus/Lelek/Morana/Weles) doğru |
+| `Progression_EffectName_ST` | 32 | 2026-04-18 | ✅ | 4 Boyut etki isimleri (Berserker/Hiddet/Sükûnet/Buzdan Zırh/Kışın Gelişi) — dönem ve oyun tonu uyumlu |
+| `Progression_EffectDescription_ST` | 14 | 2026-04-18 | ✅ | `[GameplayEffect...]` placeholder'ları ve `<Tag_Neg>Acı</>` korunmuş |
+| `ImprintsDescription_ST` | 72 | 2026-04-18 | ✅ | Fałdżej "Doktor" → "Hekim" (diyalog tutarlılığı); Maria "Sigara İçen Kadın" — bağlam belirsiz (Palaczka) |
+| `BarberName_ST` | 22 | 2026-04-18 | ✅ | Yaratıcı dönem argosu — Nadwiślański Sznyt/Vistül Şıklığı, Syreniak/Varşovalı, Aligantny/Zarif, Cymes korundu (Yidiş), Bosmański Klar/Lostromo Temizliği denizci argosu |
+| `BarberDescription_ST` | 22 | 2026-04-18 | 🔄 | CSV parse düzeltildi (special_facial_hair_06 PL tırnaklandı); edebi içerik hâlâ review'lanmadı |
+| `Street_Addresses_ST` | 33 | 2026-04-18 | ✅ | Sokak adları Polonya diakritikleriyle aynen korunmuş; Plac Zielony → Yeşil Meydan (glossary istisnası) |
+| `UnitDataLoreDescription_ST` | 16 | 2026-04-18 | ✅ | Mitolojik salutor lore (Baalberith/Dybbuk/Erlik/Shurale/Sirin/Paimon/Hashihime) edebi, kültürel bağlam korunmuş |
+| `Achievements_ST` | 116 | 2026-04-18 | ✅ | "Hızlı ve Öfkeli" + "İmperyal Otel'e" düzeltildi; wordplay kararları |
+| `Exploration_ST` | 108 | — | — | İkindi/Şafak dönem; `felçer` terimi |
+| `DebugText_ST` | ? | — | skip | Oyuncu görmez |
+
+**Durum kodları:** `—` review yapılmadı • `🔍` incelemede • `🟡` sorun var • `✅` onaylandı • `🔄` düzeltildi yeniden bakılacak
+
+---
+
+## 4. Dialog asset review takip tablosu
+
+**46 graph asset / 1565 satır**
+
+### Default_dialogues (6)
+
+| Asset | Satır | Son review | Durum | Not |
+|---|---|---|---|---|
+| `DD_smg_tailor` | 39 | 2026-04-18 | ✅ | Dönem tınısı ("bay/bayım", "Powązki'deki berber"), küfür karakter tutarlı, hitap doğru (terzi→Wiktor "siz", Wiktor→terzi imperatif) |
+| `DD_faldzej` | 94 | 2026-04-18 | 🔄 | **3 hitap düzeltmesi:** satır 19/20/72 Fałdżej→Wiktor "siz"→"sen" (style-guide: yaşlı bilge→genç). Glossary (Tılsımkâr/Cemiyet/Ant/Golem/Pogrom/Arapça selam) ve tarihsel (Traugutt/Ocak Ayaklanması/Wilno/Tatar) tutarlı |
+| `DD_ligia` | 98 | 2026-04-18 | ✅ | Aile bağlamı (Ligia/amca), "mundur vs krew" dönem tezadı, Stasio samimi form, Czarny Grymuar = Kara Grimuar özel isim; "iyi kısmet" dönem deyim |
+| `DD_samira` | 136 | 2026-04-18 | ✅ | Sara Rywkin sırrı + Samira/Madam, felçer (dönem argo), Mirów/Skałon/Okhrana/Konieczkin, karakter sesi (sarkastik, güvensiz) |
+| `DD_smc_abaurycy` | 134 | 2026-04-18 | ✅ | Karakter sesi + argo + glossary (Pielgrzym/Hacı, V.Ş., Mojki, Ryjcopranie, Siwucha, Şek Şük, Proletarya Casanovası) hepsi tutarlı; küçük opsiyonel iyileştirmeler (satır 25 parantez, satır 79 belirsizlik) |
+| `DD_wanda` | 194 | 2026-04-18 | 🔄 | **2 düzeltme:** satır 118 `<i>À propos</>` Fransızca korundu (Madame/Madam ile tutarlı), satır 152 "Üzerinde göz bulunduracağım." → "Gözüm üzerinde olacak." (TR deyim). Flört + kodlar (soğan, pomad, PPS) + `<fr>` tag'leri temiz |
+
+### q001 prolog (28 story) ✅ tamamlandı
+
+| Asset | Satır | Son review | Durum | Not |
+|---|---|---|---|---|
+| `q001_00a_introduction` | 10 | — | — | Ligia kardeş samimiyeti |
+| `q001_00b_telegram` | 34 | — | — | "v/w" harf diktesi |
+| `q001_00c_travel_to_village` | 20 | — | — | Köylü arabacı tonu |
+| `q001_01a_entering_tavern` | 20 | — | — | Rusça tag'ler |
+| `q001_01b_meeting_rasputin` | 46 | 2026-04-18 | ✅ | Hitap asimetrisi doğru (Wiktor→Rasputin "siz", Rasputin→Wiktor "sen"), Polonya 3 işgali bağlamı ("Rus/Alman/Avusturya Polonyası") ve "haritada 100+ yıldır görünmez ülke" korunmuş; hekim tutarlı |
+| `q001_01c_rasputin_healing` | 35 | — | — | "topal am" kaba (karakter) |
+| `q001_01d_vision` | 9 | — | — | Otoriter baba tonu |
+| `q001_01e_waking_after_vision` | 13 | — | — | Hancı "süpürmek istiyordum" tekrar |
+| `q001_02a_wagon` | 16 | — | — | |
+| `q001_03a_rasputin_in_cemetery` | 35 | — | — | "pociąg" espri; "ya'vietz" halk inancı |
+| `q001_04a_burned_house_conclusion` | 8 | — | — | |
+| `q001_04b_burned_house_encounter` | 25 | — | — | "Grigorij" dostluk başlangıcı |
+| `q001_04c_burned_house_rasputin` | 55 | 2026-04-18 | ✅ | Glossary (Kusur/Salutor/İz/Bağ/Kibir) ve hitap (Wiktor→Rasputin "siz") tutarlı; çok küçük dilsel nüanslar (satır 21 tekil/çoğul, satır 38 "indywidualne" nüansı) |
+| `q001_05a_vesna_at_market` | 3 | — | — | Kısa |
+| `q001_05b_vesna_conclusion` | 7 | — | — | |
+| `q001_05c_vesna_at_home` | 22 | — | — | İmdat çağrısı "POMOCY" |
+| `q001_05d_vesna_gone_from_home` | 5 | — | — | Komşu kadın |
+| `q001_05e_neighbours` | 5 | — | — | Kısa tehdit |
+| `q001_06a_wise_woman_argument` | 21 | — | — | Köylü argosu yoğun |
+| `q001_06b_wise_woman_hut` | 46 | 2026-04-18 | ✅ | Bukavac/şer/zamowa/Tılsımkâr tutarlı; Wiktor→Bilge Kadın "siz"→"sen" geçişi dramatik ton olarak savunulabilir; küçük dilsel (satır 15 "işe girdi") |
+| `q001_07a_rasputin_and_plan` | 15 | — | — | |
+| `q001_08a_confrontation_with_luka` | 18 | — | — | Gerilim — "Kafasını uç" |
+| `q001_08b_bukavac` | 3 | — | — | Çok kısa savaş anı |
+| `q001_08c_rasputin_salutor` | 2 | — | — | 01d ile tutarlı baba sesi |
+| `q001_08d_resolution` | 34 | — | — | Kalabalık tehditi "Odun yığınına!" |
+| `q001_09a_postmaster` | 6 | — | — | Baba ölüm haberi |
+| `q001_09b_traveler` | 12 | — | — | Albuquerque absürd |
+| `q001_09c_epilog` | 35 | — | — | Franz Ferdinand/Odessa kehaneti |
+
+### q101 (12/24 story)
+
+| Asset | Satır | Son review | Durum | Not |
+|---|---|---|---|---|
+| `q101_00a_welcome_to_warsaw` | 49 | — | — | PPS/Hollanda pomadı/Wanda ön göndermesi |
+| `q101_00b_arrival_wiktor_dream` | 1 | — | — | Sahne notu |
+| `q101_01a_tsar_speech` | 35 | — | — | Rusça yoğun; Grunwald; "Kasap" |
+| `q101_01b_prisoners_cell_talk` | 49 | 2026-04-18 | ✅ | `<dl>` tag'leri hepsi eşleşiyor; Varşova gangster argosu çevirileri mükemmel (szmondak/Şmondak, kacap/Moskof, syreniak/Varşovalı, aligant/Şıkırdım, gwoździowe/haraç, zblatowany/bağlantı); küfür karakter sesine uygun |
+| `q101_01c_guard_cell_talk` | 8 | — | — | |
+| `q101_01d_player_in_cell` | 5 | — | — | "franca" (frengi) aşağılama |
+| `q101_01e_wanda_cell_talk` | 32 | — | — | Fransızca Rue de la Roquette, Oui |
+| `q101_01f_parade_arresting` | 34 | — | — | Ayakkabı bağla sahnesi; Wiktor şantaj |
+| `q101_01g_police_registration` | 6 | — | — | Szulski aile tanınması |
+| `q101_01h_worker_kettling_talk` | 15 | — | — | Kaba "spierdalaj" |
+| `q101_01k_wanda_after_kettling` | 5 | — | — | Berk Rotblitz daveti |
+| `q101_01m_soldier_kettling_talk` | 29 | — | — | "Szmulski" Yahudi aşağılama; Rusça tag |
+
+**Kalan q101 story:** 12 asset — 02 bloğu (mezarlık, 6) + 03 bloğu (vasiyet, 6).
+
+---
+
+## 5. Proje kapsam sayaç (güncel tut)
+
+| Kategori | Toplam | Çevrilen | Review'lı |
+|---|---|---|---|
+| StringTable | 27 | 26 | 26 |
+| Default_dialogues | 6 | 6 | 6 |
+| q001 story | 28 | 28 | 3 |
+| q001 Chats | 14 | 0 | — |
+| q101 story | 24 | 12 | 1 |
+| q101 Chats | ? | 0 | — |
+| q102–q401 | ~180 | 0 | — |
+| lw_* (yan) | ~180 | 0 | — |
+| genenc / Chats / Fluffs | ~60 | 0 | — |
+| **Toplam dialog** | ~687 | 46 | 0 |
+
+---
+
+## 6. Sık karşılaşılan sorun türleri (referans)
+
+Önceki review'lardan kalıplar:
+
+| Kalıp | Örnek | Nasıl bulunur |
+|---|---|---|
+| **Tutarlılık** (farklı dosyalarda farklı çeviri) | "Kontrolör" vs "Kumanda" | Grep çapraz tarama |
+| **Glossary ihlali** | "Komiser" (glossary: Amir) | Grep glossary terimi |
+| **Yerleşik TR yerleşim** | "Polonyaca" yerine "Lehçe"; "Elyzyum" yerine "Elizyum" | Kültürel bilgi |
+| **Standart film/kitap çeviri** | "Hızlı ve Sinirli" yerine "Hızlı ve Öfkeli" | Yaygın TR referans |
+| **Tag ek hatası** | `<tag>Algıyı</>` yerine `<tag>Algı</>yı` | Tag sınırı denetimi |
+| **Üç nokta** | `...` yerine `…` (TR sütununda) | Grep `\.\.\.` |
+| **Cümle parçalı inject sırası** | `Salutor_Dimension1/2` PL↔TR yeniden yapılandırıldı | Cross-dump kontrol |
+| **Karma Hotel/Otel** | Aynı dosyada ikisi birden | Grep "Hotel" |
+
+---
+
+## 7. Değişim günlüğü
+
+Her review oturumundan sonra buraya özet ekle.
+
+| Tarih | Oturum | Kapsam | Bulgular | Eylem |
+|---|---|---|---|---|
+| 2026-04-18 | İlk StringTable review | 26 ST | 6 tutarsızlık: Kumanda, Amir, Lehçe, Hızlı-Öfkeli, Elizyum, İmperyal Oteli | Tümü düzeltildi + deploy |
+| 2026-04-18 | Çapraz tutarlılık taraması (26 ST + 46 dialog) | Hotel, Hekim/Doktor, Pakt, Amir, Kibir-Gurur, Bilge Kadın, Cemiyet, Kontrolör | 2 tutarsızlık: Achievements_ST `İmperyal Hotel'e`→`İmperyal Otel'e`; ImprintsDescription_ST `Doktor`→`Hekim` | Düzeltildi + deploy |
+| 2026-04-18 | **CSV parse bütünlüğü** (multiline-aware kolon denetimi; yeni `scripts/validate_csv_columns.ps1`) | 10 satırda tırnaksız virgül PL/TR kolonlarını kaydırıyordu → oyuna sessizce yanlış/Polonyaca metin gidiyordu | BarberDescription_ST:12, DD_faldzej:32/42, q001_01a_entering_tavern:10, q001_05c_vesna_at_home:8, q001_09c_epilog:36, q101_01m_soldier_kettling_talk:12/16/22, Tutorial_ST:46 (ProgressionPanel) | Hepsi düzeltildi (PL/TR tırnaklandı) + 7 asset re-apply + deploy; validator pipeline'a eklenmeli |
+| 2026-04-18 | Tag/placeholder dengesi + FlawsPanel + Combat parçalı cümle (Tur B) | 5 tag uyuşmazlığı; Combat_ST Salutor_Dimension1/2 yapısal doğrulama; FlawsPanel edebi ton; yeni `scripts/validate_tag_balance.ps1` | **Net hata:** Tutorial_ST InbornStates2 3. `<tag>Cecha</>` TR'ye eksik eklendi (semantik bilgi kaybı). **Dilsel:** FlawsPanel Heart.1_weak "beni başı derde" → "başımı derde" düzeltildi. **Tartışmalı (kullanıcı kararı):** Upyr_02, HealingDrawback 2×[HP], Flaw_Name terim nüansları. **Teknik not:** FlawsPanel_Descriptions_ST.uasset staging'de 2 lokasyonda (UI/Data/StringTables + Quests/InsightsConclusions), ikisi de senkron tutuldu. | 2 ST re-apply + deploy |
+| 2026-04-18 | Yüksek-riskli dialog asset derinliği (Tur C — örnekleme) | DD_smc_abaurycy (134 satır Varşova argo + 12 özel terim), q001_04c_burned_house_rasputin (55 satır Kusur/Salutor/İz teorisi), q001_06b_wise_woman_hut (46 satır halk büyüsü), q101_01b_prisoners_cell_talk (49 satır `<dl>` argo) | **Dört asset de ✅:** karakter sesi, glossary, hitap (Wiktor→Rasputin/Bilge Kadın "siz"; Wiktor→Abaurycy/mahkumlar "sen"), tag eşitliği, küfür/argo karşılıkları hepsi tutarlı ve doğru. Küçük opsiyonel iyileştirmeler var ama kritik sorun yok. | Düzeltme yok — onay verildi |
+| 2026-04-18 | Default_dialogues tamamlama (Tur C devam) | DD_wanda (194 satır Fransızca+flört+kodlar), DD_smg_tailor (39 satır terzi dönem argo), DD_faldzej (94 satır Tatar bilge), DD_ligia (98 satır aile+amca), DD_samira (136 satır Sara sırrı) | **DD_wanda:** satır 118 `À propos` Fransızca aynen korundu; satır 152 TR deyim ("gözüm üzerinde"). **DD_faldzej:** 3 hitap düzeltmesi — Fałdżej→Wiktor "siz"→"sen" (style-guide: yaşlı bilge→genç samimi; Notes da düzeltildi). **DD_smg_tailor/DD_ligia/DD_samira:** ✅ kritik sorun yok. Tüm 6 Default_dialogue artık review'lı. | 2 asset re-apply + deploy |
+| 2026-04-18 | Kalan StringTable + yüksek-riskli dialog (Tur C toplu kapanış) | AbilityName_ST (145 entry), Exploration_ST (108), StatusDescription_ST (49), TutorialName_ST (48), Street_Addresses_ST (33), Progression_EffectName_ST (32), BarberName_ST (22), UnitDataLoreDescription_ST (16), MapDescriptions_ST (14), Progression_EffectDescription_ST (14), MapPinTypes_ST (13), CombatLog_ST (12) + q001_01b_meeting_rasputin (46) | **Düzeltme:** AbilityName_ST Player_A2 "Eylem Tepki" → "Etki Tepki" (Türkçe fizik deyimi + "Eylem Boyutu" ile karışmaz). Diğer tüm 12 ST ve q001_01b ✅ onaylandı — placeholder'lar, glossary, karakter sesi, tarihî bağlam, lore, dönem argosu hepsi tutarlı. | 1 ST re-apply + deploy |
+
+---
+
+## 8. Hızlı komut referansı
+
+### Çapraz terim taraması
+```
+Grep pattern="PATTERN" path="translation" glob="*.csv" output_mode="content" -n=true -i=true
+```
+
+### Tek asset okuma
+```
+Read file_path="C:\Users\veysi\...\translation\<asset>.csv"
+```
+
+### Tek asset düzeltme + deploy (dialog)
+```
+Edit: translation/<asset>.csv
+pwsh scripts/dialog_apply.ps1 -JsonPath build/dialogue_analysis/<asset>.json \
+     -CsvPath translation/<asset>.csv \
+     -OutJsonPath build/work/<asset>_tr.json
+tools/UAssetGUI/UAssetGUI.exe fromjson build/work/<asset>_tr.json \
+     build/staging/TheThaumaturge/Content/GrimoireContent/Quests/Dialogues/<proj>/Assets/<asset>.uasset \
+     tools/Mappings
+retoc to-zen --version UE5_1 build/staging/TheThaumaturge build/output/pakchunk99-WinGDK_P.utoc
+Copy-Item build/output/pakchunk99-WinGDK_P.* "C:\XboxGames\...\Paks\" -Force
+```
+
+### StringTable için
+Aynı akış ama `stringtable_apply.ps1` ve `UI/Data/StringTables/` yolu.
