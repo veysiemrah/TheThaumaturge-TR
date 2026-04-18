@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-18 (q101 kalan story)
+**Son güncelleme:** 2026-04-18 (q101 Chats)
 
 ---
 
@@ -11,8 +11,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog** | 72 asset | 687 asset | %10.5 | ~1926 |
-| **GENEL** | — | — | — | **~3465 satır** |
+| **Diyalog** | 88 asset | 687 asset | %12.8 | ~1995 |
+| **GENEL** | — | — | — | **~3534 satır** |
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -100,7 +100,7 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | q001_08_before_confrontantion_chats | 3 | Luka'dan önce köylüler |
 | q001_09_traveler_chat | 2 | Albuquerque yolcusu boşta |
 
-### q101 — Babanın cenazesi + vasiyet — 24/40
+### q101 — Babanın cenazesi + vasiyet — 40/40 ✓
 
 **Assets — 24/24 ✓** (567 satır)
 
@@ -129,9 +129,26 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | 03f | 1 | 48 | Woronin vasiyet öncesi (kehribar likörü) | ✓ |
 | 03g | 1 | 7 | Pietia vasiyet sonrası | ✓ |
 
-**Chats — 0/16 ✗**
+**Chats — 16/16 ✓** (69 satır)
 
-Hiçbir Chat asset'i çevrilmedi. Assets tamam; Chats sıraya geldi (dosya listesi `docs/dialog-assets.txt` → q101/Chats/).
+| Asset | Satır | Bağlam |
+|---|---|---|
+| q101_00a_parade_observers_chat | 4 | Parade izleyicileri Skałon hakkında |
+| q101_00b_newcomers_and_locals_chat | 6 | Yeni gelenler — tramvay/fayton |
+| q101_01a_kettling_officers_chat | 2 | Asker çavuşu konuşması |
+| q101_01b_kettling_worker_chat | 4 | İşçi direnişi |
+| q101_01c_kettling_single_chats | 4 | Kettled insanların yakınması |
+| q101_01d_cell_policeman_chat | 3 | Polis tehdidi |
+| q101_02_cemetery_entrance_chat | 3 | Mezarlık girişi fanatik |
+| q101_02a_cemetery_chats | 9 | Çiçekçi + fotoğrafçı + park kavgası + mezar soyguncu |
+| q101_02b_undertaker_chat | 2 | Mezarcı |
+| q101_02c_burial_chat | 11 | Cenaze misafirleri dedikodusu |
+| q101_02d_mordechaj_and_woronin_chat | 2 | Mordechaj + Wujek seslenişleri |
+| q101_03a_about_rain_chat | 2 | Yağmur |
+| q101_03b_woronin_bottle_chat | 2 | Wujek şişe sorar — Grażyna |
+| q101_03c_burial_guests_chat | 7 | Konuklar Wiktor hakkında |
+| q101_03d_ligia_with_notary_chat | 1 | Ligia başlama çağrısı |
+| q101_ligia_and_woronin_chat | 7 | Ligia + Wujek özel konuşma |
 
 ### Ana story kalan — 0 çevrildi
 
@@ -187,13 +204,13 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 
 ## Öncelik sırası
 
-1. **q001 Chats** ✓ tamam
-2. **q101 Assets** ✓ tamam (02 mezarlık + 03 vasiyet dahil)
-3. **q101 Chats** (16 asset) — NPC sokak sohbetleri
-4. **q102, q103, q104** — ana story ilerlemesi
-5. **q201-q401** — bölüm 2-4
-6. **sq001** (vizyon sekansları) — paralel olarak sokulabilir
-7. **lw_*** yan görevler — opsiyonel, en geç
+1. **q001** ✓ tamam (42/42)
+2. **q101** ✓ tamam (40/40)
+3. **q102** (27 asset) — Lelek yakalama
+4. **q103** (33 asset) — Weles / Hotel Imperialny
+5. **q104, q201-q401** — ana story ilerlemesi
+6. **sq001** (39 asset) — Upyr vizyon sekansları
+7. **lw_*** yan görevler (~197) — opsiyonel, en geç
 8. **Encounters, Global_chats, Diğer** — en geç
 9. **DebugText_ST** — opsiyonel, oyuncu görmez
 
