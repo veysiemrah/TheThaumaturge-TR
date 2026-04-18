@@ -167,48 +167,20 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 
 ---
 
-## Proje durumu (en son)
+## Proje durumu (özet)
 
-**Review tam kapandı (2026-04-18):** StringTable 26/26 + Default_dialogues 6/6 + q001 prolog 28/28 + q101 01-bloğu 12/12. Detaylı günlük: `docs/translation-review.md` → Bölüm 7. Bu turda 28 düzeltme deploy'lu; kullanıcı kararı bekleyen nokta kalmadı (tek istisna: `ImprintsDescription_ST Maria_Palaczka` — kullanıcı oyunda görünce netleşecek).
+**Tam ilerleme çizelgesi:** `docs/progress.md` — kanonik kayıt. Kategori/bölüm bazında asset/satır sayıları, ✓/✗ işaretli. Her çeviri seti sonrası önce orası güncellenir.
 
-### Çevirilmiş StringTable'lar (26 adet / ~1539 entry)
+### Hızlı özet (2026-04-18)
 
-| Dosya | Entry | Notlar |
-|---|---|---|
-| `Panels_ST` | 186 | Menüler, paneller, ayarlar, envanter kategorileri, codex başlıkları |
-| `Tutorial_ST` | 48 | Eğitici pop-up açıklama metinleri |
-| `TutorialName_ST` | 48 | Eğitici başlıkları |
-| `AbilityName_ST` | 145 | Yetenek isimleri (oyuncu + salutor + düşman silahları + boss) |
-| `AbilityDescription_ST` | 42 | Yetenek açıklamaları (sadece oyuncu+salutor+boss, düşman silahları açıklamasız) |
-| `Map_ST` | 169 | Lokasyon/oda adları (Varşova semtleri özel isim aynen) |
-| `MapDescriptions_ST` | 14 | Bölge atmosferik tanımları (uzun, edebi) |
-| `MapPinTypes_ST` | 13 | Harita pin etiketleri (Berber, Terzi, Fayton vs.) |
-| `Combat_ST` | 170 | Savaş UI (boyut isimleri, rasputin çağrıları, ipuçları) |
-| `CombatLog_ST` | 12 | Savaş log bildirimleri |
-| `PopupsTexts_ST` | 112 | Pop-up, pano (StartBoard, Q102Demo), difficulty, Ligia mektubu, stüdyo manifesti |
-| `Flaw_Name_ST` | 12 | Kusur adları (Kibir, Hırs, Düşüncesizlik vs.) |
-| `Flaw_CombatDescription_ST` | 4 | Kusurun savaşta tetiklenme metni |
-| `Flaw_PanelDescription_ST` | 12 | Kusur panel efekt metni |
-| `FlawsPanel_Descriptions_ST` | 22 | Kusurların edebi kökenleri (Wiktor anlatıcı) |
-| `StatusName_ST` | 46 | Savaş durumları (Parçalanma, Acı, Rasputin Boyundurukları vs.) |
-| `StatusDescription_ST` | 49 | Durum açıklamaları (teknik) |
-| `Progression_EffectName_ST` | 32 | Yetenek ağacı efekt isimleri |
-| `Progression_EffectDescription_ST` | 14 | Yetenek ağacı efekt açıklamaları |
-| `ImprintsDescription_ST` | 72 | NPC iz/kişilik etiketleri |
-| `BarberName_ST` | 22 | Saç/sakal stil isimleri (yaratıcı dönem argosu) |
-| `BarberDescription_ST` | 22 | Saç/sakal stil açıklamaları (uzun, dönem tınılı) |
-| `Street_Addresses_ST` | 33 | Sokak adları (32 aynen, 1 çeviri: Plac Zielony) |
-| `UnitDataLoreDescription_ST` | 16 | Salutor/düşman lore tek-cümle tanımları |
-| `Achievements_ST` | 116 | Steam/Xbox başarımları (58 isim + 58 açıklama) |
-| `Exploration_ST` | 108 | Etkileşim butonları, ReduceStress alt-etkileşimleri, TimeOfDay, InputAction, Pride diyalog mesajları |
-
-Deploy edilmiş mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
-
-### Kalan 1 StringTable
-
-#### `DebugText_ST`
-
-Debug metinleri; oyuncu görmez. Çeviri önceliği düşük, opsiyonel.
+- **StringTable:** 26/27 ✓ (~1539 entry). Kalan: `DebugText_ST` (opsiyonel, oyuncu görmez).
+- **Diyalog:** 60/687 asset ✓ (~1627 satır):
+  - Default_dialogues 6/6 ✓
+  - q001 prolog Assets 28/28 ✓
+  - q001 Chats 14/14 ✓
+  - q101 01-bloğu Assets 12/24
+- **Review:** Tam kapalı (2026-04-18); 28 düzeltme deploy'lu. Günlük: `docs/translation-review.md` → Bölüm 7.
+- **Deploy'lu mod pak:** `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
 ### StringTable byte layout'u (doğrulandı)
 
@@ -221,21 +193,17 @@ Tüm `*_ST.uasset` dosyalarındaki `RawExport.Data` base64 blob'u şu yapıya sa
 [FString key + FString value] * count
 ```
 
-`scripts/stringtable_dump.ps1` ve `stringtable_apply.ps1` artık sabit 6-byte prefix'ten sonra namespace'i doğrudan okuyor (regex taraması yerine). Boş namespace bu sayede desteklenir — eski regex yaklaşımı Exploration_ST'de ilk key'i ("Interaction_Inspect") namespace sanarak parse'ı bozuyordu.
+`scripts/stringtable_dump.ps1` ve `stringtable_apply.ps1` sabit 6-byte prefix'ten sonra namespace'i doğrudan okuyor. Boş namespace desteklenir.
+
+### Dialog graph layout'u (doğrulandı)
+
+**Ana story graf asset'leri** (`Quests/Dialogues/<quest>/Assets/<scene>.uasset`): `CinematicNode_Choice_*` / `CinematicNode_Response_*` export'larının `RawExport.Data` base64 blob'unda hash+text çiftleri.
+
+**Chat asset'leri** (`Quests/Dialogues/<quest>/Chats/<name>_chats.uasset`): Tek `RawExport` (asset adıyla), aynı hash+text format. `-AllRawExports` switch gerekir (`dialog_dump.ps1` + `dialog_apply.ps1`).
 
 ### QA aşaması — bekleyen belirsizlikler
 
-Çevirilerin `Notes` sütunlarında kullanıcı onayı için işaretli notlar var. Kritik olanlar:
-
-- `AbilityName_ST` Bukavac_H → "Sırp Darbesi" (PL: "Surmijski cios" — Güney Slav/Srem bölge sıfatı; pragmatik seçim)
-- `Combat_ST` Salutor_Dimension1/2 — parçalı cümle inject sırası PL'den farklı; TR'de "Bu Salutor, [BOYUT] Boyutundandır. ..." olarak yeniden yapılandırıldı
-- `ImprintsDescription_ST` Maria → "Sigara İçen Kadın" (Palaczka hem tiryaki hem ateşçi anlamına gelir, bağlam belirsiz)
-- `Achievements_ST` wordplay: "Bülbül Muhabbeti" (Trele morele), "Şek Şük!" (Sztymunek), "Yerine!" (Waruj!), "Arabistanlı Wiktor" (Lawrence göndermesi)
-- `Flaw_*` Pycha/Duma ayrımı — TR'de Gurur/Kibir farkıyla korundu
-
-### Diyalog çevirisi (henüz başlanmadı)
-
-~30.000 `Seq-*.uasset` dosyası `Quests/Dialogues/**/Seq/{en,pl}/Lines/` altında. Bunların içinde gerçek metin var mı ya da hash referansı mı tam bilinmiyor; ilk birkaç dosyada kamera verisi görünüyordu. **Diyaloga geçmeden önce yeniden analiz gerek.**
+Tek istisna: `ImprintsDescription_ST` Maria → "Sigara İçen Kadın" (Palaczka hem tiryaki hem ateşçi anlamına gelir; kullanıcı oyunda karakteri görünce netleşecek). Diğer tüm belirsizlikler 2026-04-18 review turunda kapandı — detay: `docs/translation-review.md`.
 
 ---
 
