@@ -14,8 +14,9 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Diyalog** | 148 asset | 687 asset | %21.5 | ~3810 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
+| **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
-| **GENEL** | — | — | — | **~6474 satır** |
+| **GENEL** | — | — | — | **~6686 satır** |
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -343,12 +344,16 @@ Manifest referansları:
 - Ana story Journal 25/25 ✓ (386 satır, 2026-04-18)
 - Codex DT 5/5 ✓ (497 satır, 2026-04-19)
 - LW Journal 14/14 ✓ (242 satır, 2026-04-19)
+- POI Journal + Postcards 47/47 ✓ (212 satır, 2026-04-19) — **Journal kategorisi %100 tamam**
 
 **İlk yapılacak çeviri (öncelik sırasıyla):**
 1. ~~Ana story Journal (25 asset / 385 satır)~~ ✓ TAMAM
 2. ~~Codex DataTable (5 asset / 497 satır)~~ ✓ TAMAM
 3. ~~LW Journal (14 asset / 242 satır)~~ ✓ TAMAM
-4. POI Journal + Postcards (44 asset / 203 satır)
+4. ~~POI Journal + Postcards (47 asset / 212 satır)~~ ✓ TAMAM
+5. Readables (47 asset / ~700-1200 satır) — mektuplar, gazeteler, kitaplar
+6. q104-q401 ana story dialog
+7. sq001 dialog (39 asset) — Upyr vizyonları
 
 **Pipeline:** Her journal için `translation/<name>.csv` yaz (Hash,NodeName,PL,TR,Notes); sonra `dialog_apply -AllRawExports` → `UAssetGUI fromjson` → staging/journal altına. `retoc to-zen` ile mevcut mod pak'a ekle.
 
