@@ -5,7 +5,7 @@ Hash,NodeName,PL,TR,Notes
 442AD2CD4D8FD0472CF958BFA09CE749,CinematicNode_Response_10,Twarze raczej nie pasują do munduru. Bardziej do złodziei.,Yüzler üniformaya pek uymuyor. Daha çok hırsıza yakışır.,
 6903081B47D73F8C18224181CDEFA298,CinematicNode_Response_10,Chyba nie chce rozmawiać z nami po dobroci.,Galiba bizimle iyilikle konuşmak istemiyor.,
 32F301FE476E47740A550BB91A0B3488,CinematicNode_Response_11,I się ruskie doigrały.,Ruslar sonunda haddini aştı işte.,
-12469C61420E06E9487097A7F7420AF9,CinematicNode_Response_11,"Nie doniosą. Wstydu sobie narobią, jak powiedzą komu, że ich taki kaleka sprał.","İhbar etmezler. Böyle bir sakatın onları pataklaıp birine söyleseler, rezil olurlar.",
+12469C61420E06E9487097A7F7420AF9,CinematicNode_Response_11,"Nie doniosą. Wstydu sobie narobią, jak powiedzą komu, że ich taki kaleka sprał.",İhbar etmezler. Böyle bir sakatın onları patakladığını birine söyleseler rezil olurlar.,"Yazım+kurgu düzeltildi (pataklaıp→patakladığını; zarf cümlesi netleşti)"
 85A0E7DE4B240AE34B23048B6E19F764,CinematicNode_Response_12,"Panowie, czy gospoda to tutaj?","Beyler, han burası mı?",
 304B7D444A7C4A00631FA08E4C89EC02,CinematicNode_Response_12,"<ru>Ey, putnik!</> Ty z daleka idziesz?","<ru>Ey, putnik!</> Uzaktan mı geliyorsun?","'putnik' = yolcu (Rusça); tag içeriği aynen"
 94E3372A4598C443365CBB92FD07FD34,CinematicNode_Response_12,Owszem. Jestem zmęczony.,Evet. Yorgunum.,

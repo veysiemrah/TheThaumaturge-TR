@@ -258,51 +258,51 @@ Onay alınmış düzeltmeler için:
 
 | Asset | Satır | Son review | Durum | Not |
 |---|---|---|---|---|
-| `q001_00a_introduction` | 10 | — | — | Ligia kardeş samimiyeti |
-| `q001_00b_telegram` | 34 | — | — | "v/w" harf diktesi |
-| `q001_00c_travel_to_village` | 20 | — | — | Köylü arabacı tonu |
-| `q001_01a_entering_tavern` | 20 | — | — | Rusça tag'ler |
+| `q001_00a_introduction` | 10 | 2026-04-18 | ✅ | Ligia→Wiktor mektubu; aile samimi "sen"; PL büyük-Ty saygı nüansı TR'ye uyarlandı |
+| `q001_00b_telegram` | 34 | 2026-04-18 | ✅ | Posta müdürü resmi "siz"; "v/w" harf diktesi korunmuş; "Gürcistan Rusya, Polonya Rusya" tarihî ironi; Wiktor'un alaycı mesajı |
+| `q001_00c_travel_to_village` | 20 | 2026-04-18 | ✅ | Arabacı → Wiktor "siz + beyim" (dönem köylü saygısı); "Rasputin dua eder" ipucu |
+| `q001_01a_entering_tavern` | 20 | 2026-04-18 | 🔄 | CSV parse + satır 8 yazım/kurgu düzeltmesi (pataklaıp→patadığını; cümle netleşti); Rusça tag'ler sağlam |
 | `q001_01b_meeting_rasputin` | 46 | 2026-04-18 | ✅ | Hitap asimetrisi doğru (Wiktor→Rasputin "siz", Rasputin→Wiktor "sen"), Polonya 3 işgali bağlamı ("Rus/Alman/Avusturya Polonyası") ve "haritada 100+ yıldır görünmez ülke" korunmuş; hekim tutarlı |
-| `q001_01c_rasputin_healing` | 35 | — | — | "topal am" kaba (karakter) |
-| `q001_01d_vision` | 9 | — | — | Otoriter baba tonu |
-| `q001_01e_waking_after_vision` | 13 | — | — | Hancı "süpürmek istiyordum" tekrar |
-| `q001_02a_wagon` | 16 | — | — | |
-| `q001_03a_rasputin_in_cemetery` | 35 | — | — | "pociąg" espri; "ya'vietz" halk inancı |
-| `q001_04a_burned_house_conclusion` | 8 | — | — | |
-| `q001_04b_burned_house_encounter` | 25 | — | — | "Grigorij" dostluk başlangıcı |
+| `q001_01c_rasputin_healing` | 35 | 2026-04-18 | ✅ | "topal am" kaba küfür karakter sesi korundu; hitap asimetrisi doğru; glossary (Tılsımkâr/Upyr/Bağ) tutarlı; minör: "kasza z sarnim tłuszczem" → "geyik yağıyla bulgur" (kasza≠bulgur ama anlaşılır) |
+| `q001_01d_vision` | 9 | 2026-04-18 | ✅ | Otoriter baba vizyonu — "Kör herif/budala/Kibir" aşağılama; Duma=Kibir glossary |
+| `q001_01e_waking_after_vision` | 13 | 2026-04-18 | ✅ | Hancı "süpürmek istiyordum" tekrarı komedi; Rasputin→Wiktor "sen" (01b siz → 01e sen, karakter yakınlaşması); Pakt=Ant |
+| `q001_02a_wagon` | 16 | 2026-04-18 | ✅ | Arabacı pazarlığı; "siz+beyim" dönem tonu; "chabetę/gebermiş atı" argo |
+| `q001_03a_rasputin_in_cemetery` | 35 | 2026-04-18 | ✅ | "pociąg" wordplay Notes ile açıklandı (Türkçe kaybı kaçınılmaz); köy başı/Bilge Kadın/Bukavac/ya'vietz/şer (licho) tutarlı; köylü rustik "beyim" tonu ve Rasputin alaycılığı güzel |
+| `q001_04a_burned_house_conclusion` | 8 | 2026-04-18 | ✅ | Wiktor iç monolog; Kusur/İz glossary tutarlı |
+| `q001_04b_burned_house_encounter` | 25 | 2026-04-18 | 🔄 | "Grigorij" samimi form geçişi; "klecho/papaz" Rus asker aşağılaması; satır 10 yazım düzeltildi (pataklaıp→pataklayan) |
 | `q001_04c_burned_house_rasputin` | 55 | 2026-04-18 | ✅ | Glossary (Kusur/Salutor/İz/Bağ/Kibir) ve hitap (Wiktor→Rasputin "siz") tutarlı; çok küçük dilsel nüanslar (satır 21 tekil/çoğul, satır 38 "indywidualne" nüansı) |
-| `q001_05a_vesna_at_market` | 3 | — | — | Kısa |
-| `q001_05b_vesna_conclusion` | 7 | — | — | |
-| `q001_05c_vesna_at_home` | 22 | — | — | İmdat çağrısı "POMOCY" |
-| `q001_05d_vesna_gone_from_home` | 5 | — | — | Komşu kadın |
-| `q001_05e_neighbours` | 5 | — | — | Kısa tehdit |
-| `q001_06a_wise_woman_argument` | 21 | — | — | Köylü argosu yoğun |
+| `q001_05a_vesna_at_market` | 3 | 2026-04-18 | ✅ | Vesna pazarda öfke (Atılganlık Kusur kaynağı); "Tu!" tükürme ünlemi |
+| `q001_05b_vesna_conclusion` | 7 | 2026-04-18 | ✅ | Wiktor iç monolog — Luka/Vesna şüphe; İz glossary |
+| `q001_05c_vesna_at_home` | 22 | 2026-04-18 | 🔄 | CSV parse düzeltmesi yapıldı; Wiktor→Vesna "siz/pani" + "İMDAT!" haykırışı korundu |
+| `q001_05d_vesna_gone_from_home` | 5 | 2026-04-18 | ✅ | Komşu kadın tonu; "açıklıkta odun kesiyor" bilgisi |
+| `q001_05e_neighbours` | 5 | 2026-04-18 | ✅ | Köylü tehditler; "Şeytan sürmüş seni buraya" deyim |
+| `q001_06a_wise_woman_argument` | 21 | 2026-04-18 | ✅ | Bilge Kadın dava sahnesi (kaz/kolye); köylü argo yoğun ("wszarz/bitli"); "Szeptucha/Bilge Kadın" glossary; "cam kırıkları" takı değerlendirmesi |
 | `q001_06b_wise_woman_hut` | 46 | 2026-04-18 | ✅ | Bukavac/şer/zamowa/Tılsımkâr tutarlı; Wiktor→Bilge Kadın "siz"→"sen" geçişi dramatik ton olarak savunulabilir; küçük dilsel (satır 15 "işe girdi") |
-| `q001_07a_rasputin_and_plan` | 15 | — | — | |
-| `q001_08a_confrontation_with_luka` | 18 | — | — | Gerilim — "Kafasını uç" |
-| `q001_08b_bukavac` | 3 | — | — | Çok kısa savaş anı |
-| `q001_08c_rasputin_salutor` | 2 | — | — | 01d ile tutarlı baba sesi |
-| `q001_08d_resolution` | 34 | — | — | Kalabalık tehditi "Odun yığınına!" |
-| `q001_09a_postmaster` | 6 | — | — | Baba ölüm haberi |
-| `q001_09b_traveler` | 12 | — | — | Albuquerque absürd |
-| `q001_09c_epilog` | 35 | — | — | Franz Ferdinand/Odessa kehaneti |
+| `q001_07a_rasputin_and_plan` | 15 | 2026-04-18 | ✅ | Wiktor→Rasputin "sen" geçişi (04c'den 07a'ya karakter yakınlaşması, PL'de de "cię"); "Bay Szulski/pan Szulski" arabacı; Bukavac planı |
+| `q001_08a_confrontation_with_luka` | 18 | 2026-04-18 | ✅ | Luka gerilim sahnesi; "Kes kafasını" köylü tehditleri; Bilge Kadın ifşa; glossary (Bukavac/Kusur/zamowa) tutarlı |
+| `q001_08b_bukavac` | 3 | 2026-04-18 | ✅ | Bukavac savaş anı — "Sen de benimsin" güçlü kapanış |
+| `q001_08c_rasputin_salutor` | 2 | 2026-04-18 | ✅ | 01d baba vizyon sesi ile tutarlı; Rasputin "Tılsımkâr, Ben hakikatim" |
+| `q001_08d_resolution` | 34 | 2026-04-18 | ✅ | Luka/Vesna kapanış + köylü kalabalığı tepkisi; "Odun yığınına!" cadı yakma referansı korundu; Vesna'nın öfke, Luka'nın şok, Wiktor'un alaycı tonu güzel; köylü → Wiktor "sen"e geçiş saldırganlıkla tutarlı |
+| `q001_09a_postmaster` | 6 | 2026-04-18 | ✅ | Posta müdürü başsağlığı; resmi "siz" tonu |
+| `q001_09b_traveler` | 12 | 2026-04-18 | ✅ | Albuquerque absürt yolcusu; yolcu→Wiktor "pan/siz" resmi; "okyanus ötesi" mizahi coğrafya |
+| `q001_09c_epilog` | 35 | 2026-04-18 | ✅ | Franz Ferdinand (1914 Saraybosna) + Odessa Merdivenleri (Potemkin) + WW1 sisi kehaneti korundu; Wiktor→Rasputin "sen"e geçiş karakter gelişimi (yol sonu — PL'de de "ty") |
 
 ### q101 (12/24 story)
 
 | Asset | Satır | Son review | Durum | Not |
 |---|---|---|---|---|
-| `q101_00a_welcome_to_warsaw` | 49 | — | — | PPS/Hollanda pomadı/Wanda ön göndermesi |
-| `q101_00b_arrival_wiktor_dream` | 1 | — | — | Sahne notu |
-| `q101_01a_tsar_speech` | 35 | — | — | Rusça yoğun; Grunwald; "Kasap" |
+| `q101_00a_welcome_to_warsaw` | 49 | 2026-04-18 | ✅ | Üç dilde Varşova selamı (Rusça/Almanca/Lehçe), PPS/Hollanda pomadı kodları, Rasputin-Wiktor sen-sen (q001_09c sonrası), "zabory→üç işgal bölgesi"; minör: guwernantki/dadı (alt: mürebbiyeler) |
+| `q101_00b_arrival_wiktor_dream` | 1 | 2026-04-18 | ✅ | Sahne notu `[...]` → `[…]` |
+| `q101_01a_tsar_speech` | 35 | 2026-04-18 | ✅ | `<ru>` tag'leri aynen (Varshava/Vremya terrora/Idi nakhuy/Arestovat'); Wszechruś→Tüm-Rusya, Grunwald 1410, Rzeźnik→Kasap Skałon lakabı; Çar anti-propaganda dili + Wanda ilk karşılaşma "siz" doğru |
 | `q101_01b_prisoners_cell_talk` | 49 | 2026-04-18 | ✅ | `<dl>` tag'leri hepsi eşleşiyor; Varşova gangster argosu çevirileri mükemmel (szmondak/Şmondak, kacap/Moskof, syreniak/Varşovalı, aligant/Şıkırdım, gwoździowe/haraç, zblatowany/bağlantı); küfür karakter sesine uygun |
-| `q101_01c_guard_cell_talk` | 8 | — | — | |
-| `q101_01d_player_in_cell` | 5 | — | — | "franca" (frengi) aşağılama |
-| `q101_01e_wanda_cell_talk` | 32 | — | — | Fransızca Rue de la Roquette, Oui |
-| `q101_01f_parade_arresting` | 34 | — | — | Ayakkabı bağla sahnesi; Wiktor şantaj |
-| `q101_01g_police_registration` | 6 | — | — | Szulski aile tanınması |
-| `q101_01h_worker_kettling_talk` | 15 | — | — | Kaba "spierdalaj" |
-| `q101_01k_wanda_after_kettling` | 5 | — | — | Berk Rotblitz daveti |
-| `q101_01m_soldier_kettling_talk` | 29 | — | — | "Szmulski" Yahudi aşağılama; Rusça tag |
+| `q101_01c_guard_cell_talk` | 8 | 2026-04-18 | ✅ | Gardiyan Wiktor'u çıkartıyor; grimuar bağlantısı; hitap (gardiyan→Wiktor "sen") doğru |
+| `q101_01d_player_in_cell` | 5 | 2026-04-18 | ✅ | Mahkum kova sahnesi; "franco/frengili" aşağılama korundu; kaba argo karakter sesi |
+| `q101_01e_wanda_cell_talk` | 32 | 2026-04-18 | ✅ | `<fr>Rue de la Roquette</>`, `<fr>Oui</>` aynen; sen-sen simetrisi (yoldaş); pomada/pączki/Rotblitz kodları tutarlı; Wanda flörtöz tonu iyi |
+| `q101_01f_parade_arresting` | 34 | 2026-04-18 | ✅ | Parade + Wanda ayakkabı bağla oyunu; `<ru>` tag'leri aynen; "Varşovalı hanımefendi vs yüz yıl önce odun yığınında yanacak sihirbaz" tarih-sınıf oyunu; Wiktor şantaj doğru aktarılmış |
+| `q101_01g_police_registration` | 6 | 2026-04-18 | ✅ | Polis kayıt + Stanisław Szulski aile tanınması; resmi siz hitabı |
+| `q101_01h_worker_kettling_talk` | 15 | 2026-04-18 | ✅ | İşçi çığırtkanı devrimci söylem; "Spierdalaj/Siktir git" küfür karakter sesi; sınıf-farkı hitap (Wiktor siz, işçi sen) |
+| `q101_01k_wanda_after_kettling` | 5 | 2026-04-18 | ✅ | Wanda teşekkür + Berk Rotblitz daveti; kodlar (pomada/çörek) DD_wanda ile tutarlı |
+| `q101_01m_soldier_kettling_talk` | 29 | 2026-04-18 | ✅ | 10 `<ru>` tag aynen (Gospodi/Dostatochno/Shagom marsh/Ponyatno/Davay...); Szulski→Szmulski Yahudi aşağılaması; "Polonyalı itler" Rus asker tonu; CSV parse düzeltmesi (3 satır) zaten yapılmıştı |
 
 **Kalan q101 story:** 12 asset — 02 bloğu (mezarlık, 6) + 03 bloğu (vasiyet, 6).
 
@@ -314,9 +314,9 @@ Onay alınmış düzeltmeler için:
 |---|---|---|---|
 | StringTable | 27 | 26 | 26 |
 | Default_dialogues | 6 | 6 | 6 |
-| q001 story | 28 | 28 | 3 |
+| q001 story | 28 | 28 | 28 |
 | q001 Chats | 14 | 0 | — |
-| q101 story | 24 | 12 | 1 |
+| q101 story | 24 | 12 | 12 |
 | q101 Chats | ? | 0 | — |
 | q102–q401 | ~180 | 0 | — |
 | lw_* (yan) | ~180 | 0 | — |
@@ -355,6 +355,9 @@ Her review oturumundan sonra buraya özet ekle.
 | 2026-04-18 | Yüksek-riskli dialog asset derinliği (Tur C — örnekleme) | DD_smc_abaurycy (134 satır Varşova argo + 12 özel terim), q001_04c_burned_house_rasputin (55 satır Kusur/Salutor/İz teorisi), q001_06b_wise_woman_hut (46 satır halk büyüsü), q101_01b_prisoners_cell_talk (49 satır `<dl>` argo) | **Dört asset de ✅:** karakter sesi, glossary, hitap (Wiktor→Rasputin/Bilge Kadın "siz"; Wiktor→Abaurycy/mahkumlar "sen"), tag eşitliği, küfür/argo karşılıkları hepsi tutarlı ve doğru. Küçük opsiyonel iyileştirmeler var ama kritik sorun yok. | Düzeltme yok — onay verildi |
 | 2026-04-18 | Default_dialogues tamamlama (Tur C devam) | DD_wanda (194 satır Fransızca+flört+kodlar), DD_smg_tailor (39 satır terzi dönem argo), DD_faldzej (94 satır Tatar bilge), DD_ligia (98 satır aile+amca), DD_samira (136 satır Sara sırrı) | **DD_wanda:** satır 118 `À propos` Fransızca aynen korundu; satır 152 TR deyim ("gözüm üzerinde"). **DD_faldzej:** 3 hitap düzeltmesi — Fałdżej→Wiktor "siz"→"sen" (style-guide: yaşlı bilge→genç samimi; Notes da düzeltildi). **DD_smg_tailor/DD_ligia/DD_samira:** ✅ kritik sorun yok. Tüm 6 Default_dialogue artık review'lı. | 2 asset re-apply + deploy |
 | 2026-04-18 | Kalan StringTable + yüksek-riskli dialog (Tur C toplu kapanış) | AbilityName_ST (145 entry), Exploration_ST (108), StatusDescription_ST (49), TutorialName_ST (48), Street_Addresses_ST (33), Progression_EffectName_ST (32), BarberName_ST (22), UnitDataLoreDescription_ST (16), MapDescriptions_ST (14), Progression_EffectDescription_ST (14), MapPinTypes_ST (13), CombatLog_ST (12) + q001_01b_meeting_rasputin (46) | **Düzeltme:** AbilityName_ST Player_A2 "Eylem Tepki" → "Etki Tepki" (Türkçe fizik deyimi + "Eylem Boyutu" ile karışmaz). Diğer tüm 12 ST ve q001_01b ✅ onaylandı — placeholder'lar, glossary, karakter sesi, tarihî bağlam, lore, dönem argosu hepsi tutarlı. | 1 ST re-apply + deploy |
+| 2026-04-18 | q001 prolog yüksek-riskli örnekleme + q101 01-bloğu derinlik (commit sonrası) | q001_01c (Rasputin tedavi, "topal am" küfür), q001_03a (mezarlık, pociąg wordplay, ya'vietz), q001_08d (Luka/Vesna resolution, Odun yığınına), q001_09c (Franz Ferdinand/Odessa kehaneti), q101_01a (Çar konuşması, Rusça, Grunwald, Kasap), q101_01e (Wanda hücre, Fransızca), q101_01f (parade ayakkabı bağla) | **7 asset ✅ onaylandı** — Rusça/Fransızca tag'ler aynen, tarihî referanslar (Grunwald/Franz Ferdinand/Odessa Merdivenleri/Potemkin) korunmuş, Wiktor-Rasputin "siz→sen" karakter gelişimi PL ile tutarlı, Wiktor-Wanda "siz→sen" geçişi iyi, kalabalık tepkisi + rustik tonu güçlü. Kritik sorun yok; minör stil notları (kasza/bulgur, psia krew/Kör talih, kıllı/tüylü) opsiyonel | Düzeltme yok |
+| 2026-04-18 | q101 story blok tamamlama (12/12) | q101_00a (49 — tren, üç dilde Varşova, Rasputin gazete), q101_00b (1 — sahne notu), q101_01c (8 — gardiyan çıkış, grimuar), q101_01d (5 — mahkum kova frengi), q101_01g (6 — polis kayıt, Szulski aile), q101_01h (15 — işçi çığırtkanı, spierdalaj), q101_01k (5 — Wanda teşekkür, Berk Rotblitz), q101_01m (29 — asker Rusça tag'ler, Szmulski aşağılama) | **8 asset ✅ onaylandı** — tüm `<ru>` tag'leri aynen, sınıf-farkı hitap (aristokrat vs işçi/asker), kodlar (pomada/pączki/Rotblitz) DD_wanda ve Abaurycy ile tutarlı, Stanisław Szulski aile tanınması korundu. **q101 01-bloğu tamamen review'lı.** | Düzeltme yok |
+| 2026-04-18 | q001 prolog blok tamamlama (28/28) | Kalan 21 asset toplu review: q001_00a/b/c (Ligia mektup, telgraf v/w, arabacı), 01a/d/e (tavern CSV+tipo, vizyon, uyanış), 02a (wagon), 04a/b (burned house, tipo), 05a-e (Vesna sahneleri), 06a (Bilge Kadın dava), 07a (plan), 08a-c (Luka/Bukavac/baba), 09a/b (posta/Albuquerque) | **2 yazım düzeltmesi:** q001_01a:8 "pataklaıp→patadığını" + kurgu netleşti, q001_04b:10 "pataklaıp→pataklayan". **19 asset ✅ temiz** — Ligia mektup aile samimi, posta müdürü "v/w" diktesi, arabacı "siz+beyim", baba vizyonu/Bukavac savaş anı, Vesna öfke (Atılganlık), Bilge Kadın dava argosu, Rasputin-Wiktor "siz→sen" karakter yakınlaşma (q001_07a'da geçiş, PL'de de "cię"), Albuquerque mizah. **q001 prolog tamamen review'lı.** | 2 asset re-apply + deploy |
 
 ---
 
