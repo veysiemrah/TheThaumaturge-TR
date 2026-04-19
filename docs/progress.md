@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (Readables Phase 1 — 8 ortam/tailor/POI-chat asseti; 52 entry / ~148 satır)
+**Son güncelleme:** 2026-04-20 (Readables Phase 2 — 12 LW bölge asseti; 168 entry / ~520 satır)
 
 ---
 
@@ -17,8 +17,9 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables (ana story)** | 15 asset | 47 asset | %32 | ~811 |
-| **Readables (LW ortam + Tailor + PP/lw_pw02/lw_smc01_chat)** | 8 asset | — | — | ~148 |
-| **GENEL** | — | — | — | **~7645 satır** |
+| **Readables (ortam + Tailor + PP + küçük LW)** | 8 asset | — | — | ~148 |
+| **Readables (LW bölge)** | 12 asset | — | — | ~520 |
+| **GENEL** | — | — | — | **~8165 satır** |
 
 **Journal kategorisi %100 tamam** (91/91 asset). Codex DT %100 tamam.
 
@@ -389,15 +390,18 @@ Review detay: `docs/translation-review.md`
 - `BZR_readables`, `SMC_readables`, `SMG_readables`, `lw_Tailor_Readables`
 - `PP_readables`, `PP_readables_chats`
 - `lw_pw02_readable`, `lw_smc01_readable_chat`
-- Deploy: 2026-04-20 17:01 (`pakchunk99-WinGDK_P.*`)
+- Deploy: 2026-04-20 17:01
+
+**Yapılan (2026-04-20 Readables Phase 2):** 12 asset ✓ (~520 satır, 168 entry) — LW bölge Readables:
+- `lw_bzr01_readable`, `lw_cm01_readable`, `lw_grz01_readable`, `lw_pp01_readable`, `lw_pw01_readable`
+- `lw_smc01_readable`, `lw_smc02_readable`, `lw_smc03_readable` (en büyüğü, 50 entry — hasta kartları + Lechit manifestosu + Kmicic yeraltı gazetesi + Agatha Christie hayran mektubu)
+- `lw_smg01_readables`, `lw_smg02_readable`, `lw_smg03_readables`, `lw_smg04_readables`
+- İçerik örnekleri: WTA (VTKC) anti-tılsımkârlık cemiyeti, Uçan Üniversite direnişi, Rybak seri katil, Hotel Imperialny Pietia-Ludwik bahsi, Konstancja Szabłowska sansasyon gazeteciliği, Gabriela Zapolska tiyatro alıntısı, Wokulski parodi evlilik teklifi
+- Deploy: 2026-04-20 17:32 (`pakchunk99-WinGDK_P.*`)
 
 **İlk yapılacak çeviri (sıradaki oturum için):**
-1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓ / Readables Phase 1 ✓
-2. **Readables devam (24/47 kaldı ≈ 1030 satır)** — source'lar `source/pl_readables/` hazır
-   - LW bölge Readables (12 asset / ~400 satır):
-     `lw_bzr01_readable`, `lw_cm01_readable`, `lw_grz01_readable`, `lw_pp01_readable`,
-     `lw_pw01_readable`, `lw_smc01_readable`, `lw_smc02_readable`, `lw_smc03_readable`,
-     `lw_smg01_readables`, `lw_smg02_readable`, `lw_smg03_readables`, `lw_smg04_readables`
+1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓ / Readables Phase 1 ✓ / Phase 2 ✓
+2. **Readables devam (12/47 kaldı ≈ 620 satır)** — source'lar `source/pl_readables/` hazır
    - POI Readables (7 asset / ~360 satır):
      `lw_BZR_POI_Readable`, `lw_CM_POI_Readable`, `lw_GRZ_POI_Readable`,
      `lw_PP_POI_Readable`, `lw_PW_POI_Readable`, `lw_SMC_POI_Readable`, `lw_SMG_POI_Readable`
