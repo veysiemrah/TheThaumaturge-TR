@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-19 gecesi (review turu: 10 kapsamlı tur + ~28 düzeltme; yeni çeviri eklemesi yok)
+**Son güncelleme:** 2026-04-20 (Readables Phase 1 — 8 ortam/tailor/POI-chat asseti; 52 entry / ~148 satır)
 
 ---
 
@@ -17,7 +17,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables (ana story)** | 15 asset | 47 asset | %32 | ~811 |
-| **GENEL** | — | — | — | **~7497 satır** |
+| **Readables (LW ortam + Tailor + PP/lw_pw02/lw_smc01_chat)** | 8 asset | — | — | ~148 |
+| **GENEL** | — | — | — | **~7645 satır** |
 
 **Journal kategorisi %100 tamam** (91/91 asset). Codex DT %100 tamam.
 
@@ -384,22 +385,25 @@ Review detay: `docs/translation-review.md`
 - Ana story Readables 15/47 ✓ (~811 satır)
 - **10 review turu + ~28 düzeltme** (yeni çeviri eklemesi yok)
 
+**Yapılan (2026-04-20 Readables Phase 1):** 8 asset ✓ (~148 satır, 52 entry) — ortam + Tailor + PP + küçük LW:
+- `BZR_readables`, `SMC_readables`, `SMG_readables`, `lw_Tailor_Readables`
+- `PP_readables`, `PP_readables_chats`
+- `lw_pw02_readable`, `lw_smc01_readable_chat`
+- Deploy: 2026-04-20 17:01 (`pakchunk99-WinGDK_P.*`)
+
 **İlk yapılacak çeviri (sıradaki oturum için):**
-1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓
-2. **Readables devam (32/47 kaldı ≈ 1178 satır)** — source'lar `source/pl_readables/` hazır
-   - LW bölge Readables (14 asset / ~420 satır):
+1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓ / Readables Phase 1 ✓
+2. **Readables devam (24/47 kaldı ≈ 1030 satır)** — source'lar `source/pl_readables/` hazır
+   - LW bölge Readables (12 asset / ~400 satır):
      `lw_bzr01_readable`, `lw_cm01_readable`, `lw_grz01_readable`, `lw_pp01_readable`,
-     `lw_pw01_readable`, `lw_pw02_readable`, `lw_smc01_readable` + `_chat`,
-     `lw_smc02_readable`, `lw_smc03_readable`, `lw_smg01_readables`, `lw_smg02_readable`,
-     `lw_smg03_readables`, `lw_smg04_readables`, `lw_Tailor_Readables`
-   - POI Readables (6 asset / ~360 satır):
+     `lw_pw01_readable`, `lw_smc01_readable`, `lw_smc02_readable`, `lw_smc03_readable`,
+     `lw_smg01_readables`, `lw_smg02_readable`, `lw_smg03_readables`, `lw_smg04_readables`
+   - POI Readables (7 asset / ~360 satır):
      `lw_BZR_POI_Readable`, `lw_CM_POI_Readable`, `lw_GRZ_POI_Readable`,
      `lw_PP_POI_Readable`, `lw_PW_POI_Readable`, `lw_SMC_POI_Readable`, `lw_SMG_POI_Readable`
-   - POI fluff Readables (6 asset / ~260 satır):
+   - POI fluff Readables (5 asset / ~260 satır):
      `lw_cm_POI_readable_fluff`, `lw_pp_POI_readable_fluff`, `lw_pw_POI_readable_fluff`,
      `lw_smc_POI_readable_fluff`, `lw_smg_POI_readable_fluff`
-   - Ortam Readables (5 asset / ~104 satır):
-     `BZR_readables`, `PP_readables` + `PP_readables_chats`, `SMC_readables`, `SMG_readables`
 3. q104-q401 ana story dialog
 4. sq001 dialog (39 asset) — Upyr vizyonları
 5. InsightsConclusions (39 asset / ~400-600 satır)
