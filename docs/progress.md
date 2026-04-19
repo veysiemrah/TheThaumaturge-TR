@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (Readables Phase 2 — 12 LW bölge asseti; 168 entry / ~520 satır)
+**Son güncelleme:** 2026-04-20 (Readables Phase 3 — 12 POI + POI fluff asseti; 214 entry / ~500 satır — **Readables kategorisi %100 tamam**)
 
 ---
 
@@ -16,10 +16,10 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
-| **Readables (ana story)** | 15 asset | 47 asset | %32 | ~811 |
-| **Readables (ortam + Tailor + PP + küçük LW)** | 8 asset | — | — | ~148 |
-| **Readables (LW bölge)** | 12 asset | — | — | ~520 |
-| **GENEL** | — | — | — | **~8165 satır** |
+| **Readables** | 47 asset | 47 asset | %100 | ~1979 |
+| **GENEL** | — | — | — | **~8665 satır** |
+
+**Readables kategorisi %100 tamam** (47/47 asset). Journal + Codex DT + Readables = tüm metin kategorileri tamam.
 
 **Journal kategorisi %100 tamam** (91/91 asset). Codex DT %100 tamam.
 
@@ -392,6 +392,12 @@ Review detay: `docs/translation-review.md`
 - `lw_pw02_readable`, `lw_smc01_readable_chat`
 - Deploy: 2026-04-20 17:01
 
+**Yapılan (2026-04-20 Readables Phase 3):** 12 asset ✓ (~500 satır, 214 entry) — POI + POI fluff — **Readables kategorisi %100 tamam**:
+- POI Readables (7): `lw_BZR_POI_Readable`, `lw_GRZ_POI_Readable`, `lw_PP_POI_Readable`, `lw_PW_POI_Readable`, `lw_SMC_POI_Readable`, `lw_SMG_POI_Readable`, `lw_CM_POI_Readable`
+- POI fluff (5): `lw_cm_POI_readable_fluff`, `lw_pp_POI_readable_fluff`, `lw_pw_POI_readable_fluff`, `lw_smc_POI_readable_fluff`, `lw_smg_POI_readable_fluff`
+- İçerik örnekleri: Bałucki gizemli böcek koleksiyonu, Madame Lulu tarot falcısı, WTA (Cmentarz) dewotka günlükleri, Kazimierz Prószyński sinema kâşifi, Paderewski konseri, Hotel Grand inşaat yazışmaları, Agatha Christie hayran mektubu, antisemit aşırı broşür, Warszawa Filharmonisi, Cyrk Ciniselli, Lady Dragonfly egzotik gösteri, Jan Rocki Liszt jübilesi
+- Deploy: 2026-04-20 17:56 (`pakchunk99-WinGDK_P.*`)
+
 **Yapılan (2026-04-20 Readables Phase 2):** 12 asset ✓ (~520 satır, 168 entry) — LW bölge Readables:
 - `lw_bzr01_readable`, `lw_cm01_readable`, `lw_grz01_readable`, `lw_pp01_readable`, `lw_pw01_readable`
 - `lw_smc01_readable`, `lw_smc02_readable`, `lw_smc03_readable` (en büyüğü, 50 entry — hasta kartları + Lechit manifestosu + Kmicic yeraltı gazetesi + Agatha Christie hayran mektubu)
@@ -400,14 +406,10 @@ Review detay: `docs/translation-review.md`
 - Deploy: 2026-04-20 17:32 (`pakchunk99-WinGDK_P.*`)
 
 **İlk yapılacak çeviri (sıradaki oturum için):**
-1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓ / Readables Phase 1 ✓ / Phase 2 ✓
-2. **Readables devam (12/47 kaldı ≈ 620 satır)** — source'lar `source/pl_readables/` hazır
-   - POI Readables (7 asset / ~360 satır):
-     `lw_BZR_POI_Readable`, `lw_CM_POI_Readable`, `lw_GRZ_POI_Readable`,
-     `lw_PP_POI_Readable`, `lw_PW_POI_Readable`, `lw_SMC_POI_Readable`, `lw_SMG_POI_Readable`
-   - POI fluff Readables (5 asset / ~260 satır):
-     `lw_cm_POI_readable_fluff`, `lw_pp_POI_readable_fluff`, `lw_pw_POI_readable_fluff`,
-     `lw_smc_POI_readable_fluff`, `lw_smg_POI_readable_fluff`
+1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓ / ~~Readables Phase 1/2/3~~ ✓ **Readables %100 tamam**
+2. **q104-q401 ana story dialog** (39+ asset) — dump gerekli
+3. **sq001 dialog** (39 asset Upyr vizyonları)
+4. **InsightsConclusions** (39 asset / ~400-600 satır) — dump gerekli
 3. q104-q401 ana story dialog
 4. sq001 dialog (39 asset) — Upyr vizyonları
 5. InsightsConclusions (39 asset / ~400-600 satır)
