@@ -461,68 +461,50 @@ Review detay: `docs/translation-review.md`
 
 Son deploy: **2026-04-20 00:18** (`pakchunk99-WinGDK_P.*`).
 
-### Sıradaki iş: q301 + q302 (Bölüm 3, 63 asset)
+### Sıradaki iş: q301 + q302 (Bölüm 3 + Bölüm 3 finali, 63 asset / ~3576 dialog satırı)
 
-**1. Extract + JSON:**
-```powershell
-# Tüm q301 + q302 asset'lerini extract et:
-.\tools\retoc\retoc.exe to-legacy --filter q301 --no-shaders `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q301_extract"
-.\tools\retoc\retoc.exe to-legacy --filter q302 --no-shaders `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q302_extract"
-```
+**Extract + dump tamam** (bu commit'te): `source\pl\q30*.csv` altında tüm PL dump'lar hazır. Çeviri CSV'leri `translation\` altına yazılacak, sonra apply + fromjson + pak + deploy.
 
-**2. Dump (her asset için):**
-```powershell
-# UAssetGUI tojson:
-.\tools\UAssetGUI\UAssetGUI.exe tojson <uasset> build\q201_json\<name>.json VER_UE5_1 Mappings
+**q301 (36 asset / ~2019 satır)** — Bölüm 3 komplo ve balo:
+- 00a_faldzej_and_samira (110) — giriş
+- 01a_rioters (89) + 01b_rofe (113) + 01c_old_woman (62) + 01d_angry_mob (78) — ayaklanma sokak bloğu
+- 02_committee_assemble (257) — Cemiyet toplantısı (Fałdżej + Samira + Ariel + Wiktor)
+- 03a_park_gate (38) + 03b_faldzej_ball (107) + 03c_siergiej_ball (103) + 03d_samira_ball (65) + 03e_skalon_part1 (128) + 03f_wanda_ball (106) + 03g_guards_hall (11) + 03h_countess_manipulation (9) + 03i_siergiej_zofia (119) + 03j_skalon_part2 (113) — **Skałon'un balosu** (büyük sosyete bloğu)
+- 04a_committee_tsar (250) + 04b_tsar_speech_committee (128) — Cemiyet Çar'a karşı plan
+- 18 Chats (~75 satır)
 
-# Assets için (CinematicNode_*):
-pwsh scripts\dialog_dump.ps1 -JsonPath build\q201_json\<name>.json -CsvPath source\pl\<name>.csv
+**q302 (27 asset / ~1557 satır)** — Bölüm 3 finali / Bölüm 4 girişi:
+- 00a_lazarew_invitation (74)
+- 01a_rasputin_last_supper (142) — Rasputin son akşam yemeği
+- 01b_last_supper_aftermath (3) + 01c_wiktor_dream (234) — Wiktor baba rüyası (büyük)
+- 02a_wiktor_wakes_up (18) + 02b_family_talk (111) + 02c_konieczkin_arrival (65) + 02d_konieczkin_death (62) — **Konieczkin'in ölümü** (kritik olay)
+- 02e_final_decision (175) + 02f_final_decision_upyr (60) — son karar
+- 03a_backgate_talk (32) + 03b_lazarew_talk (134) + 03c_maria_talk (88) + 03d_magdalena_talk (131) + 03e_tsar_speech (242) — **Çar konuşması** (büyük siyasi sahne)
+- 12 Chats (~57 satır)
 
-# Chats için (-AllRawExports bayrağı):
-pwsh scripts\dialog_dump.ps1 -JsonPath build\q201_json\<name>.json -CsvPath source\pl\<name>.csv -AllRawExports
-```
+**Pipeline hazır** — sonraki oturum için:
+1. `translation\q30*.csv` dosyalarını yaz (Hash,NodeName,PL,TR,Notes)
+2. `scripts\tmp_q202_apply.ps1`'i kopyala, `q301`/`q302` yollarına uyarla → `tmp_q301_apply.ps1`
+3. `pwsh scripts\tmp_q301_apply.ps1` → tüm apply + fromjson → staging
+4. `retoc to-zen` → `pakchunk99-WinGDK_P.*` üret
+5. Oyun `Paks\` dizinine kopyala (oyun kapalı olmalı)
 
-Pratik: q104'teki `tmp_q104_dump.ps1` ve `tmp_q104_dump_chats.ps1` şablonları yeniden kullanılabilir — `q201_extract`/`q201_json` yollarına uyarla.
+**Beklenen yeni karakterler/terimler:**
+- Siergiej Skałon (General-Vali'nin oğlu) + Zofia Skałonówna (Entrikacılık Kusuru)
+- Countess (Kontes — muhtemelen Lermontowa)
+- Skałon baloda (Haset Kusuru)
+- Lazarew ve Magdalena genişletilmiş rolleri
+- "committee" = Cemiyet (glossary)
+- "Tadzik" (q301_01c_old_woman_tadzik_chat — NPC adı)
 
-**3. Translate:** `translation/<name>.csv` yaz — `Hash,NodeName,PL,TR,Notes` (Notes zorunlu, boş olsa bile `,""` veya boş alan).
+q301+q302 sonrası: q401 (7 asset) + sq001 (39 asset Upyr vizyonları) + InsightsConclusions (39 asset dump gerekli).
 
-**4. Apply + Stage:**
-```powershell
-pwsh scripts\dialog_apply.ps1 -JsonPath build\q201_json\<name>.json `
-    -CsvPath translation\<name>.csv -OutJsonPath build\work\<name>_tr.json [`-AllRawExports` for Chats]
+### Glossary hatırlatma (q301+ için önemli olanlar)
 
-.\tools\UAssetGUI\UAssetGUI.exe fromjson build\work\<name>_tr.json `
-    build\staging\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201[b]\{Assets,Chats}\<name>.uasset Mappings
-```
-
-**5. Pak + deploy:**
-```powershell
-.\tools\retoc\retoc.exe to-zen --version UE5_1 build\staging\TheThaumaturge build\output\pakchunk99-WinGDK_P.utoc
-Copy-Item build\output\pakchunk99-WinGDK_P.* "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\" -Force
-```
-
-### Bootstrap komutları (next session başı)
-
-```powershell
-# Extract:
-.\tools\retoc\retoc.exe to-legacy --filter q201 --no-shaders `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q201_extract"
-
-# Top-level Dialogues uassets say:
-(Get-ChildItem build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues -Recurse -Filter *.uasset |
-  Where-Object { $_.DirectoryName -match '(Assets|Chats)$' }).Count
-```
-
-q201 sonrası: q202 (21), q203 (20), q301 (36), q302 (27), q401 (7) — toplam 158 asset kaldı (q104 düşülmüş).
-
-### Glossary hatırlatma (q201+ için önemli olanlar)
-
-- Ana karakterler: Wiktor, Ligia, Rasputin, Swietłana, Abaurycy, Javier, Ariel Rofe, Konieczkin, Grażyna, Pietia, Samira, Wujek Woronin, Skałon (genel vali) — aynen.
-- Yeni beklenen: Mordechaj Feldman (sinagog), Rabbi (rabin), Golem (Yahudi mistik varlığı — q104'ten).
-- Özel terimler: Thaumaturg→Tılsımkâr, Salutor→aynen, Skaza→Kusur, Grymuar→grimuar, Ochrana→aynen, Cytadela→Kale, Lechici→Lehitler, Wisła/Praga/Powiśle/Śródmieście aynen.
-- Yidişçe `<yd>...</>`, Rusça `<ru>...</>`, İspanyolca `<sp>...</>`, İngilizce `<i>...</>` dil kodları olduğu gibi korunur.
+- Ana karakterler: Wiktor, Ligia, Rasputin, Konieczkin, Grażyna, Samira (Sara Rywkin), Fałdżej (Emir Burnakowicz), Ariel Rofe, Wanda, Skałon (General-Vali, Haset Kusuru), Zofia Skałonówna (Entrikacılık), Siergiej Skałon, Abaurycy, Ligia — aynen.
+- Yeni beklenen: Lazarew (Rus subay, Rasputin müridi), Maria + Magdalena (Rasputin sevgilileri), Aniela + Lucjan Nadarzyński, Aleksy Romanow (Çareviç), Çariçe Aleksandra, Kontes (muhtemelen Lermontowa), Tadzik (q301_01c NPC).
+- Cemiyet, Kusur (12 tanesi), Boyut (Yürek/Eylem/Akıl/Söz), Ochrana, Sitadel, Âmentü (Tatar-Müslüman, q202).
+- Yidişçe `<yd>...</>`, Rusça `<ru>...</>`, Fransızca `<fr>...</>`, Arapça `<ar>...</>`, Latince `<la>...</>` dil kodları olduğu gibi korunur.
 
 ### Bilinen follow-up (review)
 
