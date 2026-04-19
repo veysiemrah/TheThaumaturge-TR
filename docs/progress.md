@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (q104 tam — 60 asset / ~1088 satır deploy)
+**Son güncelleme:** 2026-04-20 (q104 ana story Bölüm 1 tam — 60 asset / ~1088 satır; Readables %100 tamam)
 
 ---
 
@@ -11,18 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog** | 148 asset | 687 asset | %21.5 | ~3810 |
+| **Diyalog (ana story + Default + Chat)** | 208 asset | 687 asset | %30.3 | ~4898 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **Diyalog q104** | 60 asset | 60 asset | %100 | ~1088 |
 | **GENEL** | — | — | — | **~9753 satır** |
 
-**Readables kategorisi %100 tamam** (47/47 asset). Journal + Codex DT + Readables = tüm metin kategorileri tamam.
-
-**Journal kategorisi %100 tamam** (91/91 asset). Codex DT %100 tamam.
+**%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 ✓ (208/687 asset, %30.3).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -62,7 +60,7 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 
 ---
 
-## Diyalog — 60/687 asset
+## Diyalog — 208/687 asset
 
 ### Default karakterler — 6/6 ✓
 
@@ -173,12 +171,29 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | 06a | 1 | 53 | Ertesi sabah — Ligia + Abaurycy + borç |
 | Chats | 8 | 36 | NPC sokak sohbetleri (Abaurycy bar, bouncer, Kazaklar vb.) |
 
+### q104 — Bölüm 1 finali (Praga Limanı + Abaurycy + Swietłana kaçışı) — 60/60 ✓ (~1088 satır)
+
+**Assets (ana story) — 30/30 ✓** (965 satır)
+
+| Blok | Asset | Satır | İçerik |
+|---|---|---|---|
+| 00a–b | 2 | 109 | Abaurycy işkence + Rasputin Swietłana'yı teslim |
+| 01a–f | 6 | 170 | Ring fedaisi + Ariel Rofe + ring + bookmaker + Gordon kardeşler |
+| 01g–k | 5 | 115 | Javier = Barszczyk ifşa + Romek + polis/Roman tekne |
+| 02a–f | 6 | 161 | Gossiping woman + Ochrana Swietłana + ring dövüşü Wiktor |
+| 03a–e | 6 | 139 | Marina (Stanisław vatansever ifşa) + Rofe port + Javier vagon + aldatılmış koca + Karaş ablukası |
+| 04a–d | 4 | 62 | Zwi Migdal Golem dersi + smugglers Ochrana + Golem saldırısı + Swietłana ölümü |
+| 05a | 1 | 109 | Konieczkin Wanię vurur + Kara Grimuar pazarlığı |
+| 06a | 1 | 88 | Rasputin evde — Swietłana'nın sırrı + şantaj teklifi |
+
+**Chats — 30/30 ✓** (123 satır)
+
+Sokak NPC'leri: Swietłana meyhane dumanı, bar entliczek sayması, Abaurycy fedaisi, Javier dedikoduları, Karaş polis devriyeleri, Gordon kardeşler ring kıskançlığı, Rasputin parti selamı, Swietłana hideout, Ariel kaçakçılar, Marina chattie, aldatılmış koca, Golem sonrası kargaşa.
+
 ### Ana story kalan
 
 | Quest | Assets | Chats | Toplam | Açıklama |
 |---|---|---|---|---|
-| ~~q103~~ | ~~21~~ | ~~12~~ | ~~33~~ | Weles/Hotel Imperialny ✓ tamam |
-| q104 | 30 | 30 | 60 | ? (en yoğun blok) |
 | q201 | 10 | 14 | 24 | Bölüm 2 başlangıç |
 | q201b | 9 | 14 | 23 | q201 varyant |
 | q202 | 14 | 7 | 21 | |
@@ -186,7 +201,7 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 | q301 | 18 | 18 | 36 | Bölüm 3 |
 | q302 | 15 | 12 | 27 | |
 | q401 | 7 | — | 7 | Bölüm 4 finali |
-| **Toplam** | 140 | 111 | **251** | |
+| **Toplam** | 89 | 69 | **158** | (q104 tamamlandı) |
 
 ### Sq001 — Upyr vizyon sekansları — 0/39 ✗
 
@@ -290,13 +305,13 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 | Kategori | Asset | Satır | Durum |
 |---|---|---|---|
 | StringTable | 27 | ~1540 | 26 ✓, 1 kaldı (DebugText) |
-| Dialog (ana+chat) | 687 | 50K–70K | 148 ✓ (3810 satır) |
-| Readables | 47 | ~700–1200 (tahmini) | ✗ |
-| Journal | 86 | **830** (ölçüldü, Codex hariç) | ✗ — source CSV hazır |
-| Codex DT | 5 | **497** (ölçüldü) | ✗ — source CSV hazır |
-| InsightsConclusions | 39 | ~400–600 (tahmini) | ✗ |
-| Vset | 508 | ~1500–4000 (tahmini) | ✗ |
-| **Ek toplam** | **~685 asset** | **~5000–9500 satır** | ~10% ölçüldü |
+| Dialog (ana+chat) | 687 | 50K–70K | **208 ✓ (~4898 satır)** |
+| Readables | 47 | 1979 (ölçüldü) | **47 ✓** |
+| Journal | 86 | 830 (ölçüldü, Codex hariç) | **86 ✓** |
+| Codex DT | 5 | 497 (ölçüldü) | **5 ✓** |
+| InsightsConclusions | 39 | ~400–600 (tahmini) | ✗ — henüz dump'lanmadı |
+| Vset | 508 | ~1500–4000 (tahmini) | ✗ — düşük öncelik |
+| **Deploy'lu toplam** | **356 asset** | **~9753 satır** | StringTable + Journal + Codex + Readables + 208 Dialog |
 
 Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 
@@ -305,22 +320,20 @@ Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 ## Öncelik sırası (güncellendi)
 
 **Yüksek öncelik (hikâye ve bilgi):**
-1. ~~q001~~ ✓ (42/42)
-2. ~~q101~~ ✓ (40/40)
-3. ~~q102~~ ✓ (27/27)
-4. ~~q103~~ ✓ (33/33)
-5. **Journal** (91 asset) — görev başlıkları + günlük — UI'da direkt görülür
-6. **Codex DT** (5 asset) — karakter/lokasyon/lore ansiklopedisi
-7. **Readables** (47 asset) — mektuplar, gazeteler
-8. **q104, q201-q401** — ana story ilerlemesi
-9. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları
-10. **sq001** (39 asset) — Upyr vizyonları
+1. ~~q001~~ ✓ (42/42) / ~~q101~~ ✓ (40/40) / ~~q102~~ ✓ (27/27) / ~~q103~~ ✓ (33/33) / ~~q104~~ ✓ (60/60)
+2. ~~Journal~~ ✓ (91/91) / ~~Codex DT~~ ✓ (5/5) / ~~Readables~~ ✓ (47/47)
+3. **q201 + q201b** (47 asset) — Bölüm 2 başlangıç (sıradaki iş)
+4. **q202 + q203** (41 asset) — Bölüm 2 devamı
+5. **q301 + q302** (63 asset) — Bölüm 3
+6. **q401** (7 asset) — Bölüm 4 finali
+7. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları (dump gerekli)
+8. **sq001** (39 asset) — Upyr vizyonları
 
 **Düşük öncelik:**
-11. **lw_*** yan görevler (~197 diyalog) + ilgili Readable/Journal/IC
-12. **Vset** (508 asset) — atmosferik NPC mırıltıları
-13. **GenericEncounters, Global_chats, Diğer** (~85)
-14. **DebugText_ST** — oyuncu görmez
+9. **lw_*** yan görevler (~197 diyalog) + ilgili Readable/Journal/IC
+10. **Vset** (508 asset) — atmosferik NPC mırıltıları
+11. **GenericEncounters, Global_chats, Diğer** (~85)
+12. **DebugText_ST** — oyuncu görmez
 
 ---
 
@@ -376,99 +389,107 @@ Review detay: `docs/translation-review.md`
 
 ---
 
-## Bir sonraki oturum için hazırlık (2026-04-19 gecesi)
+## Bir sonraki oturum için hazırlık (2026-04-20 sonu)
 
-**Yapılan (2026-04-18/19):**
-- Ana story Journal 25/25 ✓ (386 satır)
-- Codex DT 5/5 ✓ (497 satır) — %100
-- LW Journal 14/14 ✓ (242 satır) — %100
-- POI Journal + Postcards 47/47 ✓ (212 satır) — %100 — **Journal kategorisi tamam**
-- Readables 47/47 dump'landı (1989 satır, `source/pl_readables/`)
-- Ana story Readables 15/47 ✓ (~811 satır)
-- **10 review turu + ~28 düzeltme** (yeni çeviri eklemesi yok)
+**Bu oturumda yapılanlar (2026-04-20):** 6 commit, ~2256 satır çeviri, 92 asset.
 
-**Yapılan (2026-04-20 Readables Phase 1):** 8 asset ✓ (~148 satır, 52 entry) — ortam + Tailor + PP + küçük LW:
-- `BZR_readables`, `SMC_readables`, `SMG_readables`, `lw_Tailor_Readables`
-- `PP_readables`, `PP_readables_chats`
-- `lw_pw02_readable`, `lw_smc01_readable_chat`
-- Deploy: 2026-04-20 17:01
+| Commit | Asset | Satır | İçerik |
+|---|---|---|---|
+| `95e78a0` Readables Phase 1 | 8 | ~148 | Ortam/Tailor/PP/küçük LW |
+| `742b9b0` Readables Phase 2 | 12 | ~520 | LW bölge (bzr01/cm01/grz01/pp01/pw01/smc01-03/smg01-04) |
+| `f1fc1a1` Readables Phase 3 | 12 | ~500 | POI + POI fluff — **Readables %100 tamam** |
+| `5b67820` q104 Chats + dump | 30 (+60 dump) | ~123 | Sokak sohbetleri + full q104 dump |
+| `0719bca` q104 Assets | 30 | ~965 | Ana story — Javier/Ariel/Abaurycy/Swietłana/Konieczkin/Rasputin |
 
-**Yapılan (2026-04-20 Readables Phase 3):** 12 asset ✓ (~500 satır, 214 entry) — POI + POI fluff — **Readables kategorisi %100 tamam**:
-- POI Readables (7): `lw_BZR_POI_Readable`, `lw_GRZ_POI_Readable`, `lw_PP_POI_Readable`, `lw_PW_POI_Readable`, `lw_SMC_POI_Readable`, `lw_SMG_POI_Readable`, `lw_CM_POI_Readable`
-- POI fluff (5): `lw_cm_POI_readable_fluff`, `lw_pp_POI_readable_fluff`, `lw_pw_POI_readable_fluff`, `lw_smc_POI_readable_fluff`, `lw_smg_POI_readable_fluff`
-- İçerik örnekleri: Bałucki gizemli böcek koleksiyonu, Madame Lulu tarot falcısı, WTA (Cmentarz) dewotka günlükleri, Kazimierz Prószyński sinema kâşifi, Paderewski konseri, Hotel Grand inşaat yazışmaları, Agatha Christie hayran mektubu, antisemit aşırı broşür, Warszawa Filharmonisi, Cyrk Ciniselli, Lady Dragonfly egzotik gösteri, Jan Rocki Liszt jübilesi
-- Deploy: 2026-04-20 17:56 (`pakchunk99-WinGDK_P.*`)
+Son deploy: **2026-04-20 19:01** (`pakchunk99-WinGDK_P.*`).
 
-**Yapılan (2026-04-20 Readables Phase 2):** 12 asset ✓ (~520 satır, 168 entry) — LW bölge Readables:
-- `lw_bzr01_readable`, `lw_cm01_readable`, `lw_grz01_readable`, `lw_pp01_readable`, `lw_pw01_readable`
-- `lw_smc01_readable`, `lw_smc02_readable`, `lw_smc03_readable` (en büyüğü, 50 entry — hasta kartları + Lechit manifestosu + Kmicic yeraltı gazetesi + Agatha Christie hayran mektubu)
-- `lw_smg01_readables`, `lw_smg02_readable`, `lw_smg03_readables`, `lw_smg04_readables`
-- İçerik örnekleri: WTA (VTKC) anti-tılsımkârlık cemiyeti, Uçan Üniversite direnişi, Rybak seri katil, Hotel Imperialny Pietia-Ludwik bahsi, Konstancja Szabłowska sansasyon gazeteciliği, Gabriela Zapolska tiyatro alıntısı, Wokulski parodi evlilik teklifi
-- Deploy: 2026-04-20 17:32 (`pakchunk99-WinGDK_P.*`)
+### Sıradaki iş: q201 + q201b (Bölüm 2 başlangıç, 47 asset)
 
-**İlk yapılacak çeviri (sıradaki oturum için):**
-1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓ / ~~Readables Phase 1/2/3~~ ✓ **Readables %100 tamam**
-2. **q104-q401 ana story dialog** (39+ asset) — dump gerekli
-3. **sq001 dialog** (39 asset Upyr vizyonları)
-4. **InsightsConclusions** (39 asset / ~400-600 satır) — dump gerekli
-3. q104-q401 ana story dialog
-4. sq001 dialog (39 asset) — Upyr vizyonları
-5. InsightsConclusions (39 asset / ~400-600 satır)
+Bölüm 2 giriş: Ligia dükkân sahnesi + Sinagog + Mordechaj Feldman + katakomb ritüeli + Ariel-Ligia bağlantısı. q201 ve q201b büyük olasılıkla seçim varyantları (ana/alt patika).
 
-**Pipeline (Readables):**
+**1. Extract + JSON:**
 ```powershell
-# Apply
-pwsh scripts/dialog_apply.ps1 `
-    -JsonPath build/readables_json/<name>.json `
-    -CsvPath translation/<name>.csv `
-    -OutJsonPath build/work/<name>_tr.json -AllRawExports
+# Tüm q201 + q201b asset'lerini extract et:
+.\tools\retoc\retoc.exe to-legacy --filter q201 --no-shaders `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q201_extract"
 
-# Stage (yol oyundaki orijinali yansıtır; retoc to-legacy --filter <name> ile doğrula)
-.\tools\UAssetGUI\UAssetGUI.exe fromjson `
-    build/work/<name>_tr.json `
-    build/staging/TheThaumaturge/Content/GrimoireContent/Quests/Readables/<sub>/<name>.uasset `
-    Mappings
-
-# Pak + deploy — mevcut mod pak'a ekler
-.\tools\retoc\retoc.exe to-zen --version UE5_1 `
-    build/staging/TheThaumaturge `
-    build/output/pakchunk99-WinGDK_P.utoc
-Copy-Item build/output/pakchunk99-WinGDK_P.* `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\" -Force
+# Top-level Dialogues uassets listesi (q201 + q201b):
+# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201\Assets\*.uasset   (10)
+# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201\Chats\*.uasset    (14)
+# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201b\Assets\*.uasset  (9)
+# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201b\Chats\*.uasset   (14)
 ```
 
-**Readables staging yol haritası:**
-- Ana story quest: `Readables/<quest>/Assets/<name>.uasset` (q001-q302)
-- Chat varyantları: `Readables/<quest>/Chats/<name>_chat.uasset`
-- LW bölge: `Readables/LivingWorld/<lw_key>/Assets/<name>.uasset` veya doğrudan `LivingWorld/<lw_key>/<name>.uasset` (lw_bzr01, lw_smg01-04, lw_Tailors farklı)
-- POI: `Readables/LivingWorld/lw_POIs/<bölge>/<name>.uasset`
-- Ortam: `Readables/<BZR|PP|SMC|SMG>/Assets/<name>.uasset`
-- Yolları her zaman `retoc to-legacy --filter <name>` ile doğrula.
-
-**JSON'lar `build/readables_json/` altında** (47 dosya, git dışı).
-
-**Bootstrap komutları:**
+**2. Dump (her asset için):**
 ```powershell
-# Kalan Readables çevirileri:
-ls source/pl_readables/lw_*_readable*.csv     # 14 LW bölge
-ls source/pl_readables/lw_*_POI_Readable.csv  # 6 POI
-ls source/pl_readables/lw_*_fluff.csv         # 6 POI fluff
-ls source/pl_readables/{BZR,PP,SMC,SMG}*.csv  # 5 ortam
+# UAssetGUI tojson:
+.\tools\UAssetGUI\UAssetGUI.exe tojson <uasset> build\q201_json\<name>.json VER_UE5_1 Mappings
 
-# Çeviri şablonu:
-# translation/<name>.csv yaz (Hash,NodeName,PL,TR,Notes)
-# Sonra apply + stage + deploy döngüsü
+# Assets için (CinematicNode_*):
+pwsh scripts\dialog_dump.ps1 -JsonPath build\q201_json\<name>.json -CsvPath source\pl\<name>.csv
+
+# Chats için (-AllRawExports bayrağı):
+pwsh scripts\dialog_dump.ps1 -JsonPath build\q201_json\<name>.json -CsvPath source\pl\<name>.csv -AllRawExports
 ```
 
-**Glossary kısa hatırlatma:** Skaza→Kusur, Ślad→İz, Wymiar→Boyut, Pakt→Ant, Szeptucha→Bilge Kadın, Thaumaturg→Tılsımkâr, Cudotwórca→Mucizekâr, lekarz→hekim, rabin→rabbi, Kazak/Kazaklar, Yahudi cemaat terimleri (Chamaił, neszama, hawdala, parnose) PL'den düz aktarıldı.
+Pratik: q104'teki `tmp_q104_dump.ps1` ve `tmp_q104_dump_chats.ps1` şablonları yeniden kullanılabilir — `q201_extract`/`q201_json` yollarına uyarla.
+
+**3. Translate:** `translation/<name>.csv` yaz — `Hash,NodeName,PL,TR,Notes` (Notes zorunlu, boş olsa bile `,""` veya boş alan).
+
+**4. Apply + Stage:**
+```powershell
+pwsh scripts\dialog_apply.ps1 -JsonPath build\q201_json\<name>.json `
+    -CsvPath translation\<name>.csv -OutJsonPath build\work\<name>_tr.json [`-AllRawExports` for Chats]
+
+.\tools\UAssetGUI\UAssetGUI.exe fromjson build\work\<name>_tr.json `
+    build\staging\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201[b]\{Assets,Chats}\<name>.uasset Mappings
+```
+
+**5. Pak + deploy:**
+```powershell
+.\tools\retoc\retoc.exe to-zen --version UE5_1 build\staging\TheThaumaturge build\output\pakchunk99-WinGDK_P.utoc
+Copy-Item build\output\pakchunk99-WinGDK_P.* "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\" -Force
+```
+
+### Bootstrap komutları (next session başı)
+
+```powershell
+# Extract:
+.\tools\retoc\retoc.exe to-legacy --filter q201 --no-shaders `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q201_extract"
+
+# Top-level Dialogues uassets say:
+(Get-ChildItem build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues -Recurse -Filter *.uasset |
+  Where-Object { $_.DirectoryName -match '(Assets|Chats)$' }).Count
+```
+
+q201 sonrası: q202 (21), q203 (20), q301 (36), q302 (27), q401 (7) — toplam 158 asset kaldı (q104 düşülmüş).
+
+### Glossary hatırlatma (q201+ için önemli olanlar)
+
+- Ana karakterler: Wiktor, Ligia, Rasputin, Swietłana, Abaurycy, Javier, Ariel Rofe, Konieczkin, Grażyna, Pietia, Samira, Wujek Woronin, Skałon (genel vali) — aynen.
+- Yeni beklenen: Mordechaj Feldman (sinagog), Rabbi (rabin), Golem (Yahudi mistik varlığı — q104'ten).
+- Özel terimler: Thaumaturg→Tılsımkâr, Salutor→aynen, Skaza→Kusur, Grymuar→grimuar, Ochrana→aynen, Cytadela→Kale, Lechici→Lehitler, Wisła/Praga/Powiśle/Śródmieście aynen.
+- Yidişçe `<yd>...</>`, Rusça `<ru>...</>`, İspanyolca `<sp>...</>`, İngilizce `<i>...</>` dil kodları olduğu gibi korunur.
+
+### Bilinen follow-up (review)
+
+- `q104_03a_marina_quarell` "komitywa" ifadesi: glossary'de `Komitywa → Cemiyet` var; çeviride tırnaklı olarak "komitywa" bırakıldı — ya glossary'ye uyumlanıp "Cemiyet" yapılmalı, ya da glossary'ye "context-dependent quoted term" notu eklenmeli. (Düşük öncelik — review turunda görülecek.)
 
 ---
 
-## Eski bootstrap (Journal için — artık tamamlandı, referans)
+## Eski bootstrap (referans — artık tamamlanmış kategoriler)
 
 ```powershell
+# Journal (91/91 ✓):
 ls source/pl/q*_journal.csv       # 25 dosya
 ls source/pl/Codex*.csv           # 5 dosya
 ls source/pl/lw_*_journal.csv     # 14 dosya
-ls source/pl/lw_POI_*.csv         # 47 dosya (POI + Postcards)
+ls source/pl/lw_POI_*.csv         # 47 dosya
+
+# Readables (47/47 ✓):
+ls source/pl_readables/*.csv      # 47 dosya
+
+# q104 dialog (60/60 ✓):
+ls source/pl/q104_*.csv           # 60 dosya (30 Asset + 30 Chat)
 ```
