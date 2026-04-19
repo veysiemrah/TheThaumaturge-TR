@@ -1,0 +1,35 @@
+Hash,NodeName,PL,TR,Notes
+A3F88AA84A8836ABC495A2961B92938A,CinematicNode_Choice_1,"Okaż legitymację Ochrany, żeby przejść. ",Geçmek için Ochrana kimliğini göster. ,
+8F7FF37042AEA8936B1DD3BC4AC4D49B,CinematicNode_Choice_1,Wezwij Javiera i wdajcie się w walkę.,Javier'i çağır ve dövüşe girin.,
+50CAEEC244EE1ACB625AF893636174A6,CinematicNode_Choice_1,Podsyć gniew robotników.,İşçilerin öfkesini kışkırt.,
+EF5808EA451CECFDA98BC39582B79B2C,CinematicNode_Choice_1,Odejdź.,Uzaklaş.,
+553BC42241941532CEF80B90D78FCE17,CinematicNode_Choice_1,1,1,
+D95763BC448FCD06BDAE269D61BC0CA8,CinematicNode_Choice_1,2,2,
+4D6A9FBE4F75C5CF8CAFEBB453B17606,CinematicNode_Choice_1,3,3,
+CBCBEF5F4554D374877BF2B7F489A9B7,CinematicNode_Choice_1,4,4,
+F7098D6C4DA4A80CFA915996E44716C8,CinematicNode_Response_13,"[Karaś stoi nad swoim rejestrem. Pada deszcz. Jego ludzie przeszukują wagon, na ziemi walają się pomięte i porozrzucane futra. Wiktor podchodzi do sierżanta.]","[Karaş kaydının başında dikiliyor. Yağmur yağıyor. Adamları vagonu arıyor, yerde buruşmuş ve savrulmuş kürkler saçılmış. Wiktor çavuşa yaklaşıyor.]",Sahne yönergesi
+A9B793A245DB417DCFA3CB845C4C8CA8,CinematicNode_Response_14,...,…,
+7548E9A94517DCBBAD4731B9C386B3C0,CinematicNode_Response_15,...,…,
+6707C17F4375C166C56C16A8A2E4129A,CinematicNode_Response_15,"Nie obijać się! Chcę mieć pewność, że przeszukaliśmy wszystko.","Tembellik yapmayın! Her şeyi aradığımızdan emin olmak istiyorum.",Karaś
+54B6F5C74020FB3FA0B828B50B66F18B,CinematicNode_Response_15,Trzymacie nas na deszczu futra mokną i będziemy musieli płacić. Rosyjskie ścierwa.,Bizi yağmurda bekletiyorsunuz kürkler ıslanıyor parasını da biz ödeyeceğiz. Rus leşleri.,Bronek kaçakçı
+9C1195C6481373FA42D24CB55199C40F,CinematicNode_Response_15,Co? Co żeś powiedział? Nikt ci chyba pałką nie przypieprzył dawno!,Ne? Ne dedin sen? Sanırım uzun zamandır kimse sana copuyla vurmamış!,
+B5068C474E3ED62E09A3A08F7BB156E2,CinematicNode_Response_15,Ja przypieprzę ci pierwszy.,İlk darbeyi ben vururum sana.,
+9933A68F48D6E6667F360F8E5D8DDCFC,CinematicNode_Response_16,"[Bronek podchodzi do sierżanta i przymierza się do tego, żeby go uderzyć. Wiktor, Javier i Swietłana wykorzystują zamieszanie, żeby się przemknąć na molo.]","[Bronek çavuşa yaklaşıp vurmaya yeltenir. Wiktor, Javier ve Swietłana kargaşadan faydalanarak iskeleye sızar.]",
+5F737AB949E90F541A8C10A73754195F,CinematicNode_Response_17,Ty tam! Zatrzymać go!,Sen şurada! Yakalayın onu!,
+8EA6DEB04845C7DA7A27EAB977AC596C,CinematicNode_Response_19,"Sprawy Ochrany, nie muszę się panu tłumaczyć.","Ochrana meselesi, size hesap vermek zorunda değilim.",Wiktor legitimasyon
+87ABAA4E41FA8722BF5F7FB7F5F64863,CinematicNode_Response_19,"O kurwa. Jesteśmy blisko przełomu, zaręczam. Jeżeli Ochrana interesuje się sprawą transportu...","Vay canına. Çözüme yaklaştık, garanti ederim. Ochrana nakliye meselesiyle ilgileniyorsa…",
+D34B9F3744CC61998A4A389C843FA36D,CinematicNode_Response_19,"Spokojnie, sierżancie. Jestem tu w innej sprawie.","Sakin ol, çavuş. Buraya başka bir mesele için geldim.",
+5B2960EE40B713BC15F31E92654BA533,CinematicNode_Response_19,Muszę przeprowadzić dwie osoby na molo. Mógłby pan odwrócić na chwilę wzrok?,İki kişiyi iskeleye geçirmem lazım. Bir anlığına gözünüzü çevirebilir misiniz?,
+6689F57A498551F23AF81CA06CB64861,CinematicNode_Response_20,"Nie ociągać się. Każdy z tych fikuśnych pakunków ma być otwarty, a każdy kąt wagonu gruntownie przeszukany.","Oyalanmayın. Bu süslü paketlerin her biri açılacak ve vagonun her köşesi baştan başa aranacak.",Karaş
+3BA13F9F49ECB24072D703BE0319CC04,CinematicNode_Response_20,"Dobry wieczór, panie władzo.","İyi akşamlar, memur bey.",Wiktor resmi
+A125FD094BA5D1C2BD8784A37838B88B,CinematicNode_Response_20,"Dla kogo dobry, dla tego dobry. Zaraz, ja pana poznaję.","İyi olana iyi. Bir dakika, sizi tanıyorum.",Karaś
+FE34DBA0404E90D9D5B51BAB1FF2378C,CinematicNode_Response_21,"Znowu chcesz mnie pan na sentymenty narodowe brać? Niewyraźnie powiedziałem, co o tym myślę?","Yine mi beni ulusal duygularla yakalamak istiyorsun bey? Bu konudaki fikrimi açıkça söylemedim mi?",
+DDF7947E42CC1E561AE5BEBE415E1D9B,CinematicNode_Response_21,"Może na posterunku panu uszy przeczyścimy, co?","Karakolda kulaklarınızı temizlesek belki, ne dersiniz?",Karaś tehdit
+B8E61103401FAC55F56BA39C6F492972,CinematicNode_Response_22,Widziałem pana na Powiślu. Co pan tam robił? I co robi tu?,Sizi Powiśle'de gördüm. Orada ne yapıyordunuz? Burada ne yapıyorsunuz?,
+5F041B574E3AB578FAAF9B9FF40D56F9,CinematicNode_Response_22,"Spowiadaj się pan zaraz jak księdzu, albo pogadamy na komisariacie.","Ya hemen papaza gider gibi itiraf edin, ya da karakolda konuşuruz.",
+BBC269DF498422C0B01AE48476CF0C39,CinematicNode_Response_23,Pan wybaczy. Już odchodzę.,Affınıza sığınırım. Artık gidiyorum.,
+096D4BA3410B8293E59B62BBB9EE0E7B,CinematicNode_Response_23,Jeszcze raz cię zobaczę - i odstawiam do celi.,Seni bir daha görürsem — hücreye atarım.,
+C15E483045FA9DA2968EB39049930AEE,CinematicNode_Response_24,Zamykam oczy.,Gözlerimi kapatıyorum.,Karaş rıza
+ABE4CD5E4DDAD1D40E5F5994F937D627,CinematicNode_Response_25,A w zamian pomoże pan Pielewinowi na Powiślu? Chłop się zajeżdża.,Karşılığında Powiśle'deki Pielewin'e yardım edecek misiniz? Adam canına okuyor.,
+198C243549DACCDD57C469BB7973D545,CinematicNode_Response_25,"Zięć mój, prowadzi sprawę morderstw. Macie w Ochranie swoje sposoby, mógłby mu pan coś podpowiedzieć.","Damadım, cinayet davalarını yürütüyor. Ochrana'da kendi yöntemleriniz var, ona bir iki şey fısıldayabilirsiniz.",
+43D9658649590A3925A056BE03D6F652,CinematicNode_Response_25,"Zobaczę, co da się zrobić.","Ne yapabileceğime bakarım.",

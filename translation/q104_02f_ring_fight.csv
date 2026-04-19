@@ -1,0 +1,30 @@
+Hash,NodeName,PL,TR,Notes
+FFC779184142380EC0EBA590F00EF120,CinematicNode_Choice_0,Stań do walki.,Dövüşe dur.,
+B5D7FC484A4F9E008BD40E90A6454436,CinematicNode_Choice_0,"Powiedz, że masz dość.",Yeter artık de.,
+32DDEEB94CF968E36F2722B5AD0852EC,CinematicNode_Choice_0,1,1,
+1B3E62B94DA637D14F36FAA1EA41374B,CinematicNode_Choice_0,2,2,
+42792BE942525C99A528F0B52D7664FE,CinematicNode_Choice_1,Stań do walki.,Dövüşe dur.,
+6F5437FB4A8576C20244F7BF79F3494B,CinematicNode_Choice_1,"Powiedz, że masz dość.",Yeter artık de.,
+A006BCB3463A6DA9845D78BCE74BAFBA,CinematicNode_Choice_1,1,1,
+9088432E4338916E544202BAD31E24FF,CinematicNode_Choice_1,2,2,
+AD1B072F4123F258A55C2FBD54C5C028,CinematicNode_Response_0,"Dobra, dość tego. Starczy rozrywek, przejdźmy do interesów.","Tamam, yeter bu kadar. Eğlence bu kadar, işe geçelim.",
+1CE38EB34C16CCB59E7A3D821ABA91D8,CinematicNode_Response_0,"<sp>Bueno</>, starczy mu.","<sp>Bueno</>, ona bu kadarı yeter.",Javier
+DDACC2C64AA1A911B9D54BADA4F98A18,CinematicNode_Response_1,Niech będzie. Walczymy.,Öyle olsun. Savaşırız.,
+EFCA35DC42A35D37E00C5D98F2F8A68D,CinematicNode_Response_2,Jedziemy z tym. Kto następny?,Devam ediyoruz. Sıradaki kim?,
+8698FB5C4F3569BA2168069C65184C32,CinematicNode_Response_5,"<sp>Señoras y señores</>, mała zmiana planów. Ja walczyć nie będę...","<sp>Señoras y señores</>, ufak bir plan değişikliği. Ben dövüşmeyeceğim…",Javier sunucu
+5041334247B1D22C3316E3A05B62AFD7,CinematicNode_Response_5,"...ja wiem, Barszczyk jest najlepiej. Ale słuchać!","…evet biliyorum, Barszczyk en iyisi. Ama beni dinleyin!",
+2C06A98547E7C2528BC3EEA2E1AB38E1,CinematicNode_Response_5,Marcel i szwagrowie kontra syn Śródmieścia! Bogacz! Magik! Wiktor Szulski!,Marcel ve kayınlar karşısında Śródmieście'nin oğlu! Zengin! Büyücü! Wiktor Szulski!,
+57AAB2CA46F384883618FE900C77055E,CinematicNode_Response_5,Nie zrób mi wstydu!,Beni mahcup etme!,Javier Wiktor'a
+670AF89945312152B0D533953AE00351,CinematicNode_Response_6,"Dobrze, Wiktor! Tłum cię kocha!","İyi gidiyorsun Wiktor! Kalabalık seni seviyor!",
+59A6993D43151B3C4556149D05E6B6EE,CinematicNode_Response_6,Kochają cię nienawidzić. Też dobrze.,Senden nefret etmeyi seviyorlar. O da iyidir.,
+CF53A08A4B5DBCD858C773800C1EF360,CinematicNode_Response_6,Daj im czas! Czy Wiktor jest wart szacunku dzielnicy?,Biraz zaman tanıyın! Wiktor mahallenin saygısına layık mı?,
+4D277E4F425C13B6E2DB83A832D34AF3,CinematicNode_Response_6,A może <sp>chicos</> z piątej alejki przerobią go na mielone?,Yoksa beşinci sokağın <sp>chicos</>'u onu kıymaya mı çevirecek?,
+7E928F2A4866275BA46377A3B2C3433F,CinematicNode_Response_6,"Nie daj się, Wiktor!",Pes etme Wiktor!,
+6DF75D4E4DB4A34B838306A78BAEE5EF,CinematicNode_Response_7,"Prosto z Ameryki! Boksują jak burza, całują jak marzenie. Siostry Gordon!","Doğrudan Amerika'dan! Fırtına gibi yumruk atar, rüya gibi öper. Gordon Kardeşler!",
+F44FD65C45337008974EAE8D13DE3CDB,CinematicNode_Response_7,<i>Fucker!</>,<i>Fucker!</>,
+6EB409EC4A683E7C3FEB60AD6D3F7281,CinematicNode_Response_7,Mógłbyś ich dodatkowo nie wkurwiać!,Onları daha fazla sinirlendirmesen olmaz mı!,Javier → Wiktor
+AC9DBB264C9FA99271D547A8CBB03CB5,CinematicNode_Response_7,Jestem tu wyłącznie zawodowo.,Buraya yalnız iş için geldim.,
+7BEFF2CA4A1ACB092F5693812CEA96EB,CinematicNode_Response_7,Mhm. Oberwiesz zawodowo.,Hım. Profesyonelce yiyeceksin dayağı.,
+98ADE1DD4DE717CD96099B94004F6553,CinematicNode_Response_9,"Kurwa, ile jeszcze?","Lan daha ne kadar sürecek?",Wiktor
+DA95247A4CE9E8D170FECEBEAB282035,CinematicNode_Response_9,"Daj spokój, uśmiechnij się!",Boş ver gitsin gülümse!,
+2800F42E4E7BC171574B48A7A180AE78,CinematicNode_Response_9,"<sp>Bueno</>, starczy mu. Chodź. Zasłużyłeś.","<sp>Bueno</>, ona bu kadarı yeter. Gel. Hak ettin.",

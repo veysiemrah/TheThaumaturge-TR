@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (q104 Chats — 30 asset / 123 satır deploy; q104 Assets ~965 satır beklemede)
+**Son güncelleme:** 2026-04-20 (q104 tam — 60 asset / ~1088 satır deploy)
 
 ---
 
@@ -17,8 +17,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **Diyalog q104 Chats** | 30 asset | 30 asset | %100 | ~123 |
-| **GENEL** | — | — | — | **~8788 satır** |
+| **Diyalog q104** | 60 asset | 60 asset | %100 | ~1088 |
+| **GENEL** | — | — | — | **~9753 satır** |
 
 **Readables kategorisi %100 tamam** (47/47 asset). Journal + Codex DT + Readables = tüm metin kategorileri tamam.
 

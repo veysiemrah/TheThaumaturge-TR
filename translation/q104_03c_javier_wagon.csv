@@ -1,0 +1,19 @@
+Hash,NodeName,PL,TR,Notes
+A029604F4F91A3E0D2F3729BED22D045,CinematicNode_Choice_1,"Przyznaj, że poznałeś już Karasia.",Karaś ile zaten karşılaştığını itiraf et.,
+AB488397440C7E887F32708ACC6972FF,CinematicNode_Choice_1,Zasugeruj danie łapówki.,Rüşvet teklif etmeyi öner.,
+E658949A474F1E9C765D88B4C264A312,CinematicNode_Choice_1,"Powiedz, że się rozejrzysz.",Etrafa bakacağını söyle.,
+86FB2DE84DC995CBEDD081974E8FB4F4,CinematicNode_Choice_1,1,1,
+5987AFBB4D517FBFC04098B7E448E4BB,CinematicNode_Choice_1,2,2,
+AB0BFA0340E6E3D14C756BB2CD69BE7D,CinematicNode_Choice_1,3,3,
+B22E286D4E02CD0BD053629DCE9FC836,CinematicNode_Response_10,"<ru>Ostorozhno</>, Wiktor.","<ru>Ostorozhno</>, Wiktor.",Rusça 'dikkatli ol'
+7C7D89B3420D4B1BFE6B6DA2831134DB,CinematicNode_Response_10,<sp>Sí con discreción.</>,<sp>Sí con discreción.</>,İspanyolca 'evet tedbirli'
+7C65168445FB3681BD1A8CA9B754950E,CinematicNode_Response_11,"Poczekajcie tu. Zobaczę, co da się zrobić.","Burada bekleyin. Ne yapılabilir, göreyim.",
+A5BBE3BA41083ED219DE589C1CAB8F77,CinematicNode_Response_6,Co się dzieje?,Neler oluyor?,
+716A2DEA43B77526571EF48003A03AF1,CinematicNode_Response_6,"Karaś i jego ludzie blokują port. Ten <sp>hijo de puta</> miał być na Powiślu! ","Karaś ve adamları limanı abluka altına aldı. Bu <sp>hijo de puta</> Powiśle'de olacaktı! ",Javier
+84F719F04E0201AA8E37C48297D16822,CinematicNode_Response_6,"<sp>Mago</>, plan?","<sp>Mago</>, plan ne?",Javier'in Wiktor'a lakabı — 'büyücü'
+A4B2142B48CA43EA00EC4FA39BF1EEB1,CinematicNode_Response_7,"Ale gdyby coś, to zagwizdaj.","Ama bir şey olursa, ıslık çal.",
+1B4C8A6D49A69E91DDD47B97B8E7653F,CinematicNode_Response_8,Mogłem mieć w tym swój wkład. Przypadkowo.,Kazara bunda benim de bir katkım olmuş olabilir.,Wiktor
+1F7ECA884066E08B78CD3993D0C7E33A,CinematicNode_Response_8,"Ty się zwyczajnie nie umiesz powstrzymać, prawda?","Sen kendini tutmayı bilmiyorsun, değil mi?",Javier
+D648A91F4526734AD43F28A6F9A0925A,CinematicNode_Response_8,"Zrobiłeś bałagan, to sprzątaj.","Ortalığı karıştırdın, temizle de.",
+D0A204424014FF95F045C7954F7B0D1C,CinematicNode_Response_9,W czym problem? Nie możesz im dać w łapę?,Sorun ne? Avuçlarını yağlayamaz mısın?,
+E4C6834E45E2E4FDB4D72E9DE4117634,CinematicNode_Response_9,"Z tym się nie da. Dobrze, jak był na Powiślu.","Onunla olmaz. Powiśle'de iyi durumdaydı.",

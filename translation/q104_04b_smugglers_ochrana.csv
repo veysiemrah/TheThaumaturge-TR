@@ -1,0 +1,13 @@
+Hash,NodeName,PL,TR,Notes
+34E453584760D8F8487ECE9B7C3E8541,CinematicNode_Choice_1,Użyj legitymacji Ochrany.,Ochrana kimliğini kullan.,
+6746FBFD4FF4F43CD7B1F698700D4932,CinematicNode_Choice_1,Walcz.,Savaş.,
+ECCBDF2940E83C147F001AA443484383,CinematicNode_Choice_1,1,1,
+6F9490D743C3437AE50F6FA6BDFDBFCF,CinematicNode_Choice_1,2,2,
+140E0CFA4E2C9F006ED15E9F039469ED,CinematicNode_Response_5,Ty! Zatrzymaj się. Dokumenty.,Sen! Dur. Belgeler.,
+DE5795804FF80D60F1CCE2B886AC5A20,CinematicNode_Response_6,"Miałem nadzieję, że do tego nie dojdzie.",Bu noktaya gelmeyeceğini umuyordum.,
+3DDFE3D245BDCC486AC211AA3B26D14E,CinematicNode_Response_7,"Myślałem, że się obejdzie bez tego, ale skoro nalegacie.","Buna gerek kalmayacağını sanıyordum, madem ısrar ediyorsunuz.",
+6F47289B407662A0A95A05972BEA14C4,CinematicNode_Response_7,Oczywiście. Przepraszamy. Niech pan szanowny idzie.,Elbette. Özür dileriz. Buyurun saygıdeğer bey.,
+34D667984A3D98BE514A0F8F9440BA74,CinematicNode_Response_8,"Panowie, muszę się wydostać z portu. To pilne.","Beyler, limandan çıkmam lazım. Acil.",
+101899754B0452D50CC21CA771CBE6DF,CinematicNode_Response_8,A ty taki dobry obywatel i tak się spieszy? Dokumenty!,Sen de iyi vatandaşmışsın ve acelen mi var? Belgeler!,
+3861252449330A4B0BB2FE973833BF11,CinematicNode_Response_9,Ale tam dupło. Powinniśmy sprawdzić?,Amma gürültü patladı orada. Gidip baksak mı?,
+E4E7701D4F006179071534AC8750C722,CinematicNode_Response_9,"A w życiu, za mało mi płacą.","Hayatta olmaz, bu paraya değmez.",

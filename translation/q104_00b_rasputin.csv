@@ -1,0 +1,20 @@
+Hash,NodeName,PL,TR,Notes
+46296F044AA128FB0B449EAFB8702A80,CinematicNode_Choice_1,"Powiedz, że tak.",Evet de.,
+EFE8387B4A5B1B3E1926D4BEF50D03D6,CinematicNode_Choice_1,"Najpierw zapytaj, kto tak płacze.",Önce bu kadar çok kim ağlıyor diye sor.,
+3B52BFFE406DF0904A14D1BFDB0B119C,CinematicNode_Choice_1,Przytaknij i odejdź. Nie chcesz przeszkadzać.,Onayla ve uzaklaş. Rahatsız etmek istemezsin.,
+EB5A439741AB7C4666B75EAD63A8CEF1,CinematicNode_Choice_1,1,1,
+309B7918446E8B809BFD99A01D691812,CinematicNode_Choice_1,2,2,
+8A32FC3242D35C7AB28BEA9BA6F1A569,CinematicNode_Choice_1,3,3,
+11433DFA42175667D7A0FCB56DAC34E2,CinematicNode_Response_10,Uważaj też na siebie.,Sen de kendine iyi bak.,
+4DC5A8334F8724972DAE988F5723E24D,CinematicNode_Response_10,Dziękuję.,Teşekkür ederim.,
+5CC7DF1E4826C8C143C44D8CF7ACAFB2,CinematicNode_Response_11,Zabieram ją. Nie mamy czasu. ,Onu alıyorum. Vaktimiz yok.,
+38A1A5144CE3CD7894C1C2BE9960B4F9,CinematicNode_Response_11,"Czas to tylko koncept, ale rozumiem.","Zaman yalnızca bir kavram, ama anlıyorum.",Rasputin
+3736DF724EFCCA2979CA398FE24D537F,CinematicNode_Response_11,Powodzenia.,İyi şanslar.,
+4974752440CEF493EFE11A8211E0B052,CinematicNode_Response_7,Przeszkadzam?,Rahatsız mı ediyorum?,Wiktor
+641B8F504483850CFE54C9AF2FFE2E2D,CinematicNode_Response_7,"Skąd. Zebrało się po prostu kilka osób, którym mogę pomóc jakoś duchowo się oczyścić.","Hiç de değil. Sadece birkaç kişi toplandı, ruhsal olarak arınmalarına yardımcı olabileceğim kimseler.",
+2F7001FE4738948A7ACD7ABC6816DC7C,CinematicNode_Response_7,Przyjechałeś po naszą przyjaciółkę?,Arkadaşımızı almaya mı geldin?,
+D735EB854417ECBCB5DB229BF54E7798,CinematicNode_Response_8,"Tak, zabieram ją stąd.","Evet, onu buradan götürüyorum.",
+A8CB28614B8DB09F7EB82FAAF28F8B64,CinematicNode_Response_9,Kto tak płacze?,Bu kadar ağlayan kim?,
+2E99577F4FBB2E59D9F9ABBD2F292B1A,CinematicNode_Response_9,"Grzesznik, Wiktorze. Żałujący swoich złych wyborów i pokus, którym uległ.","Bir günahkâr, Wiktor. Kötü seçimlerinden ve teslim olduğu vesveselerden pişman olmuş.",Rasputin
+04166BB247A81C2A1855968570EDC093,CinematicNode_Response_9,Nie zapraszałem cię tym razem.,Bu sefer seni davet etmemiştim.,
+D06CA40843A486505575A7AD0A3C27A3,CinematicNode_Response_9," Wiem, że się spieszysz.","Acelen olduğunu biliyorum.",

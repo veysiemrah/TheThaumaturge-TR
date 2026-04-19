@@ -1,0 +1,11 @@
+Hash,NodeName,PL,TR,Notes
+3197548243C3FB3B5F00478631413181,CinematicNode_Choice_1,"Zapytaj, czy Hiszpan miał na imię Javier.",İspanyol'un adının Javier olup olmadığını sor.,
+EBEEFC4F4E02587C3E65C690D4AC009C,CinematicNode_Choice_1,Odejdź.,Uzaklaş.,
+57B84F994EBBCE162DC81688F82BF930,CinematicNode_Choice_1,1,1,
+1751173744E4065ABBD6EEA9E918BF9D,CinematicNode_Choice_1,2,2,
+6C1FD2DF4F590D113CE2A99D18FD801D,CinematicNode_Response_2,"I wtedy on, słuchaj, tak mnie złapał w pasie, rozumiesz.","Ve o zaman, dinle, beni belimden şöyle yakaladı, anlıyor musun.",
+FDF5B0DC400E29C03AAF02AD3661D582,CinematicNode_Response_2,"No, no. I co dalej?",Vay vay. Ee sonra?,
+57DE7F854AC888ACFC5AFA862EA68DBB,CinematicNode_Response_2,"I mówi, że w <sp>España</> kochamy całe ciało kobiety. Całe... ","Ve diyor ki, <sp>España</>'da biz kadının bütün bedenini severiz. Bütününü…",
+24AC2BC94275AE3B9311ABA7E7F0EE22,CinematicNode_Response_3,"Przepraszam najmocniej, czy mężczyzna, o którym pani wspomina, miał może na imię Javier?","Çok özür dilerim, bahsettiğiniz adamın ismi Javier miydi acaba?",
+9FB7C014453CB8491C3165B8AEB2D3D2,CinematicNode_Response_3,A ty czego podsłuchujesz?!,Ne oluyor sen kulak kabartıyorsun?!,
+700D8FE54276ED451B6FDB8CCDCD502D,CinematicNode_Response_3,Idź sobie bo po braci pójdziemy! Ale już!,Defol git yoksa kardeşlere haber salarız! Hemen!,
