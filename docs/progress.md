@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-19 (ana story Readables 15/47 ✓; Journal tümü + Codex tümü tamam)
+**Son güncelleme:** 2026-04-19 gecesi (review turu: 10 kapsamlı tur + ~28 düzeltme; yeni çeviri eklemesi yok)
 
 ---
 
@@ -336,7 +336,44 @@ Manifest referansları:
 
 ---
 
-## Bir sonraki oturum için hazırlık (2026-04-19 akşamı)
+## Review aktivitesi (2026-04-19 akşam-gece)
+
+10 kapsamlı review turu yapıldı; **~28 düzeltme deploy'lu**. Yeni çeviri eklenmedi. Commit zinciri (en yeniden eskiye):
+
+- `6732e27` — q102_03b: "hakkiyle halletiniz" → "hakkıyla hallettiniz" (iki TR yazım hatası)
+- `d4a1bc8` — q102_00d: çift negatif çeviri hatası (Grażyna anlamı tam tersine dönmüştü — **kritik**)
+- `770776c` — q102_02a: "haltoldu" (birleşik yazım) → "boka sardı"
+- `6f51d0b` — q102_00b: "beladırmış" → "belalarıymış" (çoğul iyelik eki eksikti)
+- `f580932` — Map_ST + q101_journal: "Berk Rotblit(z)" tutarlılığı (z harfi + fazla 'e')
+- `ce7800d` — q101_03b: "rabbimizin" → "Rabbimizin"; q103_readable: Zotiye → Zlotiye (önceki tipo tekrarı); Notes Polonyaca→Lehçe
+- `27c8e6a` — q103_02c/04d: gramer + virgül; q103_06c: "Ohrana"/"Ochrana" karışık kullanım (7 yer, replace_all)
+- `e60f0ee` — CodexCharactersDT 4 düzeltme: "bitirdi" → "son buldu" (3 yer, geçişli fiil); Polonyacayı→Lehçeyi (glossary); buruklukluk→burukluk; **nâsihi → duayeni** (çeviri hatası — "nâsih"=öğütçü ≠ "Nestorka"=matriark)
+- `32141bd` — CodexSalutorsDT: "seçmiyorum" → "seçemiyorum" (ability negatif); q103_04c: "çağırtt"→"çağırt"
+- `afc7571` — Hotel Imperialny strateji kararı (Map_ST+Achievements TR→özel isim korumasına uyum); Danis bloğu 20 TR `...` → `…`; q102_readable Zotiye/Doktor/Hakâretin; oklep → dövüş; glossary'ye Hotel Imperialny/Hotel Grand + Komisarz eklendi
+
+**En değerli bulgular (oyuncuya doğrudan görünür):**
+1. q102_00d çift negatif — anlam tam tersine dönmüştü
+2. Hotel Imperialny UI/diyalog stratejisi birleştirildi
+3. `oklep` çevrilmemiş Lehçe argo
+4. `nâsihi` yanlış çeviri (matriark ≠ öğütçü)
+5. `Ohrana` tutarsızlığı — 7 yer aynı dosyada karışık
+6. `Polonyacayı` glossary ihlali (2 yer + 3 Notes)
+7. `bitirdi` geçişli fiil hatası (3 yer)
+8. Çeşitli yazım hataları: Berk Rotblit(z), haltoldu, Zotiye, Hakâretin, buruklukluk, çağırtt, halletiniz vb.
+
+**Projenin şu anki review durumu:**
+- Tüm 27 StringTable ✓, tüm 5 Codex DT (tam) ✓, Exploration_ST ✓
+- q001 prolog tamam ✓, q101 01+02+03 ✓, q102 11 asset ✓, q103 11 asset ✓
+- 6 Default_dialogues ✓, Readables (ana story) ✓, LW/POI/Postcard/Chat/Journal spot ✓
+- Proje geneli yaygın hata patternları (Zotiye, buruklukluk, Hakâret, çağırtt, Polonyaca, Berek, Ohrana, nâsihi, bitirdi, haltoldu vs.) — **hepsi sıfır**
+
+Review detay: `docs/translation-review.md`
+
+**Kalan review (sonraki oturum için):** q102/q103 ~20 asset + q001/q101 Chats derin + LW Readables (varsa çevrilmiş olanlar). Beklenti: turda 0-1 düzeltme, marjinal getiri. Yeni çeviri turu daha yüksek etkili.
+
+---
+
+## Bir sonraki oturum için hazırlık (2026-04-19 gecesi)
 
 **Yapılan (2026-04-18/19):**
 - Ana story Journal 25/25 ✓ (386 satır)
@@ -345,6 +382,7 @@ Manifest referansları:
 - POI Journal + Postcards 47/47 ✓ (212 satır) — %100 — **Journal kategorisi tamam**
 - Readables 47/47 dump'landı (1989 satır, `source/pl_readables/`)
 - Ana story Readables 15/47 ✓ (~811 satır)
+- **10 review turu + ~28 düzeltme** (yeni çeviri eklemesi yok)
 
 **İlk yapılacak çeviri (sıradaki oturum için):**
 1. ~~Ana story Journal~~ ✓ / ~~Codex DT~~ ✓ / ~~LW Journal~~ ✓ / ~~POI Journal~~ ✓
