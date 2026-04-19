@@ -190,6 +190,8 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Kierbedź (most) | Kierbedź (köprüsü) | Varşova Wisła köprüsü; aynen |
 | Ciechocinek | Ciechocinek | Polonya kaplıca kasabası; aynen |
 | Złota Kaczka | Altın Ördek | Varşova folkloru — genç adama servet karşılığı ruhunu alan ördek (q201b Ariel referans) |
+| Cerkiew św. Marii Magdaleny | Aya Maria Magdalena kilisesi | Tarihi Praga Ortodoks kilisesi (q203 mucize sahnesi) |
+| Sacré-Cœur | Sacré-Cœur | Paris bazilikası; aynen (Fransızca tag'le `<fr>`) |
 
 ## Karakter/Meslek/Tiplemeler (ImprintsDescription_ST + vs)
 
@@ -217,6 +219,18 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Abraham Horowitz | Abraham Horowitz | Aranan eczacı (Stanisław'ın Golem cezasının nedeni, q201) |
 | Pani Jagoda | pani Jagoda | Mirów fırıncısı (Szulski çocukluğu — pączki tedarikçisi) |
 | Izaak Sofer | rabbi Sofer / Izaak Sofer | Eski Nożyk rabbisi; Stanisław'a Golem lanetini döken kabalist (q201 ref) |
+| Emir Burnakowicz | Emir Burnakowicz | Fałdżej karakterinin gerçek adı (Tatar bilgesi, q202_04) |
+| fałdżej | fałdżej | Tatar dilinde ""tılsımkâr"" (Fałdżej'in ünvanı) — aynen |
+| Jan Białek / Janek | Jan Białek / Janek | 16y PPS devrimci çocuk, Praga'da dedesiyle yaşar (q202 Sitadel) |
+| Michał | Michał | Wanda'nın koruması; q202 Sitadel'de öldürülür |
+| Sara Rywkin | Sara Rywkin | Samira'nın gerçek adı (q202 Sitadel akta ifşası) |
+| Aniela + Lucjan Nadarzyński | Aniela + Lucjan Nadarzyński | Rasputin'in Praga müritleri, daire sahipleri (q203) |
+| Lazarew | Lazarew | Rus Çarlık subayı, Rasputin müridi (q203) |
+| Szymon ""Szymek"" | Szymon ""Szymek"" | q203 mucize sahnesindeki küçük tılsımkâr oğlan |
+| Patrik Kirył | Patrik Kirył | Rasputin'in Petersburg'daki eski rakibi, Aya Maria Magdalena kilisesi patriği |
+| Aleksy Romanow | Aleksy Romanow | Çareviç (II. Nikolay oğlu, hemofili — tarihsel) |
+| Aleksandra (caryca) | Çariçe Aleksandra | Rasputin'in saray destekçisi (II. Nikolay'ın eşi) |
+| Pankracy | Pankracy | Berk Rotblitz'in pastanesindeki kedi (q202) |
 | Starosta | köy muhtarı | Slav köy reisi |
 | Brygadzista | Ustabaşı | Ekip şefi |
 | Lichwiarz | Tefeci | |

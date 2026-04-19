@@ -1,0 +1,10 @@
+$csvs = @(Get-ChildItem source/pl/q202*.csv) + @(Get-ChildItem source/pl/q203*.csv)
+$total = 0
+$report = @()
+foreach ($c in $csvs) {
+    $lines = (Import-Csv $c.FullName).Count
+    $total += $lines
+    $report += [PSCustomObject]@{ File = $c.BaseName; Lines = $lines }
+}
+$report | Sort-Object -Property Lines -Descending | Format-Table -AutoSize
+Write-Host ("TOPLAM: {0} satır / {1} asset" -f $total, $csvs.Count)

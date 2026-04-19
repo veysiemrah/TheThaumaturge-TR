@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-21 (q201 + q201b Bölüm 2 giriş + Golem katakomb ritüeli tam — 47 asset / ~2064 satır)
+**Son güncelleme:** 2026-04-20 (q202 + q203 Bölüm 2 devamı — Rotblitz/Fałdżej/Sitadel/Rasputin-Ortodoks kilise mucizesi — 41 asset / ~1874 satır)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 255 asset | 687 asset | %37.1 | ~6962 |
+| **Diyalog (ana story + Default + Chat)** | 296 asset | 687 asset | %43.1 | ~8836 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~11817 satır** |
+| **GENEL** | — | — | — | **~13691 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b ✓ (255/687 asset, %37.1).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 ✓ (296/687 asset, %43.1).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -225,16 +225,24 @@ Sokak NPC'leri: Swietłana meyhane dumanı, bar entliczek sayması, Abaurycy fed
 
 **q201b Chats — 14/14 ✓** (~65 satır): Smuggler hideout, ring işçileri, Ariel flat, bazaar, spitting kids, clients, Ligia müşteri sahnesi.
 
+### q202 + q203 — Bölüm 2 devamı — 41/41 ✓ (~1874 satır)
+
+**q202 Assets — 14/14 ✓** (~1000 satır): 01a_conclusion (14), 02a_ochrana_agents (28), 02c_rotblitz_barman (58), 02d_rotblitz_wanda (64 — Wanda yeniden, Michał tanışma), 03_wanda_visit (58 — Wanda Szulski evi ziyareti), **04_faldzej_secret_meeting (195 — Emir Burnakowicz Tatar fałdżej, cemiyeti yeniden kurma teklifi, Âmentü kutlaması)**, 06_fort_cell_part1/2 (61+59 — Sitadel hücresinde Jan Białek 16y PPS çocuk), 06a_konietchkin_fort (138 — Konieczkin Michał'ı öldürdü, sorgu), 06b_samira_fort (134 — Samira hipnoz kaçış), 06c_fort (32), 06d_escape_part1/2 (15+19), 07_return (21 — Fałdżej evi, Âmentü duası).
+
+**q202 Chats — 7/7 ✓** (~37 satır): Wiktor iç monologları, Berk Rotblitz bar, Wanda ev ziyareti, Sitadel hücre, kaçış Kazaklar, Fałdżej evi.
+
+**q203 Assets — 16/16 ✓** (~775 satır): 00a_maria_at_door (52 — Maria/Magdalena Rasputin'in sevgilileri), 00b_orgy (97 — Rasputin cemaati, Aleksy Romanow/Çareviç hastalığı), 00c_afterparty_part1/2 (9+166 — Rasputin'in mahfili), 00d_hypnosis (2), **00e-h_hypnosis_morana/djinn/golem/krampus** (10+11+11+16 — hipnoz içi salutor karşılaşmaları), 01a_priest (83 — Praga'daki Katolik rahip, Rasputin Petersburg'dan geçmiş), 02a_rasputin_cemetery (180 — mezarlıkta Rasputin vs Wiktor, Romanov sarayı planı), 03a_orthodox_church (62 — Aya Maria Magdalena kilisesi egzorsizm), 04a-c_miracle_part1/2/3 (37+156+22 — Szymek tılsımkâr çocuk, patrik Kirył, Rasputin ""mucize""), 05a_arrest (25 — tutuklama, Ochrana).
+
+**q203 Chats — 4/4 ✓** (~18 satır): orgia, afterparty kahvaltı, kilise rahibi selamı, mucize sırasındaki dualar.
+
 ### Ana story kalan
 
 | Quest | Assets | Chats | Toplam | Açıklama |
 |---|---|---|---|---|
-| q202 | 14 | 7 | 21 | |
-| q203 | 16 | 4 | 20 | |
 | q301 | 18 | 18 | 36 | Bölüm 3 |
 | q302 | 15 | 12 | 27 | |
 | q401 | 7 | — | 7 | Bölüm 4 finali |
-| **Toplam** | 70 | 41 | **111** | (q104 + q201 + q201b tamamlandı) |
+| **Toplam** | 40 | 30 | **70** | (q104 + q201 + q201b + q202 + q203 tamamlandı) |
 
 ### Sq001 — Upyr vizyon sekansları — 0/39 ✗
 
@@ -338,13 +346,13 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 | Kategori | Asset | Satır | Durum |
 |---|---|---|---|
 | StringTable | 27 | ~1540 | 26 ✓, 1 kaldı (DebugText) |
-| Dialog (ana+chat) | 687 | 50K–70K | **255 ✓ (~6962 satır)** |
+| Dialog (ana+chat) | 687 | 50K–70K | **296 ✓ (~8836 satır)** |
 | Readables | 47 | 1979 (ölçüldü) | **47 ✓** |
 | Journal | 86 | 830 (ölçüldü, Codex hariç) | **86 ✓** |
 | Codex DT | 5 | 497 (ölçüldü) | **5 ✓** |
 | InsightsConclusions | 39 | ~400–600 (tahmini) | ✗ — henüz dump'lanmadı |
 | Vset | 508 | ~1500–4000 (tahmini) | ✗ — düşük öncelik |
-| **Deploy'lu toplam** | **403 asset** | **~11817 satır** | StringTable + Journal + Codex + Readables + 255 Dialog |
+| **Deploy'lu toplam** | **444 asset** | **~13691 satır** | StringTable + Journal + Codex + Readables + 296 Dialog |
 
 Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 
@@ -355,9 +363,9 @@ Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 **Yüksek öncelik (hikâye ve bilgi):**
 1. ~~q001~~ ✓ (42/42) / ~~q101~~ ✓ (40/40) / ~~q102~~ ✓ (27/27) / ~~q103~~ ✓ (33/33) / ~~q104~~ ✓ (60/60)
 2. ~~q201 + q201b~~ ✓ (47/47) — Bölüm 2 giriş + katakomb
-3. ~~Journal~~ ✓ (91/91) / ~~Codex DT~~ ✓ (5/5) / ~~Readables~~ ✓ (47/47)
-4. **q202 + q203** (41 asset) — Bölüm 2 devamı (sıradaki iş)
-5. **q301 + q302** (63 asset) — Bölüm 3
+3. ~~q202 + q203~~ ✓ (41/41) — Bölüm 2 devamı (Rotblitz, Fałdżej, Sitadel, Ortodoks kilise mucizesi)
+4. ~~Journal~~ ✓ (91/91) / ~~Codex DT~~ ✓ (5/5) / ~~Readables~~ ✓ (47/47)
+5. **q301 + q302** (63 asset) — Bölüm 3 (sıradaki iş)
 6. **q401** (7 asset) — Bölüm 4 finali
 7. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları (dump gerekli)
 8. **sq001** (39 asset) — Upyr vizyonları
@@ -422,42 +430,46 @@ Review detay: `docs/translation-review.md`
 
 ---
 
-## Bir sonraki oturum için hazırlık (2026-04-21)
+## Bir sonraki oturum için hazırlık (2026-04-20)
 
-**Bu oturumda yapılanlar (2026-04-21):** q201 + q201b tam — 47 asset / ~2064 satır (19 Assets + 28 Chats).
+**Bu oturumda yapılanlar (2026-04-20):** q202 + q203 tam — 41 asset / ~1874 satır (30 Assets + 11 Chats).
 
 **Yeni özel isimler / glossary katkıları:**
-- Mordechaj Feldman (Sofer'in yerine geçen rabbi) — yeni rabbi
-- Ariel Rofe — gangster-kabalist-tılsımkâr (q104'te de geçmişti, burada derinleştirildi)
-- Mordechaj Chajat — babanın eski tezgâhtarı, pralnia sahibi
-- Abraham Horowitz — aranan eczacı (ölü)
-- Pani Jagoda — fırıncı (çocukluk tanıdığı)
-- Synagoga Nożyków — Varşova sinagogu
-- Uniwersytet Latający → Uçan Üniversite (tarihsel Polonya gizli kadın eğitimi)
-- Bazar Różyckiego kısaltması Różyc
-- Berur ritüeli — kabalist ayırma ritüeli (aynen)
-- `<yd>emet</>`/`<yd>met</>`/`<yd>L'Chaim</>` Yidişçe kelimeler korundu
-- `<yd>kapcan</>`/`<yd>szmondak</>`/`<yd>mecyje</>`/`<yd>puryc</>`/`<yd>geszeft</>` Yidiş argo
-- Kaddish duası başı `<yd>Yit-ga-dal v'-yit-ka-dash sh-'meih ra-ba...</>` aynen
-- ""funt ciała"" — Shakespeare Venedik Taciri Shylock göndermesi → ""bir libre et"" TR
-- ""Satanisław"" klątwa (Satan + Stanisław kelime oyunu — q102 Abaurycy parody'si)
-- Altın Ördek (Złota Kaczka) — Varşova efsanesi
-- Ochrana, Kierbedź, Marszałkowska (Varşova topografya)
-- Ogóras (Salatalık) — fedai lakabı (frengi referansı)
+- Emir Burnakowicz, fałdżej — Tatar dilinde ""tılsımkâr""; q001 DD_faldzej karakterinin gerçek adı (q202_04)
+- Jan Białek ""Janek"" — 16 yaşından küçük PPS devrimcisi çocuk, Praga'da dedesiyle yaşar (1863 Ocak Ayaklanması gazisi)
+- Michał — Wanda'nın koruması; q202 Sitadel sahnesinde öldürülür
+- Pankracy — Rotblitz'in pastanedeki kedisi (lakap)
+- Sara Rywkin — Samira'nın gerçek adı (q202_06c Sitadel akta)
+- Aniela + Lucjan Nadarzyński — Rasputin'in müritleri (Praga dairesi)
+- Maria + Magdalena — Rasputin'in sevgilileri/müritleri
+- Lazarew — Rus Çarlık subayı, Rasputin müridi
+- Szymon ""Szymek"" — küçük tılsımkâr oğlan (Ortodoks kilise mucize sahnesi)
+- Kirył — Patrik (Rasputin'in Petersburg'daki eski rakibi)
+- Aleksy Romanow — Çareviç (II. Nikolay oğlu, hemofili)
+- caryca Aleksandra — Çariçe (Rasputin'in Rus sarayındaki etkisi)
+- Cerkiew św. Marii Magdaleny → Aya Maria Magdalena kilisesi (tarihi Praga Ortodoks kilisesi)
+- Kaplica Iwerska, Sobór Kazański, Notre-Dame, Sacré-Cœur — Rasputin vizyonu
+- Âmentü duası (Türkçe-Müslüman yerleşik formül) — Fałdżej tarafından Michał için okunur (q202_07)
+- `<la>Vanitas vanitatum et omnia vanitas</>` — Vaiz 1:2
+- `<la>Princeps militiae Caelestis, defende nos in proelio</>` — Başmelek Mikail duası (egzorsizm)
+- `<ru>Batyushka</>` = peder (Rus Ortodoks)
+- `<ru>Slava Rossii</>`, `<ru>bes</>`, `<ru>Dovol'no</>`, `<ru>Geroy</>` Rusça korundu
+- "Kartofelek" → Patatescik (Szymek'in oyuncak ayısı adı)
+- Selanikliler 5:7 alıntısı ""Uyuyanlar geceleyin uyurlar…"" (Rasputin'den)
+- "Pycha kroczy przed upadkiem" → ""Gurur düşüşün habercisidir"" (atasözü)
+- "Niewierny Tomasz" → ""Şüpheci Tomas"" (Aziz Tomas)
 
-Son deploy: **2026-04-21 22:50** (`pakchunk99-WinGDK_P.*`).
+Son deploy: **2026-04-20 00:18** (`pakchunk99-WinGDK_P.*`).
 
-### Sıradaki iş: q202 + q203 (Bölüm 2 devamı, 41 asset)
-
-q202 + q203 Bölüm 2 devamı: büyük olasılıkla Ariel ihanetinin takibi, bir başka büyü/ritüel zinciri, Swietłana akıbeti veya yeni salutor.
+### Sıradaki iş: q301 + q302 (Bölüm 3, 63 asset)
 
 **1. Extract + JSON:**
 ```powershell
-# Tüm q202 + q203 asset'lerini extract et:
-.\tools\retoc\retoc.exe to-legacy --filter q202 --no-shaders `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q202_extract"
-.\tools\retoc\retoc.exe to-legacy --filter q203 --no-shaders `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q203_extract"
+# Tüm q301 + q302 asset'lerini extract et:
+.\tools\retoc\retoc.exe to-legacy --filter q301 --no-shaders `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q301_extract"
+.\tools\retoc\retoc.exe to-legacy --filter q302 --no-shaders `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q302_extract"
 ```
 
 **2. Dump (her asset için):**
