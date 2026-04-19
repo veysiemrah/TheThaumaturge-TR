@@ -5,7 +5,7 @@ AFC008184D57F584E76BCC9F14C621F5,CinematicNode_Choice_2,Wysłuchaj notariusza w 
 0C8500C24A5C7140244A9B86B1E92C28,CinematicNode_Choice_3,Czekaj na koniec ceremonii.,Törenin bitmesini bekle.,
 82217A9D4EF1403CD5A3239FD98ED80B,CinematicNode_Choice_3,"Zapytaj, czy matka coś dostanie.",Annene bir şey kaldı mı diye sor.,
 07E3ABE8403FB7D3CEF80880097CD447,CinematicNode_Response_13,"Ostatnia wola pana Szulskiego została sporządzona już kilka lat temu, w obecności notariusza Zacława Fiedorowa, czyli mojej.","Pan Szulski'nin son vasiyeti yıllar önce noter Zacław Fiedorow'un — yani benim — huzurumda tanzim edildi.",Noter resmi dil
-9E7DA61145469D80F47F4A801764332F,CinematicNode_Response_13,"""Ostateczna wola moja, roku pańskiego tysięcznego osiemsetnego osiemdziesiątego ósmego spisana.""","""Son vasiyetim, rabbimizin bin sekiz yüz seksen sekizinci yılında kaleme alınmıştır.""",Vasiyet metni — dönem tınısı
+9E7DA61145469D80F47F4A801764332F,CinematicNode_Response_13,"""Ostateczna wola moja, roku pańskiego tysięcznego osiemsetnego osiemdziesiątego ósmego spisana.""","""Son vasiyetim, Rabbimizin bin sekiz yüz seksen sekizinci yılında kaleme alınmıştır.""",Vasiyet metni — dönem tınısı
 85D52E584697F84F2D179DB538D7E992,CinematicNode_Response_13,"""W Imię Świętej Trójcy. Amen!""","""Kutsal Teslis Adına. Amin!""",
 6983C9DA49DD70D1AD79FBA5DD4C9652,CinematicNode_Response_14,"Przepraszam, ale moglibyśmy przejść do konkretów?","Bağışlayın, ama sadede gelebilir miyiz?",
 3A0F241246D3F8333EA757BB3CDA12F5,CinematicNode_Response_14,Wiktor.,Wiktor.,
