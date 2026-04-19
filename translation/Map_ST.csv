@@ -111,7 +111,7 @@ SMC_Editorial,"Redakcja ""Kurjera Warszawskiego""","""Varşova Kuryesi"" Redaksi
 SMC_Exterior,Śródmieście Południowe,Güney Śródmieście,Varşova semt adı yön sıfatı çevrildi
 SMC_Foyer,Foyer,Foyer,Dönem Fransızca sözcüğü - aynen
 SMC_HotelApartment,Apartament Hotelowy,Otel Süiti,
-SMC_ImperialHotel,Hotel Imperialny,İmperyal Oteli,"Hotel Süiti / Otel Süiti ile tutarlılık"
+SMC_ImperialHotel,Hotel Imperialny,Hotel Imperialny,"Özel isim korunur (diyalog/Codex/Readable ile tutarlılık)"
 SMC_ImperialHotel_Apartment,Apartament 213,213 No'lu Süit,
 SMC_ImperialHotel_Apartment237,Apartament 237,237 No'lu Süit,
 SMC_ImperialHotel_Balcony,Balkon,Balkon,

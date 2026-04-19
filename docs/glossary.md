@@ -178,12 +178,15 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Dworzec Wiedeński | Viyana Garı | Varşova-Viyana demiryolu garı |
 | Cytadela | Sitadel | Varşova'nın Rus hapishanesi |
 | Aleje Jerozolimskie | Aleje Jerozolimskie | Tarihî cadde; özel isim aynen |
+| Hotel Imperialny | Hotel Imperialny | Özel isim aynen (Map_ST/Achievements/diyalog/Codex/Readable tutarlı); Apartament Hotelowy → Otel Süiti |
+| Hotel Grand | Hotel Grand | Özel isim aynen |
 
 ## Karakter/Meslek/Tiplemeler (ImprintsDescription_ST + vs)
 
 | Polonya | Türkçe | Notlar |
 |---|---|---|
-| Naczelnik | Amir | Komiser/polis şefi (Konieczkin karakteri) |
+| Naczelnik | Amir | Okhrana amiri (Konieczkin karakteri) |
+| Komisarz | Komiser | Polis komiseri (Pielewin karakteri); Naczelnik'ten ayrı rütbe |
 | Generał-gubernator | General-Vali | Skałon'un unvanı |
 | Mieszczanin / Mieszczanka | Şehirli Burjuva / Şehirli Kadın | Orta sınıf kentli |
 | Duchowny | Din Adamı | |
