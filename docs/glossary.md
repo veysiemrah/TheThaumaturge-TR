@@ -45,6 +45,11 @@ Projede sabit tutulan terminoloji. Bir StringTable'da onaylanan terim, diğerler
 | Bukavac | Bukavac | Özel isim — Eylem boyutu salutoru |
 | Komitywa | Cemiyet | Devrimci grup adı |
 | Szeptucha | Bilge Kadın | Slav halk şifacısı (lafzen "fısıldayan") |
+| Berur (rytuał) | Berur (ritüel) | Kabalistik ayırma ritüeli (q201b) — aynen korunur |
+| Uniwersytet Latający | Uçan Üniversite | 1905 Varşova'da gizli kadın eğitimi (tarihsel) |
+| Bimber | bimber / kaçak alkol | Ev yapımı rakı/içki (bağlama göre) |
+| Pralnia | Çamaşırhane | (Mordechaj Chajat'ın paravan işi q201) |
+| Masarnia | Kasap dükkânı | (q201b Różyc — Ariel'in paravanı) |
 
 ## 12 Kusur İsimleri (Flaw_Name_ST) — PL / EN / TR
 
@@ -180,6 +185,11 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Aleje Jerozolimskie | Aleje Jerozolimskie | Tarihî cadde; özel isim aynen |
 | Hotel Imperialny | Hotel Imperialny | Özel isim aynen (Map_ST/Achievements/diyalog/Codex/Readable tutarlı); Apartament Hotelowy → Otel Süiti |
 | Hotel Grand | Hotel Grand | Özel isim aynen |
+| Synagoga Nożyków | Nożyk sinagogu | Varşova Mirów Yahudi mahallesi sinagogu (q201) |
+| Marszałkowska | Marszałkowska | Varşova tarihî caddesi; aynen |
+| Kierbedź (most) | Kierbedź (köprüsü) | Varşova Wisła köprüsü; aynen |
+| Ciechocinek | Ciechocinek | Polonya kaplıca kasabası; aynen |
+| Złota Kaczka | Altın Ördek | Varşova folkloru — genç adama servet karşılığı ruhunu alan ördek (q201b Ariel referans) |
 
 ## Karakter/Meslek/Tiplemeler (ImprintsDescription_ST + vs)
 
@@ -201,6 +211,12 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Cudotwórca | Mucizekâr | Rasputin lakabı; halk dili |
 | Lekarz | Hekim | Dönem tınısı; doktor yerine |
 | Rabin | rabbi | Yahudi din adamı (küçük harf ismi öncesi: ""rabbi Sofer"") |
+| Mordechaj Feldman | Mordechaj Feldman | Sofer'in ölümünden sonra Nożyk sinagogunun yeni rabbisi (q201) |
+| Mordechaj Chajat | Mordechaj Chajat | Stanisław Szulski'nin eski tezgâhtarı, Mirów'da çamaşırhane sahibi (q201) |
+| Ariel Rofe | Ariel Rofe | Kabalist-gangster tılsımkâr; bimber/kaçakçılık + Berur ritüeli (q104/q201b) |
+| Abraham Horowitz | Abraham Horowitz | Aranan eczacı (Stanisław'ın Golem cezasının nedeni, q201) |
+| Pani Jagoda | pani Jagoda | Mirów fırıncısı (Szulski çocukluğu — pączki tedarikçisi) |
+| Izaak Sofer | rabbi Sofer / Izaak Sofer | Eski Nożyk rabbisi; Stanisław'a Golem lanetini döken kabalist (q201 ref) |
 | Starosta | köy muhtarı | Slav köy reisi |
 | Brygadzista | Ustabaşı | Ekip şefi |
 | Lichwiarz | Tefeci | |

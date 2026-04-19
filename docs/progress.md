@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (q104 ana story Bölüm 1 tam — 60 asset / ~1088 satır; Readables %100 tamam)
+**Son güncelleme:** 2026-04-21 (q201 + q201b Bölüm 2 giriş + Golem katakomb ritüeli tam — 47 asset / ~2064 satır)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 208 asset | 687 asset | %30.3 | ~4898 |
+| **Diyalog (ana story + Default + Chat)** | 255 asset | 687 asset | %37.1 | ~6962 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~9753 satır** |
+| **GENEL** | — | — | — | **~11817 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 ✓ (208/687 asset, %30.3).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b ✓ (255/687 asset, %37.1).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -190,18 +190,51 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 
 Sokak NPC'leri: Swietłana meyhane dumanı, bar entliczek sayması, Abaurycy fedaisi, Javier dedikoduları, Karaş polis devriyeleri, Gordon kardeşler ring kıskançlığı, Rasputin parti selamı, Swietłana hideout, Ariel kaçakçılar, Marina chattie, aldatılmış koca, Golem sonrası kargaşa.
 
+### q201 + q201b — Bölüm 2 girişi + Golem katakomb ritüeli — 47/47 ✓ (~2064 satır)
+
+**q201 Assets — 10/10 ✓** (~1000 satır)
+
+| Asset | Satır | İçerik |
+|---|---|---|
+| 00a_ligia_talk_at_szulscy | 179 | Ligia-Wiktor ev salonunda Rasputin/Konieczkin/Golem/Swietłana sorgulaması |
+| 00b_breakfast_talk | 75 | Ligia-Wiktor kahvaltı, rüya, Konieczkin teklifi, Mirów gitme |
+| 00c_entering_the_shop_with_ligia | 31 | Dükkân girişi, mumya/kafatası tozu |
+| 00d_synagogue_setup | 63 | Sinagog Rabbi Feldman + işçi çatı tartışması (Yidişçe) |
+| 00d_wiktor_dream | 35 | Baba rüyası (Kibir Kusuru, kan laneti) |
+| 01a_ligia_talk_at_shop | 323 | Mirów dükkân kapsamlı: Chajat fotoğrafı, Skaza, Uçan Üniversite, pączki oyunu |
+| 01b_rabbi_talk_in_synagogue | 72 | Rabbi Feldman + Horowitz + Golem kabala dersi |
+| 02a_mordechaj_talk_in_office | 133 | Mordechaj Chajat yüzleşme, Horowitz/Sofer itirafı |
+| 02b_catacombs_talk | 159 | Katakomb — Chajat'ın Golem yaratma vizyonu + Rofe önerisi |
+| 02f_jewish_goons_talk | 20 | Chajat adamlarıyla sokak çatışması |
+
+**q201 Chats — 14/14 ✓** (~70 satır): Grażyna kahvaltı + Wiktor iç monologlar + dükkân/sinagog/çatı işçi replikleri + Mordechaj/Feldman katakomb mırıldanmaları.
+
+**q201b Assets — 9/9 ✓** (~900 satır)
+
+| Asset | Satır | İçerik |
+|---|---|---|
+| 01a_policemen_talk | 41 | Rus polis devriyesi, rüşvet denemesi, `<ru>` tag'ler |
+| 01b_smugglers_talk | 60 | Kaçakçı ikilisi Ariel için iş, Różyc ipucu |
+| 02c_ring_workers | 56 | Ring ""Zindan"" — ""Śródmieście'nin Oğlu"" tanınma + dövüş |
+| 03a_ariel_rofe_about_golem | 227 | Ariel Rofe kapsamlı — Berur ritüeli, Skaza pazarlığı, Ligia kararı |
+| 03b_bimber_shop_bouncer | 71 | Ogóras fedai + Ariel girişi |
+| 04a_catacombs_before_ritual | 129 | Ritüel hazırlık — Ligia getirme, ""funt ciała"" (Shakespeare) |
+| 04b_catacombs_ritual | 58 | Kaddish duası, Ariel ihaneti/anlaşma |
+| 04c_catacombs_after_ritual | 22 | Ritüel sonrası çatışma (Ariel vs Wiktor) |
+| 05a_ligia_in_bed_after_ritual | 175 | Ligia uyanış — Wiktor özür, ""Baban gibisin"" eleştirisi |
+
+**q201b Chats — 14/14 ✓** (~65 satır): Smuggler hideout, ring işçileri, Ariel flat, bazaar, spitting kids, clients, Ligia müşteri sahnesi.
+
 ### Ana story kalan
 
 | Quest | Assets | Chats | Toplam | Açıklama |
 |---|---|---|---|---|
-| q201 | 10 | 14 | 24 | Bölüm 2 başlangıç |
-| q201b | 9 | 14 | 23 | q201 varyant |
 | q202 | 14 | 7 | 21 | |
 | q203 | 16 | 4 | 20 | |
 | q301 | 18 | 18 | 36 | Bölüm 3 |
 | q302 | 15 | 12 | 27 | |
 | q401 | 7 | — | 7 | Bölüm 4 finali |
-| **Toplam** | 89 | 69 | **158** | (q104 tamamlandı) |
+| **Toplam** | 70 | 41 | **111** | (q104 + q201 + q201b tamamlandı) |
 
 ### Sq001 — Upyr vizyon sekansları — 0/39 ✗
 
@@ -305,13 +338,13 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 | Kategori | Asset | Satır | Durum |
 |---|---|---|---|
 | StringTable | 27 | ~1540 | 26 ✓, 1 kaldı (DebugText) |
-| Dialog (ana+chat) | 687 | 50K–70K | **208 ✓ (~4898 satır)** |
+| Dialog (ana+chat) | 687 | 50K–70K | **255 ✓ (~6962 satır)** |
 | Readables | 47 | 1979 (ölçüldü) | **47 ✓** |
 | Journal | 86 | 830 (ölçüldü, Codex hariç) | **86 ✓** |
 | Codex DT | 5 | 497 (ölçüldü) | **5 ✓** |
 | InsightsConclusions | 39 | ~400–600 (tahmini) | ✗ — henüz dump'lanmadı |
 | Vset | 508 | ~1500–4000 (tahmini) | ✗ — düşük öncelik |
-| **Deploy'lu toplam** | **356 asset** | **~9753 satır** | StringTable + Journal + Codex + Readables + 208 Dialog |
+| **Deploy'lu toplam** | **403 asset** | **~11817 satır** | StringTable + Journal + Codex + Readables + 255 Dialog |
 
 Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 
@@ -321,9 +354,9 @@ Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 
 **Yüksek öncelik (hikâye ve bilgi):**
 1. ~~q001~~ ✓ (42/42) / ~~q101~~ ✓ (40/40) / ~~q102~~ ✓ (27/27) / ~~q103~~ ✓ (33/33) / ~~q104~~ ✓ (60/60)
-2. ~~Journal~~ ✓ (91/91) / ~~Codex DT~~ ✓ (5/5) / ~~Readables~~ ✓ (47/47)
-3. **q201 + q201b** (47 asset) — Bölüm 2 başlangıç (sıradaki iş)
-4. **q202 + q203** (41 asset) — Bölüm 2 devamı
+2. ~~q201 + q201b~~ ✓ (47/47) — Bölüm 2 giriş + katakomb
+3. ~~Journal~~ ✓ (91/91) / ~~Codex DT~~ ✓ (5/5) / ~~Readables~~ ✓ (47/47)
+4. **q202 + q203** (41 asset) — Bölüm 2 devamı (sıradaki iş)
 5. **q301 + q302** (63 asset) — Bölüm 3
 6. **q401** (7 asset) — Bölüm 4 finali
 7. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları (dump gerekli)
@@ -389,35 +422,42 @@ Review detay: `docs/translation-review.md`
 
 ---
 
-## Bir sonraki oturum için hazırlık (2026-04-20 sonu)
+## Bir sonraki oturum için hazırlık (2026-04-21)
 
-**Bu oturumda yapılanlar (2026-04-20):** 6 commit, ~2256 satır çeviri, 92 asset.
+**Bu oturumda yapılanlar (2026-04-21):** q201 + q201b tam — 47 asset / ~2064 satır (19 Assets + 28 Chats).
 
-| Commit | Asset | Satır | İçerik |
-|---|---|---|---|
-| `95e78a0` Readables Phase 1 | 8 | ~148 | Ortam/Tailor/PP/küçük LW |
-| `742b9b0` Readables Phase 2 | 12 | ~520 | LW bölge (bzr01/cm01/grz01/pp01/pw01/smc01-03/smg01-04) |
-| `f1fc1a1` Readables Phase 3 | 12 | ~500 | POI + POI fluff — **Readables %100 tamam** |
-| `5b67820` q104 Chats + dump | 30 (+60 dump) | ~123 | Sokak sohbetleri + full q104 dump |
-| `0719bca` q104 Assets | 30 | ~965 | Ana story — Javier/Ariel/Abaurycy/Swietłana/Konieczkin/Rasputin |
+**Yeni özel isimler / glossary katkıları:**
+- Mordechaj Feldman (Sofer'in yerine geçen rabbi) — yeni rabbi
+- Ariel Rofe — gangster-kabalist-tılsımkâr (q104'te de geçmişti, burada derinleştirildi)
+- Mordechaj Chajat — babanın eski tezgâhtarı, pralnia sahibi
+- Abraham Horowitz — aranan eczacı (ölü)
+- Pani Jagoda — fırıncı (çocukluk tanıdığı)
+- Synagoga Nożyków — Varşova sinagogu
+- Uniwersytet Latający → Uçan Üniversite (tarihsel Polonya gizli kadın eğitimi)
+- Bazar Różyckiego kısaltması Różyc
+- Berur ritüeli — kabalist ayırma ritüeli (aynen)
+- `<yd>emet</>`/`<yd>met</>`/`<yd>L'Chaim</>` Yidişçe kelimeler korundu
+- `<yd>kapcan</>`/`<yd>szmondak</>`/`<yd>mecyje</>`/`<yd>puryc</>`/`<yd>geszeft</>` Yidiş argo
+- Kaddish duası başı `<yd>Yit-ga-dal v'-yit-ka-dash sh-'meih ra-ba...</>` aynen
+- ""funt ciała"" — Shakespeare Venedik Taciri Shylock göndermesi → ""bir libre et"" TR
+- ""Satanisław"" klątwa (Satan + Stanisław kelime oyunu — q102 Abaurycy parody'si)
+- Altın Ördek (Złota Kaczka) — Varşova efsanesi
+- Ochrana, Kierbedź, Marszałkowska (Varşova topografya)
+- Ogóras (Salatalık) — fedai lakabı (frengi referansı)
 
-Son deploy: **2026-04-20 19:01** (`pakchunk99-WinGDK_P.*`).
+Son deploy: **2026-04-21 22:50** (`pakchunk99-WinGDK_P.*`).
 
-### Sıradaki iş: q201 + q201b (Bölüm 2 başlangıç, 47 asset)
+### Sıradaki iş: q202 + q203 (Bölüm 2 devamı, 41 asset)
 
-Bölüm 2 giriş: Ligia dükkân sahnesi + Sinagog + Mordechaj Feldman + katakomb ritüeli + Ariel-Ligia bağlantısı. q201 ve q201b büyük olasılıkla seçim varyantları (ana/alt patika).
+q202 + q203 Bölüm 2 devamı: büyük olasılıkla Ariel ihanetinin takibi, bir başka büyü/ritüel zinciri, Swietłana akıbeti veya yeni salutor.
 
 **1. Extract + JSON:**
 ```powershell
-# Tüm q201 + q201b asset'lerini extract et:
-.\tools\retoc\retoc.exe to-legacy --filter q201 --no-shaders `
-    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q201_extract"
-
-# Top-level Dialogues uassets listesi (q201 + q201b):
-# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201\Assets\*.uasset   (10)
-# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201\Chats\*.uasset    (14)
-# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201b\Assets\*.uasset  (9)
-# build\q201_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\q201b\Chats\*.uasset   (14)
+# Tüm q202 + q203 asset'lerini extract et:
+.\tools\retoc\retoc.exe to-legacy --filter q202 --no-shaders `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q202_extract"
+.\tools\retoc\retoc.exe to-legacy --filter q203 --no-shaders `
+    "C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks" "build\q203_extract"
 ```
 
 **2. Dump (her asset için):**
