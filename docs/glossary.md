@@ -44,6 +44,9 @@ Projede sabit tutulan terminoloji. Bir StringTable'da onaylanan terim, diğerler
 | Upyr | Upyr | Özel isim — Wiktor'un Salutoru |
 | Bukavac | Bukavac | Özel isim — Eylem boyutu salutoru |
 | Komitywa | Cemiyet | Devrimci grup adı |
+| Ośrodki przystosowawcze | Uyum merkezleri | Skałon'un dekretlerindeki örtbas terim — tılsımkâr lobotomi kampları (q301 03b/03c/03i/04a) |
+| Rzeźnik Warszawy | Varşova Kasabı | Skałon lakabı (q301) |
+| Rada Miasta | Şehir Meclisi | Varşova belediye meclisi (q301) |
 | Szeptucha | Bilge Kadın | Slav halk şifacısı (lafzen "fısıldayan") |
 | Berur (rytuał) | Berur (ritüel) | Kabalistik ayırma ritüeli (q201b) — aynen korunur |
 | Uniwersytet Latający | Uçan Üniversite | 1905 Varşova'da gizli kadın eğitimi (tarihsel) |
@@ -231,6 +234,18 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Aleksy Romanow | Aleksy Romanow | Çareviç (II. Nikolay oğlu, hemofili — tarihsel) |
 | Aleksandra (caryca) | Çariçe Aleksandra | Rasputin'in saray destekçisi (II. Nikolay'ın eşi) |
 | Pankracy | Pankracy | Berk Rotblitz'in pastanesindeki kedi (q202) |
+| Mikołaj II Romanow | II. Mikolay Romanov | Çar (q301 balo audience) |
+| Hrabina Lermontowa | Kontes Lermontowa | Romanovlara akraba düşkün aristokrat; thaumaturg mülklerine el koyma planı (q301 balo) |
+| Siergiej Skałon (Gieorgijewicz) | Siergiej Skałon | Skałon'un oğlu, Şehir Meclisi üyesi, Zofia ile nişanlı (q301) |
+| Zofia Gieorgijewna Skałon / Zosia | Zofia Skałon / Zosia | Skałon'un kızı, Entrikacılık Kusuru (q301; q201 öncesi flört geçmişi) |
+| Siergiej Aleksandrowicz Niekrasow | Siergiej Aleksandrowicz Niekrasow | Çar'ın ılımlı genç danışmanı (q301 referans) |
+| Wanda Jerzykowicz | Wanda Jerzykowicz | Wanda'nın tam adı (q301 balo akta) |
+| Iwan Konieczkin | Iwan Konieczkin | Konieczkin'in tam adı (Ochrana naczelniği — q301 referans) |
+| Gieorgij Skałon | Gieorgij Skałon | Skałon'un tam adı (Generał-gubernator) |
+| Grigorij Jefimowicz Rasputin | Grigorij Jefimowicz Rasputin | Rasputin'in tam adı (q301 Çar yüzleşmesi) |
+| Pączek | Çörek | Hrabina Lermontowa'nın köpeği — sevimli ad çevrildi (q301 03d) |
+| Tadzik / Tadzio / Tadziulek | Tadzik / Tadzio'm / Tadziulek | Tadeusz sevimli formları (q301 01c Józefowa'nın oğlu) |
+| Józefowa | Józefowa | Mirów ayaklanma sokağında, oğlu öldürülmüş yaşlı kadın (q301 01c) |
 | Starosta | köy muhtarı | Slav köy reisi |
 | Brygadzista | Ustabaşı | Ekip şefi |
 | Lichwiarz | Tefeci | |
@@ -280,6 +295,74 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Nagrania gramofonowe | Gramofon Plakları |
 | Zdjęcia stereoskopowe | Stereoskopik Fotoğraflar |
 | Magazyny modowe | Moda Dergileri |
+
+## Argo + Yabancı Dil Etiketleri (`<dl>`, `<yd>`, `<ru>`, `<i>`)
+
+Tag yapısı korunur (`<dl>...</>`, `<yd>...</>`, `<ru>...</>`, `<i>...</>`). İçerik bağlama göre çevrilir veya orijinal dilde tutulur.
+
+### Lehçe argo (`<dl>...</>`)
+
+| PL | TR | Bağlam |
+|---|---|---|
+| `<dl>juha</>` | `<dl>kan</>` | "kanlar akacak" tehdidi (q301 01a) |
+| `<dl>makówka</>` | `<dl>kelle</>` | "kafa" argosu — mecazen "canın gitsin"; kararname/cemiyet konuları (q301 00a / 02 / 03b) |
+| `<dl>zblatowany</>` | `<dl>kafadar</>` | "ahbap olmuş" — linç güruhu Wiktor + Rofe için (q301 01a) |
+| `<dl>kapuś</>` | `<dl>muhbir</>` | "ispiyoncu" (Wanda — devrimci tarafından, q301 03f) |
+| `<dl>szopenfeldziarz</>` | `<dl>yankesici</>` | Lehçe argo, "el çabukluğu uzmanı" (Wanda intikam, q301 03f) |
+| `<dl>szmoki</>` (çoğul) | `<dl>szmoklar</>` | "ezikler/iticiler" — Rofe linç güruhu için (q301 01b; q104'te tekil "szmok" = aptal) |
+| `<dl>Różyca</>` | `<dl>Różyca</>` | Bazar Różyckiego'nun argo/kısa adı (q301 00a / 01b) |
+
+### Yidişçe (`<yd>...</>`)
+
+| YD | TR | Bağlam |
+|---|---|---|
+| `<yd>puryc</>` (vocative `purycu`) | `<yd>puryc</>` | "patron/efendi" — Ariel Rofe'nin Wiktor'a hitabı (q104 / q201b / q301 03b / 04a) |
+| `<yd>szmok</>` (vocative `szmoku`) | `<yd>szmok</>` | "aptal" (q104 04a Rofe → Javier) |
+| `<yd>L'chaim</>` | `<yd>L'chaim</>` | "Hayata!" — kadeh kaldırma (q301 02 Rofe) |
+| `<yd>Lyubtshenyu, dushunyu...</>` ve diğer şarkı/monolog satırları | aynen korunur | Yidiş halk şarkısı / Samira monoloğu (q301 02) |
+
+### Rusça (`<ru>...</>`)
+
+| RU | TR | Bağlam |
+|---|---|---|
+| `<ru>parnishka</>` | `<ru>parnishka</>` | "delikanlı/genç" — Skałon askere (q301 03a) |
+| `<ru>blya'</>` | `<ru>blya'</>` | "lanet/küfür" (kısa hâl) (q301 03e Skałon) |
+| `<ru>soldaty</>` | `<ru>soldaty</>` | "askerler" (q301 03j) |
+| `<ru>taumaturgi</>` | `<ru>taumaturgi</>` | "tılsımkârlar" (Çar tarafından kullanılır, q301 04a) |
+| `<ru>Ruki vverkh</>` | `<ru>Ruki vverkh</>` | "Eller yukarı!" (q301 03g muhafız) |
+| `<ru>Shto s vami?</>` | `<ru>Shto s vami?</>` | "Size ne oluyor?" (q301 04b Çariçe Rasputin'e) |
+| `<ru>No ved' on spas nashevo syna.</>` | `<ru>No ved' on spas nashevo syna.</>` | "Ama o oğlumu kurtardı." (q301 04b Çariçe) |
+| `<ru>Batyushka</>`, `<ru>Slava Rossii</>`, `<ru>bes</>`, `<ru>Dovol'no</>`, `<ru>Geroy</>` | aynen | q202 / q203 (Rasputin Ortodoks bağlamı) |
+| `<ru>Blyat</>` | `<ru>Blyat</>` | Tam küfür hâli (q301 03a) |
+
+### Arapça / Müslüman selamı (`<i>...</>`)
+
+| Kaynak | TR | Bağlam |
+|---|---|---|
+| `<i>Salam alejkum</>` | `<i>Selamün aleyküm</>` | Fałdżej / Samira / Rasputin Müslüman selamı (q301 00a / q301 04b) |
+| `<i>As-salam alejkum</>` | `<i>Esselamun aleyküm</>` | Tam Arapça form (Rasputin → Fałdżej, q301 04b) |
+| `<ar>...</>` Arapça satırları | aynen korunur | Fałdżej dua/zikir (q202) |
+| Âmentü duası (Türkçe-Müslüman formül) | aynen | Fałdżej Michał için (q202_07) |
+
+### Latince (`<la>...</>`)
+
+| LA | TR | Bağlam |
+|---|---|---|
+| `<la>Vanitas vanitatum et omnia vanitas</>` | aynen | Vaiz 1:2 (q202) |
+| `<la>Princeps militiae Caelestis...</>` | aynen | Başmelek Mikail egzorsizm (q202) |
+
+### Edebî / kalıp ifadeler
+
+| Kaynak | TR | Bağlam |
+|---|---|---|
+| `<i>Co nam obca moc wydarła, szablą odbijemy.</>` | `<i>Yabancı gücün elimizden aldığını, kılıçla geri alacağız.</>` | Polonya milli marşı "Mazurek Dąbrowskiego" mısrası — Wiktor'un pakt yemini (q301 02) |
+| `<i>Kto od miecza wojuje, ten od miecza ginie.</>` | `<i>Kılıç çeken kılıçla helak olur.</>` | Matta 26:52 (q301 01b Rofe) |
+| "Kainie" (Rasputin Wiktor'a) | "Kabil" | İncil Habil-Kabil göndermesi, kardeş katili (q301 04b) |
+| "czwarty do brydża" | "briç için bir dördüncü" | Deyim — gruba dördüncü oyuncu (q301 00a Fałdżej) |
+| "<i>klub książki</>" | "<i>kitap kulübü</>" | Rofe paktı küçümseyen mizah (q301 02) |
+| "<i>złoty ogonek</>" | "<i>altın kuyruk</>" | Ariel'in argo işareti — onu tanımak (q301 02) |
+| "<i>melinia</>" / "<i>na melinie</>" | "<i>inde</>" / "<i>inimde</>" | Yidiş-Lehçe argo "yer altı sığınağı" (q301 01b Rofe) |
+| `<i>Głos Boży każe nam stanąć...</>` | `<i>Tanrı'nın sesi bize... mutlak iktidarın gücüne ve hakikatine inançla...</>` | II. Mikolay 1895 konuşması alıntısı (q301 04b Çar) |
 
 ## Kurallar
 
