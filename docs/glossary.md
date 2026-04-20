@@ -246,6 +246,18 @@ Her Kusur bir karakterin psikolojik damgası, bir Boyut'a bağlı. PL kaynak + r
 | Pączek | Çörek | Hrabina Lermontowa'nın köpeği — sevimli ad çevrildi (q301 03d) |
 | Tadzik / Tadzio / Tadziulek | Tadzik / Tadzio'm / Tadziulek | Tadeusz sevimli formları (q301 01c Józefowa'nın oğlu) |
 | Józefowa | Józefowa | Mirów ayaklanma sokağında, oğlu öldürülmüş yaşlı kadın (q301 01c) |
+| Maria (Marysia) | Maria (Marysia) | Rasputin'in hamile sevgilisi (q302; q202'de tanışıldı) |
+| Magdalena | Magdalena | Rasputin'in vaiz akoliti (q302; q202'de tanışıldı) |
+| Jeratel (Anioł Przeznaczenia) | Jeratel (Yazgı Meleği) | Lazarew'in kendine taktığı isim (q302 03b) |
+| Strielcow / Strieclow | Strielcow | Lazarew'in askeri (q302 00a) |
+| Niedzic | Niedzic | Konieczkin'in adamı, q302 02d'de Konieczkin'i vurur (Maurycy ile birlikte) |
+| Jadzia (ciocia) | Jadzia teyze | Powiśle genelevinin sahibi (q302 03b — patlamada öldü) |
+| Sasza (wujek) | Sasza Amca | Wiktor + Ligia'nın amcası (q302 02b/02e) |
+| Pietia | Pietia | Wiktor + Ligia ailesinden (q302 02e — Sasza Amca yanında) |
+| Nadia | Nadia | Wiktor anneminin tanıdığı (q302 02e — Paris'te yaşıyor) |
+| Iwan (Konieczkin) | Iwan | Konieczkin'in adı; q302 02e'de mizahi referans ("bahçedeki Iwan") |
+| Grażyna / Grażynka | Grażyna / Grażynka | Wiktor evinin yardımcısı/yakını (q302 02b) |
+| Baalberith | Baalberith | Demonik isim — Wiktor'un baba rüyasında çağrılır (q302 01c) |
 | Starosta | köy muhtarı | Slav köy reisi |
 | Brygadzista | Ustabaşı | Ekip şefi |
 | Lichwiarz | Tefeci | |
@@ -363,6 +375,20 @@ Tag yapısı korunur (`<dl>...</>`, `<yd>...</>`, `<ru>...</>`, `<i>...</>`). İ
 | "<i>złoty ogonek</>" | "<i>altın kuyruk</>" | Ariel'in argo işareti — onu tanımak (q301 02) |
 | "<i>melinia</>" / "<i>na melinie</>" | "<i>inde</>" / "<i>inimde</>" | Yidiş-Lehçe argo "yer altı sığınağı" (q301 01b Rofe) |
 | `<i>Głos Boży każe nam stanąć...</>` | `<i>Tanrı'nın sesi bize... mutlak iktidarın gücüne ve hakikatine inançla...</>` | II. Mikolay 1895 konuşması alıntısı (q301 04b Çar) |
+| `<i>Tak bardzo pragnąłem spożyć z wami tę kolację paschalną...</>` | `<i>Acı çekmeden önce sizinle bu Fısıh yemeğini yemeyi öyle çok arzu ettim ki...</>` | Luka 22:15 — İsa Son Akşam Yemeği (q302 01a Rasputin) |
+| `<i>Już teraz, zanim to się stanie, mówię ci, abyś, gdy się stanie, uwierzył, że ja jestem</>.` | `<i>Bu olmadan önce, sana şimdiden söylüyorum ki olduğu zaman benim O olduğuma inanasın</>.` | Yuhanna 13:19 (q302 01a Rasputin) |
+| `<i>Oto szatan domagał się, żeby was przesiać jak pszenicę...</>` | `<i>İşte şeytan, sizi buğday gibi elemek için izin istedi...</>` | Luka 22:31-32 (q302 02a Wiktor uyanışı) |
+| `<i>Ty jesteś Piotr, czyli Skała...</>` | `<i>Sen Petrus'sun, yani Kayasın...</>` | Matta 16:18 (q302 02a Wiktor uyanışı) |
+| `<i>Spotkajmy się w raju. Ogród, przy fontannie.</>` | `<i>Cennette buluşalım. Bahçede, çeşmenin yanında.</>` | Rasputin notu (q302 02a) |
+| `<i>Wszystko jest możliwe dla tego, kto wierzy!</>` | `<i>İnanan için her şey mümkündür!</>` | Markos 9:23 (q302 03d Magdalena) |
+| `<i>Oto bowiem odtąd błogosławić mnie będą wszystkie pokolenia...</>` | `<i>İşte, bundan böyle bütün kuşaklar beni mübarek sayacak...</>` | Luka 1:48-49 — Meryem'in ilahisi (q302 03c Maria) |
+| `<i>Jeszcze bowiem nie rozumieli Pisma, że miał zmartwychwstać</>.` | `<i>Çünkü hâlâ Yazıyı, dirilmesi gerektiğini anlamamışlardı</>.` | Yuhanna 20:9 (q302 03b Lazarew) |
+| `<i>Pokorni w duchu</>` | `<i>Ruhta alçakgönüllüler</>` | Matta 5:3 alıntısı (q302 03e) |
+| `<i>Powód do śmiechu dał mi Bóg</>` | `<i>Tanrı bana gülecek bir sebep verdi</>` | Yaratılış 21:6 — Sara, İshak'ın doğumunda (q302 03b Lazarew, alaylı) |
+| Nie lękajcie się. Jestem z wami. Przez wszystkie dni, aż do końca świata. | Korkmayın. Sizinleyim. Bütün günler, dünyanın sonuna dek. | Matta 28:20 (q302 03e Rasputin) |
+| "Wyklęty, powstań, ludu ziemi!" | "Kalk artık uyanma vakti, lanetlenmiş cihan!" | Polonyaca Enternasyonal marş alıntısı (q302 03a garson) |
+| "Sztymunek!" | "Şek Şük!" | Glossary Achievement bölümünde zaten var; q301 03c + q302 02d Mojki argosu olarak yeniden geçer |
+| "<dl>juha</>" / "<dl>kelle</>" / "<dl>kafadar</>" / "<dl>muhbir</>" / "<dl>yankesici</>" / "<dl>szmoklar</>" / "<dl>tabanca</>" / "<dl>borç</>" / "<dl>ötmüş</>" / "<dl>kayboluyoruz</>" / "<dl>fıstık gibi</>" / "<dl>faytoncu</>" / "<dl>fahişe</>" | aynen | Lehçe argo `<dl>` tag birikim listesi (q301 + q302) |
 
 ## Kurallar
 

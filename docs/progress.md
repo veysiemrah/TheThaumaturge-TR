@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (q301 Bölüm 3 — pakt kuruluşu + Skałon balosu + Çar audience — 36 asset / ~2050 satır)
+**Son güncelleme:** 2026-04-20 (q302 Bölüm 3 finali / Bölüm 4 girişi — Rasputin son akşam yemeği + Konieczkin ölümü + Çar konuşması — 27 asset / ~2000 satır)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 332 asset | 687 asset | %48.3 | ~10886 |
+| **Diyalog (ana story + Default + Chat)** | 359 asset | 687 asset | %52.3 | ~12886 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~15741 satır** |
+| **GENEL** | — | — | — | **~17741 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 ✓ (332/687 asset, %48.3).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 ✓ (359/687 asset, %52.3).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -432,7 +432,9 @@ Review detay: `docs/translation-review.md`
 
 ## Bir sonraki oturum için hazırlık (2026-04-20)
 
-**Bu oturumda yapılanlar (2026-04-20 ek):** q301 tam — 36 asset / ~2050 satır (18 Assets + 18 Chats). Bölüm 3: pakt kuruluşu (Wiktor + Fałdżej + Samira/Sara + Ariel) + ayaklanma sokakları (Mordechaj Chajat linç güruhu + Rofe yarası + Józefowa) + Skałon balosu (Hrabina Lermontowa, Siergiej + Zofia, Wanda intikam, Skałon Kusur sökme) + Çar Mikolay II audience (uyum merkezleri pazarlığı, Rasputin yüzleşmesi). Son deploy: **2026-04-20 03:33**.
+**Bu oturumda yapılanlar (2026-04-20 ek):** q302 tam — 27 asset / ~2000 satır (15 Assets + 12 Chats). Bölüm 3 finali / Bölüm 4 girişi: Lazarew daveti + Rasputin son akşam yemeği (Powiśle genelev) + Wiktor baba rüyası (Stanisław vicdan duruşması, Baalberith) + ailecek konuşma (Ligia + Grażynka + amca + babanın muskelesi) + Konieczkin ölümü (Maurycy/Abaurycy onu vuruyor, Niedzic suç ortağı) + son karar (Rasputin vs Cemiyet vs Paris kaçışı) + Çar konuşması bloğu (Lazarew, Maria hamile, Magdalena vaiz; Çar audience, Rasputin yüzleşme). Son deploy: **2026-04-20 04:55**.
+
+**Önceki tur (2026-04-20):** q301 tam — 36 asset / ~2050 satır.
 
 **Önceki tur (2026-04-20):** q202 + q203 tam — 41 asset / ~1874 satır (30 Assets + 11 Chats).
 
@@ -461,11 +463,15 @@ Review detay: `docs/translation-review.md`
 - "Pycha kroczy przed upadkiem" → ""Gurur düşüşün habercisidir"" (atasözü)
 - "Niewierny Tomasz" → ""Şüpheci Tomas"" (Aziz Tomas)
 
-Son deploy: **2026-04-20 03:33** (`pakchunk99-WinGDK_P.*`) — q301 dahil.
+Son deploy: **2026-04-20 04:55** (`pakchunk99-WinGDK_P.*`) — q302 dahil.
 
-### Sıradaki iş: q302 (Bölüm 3 finali / Bölüm 4 girişi, 27 asset / ~1620 dialog satırı)
+### Sıradaki iş: q401 + sq001 + InsightsConclusions
 
-q301 ✓ tamam (36 asset). q302 dump hazır, translation CSV'leri yazılacak. Sonra `tmp_q301_apply.ps1` şablonundan `tmp_q302_apply.ps1` türet → apply + fromjson + pak + deploy.
+q301 + q302 ✓ tamam (63 asset / ~4050 satır toplam). Sırada:
+1. **q401** (~7 asset) — Bölüm 4 finali (extract + dump gerekli)
+2. **sq001** (~39 asset) — Upyr vizyonları (extract + dump gerekli)
+3. **InsightsConclusions** (~39 asset) — İz/Çıkarım açıklamaları (henüz dump'lanmadı)
+4. **lw_*** yan görev diyalogları (~197 asset, düşük öncelik)
 
 #### q301 ✓ (TAMAM, 18 Asset + 18 Chat / ~2050 satır) — referans
 
