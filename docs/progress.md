@@ -465,13 +465,39 @@ Review detay: `docs/translation-review.md`
 
 Son deploy: **2026-04-20 04:55** (`pakchunk99-WinGDK_P.*`) — q302 dahil.
 
-### Sıradaki iş: q401 + sq001 + InsightsConclusions
+### Sıradaki iş: q401 + sq001 (extract + dump TAMAM, çeviriye hazır)
 
-q301 + q302 ✓ tamam (63 asset / ~4050 satır toplam). Sırada:
-1. **q401** (~7 asset) — Bölüm 4 finali (extract + dump gerekli)
-2. **sq001** (~39 asset) — Upyr vizyonları (extract + dump gerekli)
-3. **InsightsConclusions** (~39 asset) — İz/Çıkarım açıklamaları (henüz dump'lanmadı)
-4. **lw_*** yan görev diyalogları (~197 asset, düşük öncelik)
+q301 + q302 ✓ tamam (63 asset / ~4050 satır toplam). Bu commit'te q401 + sq001 bootstrap hazırlandı:
+
+**q401 (7 Asset / ~313 entry, Chat YOK)** — Bölüm 4 finali (Paris epilog + alternatif sonlar):
+- `q401_01_paris` (21 entry) — Paris'e varış
+- `q401_02a_abaurycy` (73 entry) — Maurycy/Abaurycy ile karşılaşma
+- `q401_03a_rasputin` (38 entry) — Rasputin sonu (Çar yolu sonu)
+- `q401_03b_tsar` (17 entry) — Çar epilog
+- `q401_04a_committee_pps` (42 entry) — Cemiyet + PPS sonu
+- `q401_04b_alone` (16 entry) — Yalnız son
+- `q401_05_committee` (99 entry) — Cemiyet kapanış sahnesi
+
+**sq001 (7 Asset / ~58 entry, Chat YOK)** — Upyr vizyonları:
+- `sq001_00_upyr` (7 entry) — Upyr ana karşılaşma
+- `sq001_01_vision` … `sq001_06_vision` (6 vizyon, 7-11 entry her biri) — Wiktor'un babasının/geçmişinin vizyonları
+
+Toplam yeni hazır: **14 Asset / ~371 entry / ~600-700 satır TR çeviri beklenir.**
+
+PL dump'lar `source/pl/q401_*.csv` + `source/pl/sq001_*.csv` altında. JSON `build/q401_json/` + `build/sq001_json/` altında. Çeviri:
+1. `translation/q401_*.csv` + `translation/sq001_*.csv` yaz (Hash,NodeName,PL,TR,Notes)
+2. `tmp_q302_apply.ps1`'i kopyala → `tmp_q401sq001_apply.ps1`; quest listesini güncelle
+3. `pwsh scripts\tmp_q401sq001_apply.ps1` → apply + fromjson + staging
+4. `retoc to-zen` → pakchunk99-WinGDK_P.* üret
+5. Oyun Paks/ dizinine kopyala (oyun kapalı)
+
+### Çeviri kapsamı dışında kalan asset aileleri
+
+- **InsightsConclusions** (39 IC_*.uasset) — **çevrilebilir metin İÇERMEZ**. Salt mantık asset'leri (tag/koşul referansları). Asıl metin zaten çevrilmiş `ImprintsDescription_ST` içinde. **Kategori kapsam-dışı işaretlendi.**
+- **lw_*** yan görev diyalogları (~197 asset) — düşük öncelik, dünyanın canlılığı için
+- **Vset** (~508 ortam NPC mırıltıları) — düşük öncelik
+- **GenericEncounters, LivingWorld, Global_chats** (~85, düşük öncelik)
+- **DebugText_ST** — oyuncu görmez, opsiyonel
 
 #### q301 ✓ (TAMAM, 18 Asset + 18 Chat / ~2050 satır) — referans
 
