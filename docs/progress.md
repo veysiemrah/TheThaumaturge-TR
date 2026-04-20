@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (q302 Bölüm 3 finali / Bölüm 4 girişi — Rasputin son akşam yemeği + Konieczkin ölümü + Çar konuşması — 27 asset / ~2000 satır)
+**Son güncelleme:** 2026-04-20 (q401 + sq001 vizyonları + 10 lw_* yan görev (lw_smg04 en büyüğü dahil) — Bölüm 4 finali + Upyr vizyonları + tüm dump'ı çevrilebilir lw_* quest — 14 ana + 71 lw = 85 asset / ~1160 entry)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 359 asset | 687 asset | %52.3 | ~12886 |
+| **Diyalog (ana story + Default + Chat)** | 444 asset | 687 asset | %64.6 | ~14058 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~17741 satır** |
+| **GENEL** | — | — | — | **~18913 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 ✓ (359/687 asset, %52.3).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 10/12 quest ✓ + lw_smg04 (en büyüğü) ✓ (444/687 asset, %64.6). Kalan lw: lw_grz01 + lw_smg02 (dump boş — inceleme gerek).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -241,31 +241,41 @@ Sokak NPC'leri: Swietłana meyhane dumanı, bar entliczek sayması, Abaurycy fed
 |---|---|---|---|---|
 | q301 | 18 | 18 | 36 | Bölüm 3 |
 | q302 | 15 | 12 | 27 | |
-| q401 | 7 | — | 7 | Bölüm 4 finali |
-| **Toplam** | 40 | 30 | **70** | (q104 + q201 + q201b + q202 + q203 tamamlandı) |
+| q401 | 7 | — | 7 | Bölüm 4 finali ✓ |
+| **Toplam** | 47 | 30 | **77** | (q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 tamamlandı) |
 
-### Sq001 — Upyr vizyon sekansları — 0/39 ✗
+### Sq001 — Upyr vizyon sekansları — 7/39 (ana story vizyonları ✓)
 
 Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye gömülü; q001 ile paralel ilerleyen.
 
-### Yan görevler (Living World) — 0/197 ✗
+**Çevrilen — 7/39 ✓** (~65 entry):
+- `sq001_00_upyr` — Wiktor + Upyr, Powiśle rehinci önü hazırlık sahnesi
+- `sq001_01_vision` → `sq001_06_vision` (6 vizyon) — 7. yaş günü Upyr'in ilk belirişi / 10 yaş kilise-stola olayı / Baltık gezisi (Ligia manipülasyon) / 14. yaş günü Ant bağı / Abaurycy'nin babasının dükkânı / Secemin cinayeti
 
-| Zincir | Asset | Açıklama |
-|---|---|---|
-| lw_bzr01 | 10 | Bazar Różyckiego |
-| lw_cm01 | 17 | Cemetery (mezarlık) |
-| lw_grz01 | 14 | Grażyna |
-| lw_pp01 | 9 | Powiśle Park |
-| lw_pw01 | 11 | Powiśle 1 |
-| lw_pw02 | 23 | Powiśle 2 |
-| lw_smc01 | 17 | Śródmieście 1 |
-| lw_smc02 | 12 | Śródmieście 2 |
-| lw_smc03 | 22 | Śródmieście 3 |
-| lw_smg02 | 17 | Śródmieście G 2 |
-| lw_smg03 | 9 | Śródmieście G 3 |
-| lw_smg04 | 28 | Śródmieście G 4 |
-| lw_timeSkipScenes | 8 | Zaman atlama sahneleri |
-| **Toplam** | **197** | |
+**Kalan — 32 asset ✗:** Chats (Vis1–Vis5 fluff_chat'leri) + GameplayFluffs (Vis1–Vis5 atmosferik).
+
+### Yan görevler (Living World) — 71/189 ✓ (10 quest, lw_smg04 dahil)
+
+| Zincir | Asset | Çevrilebilir | Durum | Açıklama |
+|---|---|---|---|---|
+| lw_bzr01 | 10 | 2 Chat | ✓ | Bazar Różyckiego — Abaurycy deposu + kavga |
+| lw_cm01 | 17 | 6 Chat | ✓ | Powązki çevresi — WTA demagog + anti-vampir satıcı + park fıkra |
+| lw_grz01 | 14 | 0 | ✗ | Grażyna — dump boş (metin yok sanıldı, kontrol gerek) |
+| lw_pp01 | 9 | 2 Chat | ✓ | Powiśle Park — Rus karşıtı güruh |
+| lw_pw01 | 11 | 5 Chat | ✓ | Powiśle 1 — Rybak cinayetleri (ressam + polis + Pielewin) |
+| lw_pw02 | 23 | 8 Chat | ✓ | Powiśle 2 — Rybak yakalanıyor (Klara teyze) + fahişeler + çocuklar |
+| lw_smc01 | 17 | 6 Chat | ✓ | Śródmieście 1 — Szulski oğlu gazeteci + kız arkadaş + bebek çatışması |
+| lw_smc02 | 12 | 3 Chat | ✓ | Śródmieście 2 — bar + gazeteci röportajı |
+| lw_smc03 | 22 | 7 Chat | ✓ | Śródmieście 3 — gazeteci + forgery (Yargıç Woronin daktilosu) + Lechit baskın + pastacı |
+| lw_smg02 | 17 | 0 | ✗ | Śródmieście G 2 — dump boş (kontrol gerek) |
+| lw_smg03 | 9 | 4 Chat | ✓ | Śródmieście G 3 — kumarbaz küfür + Grażynka-Cecylia + telefon |
+| lw_smg04 | 28 | 28 (16 Chat + 12 Assets) | ✓ | **Śródmieście G 4** — üniversite baskını + Czesław ihaneti + Rus sokak kavgası + Polina kumarhane + Dickstein kaçış + Cecylia liderlik + Uçan Üniversite kapanış |
+| lw_timeSkipScenes | 8 | — | — | Zaman atlama (muhtemelen cutscene tetikleri) |
+| **Toplam** | **197** | **71** | — | |
+
+**Deploy'lu lw_* entry sayıları (yaklaşık):**
+- lw_pp01: 12 entry, lw_bzr01: 3, lw_smc02: 10, lw_smc01: 23, lw_smg03: 18, lw_pw01: 18, lw_pw02: 42, lw_cm01: 32, lw_smc03: 32, **lw_smg04: 596**
+- Toplam ~786 entry deploy'lu + 47 POI fluff (pre-existing) + 14 journal (pre-existing)
 
 ### Diğer — 0/85 ✗
 
@@ -365,10 +375,10 @@ Format uyumlu (dialog pipeline çalışıyor); çeviri aynı araçlarla ilerler.
 2. ~~q201 + q201b~~ ✓ (47/47) — Bölüm 2 giriş + katakomb
 3. ~~q202 + q203~~ ✓ (41/41) — Bölüm 2 devamı (Rotblitz, Fałdżej, Sitadel, Ortodoks kilise mucizesi)
 4. ~~Journal~~ ✓ (91/91) / ~~Codex DT~~ ✓ (5/5) / ~~Readables~~ ✓ (47/47)
-5. **q301 + q302** (63 asset) — Bölüm 3 (sıradaki iş)
-6. **q401** (7 asset) — Bölüm 4 finali
-7. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları (dump gerekli)
-8. **sq001** (39 asset) — Upyr vizyonları
+5. ~~q301 + q302~~ ✓ (63/63) — Bölüm 3
+6. ~~q401~~ ✓ (7/7) — Bölüm 4 finali
+7. ~~sq001 ana vizyonlar~~ ✓ (7/39) — Upyr vizyonları (Assets tamam; Chats/GameplayFluffs bekliyor)
+8. **InsightsConclusions** (39 asset) — Wiktor'un İz yorumları (dump gerekli; çevrilebilir metin içermez — kapsam dışı doğrulandı)
 
 **Düşük öncelik:**
 9. **lw_*** yan görevler (~197 diyalog) + ilgili Readable/Journal/IC
@@ -463,33 +473,115 @@ Review detay: `docs/translation-review.md`
 - "Pycha kroczy przed upadkiem" → ""Gurur düşüşün habercisidir"" (atasözü)
 - "Niewierny Tomasz" → ""Şüpheci Tomas"" (Aziz Tomas)
 
-Son deploy: **2026-04-20 04:55** (`pakchunk99-WinGDK_P.*`) — q302 dahil.
+Son deploy: **2026-04-20 ~16:19** (`pakchunk99-WinGDK_P.*`) — q401 + sq001 vizyonları + 10 lw_* quest (lw_smg04 dahil).
 
-### Sıradaki iş: q401 + sq001 (extract + dump TAMAM, çeviriye hazır)
+### Bu tur (2026-04-20): q401 + sq001 vizyonları + 10 lw_* quest ✓ TAMAMLANDI
 
-q301 + q302 ✓ tamam (63 asset / ~4050 satır toplam). Bu commit'te q401 + sq001 bootstrap hazırlandı:
+**Üçüncü tur (lw_smg04 — en büyük LW, ~16:19):** 28 asset / ~596 entry deploy'lu. Bölüm 4 Śródmieście G 4 — Uçan Üniversite baskını:
+- `00a_help_request` + `00a_asking_help_chats` — Czesław Wiktor'dan yardım ister (sahte)
+- `01a_imprisoned` + `01a_czeslaw_chats` — Hapishane hücresi, sigarayla oyalama
+- `01b_interrogation` — Ochrana sorgusu; Wiktor Czesław'ın muhbirliğini deşifre eder, çekiç/kerpeten tehdidi, grimuar bulmaca
+- `02a_janitor_entrance` + `02a_janitor_chats` + `03a_janitor_with_russians_chats` — apartman kapıcısı vs. Rus askerler
+- `03a_university_leader` — Dickstein'ı uyarma; Viyana'ya kaçma planını tartışma
+- `03b_crowd_about_soldiers_chats` + `03c_yelling_at_russians_chats` + `04a_crowd_after_shooting_chats` — Rus-karşıtı güruh, silahlı çatışma
+- `04a_young_woman` + `04b_gamblers_quarell` + `05a_polina_with_gamblers_chats` + `05b_gamblers_chats` + `06a_gamblest_after_quarell_chats` — Polina (Rus'lu Uçan Üniversite üyesi) kumarhanede, Wiesław kavgası, ağır Lehçe küfür
+- `05a_ligia_with_devotee` + `05e_ligia_alone` + `06b_young_woman_antique_shop` + `08a_ligia_with_cecylia_chats` + `08b_ligia_alone_chats` — Ligia Cecylia'yla, Konieczkin'e (gizli servis amiri) bilgi verdiği itirafı
+- `06a_resolve` — Antika dükkânda toplantı; Dickstein veda eder, Cecylia belgelerle yeni lider olur, "Jeszcze uniwersytet nie zginął"
+- `07a_dickstein_chats` + `09a_polina_antique_shop_chats` + `09b_university_members_chats` + `09c_antiquarian_chats` + `10a_player_chats` — kapanış sohbetleri
 
-**q401 (7 Asset / ~313 entry, Chat YOK)** — Bölüm 4 finali (Paris epilog + alternatif sonlar):
-- `q401_01_paris` (21 entry) — Paris'e varış
-- `q401_02a_abaurycy` (73 entry) — Maurycy/Abaurycy ile karşılaşma
-- `q401_03a_rasputin` (38 entry) — Rasputin sonu (Çar yolu sonu)
-- `q401_03b_tsar` (17 entry) — Çar epilog
-- `q401_04a_committee_pps` (42 entry) — Cemiyet + PPS sonu
-- `q401_04b_alone` (16 entry) — Yalnız son
-- `q401_05_committee` (99 entry) — Cemiyet kapanış sahnesi
+**lw_smg04 yeni terim/argo:**
+- `<dl>komedianci</>` → <dl>komedyanlar</> (sahte oyuncular)
+- `<dl>łachmyto</>` → <dl>uyuz herif</>
+- `<dl>krewna</>` → <dl>batmış</> (kumar argosu: borçlu)
+- `<dl>kulturnie</>` → <dl>kültürlüce</> (sarkastik)
+- `<dl>chojracz</>` → <dl>Kabadayılık etme</>
+- `kacapska sierota` → Rus aşağılaması (keskiden yontulmuş Rus yetimi)
+- `ćwoku zapierdziany` → mankafa cibilliyetsiz
+- `Dymaj` → koş getir (emir argo)
+- `ponyal` (Rusça) → aynen korundu
+- `manto` → bir güzel pataklar (argo dayak)
+- `strzygi` → strzyga (Slav vampir-kadın figürü, aynen korundu)
+- Hamlet / Rosencrantz / Ofelia → edebiyat göndermeleri aynen
+- "Jeszcze uniwersytet nie zginął" → Polonya marşına mizahi gönderme korundu
+- Samuel Dickstein (başkan), Cecylia Górska, Polina Gawriłow, Wiesław, Lukrecja → aynen
+- Plac Zielony → Yeşil Meydan (glossary)
 
-**sq001 (7 Asset / ~58 entry, Chat YOK)** — Upyr vizyonları:
-- `sq001_00_upyr` (7 entry) — Upyr ana karşılaşma
-- `sq001_01_vision` … `sq001_06_vision` (6 vizyon, 7-11 entry her biri) — Wiktor'un babasının/geçmişinin vizyonları
+---
 
-Toplam yeni hazır: **14 Asset / ~371 entry / ~600-700 satır TR çeviri beklenir.**
+### İkinci tur (lw_* küçük yan görevler, ~15:51): 9 quest / 43 asset / ~190 entry ✓
 
-PL dump'lar `source/pl/q401_*.csv` + `source/pl/sq001_*.csv` altında. JSON `build/q401_json/` + `build/sq001_json/` altında. Çeviri:
-1. `translation/q401_*.csv` + `translation/sq001_*.csv` yaz (Hash,NodeName,PL,TR,Notes)
-2. `tmp_q302_apply.ps1`'i kopyala → `tmp_q401sq001_apply.ps1`; quest listesini güncelle
-3. `pwsh scripts\tmp_q401sq001_apply.ps1` → apply + fromjson + staging
-4. `retoc to-zen` → pakchunk99-WinGDK_P.* üret
-5. Oyun Paks/ dizinine kopyala (oyun kapalı)
+- `lw_bzr01` (2 Chat) — Bazar Różyckiego sokak sahneleri (Abaurycy deposu, kavga)
+- `lw_cm01` (6 Chat) — Powązki mezarlığı çevresi, WTA (Antitaumaturg Cemiyeti) demagog + kutsal eşya satıcısı + park sohbeti
+- `lw_pp01` (2 Chat) — Powiśle Park, Rus karşıtı güruh + Wiktor iç ses
+- `lw_pw01` (5 Chat) — Powiśle 1, Rybak cinayetleri (ressam + polis + Pielewin + cemaat)
+- `lw_pw02` (8 Chat) — Powiśle 2, Rybak (Klara teyze) yakalanıyor, fahişeler + çocuklar + bar
+- `lw_smc01` (6 Chat) — Śródmieście 1, Szulski oğlu + gazeteci + kız arkadaş + bebek çatışması
+- `lw_smc02` (3 Chat) — Śródmieście 2, bar sahneleri + gazeteci röportajı
+- `lw_smc03` (7 Chat) — Śródmieście 3, gazeteci + forgery (Yargıç Woronin daktilosu) + girl Jacuś + Lechit baskın + pastacı
+- `lw_smg03` (4 Chat) — Śródmieście G 3, kumarbaz küfür + Grażynka-Cecylia tanışma + çığlık + telefon
+
+**Yeni argo/terim kullanımları:**
+- aligant → <dl>şıkırdım</> (glossary mevcut, uygulandı)
+- łapiduch → <dl>şarlatan</> (yeni — sahte hekim argosu)
+- ambaras → <i>dert</> (dönem argo, mesele)
+- fircyk → züppe (şık-soytarı)
+- cieć → kapıcı (küçümseyen)
+- gnat → <i>pompa</> (tabanca argo)
+- Rybak → Rybak (özel isim + "Balıkçı" wordplay korundu)
+- Wu Esz → Wu Esz (Wiktor Szulski baş harfleri, aynen)
+- WTA → WTA (Warsaw Thaumaturg Association — Antitaumaturg)
+
+---
+
+### İlk tur (2026-04-20 ~14:40): q401 + sq001 vizyonları ✓
+
+q401 tam (7 Asset / ~313 entry) + sq001 ana vizyonlar (7 Asset / ~58 entry) deploy'lu. Toplam: **14 Asset / ~371 entry**.
+
+**q401 (7 Asset, Chat YOK)** — Bölüm 4 finali (Paris epilog + alternatif sonlar):
+- `q401_01_paris` (21 entry) — Paris'e varış, anne + Jean-Pierre + Ligia ile
+- `q401_02a_abaurycy` (73 entry) — Abaurycy ile veda (Paris dalı), Kopciuszek/Cinderella şakası, Aramis/Üç Silahşor göndermesi
+- `q401_03a_rasputin` (38 entry) — Rasputin ile veda, Mançurya'ya (güçlü salutor araştırması)
+- `q401_03b_tsar` (17 entry) — Çar audience, Wiktor "Krovavyy taumaturg" (Kanlı Tılsımkâr) olarak
+- `q401_04a_committee_pps` (42 entry) — Cemiyet + PPS sonu, yeni radikaller (Lechitler)
+- `q401_04b_alone` (16 entry) — Yalnız son, Upyr vedası ("rüyanın öte yanında")
+- `q401_05_committee` (99 entry) — Cemiyet toplantısı, Skałon'un akıbeti (Tworki tımarhanesi + intihar), yeni faşistler (Lechitler + Antytaumaturgik)
+
+**sq001 vizyonlar (7 Asset, Chat YOK)** — Upyr vizyonları:
+- `sq001_00_upyr` (7 entry) — Upyr ana karşılaşma, Powiśle rehinci önü
+- `sq001_01_vision` (9 entry) — 7. yaş günü, Upyr'in ilk belirişi
+- `sq001_02_vision` (7 entry) — 10 yaş, kilise-stola olayı (Algı'nın ilk tezahürü)
+- `sq001_03_vision` (11 entry) — Baltık gezisi, Ligia manipülasyon (İkiz bağı vs. Manipülasyon sorgulama)
+- `sq001_04_vision` (7 entry) — 14. yaş günü, grimuar hediyesi, Upyr ile Ant
+- `sq001_05_vision` (7 entry) — 15 yaş, Abaurycy'nin babasının dükkânı (Wiktor kibri)
+- `sq001_06_vision` (10 entry) — Mieszko Secemin cinayeti, Kibir tetikleyici
+
+**Pipeline:** `scripts/tmp_q401sq001_apply.ps1` → apply + fromjson + staging; `retoc to-zen` → pak üretildi (12.73 MB); Paks/ kopyalandı (oyun kapalıydı).
+
+### Sıradaki iş (2026-04-20 sonrası oturum)
+
+10 lw_* quest (pp01, bzr01, cm01, pw01, pw02, smc01, smc02, smc03, smg03, smg04) deploy'lu. Ana story + sq001 ana vizyonlar + 10 LW + tüm StringTable + Journal + Codex + Readables tamam. Oyuncuya doğrudan görünen hemen her şey Türkçe.
+
+**Seçim (önceliği kullanıcı belirler):**
+
+1. **lw_grz01 + lw_smg02 inceleme** (~31 asset) — dump boş çıktı; neden araştır: ya (a) metin gerçekten yok (sadece VO/trigger), ya (b) farklı dump formatı gerek (`-AllRawExports` olmadan). Her iki klasör altındaki bir uasset örneği manuel JSON'a çevrilip Polish metin aranır.
+2. **Kapsamlı review turu** — oyunda oynayıp çevirileri görsel olarak test; özellikle lw_smg04 (ağır argo/küfür) + q401 (duygu yüklü son sahneleri).
+3. **GenericEncounters + Global_chats** (~51 asset) — bootstrap yeniden gerek (retoc extract --filter). Rastgele sokak karşılaşmaları.
+4. **LivingWorld (lw_ prefix'siz)** (30 asset) — genel LivingWorld diyalogları, aynı şekilde bootstrap.
+5. **Vset** (508 asset) — en düşük öncelik, ortam NPC mırıltıları.
+6. **DebugText_ST** — oyuncu görmez, opsiyonel.
+
+**Bootstrap komutu (lw_grz01/lw_smg02 inceleme için):**
+```powershell
+# Bir örnek uasset'i manuel JSON'a çevir + content kontrolü
+.\tools\UAssetGUI\UAssetGUI.exe tojson "build\lw_extract\TheThaumaturge\Content\GrimoireContent\Quests\Dialogues\lw_grz01\Assets\lw_grz01_01a_xxx.uasset" "build\probe.json" VER_UE5_1 Mappings
+# JSON içinde Polonyaca metin var mı bak (CultureInvariantString veya benzeri)
+```
+
+**Bootstrap komutu (GenericEncounters/Global_chats için):**
+```powershell
+.\tools\retoc\retoc.exe to-legacy --filter "GenericEncounters" --no-shaders "C:\XboxGames\...\Paks" "build\ge_extract"
+# veya --filter "Global_chats"
+```
 
 ### Çeviri kapsamı dışında kalan asset aileleri
 
