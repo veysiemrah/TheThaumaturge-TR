@@ -1,5 +1,5 @@
 # build_release.ps1
-# Dağıtım ZIP paketini üretir: 3 pak dosyası + install.bat + uninstall.bat + KURULUM.txt
+# Dağıtım ZIP paketini üretir: 3 pak dosyası + install.bat + uninstall.bat + BENİOKU.txt
 #
 # Kullanım:
 #   .\scripts\build_release.ps1 [-Version "0.9.0"]
@@ -41,63 +41,86 @@ foreach ($f in $required) {
 }
 
 # --- install.bat ---
+# Not: Yönetici yükseltmesi kendiliğinden yapılır (Program Files / XboxGames için gerekli).
+# İnternet'ten indirilen .bat dosyaları Windows tarafından engellenebilir;
+# BENİOKU.txt'de "Engeli Kaldır" adımı açıklanmaktadır.
 $installBat = @'
 @echo off
 chcp 65001 >nul
+
+:: ---------------------------------------------------------------
+:: Yönetici kontrolü — gerekiyorsa kendiliğinden yükselt
+:: ---------------------------------------------------------------
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    echo Yonetici haklari gerekiyor, onay penceresi acilacak...
+    powershell -NoProfile -Command ^
+        "Start-Process -FilePath '%~f0' -Verb RunAs"
+    exit /b
+)
+
+:: ---------------------------------------------------------------
+:: Kurulum
+:: ---------------------------------------------------------------
 echo ============================================================
-echo  The Thaumaturge — Türkçe Yama Kurulumu
+echo  The Thaumaturge - Turkce Yama Kurulumu
 echo ============================================================
 echo.
 
 set SCRIPT_DIR=%~dp0
+set FOUND=0
 
-:: --- Game Pass (Xbox GDK) yolu ---
+:: --- Game Pass (Xbox GDK) ---
 set GAMEPASS_PAKS=C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks
 if exist "%GAMEPASS_PAKS%\" (
     echo [+] Game Pass kurulumu bulundu.
-    echo     Kopyalanıyor: %GAMEPASS_PAKS%
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.pak"  "%GAMEPASS_PAKS%\" >nul
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.ucas" "%GAMEPASS_PAKS%\" >nul
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.utoc" "%GAMEPASS_PAKS%\" >nul
-    echo     Tamam!
+    echo     Kopyalaniyor...
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.pak"  "%GAMEPASS_PAKS%\" >nul 2>&1
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.ucas" "%GAMEPASS_PAKS%\" >nul 2>&1
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.utoc" "%GAMEPASS_PAKS%\" >nul 2>&1
+    echo     Tamam.
     echo.
+    set FOUND=1
 )
 
-:: --- Steam yolu (yaygın varsayılan) ---
+:: --- Steam (varsayilan yol) ---
 set STEAM_PAKS=C:\Program Files (x86)\Steam\steamapps\common\The Thaumaturge\Content\Paks
 if exist "%STEAM_PAKS%\" (
     echo [+] Steam kurulumu bulundu.
-    echo     Kopyalanıyor: %STEAM_PAKS%
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.pak"  "%STEAM_PAKS%\" >nul
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.ucas" "%STEAM_PAKS%\" >nul
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.utoc" "%STEAM_PAKS%\" >nul
-    echo     Tamam!
+    echo     Kopyalaniyor...
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.pak"  "%STEAM_PAKS%\" >nul 2>&1
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.ucas" "%STEAM_PAKS%\" >nul 2>&1
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.utoc" "%STEAM_PAKS%\" >nul 2>&1
+    echo     Tamam.
     echo.
+    set FOUND=1
 )
 
-:: --- Hiçbiri bulunamazsa el ile yol iste ---
-if not exist "%GAMEPASS_PAKS%\" if not exist "%STEAM_PAKS%\" (
-    echo [!] Oyun klasörü otomatik bulunamadı.
+:: --- Bulunamazsa el ile yol iste ---
+if %FOUND%==0 (
+    echo [!] Oyun klasoru otomatik bulunamadi.
     echo.
-    echo     Lütfen oyununuzun Paks klasörünü girin.
-    echo     Örnek: C:\SteamLibrary\steamapps\common\The Thaumaturge\Content\Paks
+    echo     Oyununuzun Paks klasorunu girin.
+    echo     Ornek: D:\Oyunlar\The Thaumaturge\Content\Paks
     echo.
-    set /p CUSTOM_PAKS=Paks klasörü:
+    set /p CUSTOM_PAKS=Paks klasoru:
     if not exist "%CUSTOM_PAKS%\" (
-        echo [HATA] Klasör bulunamadı: %CUSTOM_PAKS%
+        echo.
+        echo [HATA] Klasor bulunamadi. BENiOKU.txt dosyasina bakin.
         pause
         exit /b 1
     )
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.pak"  "%CUSTOM_PAKS%\" >nul
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.ucas" "%CUSTOM_PAKS%\" >nul
-    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.utoc" "%CUSTOM_PAKS%\" >nul
-    echo     Tamam!
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.pak"  "%CUSTOM_PAKS%\" >nul 2>&1
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.ucas" "%CUSTOM_PAKS%\" >nul 2>&1
+    copy /Y "%SCRIPT_DIR%pakchunk99-WinGDK_P.utoc" "%CUSTOM_PAKS%\" >nul 2>&1
+    echo     Tamam.
     echo.
 )
 
 echo ============================================================
-echo  Kurulum tamamlandı. Oyunu başlatın — Türkçe otomatik aktif.
-echo  Kaldırmak için uninstall.bat çalıştırın.
+echo  Kurulum tamamlandi!
+echo  Oyunu baslatabilirsiniz — Turkce otomatik aktif olur.
+echo  Kaldirmak icin uninstall.bat calistirin.
 echo ============================================================
 pause
 '@
@@ -107,60 +130,147 @@ $installBat | Set-Content (Join-Path $tmpDir "install.bat") -Encoding UTF8NoBOM
 $uninstallBat = @'
 @echo off
 chcp 65001 >nul
+
+net session >nul 2>&1
+if %errorLevel% neq 0 (
+    powershell -NoProfile -Command ^
+        "Start-Process -FilePath '%~f0' -Verb RunAs"
+    exit /b
+)
+
 echo ============================================================
-echo  The Thaumaturge — Türkçe Yama Kaldırma
+echo  The Thaumaturge - Turkce Yama Kaldirma
 echo ============================================================
 echo.
 
-set GAMEPASS_PAKS=C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks
-set STEAM_PAKS=C:\Program Files (x86)\Steam\steamapps\common\The Thaumaturge\Content\Paks
+set FOUND=0
 
-for %%P in ("%GAMEPASS_PAKS%" "%STEAM_PAKS%") do (
-    if exist "%%~P\pakchunk99-WinGDK_P.ucas" (
-        echo [+] %%~P
-        del /F /Q "%%~P\pakchunk99-WinGDK_P.pak"  2>nul
-        del /F /Q "%%~P\pakchunk99-WinGDK_P.ucas" 2>nul
-        del /F /Q "%%~P\pakchunk99-WinGDK_P.utoc" 2>nul
-        echo     Silindi.
-    )
+set GAMEPASS_PAKS=C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks
+if exist "%GAMEPASS_PAKS%\pakchunk99-WinGDK_P.ucas" (
+    echo [+] Game Pass: kaldiriliyor...
+    del /F /Q "%GAMEPASS_PAKS%\pakchunk99-WinGDK_P.pak"  2>nul
+    del /F /Q "%GAMEPASS_PAKS%\pakchunk99-WinGDK_P.ucas" 2>nul
+    del /F /Q "%GAMEPASS_PAKS%\pakchunk99-WinGDK_P.utoc" 2>nul
+    echo     Tamam.
+    set FOUND=1
+)
+
+set STEAM_PAKS=C:\Program Files (x86)\Steam\steamapps\common\The Thaumaturge\Content\Paks
+if exist "%STEAM_PAKS%\pakchunk99-WinGDK_P.ucas" (
+    echo [+] Steam: kaldiriliyor...
+    del /F /Q "%STEAM_PAKS%\pakchunk99-WinGDK_P.pak"  2>nul
+    del /F /Q "%STEAM_PAKS%\pakchunk99-WinGDK_P.ucas" 2>nul
+    del /F /Q "%STEAM_PAKS%\pakchunk99-WinGDK_P.utoc" 2>nul
+    echo     Tamam.
+    set FOUND=1
+)
+
+if %FOUND%==0 (
+    echo Yuklu yama bulunamadi.
 )
 
 echo.
-echo Yama kaldırıldı. Oyun orijinal diline döndü.
+echo Yama kaldirildi. Oyun orijinal diline dondu.
 pause
 '@
 $uninstallBat | Set-Content (Join-Path $tmpDir "uninstall.bat") -Encoding UTF8NoBOM
 
-# --- KURULUM.txt ---
-$readme = @"
-The Thaumaturge — Türkçe Yama v$Version
-=========================================
+# --- BENİOKU.txt ---
+$benioku = @"
+╔══════════════════════════════════════════════════════════════╗
+║       The Thaumaturge — Türkçe Yama  v$Version                    ║
+║       https://github.com/veysiemrah/TheThaumaturge-TR        ║
+╚══════════════════════════════════════════════════════════════╝
 
-KURULUM
--------
-1. Oyununuzu kapatın.
-2. install.bat dosyasına çift tıklayın.
-3. Oyunu başlatın — Türkçe metin otomatik aktif olur.
+Bu yama The Thaumaturge oyununu Türkçe'ye çevirir. Yaklaşık
+20.500 satır metin insan gözüyle gözden geçirilerek çevrilmiştir:
+diyaloglar, menüler, codex, journal, başarımlar ve daha fazlası.
 
-Otomatik tespit edilemeyen bir Steam kütüphanesi kullanıyorsanız
-kurulum sırasında Paks klasörünü elle girmeniz istenecektir.
-Örnek: D:\Oyunlar\The Thaumaturge\Content\Paks
+Ses değişmez (Lehçe/İngilizce seslendirme korunur).
 
-KALDIRMA
---------
-uninstall.bat dosyasına çift tıklayın.
 
-KAPSAM
-------
-~20.500 çevrilmiş satır: diyaloglar, menüler, codex, journal,
-okunabilir belgeler, başarımlar, harita isimleri, yetenekler.
-Ses (Lehçe/İngilizce seslendirme) değişmez.
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  ÖNEMLİ — WINDOWS GÜVENLİK UYARISI
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-KAYNAK KOD / HATA BİLDİRİMİ
------------------------------
-https://github.com/veysiemrah/TheThaumaturge-TR
+İnternetten indirilen .bat dosyaları Windows tarafından
+engellenebilir. Kurulumdan ÖNCE aşağıdaki adımı uygulayın:
+
+  1. install.bat dosyasına SAĞ TIKLAYIN.
+  2. "Özellikler"i seçin.
+  3. Pencerenin en altında "Engeli kaldır" kutusunu işaretleyin.
+  4. "Tamam"a tıklayın.
+
+Aynı adımı uninstall.bat için de uygulayın.
+
+(Bu uyarıyı görmüyorsanız bu adımı atlayabilirsiniz.)
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  KURULUM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  1. Oyunu kapatın.
+  2. install.bat dosyasına çift tıklayın.
+  3. "Bu uygulamanın cihazınızda değişiklik yapmasına izin
+     vermek istiyor musunuz?" sorusuna "Evet" deyin.
+  4. Kurulum tamamlanınca bir tuşa basın.
+  5. Oyunu başlatın — Türkçe otomatik olarak aktif olur.
+
+Oyun kurulumunuz standart dışı bir konumdaysa (örneğin
+D:\Oyunlar\) kurulum Paks klasörünü elle girmenizi ister.
+Bu durumda oyun klasörünü açıp Paks yolunu kopyalayın.
+
+  Örnek yollar:
+    Game Pass : C:\XboxGames\The Thaumaturge\Content\
+                TheThaumaturge\Content\Paks
+    Steam     : C:\Program Files (x86)\Steam\steamapps\
+                common\The Thaumaturge\Content\Paks
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  KALDIRMA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+  uninstall.bat dosyasına çift tıklayın.
+  Oyun otomatik olarak orijinal diline döner.
+
+  Ya da Paks klasöründen şu üç dosyayı elle silin:
+    pakchunk99-WinGDK_P.pak
+    pakchunk99-WinGDK_P.ucas
+    pakchunk99-WinGDK_P.utoc
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  SORUN GİDERME
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Kurulum sonrası metin hâlâ Lehçe/İngilizce görünüyorsa:
+
+  • Oyun kurulumdan önce kapalı mıydı? Açıkken .ucas dosyası
+    kilitlenir; kurulum başarısız olur. Kapatıp tekrar deneyin.
+
+  • Doğru Paks klasörü mü seçildi? Klasörde başka .pak
+    dosyaları olmalıdır (oyunun kendi verileri).
+
+  • Antivirüs yazılımınız dosyayı silmiş olabilir. İstisnaya
+    ekleyip tekrar kurun.
+
+Sorun çözülmezse GitHub'da konu açın:
+  https://github.com/veysiemrah/TheThaumaturge-TR/issues
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  LİSANS VE TELİF
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Çeviri metni: CC BY-SA 4.0 — kaynak göstererek paylaşabilirsiniz.
+Kurulum scriptleri: MIT.
+
+The Thaumaturge, Fool's Theory ve 11 bit studios'un ürünüdür.
+Bu yama resmi değildir; oyun dosyaları dağıtılmamaktadır.
 "@
-$readme | Set-Content (Join-Path $tmpDir "KURULUM.txt") -Encoding UTF8NoBOM
+$benioku | Set-Content (Join-Path $tmpDir "BENiOKU.txt") -Encoding UTF8NoBOM
 
 # --- ZIP oluştur ---
 if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
@@ -168,4 +278,9 @@ Compress-Archive -Path (Join-Path $tmpDir "*") -DestinationPath $zipPath
 Remove-Item $tmpDir -Recurse -Force
 
 $size = [math]::Round((Get-Item $zipPath).Length / 1MB, 1)
-Write-Host "Paket hazır: release\$zipName ($size MB)"
+Write-Host "Paket hazir: release\$zipName ($size MB)"
+Write-Host "Icerik:"
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+$zip = [System.IO.Compression.ZipFile]::OpenRead($zipPath)
+$zip.Entries | ForEach-Object { "  $($_.Name)  ($([math]::Round($_.Length/1KB)) KB)" }
+$zip.Dispose()
