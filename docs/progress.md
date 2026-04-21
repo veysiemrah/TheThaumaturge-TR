@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-20 (q401 + sq001 vizyonları + 10 lw_* yan görev (lw_smg04 en büyüğü dahil) — Bölüm 4 finali + Upyr vizyonları + tüm dump'ı çevrilebilir lw_* quest — 14 ana + 71 lw = 85 asset / ~1160 entry)
+**Son güncelleme:** 2026-04-21 (lw_grz01 — Grażyna bazar: Djinn salutor + Leila hırsız + çöl savaşçıları + pezevenk Pęseta — 14 asset / ~449 entry)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 444 asset | 687 asset | %64.6 | ~14058 |
+| **Diyalog (ana story + Default + Chat)** | 458 asset | 687 asset | %66.7 | ~14507 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~18913 satır** |
+| **GENEL** | — | — | — | **~19362 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 10/12 quest ✓ + lw_smg04 (en büyüğü) ✓ (444/687 asset, %64.6). Kalan lw: lw_grz01 + lw_smg02 (dump boş — inceleme gerek).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 11/12 quest ✓ + lw_smg04 (en büyüğü) ✓ + lw_grz01 ✓ (458/687 asset, %66.7). Kalan lw: lw_smg02 (dump boş — inceleme gerek).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -260,7 +260,7 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 |---|---|---|---|---|
 | lw_bzr01 | 10 | 2 Chat | ✓ | Bazar Różyckiego — Abaurycy deposu + kavga |
 | lw_cm01 | 17 | 6 Chat | ✓ | Powązki çevresi — WTA demagog + anti-vampir satıcı + park fıkra |
-| lw_grz01 | 14 | 0 | ✗ | Grażyna — dump boş (metin yok sanıldı, kontrol gerek) |
+| lw_grz01 | 14 | 4 Chat | ✓ | Grażyna bazar — Djinn salutor, Leila hırsız, çöl savaşçıları Ali, tüccar, pezevenk Pęseta (~449 satır) |
 | lw_pp01 | 9 | 2 Chat | ✓ | Powiśle Park — Rus karşıtı güruh |
 | lw_pw01 | 11 | 5 Chat | ✓ | Powiśle 1 — Rybak cinayetleri (ressam + polis + Pielewin) |
 | lw_pw02 | 23 | 8 Chat | ✓ | Powiśle 2 — Rybak yakalanıyor (Klara teyze) + fahişeler + çocuklar |
