@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-21 (lw_smg02 — Uçan Üniversite: Ligia + Dickstein + Czesław + ders + Polina + Cecylia + Grażyna — 17 asset / ~531 entry)
+**Son güncelleme:** 2026-04-21 (GenericEncounters — 31 asset / ~603 entry: 9 lokasyon, sokak karşılaşmaları + NPC chat mırıltıları)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 475 asset | 687 asset | %69.1 | ~15038 |
+| **Diyalog (ana story + Default + Chat)** | 506 asset | 687 asset | %73.7 | ~15641 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~19893 satır** |
+| **GENEL** | — | — | — | **~20496 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 (en büyüğü) ✓ + lw_grz01 ✓ + lw_smg02 ✓ (475/687 asset, %69.1). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + GenericEncounters 31/31 ✓ (506/687 asset, %73.7). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -60,7 +60,7 @@ Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\
 
 ---
 
-## Diyalog — 208/687 asset
+## Diyalog — 506/687 asset
 
 ### Default karakterler — 6/6 ✓
 
@@ -473,7 +473,48 @@ Review detay: `docs/translation-review.md`
 - "Pycha kroczy przed upadkiem" → ""Gurur düşüşün habercisidir"" (atasözü)
 - "Niewierny Tomasz" → ""Şüpheci Tomas"" (Aziz Tomas)
 
-Son deploy: **2026-04-20 ~16:19** (`pakchunk99-WinGDK_P.*`) — q401 + sq001 vizyonları + 10 lw_* quest (lw_smg04 dahil).
+Son deploy: **2026-04-21 ~22:00** (`pakchunk99-WinGDK_P.*`) — GenericEncounters 31 asset deploy'lu.
+
+---
+
+### GenericEncounters (2026-04-21) — 31 asset / ~603 entry ✓
+
+9 lokasyon, sokak karşılaşmaları (17 Assets + 14 Chats):
+
+| Lokasyon | Asset dosyaları | Konu |
+|---|---|---|
+| BZR 01 | genenc_bzr_01 | Dorożka/fayton kavgası, tılsımkâr karşıtı güruh |
+| BZR 02 | genenc_bzr_02 + chats | Kabuklu oyun (shell game) dolandırıcısı + patter |
+| BZR 03 | genenc_bzr_03 + chats | Biały Roman Rus askerlere karşı, Tempermancja |
+| BZR 05 | genenc_bzr_05 | Doktor Burnakowicz / Fałdżej'in eşyaları |
+| CM 01 | genenc_cm_01 + chats + member4/5 | Kadınlar mezarlıkta erkek derecelendiriyor (Warsaw argo yoğun) |
+| CM 02 | genenc_cm_02 + chats | Mezar soyucuları Powązki'de |
+| GRZ 01 | genenc_grz_01 | Tılsımkâr karşıtı güruh Grażyna pazarında |
+| PP 01 | genenc_pp_01 + chat | Girişimci gençler 1 ruble yatırım ister |
+| PP 02 | genenc_pp_02 + chat | Parkta haraç toplayan güruh |
+| PP 06 | genenc_pp_06 | Balıkçı izni anlaşmazlığı |
+| PR 01 | genenc_pr_01 + chat | Walter Pinkman (Breaking Bad ref.) — Albuquerque yolcusu |
+| PR 02 | genenc_pr_02 + chat | Polonya direniş militanları tıbbi tesiste |
+| PR 03 | genenc_pr_03 + chat | Kanalizasyon tartışması Praga'da, komplo teoricileri |
+| PW 01 | genenc_pw_01 + chats | Biały Roman müridi gözlem sahnesi |
+| SMC 01 | genenc_smc_01 + chats | Votka/bira/şampanya tartışması |
+| SMC 02 | genenc_smc_02 + chats | Sahte evrak kontrolü, zorbalık |
+| SMC 03 | genenc_smc_03 | Yaşlı kadın dolandırıcı, tren istasyonu |
+
+**Kayda değer çeviri kararları:**
+- `<dl>miglanc</>` → `<dl>züppe</>` (tekrarlayan Praga aşağılaması)
+- `<dl>antkom</>` → `<dl>gruba</>` (Praga çete argosu)
+- `<dl>ululasz</>` → `<dl>başım dönüyor</>` (baş ağrısı/sinir)
+- `<dl>puryców</>` → `<dl>züppeler</>` (çoğul)
+- `albakierki` (alaycı bozma) → `<i>Albükerki</>` (Türkçeye uygun bozma korundu)
+- `"Biały" Roman` → `""Beyaz"" Roman` (çift tırnak korundu)
+- `prima sort` → `birinci sınıf` (dönem ifadesi)
+- `siwucha` → içki (ucuz votka argosu)
+- `pigularz` → eczacı (aşağılayıcı bağlamda)
+- `mamona` → para (eski/edebi)
+- `Park sztywnych` = ölüler parkı (mezarlık Varşova argosu, Notes'ta açıklandı)
+
+**Pipeline:** `dialog_apply.ps1` (17 Asset, 14 Chat -AllRawExports) → `UAssetGUI fromjson` (31 uasset) → `retoc to-zen` → deploy (oyun kapalı).
 
 ### Bu tur (2026-04-20): q401 + sq001 vizyonları + 10 lw_* quest ✓ TAMAMLANDI
 
