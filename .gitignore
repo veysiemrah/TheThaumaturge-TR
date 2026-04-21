@@ -1,6 +1,9 @@
 # Build çıktıları — git'e girmez
 build/
 
+# Dağıtım paketleri — GitHub Releases'e yüklenir, repoya girmez
+release/
+
 # Binary araç klasörleri — kullanıcı yerel olarak indirir
 tools/*
 !tools/README.md
