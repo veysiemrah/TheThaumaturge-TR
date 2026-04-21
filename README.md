@@ -38,6 +38,10 @@ Yamayı kaldırmak için `uninstall.bat` dosyasına çift tıkla.
 
 **Ses:** Yalnızca metin çevirisi; Lehçe/İngilizce seslendirme değişmez.
 
+## Bilinen Sorunlar
+
+- **İlk açılışta ses yok:** Yama kurulduktan sonra oyun ilk kez açıldığında konuşma sesleri gelmeyebilir. Oyunu kapatıp yeniden başlatmak sorunu çözer.
+
 ## Katkıda Bulunma
 
 - **Hata/öneri:** [GitHub Issues](../../issues) üzerinden bildir
