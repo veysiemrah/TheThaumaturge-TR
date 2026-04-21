@@ -124,7 +124,7 @@ echo  Kaldirmak icin uninstall.bat calistirin.
 echo ============================================================
 pause
 '@
-$installBat | Set-Content (Join-Path $tmpDir "install.bat") -Encoding UTF8NoBOM
+[System.IO.File]::WriteAllText((Join-Path $tmpDir "install.bat"), ($installBat -replace "`r?`n", "`r`n"), [System.Text.Encoding]::ASCII)
 
 # --- uninstall.bat ---
 $uninstallBat = @'
@@ -173,7 +173,7 @@ echo.
 echo Yama kaldirildi. Oyun orijinal diline dondu.
 pause
 '@
-$uninstallBat | Set-Content (Join-Path $tmpDir "uninstall.bat") -Encoding UTF8NoBOM
+[System.IO.File]::WriteAllText((Join-Path $tmpDir "uninstall.bat"), ($uninstallBat -replace "`r?`n", "`r`n"), [System.Text.Encoding]::ASCII)
 
 # --- BENİOKU.txt ---
 $benioku = @"
@@ -270,7 +270,7 @@ Kurulum scriptleri: MIT.
 The Thaumaturge, Fool's Theory ve 11 bit studios'un ürünüdür.
 Bu yama resmi değildir; oyun dosyaları dağıtılmamaktadır.
 "@
-$benioku | Set-Content (Join-Path $tmpDir "BENiOKU.txt") -Encoding UTF8NoBOM
+[System.IO.File]::WriteAllText((Join-Path $tmpDir "BENiOKU.txt"), ($benioku -replace "`r?`n", "`r`n"), [System.Text.UTF8Encoding]::new($true))
 
 # --- ZIP oluştur ---
 if (Test-Path $zipPath) { Remove-Item $zipPath -Force }
