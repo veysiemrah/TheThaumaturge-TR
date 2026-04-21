@@ -15,7 +15,7 @@ $root    = Split-Path $PSScriptRoot -Parent
 $pakDir  = Join-Path $root "build\output"
 $tmpDir  = Join-Path $root "build\release_tmp"
 $outDir  = Join-Path $root "release"
-$zipName = "TheThaumaturge-TR-v$Version.zip"
+$zipName = "TheThaumaturge-TR.zip"
 $zipPath = Join-Path $outDir $zipName
 
 # --- Ön kontrol ---

@@ -1,32 +1,28 @@
-# The Thaumaturge — Türkçe Yama
+# The Thaumaturge Türkçe Yama
 
-> **English summary:** Open-source Turkish translation patch for The Thaumaturge (Fool's Theory / 11 bit studios, 2024). Human-reviewed, atmosphere-faithful. ~20,500 translated strings covering UI, dialogues, codex, journal, readables and achievements. Download the latest release pak and drop it in your `Paks/` folder.
+[![Son Sürüm](https://img.shields.io/github/v/release/veysiemrah/TheThaumaturge-TR?label=son%20sürüm)](https://github.com/veysiemrah/TheThaumaturge-TR/releases/latest)
+[![İndirme](https://img.shields.io/github/downloads/veysiemrah/TheThaumaturge-TR/total?label=toplam%20indirme)](https://github.com/veysiemrah/TheThaumaturge-TR/releases)
+[![Lisans](https://img.shields.io/github/license/veysiemrah/TheThaumaturge-TR)](LICENSE)
+
+📦 **[En son sürümü indir (TheThaumaturge-TR.zip)](https://github.com/veysiemrah/TheThaumaturge-TR/releases/latest/download/TheThaumaturge-TR.zip)**
 
 ---
 
-Fool's Theory ve 11 bit studios'un 2024 yapımı **The Thaumaturge** oyunu için açık kaynak, insan gözüyle gözden geçirilmiş Türkçe çeviri projesi.
+Fool's Theory ve 11 bit studios'un 2024 yapımı **The Thaumaturge** oyunu için açık kaynak Türkçe yama. Yaklaşık 20.500 satır metin insan gözüyle gözden geçirilmiştir; 1905 Varşova atmosferi ve karakter tonları korunmaya özen gösterilir.
 
-Çeviri: yapay zeka destekli taslak + manuel QA. 1905 Varşova atmosferi ve karakter tonları korunmaya özen gösterilir.
+> **English summary:** Open-source Turkish translation patch for The Thaumaturge (2024). ~20,500 human-reviewed strings covering UI, dialogues, codex, journal, readables and achievements. Download the ZIP, run `install.bat`.
 
 ## Kurulum
 
-1. [Releases](../../releases) sayfasından en son sürümü indirin.
-2. Arşivi açın; içinden `pakchunk99-WinGDK_P.pak`, `.ucas`, `.utoc` dosyalarını çıkarın.
-3. Bu üç dosyayı oyunun `Paks/` klasörüne kopyalayın:
+1. [TheThaumaturge-TR.zip](https://github.com/veysiemrah/TheThaumaturge-TR/releases/latest/download/TheThaumaturge-TR.zip) dosyasını indir
+2. ZIP'i boş bir klasöre çıkar
+3. `BENiOKU.txt` dosyasını oku (özellikle Windows güvenlik uyarısı adımı)
+4. `install.bat` dosyasına çift tıkla
+5. Oyunu başlat — Türkçe metinler otomatik aktif olur
 
-   | Platform | Paks klasörü |
-   |---|---|
-   | **Game Pass (Xbox GDK)** | `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\` |
-   | **Steam** | `[Steam kütüphanesi]\The Thaumaturge\Content\Paks\` |
-   | **GOG / Epic** | Benzer yol, yükleyiciden kontrol edin |
+Yamayı kaldırmak için `uninstall.bat` dosyasına çift tıkla.
 
-4. Oyunu başlatın. Türkçe metin otomatik aktif olur; ek ayar gerekmez.
-
-**Kaldırmak için:** Üç `pakchunk99-WinGDK_P.*` dosyasını silin.
-
-> Kurulum sırasında oyun kapalı olmalıdır; özellikle `.ucas` dosyası oyun açıkken kilitlidir.
-
-## Kapsam ve durum
+## Durum
 
 | Kategori | Çevrilen | Toplam | Durum |
 |---|---|---|---|
@@ -42,32 +38,18 @@ Fool's Theory ve 11 bit studios'un 2024 yapımı **The Thaumaturge** oyunu için
 
 **Ses:** Yalnızca metin çevirisi; Lehçe/İngilizce seslendirme değişmez.
 
-## Katkı
+## Katkıda Bulunma
 
-Bu projeye katkı sunmak isterseniz:
+- **Hata/öneri:** [GitHub Issues](../../issues) üzerinden bildir
+- **Çeviri katkısı:** Önce `docs/glossary.md` ve `docs/style-guide.md`'yi oku, ardından [CONTRIBUTING.md](CONTRIBUTING.md)'e bak
 
-- Hata ve öneri için [Issues](../../issues) açın.
-- Çeviri düzeltmesi için önce `docs/glossary.md` ve `docs/style-guide.md`'yi okuyun, ardından PR gönderin.
-- Yeni dil bölümü veya araç katkısı için `CONTRIBUTING.md`'e bakın.
+## Nasıl Çalışır
 
-## Geliştirici ortamı kurulumu
-
-Çevirileri kendiniz derlemek veya katkıda bulunmak için:
-
-```
-1. Repoyu klonlayın.
-2. tools/ altındaki araçları indirin (bkz. tools/README.md).
-3. Oyun dosyalarını retoc ile çıkarın.
-4. translation/ altındaki CSV'leri düzenleyin.
-5. scripts/dialog_apply.ps1 veya scripts/stringtable_apply.ps1 ile uygulayın.
-6. retoc to-zen ile mod pak üretin.
-```
-
-Detaylı pipeline: `docs/workflow-notes.md`
+Oyunda yerleşik Türkçe dil desteği bulunmadığından çeviri doğrudan Lehçe diyalog ve StringTable asset'lerinin içine yazılır. Mod pak dosyası oyun Paks klasörüne eklenince tüm platformlarda Türkçe görünür; ayrı bir dil ayarı gerekmez.
 
 ## Lisans
 
 - **Kod ve scriptler:** [MIT](LICENSE)
 - **Çeviri metni:** [CC BY-SA 4.0](LICENSE)
 
-Oyun içi orijinal Lehçe metinler Fool's Theory ve 11 bit studios'un telifidir; `source/pl/` klasöründe yalnızca çeviri referansı amacıyla bulunur, yeniden lisanslanmamıştır.
+Oyun içi orijinal Lehçe metinler Fool's Theory ve 11 bit studios'un telifidir; `source/pl/` klasöründe yalnızca çeviri referansı amacıyla bulunur.
