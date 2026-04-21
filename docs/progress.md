@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-21 (lw_grz01 — Grażyna bazar: Djinn salutor + Leila hırsız + çöl savaşçıları + pezevenk Pęseta — 14 asset / ~449 entry)
+**Son güncelleme:** 2026-04-21 (lw_smg02 — Uçan Üniversite: Ligia + Dickstein + Czesław + ders + Polina + Cecylia + Grażyna — 17 asset / ~531 entry)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 458 asset | 687 asset | %66.7 | ~14507 |
+| **Diyalog (ana story + Default + Chat)** | 475 asset | 687 asset | %69.1 | ~15038 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~19362 satır** |
+| **GENEL** | — | — | — | **~19893 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 11/12 quest ✓ + lw_smg04 (en büyüğü) ✓ + lw_grz01 ✓ (458/687 asset, %66.7). Kalan lw: lw_smg02 (dump boş — inceleme gerek).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 (en büyüğü) ✓ + lw_grz01 ✓ + lw_smg02 ✓ (475/687 asset, %69.1). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -267,14 +267,14 @@ Wiktor'un Upyr vizyonları (Vis1–Vis6, fluff chat'leriyle birlikte). Story'ye 
 | lw_smc01 | 17 | 6 Chat | ✓ | Śródmieście 1 — Szulski oğlu gazeteci + kız arkadaş + bebek çatışması |
 | lw_smc02 | 12 | 3 Chat | ✓ | Śródmieście 2 — bar + gazeteci röportajı |
 | lw_smc03 | 22 | 7 Chat | ✓ | Śródmieście 3 — gazeteci + forgery (Yargıç Woronin daktilosu) + Lechit baskın + pastacı |
-| lw_smg02 | 17 | 0 | ✗ | Śródmieście G 2 — dump boş (kontrol gerek) |
+| lw_smg02 | 17 | 7 Chat | ✓ | Śródmieście G 2 — Uçan Üniversite: Ligia+Dickstein teklif, Wiktor giyinme, ders, Polina+Cecylia+Grażyna (~531 entry) |
 | lw_smg03 | 9 | 4 Chat | ✓ | Śródmieście G 3 — kumarbaz küfür + Grażynka-Cecylia + telefon |
 | lw_smg04 | 28 | 28 (16 Chat + 12 Assets) | ✓ | **Śródmieście G 4** — üniversite baskını + Czesław ihaneti + Rus sokak kavgası + Polina kumarhane + Dickstein kaçış + Cecylia liderlik + Uçan Üniversite kapanış |
 | lw_timeSkipScenes | 8 | — | — | Zaman atlama (muhtemelen cutscene tetikleri) |
 | **Toplam** | **197** | **71** | — | |
 
 **Deploy'lu lw_* entry sayıları (yaklaşık):**
-- lw_pp01: 12 entry, lw_bzr01: 3, lw_smc02: 10, lw_smc01: 23, lw_smg03: 18, lw_pw01: 18, lw_pw02: 42, lw_cm01: 32, lw_smc03: 32, **lw_smg04: 596**
+- lw_pp01: 12 entry, lw_bzr01: 3, lw_smc02: 10, lw_smc01: 23, lw_smg03: 18, lw_pw01: 18, lw_pw02: 42, lw_cm01: 32, lw_smc03: 32, **lw_smg04: 596**, lw_grz01: ~449, **lw_smg02: ~531**
 - Toplam ~786 entry deploy'lu + 47 POI fluff (pre-existing) + 14 journal (pre-existing)
 
 ### Diğer — 0/85 ✗
