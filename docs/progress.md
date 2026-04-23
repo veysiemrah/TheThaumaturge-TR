@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-21 (GenericEncounters — 31 asset / ~603 entry: 9 lokasyon, sokak karşılaşmaları + NPC chat mırıltıları)
+**Son güncelleme:** 2026-04-23 (LivingWorld — 30 asset / ~660 entry: 3 berber + lw_smg01 15 main + 12 chat)
 
 ---
 
@@ -11,16 +11,16 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 506 asset | 687 asset | %73.7 | ~15641 |
+| **Diyalog (ana story + Default + Chat)** | 550 asset | 687 asset | %80.1 | ~16551 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~20496 satır** |
+| **GENEL** | — | — | — | **~21406 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
-Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + GenericEncounters 31/31 ✓ (506/687 asset, %73.7). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
+Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** (550/687 asset, %80.1). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
 
 Deploy'lu mod pak: `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
 
@@ -473,7 +473,103 @@ Review detay: `docs/translation-review.md`
 - "Pycha kroczy przed upadkiem" → ""Gurur düşüşün habercisidir"" (atasözü)
 - "Niewierny Tomasz" → ""Şüpheci Tomas"" (Aziz Tomas)
 
-Son deploy: **2026-04-21 ~22:00** (`pakchunk99-WinGDK_P.*`) — GenericEncounters 31 asset deploy'lu.
+Son deploy: **2026-04-23 ~20:26** (`pakchunk99-WinGDK_P.*`) — LivingWorld 30 asset eklendi (kategori eklendi, toplam 550 diyalog asset).
+
+---
+
+### LivingWorld (2026-04-23 ~20:26) — 30 asset / ~660 entry ✓ — kategori eklendi
+
+3 berber + lw_smg01 Uçan Üniversite baskını (15 Asset + 12 Chat).
+
+| Asset | Satır | Konu |
+|---|---|---|
+| CM_barber | 28 | Powązki berberi, aynı zamanda ölü hazırlayıcı, karanlık espri |
+| GRZ_barber | 21 | Grażyna Pazarı berberi, Yidiş-Leh aksanlı, bakenbardy/marcel dalgası |
+| PP_barber | 26 | Powiśle berberi, ağır Warsaw argosu (klawo/aligant/cyferblat/gliny) |
+| smg01_00a_ligia_about_flying_university | 62 | Ligia Wiktor'u Uçan Üniversite dersine davet, çörek tartışması |
+| smg01_00b_patisserie | 52 | Bayan Jagoda'nın pastanesi, nostaljik karşılaşma |
+| smg01_01a_antique_shop_entrance | 4 | Antikacıya giriş, Ligia'ya benzerlik |
+| smg01_01b_ligia_welcome | 131 | Samuel Dickstein + Cecylia ile tanışma, Uçan Üniversite hakkında |
+| smg01_01c_coffee_table_talk | 19 | Lukrecja + Cecylia + Polina tanışması |
+| smg01_01d_devotee_about_thaumaturgy | 20 | Cecylia ile tılsımkârlık sorgusu, Lukrecja alay |
+| smg01_01e_antique_shop_quarrel | 37 | Antikacı Antoni vs. öğrenciler — kitap çalındı |
+| smg01_01g_young_woman | 40 | Polina Gawriłow (Rus üye) ile tanışma |
+| smg01_02c_scared_woman_at_the_door | 26 | Korkmuş kadın kaçmaya çalışır, İz araştırma |
+| smg01_02d_thief_indication | 6 | Waldemar'ın paltosu ipucu |
+| smg01_02f_devotee_about_reasons | 84 | Cecylia'nın entrika itirafı, Waldemar + Lukrecja ifşa |
+| smg01_02g_antiquarian_about_clothes | 24 | Antoni'den palto sahipleri bilgisi |
+| smg01_03a_ligia_lecture | 3 | Ligia'nın dersinden alıntılar (kadın meselesinin iktisadi yanı) |
+| smg01_03c_antique_shop_leaving | 35 | Samuel ile Uçan Üniversite derinlemesine, Skłodowska-Curie |
+| smg01_03e_volume_found | 11 | Kitabı + Cecylia'nın mektubunu bulma |
+| smg01 Chats (12 adet) | 31 | Kahve masası, Ligia, kavga, antikacı, çözüm sohbetleri |
+
+**Kayda değer çeviri kararları:**
+- `<i>fiksatuar</>` → `<i>briyantin</>` (erkek saç ürünü)
+- `<i>bakenbardy</>` → `<i>favori</>` (yan favori)
+- `<i>ondulacja marcelowska</>` → `<i>marcel dalgası</>` (dönem kadın saç şekli)
+- `<dl>klawo</>` → `<dl>süper</>` (argo — harika)
+- `<dl>cyferblat</>` → `<dl>surat</>` (kadranlı yüz argosu)
+- `<dl>aligant</>` → `<dl>şıkırdım</>` (glossary — zarif erkek)
+- `<dl>ksiuty</>` → `<dl>hatunlar</>` (flört/kadın argo)
+- `<dl>gliny</>` → `<dl>aynasız</>` (polis argo)
+- `<dl>bajzel</>` → `<dl>karmakarışık</>` (berbat/genelev argo)
+- `<dl>galantny</>` → `<dl>cakalı</>` (züppe-şık)
+- `<dl>glancuś</>` → `<dl>parlak herif</>` (şık-parlak argo)
+- `<dl>wartko</>` → `<dl>çabuk</>` (hızlı argo)
+- `<dl>fuszerka</>` → `<dl>baştan savma iş</>`
+- `<dl>patataj</>` → `<dl>alelacele</>`
+- `<dl>git</>` → `<dl>tıkırında</>` (argo — iyi/tamam)
+- `<dl>nazad</>` → `yeniden` (eski argo, "tekrar")
+- `Uniwersytet Latający` → `Uçan Üniversite` (glossary)
+- `Pani Jagoda` → `Bayan Jagoda`; `Plac Zielony` → `Yeşil Meydan` (glossary)
+- `Cecylia / Samuel Dickstein / Lukrecja / Waldemar / Polina Mikołajewna Gawriłow` → aynen
+- `pączki` → `çörek` (journal ile tutarlı)
+- `z adwokatem` (Polonya yumurta likörü) → `yumurta likörlü`
+- `karpatka` → aynen (Polonya pastası)
+- `Maria Skłodowska` → aynen (Marie Curie'nin doğum adı)
+- `Sherlocku?` → `Sherlock?` (vokatif şapka düşürüldü)
+- `Stara Baśń` → `Eski Masal` (Kraszewski'nin romanı)
+- `Fleet Street scenariusz` → aynen (Sweeney Todd göndermesi)
+- `<i>Niestety</>` → `<i>maalesef</>` (Cecylia ile ironi)
+
+**Pipeline:** `retoc to-legacy --filter LivingWorld` (4174 asset çıkarıldı) → `UAssetGUI tojson` + `dialog_dump.ps1` (batch script) → CSV çeviri → `dialog_apply.ps1` (+ `-AllRawExports` Chat için) → `UAssetGUI fromjson` (30 uasset) → `retoc to-zen` → deploy.
+
+---
+
+### GenericEncounters kalan (2026-04-23) — 14 asset / ~250 entry ✓ — kategori kapandı
+
+smc_07 + smg_01-06 (Warsaw Śródmieście): 7 Assets + 7 Chats.
+
+| Lokasyon | Asset dosyaları | Konu |
+|---|---|---|
+| SMC 07 | genenc_smc_07 + chats | Wiktor'u "kafadar" diye ileri süren Mojek çetesi; Szulski lakabı |
+| SMG 01 | genenc_smg_01 + men_chats + woman_chats | Aktris Olena Dąb-Zakrzewska ve rahatsız eden adamlar; Rumiancewa soirée |
+| SMG 02 | genenc_smg_02 + chats | Tabutçu + mezar soyucuları (Waluś) müşterisi; "meşe palto" argosu |
+| SMG 03 | genenc_smg_03 + chats | Wiktor malikânesine gece baskını; davetsiz hırsızlar + Grażyna çağrısı |
+| SMG 04 | genenc_smg_04 + chats | Kaldırım döşeyen proleter işçiler; Enternasyonal marşı, "yntelygenta" alay |
+| SMG 05 | genenc_smg_05 | "Beyaz" Roman "Tempermantların Kralı" tekrar meydan okur |
+| SMG 06 | genenc_smg_06 + chat | Faytoncu'ya sıkıyönetim haraçı; Rus askerleri + Sitadel tehdidi |
+
+**Kayda değer çeviri kararları:**
+- `<dl>fest kamrat</>` → `<dl>ta kafadar</>` (eski Warsaw kafadaş argo)
+- `<dl>sztymunek</>` → `<dl>uzlaşı</>` (çete argo: anlaşma)
+- `<dl>przytrafunek</>` → `<dl>talihsiz kaza</>` (yumuşatıcı argo)
+- `<dl>dębowa jesionka</>` → `<dl>meşe palto</>` (tabut argo)
+- `<dl>szuwaks</>` → `<dl>zift</>` (işçi argo: asfalt/zift)
+- `<dl>chawira</>` → `<dl>chawira</>` (Yidiş — ev/mekân; aynen korundu)
+- `<dl>blat</>` → `<dl>haraç</>` (rüşvet/haraç argo)
+- `<dl>Grabie</>` → `<dl>Kürekleri</>` (eller — işçi argo)
+- `yntelygenta` (alaycı bozma) → `antelektüele` (Türkçede uygun bozma)
+- `Wyklęty powstań ludu ziemi` → `Uyan artık uykudan uyan` (Enternasyonal marşı Türkçe dizeleri)
+- `Bój to będzie ostatni` → `Bu kavga en sonuncu kavgamızdır artık` (Enternasyonal nakaratı)
+- `Pokorne ciele dwie matki ssie` → `Alçakgönüllü dana iki anayı emer` (atasözü aynen)
+- `Jeśli nie stać was na chleb, to żryjcie ciastka` → `Ekmeğe gücünüz yetmiyorsa pasta yiyin` (Marie Antoinette göndermesi)
+- `Olena Dąb-Zakrzewska`, `Wiktor Miłorząb-Szulski` → aynen (özel isim)
+- `"Biały" Roman`, `"Tempermantların Kralı"`, `tempermant`, `Gelenler` → BZR 03 / PW 01 ile uyumlu
+- `Cytadela` → `Sitadel` (glossary)
+- `Różyc` → `Różyc` (pazar kısaltması, aynen)
+
+**Pipeline:** `UAssetGUI tojson` → `dialog_dump.ps1` (+ `-AllRawExports` Chat için) → CSV çeviri → `dialog_apply.ps1` → `UAssetGUI fromjson` (14 uasset) → `retoc to-zen` → deploy.
 
 ---
 

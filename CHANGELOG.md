@@ -10,6 +10,39 @@ Bir sonraki yayın için birikecek değişiklikler.
 
 ---
 
+## [0.9.1] — 2026-04-23
+
+Beta içeriğine ekleme: GenericEncounters kategorisi %100 kapandı, LivingWorld kategorisi eklendi. Toplam 44 diyalog asset / ~910 satır.
+
+### Eklendi
+
+**GenericEncounters kalan (14 asset / ~250 satır)** — kategori %100:
+- Warsaw Mojek çetesi Wiktor'u "kafadar" diye ileri sürüyor (SMC 07)
+- Aktris Olena Dąb-Zakrzewska ve Rumiancewa soirée (SMG 01)
+- Tabutçu + mezar soyucuları, "meşe palto" argosu (SMG 02)
+- Wiktor malikânesine gece baskını (SMG 03)
+- Proleter kaldırım işçileri, Enternasyonal marşı, "yntelygenta" alayı (SMG 04)
+- "Beyaz" Roman Tempermantların Kralı tekrar meydan okuyor (SMG 05)
+- Faytoncu'ya sıkıyönetim haraçı, Rus askerleri + Sitadel tehdidi (SMG 06)
+
+**LivingWorld (30 asset / ~660 satır)** — yeni kategori:
+- 3 şehir berberi (Powązki / Grażyna / Powiśle) — aksan ve bölge argosu varyantları
+- lw_smg01 Uçan Üniversite baskını (15 main + 12 chat):
+  - Bayan Jagoda pastanesi, nostaljik karşılaşma
+  - Antika dükkânında Samuel Dickstein ile tanışma, çalınan <i>Stara Baśń</>
+  - Cecylia'nın entrikası, Waldemar + Lukrecja, Polina Gawriłow (Rus üye)
+  - Ligia'nın kadın meselesi dersi, Skłodowska-Curie, Fleet Street göndermesi
+
+**Kayda değer çeviri kararları**: ~25 yeni argo/terim kararı (`aligant → şıkırdım`, `klawo → süper`, `gliny → aynasız`, `fest kamrat → ta kafadar`, `dębowa jesionka → meşe palto`, Enternasyonal marşı Türkçe dizeleri vs). Detay: `docs/progress.md`.
+
+### Proje durumu (v0.9.1)
+
+- Diyalog: **550/687 asset** (%80.1) — GenericEncounters 45/45, LivingWorld 30/30 ✓
+- Toplam: **~21 406 satır**
+- Deploy: `pakchunk99-WinGDK_P.ucas` ~15 MB
+
+---
+
 ## [0.9.0] — 2026-04-21
 
 İlk kamuya açık beta sürüm. Ana hikâye, tüm UI, codex, journal ve readables Türkçe.
