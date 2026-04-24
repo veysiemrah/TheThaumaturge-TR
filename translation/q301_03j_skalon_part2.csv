@@ -107,7 +107,7 @@
 "2F0C07FB48DC2E0C96C437982F68E207","CinematicNode_Response_97","Generał-gubernatorze.","General-Vali.",""
 "77BE22FC4A5AAA87ADA6E2B68CCCA51C","CinematicNode_Response_97","Witaj w swojej głowie, Skałon! Teraz jesteś nasz.","Kafanın içine hoş geldin, Skałon! Artık bizimsin.",""
 "F1F1464542D0771B14E31EA106119786","CinematicNode_Response_97","Zaraz, zaraz, coś tu nie gra. Czy on powinien być świadomy?","Dur dur, bir şey yolunda gitmiyor. Bilinçli olması mı gerekiyor?",""
-"0CCE0235440EB12546025FB4BEF76C17","CinematicNode_Response_97","O ile sam nie posiada mocy, to może być efekt paktu.","Eğer kendisi güç sahibi değilse, paktın etkisi olabilir.",""
+"0CCE0235440EB12546025FB4BEF76C17","CinematicNode_Response_97","O ile sam nie posiada mocy, to może być efekt paktu.","Eğer kendisi güç sahibi değilse, Ant'ın etkisi olabilir.","pakt → Ant (glossary)"
 "97CFEC3743F570FCA5F0FFB9B0939CED","CinematicNode_Response_97","Sara Rywkin! I ty! Co tu się dzieje? Kim wy jesteście?","Sara Rywkin! Bir de sen! Burada neler oluyor? Siz kimsiniz?",""
 "77333D8943A936CCB4F7FBAB1C2F528A","CinematicNode_Response_98","Nazywam się Wiktor Szulski. Szukał mnie pan.","Adım Wiktor Szulski. Beni arıyordunuz.",""
 "70C403A445E7919EA3E92380F3ACE742","CinematicNode_Response_99","Ktoś widział bimbrownika?","Kaçak rakıcıyı gören oldu mu?",""
