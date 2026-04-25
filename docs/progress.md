@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-25 (Global_chats — 5 asset / 13 entry: mezarlık şüpheli adam + 4 polis karakolu sahnesi)
+**Son güncelleme:** 2026-04-25 (Vset bootstrap + 87 asset deploy + 8 review turu / 846 düzeltme)
 
 ---
 
@@ -12,12 +12,13 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog (ana story + Default + Chat)** | 555 asset | 687 asset | %80.8 | ~16564 |
+| **Vset (ortam NPC mırıltı)** | 87 asset | 398 asset | %22 | ~285 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~21419 satır** |
+| **GENEL** | — | — | — | **~21704 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
