@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-25 (Vset DS+PRL+GRZ bölgeleri 90 asset deploy — toplam Vset 177/398)
+**Son güncelleme:** 2026-04-25 (Vset DS+PRL+GRZ+PR bölgeleri 127 asset deploy — toplam Vset 214/398)
 
 ---
 
@@ -12,13 +12,13 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog (ana story + Default + Chat)** | 555 asset | 687 asset | %80.8 | ~16564 |
-| **Vset (ortam NPC mırıltı)** | 177 asset | 398 asset | %44 | ~556 |
+| **Vset (ortam NPC mırıltı)** | 214 asset | 398 asset | %54 | ~666 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~21975 satır** |
+| **GENEL** | — | — | — | **~22085 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
@@ -347,8 +347,9 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - **DS Skałon balosu** (37) — courtlady/diplomat/rich_citizen/rich_russian/soldier/waiter (q301 baloyla bağlantılı)
 - **PRL q001 köyü** (18) — Rasputin Köyü kırsalı: çocuk halk şarkısı (Hu-hu-ha), köylü kadın/erkek (kış, hasat, "licho"/cin), meyhane patron (siwuszka/vodka), askerler (firari, Viyana'ya kaçış), tradeswoman (firarilerle takas)
 - **GRZ Mirów Yahudi semti** (35) — Yidişçe `<yd>...</>` tag'leri korunarak: berber (sakal/Yahudi atasözü), dilenci (akwawita kâbusu), inananlar (rabbi Sofer / Feldman / şacharit / mincha / ma'ariw — Nożyk sinagogu çevresi), commoner (Lehçe-Yidiş atasözleri), goon (kitap kurdu / Mojki gösterişi / Loch boks salonu), tüccarlar (Łokszyny/Kreplech/Cymesik/challah pazar bağırması)
+- **PR Praga (Ortodoks kilisesi + hastane)** (37) — q202 ortodoks kilisesi mucizesi + Ujazdowski hastanesi: dilenciler (kilise önü), inananlar f+m (Ojczulek pederim, "Magik w cerkwi" Wiktor şaşkınlığı, "<dl>cichodajka</> ladacznicę" söylenti), commoner f/m + poor + rich (cerkiew şikayet, "<i>hameryka</>"), goon ("<dl>doliniarz</>"/yankesici), medic f+m (kolera/tifüs/histeri, ampul takılı vaka, <i>Różyc</> kabadayıları), patient (gruźlica/morfin/lazımlık takası), askerler (kilise önü <dl>doliniarz</> nöbeti)
 
-Kalan 221 asset (en düşük öncelik): PP (44), PR (37), PW (51), SMC (44), SMG (38), Quest (7). Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
+Kalan 184 asset (en düşük öncelik): PP (44), PW (51), SMC (44), SMG (38), Quest (~7). Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
 
 ### ImprintsDescription_DT — 1 asset
 
