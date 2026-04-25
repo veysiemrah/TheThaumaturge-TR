@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-25 (Vset DS bölgesi 37 asset deploy — toplam Vset 124/398)
+**Son güncelleme:** 2026-04-25 (Vset DS+PRL bölgeleri 55 asset deploy — toplam Vset 142/398)
 
 ---
 
@@ -12,13 +12,13 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog (ana story + Default + Chat)** | 555 asset | 687 asset | %80.8 | ~16564 |
-| **Vset (ortam NPC mırıltı)** | 124 asset | 398 asset | %31 | ~397 |
+| **Vset (ortam NPC mırıltı)** | 142 asset | 398 asset | %36 | ~450 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~21816 satır** |
+| **GENEL** | — | — | — | **~21869 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
@@ -345,8 +345,9 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - **CYT Sitadel** (7) — prisoner, soldier, soldier_officer
 - **BZR Bazar Różyckiego** (39) — bar/commoner/goon/policeman/prostitute/trader (q103/q104 + bzr01 ile aynı bölge)
 - **DS Skałon balosu** (37) — courtlady/diplomat/rich_citizen/rich_russian/soldier/waiter (q301 baloyla bağlantılı)
+- **PRL q001 köyü** (18) — Rasputin Köyü kırsalı: çocuk halk şarkısı (Hu-hu-ha), köylü kadın/erkek (kış, hasat, "licho"/cin), meyhane patron (siwuszka/vodka), askerler (firari, Viyana'ya kaçış), tradeswoman (firarilerle takas)
 
-Kalan 274 asset (en düşük öncelik): GRZ, PP, PR, PRL, PW, SMC, SMG, Quest. Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
+Kalan 256 asset (en düşük öncelik): GRZ (35), PP (44), PR (37), PW (51), SMC (44), SMG (38). Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
 
 ### ImprintsDescription_DT — 1 asset
 
