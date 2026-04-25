@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-25 (Vset bootstrap + 87 asset deploy + 8 review turu / 846 düzeltme)
+**Son güncelleme:** 2026-04-25 (Vset DS bölgesi 37 asset deploy — toplam Vset 124/398)
 
 ---
 
@@ -12,13 +12,13 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog (ana story + Default + Chat)** | 555 asset | 687 asset | %80.8 | ~16564 |
-| **Vset (ortam NPC mırıltı)** | 87 asset | 398 asset | %22 | ~285 |
+| **Vset (ortam NPC mırıltı)** | 124 asset | 398 asset | %31 | ~397 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~21704 satır** |
+| **GENEL** | — | — | — | **~21816 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
@@ -337,14 +337,16 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - Örnek IC_bzr01: 13 satır (eşya açıklamaları + İzler + Çıkarımlar)
 - **Tahmini 400–600 satır** toplamda
 
-### Vset — ortam NPC mırıltıları
+### Vset — ortam NPC mırıltıları (124/398 ✓)
 
-**508 asset**, `GrimoireContent/Quests/Vset/` altında.
-- BZR/PP/SMC/SMG/CM lokasyonları için atmosferik NPC replikleri
-- Her asset kısa: 2–8 satır (bar müşterisi, tezgâhtar, geçici NPC iç sesleri)
-- Örnek bzr_vset_bar_client_f_01: 3 satır ("Spokojnie tu, lubię tu bywać.")
-- **Tahmini 1500–4000 satır** toplamda
-- Öncelik: düşük (oyun atmosferi, ana akış değil)
+**398 asset**, `GrimoireContent/Quests/Vset/` altında. Çevrilen 124 asset (~397 satır):
+- **Important_NPCs + General_crowd** (15) — Wiktor/Abaurycy/Ligia/Woronin + coachman/paperboy/russian + Wiktor success/failure/searching iç sesleri
+- **CM Mezarlık** (26) — gravedigger, mourner, undertaker, commoner, goon, trader, policeman, barber + 01i_bandits_funeral
+- **CYT Sitadel** (7) — prisoner, soldier, soldier_officer
+- **BZR Bazar Różyckiego** (39) — bar/commoner/goon/policeman/prostitute/trader (q103/q104 + bzr01 ile aynı bölge)
+- **DS Skałon balosu** (37) — courtlady/diplomat/rich_citizen/rich_russian/soldier/waiter (q301 baloyla bağlantılı)
+
+Kalan 274 asset (en düşük öncelik): GRZ, PP, PR, PRL, PW, SMC, SMG, Quest. Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
 
 ### ImprintsDescription_DT — 1 asset
 
