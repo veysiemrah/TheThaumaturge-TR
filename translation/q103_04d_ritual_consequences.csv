@@ -1,81 +1,81 @@
-Hash,NodeName,PL,TR,Notes
-C82D00DE402E3A32C8E4B39568AAFE86,CinematicNode_Choice_10,"Zapytaj, co teraz zamierza.",Şimdi ne yapmaya niyetli olduğunu sor.,
-088B28404886EF43689F62B4887A74C3,CinematicNode_Choice_10,"Powiedz, że twój ojciec też był trudny.",Babanın da zor olduğunu söyle.,
-025A112545AD00C0D83DB3A01ED3B0DF,CinematicNode_Choice_10,Nic nie mów.,Bir şey söyleme.,
-F674243D41032C91C03E3AA0043B4109,CinematicNode_Choice_11,"Powiedz, że znalazłeś swój sposób na życie.",Hayata dair kendi yöntemini bulduğunu söyle.,
-F919A21448A8B92B9EF7B78F54A5C988,CinematicNode_Choice_11,"Przyznaj, że ojciec umarł.",Babanın öldüğünü söyle.,
-F7074F4A4EC06797751025ABFFE8EF57,CinematicNode_Choice_6,Przeproś Siergieja.,Siergiej'den özür dile.,
-2C22E22443303B754122A980709CFDDD,CinematicNode_Choice_6,Podaruj Zofii spokój.,Zofia'ya huzur bağışla.,
-DF9ADEB24CE3E237DE7079AB967ED020,CinematicNode_Choice_6,"Przyznaj wszystkim, że to przez ciebie.",Herkese bunun senin yüzünden olduğunu itiraf et.,
-B3E023FF4318ABEA1EBFDB870392A5A8,CinematicNode_Choice_6,"Powiedz, że to przez Skazę Zofii.",Zofia'nın Kusur'u yüzünden olduğunu söyle.,
-64AFCAD649260C280D4A3D994FEFEA4F,CinematicNode_Choice_7,"Spraw, żeby ci zaufał.",Sana güvenmesini sağla.,
-F755E0BA4ABBCE2FC211308D52067CD3,CinematicNode_Choice_7,Zrezygnuj. Nie zatrzymasz go.,Vazgeç. Onu tutamazsın.,
-296016B44F1CA3FDD25F2DADEF570543,CinematicNode_Choice_8,Nie sprawiaj im problemów.,Onlara sorun çıkarma.,
-48A1D52D45693D2DEB23B1B950CD2AAF,CinematicNode_Choice_8,"Powiedz, że mogą spróbować.",Deneyebileceklerini söyle.,
-133083ED4BB85763EBE2D699FF441268,CinematicNode_Choice_9,"Powiedz, że miałeś swoje powody.",Kendi nedenlerin olduğunu söyle.,
-0CC845EE4D04F9DAFC4BB4B37B7A170B,CinematicNode_Choice_9,Obróć to przeciwko socjecie i Zofii.,Bunu sosyeteye ve Zofia'ya karşı çevir.,
-054DA40049F97ACA5026D7896C6BA786,CinematicNode_Response_33,"Drodzy państwo, duchy, jak widać, były dziś wyjątkowo niespokojne.","Saygıdeğer hazırun, ruhlar, gördüğünüz gibi, bugün olağandışı bir biçimde huzursuzdu.",
-10A559164F74770E84DAC68111A5C0EF,CinematicNode_Response_34,A pan co nam powie?,Ya siz bize ne söyleyeceksiniz?,
-0C57321F4AA0EC8C4B030FBD0DE0D79E,CinematicNode_Response_35,"Mnie ""duchy"" powiedziały już wszystko, co powinienem usłyszeć.","Bana ""ruhlar"" duymam gereken her şeyi çoktan söyledi.",
-9375F47343E51506A1C2F9A9B57D53C2,CinematicNode_Response_35,...,...,
-2AF226044FE41DB30AAF538698A55EE8,CinematicNode_Response_36,"Panno Zofio, czy wszystko w porządku?","Küçük hanım Zofia, her şey yolunda mı?",
-F2B72148402B07A9A346D48AB9E5FFA0,CinematicNode_Response_36,...,...,
-7D819589410A8631E777909C92695264,CinematicNode_Response_37,"Siergiej, proszę zaczekać.","Siergiej, lütfen bekleyin.",
-7F3A507A40DE9236257009938E22696F,CinematicNode_Response_37,"Panie Szulski, dżentelmen może znieść tylko pewną liczbę upokorzeń. Ja wyczerpałem już swój limit.","Pan Szulski, bir beyefendi ancak belirli sayıda küçük düşmeye tahammül edebilir. Ben kotamı doldurdum.",
-9343B4C74D39A85EF961448B7005E121,CinematicNode_Response_37,Winszuję wam obojgu.,Her ikinize de tebrikler.,
-E5EEE2E94F2E7ED11C48909FED623402,CinematicNode_Response_38,Zofia...?,Zofia...?,
-808E58A041343FB2DDBE8C91B154E078,CinematicNode_Response_38,Podobało się panu widowisko? Moje najlepsze do tej pory...,Gösteri hoşunuza gitti mi? Bugüne kadarki en iyim...,
-C00E3B0849EA2AF0F5F514A17868C07D,CinematicNode_Response_38,To teraz jest chyba pora na brawa?,Şimdi alkış zamanı herhalde?,
-6DAE4A654970C2E6AAA0E38C82DB110D,CinematicNode_Response_39,"Widzę, że pana nie przekonam.",Sizi ikna edemeyeceğimi görüyorum.,
-AF7A50F541C9D431395D6EA5F53F159A,CinematicNode_Response_40,Pan mi teraz zaufa. Nie jestem pańskim rywalem.,Şimdi bana güveneceksiniz. Ben sizin rakibiniz değilim.,
-87675D2A4D2F95B9B97A5C997626C833,CinematicNode_Response_40,Nie miałem zamiaru pana ośmieszać. Użyłem pana tylko do swoich celów.,Sizi rezil etmeye niyetim yoktu. Sizi sadece kendi amaçlarım için kullandım.,
-4AB08F8C4441762FD030FA93F2EF3752,CinematicNode_Response_40,To bardzo modne w tym towarzystwie.,Bu topluluk için çok moda bir şey.,
-FBA4D59742C36C641548258FCBEB9FB3,CinematicNode_Response_41,Pozwól. Odprowadzę cię do dorożki.,İzin ver. Seni faytona kadar geçireyim.,
-5D58E84042BFB180F8DEE5A00514B692,CinematicNode_Response_41,Dziękuję.,Teşekkür ederim.,
-10FC01CF4ADB85F4A74F9BB3DF8E023C,CinematicNode_Response_42,"Co tu się dzieje?! Goście się skarżą i widzę, że jest na co.",Burada neler oluyor?! Konuklar şikayet ediyor ve sebebini görüyorum.,
-2CFBD73445727DFFBF950B94DE551EAC,CinematicNode_Response_42,Kończymy tę katastrofę.,Bu felaketi sonlandırıyoruz.,
-8A1C2E1947454370D13BA9B84375DE82,CinematicNode_Response_43,"Zaraz, to o panu Puchalski mówił.","Dur bir dakika, Puchalski sizi anlatıyormuş.",
-B33D3DDC4813FD44C53C4E96518C7C29,CinematicNode_Response_43,Co takiego mówił?,Ne söyledi?,
-DD273394485F8D8B999E639F5200FA93,CinematicNode_Response_43,"Żeś pan cham, awanturnik i szkodnik. Idziemy!","Bayım sizin hödük, kavgacı ve zararlı olduğunuzu. Gidiyoruz!",
-DB373B00483FBD073DBA87A82C5F4475,CinematicNode_Response_44,"Pan z książką wyjdzie sam, czy mamy wyprowadzić?",Kitaplı beyefendi kendi başına mı çıkacak yoksa çıkaralım mı?,
-7AF5EDB046D2D9DE14672A8114A6593D,CinematicNode_Response_45,Będzie mnie pan musiał stąd wyprowadzić.,Beni buradan çıkarmak zorunda kalacaksınız.,
-96A58F3346004C5558C22C8E92900789,CinematicNode_Response_45,"Miałem nadzieję, że to powiesz, księgarzu.","Böyle demeni umuyordum, kitapçı.",
-AFDF7FF043860C9A3EB9FABF948D3B4C,CinematicNode_Response_46,"Nie trzeba, trafię do drzwi.",Gerek yok; kapıyı bulurum.,
-DB7524294CCE4EF1224423A9F3C332A5,CinematicNode_Response_46,"Madame, szanowni goście.","Madame, saygıdeğer konuklar.",
-D84E4371496B3B7C2487D3A742C36F77,CinematicNode_Response_47,Dopuść do siebie myśl o byciu wolną. Wreszcie.,Özgür olma düşüncesini içine al. Nihayet.,
-4463A20A4EF576C931F0528BDD014753,CinematicNode_Response_47,"Ani twój ojciec, ani otoczenie cię nie definiują.",Seni ne baban ne de çevren tanımlar.,
-3826FAD64C2FB39E9A20368A0B4FD6B3,CinematicNode_Response_48,Muszę się wytłumaczyć. To ja sprowokowałem całą sytuację.,Açıklamam gerek. Tüm bu durumu ben tetikledim.,
-010007084C22AFF1FC3BB9AC124BA30D,CinematicNode_Response_49,"Proszę się nie martwić, od teraz wszystko będzie dobrze.","Merak etmeyin, bundan sonra her şey yoluna girecek.",
-99E78A694D0350962E27C3A958D90046,CinematicNode_Response_49,Dobrze? Chyba przespał pan ostatni kwadrans.,İyi mi? Son çeyrek saati uyuklamışsınız galiba.,
-771FE51D46D118FC2C43D2AA4D18175C,CinematicNode_Response_49,"Zofia, posłuchaj. Uwolniłem cię od Skazy, która...","Zofia, dinle. Seni Kusur'dan kurtardım, ki...",
-EC435F5347BDE641FDDD2E8BC435070B,CinematicNode_Response_50,"Co to za brednie o jakiejś ""Skazie"", drogi panie?","Ne saçmalıyorsunuz şu ""Kusur"" denen şeyle sevgili beyim?",
-7C22838248FBB2467FDFC3812A00A580,CinematicNode_Response_50,"Sprowokował mnie pan do wybuchu, a teraz się wykręca? Z pana to dobry intrygant!",Beni patlatacak şekilde kışkırttınız; şimdi de kaçamak yapıyorsunuz? Siz iyi bir entrikacısınız!,
-C4A2CAC5417D5096767AF79BDFC50420,CinematicNode_Response_51,"Z własnych, nieprzymuszonych pobudek.",Kendi serbest iradesiyle.,
-E9500C0342271B6ADB77EBBDD456BF59,CinematicNode_Response_51,"Szukałem tu czegoś i to znalazłem. Przykro mi, że cudzym kosztem.","Burada bir şey arıyordum ve buldum. Başkalarının pahasına olduğu için üzgünüm.",
-D46EA9BA419E9FC38BCAF29A7C4B8561,CinematicNode_Response_51,Wystarczy rzewnego gadania.,Duygusal gevezeliği bırakın.,
-642D4CD74D94E0630A04B49220ECEC83,CinematicNode_Response_52,"Jestem częścią tej socjety, tak samo jak wy.",Sizin kadar ben de bu sosyetenin parçasıyım.,
-C212423C458F7AED6F342BAB20DC4882,CinematicNode_Response_52,"Czyżby intrygi nie bawiły was, kiedy nagle to wy jesteście ich celem?",Aniden hedefi siz olduğunuzda entrikalar sizi eğlendirmiyor mu?,
-5A3585B043BA7DB76BD9C5B39A081EB3,CinematicNode_Response_52,Zniszczyłeś mnie w imię dobrej zabawy?,İyi eğlence adına beni mahvettin mi?,
-29DE555E4E2C026AC702F99972BB08E0,CinematicNode_Response_52,"Zosiu, nie wszystko kręci się wokół ciebie.","Zosia, her şey senin etrafında dönmüyor.",
-FB00FD2E47CEE99492B71B92ED16F847,CinematicNode_Response_52,Jak śmiesz!,Nasıl cüret edersin!,
-25B3604F4E17C4ADC6214EA2D3F51EF3,CinematicNode_Response_52,"Panienko, z przyjemnością wyjaśnimy to na podjeździe.","Küçük hanım, bunu araba yolunda seve seve açıklarız.",
-90D97FD54AA96AC4AD089C818CBC6781,CinematicNode_Response_53,Siergiej nie miał z tym nic wspólnego.,Siergiej'in bununla hiçbir ilgisi yoktu.,
-7D70474B4871C8512865E89C21DFA08C,CinematicNode_Response_54,Zofia nie miała z tym nic wspólnego.,Zofia'nın bununla hiçbir ilgisi yoktu.,
-A7F27D764F710137B12EFBAFF15A79BC,CinematicNode_Response_55,Ale po co to wszystko?,Ama neden tüm bunlar?,
-0CB07BB04BCA32680D6100AD5789A1E7,CinematicNode_Response_56,Chwileczkę. Najpierw pan Szulski się wytłumaczy.,Bir dakika. Önce Pan Szulski açıklama yapsın.,
-A5A1288545427ADF5B5F3CB1DBCD7797,CinematicNode_Response_57,Wszyscy słyszeli te okropności z moich ust. Tego już nie odczynię.,Herkes bu dehşetleri benim ağzımdan duydu. Bunu geri alamam artık.,
-418C86ED4CA64AF240EA99B58AB1B91C,CinematicNode_Response_57,Ale masz rację. Uwolniłeś mnie.,Ama haklısın. Beni özgür kıldın.,
-C03FEB494A7C12025E0FFB9661D5C523,CinematicNode_Response_58,"Przykro mi, że duma Siergieja ucierpiała. Nie byłam dla niego dobra.",Siergiej'in gururunun zedelendiği için üzgünüm. Ona iyi davranmadım.,
-A5A9C0934FAE2A9590D89BA3BD970D18,CinematicNode_Response_58,Nie byłam sobą.,Kendimde değildim.,
-5F2946304A8E4BBDEF6B41BEB0B0301F,CinematicNode_Response_59,Co teraz zrobisz?,Şimdi ne yapacaksın?,
-B00966244FCCDA37BD579ABEA68956A4,CinematicNode_Response_59,Najpierw przeproszę Siergieja. Byłam dla niego okrutna.,Önce Siergiej'den özür dileyeceğim. Ona zalim davrandım.,
-763596274F2E1C2D6EBAF5ACE9F1F20E,CinematicNode_Response_60,"Żegnaj, Wiktorze Szulski.","Elveda, Wiktor Szulski.",
-1FDA5BB14C69F633B6AFCE8E8D86DF18,CinematicNode_Response_60,Do zobaczenia.,Görüşürüz.,
-238A7F764AB98CC9AE95E8B19609FAD8,CinematicNode_Response_60,"Nie, raczej nie.","Hayır, pek sanmam.",
-1BA3591F46B70B0DEED5FFADF669C95C,CinematicNode_Response_61,"Wiem, co to znaczy żyć w cieniu ojca. Ale mam to już za sobą.",Babanın gölgesinde yaşamak ne demek biliyorum. Ama artık geride bıraktım.,
-A98DE2794961791C961DADB2FD895B0F,CinematicNode_Response_61,Co zrobiłeś?,Ne yaptın?,
-6B62A55B447C549CC0F58A9580515503,CinematicNode_Response_62,...,...,
-7E81F89A407FBDA6DC9334AD943E8552,CinematicNode_Response_63,"Spotkałem kogoś, kto pomógł mi odczynić błędy, które popełniłem przez mojego ojca.",Babam yüzünden yaptığım hataları geri almama yardım eden biriyle tanıştım.,
-14CE0ECB47D6E879FF1BC2B03A445EBC,CinematicNode_Response_63,"Brzmi, jakby ten ktoś był ci bardzo drogi.",O biri sana çok değerliymiş gibi duruyor.,
-14F485EA470804073A8ACDBBC0CD9C59,CinematicNode_Response_64,Umarł - i problem zniknął.,Öldü — ve sorun ortadan kalktı.,
-59C1DF6549E1A25EBB2F8CB43370BDDD,CinematicNode_Response_64,"Panie Szulski, bez takich żartów.","Pan Szulski, böyle şaka yapmayın.",
+"Hash","NodeName","PL","TR","Notes"
+"C82D00DE402E3A32C8E4B39568AAFE86","CinematicNode_Choice_10","Zapytaj, co teraz zamierza.","Şimdi ne yapmaya niyetli olduğunu sor.",""
+"088B28404886EF43689F62B4887A74C3","CinematicNode_Choice_10","Powiedz, że twój ojciec też był trudny.","Babanın da zor olduğunu söyle.",""
+"025A112545AD00C0D83DB3A01ED3B0DF","CinematicNode_Choice_10","Nic nie mów.","Bir şey söyleme.",""
+"F674243D41032C91C03E3AA0043B4109","CinematicNode_Choice_11","Powiedz, że znalazłeś swój sposób na życie.","Hayata dair kendi yöntemini bulduğunu söyle.",""
+"F919A21448A8B92B9EF7B78F54A5C988","CinematicNode_Choice_11","Przyznaj, że ojciec umarł.","Babanın öldüğünü söyle.",""
+"F7074F4A4EC06797751025ABFFE8EF57","CinematicNode_Choice_6","Przeproś Siergieja.","Siergiej'den özür dile.",""
+"2C22E22443303B754122A980709CFDDD","CinematicNode_Choice_6","Podaruj Zofii spokój.","Zofia'ya huzur bağışla.",""
+"DF9ADEB24CE3E237DE7079AB967ED020","CinematicNode_Choice_6","Przyznaj wszystkim, że to przez ciebie.","Herkese bunun senin yüzünden olduğunu itiraf et.",""
+"B3E023FF4318ABEA1EBFDB870392A5A8","CinematicNode_Choice_6","Powiedz, że to przez Skazę Zofii.","Zofia'nın Kusur'u yüzünden olduğunu söyle.",""
+"64AFCAD649260C280D4A3D994FEFEA4F","CinematicNode_Choice_7","Spraw, żeby ci zaufał.","Sana güvenmesini sağla.",""
+"F755E0BA4ABBCE2FC211308D52067CD3","CinematicNode_Choice_7","Zrezygnuj. Nie zatrzymasz go.","Vazgeç. Onu tutamazsın.",""
+"296016B44F1CA3FDD25F2DADEF570543","CinematicNode_Choice_8","Nie sprawiaj im problemów.","Onlara sorun çıkarma.",""
+"48A1D52D45693D2DEB23B1B950CD2AAF","CinematicNode_Choice_8","Powiedz, że mogą spróbować.","Deneyebileceklerini söyle.",""
+"133083ED4BB85763EBE2D699FF441268","CinematicNode_Choice_9","Powiedz, że miałeś swoje powody.","Kendi nedenlerin olduğunu söyle.",""
+"0CC845EE4D04F9DAFC4BB4B37B7A170B","CinematicNode_Choice_9","Obróć to przeciwko socjecie i Zofii.","Bunu sosyeteye ve Zofia'ya karşı çevir.",""
+"054DA40049F97ACA5026D7896C6BA786","CinematicNode_Response_33","Drodzy państwo, duchy, jak widać, były dziś wyjątkowo niespokojne.","Saygıdeğer hazırun, ruhlar, gördüğünüz gibi, bugün olağandışı bir biçimde huzursuzdu.",""
+"10A559164F74770E84DAC68111A5C0EF","CinematicNode_Response_34","A pan co nam powie?","Ya siz bize ne söyleyeceksiniz?",""
+"0C57321F4AA0EC8C4B030FBD0DE0D79E","CinematicNode_Response_35","Mnie ""duchy"" powiedziały już wszystko, co powinienem usłyszeć.","Bana ""ruhlar"" duymam gereken her şeyi çoktan söyledi.",""
+"9375F47343E51506A1C2F9A9B57D53C2","CinematicNode_Response_35","...","…",""
+"2AF226044FE41DB30AAF538698A55EE8","CinematicNode_Response_36","Panno Zofio, czy wszystko w porządku?","Küçük hanım Zofia, her şey yolunda mı?",""
+"F2B72148402B07A9A346D48AB9E5FFA0","CinematicNode_Response_36","...","…",""
+"7D819589410A8631E777909C92695264","CinematicNode_Response_37","Siergiej, proszę zaczekać.","Siergiej, lütfen bekleyin.",""
+"7F3A507A40DE9236257009938E22696F","CinematicNode_Response_37","Panie Szulski, dżentelmen może znieść tylko pewną liczbę upokorzeń. Ja wyczerpałem już swój limit.","Pan Szulski, bir beyefendi ancak belirli sayıda küçük düşmeye tahammül edebilir. Ben kotamı doldurdum.",""
+"9343B4C74D39A85EF961448B7005E121","CinematicNode_Response_37","Winszuję wam obojgu.","Her ikinize de tebrikler.",""
+"E5EEE2E94F2E7ED11C48909FED623402","CinematicNode_Response_38","Zofia...?","Zofia…?",""
+"808E58A041343FB2DDBE8C91B154E078","CinematicNode_Response_38","Podobało się panu widowisko? Moje najlepsze do tej pory...","Gösteri hoşunuza gitti mi? Bugüne kadarki en iyim…",""
+"C00E3B0849EA2AF0F5F514A17868C07D","CinematicNode_Response_38","To teraz jest chyba pora na brawa?","Şimdi alkış zamanı herhalde?",""
+"6DAE4A654970C2E6AAA0E38C82DB110D","CinematicNode_Response_39","Widzę, że pana nie przekonam.","Sizi ikna edemeyeceğimi görüyorum.",""
+"AF7A50F541C9D431395D6EA5F53F159A","CinematicNode_Response_40","Pan mi teraz zaufa. Nie jestem pańskim rywalem.","Şimdi bana güveneceksiniz. Ben sizin rakibiniz değilim.",""
+"87675D2A4D2F95B9B97A5C997626C833","CinematicNode_Response_40","Nie miałem zamiaru pana ośmieszać. Użyłem pana tylko do swoich celów.","Sizi rezil etmeye niyetim yoktu. Sizi sadece kendi amaçlarım için kullandım.",""
+"4AB08F8C4441762FD030FA93F2EF3752","CinematicNode_Response_40","To bardzo modne w tym towarzystwie.","Bu topluluk için çok moda bir şey.",""
+"FBA4D59742C36C641548258FCBEB9FB3","CinematicNode_Response_41","Pozwól. Odprowadzę cię do dorożki.","İzin ver. Seni faytona kadar geçireyim.",""
+"5D58E84042BFB180F8DEE5A00514B692","CinematicNode_Response_41","Dziękuję.","Teşekkür ederim.",""
+"10FC01CF4ADB85F4A74F9BB3DF8E023C","CinematicNode_Response_42","Co tu się dzieje?! Goście się skarżą i widzę, że jest na co.","Burada neler oluyor?! Konuklar şikayet ediyor ve sebebini görüyorum.",""
+"2CFBD73445727DFFBF950B94DE551EAC","CinematicNode_Response_42","Kończymy tę katastrofę.","Bu felaketi sonlandırıyoruz.",""
+"8A1C2E1947454370D13BA9B84375DE82","CinematicNode_Response_43","Zaraz, to o panu Puchalski mówił.","Dur bir dakika, Puchalski sizi anlatıyormuş.",""
+"B33D3DDC4813FD44C53C4E96518C7C29","CinematicNode_Response_43","Co takiego mówił?","Ne söyledi?",""
+"DD273394485F8D8B999E639F5200FA93","CinematicNode_Response_43","Żeś pan cham, awanturnik i szkodnik. Idziemy!","Bayım sizin hödük, kavgacı ve zararlı olduğunuzu. Gidiyoruz!",""
+"DB373B00483FBD073DBA87A82C5F4475","CinematicNode_Response_44","Pan z książką wyjdzie sam, czy mamy wyprowadzić?","Kitaplı beyefendi kendi başına mı çıkacak yoksa çıkaralım mı?",""
+"7AF5EDB046D2D9DE14672A8114A6593D","CinematicNode_Response_45","Będzie mnie pan musiał stąd wyprowadzić.","Beni buradan çıkarmak zorunda kalacaksınız.",""
+"96A58F3346004C5558C22C8E92900789","CinematicNode_Response_45","Miałem nadzieję, że to powiesz, księgarzu.","Böyle demeni umuyordum, kitapçı.",""
+"AFDF7FF043860C9A3EB9FABF948D3B4C","CinematicNode_Response_46","Nie trzeba, trafię do drzwi.","Gerek yok; kapıyı bulurum.",""
+"DB7524294CCE4EF1224423A9F3C332A5","CinematicNode_Response_46","Madame, szanowni goście.","Madame, saygıdeğer konuklar.",""
+"D84E4371496B3B7C2487D3A742C36F77","CinematicNode_Response_47","Dopuść do siebie myśl o byciu wolną. Wreszcie.","Özgür olma düşüncesini içine al. Nihayet.",""
+"4463A20A4EF576C931F0528BDD014753","CinematicNode_Response_47","Ani twój ojciec, ani otoczenie cię nie definiują.","Seni ne baban ne de çevren tanımlar.",""
+"3826FAD64C2FB39E9A20368A0B4FD6B3","CinematicNode_Response_48","Muszę się wytłumaczyć. To ja sprowokowałem całą sytuację.","Açıklamam gerek. Tüm bu durumu ben tetikledim.",""
+"010007084C22AFF1FC3BB9AC124BA30D","CinematicNode_Response_49","Proszę się nie martwić, od teraz wszystko będzie dobrze.","Merak etmeyin, bundan sonra her şey yoluna girecek.",""
+"99E78A694D0350962E27C3A958D90046","CinematicNode_Response_49","Dobrze? Chyba przespał pan ostatni kwadrans.","İyi mi? Son çeyrek saati uyuklamışsınız galiba.",""
+"771FE51D46D118FC2C43D2AA4D18175C","CinematicNode_Response_49","Zofia, posłuchaj. Uwolniłem cię od Skazy, która...","Zofia, dinle. Seni Kusur'dan kurtardım, ki…",""
+"EC435F5347BDE641FDDD2E8BC435070B","CinematicNode_Response_50","Co to za brednie o jakiejś ""Skazie"", drogi panie?","Ne saçmalıyorsunuz şu ""Kusur"" denen şeyle sevgili beyim?",""
+"7C22838248FBB2467FDFC3812A00A580","CinematicNode_Response_50","Sprowokował mnie pan do wybuchu, a teraz się wykręca? Z pana to dobry intrygant!","Beni patlatacak şekilde kışkırttınız; şimdi de kaçamak yapıyorsunuz? Siz iyi bir entrikacısınız!",""
+"C4A2CAC5417D5096767AF79BDFC50420","CinematicNode_Response_51","Z własnych, nieprzymuszonych pobudek.","Kendi serbest iradesiyle.",""
+"E9500C0342271B6ADB77EBBDD456BF59","CinematicNode_Response_51","Szukałem tu czegoś i to znalazłem. Przykro mi, że cudzym kosztem.","Burada bir şey arıyordum ve buldum. Başkalarının pahasına olduğu için üzgünüm.",""
+"D46EA9BA419E9FC38BCAF29A7C4B8561","CinematicNode_Response_51","Wystarczy rzewnego gadania.","Duygusal gevezeliği bırakın.",""
+"642D4CD74D94E0630A04B49220ECEC83","CinematicNode_Response_52","Jestem częścią tej socjety, tak samo jak wy.","Sizin kadar ben de bu sosyetenin parçasıyım.",""
+"C212423C458F7AED6F342BAB20DC4882","CinematicNode_Response_52","Czyżby intrygi nie bawiły was, kiedy nagle to wy jesteście ich celem?","Aniden hedefi siz olduğunuzda entrikalar sizi eğlendirmiyor mu?",""
+"5A3585B043BA7DB76BD9C5B39A081EB3","CinematicNode_Response_52","Zniszczyłeś mnie w imię dobrej zabawy?","İyi eğlence adına beni mahvettin mi?",""
+"29DE555E4E2C026AC702F99972BB08E0","CinematicNode_Response_52","Zosiu, nie wszystko kręci się wokół ciebie.","Zosia, her şey senin etrafında dönmüyor.",""
+"FB00FD2E47CEE99492B71B92ED16F847","CinematicNode_Response_52","Jak śmiesz!","Nasıl cüret edersin!",""
+"25B3604F4E17C4ADC6214EA2D3F51EF3","CinematicNode_Response_52","Panienko, z przyjemnością wyjaśnimy to na podjeździe.","Küçük hanım, bunu araba yolunda seve seve açıklarız.",""
+"90D97FD54AA96AC4AD089C818CBC6781","CinematicNode_Response_53","Siergiej nie miał z tym nic wspólnego.","Siergiej'in bununla hiçbir ilgisi yoktu.",""
+"7D70474B4871C8512865E89C21DFA08C","CinematicNode_Response_54","Zofia nie miała z tym nic wspólnego.","Zofia'nın bununla hiçbir ilgisi yoktu.",""
+"A7F27D764F710137B12EFBAFF15A79BC","CinematicNode_Response_55","Ale po co to wszystko?","Ama neden tüm bunlar?",""
+"0CB07BB04BCA32680D6100AD5789A1E7","CinematicNode_Response_56","Chwileczkę. Najpierw pan Szulski się wytłumaczy.","Bir dakika. Önce Pan Szulski açıklama yapsın.",""
+"A5A1288545427ADF5B5F3CB1DBCD7797","CinematicNode_Response_57","Wszyscy słyszeli te okropności z moich ust. Tego już nie odczynię.","Herkes bu dehşetleri benim ağzımdan duydu. Bunu geri alamam artık.",""
+"418C86ED4CA64AF240EA99B58AB1B91C","CinematicNode_Response_57","Ale masz rację. Uwolniłeś mnie.","Ama haklısın. Beni özgür kıldın.",""
+"C03FEB494A7C12025E0FFB9661D5C523","CinematicNode_Response_58","Przykro mi, że duma Siergieja ucierpiała. Nie byłam dla niego dobra.","Siergiej'in gururunun zedelendiği için üzgünüm. Ona iyi davranmadım.",""
+"A5A9C0934FAE2A9590D89BA3BD970D18","CinematicNode_Response_58","Nie byłam sobą.","Kendimde değildim.",""
+"5F2946304A8E4BBDEF6B41BEB0B0301F","CinematicNode_Response_59","Co teraz zrobisz?","Şimdi ne yapacaksın?",""
+"B00966244FCCDA37BD579ABEA68956A4","CinematicNode_Response_59","Najpierw przeproszę Siergieja. Byłam dla niego okrutna.","Önce Siergiej'den özür dileyeceğim. Ona zalim davrandım.",""
+"763596274F2E1C2D6EBAF5ACE9F1F20E","CinematicNode_Response_60","Żegnaj, Wiktorze Szulski.","Elveda, Wiktor Szulski.",""
+"1FDA5BB14C69F633B6AFCE8E8D86DF18","CinematicNode_Response_60","Do zobaczenia.","Görüşürüz.",""
+"238A7F764AB98CC9AE95E8B19609FAD8","CinematicNode_Response_60","Nie, raczej nie.","Hayır, pek sanmam.",""
+"1BA3591F46B70B0DEED5FFADF669C95C","CinematicNode_Response_61","Wiem, co to znaczy żyć w cieniu ojca. Ale mam to już za sobą.","Babanın gölgesinde yaşamak ne demek biliyorum. Ama artık geride bıraktım.",""
+"A98DE2794961791C961DADB2FD895B0F","CinematicNode_Response_61","Co zrobiłeś?","Ne yaptın?",""
+"6B62A55B447C549CC0F58A9580515503","CinematicNode_Response_62","...","…",""
+"7E81F89A407FBDA6DC9334AD943E8552","CinematicNode_Response_63","Spotkałem kogoś, kto pomógł mi odczynić błędy, które popełniłem przez mojego ojca.","Babam yüzünden yaptığım hataları geri almama yardım eden biriyle tanıştım.",""
+"14CE0ECB47D6E879FF1BC2B03A445EBC","CinematicNode_Response_63","Brzmi, jakby ten ktoś był ci bardzo drogi.","O biri sana çok değerliymiş gibi duruyor.",""
+"14F485EA470804073A8ACDBBC0CD9C59","CinematicNode_Response_64","Umarł - i problem zniknął.","Öldü — ve sorun ortadan kalktı.",""
+"59C1DF6549E1A25EBB2F8CB43370BDDD","CinematicNode_Response_64","Panie Szulski, bez takich żartów.","Pan Szulski, böyle şaka yapmayın.",""

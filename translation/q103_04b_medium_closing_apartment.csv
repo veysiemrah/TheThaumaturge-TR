@@ -1,17 +1,17 @@
-Hash,NodeName,PL,TR,Notes
-388810524FFC6053165D59BEC128CB09,CinematicNode_Choice_1,Obejrzyj kartę.,Kartı incele.,
-75D04A294B9B522A02E01C8FB385D76F,CinematicNode_Choice_1,Schowaj kartę.,Kartı sakla.,
-CD77639142A2A4E397357DAE754BCA4C,CinematicNode_Response_11,"Wspaniałe damy, szanowni panowie, już czas.","Şahane hanımlar, saygıdeğer beyler, vakit geldi.",Samira medyum
-78760561432DED97B7D4439AE106EAD7,CinematicNode_Response_11,Przy stłumionym świetle i zasuniętych zasłonach dusze zmarłych powoli gromadzą się wśród nas.,Kısık ışık ve çekili perdeler altında ölülerin ruhları yavaşça aramızda toplanıyor.,
-22F9C15441D6D0DBBAED198D6B3AC0D7,CinematicNode_Response_11,"Na ich polecenie wybrani z was otrzymali ode mnie kartę tarota, która jest zaproszeniem do stołu.","Onların buyruğu üzerine, aranızdan seçilenlere benden masaya davet niteliğinde bir tarot kartı verildi.",
-3501F3C64970214EAD4F7D893A77325B,CinematicNode_Response_12,Dla pana.,Siz beyefendi için.,
-084CE78442412CB6CC94879D4BA782BF,CinematicNode_Response_13,"<i>Głupiec.</> Droga <fr>madame</> dokazuje i sądzi, że mnie onieśmieli.","<i>Ahmak.</> Saygıdeğer <fr>madame</> marifetlerini sergiliyor, beni yıldıracağını sanıyor.",Tarot Fool kartı
-96F7B68043C81C6BDD42F7B621F92C2E,CinematicNode_Response_14,Nie zamierzam tracić na to czasu.,Buna vakit harcamak niyetinde değilim.,
-DABBA89F40F54758510096AC8BAFA3A0,CinematicNode_Response_15,<i>Zbierzmy się w tajnym obrzędzie.</> Nie każmy duszom czekać zbyt długo.,<i>Gizli bir ayinde bir araya gelelim.</> Ruhları fazla bekletmeyelim.,
-773E03D241208CC4B7E8F0974C2D7576,CinematicNode_Response_16,"Oraz dołóżmy wspólnie wszelkich starań, aby nie zakłócać ich wizyty.","Ziyaretlerini aksatmamak için de hep birlikte tüm çabayı gösterelim.",
-9D0161AE4F1AF109DD95298CAAAA2F91,CinematicNode_Response_17,"[Wiktor trafia w mgnieniu oka do ciemnej przestrzeni. Na granicy wzroku rozpoznaje kolumny, obecne w salonie Swietłany.]","[Wiktor bir göz kırpmasında karanlık bir mekâna geçer. Görüşünün sınırında Swietłana'nın salonundaki sütunları seçer.]",
-D8F2AE8E4B5CD72161ADA4815D47D1DB,CinematicNode_Response_17,"[Wśród kolumn stoją jacyś ludzie, ale ich sylwetki, a przede wszystkim twarze, skąpane są w mroku.Za nimi, i za kolumnami przemyka wężowy ogon. ]","[Sütunların arasında insanlar duruyor ama silüetleri, özellikle yüzleri, karanlığa gömülmüş. Arkalarında ve sütunların ardında bir yılan kuyruğu kayıp gidiyor. ]",
-7662288B4E3300DFB4DD07A6413F8D3B,CinematicNode_Response_18,Weles.,Weles.,
-ACDC05D24BBACD28A0C8E0B1F65696B3,CinematicNode_Response_19,Znam cię... Pamiętam cię z książek... Jak się nazywasz?,"Seni tanıyorum... Kitaplardan hatırlıyorum... Adın ne?",
-46AC1AE744E312758DAB8A88E760816F,CinematicNode_Response_20,Nie uciekaj.,Kaçma.,
-353830D841552ADAB16B0B95AD7D922D,CinematicNode_Response_21,Niech no cię tylko... Rasputin zobaczy.,Bir Rasputin seni görsün... nasıl olacak bak.,
+"Hash","NodeName","PL","TR","Notes"
+"388810524FFC6053165D59BEC128CB09","CinematicNode_Choice_1","Obejrzyj kartę.","Kartı incele.",""
+"75D04A294B9B522A02E01C8FB385D76F","CinematicNode_Choice_1","Schowaj kartę.","Kartı sakla.",""
+"CD77639142A2A4E397357DAE754BCA4C","CinematicNode_Response_11","Wspaniałe damy, szanowni panowie, już czas.","Şahane hanımlar, saygıdeğer beyler, vakit geldi.","Samira medyum"
+"78760561432DED97B7D4439AE106EAD7","CinematicNode_Response_11","Przy stłumionym świetle i zasuniętych zasłonach dusze zmarłych powoli gromadzą się wśród nas.","Kısık ışık ve çekili perdeler altında ölülerin ruhları yavaşça aramızda toplanıyor.",""
+"22F9C15441D6D0DBBAED198D6B3AC0D7","CinematicNode_Response_11","Na ich polecenie wybrani z was otrzymali ode mnie kartę tarota, która jest zaproszeniem do stołu.","Onların buyruğu üzerine, aranızdan seçilenlere benden masaya davet niteliğinde bir tarot kartı verildi.",""
+"3501F3C64970214EAD4F7D893A77325B","CinematicNode_Response_12","Dla pana.","Siz beyefendi için.",""
+"084CE78442412CB6CC94879D4BA782BF","CinematicNode_Response_13","<i>Głupiec.</> Droga <fr>madame</> dokazuje i sądzi, że mnie onieśmieli.","<i>Ahmak.</> Saygıdeğer <fr>madame</> marifetlerini sergiliyor, beni yıldıracağını sanıyor.","Tarot Fool kartı"
+"96F7B68043C81C6BDD42F7B621F92C2E","CinematicNode_Response_14","Nie zamierzam tracić na to czasu.","Buna vakit harcamak niyetinde değilim.",""
+"DABBA89F40F54758510096AC8BAFA3A0","CinematicNode_Response_15","<i>Zbierzmy się w tajnym obrzędzie.</> Nie każmy duszom czekać zbyt długo.","<i>Gizli bir ayinde bir araya gelelim.</> Ruhları fazla bekletmeyelim.",""
+"773E03D241208CC4B7E8F0974C2D7576","CinematicNode_Response_16","Oraz dołóżmy wspólnie wszelkich starań, aby nie zakłócać ich wizyty.","Ziyaretlerini aksatmamak için de hep birlikte tüm çabayı gösterelim.",""
+"9D0161AE4F1AF109DD95298CAAAA2F91","CinematicNode_Response_17","[Wiktor trafia w mgnieniu oka do ciemnej przestrzeni. Na granicy wzroku rozpoznaje kolumny, obecne w salonie Swietłany.]","[Wiktor bir göz kırpmasında karanlık bir mekâna geçer. Görüşünün sınırında Swietłana'nın salonundaki sütunları seçer.]",""
+"D8F2AE8E4B5CD72161ADA4815D47D1DB","CinematicNode_Response_17","[Wśród kolumn stoją jacyś ludzie, ale ich sylwetki, a przede wszystkim twarze, skąpane są w mroku.Za nimi, i za kolumnami przemyka wężowy ogon. ]","[Sütunların arasında insanlar duruyor ama silüetleri, özellikle yüzleri, karanlığa gömülmüş. Arkalarında ve sütunların ardında bir yılan kuyruğu kayıp gidiyor. ]",""
+"7662288B4E3300DFB4DD07A6413F8D3B","CinematicNode_Response_18","Weles.","Weles.",""
+"ACDC05D24BBACD28A0C8E0B1F65696B3","CinematicNode_Response_19","Znam cię... Pamiętam cię z książek... Jak się nazywasz?","Seni tanıyorum… Kitaplardan hatırlıyorum… Adın ne?",""
+"46AC1AE744E312758DAB8A88E760816F","CinematicNode_Response_20","Nie uciekaj.","Kaçma.",""
+"353830D841552ADAB16B0B95AD7D922D","CinematicNode_Response_21","Niech no cię tylko... Rasputin zobaczy.","Bir Rasputin seni görsün… nasıl olacak bak.",""

@@ -1,56 +1,56 @@
-Hash,NodeName,PL,TR,Notes
-D29B9A504AF74A4509F747AC7E53AEC1,CinematicNode_Choice_3,"Odejdź, wystarczy już tych pożegnań.","Uzaklaş, vedalar yeter artık.",
-51530D0F4CDF31BCFFADBBAB5D39D423,CinematicNode_Choice_3,Odczytaj nekrolog.,Taziye ilanını oku.,
-CA097E544378BA2F6258A9B4849FF596,CinematicNode_Choice_3,Pożegnaj się szczerze.,Gönülden vedalaş.,
-120B8C734F1D83BA92CC75B2C672A1C7,CinematicNode_Choice_3,"Wspomnij sen, który miałeś po hipnozie Rasputina.",Rasputin'in hipnozundan sonra gördüğün rüyayı an.,
-6B2F154648BE4B9BB7EBCAA15C6F5D48,CinematicNode_Choice_4,"Powiedz, że zakłócił ci moment osobistej zadumy.",Özel tefekkür anını böldüğünü söyle.,
-F7EBEA9646602C141202979876DE7157,CinematicNode_Choice_4,"Zapytaj, od kiedy podsłuchiwał.",Ne zamandır kulak misafiri olduğunu sor.,
-2F6CC1BA46A39CB703F4309987EBF326,CinematicNode_Choice_4,"Dowiedz się, czego on chce.",Ne istediğini öğren.,
-D9009F994916D08825BBF68D128C5C40,CinematicNode_Choice_5,"Przyznaj, że jeszcze nie zdecydowałeś.",Henüz karar vermediğini söyle.,
-754CF4E1491CD19BDC2E41B9A35D626C,CinematicNode_Choice_5,"Powiedz, że nie zamierzasz zabawiać tu zbyt długo.",Burada fazla oyalanmaya niyetin olmadığını söyle.,
-6056B86E4851C3749F30CDAC7F7FDA13,CinematicNode_Choice_5,"Zauważ, że to nie jego sprawa.",Bunun onu ilgilendirmediğini belirt.,
-6F97C8724143674B0CF426874B34B8AD,CinematicNode_Response_16,"Żałuję, że nie zdążyłem ci powiedzieć w twarz tylu rzeczy.","Sana yüzüne söyleyemediğim bir sürü şey için üzgünüm.",Wiktor babasına veda
-9873B9B249765D996F31D6B685002ED1,CinematicNode_Response_16,Powtarzałem je sobie w głowie przez te wszystkie lata.,Onca yıl onları kafamda tekrar edip durdum.,
-B87654C049CCC88BE02435BE2B3350F1,CinematicNode_Response_16,"Jak nigdy nie potrafiłeś przyznać się do błędu. Nigdy nie szukałeś winy w sobie. Zawsze winny był ktoś, nigdy ty.","Asla hatanı kabul edemezdin. Kendinde kusur aramazdın. Hep başkası suçluydu, asla sen değil.",
-FA891D0A4F02D82884A3ADA725187A6B,CinematicNode_Response_16,"Matka, bo chciała mieć z życia coś dla siebie. Ligia, bo nie urodziła się chłopcem.","Annem, hayattan kendine bir şey isteği için. Ligia, erkek doğmadığı için.",
-73DCC23C43B5F8CB72CE31AD70AFE07D,CinematicNode_Response_16,"Ja. Bo urodziłem się thaumaturgiem, ale nie chciałem żyć według twoich zasad.","Ben. Çünkü tılsımkâr doğdum ama senin kurallarına göre yaşamak istemedim.",
-4EF87DAD419BFA316A456B826AA5DDC0,CinematicNode_Response_16,A teraz...?,Ya şimdi...?,
-582703A74FCC7BCE26E0B0B5A8C90B76,CinematicNode_Response_17,"""...po krótkim cierpieniu, zasnął w Bogu...""","""...kısa bir ıstırabın ardından, Rabbinin huzurunda uyudu...""",Taziye ilanı formel dil
-F666D91E454D6E5F799AE38A6B7C76D3,CinematicNode_Response_17,"""Krótkim...""? Mam nadzieję, że nie.","""Kısa...""? Umarım değildir.",
-521166184F07BA174674D4A9479E0516,CinematicNode_Response_17,Sam to pisałeś?,Bunu kendin mi yazdın?,
-340E3A1240D6B640AB93A996CECC623F,CinematicNode_Response_17,"""Omyłkowo rozgrzeszony, po zbyt krótkim cierpieniu, umarł tyran, bigot i kłamca...""","""Yanlışlıkla bağışlanmış, fazlasıyla kısa bir ıstırabın ardından, öldü tiran, bağnaz ve yalancı...""",Wiktor'un kendi yazdığı alternatif
-E9017BA742786CE9CB2F4699A040C5F2,CinematicNode_Response_17,Tak lepiej. A na pewno prawdziwiej.,Böyle daha iyi. En azından daha doğru.,
-26D1C37948E56AD6FDB286ABEEC423CC,CinematicNode_Response_18,Ostatecznie to ja miałem rację...,Sonuç itibarıyla haklı olan bendim...,
-DF80CA644F98703D3485F2BE872D4CB6,CinematicNode_Response_18,"Wtedy, na peronie, widzieliśmy się po raz ostatni. Piętnaście lat temu.","O zaman peronda son kez görüşmüştük. On beş yıl önce.",
-669A7E1C4C17DFFC85756AB78B33ECA3,CinematicNode_Response_19,"Żegnaj, ojcze.","Elveda, baba.",
-5DC9B682411F2C8DA70504AE534A4D46,CinematicNode_Response_19,Przeszkadzam?,Rahatsız mı ediyorum?,Konieczkin giriş
-A91DF7BF4C6C4D47CA1C5B9BEE411DBF,CinematicNode_Response_20,Dumałem nad grobem kochanego ojca.,Sevgili babamın mezarı başında tefekküre dalmıştım.,
-39B51BBE4F0D7C294D2337BE9A33EFEE,CinematicNode_Response_21,Długo pan tak podsłuchuje?,Ne zamandır böyle kulak misafiri oluyorsunuz?,
-B94FFC7F4C0288BDEE1EBEB8B23A5F2C,CinematicNode_Response_21,Całe moje życie.,Hayatım boyunca.,Konieczkin kara esprisi
-2EF2D19446CB5D2C643EAEB8C4801072,CinematicNode_Response_22,"Znaliśmy się ze Stanisławem. Można powiedzieć, że wiedziałem wszystko o pańskim ojcu. Pan Wiktor, prawda?","Stanisław ile tanışırdık. Babanız hakkında her şeyi bildiğim söylenebilir. Pan Wiktor, değil mi?",
-1C92C21E40798CB75C8807A7B70A7172,CinematicNode_Response_22,"Pańska absencja w Warszawie szczęśliwie dobiegła końca, mam nadzieję?","Varşova'daki yokluğunuz mutlu bir sonuca erdi, umarım?",
-A6C7E0CE456C604D4C968D85E6E16935,CinematicNode_Response_23,W dniu twojej śmierci odwiedziłeś mnie we śnie...,Öldüğün gün rüyamda beni ziyaret ettin...,Wiktor babasına döner
-DDC3C008422F0CFA3612B4B5C4938BE7,CinematicNode_Response_23,"Byłem dzieckiem, kiedy mnie stąd wygnałeś i zapamiętałem cię takim, jakim byłeś wtedy.","Beni buradan kovduğunda çocuktum ve seni o zamanki halinle hatırlamıştım.",
-093666454B419702E5C1F88D7AD83DDD,CinematicNode_Response_23,"Ale we śnie wyglądałeś na starszego. Zrugałeś mnie, jak zwykle. Nie przewidywałeś, że mi się uda.","Ama rüyada daha yaşlı görünüyordun. Her zamanki gibi azarladın. Başaracağımı öngörmemiştin.",
-3E43E59D4FE0A21CC2E5F8BC183E4126,CinematicNode_Response_23,Myliłeś się.,Yanılmıştın.,
-758AE601405D0EA981896A9D4D1BDDFB,CinematicNode_Response_23,Wróciłem z dwoma salutorami.,İki salutor ile döndüm.,
-DFD47A07437D189ED122D1BA0FE881D1,CinematicNode_Response_24,Nie chciałem przerywać.,Bölmek istememiştim.,
-97941ED846C05E22E941E78B87961188,CinematicNode_Response_24,Mogę panu zająć chwilę?,Bir dakikanızı alabilir miyim?,
-6478773E490126B844B30C9E2AB60559,CinematicNode_Response_25,Czego pan chce?,Ne istiyorsunuz?,
-681E4B2F4266ED9DCBC01C8FFEACDC82,CinematicNode_Response_25,A po co ludzie przychodzą na pogrzeby?,Peki insanlar cenazelere ne için gelir?,
-C2719F5B4A27F743C29464A2830F6BFE,CinematicNode_Response_26,"Nabrałeś mnie, słyszałem co innego.","Beni kandırdın, ben başka bir şey duydum.",
-E07A48A1442C43C06D65DAB1AD6563A2,CinematicNode_Response_27,Przyszedłem oddać szacunek zmarłemu.,Merhum için hürmet göstermeye geldim.,
-3CFFC5A346D5F193A9A3E8BB2101E982,CinematicNode_Response_28,Jeszcze raz. Moje kondolencje.,Tekrar. Başsağlığı dilerim.,
-E4BB38D343A6EA0902ACFDAA19610382,CinematicNode_Response_28,Nie dosłyszałem pańskiego nazwiska.,Adınızı işitemedim.,
-98712A954AD24C7E4F79689557C1B1B0,CinematicNode_Response_28,Nazywam się Konieczkin. Iwan Konieczkin.,Adım Konieczkin. Iwan Konieczkin.,
-ACF9AB7F4B669851C4519F984C0DB034,CinematicNode_Response_28,Do widzenia.,Hoşça kalın.,
-8F41391A406809585209958F7EDB844A,CinematicNode_Response_28,[Po wyjściu Konieczkina Wiktor odwraca się z powrotem do urny ojca.],"[Konieczkin ayrıldıktan sonra Wiktor, babasının urnasına geri döner.]",Sahne yönergesi
-1313F94346D2351FAF18E0B2A7458687,CinematicNode_Response_28,Ciekawych miałeś przyjaciół.,İlginç arkadaşların varmış.,
-4E46C0DE4E6514E95465D8A8F034ADE6,CinematicNode_Response_28,"[Ziemia zaczyna się trząść jak wtedy, kiedy Wiktor po raz pierwszy postawił stopę na warszawskiej ziemi.]","[Wiktor Varşova topraklarına ilk ayak bastığı andaki gibi yer sarsılmaya başlar.]",Sahne yönergesi
-D70AB0C34E6AA9417D56A19E170669EF,CinematicNode_Response_28,"Chyba jestem bardziej zmęczony, niż sądziłem.",Sandığımdan daha yorgunmuşum galiba.,
-21F3067C433E31ED0B349B9EE74097DA,CinematicNode_Response_29,Nie miałem czasu się nad tym zastanowić.,Bunu düşünecek vaktim olmadı.,
-4A50FB9A4E0BD856DD6A0D9F70514631,CinematicNode_Response_29,"Rozumiem. Mam nadzieję, że znajdzie pan jakiś powód, żeby zabawić tu trochę dłużej.","Anlıyorum. Umarım burada biraz daha oyalanmak için bir sebep bulursunuz.",
-F35A76624A40BD730368F0884EAFF96F,CinematicNode_Response_30,"Raczej nie. Zamierzam wyjechać, jak tylko załatwię rodzinne zobowiązania. Chyba już nie zdążymy się spotkać.","Pek değil. Aile sorumluluklarımı halleder halletmez ayrılmaya niyetliyim. Tekrar görüşmeye vakit kalmaz sanırım.",
-5D547AE64D800B21F95B038AB3B74654,CinematicNode_Response_30,Kto wie?,Kim bilir?,
-641A3D324DF3F5B310E830BA61708C56,CinematicNode_Response_31,"Z całym szacunkiem, ale to moja osobista sprawa. Był pan znajomym mojego ojca, nie moim.","Tüm saygımla, ama bu benim şahsi meselem. Babamın tanıdığıydınız, benim değil.",
-DF5491B44663F808B917D79874EDBABE,CinematicNode_Response_31,"Rzeczywiście, proszę wybaczyć. Nie miałem złych intencji.","Gerçekten öyle, bağışlayın. Kötü niyetim yoktu.",
+"Hash","NodeName","PL","TR","Notes"
+"D29B9A504AF74A4509F747AC7E53AEC1","CinematicNode_Choice_3","Odejdź, wystarczy już tych pożegnań.","Uzaklaş, vedalar yeter artık.",""
+"51530D0F4CDF31BCFFADBBAB5D39D423","CinematicNode_Choice_3","Odczytaj nekrolog.","Taziye ilanını oku.",""
+"CA097E544378BA2F6258A9B4849FF596","CinematicNode_Choice_3","Pożegnaj się szczerze.","Gönülden vedalaş.",""
+"120B8C734F1D83BA92CC75B2C672A1C7","CinematicNode_Choice_3","Wspomnij sen, który miałeś po hipnozie Rasputina.","Rasputin'in hipnozundan sonra gördüğün rüyayı an.",""
+"6B2F154648BE4B9BB7EBCAA15C6F5D48","CinematicNode_Choice_4","Powiedz, że zakłócił ci moment osobistej zadumy.","Özel tefekkür anını böldüğünü söyle.",""
+"F7EBEA9646602C141202979876DE7157","CinematicNode_Choice_4","Zapytaj, od kiedy podsłuchiwał.","Ne zamandır kulak misafiri olduğunu sor.",""
+"2F6CC1BA46A39CB703F4309987EBF326","CinematicNode_Choice_4","Dowiedz się, czego on chce.","Ne istediğini öğren.",""
+"D9009F994916D08825BBF68D128C5C40","CinematicNode_Choice_5","Przyznaj, że jeszcze nie zdecydowałeś.","Henüz karar vermediğini söyle.",""
+"754CF4E1491CD19BDC2E41B9A35D626C","CinematicNode_Choice_5","Powiedz, że nie zamierzasz zabawiać tu zbyt długo.","Burada fazla oyalanmaya niyetin olmadığını söyle.",""
+"6056B86E4851C3749F30CDAC7F7FDA13","CinematicNode_Choice_5","Zauważ, że to nie jego sprawa.","Bunun onu ilgilendirmediğini belirt.",""
+"6F97C8724143674B0CF426874B34B8AD","CinematicNode_Response_16","Żałuję, że nie zdążyłem ci powiedzieć w twarz tylu rzeczy.","Sana yüzüne söyleyemediğim bir sürü şey için üzgünüm.","Wiktor babasına veda"
+"9873B9B249765D996F31D6B685002ED1","CinematicNode_Response_16","Powtarzałem je sobie w głowie przez te wszystkie lata.","Onca yıl onları kafamda tekrar edip durdum.",""
+"B87654C049CCC88BE02435BE2B3350F1","CinematicNode_Response_16","Jak nigdy nie potrafiłeś przyznać się do błędu. Nigdy nie szukałeś winy w sobie. Zawsze winny był ktoś, nigdy ty.","Asla hatanı kabul edemezdin. Kendinde kusur aramazdın. Hep başkası suçluydu, asla sen değil.",""
+"FA891D0A4F02D82884A3ADA725187A6B","CinematicNode_Response_16","Matka, bo chciała mieć z życia coś dla siebie. Ligia, bo nie urodziła się chłopcem.","Annem, hayattan kendine bir şey isteği için. Ligia, erkek doğmadığı için.",""
+"73DCC23C43B5F8CB72CE31AD70AFE07D","CinematicNode_Response_16","Ja. Bo urodziłem się thaumaturgiem, ale nie chciałem żyć według twoich zasad.","Ben. Çünkü tılsımkâr doğdum ama senin kurallarına göre yaşamak istemedim.",""
+"4EF87DAD419BFA316A456B826AA5DDC0","CinematicNode_Response_16","A teraz...?","Ya şimdi…?",""
+"582703A74FCC7BCE26E0B0B5A8C90B76","CinematicNode_Response_17","""...po krótkim cierpieniu, zasnął w Bogu...""","""…kısa bir ıstırabın ardından, Rabbinin huzurunda uyudu…""","Taziye ilanı formel dil"
+"F666D91E454D6E5F799AE38A6B7C76D3","CinematicNode_Response_17","""Krótkim...""? Mam nadzieję, że nie.","""Kısa…""? Umarım değildir.",""
+"521166184F07BA174674D4A9479E0516","CinematicNode_Response_17","Sam to pisałeś?","Bunu kendin mi yazdın?",""
+"340E3A1240D6B640AB93A996CECC623F","CinematicNode_Response_17","""Omyłkowo rozgrzeszony, po zbyt krótkim cierpieniu, umarł tyran, bigot i kłamca...""","""Yanlışlıkla bağışlanmış, fazlasıyla kısa bir ıstırabın ardından, öldü tiran, bağnaz ve yalancı…""","Wiktor'un kendi yazdığı alternatif"
+"E9017BA742786CE9CB2F4699A040C5F2","CinematicNode_Response_17","Tak lepiej. A na pewno prawdziwiej.","Böyle daha iyi. En azından daha doğru.",""
+"26D1C37948E56AD6FDB286ABEEC423CC","CinematicNode_Response_18","Ostatecznie to ja miałem rację...","Sonuç itibarıyla haklı olan bendim…",""
+"DF80CA644F98703D3485F2BE872D4CB6","CinematicNode_Response_18","Wtedy, na peronie, widzieliśmy się po raz ostatni. Piętnaście lat temu.","O zaman peronda son kez görüşmüştük. On beş yıl önce.",""
+"669A7E1C4C17DFFC85756AB78B33ECA3","CinematicNode_Response_19","Żegnaj, ojcze.","Elveda, baba.",""
+"5DC9B682411F2C8DA70504AE534A4D46","CinematicNode_Response_19","Przeszkadzam?","Rahatsız mı ediyorum?","Konieczkin giriş"
+"A91DF7BF4C6C4D47CA1C5B9BEE411DBF","CinematicNode_Response_20","Dumałem nad grobem kochanego ojca.","Sevgili babamın mezarı başında tefekküre dalmıştım.",""
+"39B51BBE4F0D7C294D2337BE9A33EFEE","CinematicNode_Response_21","Długo pan tak podsłuchuje?","Ne zamandır böyle kulak misafiri oluyorsunuz?",""
+"B94FFC7F4C0288BDEE1EBEB8B23A5F2C","CinematicNode_Response_21","Całe moje życie.","Hayatım boyunca.","Konieczkin kara esprisi"
+"2EF2D19446CB5D2C643EAEB8C4801072","CinematicNode_Response_22","Znaliśmy się ze Stanisławem. Można powiedzieć, że wiedziałem wszystko o pańskim ojcu. Pan Wiktor, prawda?","Stanisław ile tanışırdık. Babanız hakkında her şeyi bildiğim söylenebilir. Pan Wiktor, değil mi?",""
+"1C92C21E40798CB75C8807A7B70A7172","CinematicNode_Response_22","Pańska absencja w Warszawie szczęśliwie dobiegła końca, mam nadzieję?","Varşova'daki yokluğunuz mutlu bir sonuca erdi, umarım?",""
+"A6C7E0CE456C604D4C968D85E6E16935","CinematicNode_Response_23","W dniu twojej śmierci odwiedziłeś mnie we śnie...","Öldüğün gün rüyamda beni ziyaret ettin…","Wiktor babasına döner"
+"DDC3C008422F0CFA3612B4B5C4938BE7","CinematicNode_Response_23","Byłem dzieckiem, kiedy mnie stąd wygnałeś i zapamiętałem cię takim, jakim byłeś wtedy.","Beni buradan kovduğunda çocuktum ve seni o zamanki halinle hatırlamıştım.",""
+"093666454B419702E5C1F88D7AD83DDD","CinematicNode_Response_23","Ale we śnie wyglądałeś na starszego. Zrugałeś mnie, jak zwykle. Nie przewidywałeś, że mi się uda.","Ama rüyada daha yaşlı görünüyordun. Her zamanki gibi azarladın. Başaracağımı öngörmemiştin.",""
+"3E43E59D4FE0A21CC2E5F8BC183E4126","CinematicNode_Response_23","Myliłeś się.","Yanılmıştın.",""
+"758AE601405D0EA981896A9D4D1BDDFB","CinematicNode_Response_23","Wróciłem z dwoma salutorami.","İki salutor ile döndüm.",""
+"DFD47A07437D189ED122D1BA0FE881D1","CinematicNode_Response_24","Nie chciałem przerywać.","Bölmek istememiştim.",""
+"97941ED846C05E22E941E78B87961188","CinematicNode_Response_24","Mogę panu zająć chwilę?","Bir dakikanızı alabilir miyim?",""
+"6478773E490126B844B30C9E2AB60559","CinematicNode_Response_25","Czego pan chce?","Ne istiyorsunuz?",""
+"681E4B2F4266ED9DCBC01C8FFEACDC82","CinematicNode_Response_25","A po co ludzie przychodzą na pogrzeby?","Peki insanlar cenazelere ne için gelir?",""
+"C2719F5B4A27F743C29464A2830F6BFE","CinematicNode_Response_26","Nabrałeś mnie, słyszałem co innego.","Beni kandırdın, ben başka bir şey duydum.",""
+"E07A48A1442C43C06D65DAB1AD6563A2","CinematicNode_Response_27","Przyszedłem oddać szacunek zmarłemu.","Merhum için hürmet göstermeye geldim.",""
+"3CFFC5A346D5F193A9A3E8BB2101E982","CinematicNode_Response_28","Jeszcze raz. Moje kondolencje.","Tekrar. Başsağlığı dilerim.",""
+"E4BB38D343A6EA0902ACFDAA19610382","CinematicNode_Response_28","Nie dosłyszałem pańskiego nazwiska.","Adınızı işitemedim.",""
+"98712A954AD24C7E4F79689557C1B1B0","CinematicNode_Response_28","Nazywam się Konieczkin. Iwan Konieczkin.","Adım Konieczkin. Iwan Konieczkin.",""
+"ACF9AB7F4B669851C4519F984C0DB034","CinematicNode_Response_28","Do widzenia.","Hoşça kalın.",""
+"8F41391A406809585209958F7EDB844A","CinematicNode_Response_28","[Po wyjściu Konieczkina Wiktor odwraca się z powrotem do urny ojca.]","[Konieczkin ayrıldıktan sonra Wiktor, babasının urnasına geri döner.]","Sahne yönergesi"
+"1313F94346D2351FAF18E0B2A7458687","CinematicNode_Response_28","Ciekawych miałeś przyjaciół.","İlginç arkadaşların varmış.",""
+"4E46C0DE4E6514E95465D8A8F034ADE6","CinematicNode_Response_28","[Ziemia zaczyna się trząść jak wtedy, kiedy Wiktor po raz pierwszy postawił stopę na warszawskiej ziemi.]","[Wiktor Varşova topraklarına ilk ayak bastığı andaki gibi yer sarsılmaya başlar.]","Sahne yönergesi"
+"D70AB0C34E6AA9417D56A19E170669EF","CinematicNode_Response_28","Chyba jestem bardziej zmęczony, niż sądziłem.","Sandığımdan daha yorgunmuşum galiba.",""
+"21F3067C433E31ED0B349B9EE74097DA","CinematicNode_Response_29","Nie miałem czasu się nad tym zastanowić.","Bunu düşünecek vaktim olmadı.",""
+"4A50FB9A4E0BD856DD6A0D9F70514631","CinematicNode_Response_29","Rozumiem. Mam nadzieję, że znajdzie pan jakiś powód, żeby zabawić tu trochę dłużej.","Anlıyorum. Umarım burada biraz daha oyalanmak için bir sebep bulursunuz.",""
+"F35A76624A40BD730368F0884EAFF96F","CinematicNode_Response_30","Raczej nie. Zamierzam wyjechać, jak tylko załatwię rodzinne zobowiązania. Chyba już nie zdążymy się spotkać.","Pek değil. Aile sorumluluklarımı halleder halletmez ayrılmaya niyetliyim. Tekrar görüşmeye vakit kalmaz sanırım.",""
+"5D547AE64D800B21F95B038AB3B74654","CinematicNode_Response_30","Kto wie?","Kim bilir?",""
+"641A3D324DF3F5B310E830BA61708C56","CinematicNode_Response_31","Z całym szacunkiem, ale to moja osobista sprawa. Był pan znajomym mojego ojca, nie moim.","Tüm saygımla, ama bu benim şahsi meselem. Babamın tanıdığıydınız, benim değil.",""
+"DF5491B44663F808B917D79874EDBABE","CinematicNode_Response_31","Rzeczywiście, proszę wybaczyć. Nie miałem złych intencji.","Gerçekten öyle, bağışlayın. Kötü niyetim yoktu.",""

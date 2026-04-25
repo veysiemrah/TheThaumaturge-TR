@@ -1,24 +1,24 @@
-Hash,NodeName,PL,TR,Notes
-41E4CD4B42B7254C4493B4898391484F,CinematicNode_Choice_2,"Zmień temat. Zapytaj, czy matka wie o śmierci ojca.","Konuyu değiştir. Annenin babanın ölümünden haberi olup olmadığını sor.",
-408790984A6C31B54D043A82F5FFE472,CinematicNode_Choice_2,"Przyznaj, że byłeś w areszcie.",Nezarette tutulduğunu söyle.,
-A411BE2D4B376E89E108FE9CA356B4CC,CinematicNode_Choice_2,Nie wspominaj jej o areszcie.,Ona nezaretten bahsetme.,
-AE4840224EAEFFD5A9FEE3A896781232,CinematicNode_Choice_3,Zostań pożegnać się z ojcem.,Babanla vedalaşmak için kal.,
-52D00DFE4E29BF4A563411ACF1B748E5,CinematicNode_Choice_3,Odłóż to na później.,Bunu sonraya bırak.,
-F4DB24F34F5E864C0971C99427BB91C4,CinematicNode_Response_10,Siostro?,Bacım?,Wiktor ikiz kardeşine
-8C8CF57B4590D2F6CD79D98E67624AF9,CinematicNode_Response_10,Wiktor!,Wiktor!,
-DA17044D48CB6B4DC109EA86A724E505,CinematicNode_Response_10,"Tak się cieszę, że przyjechałeś! Nie byłam pewna, czy moja depesza cię znalazła.","Geldiğine çok sevindim! Telgrafım sana ulaşmış mı emin değildim.",
-C33A04E648AE5C34DFE3ECB8E15B5B20,CinematicNode_Response_10,Ja też się cieszę. Jak się trzymasz?,Ben de sevindim. Nasıl dayanıyorsun?,
-C4888E02463E30D37148719028655FDC,CinematicNode_Response_10,"Nie byłam gotowa na coś takiego, ale... Nie mam czasu na razie o tym spokojnie pomyśleć.","Böyle bir şeye hazır değildim ama... Şimdilik sakin kafayla düşünecek vaktim yok.",
-9313B2F04D711F6BA09BEDB65C2DDDB3,CinematicNode_Response_11,"To? To nic takiego... Powinnaś zobaczyć tę zakonnicę, która mi to zrobiła.","Bu mu? Önemli bir şey değil... Bunu bana yapan rahibeyi bir görsen.","Esprili deflect — q101 01-bloğu parade sahnesine gönderme"
-FC95E0C840F128CADBBE2C8B372B7FB7,CinematicNode_Response_11,Wiktor.,Wiktor.,
-63B0988E4F7C276EB0178FA144DA60E1,CinematicNode_Response_11,"Nic mi nie jest. Mamy ważniejsze rzeczy do omówienia. Nie warto się tym przejmować.","Bir şeyim yok. Konuşacak daha önemli şeylerimiz var. Buna takılmaya değmez.",
-2A4C4CB047FBCC61003CA6AE128EDBF0,CinematicNode_Response_12,Pisałaś do matki?,Anneye yazdın mı?,
-C3869A244F8AE91050FD91B90465BB4D,CinematicNode_Response_12,"Tak, ale czego się spodziewać, wiesz, jaka jest Nadia. Nie takie rodzinne uroczystości omijała.","Yazdım, ama ne beklenir ki, Nadia'yı bilirsin. Bundan daha önemli aile olaylarını bile ıskaladı.","Nadia = anne; Ligia ona ismiyle hitap ediyor — soğuk ilişki"
-32ECF0D245B17815C574C98D3C3350DF,CinematicNode_Response_12,"Robi się późno. W domu czeka nas jeszcze odczytanie ostatniej woli taty. Poczekam z wujkiem przed bramą cmentarza.","Geç oluyor. Evde bizi babamın son vasiyetinin okunması bekliyor. Ben wujek ile mezarlık kapısının önünde beklerim.",
-23ECAD624C55918A5C28AB9676A421D0,CinematicNode_Response_12,"A was zostawię samych, chyba macie swoje sprawy do wyjaśnienia.","Sizi yalnız bırakayım, aranızda konuşulacak meseleleriniz var sanırım.",
-1F1AE0864DA82B5ED051909454E3CF57,CinematicNode_Response_13,Jak ty wyglądasz? Co się stało?,Halin ne senin? Ne oldu?,
-114E77C74AEF2401FC97BFAB60D95F2A,CinematicNode_Response_7,"Cóż... Nigdzie stąd przecież nie uciekniesz, ojcze.","Pekala... Nihayetinde buradan bir yere kaçamayacaksın ya, baba.",Wiktor babasının urnası önünde
-0EBACD444C365A32EEE323B5A6494FEB,CinematicNode_Response_8,Miałem krótką wizytę w warszawskim areszcie.,Varşova nezaretinde kısa bir konuk oldum.,
-61DE574043C4D9DFECEE44B1002858B2,CinematicNode_Response_8,Co?! Żartujesz? Na pogrzebie?! Nic ci nie jest?,Ne?! Şaka mı ediyorsun? Cenazede öyle mi?! Bir şeyin yok ya?,
-DE79B1594773B8FA7BA193BE3E70CF53,CinematicNode_Response_8,Wszystko w porządku. Nie martw się.,Her şey yolunda. Merak etme.,
-F03B9E3F45DAF21212E31EA07A7D31E2,CinematicNode_Response_9,Dobrze. Miejmy to za sobą.,Peki. Bu işi halledelim bitsin.,
+"Hash","NodeName","PL","TR","Notes"
+"41E4CD4B42B7254C4493B4898391484F","CinematicNode_Choice_2","Zmień temat. Zapytaj, czy matka wie o śmierci ojca.","Konuyu değiştir. Annenin babanın ölümünden haberi olup olmadığını sor.",""
+"408790984A6C31B54D043A82F5FFE472","CinematicNode_Choice_2","Przyznaj, że byłeś w areszcie.","Nezarette tutulduğunu söyle.",""
+"A411BE2D4B376E89E108FE9CA356B4CC","CinematicNode_Choice_2","Nie wspominaj jej o areszcie.","Ona nezaretten bahsetme.",""
+"AE4840224EAEFFD5A9FEE3A896781232","CinematicNode_Choice_3","Zostań pożegnać się z ojcem.","Babanla vedalaşmak için kal.",""
+"52D00DFE4E29BF4A563411ACF1B748E5","CinematicNode_Choice_3","Odłóż to na później.","Bunu sonraya bırak.",""
+"F4DB24F34F5E864C0971C99427BB91C4","CinematicNode_Response_10","Siostro?","Bacım?","Wiktor ikiz kardeşine"
+"8C8CF57B4590D2F6CD79D98E67624AF9","CinematicNode_Response_10","Wiktor!","Wiktor!",""
+"DA17044D48CB6B4DC109EA86A724E505","CinematicNode_Response_10","Tak się cieszę, że przyjechałeś! Nie byłam pewna, czy moja depesza cię znalazła.","Geldiğine çok sevindim! Telgrafım sana ulaşmış mı emin değildim.",""
+"C33A04E648AE5C34DFE3ECB8E15B5B20","CinematicNode_Response_10","Ja też się cieszę. Jak się trzymasz?","Ben de sevindim. Nasıl dayanıyorsun?",""
+"C4888E02463E30D37148719028655FDC","CinematicNode_Response_10","Nie byłam gotowa na coś takiego, ale... Nie mam czasu na razie o tym spokojnie pomyśleć.","Böyle bir şeye hazır değildim ama… Şimdilik sakin kafayla düşünecek vaktim yok.",""
+"9313B2F04D711F6BA09BEDB65C2DDDB3","CinematicNode_Response_11","To? To nic takiego... Powinnaś zobaczyć tę zakonnicę, która mi to zrobiła.","Bu mu? Önemli bir şey değil… Bunu bana yapan rahibeyi bir görsen.","Esprili deflect — q101 01-bloğu parade sahnesine gönderme"
+"FC95E0C840F128CADBBE2C8B372B7FB7","CinematicNode_Response_11","Wiktor.","Wiktor.",""
+"63B0988E4F7C276EB0178FA144DA60E1","CinematicNode_Response_11","Nic mi nie jest. Mamy ważniejsze rzeczy do omówienia. Nie warto się tym przejmować.","Bir şeyim yok. Konuşacak daha önemli şeylerimiz var. Buna takılmaya değmez.",""
+"2A4C4CB047FBCC61003CA6AE128EDBF0","CinematicNode_Response_12","Pisałaś do matki?","Anneye yazdın mı?",""
+"C3869A244F8AE91050FD91B90465BB4D","CinematicNode_Response_12","Tak, ale czego się spodziewać, wiesz, jaka jest Nadia. Nie takie rodzinne uroczystości omijała.","Yazdım, ama ne beklenir ki, Nadia'yı bilirsin. Bundan daha önemli aile olaylarını bile ıskaladı.","Nadia = anne; Ligia ona ismiyle hitap ediyor — soğuk ilişki"
+"32ECF0D245B17815C574C98D3C3350DF","CinematicNode_Response_12","Robi się późno. W domu czeka nas jeszcze odczytanie ostatniej woli taty. Poczekam z wujkiem przed bramą cmentarza.","Geç oluyor. Evde bizi babamın son vasiyetinin okunması bekliyor. Ben wujek ile mezarlık kapısının önünde beklerim.",""
+"23ECAD624C55918A5C28AB9676A421D0","CinematicNode_Response_12","A was zostawię samych, chyba macie swoje sprawy do wyjaśnienia.","Sizi yalnız bırakayım, aranızda konuşulacak meseleleriniz var sanırım.",""
+"1F1AE0864DA82B5ED051909454E3CF57","CinematicNode_Response_13","Jak ty wyglądasz? Co się stało?","Halin ne senin? Ne oldu?",""
+"114E77C74AEF2401FC97BFAB60D95F2A","CinematicNode_Response_7","Cóż... Nigdzie stąd przecież nie uciekniesz, ojcze.","Pekala… Nihayetinde buradan bir yere kaçamayacaksın ya, baba.","Wiktor babasının urnası önünde"
+"0EBACD444C365A32EEE323B5A6494FEB","CinematicNode_Response_8","Miałem krótką wizytę w warszawskim areszcie.","Varşova nezaretinde kısa bir konuk oldum.",""
+"61DE574043C4D9DFECEE44B1002858B2","CinematicNode_Response_8","Co?! Żartujesz? Na pogrzebie?! Nic ci nie jest?","Ne?! Şaka mı ediyorsun? Cenazede öyle mi?! Bir şeyin yok ya?",""
+"DE79B1594773B8FA7BA193BE3E70CF53","CinematicNode_Response_8","Wszystko w porządku. Nie martw się.","Her şey yolunda. Merak etme.",""
+"F03B9E3F45DAF21212E31EA07A7D31E2","CinematicNode_Response_9","Dobrze. Miejmy to za sobą.","Peki. Bu işi halledelim bitsin.",""

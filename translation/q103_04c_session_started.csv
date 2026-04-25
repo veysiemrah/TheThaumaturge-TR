@@ -1,102 +1,102 @@
-Hash,NodeName,PL,TR,Notes
-FC1B53EE41A90EDB710F13B108D6A0B7,CinematicNode_Choice_10,"Zdecyduj, że oddasz jej Welesa.",Weles'i ona bırakmaya karar ver.,
-B5B88138421E758B113CB4AB355ABD79,CinematicNode_Choice_10,"Dowiedz się, czy to było zlecenie.",Bunun bir iş siparişi olup olmadığını öğren.,
-A9A3C46548A7E74AE1FB3098BD870B36,CinematicNode_Choice_10,Nic nie mów.,Bir şey söyleme.,
-9B7861494A0D78F0FEBB0FBFBA39E7F8,CinematicNode_Choice_11,Tylko się uśmiechnij.,Sadece gülümse.,
-8C3A73344B549D4D77CCD3ACD161A51E,CinematicNode_Choice_11,"Odpowiedz, że myślisz o kimś szczególnym.",Özel birini düşündüğünü söyle.,
-0DE476604397E15F927024B0BF777A8F,CinematicNode_Choice_12,Obnaż oddanie Siergieja.,Siergiej'in bağlılığını ifşa et.,
-C779037F4749EB7386EE56873A416E25,CinematicNode_Choice_12,Zirytuj Siergieja.,Siergiej'i sinirlendir.,
-FFC20C414A3E23522D08A7981024DD9D,CinematicNode_Choice_13,Wzrusz niewinnie ramionami.,Masumca omuz silk.,
-09C5F19048F5B4989B07C9AE07E0D740,CinematicNode_Choice_13,Przysłuchuj się.,Dinlemeye devam et.,
-A2BA01D64E478EEB514592B55BFA4E40,CinematicNode_Choice_14,Każ przywołać duszę Teofila Skalskiego.,Teofil Skalski'nin ruhunu çağırt.,
-255353814E44287A3CD882B7BBF36B49,CinematicNode_Choice_14,Podjudzaj Siergieja do pojedynku.,Siergiej'i düelloya kışkırt.,
-865285BB4BDF6192D4B33EA36D90463A,CinematicNode_Choice_15,"Wiesz, że Teofila wybrał Zofii ojciec.","Biliyorsun ki, Teofil'i Zofia'nın babası seçti.",
-C33A2C4C4723C528CF8BB3AE55826873,CinematicNode_Choice_15,"Wiesz, że intrygi Zofii sprowadziły zgubę na Teofila.","Zofia'nın entrikalarının Teofil'i helak ettiğini biliyorsun.",
-EA38CCCA4D1E0E35BAD3B0A163615D31,CinematicNode_Choice_8,"Powiedz, że wasze szanse były równe.",Şanslarınızın eşit olduğunu söyle.,
-ACB10DEC4884BB9A1866C0B3F497099F,CinematicNode_Choice_8,Wysłuchaj jej.,Onu dinle.,
-8FF367EF454E7DD846A757ADD9E5B2B5,CinematicNode_Choice_9,"Powiedz, że wyświadczasz Zofii przysługę.",Zofia'ya bir iyilik yaptığını söyle.,
-91A015614826A57A16EE5F9BD5EBC9ED,CinematicNode_Choice_9,Słuchaj dalej.,Dinlemeye devam et.,
-21A0EA0E4CA39E88214BA9B0C45FBCF0,CinematicNode_Response_41,...,...,
-012305B143E8E5FC27BAB68514121AAF,CinematicNode_Response_41,"Połóżmy dłonie na stole. Pozwólmy umysłom uwolnić się od ciał, ku brzegom znanego wam świata...","Ellerimizi masaya koyalım. Zihinlerimizin bedenden kurtulmasına izin verelim, tanıdığınız dünyanın kıyılarına doğru...",
-573C9D7746FE5D189FF74C8219CFE7D8,CinematicNode_Response_41,"Myśli pan o kimś wyjątkowym, kogo chciałby pan przyzwać?",Çağırmak istediğiniz özel bir kimseyi düşünüyor musunuz?,
-B70C30DC425DBD9106AB659AF6E0107F,CinematicNode_Response_42,Ja miałam wyjść stąd z Welesem.,Buradan Weles ile çıkacaktım.,
-5336663A44584480B22F50A6620AD4EE,CinematicNode_Response_42,Tyle pracy. Po nic.,Onca iş. Hiç için.,
-1D3CCBB54E46DB75FDA133A3B03F0C8F,CinematicNode_Response_43,"Powiedz, czego nie rozumiem?",Söyle de anlayamadığım nedir?,
-CA1CDC554FFA983DBBDB2AB6CD1668A1,CinematicNode_Response_43,"Wiesz, kim ona jest? Kim jest jej ojciec?",Onun kim olduğunu biliyor musun? Babası kim?,
-CAFC83BA44C97A7D41B4E8977C965EE7,CinematicNode_Response_44,Daruj sobie. Walka była uczciwa.,Bırak bunu. Dövüş adildi.,
-323A354E42C25DD3AEC9EBA466768A89,CinematicNode_Response_44,Ależ nie zamierzam cię zatrzymywać.,Seni tutmaya niyetim yok.,
-334E5FBF47937D4F2B462A8427AD2A82,CinematicNode_Response_44,"Po prawdzie, jest mi ciebie nawet szkoda.","Doğrusu, sana acıyorum bile.",
-CC500FAB4404205AC96B8E810FAF66CB,CinematicNode_Response_44,Co to znaczy?,Bu ne demek?,
-DDFBDD7746206B7DE5C085BDA56B066B,CinematicNode_Response_44,"Pozbądź się tej buty, którą w sobie nosisz. Inaczej zaprowadzi cię na stryczek.",İçinde taşıdığın bu küstahlıktan kurtul. Yoksa seni darağacına götürür.,
-C8C30E8F478A548661419C98CEACCE60,CinematicNode_Response_44,Wystarczy. Salutor na mnie czeka.,Bu kadar yeter. Salutor beni bekliyor.,
-A96923D545A712F083061AA7959DEB2E,CinematicNode_Response_44,"Ciesz się nim, głupcze.","Keyfini çıkar, ahmak.",
-46F40C124A2C043232A9E8A42AC82776,CinematicNode_Response_45,To nie jest mój pierwszy raz. Uwolnię ją od Skazy.,Bu benim ilk seferim değil. Onu Kusur'dan kurtaracağım.,
-D6832A9544ED62F5D1FF90AB34810B95,CinematicNode_Response_45,"Wiem, jak to zakończyć.",Bunu nasıl bitireceğimi biliyorum.,
-5A21E89D4D638F23E05B0AAA6569C978,CinematicNode_Response_46,Masz rację. Zofia Skałon miała zostać pozbawiona Skazy. Dyskretnie.,Haklısın. Zofia Skałon Kusur'undan arındırılacaktı. Gizlice.,
-37BBE1F94E4DBF19F98DA38B2A83ECC8,CinematicNode_Response_46,"Ale na to chyba już za późno, prawda?","Ama bunun için artık çok geç, değil mi?",
-E5116AC849CC59EC2130E3A75A336F3C,CinematicNode_Response_47,...,...,
-7F50457748AD4F33EE32F0AF0C03D22B,CinematicNode_Response_47,Na milczenie też już za późno.,Sessizlik için de artık çok geç.,
-98ED67924B0819B51C8E4B8FB5BEABAE,CinematicNode_Response_48,"A więc weź Welesa, jest twój.","Öyleyse Weles'i al, senin olsun.",
-CA6184DF4F86DF2D419DC2923889E1F9,CinematicNode_Response_48,"Zatrzymaj go sobie. To nie na nim mi zależało, głupcze.","Kendine sakla onu. Bana önemli olan o değildi, ahmak.",
-94A425D0487729E8853E9F93D597BC91,CinematicNode_Response_49,"Mleko się rozlało, Zofia Skałon została bohaterką skandalu.","Olan oldu, Zofia Skałon skandalın kahramanı oldu.",
-3A66B0844981D6AAA0BDAA9AF6FD2A36,CinematicNode_Response_50,Obyśmy wszyscy tego nie żałowali.,Hepimizin buna pişman olmamasını dileyelim.,
-243BC5A54B50862390AB5C89673E48E0,CinematicNode_Response_51,"Ktoś cię wynajął, żeby zdjąć Skazę z Zofii. Kto?","Biri seni Zofia'dan Kusur'u almak için tuttu. Kim?",
-B5E7318140BD79A35E23C08836DA2CC3,CinematicNode_Response_51,"Domyśl się. Zresztą, teraz to bez znaczenia.","Tahmin et. Zaten, artık önemi yok.",
-C5C4F81E41F451394D66DD987DE17E55,CinematicNode_Response_52,"Mam to pod kontrolą. Wiem, jak dać historii Zofii dobre zakończenie.",Bu iş kontrolüm altında. Zofia'nın hikayesine iyi bir son vermeyi biliyorum.,
-D61338F14990D59DB49A65AFF5530A4B,CinematicNode_Response_53,"Wolne, prawda?","Serbestsin, değil mi?",
-586872E547686FF612F07EB52D140516,CinematicNode_Response_53,"Energia się rozprasza... Drodzy państwo, tracę kontakt z duszami.","Enerji dağılıyor... Saygıdeğer hazırun, ruhlarla bağlantımı kaybediyorum.",
-5E3CED4349613169AFE999A0D6FA7F13,CinematicNode_Response_54,To przecież <i>duchy</> mnie wybrały.,Beni zaten <i>ruhlar</> seçti.,
-11591C80431869F31829A8A5E1CC8583,CinematicNode_Response_54,"To prawda, pan ma kartę.","Doğru, kart sizde.",
-8A159ADB450361814DBA27B623950AB1,CinematicNode_Response_55,Proszę się więc już na nich skupić.,O halde onlara odaklanın lütfen.,
-0BE666A642B73D0FDE35A0865B04AF7A,CinematicNode_Response_55,"Tak, proszę zaczynać. Dzięki panu krąg został domknięty.","Evet, başlayın lütfen. Sayenizde halka tamamlandı.",
-3BD182634AD3ED525A38A585E1F6ED2A,CinematicNode_Response_56,...,...,
-1C3870724441CB2FAD56FF957322F343,CinematicNode_Response_57,Niech pan jej da spokój!,Onu rahat bırakın!,
-39BB69F348B456F699B5E18E436AF044,CinematicNode_Response_57,"Siergiej, nic ci do tego.","Siergiej, seni ilgilendirmez.",
-0AED01764B21CB7E946350A0D05F8C80,CinematicNode_Response_57,"Drodzy goście, upraszam was, dusze...","Sevgili konuklar, sizden rica ederim, ruhlar...",
-32C5DCFB4AA1C556E782959D8A6434A4,CinematicNode_Response_58,...,...,
-FEB08F8147B6DE065803728B050F1D4F,CinematicNode_Response_59,Mam bardzo kogoś takiego na myśli.,Öyle birini aklıma iyice getirdim.,
-67B172894012EA716A1DD0A00475D8F1,CinematicNode_Response_59,"Och, czy to dawno utracona miłość?","Oh, uzun zaman önce kaybedilmiş bir aşk mı?",
-B4E3920C46BEEEA4D5CA1E81F2E32208,CinematicNode_Response_59,Raczej przyszła wspaniała znajomość.,Daha çok gelecekteki harika bir tanışıklık.,
-20A29866472EC3D8C16212AF7893AE98,CinematicNode_Response_60,Czy to zazdrość przez pana przemawia?,Sizden konuşan kıskançlık mı?,
-9AEDDB7E43228E8C1EE73B8380E3E5D1,CinematicNode_Response_61,"Twoje oddanie przechodzi niezauważone. Wiesz dobrze, czemu tak jest.","Bağlılığın fark edilmiyor. Nedenini iyi biliyorsun.",Wiktor Siergiej'e
-7E06DD364267E7C636A9B38C1D7DBB75,CinematicNode_Response_61,"Wiem. Jestem wyborem twojego ojca, nie twoim, prawda?","Biliyorum. Ben babanın seçimiyim, senin değil, değil mi?",
-4A5CEC0841EE885711AC9BAA3B96AECD,CinematicNode_Response_62,"Pańska twarz. Wszystko dobrze, dziecko?","Yüzünüz. İyi misin, evladım?",
-8E2965B041584D8C895BD0A374724158,CinematicNode_Response_62,...,...,
-A3E31A7C4F5CF39651C1A89F8D978805,CinematicNode_Response_63,"Stawaj tu, choćby teraz.","Karşıma çık, hemen şimdi bile.",
-EE32F90F4D756C8B06FFA499C1FC8A57,CinematicNode_Response_63,"Przyjmuję wyzwanie, choćby teraz.","Meydan okumayı kabul ediyorum, hemen şimdi bile.",
-1054CE8149F2B5EE1DB5CF91BF520CB6,CinematicNode_Response_64,"A te twoje towarzyszki to cieszy! Robienie z ludzi głupca, żeby tylko się działo!",Şu yoldaşların da bundan hoşlanıyor! Sadece olay çıksın diye insanları budala yerine koymak!,
-E14D114448BF086DBE54EF8DF048B891,CinematicNode_Response_64,Siadaj!,Otur yerine!,
-8F3046BF448786D7BEEB36AA30D34E92,CinematicNode_Response_64,"Och, moje biedne serce...","Of, zavallı kalbim...",
-0486EAD14CA5A67F19194583999A6A95,CinematicNode_Response_65,Nie waż się!,Haddini bil!,
-86FC8318498DB90E05671284A6BBF656,CinematicNode_Response_65,...,...,
-8B15384A4703DAE0CC88EEA22314626F,CinematicNode_Response_66,Miałeś się trzymać z daleka!,Uzak durman gerekiyordu!,
-9801F90642703C5FFE86CCBD98BD508A,CinematicNode_Response_67,Miało cię tu nie być!,Burada olmayacaktın!,
-F4DCEA7440D00C3A5F331A8504654F01,CinematicNode_Response_67,"Proszę, thaumaturgini. Teraz wszystko nabrało sensu.","Buyur, kadın tılsımkâr. Şimdi her şey yerine oturdu.",
-5A385977478A84CDCF431C96FF46C4BC,CinematicNode_Response_68,Zadowoliłby panienkę pojedynek? Między mną a tym nieborakiem?,Küçük hanımı bir düello tatmin eder mi? Benimle şu zavallı arasında?,
-BF81FC974BEF3CAE6DBDFE94E90B32F8,CinematicNode_Response_68,Będziecie się bić teraz?,Şimdi dövüşecek misiniz?,
-5F6E18B244E7863F8334119CFDDC14FD,CinematicNode_Response_68,Proszę wskazać miejsce!,Lütfen yeri belirtin!,
-A23DBE7F43E76B74EEE9688B9FAA3942,CinematicNode_Response_68,Pojedynek o mnie byłby doprawdy nad wyraz ekscytujący!,Benim için bir düello gerçekten son derece heyecan verici olurdu!,
-35B1F5C048F70B2B4F1FBC8E8B71518E,CinematicNode_Response_68,Też tak myślę.,Ben de öyle düşünüyorum.,
-B9D99E3B442954DD61A6DFAE72D89499,CinematicNode_Response_69,<fr>Madame?</>,<fr>Madame?</>,
-A2544C9B4B9DFCE4509BEA81A8C047FE,CinematicNode_Response_70,Nie będziesz mnie więcej ośmieszał!,Beni bir daha rezil etmeyeceksin!,
-3D363EA24759E2E3D6171FA9F8D91687,CinematicNode_Response_71,"Jest jedna dusza, którą chciałbym zawezwać.",Çağırmak istediğim bir ruh var.,
-E8923F29498B982171873E8D2B5D2435,CinematicNode_Response_71,O kim pan mówi?,Kimden söz ediyorsunuz?,
-EDE0FEDD4CB4623E752A629678059DFD,CinematicNode_Response_71,Teofil Skalski. Mówi coś panience to nazwisko?,Teofil Skalski. Bu ad küçük hanıma bir şey ifade ediyor mu?,
-F9C3CEF9450FA91D1F0F2AA1DF9FFD38,CinematicNode_Response_71,"Biedak utonął w pół drogi do Afryki, prawda?","Zavallı Afrika yolculuğunun yarısında boğuldu, değil mi?",
-F70E00FE433217AFC00E2184C54BEA2E,CinematicNode_Response_71,"Nie, to nie tak... Nie wiedziałam, że zginie.","Hayır, öyle değil... Öleceğini bilmiyordum.",
-8022910D42CDD60B8B7B81AC1D0D5E27,CinematicNode_Response_72,"Skupcie się na kimś, z kim chcecie nawiązać kontakt!",Temas kurmak istediğiniz birine odaklanın!,
-CA718D2C48E0859570D82D83F09D65E2,CinematicNode_Response_73,Planuje pani podobny los panu Siergiejowi?,Pan Siergiej için de benzer bir kader mi planlıyorsunuz?,
-FDDF291D441AAF77D186C5B1878270C0,CinematicNode_Response_74,"Wszystko, żeby tylko podrażnić tatusia?",Sadece babacığını kızdırmak için her şey?,
-D09C01484E8D80D89154C5AFFEA120F9,CinematicNode_Response_74,"A nawet jeśli, to co?",Öyle olsa ne olmuş?,
-CA648F614FB7E3FA37438391361357E4,CinematicNode_Response_75,"Wszystko, żeby tylko wzbudzić sensację?",Sadece sansasyon yaratmak için her şey?,
-49BD9B3C4BAF66993D6936882FB72EEF,CinematicNode_Response_75,"Tak, dlatego. Bo tylko wtedy mnie widzicie.","Evet, öyle. Ancak o zaman beni görüyorsunuz.",
-704EC8764E28D4012A9856A120C6EB81,CinematicNode_Response_76,"Wiesz, jak to jest żyć w cieniu nieobecnego, zimnego ojca?","Mevcut olmayan, soğuk bir babanın gölgesinde yaşamanın nasıl olduğunu biliyor musunuz?",
-8633DF3B4BEA35C7079DEDB0378CABF0,CinematicNode_Response_76,Coś mi się kojarzy.,Bir şeyler çağrıştırıyor.,
-DB4012874B6E41C65F70E8B6EF71E6C8,CinematicNode_Response_77,"Tylko kiedy się wokół mnie coś dzieje, ktoś się mną interesuje.","Ancak etrafımda bir şeyler olduğunda biri benimle ilgileniyor.",
-377D059E449B3AE70BC79E92F592B4CD,CinematicNode_Response_78,Czy to taki grzech - chcieć być kochaną? ,Sevilmek istemek o kadar büyük bir günah mı? ,
-AA8144B74591C201F462EF83F16843DD,CinematicNode_Response_78,"Moce, które posiada pan i panu podobni, są przerażające!",Sizin ve sizin gibilerin sahip olduğu güçler dehşet verici!,
-CB18C80E449B54A97B013589014B5B53,CinematicNode_Response_78,Dlatego ludzie was nienawidzą! Dlatego mój ojciec się wami zajmie!,İnsanlar bu yüzden sizden nefret ediyor! Babam bu yüzden sizinle ilgilenecek!,
-64A9642B4428422019DF4EA1E6F7AB12,CinematicNode_Response_78,"Wystarczy, mam to, co chciałem.","Yeter, istediğimi aldım.",
-DC05B9CA4DC915C53D617888F0AD3223,CinematicNode_Response_79,...,...,
-94DCCEA54BB76B3A5C703C888984A009,CinematicNode_Response_80,Szulski!,Szulski!,
-1FFE237743746B45962E6E86C7AC15F6,CinematicNode_Response_81,"Spokój, proszę.","Sakin olun, lütfen.",
+"Hash","NodeName","PL","TR","Notes"
+"FC1B53EE41A90EDB710F13B108D6A0B7","CinematicNode_Choice_10","Zdecyduj, że oddasz jej Welesa.","Weles'i ona bırakmaya karar ver.",""
+"B5B88138421E758B113CB4AB355ABD79","CinematicNode_Choice_10","Dowiedz się, czy to było zlecenie.","Bunun bir iş siparişi olup olmadığını öğren.",""
+"A9A3C46548A7E74AE1FB3098BD870B36","CinematicNode_Choice_10","Nic nie mów.","Bir şey söyleme.",""
+"9B7861494A0D78F0FEBB0FBFBA39E7F8","CinematicNode_Choice_11","Tylko się uśmiechnij.","Sadece gülümse.",""
+"8C3A73344B549D4D77CCD3ACD161A51E","CinematicNode_Choice_11","Odpowiedz, że myślisz o kimś szczególnym.","Özel birini düşündüğünü söyle.",""
+"0DE476604397E15F927024B0BF777A8F","CinematicNode_Choice_12","Obnaż oddanie Siergieja.","Siergiej'in bağlılığını ifşa et.",""
+"C779037F4749EB7386EE56873A416E25","CinematicNode_Choice_12","Zirytuj Siergieja.","Siergiej'i sinirlendir.",""
+"FFC20C414A3E23522D08A7981024DD9D","CinematicNode_Choice_13","Wzrusz niewinnie ramionami.","Masumca omuz silk.",""
+"09C5F19048F5B4989B07C9AE07E0D740","CinematicNode_Choice_13","Przysłuchuj się.","Dinlemeye devam et.",""
+"A2BA01D64E478EEB514592B55BFA4E40","CinematicNode_Choice_14","Każ przywołać duszę Teofila Skalskiego.","Teofil Skalski'nin ruhunu çağırt.",""
+"255353814E44287A3CD882B7BBF36B49","CinematicNode_Choice_14","Podjudzaj Siergieja do pojedynku.","Siergiej'i düelloya kışkırt.",""
+"865285BB4BDF6192D4B33EA36D90463A","CinematicNode_Choice_15","Wiesz, że Teofila wybrał Zofii ojciec.","Biliyorsun ki, Teofil'i Zofia'nın babası seçti.",""
+"C33A2C4C4723C528CF8BB3AE55826873","CinematicNode_Choice_15","Wiesz, że intrygi Zofii sprowadziły zgubę na Teofila.","Zofia'nın entrikalarının Teofil'i helak ettiğini biliyorsun.",""
+"EA38CCCA4D1E0E35BAD3B0A163615D31","CinematicNode_Choice_8","Powiedz, że wasze szanse były równe.","Şanslarınızın eşit olduğunu söyle.",""
+"ACB10DEC4884BB9A1866C0B3F497099F","CinematicNode_Choice_8","Wysłuchaj jej.","Onu dinle.",""
+"8FF367EF454E7DD846A757ADD9E5B2B5","CinematicNode_Choice_9","Powiedz, że wyświadczasz Zofii przysługę.","Zofia'ya bir iyilik yaptığını söyle.",""
+"91A015614826A57A16EE5F9BD5EBC9ED","CinematicNode_Choice_9","Słuchaj dalej.","Dinlemeye devam et.",""
+"21A0EA0E4CA39E88214BA9B0C45FBCF0","CinematicNode_Response_41","...","…",""
+"012305B143E8E5FC27BAB68514121AAF","CinematicNode_Response_41","Połóżmy dłonie na stole. Pozwólmy umysłom uwolnić się od ciał, ku brzegom znanego wam świata...","Ellerimizi masaya koyalım. Zihinlerimizin bedenden kurtulmasına izin verelim, tanıdığınız dünyanın kıyılarına doğru…",""
+"573C9D7746FE5D189FF74C8219CFE7D8","CinematicNode_Response_41","Myśli pan o kimś wyjątkowym, kogo chciałby pan przyzwać?","Çağırmak istediğiniz özel bir kimseyi düşünüyor musunuz?",""
+"B70C30DC425DBD9106AB659AF6E0107F","CinematicNode_Response_42","Ja miałam wyjść stąd z Welesem.","Buradan Weles ile çıkacaktım.",""
+"5336663A44584480B22F50A6620AD4EE","CinematicNode_Response_42","Tyle pracy. Po nic.","Onca iş. Hiç için.",""
+"1D3CCBB54E46DB75FDA133A3B03F0C8F","CinematicNode_Response_43","Powiedz, czego nie rozumiem?","Söyle de anlayamadığım nedir?",""
+"CA1CDC554FFA983DBBDB2AB6CD1668A1","CinematicNode_Response_43","Wiesz, kim ona jest? Kim jest jej ojciec?","Onun kim olduğunu biliyor musun? Babası kim?",""
+"CAFC83BA44C97A7D41B4E8977C965EE7","CinematicNode_Response_44","Daruj sobie. Walka była uczciwa.","Bırak bunu. Dövüş adildi.",""
+"323A354E42C25DD3AEC9EBA466768A89","CinematicNode_Response_44","Ależ nie zamierzam cię zatrzymywać.","Seni tutmaya niyetim yok.",""
+"334E5FBF47937D4F2B462A8427AD2A82","CinematicNode_Response_44","Po prawdzie, jest mi ciebie nawet szkoda.","Doğrusu, sana acıyorum bile.",""
+"CC500FAB4404205AC96B8E810FAF66CB","CinematicNode_Response_44","Co to znaczy?","Bu ne demek?",""
+"DDFBDD7746206B7DE5C085BDA56B066B","CinematicNode_Response_44","Pozbądź się tej buty, którą w sobie nosisz. Inaczej zaprowadzi cię na stryczek.","İçinde taşıdığın bu küstahlıktan kurtul. Yoksa seni darağacına götürür.",""
+"C8C30E8F478A548661419C98CEACCE60","CinematicNode_Response_44","Wystarczy. Salutor na mnie czeka.","Bu kadar yeter. Salutor beni bekliyor.",""
+"A96923D545A712F083061AA7959DEB2E","CinematicNode_Response_44","Ciesz się nim, głupcze.","Keyfini çıkar, ahmak.",""
+"46F40C124A2C043232A9E8A42AC82776","CinematicNode_Response_45","To nie jest mój pierwszy raz. Uwolnię ją od Skazy.","Bu benim ilk seferim değil. Onu Kusur'dan kurtaracağım.",""
+"D6832A9544ED62F5D1FF90AB34810B95","CinematicNode_Response_45","Wiem, jak to zakończyć.","Bunu nasıl bitireceğimi biliyorum.",""
+"5A21E89D4D638F23E05B0AAA6569C978","CinematicNode_Response_46","Masz rację. Zofia Skałon miała zostać pozbawiona Skazy. Dyskretnie.","Haklısın. Zofia Skałon Kusur'undan arındırılacaktı. Gizlice.",""
+"37BBE1F94E4DBF19F98DA38B2A83ECC8","CinematicNode_Response_46","Ale na to chyba już za późno, prawda?","Ama bunun için artık çok geç, değil mi?",""
+"E5116AC849CC59EC2130E3A75A336F3C","CinematicNode_Response_47","...","…",""
+"7F50457748AD4F33EE32F0AF0C03D22B","CinematicNode_Response_47","Na milczenie też już za późno.","Sessizlik için de artık çok geç.",""
+"98ED67924B0819B51C8E4B8FB5BEABAE","CinematicNode_Response_48","A więc weź Welesa, jest twój.","Öyleyse Weles'i al, senin olsun.",""
+"CA6184DF4F86DF2D419DC2923889E1F9","CinematicNode_Response_48","Zatrzymaj go sobie. To nie na nim mi zależało, głupcze.","Kendine sakla onu. Bana önemli olan o değildi, ahmak.",""
+"94A425D0487729E8853E9F93D597BC91","CinematicNode_Response_49","Mleko się rozlało, Zofia Skałon została bohaterką skandalu.","Olan oldu, Zofia Skałon skandalın kahramanı oldu.",""
+"3A66B0844981D6AAA0BDAA9AF6FD2A36","CinematicNode_Response_50","Obyśmy wszyscy tego nie żałowali.","Hepimizin buna pişman olmamasını dileyelim.",""
+"243BC5A54B50862390AB5C89673E48E0","CinematicNode_Response_51","Ktoś cię wynajął, żeby zdjąć Skazę z Zofii. Kto?","Biri seni Zofia'dan Kusur'u almak için tuttu. Kim?",""
+"B5E7318140BD79A35E23C08836DA2CC3","CinematicNode_Response_51","Domyśl się. Zresztą, teraz to bez znaczenia.","Tahmin et. Zaten, artık önemi yok.",""
+"C5C4F81E41F451394D66DD987DE17E55","CinematicNode_Response_52","Mam to pod kontrolą. Wiem, jak dać historii Zofii dobre zakończenie.","Bu iş kontrolüm altında. Zofia'nın hikayesine iyi bir son vermeyi biliyorum.",""
+"D61338F14990D59DB49A65AFF5530A4B","CinematicNode_Response_53","Wolne, prawda?","Serbestsin, değil mi?",""
+"586872E547686FF612F07EB52D140516","CinematicNode_Response_53","Energia się rozprasza... Drodzy państwo, tracę kontakt z duszami.","Enerji dağılıyor… Saygıdeğer hazırun, ruhlarla bağlantımı kaybediyorum.",""
+"5E3CED4349613169AFE999A0D6FA7F13","CinematicNode_Response_54","To przecież <i>duchy</> mnie wybrały.","Beni zaten <i>ruhlar</> seçti.",""
+"11591C80431869F31829A8A5E1CC8583","CinematicNode_Response_54","To prawda, pan ma kartę.","Doğru, kart sizde.",""
+"8A159ADB450361814DBA27B623950AB1","CinematicNode_Response_55","Proszę się więc już na nich skupić.","O halde onlara odaklanın lütfen.",""
+"0BE666A642B73D0FDE35A0865B04AF7A","CinematicNode_Response_55","Tak, proszę zaczynać. Dzięki panu krąg został domknięty.","Evet, başlayın lütfen. Sayenizde halka tamamlandı.",""
+"3BD182634AD3ED525A38A585E1F6ED2A","CinematicNode_Response_56","...","…",""
+"1C3870724441CB2FAD56FF957322F343","CinematicNode_Response_57","Niech pan jej da spokój!","Onu rahat bırakın!",""
+"39BB69F348B456F699B5E18E436AF044","CinematicNode_Response_57","Siergiej, nic ci do tego.","Siergiej, seni ilgilendirmez.",""
+"0AED01764B21CB7E946350A0D05F8C80","CinematicNode_Response_57","Drodzy goście, upraszam was, dusze...","Sevgili konuklar, sizden rica ederim, ruhlar…",""
+"32C5DCFB4AA1C556E782959D8A6434A4","CinematicNode_Response_58","...","…",""
+"FEB08F8147B6DE065803728B050F1D4F","CinematicNode_Response_59","Mam bardzo kogoś takiego na myśli.","Öyle birini aklıma iyice getirdim.",""
+"67B172894012EA716A1DD0A00475D8F1","CinematicNode_Response_59","Och, czy to dawno utracona miłość?","Oh, uzun zaman önce kaybedilmiş bir aşk mı?",""
+"B4E3920C46BEEEA4D5CA1E81F2E32208","CinematicNode_Response_59","Raczej przyszła wspaniała znajomość.","Daha çok gelecekteki harika bir tanışıklık.",""
+"20A29866472EC3D8C16212AF7893AE98","CinematicNode_Response_60","Czy to zazdrość przez pana przemawia?","Sizden konuşan kıskançlık mı?",""
+"9AEDDB7E43228E8C1EE73B8380E3E5D1","CinematicNode_Response_61","Twoje oddanie przechodzi niezauważone. Wiesz dobrze, czemu tak jest.","Bağlılığın fark edilmiyor. Nedenini iyi biliyorsun.","Wiktor Siergiej'e"
+"7E06DD364267E7C636A9B38C1D7DBB75","CinematicNode_Response_61","Wiem. Jestem wyborem twojego ojca, nie twoim, prawda?","Biliyorum. Ben babanın seçimiyim, senin değil, değil mi?",""
+"4A5CEC0841EE885711AC9BAA3B96AECD","CinematicNode_Response_62","Pańska twarz. Wszystko dobrze, dziecko?","Yüzünüz. İyi misin, evladım?",""
+"8E2965B041584D8C895BD0A374724158","CinematicNode_Response_62","...","…",""
+"A3E31A7C4F5CF39651C1A89F8D978805","CinematicNode_Response_63","Stawaj tu, choćby teraz.","Karşıma çık, hemen şimdi bile.",""
+"EE32F90F4D756C8B06FFA499C1FC8A57","CinematicNode_Response_63","Przyjmuję wyzwanie, choćby teraz.","Meydan okumayı kabul ediyorum, hemen şimdi bile.",""
+"1054CE8149F2B5EE1DB5CF91BF520CB6","CinematicNode_Response_64","A te twoje towarzyszki to cieszy! Robienie z ludzi głupca, żeby tylko się działo!","Şu yoldaşların da bundan hoşlanıyor! Sadece olay çıksın diye insanları budala yerine koymak!",""
+"E14D114448BF086DBE54EF8DF048B891","CinematicNode_Response_64","Siadaj!","Otur yerine!",""
+"8F3046BF448786D7BEEB36AA30D34E92","CinematicNode_Response_64","Och, moje biedne serce...","Of, zavallı kalbim…",""
+"0486EAD14CA5A67F19194583999A6A95","CinematicNode_Response_65","Nie waż się!","Haddini bil!",""
+"86FC8318498DB90E05671284A6BBF656","CinematicNode_Response_65","...","…",""
+"8B15384A4703DAE0CC88EEA22314626F","CinematicNode_Response_66","Miałeś się trzymać z daleka!","Uzak durman gerekiyordu!",""
+"9801F90642703C5FFE86CCBD98BD508A","CinematicNode_Response_67","Miało cię tu nie być!","Burada olmayacaktın!",""
+"F4DCEA7440D00C3A5F331A8504654F01","CinematicNode_Response_67","Proszę, thaumaturgini. Teraz wszystko nabrało sensu.","Buyur, kadın tılsımkâr. Şimdi her şey yerine oturdu.",""
+"5A385977478A84CDCF431C96FF46C4BC","CinematicNode_Response_68","Zadowoliłby panienkę pojedynek? Między mną a tym nieborakiem?","Küçük hanımı bir düello tatmin eder mi? Benimle şu zavallı arasında?",""
+"BF81FC974BEF3CAE6DBDFE94E90B32F8","CinematicNode_Response_68","Będziecie się bić teraz?","Şimdi dövüşecek misiniz?",""
+"5F6E18B244E7863F8334119CFDDC14FD","CinematicNode_Response_68","Proszę wskazać miejsce!","Lütfen yeri belirtin!",""
+"A23DBE7F43E76B74EEE9688B9FAA3942","CinematicNode_Response_68","Pojedynek o mnie byłby doprawdy nad wyraz ekscytujący!","Benim için bir düello gerçekten son derece heyecan verici olurdu!",""
+"35B1F5C048F70B2B4F1FBC8E8B71518E","CinematicNode_Response_68","Też tak myślę.","Ben de öyle düşünüyorum.",""
+"B9D99E3B442954DD61A6DFAE72D89499","CinematicNode_Response_69","<fr>Madame?</>","<fr>Madame?</>",""
+"A2544C9B4B9DFCE4509BEA81A8C047FE","CinematicNode_Response_70","Nie będziesz mnie więcej ośmieszał!","Beni bir daha rezil etmeyeceksin!",""
+"3D363EA24759E2E3D6171FA9F8D91687","CinematicNode_Response_71","Jest jedna dusza, którą chciałbym zawezwać.","Çağırmak istediğim bir ruh var.",""
+"E8923F29498B982171873E8D2B5D2435","CinematicNode_Response_71","O kim pan mówi?","Kimden söz ediyorsunuz?",""
+"EDE0FEDD4CB4623E752A629678059DFD","CinematicNode_Response_71","Teofil Skalski. Mówi coś panience to nazwisko?","Teofil Skalski. Bu ad küçük hanıma bir şey ifade ediyor mu?",""
+"F9C3CEF9450FA91D1F0F2AA1DF9FFD38","CinematicNode_Response_71","Biedak utonął w pół drogi do Afryki, prawda?","Zavallı Afrika yolculuğunun yarısında boğuldu, değil mi?",""
+"F70E00FE433217AFC00E2184C54BEA2E","CinematicNode_Response_71","Nie, to nie tak... Nie wiedziałam, że zginie.","Hayır, öyle değil… Öleceğini bilmiyordum.",""
+"8022910D42CDD60B8B7B81AC1D0D5E27","CinematicNode_Response_72","Skupcie się na kimś, z kim chcecie nawiązać kontakt!","Temas kurmak istediğiniz birine odaklanın!",""
+"CA718D2C48E0859570D82D83F09D65E2","CinematicNode_Response_73","Planuje pani podobny los panu Siergiejowi?","Pan Siergiej için de benzer bir kader mi planlıyorsunuz?",""
+"FDDF291D441AAF77D186C5B1878270C0","CinematicNode_Response_74","Wszystko, żeby tylko podrażnić tatusia?","Sadece babacığını kızdırmak için her şey?",""
+"D09C01484E8D80D89154C5AFFEA120F9","CinematicNode_Response_74","A nawet jeśli, to co?","Öyle olsa ne olmuş?",""
+"CA648F614FB7E3FA37438391361357E4","CinematicNode_Response_75","Wszystko, żeby tylko wzbudzić sensację?","Sadece sansasyon yaratmak için her şey?",""
+"49BD9B3C4BAF66993D6936882FB72EEF","CinematicNode_Response_75","Tak, dlatego. Bo tylko wtedy mnie widzicie.","Evet, öyle. Ancak o zaman beni görüyorsunuz.",""
+"704EC8764E28D4012A9856A120C6EB81","CinematicNode_Response_76","Wiesz, jak to jest żyć w cieniu nieobecnego, zimnego ojca?","Mevcut olmayan, soğuk bir babanın gölgesinde yaşamanın nasıl olduğunu biliyor musunuz?",""
+"8633DF3B4BEA35C7079DEDB0378CABF0","CinematicNode_Response_76","Coś mi się kojarzy.","Bir şeyler çağrıştırıyor.",""
+"DB4012874B6E41C65F70E8B6EF71E6C8","CinematicNode_Response_77","Tylko kiedy się wokół mnie coś dzieje, ktoś się mną interesuje.","Ancak etrafımda bir şeyler olduğunda biri benimle ilgileniyor.",""
+"377D059E449B3AE70BC79E92F592B4CD","CinematicNode_Response_78","Czy to taki grzech - chcieć być kochaną? ","Sevilmek istemek o kadar büyük bir günah mı? ",""
+"AA8144B74591C201F462EF83F16843DD","CinematicNode_Response_78","Moce, które posiada pan i panu podobni, są przerażające!","Sizin ve sizin gibilerin sahip olduğu güçler dehşet verici!",""
+"CB18C80E449B54A97B013589014B5B53","CinematicNode_Response_78","Dlatego ludzie was nienawidzą! Dlatego mój ojciec się wami zajmie!","İnsanlar bu yüzden sizden nefret ediyor! Babam bu yüzden sizinle ilgilenecek!",""
+"64A9642B4428422019DF4EA1E6F7AB12","CinematicNode_Response_78","Wystarczy, mam to, co chciałem.","Yeter, istediğimi aldım.",""
+"DC05B9CA4DC915C53D617888F0AD3223","CinematicNode_Response_79","...","…",""
+"94DCCEA54BB76B3A5C703C888984A009","CinematicNode_Response_80","Szulski!","Szulski!",""
+"1FFE237743746B45962E6E86C7AC15F6","CinematicNode_Response_81","Spokój, proszę.","Sakin olun, lütfen.",""

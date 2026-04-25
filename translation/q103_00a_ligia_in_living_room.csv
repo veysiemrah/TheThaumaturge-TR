@@ -1,31 +1,31 @@
-Hash,NodeName,PL,TR,Notes
-CD46E17342C97C106E496D95D7DD9E13,CinematicNode_Choice_2,Podziękuj i odwzajemnij komplement.,Teşekkür et ve iltifatı karşılığa ver.,
-D4A682DC4E2322296797BD9ADE97EFED,CinematicNode_Choice_2,"Powiedz, że wyglądasz lepiej od niej.",Ondan daha iyi göründüğünü söyle.,
-2D3415704DDB8C3DF6B1A6A12E9E91F4,CinematicNode_Choice_2,Ruszajcie już.,Hadi yola çıkın.,
-AB14AF7C47DF231B6B7B1EBEC934FFA9,CinematicNode_Choice_3,Przebierz się i ruszajcie.,Üstünü değiştir ve yola çıkın.,
-E2AD5A6045EEE037E942B688A87C904C,CinematicNode_Choice_3,"Powiedz, żeby jeszcze chwilę poczekała.",Birazcık daha beklemesini söyle.,
-D9B0719744E1D0D6947520910F295CAB,CinematicNode_Response_0,"Widzę, że byłeś u golibrody. To już coś.","Berbere gittiğini görüyorum, bir şeydir.",Ligia
-66AF743B439548886A84D68F7A859EE0,CinematicNode_Response_1,"Zastanawiasz się, czy twoja rozczochrana twarz będzie pasować do wyższych sfer? Mamy w Warszawie golibrodów, wiesz?","Dağınık suratının yüksek sosyeteye uyup uymayacağını mı düşünüyorsun? Varşova'da berberler var, biliyor musun?",
-3092CC2E4D3997AF1B58F4AEA348CB11,CinematicNode_Response_10,Dziękuję. Wyglądasz wspaniale.,Teşekkür ederim. Sen de harika görünüyorsun.,
-1BAE4A844A8931C94790AEB7C0C164D3,CinematicNode_Response_10,Dziękuję.,Teşekkür ederim.,
-B2CCA3514FDF8D28B553E2BCAC59E608,CinematicNode_Response_11,"Myślisz, że tata miałby za złe, że idziemy na przyjęcie tuż po jego pogrzebie?",Sence babam cenazesinden hemen sonra bir davete gitmemize kızar mıydı?,
-23F442A54F76A5E54FA2D48B4A6B1A7C,CinematicNode_Response_11,Mam nadzieję.,Umarım.,
-330947454CCFD83A6ADEDBB6313DFFA3,CinematicNode_Response_11,Wiktor.,Wiktor.,
-227F2B41410A56B355C6AAB913D6F740,CinematicNode_Response_11,Mógł nie gubić Czarnego Grymuaru. Idziemy?,Kara Grimuar'ı kaybetmeseydi. Gidiyor muyuz?,
-2A430A8948F345831BE570BE44B957BA,CinematicNode_Response_11,"Tak, dorożka już czeka.","Evet, fayton çoktan bekliyor.",
-E5C2DF6B443F67BEBC7B27BAE4AA47B9,CinematicNode_Response_12,"Tak, zobaczmy, czy pasuje, i jedźmy.","Evet, bir bakalım uyuyor mu, sonra yola çıkalım.",
-1E62056B492934F88780F78D25CCC141,CinematicNode_Response_12,W takim razie też idę się przebrać.,Öyleyse ben de üstümü değiştirmeye gideyim.,
-B5F07E7B4F86F602DCBCF19F5985D451,CinematicNode_Response_13,Namyśliłeś się?,Fikrini belirledin mi?,
-9EEE10394BC96712E95DC8AF852D3CD8,CinematicNode_Response_13,To <fr>soirée</> nie będzie trwało wiecznie.,O <fr>soirée</> sonsuza kadar sürmeyecek.,
-2D933C5A42A227EB7885CAA1F483A56D,CinematicNode_Response_14,"No, nie wiem, nie wiem...","Yani, bilmem, bilmem...",
-7CC21FF74C6572D56D2AFE9E3985AAF1,CinematicNode_Response_15,"Proszę, proszę. Już się bałam, że tylko ja z nas dwojga dobrze wyglądam w spodniach.","Hele hele. İkimiz arasında pantolonu bir tek benim iyi taşıdığımı sanıyordum.",
-720BBACF40D5F99BF99DC9BE1F7FBDD1,CinematicNode_Response_15,Bardzo szykowny wybór.,Çok şık bir seçim.,
-A4C8374D48054CE5468A358CA7544487,CinematicNode_Response_16,"Poczekaj jeszcze, trudno mi się rozstać z tak przez lata doskonalonym wizerunkiem.","Biraz daha bekle, yıllarca geliştirilmiş bu görüntüden ayrılmak zor.",
-69D2EF1E42B450F8CD0FE4BA57D375E1,CinematicNode_Response_18,"Zobaczmy, jak bawi się warszawska elita.",Bakalım Varşova seçkinleri nasıl eğleniyor.,
-9962F55443FBA01341481F94F2753154,CinematicNode_Response_19,"Możemy się zamienić, we wszystkim wyglądam lepiej od ciebie.","Yer değişebiliriz, her şeyde senden iyi görünüyorum.",
-171F80EF4E3826F31D437EB70625EBAF,CinematicNode_Response_19,Chciałabym to zobaczyć.,Bunu görmeyi isterdim.,
-9BBE81D04C29D2F400A4CE9A1EA8A427,CinematicNode_Response_2,"Poznałem niedawno jednego brodacza, który niespecjalnie przejmuje się wyglądem.","Geçenlerde görünümüyle pek ilgilenmeyen bir sakallıyla tanıştım.",Rasputin imalı
-DC79C41D4950BB3F74AEF69DA6193C6A,CinematicNode_Response_2,A i tak przyjmują go wszędzie z otwartymi ramionami.,Yine de her yerde kucak açarak karşılanıyor.,
-5531526A4149210DF84E87B685D70B9B,CinematicNode_Response_2,"Może ma uroczą osobowość? Slyszałam, że wtedy do Imperialnego wpuszczają bez fraka.","Belki cana yakın bir karakteri vardır? Duyduğuma göre, o durumda Imperialny'ye fraksız da alıyorlarmış.",
-347BBB654EB23C07057437A9C97CAC41,CinematicNode_Response_2,Zabawne.,Komik.,
-2D013F82416CF84665AC60BE205DA579,CinematicNode_Response_2,"Przebierasz się i idziemy, czy zmieniłeś plany?","Üstünü değiştirip gidiyor muyuz, yoksa planlarını değiştirdin mi?",
+"Hash","NodeName","PL","TR","Notes"
+"CD46E17342C97C106E496D95D7DD9E13","CinematicNode_Choice_2","Podziękuj i odwzajemnij komplement.","Teşekkür et ve iltifatı karşılığa ver.",""
+"D4A682DC4E2322296797BD9ADE97EFED","CinematicNode_Choice_2","Powiedz, że wyglądasz lepiej od niej.","Ondan daha iyi göründüğünü söyle.",""
+"2D3415704DDB8C3DF6B1A6A12E9E91F4","CinematicNode_Choice_2","Ruszajcie już.","Hadi yola çıkın.",""
+"AB14AF7C47DF231B6B7B1EBEC934FFA9","CinematicNode_Choice_3","Przebierz się i ruszajcie.","Üstünü değiştir ve yola çıkın.",""
+"E2AD5A6045EEE037E942B688A87C904C","CinematicNode_Choice_3","Powiedz, żeby jeszcze chwilę poczekała.","Birazcık daha beklemesini söyle.",""
+"D9B0719744E1D0D6947520910F295CAB","CinematicNode_Response_0","Widzę, że byłeś u golibrody. To już coś.","Berbere gittiğini görüyorum, bir şeydir.","Ligia"
+"66AF743B439548886A84D68F7A859EE0","CinematicNode_Response_1","Zastanawiasz się, czy twoja rozczochrana twarz będzie pasować do wyższych sfer? Mamy w Warszawie golibrodów, wiesz?","Dağınık suratının yüksek sosyeteye uyup uymayacağını mı düşünüyorsun? Varşova'da berberler var, biliyor musun?",""
+"3092CC2E4D3997AF1B58F4AEA348CB11","CinematicNode_Response_10","Dziękuję. Wyglądasz wspaniale.","Teşekkür ederim. Sen de harika görünüyorsun.",""
+"1BAE4A844A8931C94790AEB7C0C164D3","CinematicNode_Response_10","Dziękuję.","Teşekkür ederim.",""
+"B2CCA3514FDF8D28B553E2BCAC59E608","CinematicNode_Response_11","Myślisz, że tata miałby za złe, że idziemy na przyjęcie tuż po jego pogrzebie?","Sence babam cenazesinden hemen sonra bir davete gitmemize kızar mıydı?",""
+"23F442A54F76A5E54FA2D48B4A6B1A7C","CinematicNode_Response_11","Mam nadzieję.","Umarım.",""
+"330947454CCFD83A6ADEDBB6313DFFA3","CinematicNode_Response_11","Wiktor.","Wiktor.",""
+"227F2B41410A56B355C6AAB913D6F740","CinematicNode_Response_11","Mógł nie gubić Czarnego Grymuaru. Idziemy?","Kara Grimuar'ı kaybetmeseydi. Gidiyor muyuz?",""
+"2A430A8948F345831BE570BE44B957BA","CinematicNode_Response_11","Tak, dorożka już czeka.","Evet, fayton çoktan bekliyor.",""
+"E5C2DF6B443F67BEBC7B27BAE4AA47B9","CinematicNode_Response_12","Tak, zobaczmy, czy pasuje, i jedźmy.","Evet, bir bakalım uyuyor mu, sonra yola çıkalım.",""
+"1E62056B492934F88780F78D25CCC141","CinematicNode_Response_12","W takim razie też idę się przebrać.","Öyleyse ben de üstümü değiştirmeye gideyim.",""
+"B5F07E7B4F86F602DCBCF19F5985D451","CinematicNode_Response_13","Namyśliłeś się?","Fikrini belirledin mi?",""
+"9EEE10394BC96712E95DC8AF852D3CD8","CinematicNode_Response_13","To <fr>soirée</> nie będzie trwało wiecznie.","O <fr>soirée</> sonsuza kadar sürmeyecek.",""
+"2D933C5A42A227EB7885CAA1F483A56D","CinematicNode_Response_14","No, nie wiem, nie wiem...","Yani, bilmem, bilmem…",""
+"7CC21FF74C6572D56D2AFE9E3985AAF1","CinematicNode_Response_15","Proszę, proszę. Już się bałam, że tylko ja z nas dwojga dobrze wyglądam w spodniach.","Hele hele. İkimiz arasında pantolonu bir tek benim iyi taşıdığımı sanıyordum.",""
+"720BBACF40D5F99BF99DC9BE1F7FBDD1","CinematicNode_Response_15","Bardzo szykowny wybór.","Çok şık bir seçim.",""
+"A4C8374D48054CE5468A358CA7544487","CinematicNode_Response_16","Poczekaj jeszcze, trudno mi się rozstać z tak przez lata doskonalonym wizerunkiem.","Biraz daha bekle, yıllarca geliştirilmiş bu görüntüden ayrılmak zor.",""
+"69D2EF1E42B450F8CD0FE4BA57D375E1","CinematicNode_Response_18","Zobaczmy, jak bawi się warszawska elita.","Bakalım Varşova seçkinleri nasıl eğleniyor.",""
+"9962F55443FBA01341481F94F2753154","CinematicNode_Response_19","Możemy się zamienić, we wszystkim wyglądam lepiej od ciebie.","Yer değişebiliriz, her şeyde senden iyi görünüyorum.",""
+"171F80EF4E3826F31D437EB70625EBAF","CinematicNode_Response_19","Chciałabym to zobaczyć.","Bunu görmeyi isterdim.",""
+"9BBE81D04C29D2F400A4CE9A1EA8A427","CinematicNode_Response_2","Poznałem niedawno jednego brodacza, który niespecjalnie przejmuje się wyglądem.","Geçenlerde görünümüyle pek ilgilenmeyen bir sakallıyla tanıştım.","Rasputin imalı"
+"DC79C41D4950BB3F74AEF69DA6193C6A","CinematicNode_Response_2","A i tak przyjmują go wszędzie z otwartymi ramionami.","Yine de her yerde kucak açarak karşılanıyor.",""
+"5531526A4149210DF84E87B685D70B9B","CinematicNode_Response_2","Może ma uroczą osobowość? Slyszałam, że wtedy do Imperialnego wpuszczają bez fraka.","Belki cana yakın bir karakteri vardır? Duyduğuma göre, o durumda Imperialny'ye fraksız da alıyorlarmış.",""
+"347BBB654EB23C07057437A9C97CAC41","CinematicNode_Response_2","Zabawne.","Komik.",""
+"2D013F82416CF84665AC60BE205DA579","CinematicNode_Response_2","Przebierasz się i idziemy, czy zmieniłeś plany?","Üstünü değiştirip gidiyor muyuz, yoksa planlarını değiştirdin mi?",""

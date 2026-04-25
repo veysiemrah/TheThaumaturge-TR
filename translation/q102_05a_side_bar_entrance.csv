@@ -1,26 +1,26 @@
-Hash,NodeName,PL,TR,Notes
-4FF2C0CA41C3E5EB73D9D3890AFDF081,CinematicNode_Choice_1,Sprowokuj bójkę.,Kavga çıkar.,
-B98898F140DFC79B084EF9A9E6EB6523,CinematicNode_Choice_1,Ośmiel wykidajłę. Niech <i>absztyfikuje</> się Nataszy.,"Fedaiyi cüretlendir. Natasza'ya <i>kur yapsın</>.","'absztyfikować się' dönem argo kur yapma"
-2A323A684143ED2BFEF515BCF40A047D,CinematicNode_Choice_1,Odejdź.,Uzaklaş.,
-4D163DAC4B547A99E25CFAB351F8984B,CinematicNode_Response_0,...,...,
-79320D1C418F0DC4C5331F92DD03B037,CinematicNode_Response_10,"Przemyśleliśmy sprawę i jednak bardzo nam zależy, żeby tam wejść, lumpie.","Meseleyi yeniden düşündük, oraya girmek çok önemli bize, serseri.",
-0DF583EA40F42FBD3B070A925D40F8E3,CinematicNode_Response_10,"Coś ty powiedział? Dmitrij, zimno jest, chodź się rozgrzać! <dl>Pszekom</> szczęki przetrącić! ","Ne dedin sen? Dmitrij, soğuk var, gel ısınalım! <dl>Pszekom</> çenesini kıralım! ","'Pszek' Polonyalılara Rus küfürü; <dl> tag aynen"
-CF3A075B4611EE252E743C895230E7F9,CinematicNode_Response_10,Na to zawsze jestem chętny. ,Buna her zaman hazırım. ,
-307697B14CD4D99A5AA00E961B708EF1,CinematicNode_Response_10,"Pożałujecie! Dawaj w nich demonami, Wiktor! ","Pişman olacaksınız! Şeytanlarınla vur onları, Wiktor! ",
-AB39FFCA4F8134FD58290BA18A7FD490,CinematicNode_Response_11,Jeszcze zobaczymy. ,Daha görürüz. ,
-C2D792FE450D15DCA50DE992C68EA78D,CinematicNode_Response_11,...,...,
-6ACD35CE4EAA80117E0EFD96D5A776DA,CinematicNode_Response_12,"Się masz, Iwanek!","Selamün aleyküm, Iwanek!",Abaurycy samimi selam
-6FD032204325A865F6657F8B4927120D,CinematicNode_Response_12,Panie Niedzic no... wytyczne mam jasne. ,Pan Niedzic yaa... talimatlar net. ,
-C46A23A9483CD4D6169A56A5605CB106,CinematicNode_Response_12,"Ale nie żartuj! Ładna dziś noc, rzadko kiedy nad Warszawą gwiazdy widać, a tu, o proszę, jedna, dwie...","Hadi şaka yapma! Bu gece güzel, Varşova üzerinde yıldızlar pek az görünür, ama bak, bir, iki...",Abaurycy rüşvet imalı
-9C7CBDC54057E5A25B60F4803F3DF3DA,CinematicNode_Response_12,"Jak je wszystkie zliczysz, to będziesz wiedział, ile moja wdzięczność wynosi.","Hepsini sayarsan, minnetim ne kadarmış öğrenirsin.",
-0FF0BC184D54159946CB91B764D2957C,CinematicNode_Response_12,"No dobra, wchodźcie. Ja jestem panu serdeczny, tylko praca taka...","Tamam, girin. Size karşı saygılıyım, iş böyle...",
-C8434A074215D8B3CE5DB4839676B29E,CinematicNode_Response_12,"Widzisz? To jest <dl>uważanie</>.","Gördün mü? Buna <dl>saygınlık</> denir.","'uważanie' dönem Lehçesi — saygı/itibar"
-CEEED64545C8BEFACE21A5BECB4E683D,CinematicNode_Response_13,"Dziś impreza zamknięta. Tylko dla swoich. ",Bugün kapalı parti. Sadece bizimkilere. ,
-D5300A5B4D7183DBD02E43B5698654B2,CinematicNode_Response_7,Jest z nami jakiś problem? ,Bizimle bir derdin mi var? ,
-9F2041154115D480B4EBE2B89FA1E5BE,CinematicNode_Response_7,"Ja tu tylko pracuję. Tam w środku Nataszka i inne dziewczęta. Nie dla obcych. <ru>Do svidanya.</>","Ben burada sadece çalışıyorum. İçeride Nataszka ve diğer kızlar var. Yabancılar için değil. <ru>Do svidanya.</>","<ru>Do svidanya</> = Rusça 'Hoşça kal'"
-FF5AC1784A0B881F2A38A18F2E8AC6A4,CinematicNode_Response_7,"No, ładnie ci poszło, Wiktor. Co dalej? Ja sobie chętnie z boku postoję i popatrzę, jak się męczysz. ","Harika gitti, Wiktor. Şimdi ne olacak? Ben keyifle kenara çekilip senin uğraşmanı izleyeceğim. ",
-ACFF0FA94C9CD9B4D27D0DB90F3AAC92,CinematicNode_Response_7,"Na twoim miejscu to bym mu jakiegoś psikusa diabelskiego zgotował, żeby nas wpuścił. ","Yerinde olsam, bizi içeri alsın diye ona şeytansı bir şaka hazırlardım. ",
-9C8BC3014246DDF8E20659BB4FDB1C68,CinematicNode_Response_7,Czemu nie?,Neden olmasın?,
-C58820E44C6E4A61474D4483859A89A3,CinematicNode_Response_8,"Mówiłem, że was nie wpuszczę. ",Sizi içeri almayacağımı söylemiştim. ,
-071263744EDE274F9C0A4985DB4AC92C,CinematicNode_Response_9,"No i co się gapią? Nie można występu Nataszki przecież przegapić. I ja ją chętnie pooglądam. <ru>Poyekhali</>!","Ne diye öylece bakıyorlar? Natasza'nın gösterisi kaçırılmaz ya. Ben de keyifle izlerim. <ru>Poyekhali</>!",<ru>Poyekhali</> = Rusça 'Hadi gidiyoruz'
-66BA911842DB8A17B81C83BCC520A43F,CinematicNode_Response_9,"No kurwa, pięknie! Jeszcze się dla ciebie robota w Mojkach znajdzie, Wiktorku! ","Vay be, ne güzel! Sana hâlâ Mojki'de iş bulunur, Wiktor'cuğum! ",Mojki = Varşova hamal semti/argo
+"Hash","NodeName","PL","TR","Notes"
+"4FF2C0CA41C3E5EB73D9D3890AFDF081","CinematicNode_Choice_1","Sprowokuj bójkę.","Kavga çıkar.",""
+"B98898F140DFC79B084EF9A9E6EB6523","CinematicNode_Choice_1","Ośmiel wykidajłę. Niech <i>absztyfikuje</> się Nataszy.","Fedaiyi cüretlendir. Natasza'ya <i>kur yapsın</>.","'absztyfikować się' dönem argo kur yapma"
+"2A323A684143ED2BFEF515BCF40A047D","CinematicNode_Choice_1","Odejdź.","Uzaklaş.",""
+"4D163DAC4B547A99E25CFAB351F8984B","CinematicNode_Response_0","...","…",""
+"79320D1C418F0DC4C5331F92DD03B037","CinematicNode_Response_10","Przemyśleliśmy sprawę i jednak bardzo nam zależy, żeby tam wejść, lumpie.","Meseleyi yeniden düşündük, oraya girmek çok önemli bize, serseri.",""
+"0DF583EA40F42FBD3B070A925D40F8E3","CinematicNode_Response_10","Coś ty powiedział? Dmitrij, zimno jest, chodź się rozgrzać! <dl>Pszekom</> szczęki przetrącić! ","Ne dedin sen? Dmitrij, soğuk var, gel ısınalım! <dl>Pszekom</> çenesini kıralım! ","'Pszek' Polonyalılara Rus küfürü; <dl> tag aynen"
+"CF3A075B4611EE252E743C895230E7F9","CinematicNode_Response_10","Na to zawsze jestem chętny. ","Buna her zaman hazırım. ",""
+"307697B14CD4D99A5AA00E961B708EF1","CinematicNode_Response_10","Pożałujecie! Dawaj w nich demonami, Wiktor! ","Pişman olacaksınız! Şeytanlarınla vur onları, Wiktor! ",""
+"AB39FFCA4F8134FD58290BA18A7FD490","CinematicNode_Response_11","Jeszcze zobaczymy. ","Daha görürüz. ",""
+"C2D792FE450D15DCA50DE992C68EA78D","CinematicNode_Response_11","...","…",""
+"6ACD35CE4EAA80117E0EFD96D5A776DA","CinematicNode_Response_12","Się masz, Iwanek!","Selamün aleyküm, Iwanek!","Abaurycy samimi selam"
+"6FD032204325A865F6657F8B4927120D","CinematicNode_Response_12","Panie Niedzic no... wytyczne mam jasne. ","Pan Niedzic yaa… talimatlar net. ",""
+"C46A23A9483CD4D6169A56A5605CB106","CinematicNode_Response_12","Ale nie żartuj! Ładna dziś noc, rzadko kiedy nad Warszawą gwiazdy widać, a tu, o proszę, jedna, dwie...","Hadi şaka yapma! Bu gece güzel, Varşova üzerinde yıldızlar pek az görünür, ama bak, bir, iki…","Abaurycy rüşvet imalı"
+"9C7CBDC54057E5A25B60F4803F3DF3DA","CinematicNode_Response_12","Jak je wszystkie zliczysz, to będziesz wiedział, ile moja wdzięczność wynosi.","Hepsini sayarsan, minnetim ne kadarmış öğrenirsin.",""
+"0FF0BC184D54159946CB91B764D2957C","CinematicNode_Response_12","No dobra, wchodźcie. Ja jestem panu serdeczny, tylko praca taka...","Tamam, girin. Size karşı saygılıyım, iş böyle…",""
+"C8434A074215D8B3CE5DB4839676B29E","CinematicNode_Response_12","Widzisz? To jest <dl>uważanie</>.","Gördün mü? Buna <dl>saygınlık</> denir.","'uważanie' dönem Lehçesi — saygı/itibar"
+"CEEED64545C8BEFACE21A5BECB4E683D","CinematicNode_Response_13","Dziś impreza zamknięta. Tylko dla swoich. ","Bugün kapalı parti. Sadece bizimkilere. ",""
+"D5300A5B4D7183DBD02E43B5698654B2","CinematicNode_Response_7","Jest z nami jakiś problem? ","Bizimle bir derdin mi var? ",""
+"9F2041154115D480B4EBE2B89FA1E5BE","CinematicNode_Response_7","Ja tu tylko pracuję. Tam w środku Nataszka i inne dziewczęta. Nie dla obcych. <ru>Do svidanya.</>","Ben burada sadece çalışıyorum. İçeride Nataszka ve diğer kızlar var. Yabancılar için değil. <ru>Do svidanya.</>","<ru>Do svidanya</> = Rusça 'Hoşça kal'"
+"FF5AC1784A0B881F2A38A18F2E8AC6A4","CinematicNode_Response_7","No, ładnie ci poszło, Wiktor. Co dalej? Ja sobie chętnie z boku postoję i popatrzę, jak się męczysz. ","Harika gitti, Wiktor. Şimdi ne olacak? Ben keyifle kenara çekilip senin uğraşmanı izleyeceğim. ",""
+"ACFF0FA94C9CD9B4D27D0DB90F3AAC92","CinematicNode_Response_7","Na twoim miejscu to bym mu jakiegoś psikusa diabelskiego zgotował, żeby nas wpuścił. ","Yerinde olsam, bizi içeri alsın diye ona şeytansı bir şaka hazırlardım. ",""
+"9C8BC3014246DDF8E20659BB4FDB1C68","CinematicNode_Response_7","Czemu nie?","Neden olmasın?",""
+"C58820E44C6E4A61474D4483859A89A3","CinematicNode_Response_8","Mówiłem, że was nie wpuszczę. ","Sizi içeri almayacağımı söylemiştim. ",""
+"071263744EDE274F9C0A4985DB4AC92C","CinematicNode_Response_9","No i co się gapią? Nie można występu Nataszki przecież przegapić. I ja ją chętnie pooglądam. <ru>Poyekhali</>!","Ne diye öylece bakıyorlar? Natasza'nın gösterisi kaçırılmaz ya. Ben de keyifle izlerim. <ru>Poyekhali</>!","<ru>Poyekhali</> = Rusça 'Hadi gidiyoruz'"
+"66BA911842DB8A17B81C83BCC520A43F","CinematicNode_Response_9","No kurwa, pięknie! Jeszcze się dla ciebie robota w Mojkach znajdzie, Wiktorku! ","Vay be, ne güzel! Sana hâlâ Mojki'de iş bulunur, Wiktor'cuğum! ","Mojki = Varşova hamal semti/argo"

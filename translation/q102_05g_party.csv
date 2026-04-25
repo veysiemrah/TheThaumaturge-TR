@@ -1,27 +1,27 @@
-Hash,NodeName,PL,TR,Notes
-F9AE54B04320FB69780D028FCE3C4467,CinematicNode_Choice_1,"Powiedz, że źle się czujesz.",Kendini iyi hissetmediğini söyle.,
-BD797EEB47B05B49057F09A66C0B2A31,CinematicNode_Choice_1,Idź ochoczo.,Hevesle git.,
-366C7E50404B19ED594687996DDC38F2,CinematicNode_Response_10,"Ale powiedz ty mi, gnoja złapałeś?",Ama sen bir söyle bakalım; pisliği yakaladın mı?,
-F7DBBA65427560DAC47D3089FB4D685C,CinematicNode_Response_10,"Tak, udało się. Ale nie było łatwo, wciąż nie jest... ","Evet başardık. Ama kolay değildi, hâlâ da değil... ",
-FEFD0E02483EE8E6248BF0BF6E86A094,CinematicNode_Response_10,Warto było? ,Değdi mi? ,
-992E47734F3C09B535D8FB812EA12F5D,CinematicNode_Response_10,"Nie wiem. Przynajmniej los Danisa nie zależy już od Lelka. A to zawsze coś dobrego. ","Bilmiyorum. En azından Danis'in kaderi artık Lelek'e bağlı değil. Bu her zaman iyi bir şey. ",
-AF743FF04085ACE1A04B63AEE4C56DE6,CinematicNode_Response_10,"Cokolwiek pozwoli ci w nocy zasnąć, przyjacielu! ","Geceleri uyumana ne yardım ediyorsa, dostum! ",
-6510240049D11494F49AAD98031C9E15,CinematicNode_Response_10,"Sen jak sen, teraz mi trzeba hipnozy... Dzięki za dzisiaj, Abaurycy.","Uyku mu uyku, bana artık hipnoz lazım... Bugün için sağ ol Abaurycy.",
-A95623364612AB5769A11F802A6EDADC,CinematicNode_Response_10,"Co to, to nie! Noc się skończy, gdy ja tak powiem! Chodź!",O iş olmaz! Gece ben söyleyince biter! Gel!,
-C72F2FAC4FD3ED34EA2137A2AF7E9460,CinematicNode_Response_11,Polej!,Doldur!,
-0DD1820147E63CC31215E69A558B1325,CinematicNode_Response_11,Za nas! Za was! Za wódkę!,Bizim şerefimize! Sizin şerefinize! Votka şerefine!,
-DD5B270E49DEDC47FE57CE90B97FCAF9,CinematicNode_Response_12,"Pokaż jej swojego demona, Wiktor!","Şeytanını göster ona, Wiktor!",
-9AD9A75B440396820448A8AD319F80D8,CinematicNode_Response_13,Tylko nie na buty...,Yalnız ayakkabılara olmasın...,
-413FF37147EE018F20F8C595FF90ABA5,CinematicNode_Response_13,"Wiktor... Wiktorek... Może ty wcale nie jesteś takim chujkiem, jak Satanisław...","Wiktor... Wiktor'cuğum... Belki sen Satanisław kadar pislik değilsindir...","'Satanisław' — Stanisław'a 'Satan' sataşma esprisi"
-909704D140D14B88D76C1EA05332475A,CinematicNode_Response_14,"<i>Któremu ślubiła, by mu wierną była!</>","<i>Ona sadık kalacağına yemin etmişti!</>",Evlilik yemini parçası
-848C493E4A6627F9E04ABEB220BB2AAA,CinematicNode_Response_14,Hej!,Hey!,
-F7262FDF4EF8C42BBB48769B817CDBEF,CinematicNode_Response_15,Naprawdę nie mam już siły. Uszanuj to.,Gerçekten takatim kalmadı. Saygı göster.,
-920710314175E32BEC4F949629A971F8,CinematicNode_Response_15,"Nie po to cię porywałem, żeby cię teraz tak łatwo puścić. ",Seni şimdi bu kadar kolay bırakmak için kaçırmamıştım. ,
-8706EEED46BD0FA6E6331E9A5576E118,CinematicNode_Response_15,Nie ma lepszego lekarstwa od <dl>akwawity</>! Idziemy pić!,<dl>Akwawita</>'dan daha iyi ilaç yoktur! İçmeye gidiyoruz!,'akwawita' distilat alkol; <dl> dil tag — aynen
-4AC815174A0FD1A57E38C881183E525F,CinematicNode_Response_16,"A co mi tam, prowadź! ","Boş ver, götür bakalım! ",
-8D2DA4A84F420095C5087DB2829C25AC,CinematicNode_Response_16,"No, to rozumiem! W końcu co ci lepiej ciało i duszę uleczy, jak nie kielich czystej, nie?! ","Ha şöyle, aferin! Sonuçta bedeni ve ruhu bir kadeh duru votkadan daha iyi ne iyileştirir ki?! ","'Czysta' = votka argo (düz votka)"
-274B844142D8096B311A9D872DA34221,CinematicNode_Response_17,Nosisz nienabity rewolwer?,Dolu olmayan bir revolver mi taşıyorsun?,
-DCEF5D294AF8D22FC79B7A958DE4ADB2,CinematicNode_Response_17,Nacisnąć spust to każdy umie. Ja tłukę nim czaszki. I orzechy.,Tetiği çekmeyi herkes becerir. Ben onunla kafatası kırıyorum. Bir de ceviz.,
-4C7F973345186054B6EA1CB17B4C0AC1,CinematicNode_Response_18,"Wiedziałeś, że ta rosyjska ruletka była ustawiona, prawda?",Rus ruletinin şaibeli olduğunu biliyordun değil mi?,
-195875FB4306BE78745695914077050B,CinematicNode_Response_18,"Nie, uznałem, że cię Bóg opuścił, temu chciałem grać moim. Wiesz, mam jeszcze plany na wieczór.","Hayır, Tanrı'nın seni terk ettiğine kanaat getirdim, o yüzden kendi silahımla oynamak istedim. Ne de olsa akşam için planlarım vardı.",
-39481423498772C03EA3578DEBEA5446,CinematicNode_Response_19,"Cóż za poetyckie doświadczenie! Czuję w kościach, jakbym uczestniczył w czymś wielkim, wiesz?","Ne de şairane bir deneyim! İliklerimde büyük bir şeye katılmışım hissi var, anlıyor musun?",
+"Hash","NodeName","PL","TR","Notes"
+"F9AE54B04320FB69780D028FCE3C4467","CinematicNode_Choice_1","Powiedz, że źle się czujesz.","Kendini iyi hissetmediğini söyle.",""
+"BD797EEB47B05B49057F09A66C0B2A31","CinematicNode_Choice_1","Idź ochoczo.","Hevesle git.",""
+"366C7E50404B19ED594687996DDC38F2","CinematicNode_Response_10","Ale powiedz ty mi, gnoja złapałeś?","Ama sen bir söyle bakalım; pisliği yakaladın mı?",""
+"F7DBBA65427560DAC47D3089FB4D685C","CinematicNode_Response_10","Tak, udało się. Ale nie było łatwo, wciąż nie jest... ","Evet başardık. Ama kolay değildi, hâlâ da değil… ",""
+"FEFD0E02483EE8E6248BF0BF6E86A094","CinematicNode_Response_10","Warto było? ","Değdi mi? ",""
+"992E47734F3C09B535D8FB812EA12F5D","CinematicNode_Response_10","Nie wiem. Przynajmniej los Danisa nie zależy już od Lelka. A to zawsze coś dobrego. ","Bilmiyorum. En azından Danis'in kaderi artık Lelek'e bağlı değil. Bu her zaman iyi bir şey. ",""
+"AF743FF04085ACE1A04B63AEE4C56DE6","CinematicNode_Response_10","Cokolwiek pozwoli ci w nocy zasnąć, przyjacielu! ","Geceleri uyumana ne yardım ediyorsa, dostum! ",""
+"6510240049D11494F49AAD98031C9E15","CinematicNode_Response_10","Sen jak sen, teraz mi trzeba hipnozy... Dzięki za dzisiaj, Abaurycy.","Uyku mu uyku, bana artık hipnoz lazım… Bugün için sağ ol Abaurycy.",""
+"A95623364612AB5769A11F802A6EDADC","CinematicNode_Response_10","Co to, to nie! Noc się skończy, gdy ja tak powiem! Chodź!","O iş olmaz! Gece ben söyleyince biter! Gel!",""
+"C72F2FAC4FD3ED34EA2137A2AF7E9460","CinematicNode_Response_11","Polej!","Doldur!",""
+"0DD1820147E63CC31215E69A558B1325","CinematicNode_Response_11","Za nas! Za was! Za wódkę!","Bizim şerefimize! Sizin şerefinize! Votka şerefine!",""
+"DD5B270E49DEDC47FE57CE90B97FCAF9","CinematicNode_Response_12","Pokaż jej swojego demona, Wiktor!","Şeytanını göster ona, Wiktor!",""
+"9AD9A75B440396820448A8AD319F80D8","CinematicNode_Response_13","Tylko nie na buty...","Yalnız ayakkabılara olmasın…",""
+"413FF37147EE018F20F8C595FF90ABA5","CinematicNode_Response_13","Wiktor... Wiktorek... Może ty wcale nie jesteś takim chujkiem, jak Satanisław...","Wiktor… Wiktor'cuğum… Belki sen Satanisław kadar pislik değilsindir…","'Satanisław' — Stanisław'a 'Satan' sataşma esprisi"
+"909704D140D14B88D76C1EA05332475A","CinematicNode_Response_14","<i>Któremu ślubiła, by mu wierną była!</>","<i>Ona sadık kalacağına yemin etmişti!</>","Evlilik yemini parçası"
+"848C493E4A6627F9E04ABEB220BB2AAA","CinematicNode_Response_14","Hej!","Hey!",""
+"F7262FDF4EF8C42BBB48769B817CDBEF","CinematicNode_Response_15","Naprawdę nie mam już siły. Uszanuj to.","Gerçekten takatim kalmadı. Saygı göster.",""
+"920710314175E32BEC4F949629A971F8","CinematicNode_Response_15","Nie po to cię porywałem, żeby cię teraz tak łatwo puścić. ","Seni şimdi bu kadar kolay bırakmak için kaçırmamıştım. ",""
+"8706EEED46BD0FA6E6331E9A5576E118","CinematicNode_Response_15","Nie ma lepszego lekarstwa od <dl>akwawity</>! Idziemy pić!","<dl>Akwawita</>'dan daha iyi ilaç yoktur! İçmeye gidiyoruz!","'akwawita' distilat alkol; <dl> dil tag — aynen"
+"4AC815174A0FD1A57E38C881183E525F","CinematicNode_Response_16","A co mi tam, prowadź! ","Boş ver, götür bakalım! ",""
+"8D2DA4A84F420095C5087DB2829C25AC","CinematicNode_Response_16","No, to rozumiem! W końcu co ci lepiej ciało i duszę uleczy, jak nie kielich czystej, nie?! ","Ha şöyle, aferin! Sonuçta bedeni ve ruhu bir kadeh duru votkadan daha iyi ne iyileştirir ki?! ","'Czysta' = votka argo (düz votka)"
+"274B844142D8096B311A9D872DA34221","CinematicNode_Response_17","Nosisz nienabity rewolwer?","Dolu olmayan bir revolver mi taşıyorsun?",""
+"DCEF5D294AF8D22FC79B7A958DE4ADB2","CinematicNode_Response_17","Nacisnąć spust to każdy umie. Ja tłukę nim czaszki. I orzechy.","Tetiği çekmeyi herkes becerir. Ben onunla kafatası kırıyorum. Bir de ceviz.",""
+"4C7F973345186054B6EA1CB17B4C0AC1","CinematicNode_Response_18","Wiedziałeś, że ta rosyjska ruletka była ustawiona, prawda?","Rus ruletinin şaibeli olduğunu biliyordun değil mi?",""
+"195875FB4306BE78745695914077050B","CinematicNode_Response_18","Nie, uznałem, że cię Bóg opuścił, temu chciałem grać moim. Wiesz, mam jeszcze plany na wieczór.","Hayır, Tanrı'nın seni terk ettiğine kanaat getirdim, o yüzden kendi silahımla oynamak istedim. Ne de olsa akşam için planlarım vardı.",""
+"39481423498772C03EA3578DEBEA5446","CinematicNode_Response_19","Cóż za poetyckie doświadczenie! Czuję w kościach, jakbym uczestniczył w czymś wielkim, wiesz?","Ne de şairane bir deneyim! İliklerimde büyük bir şeye katılmışım hissi var, anlıyor musun?",""

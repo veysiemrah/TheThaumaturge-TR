@@ -1,109 +1,109 @@
-Hash,NodeName,PL,TR,Notes
-590BADDD4A2DC20290CBAEBF7035CE33,CinematicNode_Choice_5,Wspomnij o żonie Puchalskiego.,Puchalski'nin karısından söz et.,
-B02642B34DC9CF7EF4986A861A02C2DF,CinematicNode_Choice_5,"Powiedz, że uszanujesz wolę ojca.",Babanın iradesine saygı göstereceğini söyle.,
-B9244CE54CAF6CFBB0F3A5B2C1CD57B0,CinematicNode_Choice_5,"Szczerze przyznaj, że Ligia wie, co robi.","Ligia'nın ne yaptığını bildiğini açıkça kabul et.",
-A5AAE0814F7BE459D7DB65844463219B,CinematicNode_Choice_5,Odejdź.,Uzaklaş.,
-89CDB34645FFBE61B6AEC593C841011D,CinematicNode_Choice_6,Wspomnij o Madame Samirze.,Madame Samira'dan söz et.,
-AA9B4EE04852B79D511B4DBCA92E8219,CinematicNode_Choice_6,Zacznij temat Swietłany.,Swietłana konusunu aç.,
-50F5C13642DC33019503CE89F75DA2C7,CinematicNode_Choice_6,Zapytaj o Zofię Skałon.,Zofia Skałon hakkında sor.,
-EA3D571744556ABDF8B4458B98E8295E,CinematicNode_Choice_6,"Wspomnij, że spotkałeś Konieczkina.",Konieczkin ile karşılaştığını söyle.,
-EA5EA3324225B3E77C59638E88A460A3,CinematicNode_Choice_6,"Zapytaj, jak się bawi.",Nasıl eğlendiğini sor.,
-C03660C644266B5A050354A421E6CFF8,CinematicNode_Choice_6,Odejdź.,Uzaklaş.,
-D014605C454659C228B162AA81C7E332,CinematicNode_Choice_7,Postrasz ich thaumaturgią.,Onları tılsımkârlıkla korkut.,
-C9770BE34FEA9939E133DCA8B7EAA92B,CinematicNode_Choice_7,"Przyznaj, że miałeś kłopoty z umysłem.",Akıl sorunlarının olduğunu kabul et.,
-33E22A484F3CA8A4D5700B8A8A85148E,CinematicNode_Choice_7,Podziękuj.,Teşekkür et.,
-7465011D45BC23D4F94489B0D24F24BF,CinematicNode_Choice_8,Powiedz jej o dzikim salutorze.,Ona vahşi salutor hakkında söyle.,
-6742BF574ACF726AD1FF9B87C7F1ABDA,CinematicNode_Choice_8,Zmień temat.,Konuyu değiştir.,
-9759F87040E172F045096CBCBB9A9D00,CinematicNode_Choice_9,Powiedz jej o romansie Swietłany i waszego ojca.,Ona Swietłana ve babanızın ilişkisinden söz et.,
-EED938EC4FC0680C16D42FAB11A037DE,CinematicNode_Choice_9,Zmień temat.,Konuyu değiştir.,
-D20BA2D849B3795BD301D78E3D3F4C31,CinematicNode_Response_34,Tu jesteś.,İşte buradasın.,
-1767D1A9420AC58786082AA94D466FD5,CinematicNode_Response_34,"Panowie, poznajcie mojego brata.","Beyler, kardeşimle tanışın.",
-6C4806094573451F0A4350BFC5FF45F7,CinematicNode_Response_34,Wiktor Szulski.,Wiktor Szulski.,
-9F8F8B5546E527CC278A2E98A37E051C,CinematicNode_Response_34,"Ostatni Szulski, który nosi spodnie.",Pantolon taşıyan son Szulski.,
-EB8591F345B6A446DD4C348F074300E5,CinematicNode_Response_34,Nie wiesz tego. Panna Ligia może jeszcze spłodzić dziedzica fortuny.,Bilmiyorsun. Küçük hanım Ligia servetin varisini daha doğurabilir.,
-BBA054DB473A616524A34D9F9B8778AF,CinematicNode_Response_34,"Nawet ze mną, jeśli nie wspomni o tym mojej żonie.",Benimle bile — eşime söylemezse.,
-EAEAFA044D5A0CC9CA739AB0D3336DFF,CinematicNode_Response_34,Ale porozmawiajmy w końcu po męsku.,Sonunda erkekçe konuşalım.,
-0FEFE8DB49F54B22F33376A8B9CF59BE,CinematicNode_Response_34,"Zamierza pan przejąć firmę ojca, prawda?","Babanızın şirketini devralmaya niyetlisiniz, değil mi?",
-98069BD742568D7CCF7ECAB7E2BC0B75,CinematicNode_Response_35,Sugeruję najpierw zająć się własnymi sprawami. Na przykład małżeńskimi.,Önce kendi işlerinizle ilgilenmenizi öneririm. Örneğin evlilik meseleniz.,
-EDAF54AF46D62482570B84B940C1EAAF,CinematicNode_Response_35,"Może Luiza nie jest taką idiotką, za jaką ją pan bierze?",Belki Luiza sandığınız kadar ahmak değildir?,
-D33EEA984F19AB15351ABEBF76504BCB,CinematicNode_Response_35,Słucham?,Efendim?,
-DB0B7B564A9D88D2C28D1F982448AF5E,CinematicNode_Response_35,"Nie przyszło panu do głowy, że kiedy zostawia ją pan w domu, jej taka samotność też może być na rękę?",Onu evde bıraktığınızda o yalnızlığın ona da yaramış olabileceği aklınıza gelmedi mi?,
-0096254941BB011CA5DDB2BF2AFA4B35,CinematicNode_Response_35,Co pan sugeruje?,Ne ima ediyorsunuz?,
-B42755094BEFD7C70E36B4B04A87DBC8,CinematicNode_Response_35,Rogi. Byłem zbyt subtelny?,Boynuz. Fazla mı ince oldum?,
-135B7C9D4F30A5F0E433D58837072A6A,CinematicNode_Response_36,"Powodzenia w interesach, panience.","Ticarette başarılar, küçük hanım.",
-F1F7CC8648E677C5B1D3149A3C58CD44,CinematicNode_Response_37,"Wiedziałaś, że tatuś miał romans z gospodynią tego wieczoru?",Babacığının bu akşamın ev sahibesiyle ilişkisi olduğunu biliyor muydun?,
-3C8E8AD946A1210EE1A2CFB29522C737,CinematicNode_Response_37,Jesteś pewny?,Emin misin?,
-8483E62849E96AEBF71B6CBCD592CF20,CinematicNode_Response_37,"Najbardziej, jak tylko thaumaturg może być. Czułem co on czuł, kiedy... No wiesz.","Bir tılsımkârın olabileceği kadar eminim. Onun hissettiklerini hissettim, tam da... anlarsın.",
-797E72044422C70C697953B9D14AA36C,CinematicNode_Response_37,"Przestań, to obrzydliwe!","Yeter, iğrenç!",
-AD435B9740BF9D23939184A5DC239F9A,CinematicNode_Response_37,"Szybko, zmień temat.","Çabuk, konuyu değiştir.",
-8F159C1C43676BF1F3C88DAF9AA69CF8,CinematicNode_Response_38,Niestety. Swietłana nie chce puścić pary z ust.,Maalesef. Swietłana ağzından tek kelime bile kaçırmak istemiyor.,
-E053B2C44126FBA6A3FE8C97CB6934CB,CinematicNode_Response_38,"Pewnie ci nie ufa. W tym towarzystwie, to jedno akurat o niej dobrze świadczy.","Sana güvenmiyor galiba. Bu topluluk için, bu onun lehine bir şey.",
-17709C684E04D2C2E29A91943452860D,CinematicNode_Response_38,"Skąd ten chłód, siostro?","Bu soğukluk nereden geliyor, bacım?",
-2E0AD6044D61D66C3AA32D8F3B8F4322,CinematicNode_Response_38,"Nigdy jej nie lubiłam. Jej sposób bycia mnie drażni. Słyszałam, że straszna z niej intrygantka.","Onu hiç sevmedim. Varoluş biçimi beni rahatsız ediyor. Müthiş bir entrikacı olduğunu duydum.",
-585E821B453BCF38C61D829A460C22A2,CinematicNode_Response_38,Hm.,Hmm.,
-85F09E1142FB1A126F0C8DB31B26F844,CinematicNode_Response_39,"Zofia Skałon, córka generał-gubernatora. Znasz ją?","Zofia Skałon, General-Vali'nin kızı. Tanıyor musun?",
-610332AA46F98D637A5E519A366DDA44,CinematicNode_Response_39,Nie - i tobie również nie radzę zawierać z nią jakichś znajomości.,Hayır — sana da onunla tanışıklık kurmanı önermem.,
-1BC7C93D4623006305B7169F03AF5B3D,CinematicNode_Response_39,Skałon nie znosi thaumaturgów.,Skałon tılsımkârlara dayanamaz.,
-8F39463142C9D726B5BC4582A0C9D6EA,CinematicNode_Response_40,"Zgadnij, kogo znów spotkałem. Tajemniczy i mocno pokiereszowany.","Tahmin et yine kiminle karşılaştım. Esrarengiz ve bir hayli yaralı.",
-94A33CFC4D5ABA5F9D15E6805E777263,CinematicNode_Response_40,Iwan Konieczkin?,Iwan Konieczkin?,
-00F95D114FC9529423BF49809338AC9F,CinematicNode_Response_40,Co o nim wiesz?,Onun hakkında ne biliyorsun?,
-5ECCAA4C446411B44115FEA51CE13F85,CinematicNode_Response_40,Niewiele. To jakiś znajomy taty.,Fazla bir şey bilmem. Babamın bir tanıdığı.,
-0741916D4361EF617034B4BC25C147EE,CinematicNode_Response_40,"Cóż, w zasadzie... To właśnie dzięki niemu tutaj jesteśmy.","Yani, aslında... burada olmamız onun sayesinde.",
-063C07044B6B03EEDCBC039222A6F965,CinematicNode_Response_40,Co takiego? Ligia...,Ne? Ligia...,
-2ABD1B9547BF857D9FDADF818A9ABCB6,CinematicNode_Response_40,"Wiem, że nie ma nic za darmo, ale on naprawdę niczego nie chciał.",Bedavanın olmadığını biliyorum ama o gerçekten hiçbir şey istemedi.,
-75F30E4D4FDB2E91C4AD5BB8C38FEF06,CinematicNode_Response_40,"Tak, wygląda mi na prawdziwego altruistę.",Evet bana gerçek bir elcil gibi görünüyor.,
-0EC9CA804E2EBBBC0B4A2187C21E19BD,CinematicNode_Response_41,Idę.,Gidiyorum.,
-50A895644A6D79B996944F9151681C29,CinematicNode_Response_42,Mogę zamienić z tobą słowo?,Seninle iki çift lafa bakar mısın?,
-E2D5512A4C7E977712BAAAA92C7B2EA8,CinematicNode_Response_43,"To prawda, jestem kompletnie oszalały.","Doğru, tamamen çılgınım.",
-7E52247F4E421AE42EE499855DBE756D,CinematicNode_Response_43,"Nie rozróżniam, co jest prawdą, a co blefem...",Neyin doğru neyin blöf olduğunu ayırt edemiyorum...,
-4981FABA4AEC764646C65EA9D361BB4A,CinematicNode_Response_44,"Miałem pewne problemy, to prawda.","Bazı sorunlarım vardı, doğru.",
-5E2CDAEC4FA970C69886F7A7F80469BD,CinematicNode_Response_44,Ale wyzdrowiałem. Może dlatego nie zaglądam ludziom pod bieliznę?,Ama iyileştim. Belki o yüzden insanların çamaşırına göz atmıyorum?,
-F656B51C41C0D3C8A5C0B2A43A0B3C58,CinematicNode_Response_45,"To chyba prawda, co się o panu opowiada.","Hakkınızda söylenenler doğruymuş galiba.",
-96AA8CB349CC957CDC4695B4AABF2E63,CinematicNode_Response_45,Tak? Cóż takiego?,Öyle mi? Ne gibi?,
-AF6120F640EDD17AEFC9DC8D47495F65,CinematicNode_Response_45,Postradał pan zmysły.,Aklınızı yitirmişsiniz.,
-183E0539473E8A0ED8C918AC1582567C,CinematicNode_Response_46,...poza rogami Puchalskiego.,...Puchalski'nin boynuzu dışında.,
-234513744B7314E52342EEAAF7F2EE3F,CinematicNode_Response_46,Niebezpieczny prostak.,Tehlikeli hödük.,
-4B50E59B4C0D7BBCFB7FBD9C855A77C7,CinematicNode_Response_47,"Czy ja dobrze widziałam, że poznałeś tę całą <fr>Madame</>?",O tam <fr>Madame</>'la tanıştığını doğru mu gördüm?,
-F3C1025641289276D02067BE870EE1D9,CinematicNode_Response_48,To teraz nieistotne.,Şimdi önemli değil.,
-C5959B1E4CE1BEAD6E2215A2069D06F0,CinematicNode_Response_49,"Madame upatrzyła sobie salutora, który przylgnął do jednego z gości.","Madame, konuklardan birine yapışmış bir salutorun peşine düşmüş.",
-42E99019463B1536F6EC209E157B1367,CinematicNode_Response_49,Co to za salutor?,Ne tür bir salutor?,
-A76092F144D05BFAD4D7D1B24245BB4A,CinematicNode_Response_50,"Pamiętasz te <dl>klechdy</>, które matka nam kiedyś czytała, i legendę o złotym wężu?","Annemin bize okuduğu şu <dl>halk masallarını</>, altın yılan efsanesini hatırlıyor musun?",'klechda' = Slav halk masalı
-E70E0D934DB8C8F9066EB3B00242E44C,CinematicNode_Response_50,"Tak, o Welesie.","Evet, Weles hakkında.",
-B99A4A204C8F1A45D8D4B986165E6C4C,CinematicNode_Response_50,"Tak! Cieszę się, że tu jesteś.",Evet! Burada olduğuna sevindim.,
-85854C2247EA40079CD0CB87293840BD,CinematicNode_Response_51,"Panowie, moja siostra wie, co robi.","Beyler, kız kardeşim ne yaptığını biliyor.",
-E4223E69487771EDC84AF492AEF63580,CinematicNode_Response_51,Na świecie są całe społeczności zarządzane przez kobiety. Jak Wielka Brytania.,Dünyada kadınlar tarafından yönetilen toplumlar var. Britanya gibi.,
-5B9997EF46802CD0864E6C87081139F4,CinematicNode_Response_51,Pamiętacie jeszcze królową Wiktorię?,Kraliçe Viktorya'yı hâlâ hatırlıyor musunuz?,
-E95EAFBC4C4D6197F532D3A8706CBD0A,CinematicNode_Response_52,"Dziekuję, długo i sumiennie na to pracowałem.","Teşekkürler, bunun için uzun ve özverili çalıştım.",
-99AB1EE54A296BD9EB40D1AC818A9286,CinematicNode_Response_53,"Przepraszam, za chwilę wrócę.","Bağışlayın, birazdan döneceğim.",
-EDD8A3EC425D9F69BB140BBA0FA421EC,CinematicNode_Response_53,"Głogowski, zanudziłeś biedaka.",Głogowski zavallıyı sıktın artık.,
-175077BC4761467E77B3FBA202874BD0,CinematicNode_Response_54,Pan Szulski. To co z tą firmą?,Pan Szulski. O şirket işi ne oldu?,
-B89CC38F4EACA3478BC0389656F6379F,CinematicNode_Response_55,Chcesz czegoś jeszcze?,Başka bir şey ister misin?,
-E8A7E43749A29AB3D3C1C4A3DBCC3319,CinematicNode_Response_56,Prawie mi ich szkoda.,Neredeyse onlara acıyacaktım.,
-E60CF97D4EA657D6DBEF3E9D2391B288,CinematicNode_Response_56,Przekroczyłem jakieś granice?,Bir sınır mı aştım?,
-4539B8FF4CC47AE992FC75B8A2700287,CinematicNode_Response_56,Skądże.,Asla.,
-181E13304DE015C82BAD82A2133378DF,CinematicNode_Response_57,"No, no. Teraz mogę zapomnieć, że ktokolwiek zechce ze mną zamienić choćby słowo.","Hele hele. Artık, kimsenin benimle tek bir kelime bile etmek isteyeceğini unutabilirim.",
-C8394422431A14085811F0A209C8A8B2,CinematicNode_Response_57,Zawsze masz mnie.,Ben her zaman yanındayım.,
-1C75CAEF4A22947815C501A7C1D87891,CinematicNode_Response_57,"Posłuchaj, jeśli chodzi o tych dwóch, to nie podobało mi się po prostu, jak cię traktowali.","Dinle, bu ikisi için sadece sana davranışları hoşuma gitmedi.",
-256485B940AB4C968ED8A993F8A20491,CinematicNode_Response_57,"Przywykłam, Wiktor. Nie ruszają mnie ich słowa. Poradzę sobie.","Alıştım Wiktor. Sözleri beni etkilemiyor. Halledebilirim.",
-EA89EFB0418E72FA758F63BF41AF9210,CinematicNode_Response_58,"Wiesz, dziękuję, że we mnie wierzysz, zwłaszcza przy innych. To wiele dla mnie znaczy.","Biliyor musun, bana inandığın için — özellikle başkalarının yanında — teşekkür ederim. Benim için çok şey ifade ediyor.",
-418A7C1246A81F439446D899910A2870,CinematicNode_Response_59,Jak się bawisz?,Nasıl eğleniyorsun?,
-FC279CCB4A7FF3D9CF0AEE80B9EA53F2,CinematicNode_Response_60,Jakieś postępy ze Swietłaną?,Swietłana'yla bir ilerleme var mı?,
-A2EF022C42DA73E7D75F83BCF5572721,CinematicNode_Response_61,Jak się bawisz w tym gnieździe żmij?,Bu yılan yuvasında nasıl eğleniyorsun?,
-ABF494FE4BE460B1AD896DBE062D7D38,CinematicNode_Response_61,Wódka jest całkiem znośna.,Votka gayet içilir.,
-9191E00E4643D4DA37DB7BBF51A0E4CE,CinematicNode_Response_61,"Obserwuję, jak mój własny brat wyżywa się na zwykłych śmiertelnikach.",Kendi kardeşimin sıradan ölümlüler üzerinde hınç çıkarmasını seyrediyorum.,
-16735A6747C1DAA0C6D772B0A6D3C635,CinematicNode_Response_61,"Nie wiem, o czym mówisz.",Ne demek istediğini bilmiyorum.,
-DD33717A47CA7014880B539DBDB85C88,CinematicNode_Response_62,Lepiej zmienię temat.,Konuyu değiştirmem iyi olur.,
-DFBAEA6E49298D3BC470B98C1B402389,CinematicNode_Response_63,Dosyć wnikliwie przyjrzałem się Samirze.,Samira'ya oldukça yakından baktım.,
-1D7E6F4C4F64AC01EB048FBCA2C4765C,CinematicNode_Response_63,Żadne z niej medium. Samira to thaumaturgini na polowaniu.,Medyum filan değil. Samira avdaki bir kadın tılsımkâr.,
-C570183B4BFD552100EC34BB5FDC1BD6,CinematicNode_Response_63,Na polowaniu?,Av mı?,
-3CF28F88450BE8D44C335B8D2517F184,CinematicNode_Response_64,Weles.,Weles.,
-EE7773C3469CF08BE455E790E0EF1296,CinematicNode_Response_64,Jak z tych bajek na dobranoc?,Şu gece masallarındaki gibi mi?,
-625B3AFD463DD10E57A6D49F6344A24B,CinematicNode_Response_65,Ty też na niego polujesz?,Sen de onu mu avlıyorsun?,
-B86681DA4698EBE631E5809BD4DCA1CB,CinematicNode_Response_65,"Nie ukrywam, że chciałbym go mieć. Jeszcze się waham.",Onu istediğimi saklamayacağım. Hâlâ tereddüt ediyorum.,
-432FA90A4971CC23BF92F381133F3EF4,CinematicNode_Response_65,Bądź ostrożny.,Dikkatli ol.,
-0CA3C8CE49DBADDE306C5395D3A1FCD9,CinematicNode_Response_65,"Jestem, dlatego się waham.","Dikkatliyim, o yüzden tereddüt ediyorum.",
-A2C7E44E43EB9323C42154BFE58ED443,CinematicNode_Response_66,"Naprawdę? Bo słyszałam, że na podjeździe doszło do pewnego ""konfliktu"".","Sahi mi? Çünkü araba yolunda bir tür ""ihtilaf"" yaşandığını duydum.",
-BDFFC6DF4B1885FE5B64BF872D9FE4DE,CinematicNode_Response_66,"Hej, to oni zaczęli. Broniłem tylko twojego honoru.","Hey, onlar başlattı. Sadece senin onurunu savundum.",
-45C5DC37413B25AE278918AB1C2F14F1,CinematicNode_Response_66,Znowu?,Yine mi?,
-65959193483DADBB9F4D14BBE7DE8C22,CinematicNode_Response_67,"Zapewniam panów, że w kwestii rodzinnych interesów postąpię zgodnie z wolą ojca.",Beyleri temin ederim ki aile işleri meselesinde babamın iradesine göre davranacağım.,
-7A84492A4813361CF21AA8A25B3C40F4,CinematicNode_Response_67,"Żeby być pewnym, że nie będę miał z panami do czynienia.",Sizinle işim olmayacağından emin olmak için.,
+"Hash","NodeName","PL","TR","Notes"
+"590BADDD4A2DC20290CBAEBF7035CE33","CinematicNode_Choice_5","Wspomnij o żonie Puchalskiego.","Puchalski'nin karısından söz et.",""
+"B02642B34DC9CF7EF4986A861A02C2DF","CinematicNode_Choice_5","Powiedz, że uszanujesz wolę ojca.","Babanın iradesine saygı göstereceğini söyle.",""
+"B9244CE54CAF6CFBB0F3A5B2C1CD57B0","CinematicNode_Choice_5","Szczerze przyznaj, że Ligia wie, co robi.","Ligia'nın ne yaptığını bildiğini açıkça kabul et.",""
+"A5AAE0814F7BE459D7DB65844463219B","CinematicNode_Choice_5","Odejdź.","Uzaklaş.",""
+"89CDB34645FFBE61B6AEC593C841011D","CinematicNode_Choice_6","Wspomnij o Madame Samirze.","Madame Samira'dan söz et.",""
+"AA9B4EE04852B79D511B4DBCA92E8219","CinematicNode_Choice_6","Zacznij temat Swietłany.","Swietłana konusunu aç.",""
+"50F5C13642DC33019503CE89F75DA2C7","CinematicNode_Choice_6","Zapytaj o Zofię Skałon.","Zofia Skałon hakkında sor.",""
+"EA3D571744556ABDF8B4458B98E8295E","CinematicNode_Choice_6","Wspomnij, że spotkałeś Konieczkina.","Konieczkin ile karşılaştığını söyle.",""
+"EA5EA3324225B3E77C59638E88A460A3","CinematicNode_Choice_6","Zapytaj, jak się bawi.","Nasıl eğlendiğini sor.",""
+"C03660C644266B5A050354A421E6CFF8","CinematicNode_Choice_6","Odejdź.","Uzaklaş.",""
+"D014605C454659C228B162AA81C7E332","CinematicNode_Choice_7","Postrasz ich thaumaturgią.","Onları tılsımkârlıkla korkut.",""
+"C9770BE34FEA9939E133DCA8B7EAA92B","CinematicNode_Choice_7","Przyznaj, że miałeś kłopoty z umysłem.","Akıl sorunlarının olduğunu kabul et.",""
+"33E22A484F3CA8A4D5700B8A8A85148E","CinematicNode_Choice_7","Podziękuj.","Teşekkür et.",""
+"7465011D45BC23D4F94489B0D24F24BF","CinematicNode_Choice_8","Powiedz jej o dzikim salutorze.","Ona vahşi salutor hakkında söyle.",""
+"6742BF574ACF726AD1FF9B87C7F1ABDA","CinematicNode_Choice_8","Zmień temat.","Konuyu değiştir.",""
+"9759F87040E172F045096CBCBB9A9D00","CinematicNode_Choice_9","Powiedz jej o romansie Swietłany i waszego ojca.","Ona Swietłana ve babanızın ilişkisinden söz et.",""
+"EED938EC4FC0680C16D42FAB11A037DE","CinematicNode_Choice_9","Zmień temat.","Konuyu değiştir.",""
+"D20BA2D849B3795BD301D78E3D3F4C31","CinematicNode_Response_34","Tu jesteś.","İşte buradasın.",""
+"1767D1A9420AC58786082AA94D466FD5","CinematicNode_Response_34","Panowie, poznajcie mojego brata.","Beyler, kardeşimle tanışın.",""
+"6C4806094573451F0A4350BFC5FF45F7","CinematicNode_Response_34","Wiktor Szulski.","Wiktor Szulski.",""
+"9F8F8B5546E527CC278A2E98A37E051C","CinematicNode_Response_34","Ostatni Szulski, który nosi spodnie.","Pantolon taşıyan son Szulski.",""
+"EB8591F345B6A446DD4C348F074300E5","CinematicNode_Response_34","Nie wiesz tego. Panna Ligia może jeszcze spłodzić dziedzica fortuny.","Bilmiyorsun. Küçük hanım Ligia servetin varisini daha doğurabilir.",""
+"BBA054DB473A616524A34D9F9B8778AF","CinematicNode_Response_34","Nawet ze mną, jeśli nie wspomni o tym mojej żonie.","Benimle bile — eşime söylemezse.",""
+"EAEAFA044D5A0CC9CA739AB0D3336DFF","CinematicNode_Response_34","Ale porozmawiajmy w końcu po męsku.","Sonunda erkekçe konuşalım.",""
+"0FEFE8DB49F54B22F33376A8B9CF59BE","CinematicNode_Response_34","Zamierza pan przejąć firmę ojca, prawda?","Babanızın şirketini devralmaya niyetlisiniz, değil mi?",""
+"98069BD742568D7CCF7ECAB7E2BC0B75","CinematicNode_Response_35","Sugeruję najpierw zająć się własnymi sprawami. Na przykład małżeńskimi.","Önce kendi işlerinizle ilgilenmenizi öneririm. Örneğin evlilik meseleniz.",""
+"EDAF54AF46D62482570B84B940C1EAAF","CinematicNode_Response_35","Może Luiza nie jest taką idiotką, za jaką ją pan bierze?","Belki Luiza sandığınız kadar ahmak değildir?",""
+"D33EEA984F19AB15351ABEBF76504BCB","CinematicNode_Response_35","Słucham?","Efendim?",""
+"DB0B7B564A9D88D2C28D1F982448AF5E","CinematicNode_Response_35","Nie przyszło panu do głowy, że kiedy zostawia ją pan w domu, jej taka samotność też może być na rękę?","Onu evde bıraktığınızda o yalnızlığın ona da yaramış olabileceği aklınıza gelmedi mi?",""
+"0096254941BB011CA5DDB2BF2AFA4B35","CinematicNode_Response_35","Co pan sugeruje?","Ne ima ediyorsunuz?",""
+"B42755094BEFD7C70E36B4B04A87DBC8","CinematicNode_Response_35","Rogi. Byłem zbyt subtelny?","Boynuz. Fazla mı ince oldum?",""
+"135B7C9D4F30A5F0E433D58837072A6A","CinematicNode_Response_36","Powodzenia w interesach, panience.","Ticarette başarılar, küçük hanım.",""
+"F1F7CC8648E677C5B1D3149A3C58CD44","CinematicNode_Response_37","Wiedziałaś, że tatuś miał romans z gospodynią tego wieczoru?","Babacığının bu akşamın ev sahibesiyle ilişkisi olduğunu biliyor muydun?",""
+"3C8E8AD946A1210EE1A2CFB29522C737","CinematicNode_Response_37","Jesteś pewny?","Emin misin?",""
+"8483E62849E96AEBF71B6CBCD592CF20","CinematicNode_Response_37","Najbardziej, jak tylko thaumaturg może być. Czułem co on czuł, kiedy... No wiesz.","Bir tılsımkârın olabileceği kadar eminim. Onun hissettiklerini hissettim, tam da… anlarsın.",""
+"797E72044422C70C697953B9D14AA36C","CinematicNode_Response_37","Przestań, to obrzydliwe!","Yeter, iğrenç!",""
+"AD435B9740BF9D23939184A5DC239F9A","CinematicNode_Response_37","Szybko, zmień temat.","Çabuk, konuyu değiştir.",""
+"8F159C1C43676BF1F3C88DAF9AA69CF8","CinematicNode_Response_38","Niestety. Swietłana nie chce puścić pary z ust.","Maalesef. Swietłana ağzından tek kelime bile kaçırmak istemiyor.",""
+"E053B2C44126FBA6A3FE8C97CB6934CB","CinematicNode_Response_38","Pewnie ci nie ufa. W tym towarzystwie, to jedno akurat o niej dobrze świadczy.","Sana güvenmiyor galiba. Bu topluluk için, bu onun lehine bir şey.",""
+"17709C684E04D2C2E29A91943452860D","CinematicNode_Response_38","Skąd ten chłód, siostro?","Bu soğukluk nereden geliyor, bacım?",""
+"2E0AD6044D61D66C3AA32D8F3B8F4322","CinematicNode_Response_38","Nigdy jej nie lubiłam. Jej sposób bycia mnie drażni. Słyszałam, że straszna z niej intrygantka.","Onu hiç sevmedim. Varoluş biçimi beni rahatsız ediyor. Müthiş bir entrikacı olduğunu duydum.",""
+"585E821B453BCF38C61D829A460C22A2","CinematicNode_Response_38","Hm.","Hmm.",""
+"85F09E1142FB1A126F0C8DB31B26F844","CinematicNode_Response_39","Zofia Skałon, córka generał-gubernatora. Znasz ją?","Zofia Skałon, General-Vali'nin kızı. Tanıyor musun?",""
+"610332AA46F98D637A5E519A366DDA44","CinematicNode_Response_39","Nie - i tobie również nie radzę zawierać z nią jakichś znajomości.","Hayır — sana da onunla tanışıklık kurmanı önermem.",""
+"1BC7C93D4623006305B7169F03AF5B3D","CinematicNode_Response_39","Skałon nie znosi thaumaturgów.","Skałon tılsımkârlara dayanamaz.",""
+"8F39463142C9D726B5BC4582A0C9D6EA","CinematicNode_Response_40","Zgadnij, kogo znów spotkałem. Tajemniczy i mocno pokiereszowany.","Tahmin et yine kiminle karşılaştım. Esrarengiz ve bir hayli yaralı.",""
+"94A33CFC4D5ABA5F9D15E6805E777263","CinematicNode_Response_40","Iwan Konieczkin?","Iwan Konieczkin?",""
+"00F95D114FC9529423BF49809338AC9F","CinematicNode_Response_40","Co o nim wiesz?","Onun hakkında ne biliyorsun?",""
+"5ECCAA4C446411B44115FEA51CE13F85","CinematicNode_Response_40","Niewiele. To jakiś znajomy taty.","Fazla bir şey bilmem. Babamın bir tanıdığı.",""
+"0741916D4361EF617034B4BC25C147EE","CinematicNode_Response_40","Cóż, w zasadzie... To właśnie dzięki niemu tutaj jesteśmy.","Yani, aslında… burada olmamız onun sayesinde.",""
+"063C07044B6B03EEDCBC039222A6F965","CinematicNode_Response_40","Co takiego? Ligia...","Ne? Ligia…",""
+"2ABD1B9547BF857D9FDADF818A9ABCB6","CinematicNode_Response_40","Wiem, że nie ma nic za darmo, ale on naprawdę niczego nie chciał.","Bedavanın olmadığını biliyorum ama o gerçekten hiçbir şey istemedi.",""
+"75F30E4D4FDB2E91C4AD5BB8C38FEF06","CinematicNode_Response_40","Tak, wygląda mi na prawdziwego altruistę.","Evet bana gerçek bir elcil gibi görünüyor.",""
+"0EC9CA804E2EBBBC0B4A2187C21E19BD","CinematicNode_Response_41","Idę.","Gidiyorum.",""
+"50A895644A6D79B996944F9151681C29","CinematicNode_Response_42","Mogę zamienić z tobą słowo?","Seninle iki çift lafa bakar mısın?",""
+"E2D5512A4C7E977712BAAAA92C7B2EA8","CinematicNode_Response_43","To prawda, jestem kompletnie oszalały.","Doğru, tamamen çılgınım.",""
+"7E52247F4E421AE42EE499855DBE756D","CinematicNode_Response_43","Nie rozróżniam, co jest prawdą, a co blefem...","Neyin doğru neyin blöf olduğunu ayırt edemiyorum…",""
+"4981FABA4AEC764646C65EA9D361BB4A","CinematicNode_Response_44","Miałem pewne problemy, to prawda.","Bazı sorunlarım vardı, doğru.",""
+"5E2CDAEC4FA970C69886F7A7F80469BD","CinematicNode_Response_44","Ale wyzdrowiałem. Może dlatego nie zaglądam ludziom pod bieliznę?","Ama iyileştim. Belki o yüzden insanların çamaşırına göz atmıyorum?",""
+"F656B51C41C0D3C8A5C0B2A43A0B3C58","CinematicNode_Response_45","To chyba prawda, co się o panu opowiada.","Hakkınızda söylenenler doğruymuş galiba.",""
+"96AA8CB349CC957CDC4695B4AABF2E63","CinematicNode_Response_45","Tak? Cóż takiego?","Öyle mi? Ne gibi?",""
+"AF6120F640EDD17AEFC9DC8D47495F65","CinematicNode_Response_45","Postradał pan zmysły.","Aklınızı yitirmişsiniz.",""
+"183E0539473E8A0ED8C918AC1582567C","CinematicNode_Response_46","...poza rogami Puchalskiego.","…Puchalski'nin boynuzu dışında.",""
+"234513744B7314E52342EEAAF7F2EE3F","CinematicNode_Response_46","Niebezpieczny prostak.","Tehlikeli hödük.",""
+"4B50E59B4C0D7BBCFB7FBD9C855A77C7","CinematicNode_Response_47","Czy ja dobrze widziałam, że poznałeś tę całą <fr>Madame</>?","O tam <fr>Madame</>'la tanıştığını doğru mu gördüm?",""
+"F3C1025641289276D02067BE870EE1D9","CinematicNode_Response_48","To teraz nieistotne.","Şimdi önemli değil.",""
+"C5959B1E4CE1BEAD6E2215A2069D06F0","CinematicNode_Response_49","Madame upatrzyła sobie salutora, który przylgnął do jednego z gości.","Madame, konuklardan birine yapışmış bir salutorun peşine düşmüş.",""
+"42E99019463B1536F6EC209E157B1367","CinematicNode_Response_49","Co to za salutor?","Ne tür bir salutor?",""
+"A76092F144D05BFAD4D7D1B24245BB4A","CinematicNode_Response_50","Pamiętasz te <dl>klechdy</>, które matka nam kiedyś czytała, i legendę o złotym wężu?","Annemin bize okuduğu şu <dl>halk masallarını</>, altın yılan efsanesini hatırlıyor musun?","'klechda' = Slav halk masalı"
+"E70E0D934DB8C8F9066EB3B00242E44C","CinematicNode_Response_50","Tak, o Welesie.","Evet, Weles hakkında.",""
+"B99A4A204C8F1A45D8D4B986165E6C4C","CinematicNode_Response_50","Tak! Cieszę się, że tu jesteś.","Evet! Burada olduğuna sevindim.",""
+"85854C2247EA40079CD0CB87293840BD","CinematicNode_Response_51","Panowie, moja siostra wie, co robi.","Beyler, kız kardeşim ne yaptığını biliyor.",""
+"E4223E69487771EDC84AF492AEF63580","CinematicNode_Response_51","Na świecie są całe społeczności zarządzane przez kobiety. Jak Wielka Brytania.","Dünyada kadınlar tarafından yönetilen toplumlar var. Britanya gibi.",""
+"5B9997EF46802CD0864E6C87081139F4","CinematicNode_Response_51","Pamiętacie jeszcze królową Wiktorię?","Kraliçe Viktorya'yı hâlâ hatırlıyor musunuz?",""
+"E95EAFBC4C4D6197F532D3A8706CBD0A","CinematicNode_Response_52","Dziekuję, długo i sumiennie na to pracowałem.","Teşekkürler, bunun için uzun ve özverili çalıştım.",""
+"99AB1EE54A296BD9EB40D1AC818A9286","CinematicNode_Response_53","Przepraszam, za chwilę wrócę.","Bağışlayın, birazdan döneceğim.",""
+"EDD8A3EC425D9F69BB140BBA0FA421EC","CinematicNode_Response_53","Głogowski, zanudziłeś biedaka.","Głogowski zavallıyı sıktın artık.",""
+"175077BC4761467E77B3FBA202874BD0","CinematicNode_Response_54","Pan Szulski. To co z tą firmą?","Pan Szulski. O şirket işi ne oldu?",""
+"B89CC38F4EACA3478BC0389656F6379F","CinematicNode_Response_55","Chcesz czegoś jeszcze?","Başka bir şey ister misin?",""
+"E8A7E43749A29AB3D3C1C4A3DBCC3319","CinematicNode_Response_56","Prawie mi ich szkoda.","Neredeyse onlara acıyacaktım.",""
+"E60CF97D4EA657D6DBEF3E9D2391B288","CinematicNode_Response_56","Przekroczyłem jakieś granice?","Bir sınır mı aştım?",""
+"4539B8FF4CC47AE992FC75B8A2700287","CinematicNode_Response_56","Skądże.","Asla.",""
+"181E13304DE015C82BAD82A2133378DF","CinematicNode_Response_57","No, no. Teraz mogę zapomnieć, że ktokolwiek zechce ze mną zamienić choćby słowo.","Hele hele. Artık, kimsenin benimle tek bir kelime bile etmek isteyeceğini unutabilirim.",""
+"C8394422431A14085811F0A209C8A8B2","CinematicNode_Response_57","Zawsze masz mnie.","Ben her zaman yanındayım.",""
+"1C75CAEF4A22947815C501A7C1D87891","CinematicNode_Response_57","Posłuchaj, jeśli chodzi o tych dwóch, to nie podobało mi się po prostu, jak cię traktowali.","Dinle, bu ikisi için sadece sana davranışları hoşuma gitmedi.",""
+"256485B940AB4C968ED8A993F8A20491","CinematicNode_Response_57","Przywykłam, Wiktor. Nie ruszają mnie ich słowa. Poradzę sobie.","Alıştım Wiktor. Sözleri beni etkilemiyor. Halledebilirim.",""
+"EA89EFB0418E72FA758F63BF41AF9210","CinematicNode_Response_58","Wiesz, dziękuję, że we mnie wierzysz, zwłaszcza przy innych. To wiele dla mnie znaczy.","Biliyor musun, bana inandığın için — özellikle başkalarının yanında — teşekkür ederim. Benim için çok şey ifade ediyor.",""
+"418A7C1246A81F439446D899910A2870","CinematicNode_Response_59","Jak się bawisz?","Nasıl eğleniyorsun?",""
+"FC279CCB4A7FF3D9CF0AEE80B9EA53F2","CinematicNode_Response_60","Jakieś postępy ze Swietłaną?","Swietłana'yla bir ilerleme var mı?",""
+"A2EF022C42DA73E7D75F83BCF5572721","CinematicNode_Response_61","Jak się bawisz w tym gnieździe żmij?","Bu yılan yuvasında nasıl eğleniyorsun?",""
+"ABF494FE4BE460B1AD896DBE062D7D38","CinematicNode_Response_61","Wódka jest całkiem znośna.","Votka gayet içilir.",""
+"9191E00E4643D4DA37DB7BBF51A0E4CE","CinematicNode_Response_61","Obserwuję, jak mój własny brat wyżywa się na zwykłych śmiertelnikach.","Kendi kardeşimin sıradan ölümlüler üzerinde hınç çıkarmasını seyrediyorum.",""
+"16735A6747C1DAA0C6D772B0A6D3C635","CinematicNode_Response_61","Nie wiem, o czym mówisz.","Ne demek istediğini bilmiyorum.",""
+"DD33717A47CA7014880B539DBDB85C88","CinematicNode_Response_62","Lepiej zmienię temat.","Konuyu değiştirmem iyi olur.",""
+"DFBAEA6E49298D3BC470B98C1B402389","CinematicNode_Response_63","Dosyć wnikliwie przyjrzałem się Samirze.","Samira'ya oldukça yakından baktım.",""
+"1D7E6F4C4F64AC01EB048FBCA2C4765C","CinematicNode_Response_63","Żadne z niej medium. Samira to thaumaturgini na polowaniu.","Medyum filan değil. Samira avdaki bir kadın tılsımkâr.",""
+"C570183B4BFD552100EC34BB5FDC1BD6","CinematicNode_Response_63","Na polowaniu?","Av mı?",""
+"3CF28F88450BE8D44C335B8D2517F184","CinematicNode_Response_64","Weles.","Weles.",""
+"EE7773C3469CF08BE455E790E0EF1296","CinematicNode_Response_64","Jak z tych bajek na dobranoc?","Şu gece masallarındaki gibi mi?",""
+"625B3AFD463DD10E57A6D49F6344A24B","CinematicNode_Response_65","Ty też na niego polujesz?","Sen de onu mu avlıyorsun?",""
+"B86681DA4698EBE631E5809BD4DCA1CB","CinematicNode_Response_65","Nie ukrywam, że chciałbym go mieć. Jeszcze się waham.","Onu istediğimi saklamayacağım. Hâlâ tereddüt ediyorum.",""
+"432FA90A4971CC23BF92F381133F3EF4","CinematicNode_Response_65","Bądź ostrożny.","Dikkatli ol.",""
+"0CA3C8CE49DBADDE306C5395D3A1FCD9","CinematicNode_Response_65","Jestem, dlatego się waham.","Dikkatliyim, o yüzden tereddüt ediyorum.",""
+"A2C7E44E43EB9323C42154BFE58ED443","CinematicNode_Response_66","Naprawdę? Bo słyszałam, że na podjeździe doszło do pewnego ""konfliktu"".","Sahi mi? Çünkü araba yolunda bir tür ""ihtilaf"" yaşandığını duydum.",""
+"BDFFC6DF4B1885FE5B64BF872D9FE4DE","CinematicNode_Response_66","Hej, to oni zaczęli. Broniłem tylko twojego honoru.","Hey, onlar başlattı. Sadece senin onurunu savundum.",""
+"45C5DC37413B25AE278918AB1C2F14F1","CinematicNode_Response_66","Znowu?","Yine mi?",""
+"65959193483DADBB9F4D14BBE7DE8C22","CinematicNode_Response_67","Zapewniam panów, że w kwestii rodzinnych interesów postąpię zgodnie z wolą ojca.","Beyleri temin ederim ki aile işleri meselesinde babamın iradesine göre davranacağım.",""
+"7A84492A4813361CF21AA8A25B3C40F4","CinematicNode_Response_67","Żeby być pewnym, że nie będę miał z panami do czynienia.","Sizinle işim olmayacağından emin olmak için.",""

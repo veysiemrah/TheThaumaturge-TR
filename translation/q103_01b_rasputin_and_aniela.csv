@@ -1,80 +1,80 @@
-Hash,NodeName,PL,TR,Notes
-D88CA2844DF69FF57409EA9C7C042D4A,CinematicNode_Choice_5,"Powiedz, że potrzebujesz hipnozy.",Hipnoza ihtiyacın olduğunu söyle.,
-F6ADAA5E46FA2FA051E0E6B47C845680,CinematicNode_Choice_5,"Dowiedz się, jak długo zamierza tu zostać.",Ne kadar kalmaya niyetli olduğunu öğren.,
-942C3A92488D1DC0C23E35A9C3476B34,CinematicNode_Choice_5,"Zapytaj, czy długo zna Nadarzyńskich.",Nadarzyński'leri uzun zamandır tanıyıp tanımadığını sor.,
-E8AF1A31459551D872590EA79AE3C92A,CinematicNode_Choice_5,"Dopytaj, co opowiadał o tobie Anieli.",Aniela'ya senin hakkında ne anlattığını sorgula.,
-A34C0DED4E0B42CE0D57F896B2BB9B88,CinematicNode_Choice_5,Odejdź.,Uzaklaş.,
-3DBBA322449331D5DEEDF48D02D0161A,CinematicNode_Choice_6,Poddaj się hipnozie.,Hipnoza teslim ol.,
-20A32D3046644550BB8CECBD0C736565,CinematicNode_Choice_6,Porozmawiaj z nim chwilę.,Onunla biraz konuş.,
-FEBF3F904A412F9FFB43B1ADC1899F52,CinematicNode_Choice_7,"Powiedz, że nie.",Hayır de.,
-C09BEE9345913627F8412BB5D0B51829,CinematicNode_Choice_7,"Zapytaj, co ma na myśli.",Ne demek istediğini sor.,
-99FD35A748C86A02E0C7F986217B344F,CinematicNode_Choice_8,"Powiedz, że będziesz się zbierał.",Toparlanacağını söyle.,
-CB662BC1448B6C1466C4E8A145455013,CinematicNode_Choice_8,"Zapytaj, czy znowu miał jakąś wizję.",Yine bir vizyon görüp görmediğini sor.,
-A632C5594AD0C71D45D3A193D1B68049,CinematicNode_Choice_8,"Podpytaj, czy obserwował, jak śpisz.",Uyurken seni izleyip izlemediğini sorgula.,
-B0AA2D0C459859A73920D4BDD4963BCE,CinematicNode_Choice_9,Przecież nie mówiłeś mu o Swietłanie.,Ona Swietłana'dan bahsetmemiştin.,
-DD5921E2424355AA6C81A88BD46A8B12,CinematicNode_Choice_9,Dopytaj o plotki.,Dedikoduları sorgula.,
-C580E30F4240CFAEB2F11985D9DD29FA,CinematicNode_Response_25,Czy to on?,Bu mu o?,
-29B1A60443A4F5FD7131F7BDD4E43684,CinematicNode_Response_25,We własnej osobie.,Ta kendisi.,
-E112015446BA08E768E6F4A60DB5C93E,CinematicNode_Response_25,"Poznajcie się. Aniela Nadarzyńska, moja droga gospodyni. Wiktor Szulski, mój drogi przyjaciel.","Tanışın. Aniela Nadarzyńska, sevgili ev sahibim. Wiktor Szulski, sevgili dostum.",
-12409BE64E84FE33A146D8BEC3FDE3EF,CinematicNode_Response_25,Pański ojciec miał piękny pogrzeb.,Babanızın cenazesi güzel geçti.,
-87DF0D4E4EE70B61D758A480D9E76E2C,CinematicNode_Response_25,Dziękuję...,Teşekkür ederim...,
-4318073D4F059744662F8C97E08D1A2E,CinematicNode_Response_25,"Moja droga, na dziś już skończymy. Dowiem się teraz, z czym Wiktor do nas przychodzi.","Canım, bugünlük bu kadar. Şimdi Wiktor'un ne için geldiğini öğreneceğim.",
-7D2ACFE44A41C5C5721EC193EB30AFF9,CinematicNode_Response_25,Co cię sprowadza?,Seni buraya ne getirdi?,
-BD4E96F84F611FCFE1F4D2B1E7928F60,CinematicNode_Response_26,Długo ich znasz?,Onları uzun zamandır mı tanıyorsun?,
-2B0730BB4FD4E4CF85F6B29D6C863328,CinematicNode_Response_26,Nie. Ale Aniela i Lucjan to moje dwie dobre dusze.,Hayır. Ama Aniela ve Lucjan benim iki iyi ruhum.,
-8882922C4D53C61D7C3F0382806DA0B1,CinematicNode_Response_26,"Wzięli mnie, ubogiego kaznodzieję, pod swój dach, czego nigdy im nie zapomnę.",Beni yoksul bir vaiz olarak çatıları altına aldılar; bunu asla unutmayacağım.,
-FD333FD14C4BBA437F77EDBA003EB734,CinematicNode_Response_26,Im też <i>pomagasz</>?,Onlara da <i>yardım</> mı ediyorsun?,
-E03A61C8463CF0D70B457F8E4AA1D771,CinematicNode_Response_26,Jestem ukojeniem dla zszarganych nerwów Anieli. Ale dość o tym.,Aniela'nın yıpranmış sinirleri için bir tesellim. Ama bu kadarı yeter.,
-C0D9BEF849AFD408406C14AA489E68B6,CinematicNode_Response_26,"Mów, czego tobie trzeba. ","Söyle, sana ne lazım. ",
-160BCD2B4688FC2DE51C1399EBE5EAE5,CinematicNode_Response_27,Dobrze cię widzieć.,Seni görmek güzel.,
-2F27126B41C92B3DBE11258ACA736C5B,CinematicNode_Response_28,Nie będę zawracał ci głowy. Porozmawiamy następnym razem.,Kafanı yormayayım. Bir dahaki sefer konuşuruz.,
-E15D39004155C09B35B041B40E0F25FA,CinematicNode_Response_28,Drzwi Nadarzyńskich zawsze są dla ciebie otwarte.,Nadarzyński'lerin kapısı sana her zaman açık.,
-0B7303574EE359EBD67E8D8DA0ABBF99,CinematicNode_Response_29,Właściwie to nie czuję się najlepiej.,Aslında pek iyi hissetmiyorum.,
-CDA080854F06406C845DC5A73D24E3DB,CinematicNode_Response_30,"Zamknij oczy i skup się na tym, co mówię. Wsłuchaj się w mój głos. Odpręż się i wsłuchaj się w siebie.",Gözlerini kapat ve söylediklerime odaklan. Sesimi dinle. Gevşe ve kendini dinle.,
-B96E0CD941F7FCEE8CF5DF9A6F727B03,CinematicNode_Response_30,Podążaj za moim głosem do swojego wnętrza...,Sesimi izle ve içine in...,
-DF014608431031791DA631BA8BF2C997,CinematicNode_Response_31,Przecież to ty dzwoniłeś.,Arayan sendin ya.,
-6479A9FC427ABAC71C170D95FADAB91D,CinematicNode_Response_31,Bardzo zabawne.,Çok komik.,
-96E77FFC473115590AE6B69E2FEC70B3,CinematicNode_Response_32,Wyglądasz na zadomowionego. Długo będziesz zagrzewał tu miejsce?,Burada yerleşmişsin gibi. Uzun süre burada kalacak mısın?,
-C5059E4E416D473BE1E6C8B677EAB41E,CinematicNode_Response_32,"Obawiam się, że nie... To bardzo mili ludzie, ale znowu doświadczyłem wizji. Jeszcze nie przerażającej, ale... niepokojącej.","Korkarım hayır... Çok hoş insanlar, ama yine bir vizyon gördüm. Henüz dehşet verici değil, ama... tedirgin edici.",
-72B7CAED43E2FFBBB12D5BAC390A4367,CinematicNode_Response_32,Podzielisz się?,Paylaşır mısın?,
-9C7E4BDE477F3208F914E6A5B0AA1C5E,CinematicNode_Response_32,Później. Co cię do mnie sprowadza?,Sonra. Seni bana ne getirdi?,
-B702C35F4F1B96EF2E2ABC82316C369E,CinematicNode_Response_33,"Chociaż chyba już widzę, czego ci potrzeba.",Gerçi neye ihtiyacın olduğunu görüyorum galiba.,
-5696768B461B0F27E9FD29B47592083F,CinematicNode_Response_33,"Może nie traćmy czasu, co ty na to?","Vakit kaybetmeyelim, ne dersin?",
-31733E25431A8B133273FC9BC0C84F2F,CinematicNode_Response_34,"Pozwól, że podzielę się pewną opinią na temat twojego tempa w polowaniach na salutory.",İzin ver de salutor avlarındaki tempon hakkında bir görüşümü paylaşayım.,
-B438861944C464376FAE52A0DE510C51,CinematicNode_Response_34,Nie zatracasz się w tym za bardzo? Znowu?,Bunda fazla kaybolmuyor musun? Yine mi?,
-CFDAAD664264BD88A30F3282CDB9C303,CinematicNode_Response_35,Byłbym ci bardzo wdzięczny za kolejną pomoc.,Bir kez daha yardımın için minnettar olurdum.,
-13C06261422766DA2E81DCABE271981C,CinematicNode_Response_36,Chcesz mi coś powiedzieć? Nie chcesz mi już pomagać?,Bana bir şey mi söylemek istiyorsun? Artık yardım etmek istemiyor musun?,
-751D46B0405DC5A38C637DB16A5D4F64,CinematicNode_Response_36,Skąd. Zawsze możesz na mnie liczyć.,Ne münasebet. Bana her zaman güvenebilirsin.,
-6F3399854983F12598907D8D73FCC87E,CinematicNode_Response_37,Po prostu się martwię.,Sadece endişeleniyorum.,
-8C2D0E35420109B32F3BF68D8E58C268,CinematicNode_Response_38,"Nie wydaje mi się. Jeśli już, to tylko staję się lepszy.","Sanmam. Olsa olsa, daha da iyi oluyorum.",
-D3D2838444FF961BCB0B699C031B38B4,CinematicNode_Response_38,"Dzięki tobie, rzecz jasna.","Sayende, elbette.",
-3D02B091484495A90B98C18876611D2D,CinematicNode_Response_39,"Wyglądam gorzej, niż się czuję.",Hissettiğimden daha kötü görünüyorum.,
-10CCDF01427416BE201A14885E3F2505,CinematicNode_Response_39,Co cię zatem sprowadza?,Öyleyse seni buraya ne getirdi?,
-B6F915AA43C204682437CA9FBDBDC3AA,CinematicNode_Response_40,Chciałem cię prosić o kolejny seans.,Bir seans daha rica etmek istiyordum.,
-95B51EDD46EF0D33A745CF8EAF933E40,CinematicNode_Response_41,Czemu mi się tak dziwnie przyglądała? Co jej o mnie opowiadałeś?,Bana neden öyle tuhaf baktı? Hakkımda ne anlatmıştın ona?,
-05F0BB3546CBECB2072413B9DE500AC3,CinematicNode_Response_41,"Nigdy nie widziała thaumaturga. Wspominałem jej tylko, jak się poznaliśmy.","Hiç tılsımkâr görmemişti. Ona yalnız tanışmamızdan bahsetmiştim.",
-F32BA79A445130A9E8F297A17D668A49,CinematicNode_Response_41,Mogę ci jakoś pomóc?,Sana nasıl yardım edebilirim?,
-1988090748232A6AF1578BB6CAB770AB,CinematicNode_Response_42,Wyglądasz lepiej. Długo spałeś.,Daha iyi görünüyorsun. Uzun uyudun.,
-377601DE4D4A20F16B2DB4A62548E6AA,CinematicNode_Response_42,Tak mi się właśnie wydaje... Który mamy rok?,Aynen öyle geliyor... Hangi yıldayız?,
-F12057644652D19CA6942B996F230357,CinematicNode_Response_42,Wciąż tysiąc dziewięćset piąty.,Hâlâ bin dokuz yüz beş.,
-D886E4344A377F36E9F77C91ABBDE21A,CinematicNode_Response_42,Czas jednak płynie nieubłaganie...,Zaman acımasızca akıp gidiyor yine de...,
-01B9462F4E218F07C28A408C29C194F4,CinematicNode_Response_43,"Patrzyłeś, jak śpię?",Uyuduğumu izliyor muydun?,
-F3970D1646187C67F4875293E1A8B2DB,CinematicNode_Response_43,Wciąż się ślinisz.,Hâlâ ağzından salya akıtıyorsun.,
-2088B09A42ACAC2D57882CADDAEFDC38,CinematicNode_Response_44,Nie będę już chyba nadużywał gościnności Nadarzyńskich.,Artık Nadarzyński'lerin misafirperverliğini suistimal etmeyeceğim galiba.,
-D8CA02864212A85F05766198F8D365B7,CinematicNode_Response_44,"Ta strapiona kobieta, o której mi wspominałeś. Swietłana.","Bana bahsettiğin o dertli kadın. Swietłana.",
-EEB2F61F4B653782B9B1ADA3DC5FB112,CinematicNode_Response_44,"Wiesz, widziałem ją w mojej wizji. Ta opryskliwa służka przyniosła plotki, jakie chodzą o niej po mieście.","Biliyor musun, onu vizyonumda gördüm. Şu kaba hizmetçi kız şehirde onun hakkında dolaşan dedikoduları getirdi.",
-4EC286614DBA8CFE688ECCB117D8F24A,CinematicNode_Response_44,Ta Swietłana przyciąga do siebie kłopoty.,Bu Swietłana dertleri kendine çekiyor.,
-052309814E7B92BC51660FA1A836E73F,CinematicNode_Response_45,"Nie pamiętam, żebym ci mówił o Swietłanie.",Sana Swietłana'dan bahsettiğimi hatırlamıyorum.,
-0FC42ED64F3169A1D665D3B9DA105E8B,CinematicNode_Response_45,"Może to efekt naszych <i>zabiegów</>? Mam nadzieję, że wszystko do ciebie wróci.","Belki <i>uygulamalarımızın</> etkisidir? Umarım her şey yerine gelir.",
-32AAE4004DBBC85BFEEF7B9235340576,CinematicNode_Response_46,"Co to za plotki, jeśli mogę spytać?","Nasıl dedikodular, sorabilir miyim?",
-9E89A8AD4B0B3CA1F47153BAEA5F4680,CinematicNode_Response_46,"Nic, co mogłoby zburzyć jej obraz w twoich oczach. Zaintrygowała mnie. Chciałbym ją poznać.","Senin gözündeki imajını bozacak bir şey yok. İlgimi çekti. Onunla tanışmak isterim.",
-C712E2C24309D32BA0B741AC63FAB2D2,CinematicNode_Response_46,"I wiesz, ona chyba potrzebuje pomocy.","Biliyor musun, galiba onun yardıma ihtiyacı var.",
-87F2733D457E4421C04F419AE7BF52C1,CinematicNode_Response_46,"Pomocy? Co chcesz, żebym zrobił?","Yardım mı? Ne yapmamı istiyorsun?",
-9145D89F4F53A1D002F62B87910CA367,CinematicNode_Response_46,Sprowadź ją do mnie. Nie zatrzymuję cię. Do zobaczenia.,Onu bana getir. Seni tutmuyorum. Görüşürüz.,
-CDB329084707C5901F53A78A6004A4A0,CinematicNode_Response_47,Znowu widziałeś przyszłość?,Yine geleceği mi gördün?,
-3CFCD486416F30C46EDFFDB03E024906,CinematicNode_Response_47,"Nie wiem, czy to jest przyszłość. Może to tylko jakieś symbole, których nie potrafię odczytać?","Bunun gelecek olup olmadığını bilmiyorum. Belki sadece okuyamadığım semboller?",
-455DBCC6424B153261326DAAC99BF498,CinematicNode_Response_47,"Ciężkie chmury sunące po polach bitwy, zbierające swoje śmiertelne żniwo. I te istoty... Bez twarzy.","Savaş alanları üstünde süzülen ağır bulutlar, ölümcül hasatlarını topluyorlardı. Ve o varlıklar... Yüzsüz.","I. Dünya Savaşı kehaneti (Rasputin)"
-FE57DB984049730AD4626EAC59AC8B46,CinematicNode_Response_47,"Chodziły między dziwnie poskręcanymi ciałami... I okręt. Niezatapialny, a szedł na dno z tysiącami ludzi...","Tuhaf biçimlerde kıvrılmış bedenler arasında dolaşıyorlardı... Bir de bir gemi. Batamaz deniyordu, ama binlerce insanla birlikte dibe gitti...",Titanic kehaneti
-9358AB6E48C66F7BB4DD50BBEC59B13F,CinematicNode_Response_47,"Czuję, jakbym mógł to powstrzymać.",Bunu durdurabilirmişim gibi hissediyorum.,
-55DB28EB4C3263811A9C88A3CAF9BF86,CinematicNode_Response_48,"Mhm. Zobaczmy, co przyprowadziłeś ze sobą tym razem.","Hmm. Bakalım bu sefer yanında neler getirdin.",
-08BD935A4F594FE7BF38AE806545EC71,CinematicNode_Response_49,"Chyba że się mylę i przychodzisz z czymś przykrym.",Yanılmıyorsam hoş olmayan bir şeyle geldin.,
+"Hash","NodeName","PL","TR","Notes"
+"D88CA2844DF69FF57409EA9C7C042D4A","CinematicNode_Choice_5","Powiedz, że potrzebujesz hipnozy.","Hipnoza ihtiyacın olduğunu söyle.",""
+"F6ADAA5E46FA2FA051E0E6B47C845680","CinematicNode_Choice_5","Dowiedz się, jak długo zamierza tu zostać.","Ne kadar kalmaya niyetli olduğunu öğren.",""
+"942C3A92488D1DC0C23E35A9C3476B34","CinematicNode_Choice_5","Zapytaj, czy długo zna Nadarzyńskich.","Nadarzyński'leri uzun zamandır tanıyıp tanımadığını sor.",""
+"E8AF1A31459551D872590EA79AE3C92A","CinematicNode_Choice_5","Dopytaj, co opowiadał o tobie Anieli.","Aniela'ya senin hakkında ne anlattığını sorgula.",""
+"A34C0DED4E0B42CE0D57F896B2BB9B88","CinematicNode_Choice_5","Odejdź.","Uzaklaş.",""
+"3DBBA322449331D5DEEDF48D02D0161A","CinematicNode_Choice_6","Poddaj się hipnozie.","Hipnoza teslim ol.",""
+"20A32D3046644550BB8CECBD0C736565","CinematicNode_Choice_6","Porozmawiaj z nim chwilę.","Onunla biraz konuş.",""
+"FEBF3F904A412F9FFB43B1ADC1899F52","CinematicNode_Choice_7","Powiedz, że nie.","Hayır de.",""
+"C09BEE9345913627F8412BB5D0B51829","CinematicNode_Choice_7","Zapytaj, co ma na myśli.","Ne demek istediğini sor.",""
+"99FD35A748C86A02E0C7F986217B344F","CinematicNode_Choice_8","Powiedz, że będziesz się zbierał.","Toparlanacağını söyle.",""
+"CB662BC1448B6C1466C4E8A145455013","CinematicNode_Choice_8","Zapytaj, czy znowu miał jakąś wizję.","Yine bir vizyon görüp görmediğini sor.",""
+"A632C5594AD0C71D45D3A193D1B68049","CinematicNode_Choice_8","Podpytaj, czy obserwował, jak śpisz.","Uyurken seni izleyip izlemediğini sorgula.",""
+"B0AA2D0C459859A73920D4BDD4963BCE","CinematicNode_Choice_9","Przecież nie mówiłeś mu o Swietłanie.","Ona Swietłana'dan bahsetmemiştin.",""
+"DD5921E2424355AA6C81A88BD46A8B12","CinematicNode_Choice_9","Dopytaj o plotki.","Dedikoduları sorgula.",""
+"C580E30F4240CFAEB2F11985D9DD29FA","CinematicNode_Response_25","Czy to on?","Bu mu o?",""
+"29B1A60443A4F5FD7131F7BDD4E43684","CinematicNode_Response_25","We własnej osobie.","Ta kendisi.",""
+"E112015446BA08E768E6F4A60DB5C93E","CinematicNode_Response_25","Poznajcie się. Aniela Nadarzyńska, moja droga gospodyni. Wiktor Szulski, mój drogi przyjaciel.","Tanışın. Aniela Nadarzyńska, sevgili ev sahibim. Wiktor Szulski, sevgili dostum.",""
+"12409BE64E84FE33A146D8BEC3FDE3EF","CinematicNode_Response_25","Pański ojciec miał piękny pogrzeb.","Babanızın cenazesi güzel geçti.",""
+"87DF0D4E4EE70B61D758A480D9E76E2C","CinematicNode_Response_25","Dziękuję...","Teşekkür ederim…",""
+"4318073D4F059744662F8C97E08D1A2E","CinematicNode_Response_25","Moja droga, na dziś już skończymy. Dowiem się teraz, z czym Wiktor do nas przychodzi.","Canım, bugünlük bu kadar. Şimdi Wiktor'un ne için geldiğini öğreneceğim.",""
+"7D2ACFE44A41C5C5721EC193EB30AFF9","CinematicNode_Response_25","Co cię sprowadza?","Seni buraya ne getirdi?",""
+"BD4E96F84F611FCFE1F4D2B1E7928F60","CinematicNode_Response_26","Długo ich znasz?","Onları uzun zamandır mı tanıyorsun?",""
+"2B0730BB4FD4E4CF85F6B29D6C863328","CinematicNode_Response_26","Nie. Ale Aniela i Lucjan to moje dwie dobre dusze.","Hayır. Ama Aniela ve Lucjan benim iki iyi ruhum.",""
+"8882922C4D53C61D7C3F0382806DA0B1","CinematicNode_Response_26","Wzięli mnie, ubogiego kaznodzieję, pod swój dach, czego nigdy im nie zapomnę.","Beni yoksul bir vaiz olarak çatıları altına aldılar; bunu asla unutmayacağım.",""
+"FD333FD14C4BBA437F77EDBA003EB734","CinematicNode_Response_26","Im też <i>pomagasz</>?","Onlara da <i>yardım</> mı ediyorsun?",""
+"E03A61C8463CF0D70B457F8E4AA1D771","CinematicNode_Response_26","Jestem ukojeniem dla zszarganych nerwów Anieli. Ale dość o tym.","Aniela'nın yıpranmış sinirleri için bir tesellim. Ama bu kadarı yeter.",""
+"C0D9BEF849AFD408406C14AA489E68B6","CinematicNode_Response_26","Mów, czego tobie trzeba. ","Söyle, sana ne lazım. ",""
+"160BCD2B4688FC2DE51C1399EBE5EAE5","CinematicNode_Response_27","Dobrze cię widzieć.","Seni görmek güzel.",""
+"2F27126B41C92B3DBE11258ACA736C5B","CinematicNode_Response_28","Nie będę zawracał ci głowy. Porozmawiamy następnym razem.","Kafanı yormayayım. Bir dahaki sefer konuşuruz.",""
+"E15D39004155C09B35B041B40E0F25FA","CinematicNode_Response_28","Drzwi Nadarzyńskich zawsze są dla ciebie otwarte.","Nadarzyński'lerin kapısı sana her zaman açık.",""
+"0B7303574EE359EBD67E8D8DA0ABBF99","CinematicNode_Response_29","Właściwie to nie czuję się najlepiej.","Aslında pek iyi hissetmiyorum.",""
+"CDA080854F06406C845DC5A73D24E3DB","CinematicNode_Response_30","Zamknij oczy i skup się na tym, co mówię. Wsłuchaj się w mój głos. Odpręż się i wsłuchaj się w siebie.","Gözlerini kapat ve söylediklerime odaklan. Sesimi dinle. Gevşe ve kendini dinle.",""
+"B96E0CD941F7FCEE8CF5DF9A6F727B03","CinematicNode_Response_30","Podążaj za moim głosem do swojego wnętrza...","Sesimi izle ve içine in…",""
+"DF014608431031791DA631BA8BF2C997","CinematicNode_Response_31","Przecież to ty dzwoniłeś.","Arayan sendin ya.",""
+"6479A9FC427ABAC71C170D95FADAB91D","CinematicNode_Response_31","Bardzo zabawne.","Çok komik.",""
+"96E77FFC473115590AE6B69E2FEC70B3","CinematicNode_Response_32","Wyglądasz na zadomowionego. Długo będziesz zagrzewał tu miejsce?","Burada yerleşmişsin gibi. Uzun süre burada kalacak mısın?",""
+"C5059E4E416D473BE1E6C8B677EAB41E","CinematicNode_Response_32","Obawiam się, że nie... To bardzo mili ludzie, ale znowu doświadczyłem wizji. Jeszcze nie przerażającej, ale... niepokojącej.","Korkarım hayır… Çok hoş insanlar, ama yine bir vizyon gördüm. Henüz dehşet verici değil, ama… tedirgin edici.",""
+"72B7CAED43E2FFBBB12D5BAC390A4367","CinematicNode_Response_32","Podzielisz się?","Paylaşır mısın?",""
+"9C7E4BDE477F3208F914E6A5B0AA1C5E","CinematicNode_Response_32","Później. Co cię do mnie sprowadza?","Sonra. Seni bana ne getirdi?",""
+"B702C35F4F1B96EF2E2ABC82316C369E","CinematicNode_Response_33","Chociaż chyba już widzę, czego ci potrzeba.","Gerçi neye ihtiyacın olduğunu görüyorum galiba.",""
+"5696768B461B0F27E9FD29B47592083F","CinematicNode_Response_33","Może nie traćmy czasu, co ty na to?","Vakit kaybetmeyelim, ne dersin?",""
+"31733E25431A8B133273FC9BC0C84F2F","CinematicNode_Response_34","Pozwól, że podzielę się pewną opinią na temat twojego tempa w polowaniach na salutory.","İzin ver de salutor avlarındaki tempon hakkında bir görüşümü paylaşayım.",""
+"B438861944C464376FAE52A0DE510C51","CinematicNode_Response_34","Nie zatracasz się w tym za bardzo? Znowu?","Bunda fazla kaybolmuyor musun? Yine mi?",""
+"CFDAAD664264BD88A30F3282CDB9C303","CinematicNode_Response_35","Byłbym ci bardzo wdzięczny za kolejną pomoc.","Bir kez daha yardımın için minnettar olurdum.",""
+"13C06261422766DA2E81DCABE271981C","CinematicNode_Response_36","Chcesz mi coś powiedzieć? Nie chcesz mi już pomagać?","Bana bir şey mi söylemek istiyorsun? Artık yardım etmek istemiyor musun?",""
+"751D46B0405DC5A38C637DB16A5D4F64","CinematicNode_Response_36","Skąd. Zawsze możesz na mnie liczyć.","Ne münasebet. Bana her zaman güvenebilirsin.",""
+"6F3399854983F12598907D8D73FCC87E","CinematicNode_Response_37","Po prostu się martwię.","Sadece endişeleniyorum.",""
+"8C2D0E35420109B32F3BF68D8E58C268","CinematicNode_Response_38","Nie wydaje mi się. Jeśli już, to tylko staję się lepszy.","Sanmam. Olsa olsa, daha da iyi oluyorum.",""
+"D3D2838444FF961BCB0B699C031B38B4","CinematicNode_Response_38","Dzięki tobie, rzecz jasna.","Sayende, elbette.",""
+"3D02B091484495A90B98C18876611D2D","CinematicNode_Response_39","Wyglądam gorzej, niż się czuję.","Hissettiğimden daha kötü görünüyorum.",""
+"10CCDF01427416BE201A14885E3F2505","CinematicNode_Response_39","Co cię zatem sprowadza?","Öyleyse seni buraya ne getirdi?",""
+"B6F915AA43C204682437CA9FBDBDC3AA","CinematicNode_Response_40","Chciałem cię prosić o kolejny seans.","Bir seans daha rica etmek istiyordum.",""
+"95B51EDD46EF0D33A745CF8EAF933E40","CinematicNode_Response_41","Czemu mi się tak dziwnie przyglądała? Co jej o mnie opowiadałeś?","Bana neden öyle tuhaf baktı? Hakkımda ne anlatmıştın ona?",""
+"05F0BB3546CBECB2072413B9DE500AC3","CinematicNode_Response_41","Nigdy nie widziała thaumaturga. Wspominałem jej tylko, jak się poznaliśmy.","Hiç tılsımkâr görmemişti. Ona yalnız tanışmamızdan bahsetmiştim.",""
+"F32BA79A445130A9E8F297A17D668A49","CinematicNode_Response_41","Mogę ci jakoś pomóc?","Sana nasıl yardım edebilirim?",""
+"1988090748232A6AF1578BB6CAB770AB","CinematicNode_Response_42","Wyglądasz lepiej. Długo spałeś.","Daha iyi görünüyorsun. Uzun uyudun.",""
+"377601DE4D4A20F16B2DB4A62548E6AA","CinematicNode_Response_42","Tak mi się właśnie wydaje... Który mamy rok?","Aynen öyle geliyor… Hangi yıldayız?",""
+"F12057644652D19CA6942B996F230357","CinematicNode_Response_42","Wciąż tysiąc dziewięćset piąty.","Hâlâ bin dokuz yüz beş.",""
+"D886E4344A377F36E9F77C91ABBDE21A","CinematicNode_Response_42","Czas jednak płynie nieubłaganie...","Zaman acımasızca akıp gidiyor yine de…",""
+"01B9462F4E218F07C28A408C29C194F4","CinematicNode_Response_43","Patrzyłeś, jak śpię?","Uyuduğumu izliyor muydun?",""
+"F3970D1646187C67F4875293E1A8B2DB","CinematicNode_Response_43","Wciąż się ślinisz.","Hâlâ ağzından salya akıtıyorsun.",""
+"2088B09A42ACAC2D57882CADDAEFDC38","CinematicNode_Response_44","Nie będę już chyba nadużywał gościnności Nadarzyńskich.","Artık Nadarzyński'lerin misafirperverliğini suistimal etmeyeceğim galiba.",""
+"D8CA02864212A85F05766198F8D365B7","CinematicNode_Response_44","Ta strapiona kobieta, o której mi wspominałeś. Swietłana.","Bana bahsettiğin o dertli kadın. Swietłana.",""
+"EEB2F61F4B653782B9B1ADA3DC5FB112","CinematicNode_Response_44","Wiesz, widziałem ją w mojej wizji. Ta opryskliwa służka przyniosła plotki, jakie chodzą o niej po mieście.","Biliyor musun, onu vizyonumda gördüm. Şu kaba hizmetçi kız şehirde onun hakkında dolaşan dedikoduları getirdi.",""
+"4EC286614DBA8CFE688ECCB117D8F24A","CinematicNode_Response_44","Ta Swietłana przyciąga do siebie kłopoty.","Bu Swietłana dertleri kendine çekiyor.",""
+"052309814E7B92BC51660FA1A836E73F","CinematicNode_Response_45","Nie pamiętam, żebym ci mówił o Swietłanie.","Sana Swietłana'dan bahsettiğimi hatırlamıyorum.",""
+"0FC42ED64F3169A1D665D3B9DA105E8B","CinematicNode_Response_45","Może to efekt naszych <i>zabiegów</>? Mam nadzieję, że wszystko do ciebie wróci.","Belki <i>uygulamalarımızın</> etkisidir? Umarım her şey yerine gelir.",""
+"32AAE4004DBBC85BFEEF7B9235340576","CinematicNode_Response_46","Co to za plotki, jeśli mogę spytać?","Nasıl dedikodular, sorabilir miyim?",""
+"9E89A8AD4B0B3CA1F47153BAEA5F4680","CinematicNode_Response_46","Nic, co mogłoby zburzyć jej obraz w twoich oczach. Zaintrygowała mnie. Chciałbym ją poznać.","Senin gözündeki imajını bozacak bir şey yok. İlgimi çekti. Onunla tanışmak isterim.",""
+"C712E2C24309D32BA0B741AC63FAB2D2","CinematicNode_Response_46","I wiesz, ona chyba potrzebuje pomocy.","Biliyor musun, galiba onun yardıma ihtiyacı var.",""
+"87F2733D457E4421C04F419AE7BF52C1","CinematicNode_Response_46","Pomocy? Co chcesz, żebym zrobił?","Yardım mı? Ne yapmamı istiyorsun?",""
+"9145D89F4F53A1D002F62B87910CA367","CinematicNode_Response_46","Sprowadź ją do mnie. Nie zatrzymuję cię. Do zobaczenia.","Onu bana getir. Seni tutmuyorum. Görüşürüz.",""
+"CDB329084707C5901F53A78A6004A4A0","CinematicNode_Response_47","Znowu widziałeś przyszłość?","Yine geleceği mi gördün?",""
+"3CFCD486416F30C46EDFFDB03E024906","CinematicNode_Response_47","Nie wiem, czy to jest przyszłość. Może to tylko jakieś symbole, których nie potrafię odczytać?","Bunun gelecek olup olmadığını bilmiyorum. Belki sadece okuyamadığım semboller?",""
+"455DBCC6424B153261326DAAC99BF498","CinematicNode_Response_47","Ciężkie chmury sunące po polach bitwy, zbierające swoje śmiertelne żniwo. I te istoty... Bez twarzy.","Savaş alanları üstünde süzülen ağır bulutlar, ölümcül hasatlarını topluyorlardı. Ve o varlıklar… Yüzsüz.","I. Dünya Savaşı kehaneti (Rasputin)"
+"FE57DB984049730AD4626EAC59AC8B46","CinematicNode_Response_47","Chodziły między dziwnie poskręcanymi ciałami... I okręt. Niezatapialny, a szedł na dno z tysiącami ludzi...","Tuhaf biçimlerde kıvrılmış bedenler arasında dolaşıyorlardı… Bir de bir gemi. Batamaz deniyordu, ama binlerce insanla birlikte dibe gitti…","Titanic kehaneti"
+"9358AB6E48C66F7BB4DD50BBEC59B13F","CinematicNode_Response_47","Czuję, jakbym mógł to powstrzymać.","Bunu durdurabilirmişim gibi hissediyorum.",""
+"55DB28EB4C3263811A9C88A3CAF9BF86","CinematicNode_Response_48","Mhm. Zobaczmy, co przyprowadziłeś ze sobą tym razem.","Hmm. Bakalım bu sefer yanında neler getirdin.",""
+"08BD935A4F594FE7BF38AE806545EC71","CinematicNode_Response_49","Chyba że się mylę i przychodzisz z czymś przykrym.","Yanılmıyorsam hoş olmayan bir şeyle geldin.",""

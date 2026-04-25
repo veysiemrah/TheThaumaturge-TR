@@ -1,11 +1,11 @@
-Hash,NodeName,PL,TR,Notes
-031E735848733D782395C2A4DE6A87C5,CinematicNode_Choice_1,"Uspokój ją, wszystko w porządku.","Onu sakinleştir, her şey yolunda.",
-3F744CFF42028F25175A979139F4E32C,CinematicNode_Choice_1,"Powiedz, że dołączysz do niej za chwilę.",Ona birazdan katılacağını söyle.,
-F62F56EA4D98A6E145FA7A8BF8069C78,CinematicNode_Response_4,"Kim jesteś, mój złoty, śliski przyjacielu...?","Kimsin, altın, kaygan dostum...?",Wiktor Weles vizyonuna kapılıyor — yılan imgesi
-AB9E4DB34F2FC040AF31B59935E6ADA5,CinematicNode_Response_4,Wiktor?,Wiktor?,
-E893268042362B4CAB7D699BDF203A40,CinematicNode_Response_5,...Wiktor? Wiktor. Słyszysz mnie?,...Wiktor? Wiktor. Duyuyor musun beni?,
-77AD5950461F082DE3183182B7A46C8F,CinematicNode_Response_5,Tak... Oczywiście.,Evet... Elbette.,
-948224B44CF9790E0B4BA09468DA7E3F,CinematicNode_Response_5,"Ci ludzie tylko czekają, aż powinie nam się noga, rozumiesz? Wchodzimy w gniazdo żmij, bracie. ","Bu insanlar ayağımız sürçsün diye bekliyor, anlıyor musun? Yılan yuvasına giriyoruz, ağabey. ",Ligia Wiktor'a — yılan göndermesi (Weles!)
-B5CE799C4E76A473BF0CBFA2294375B5,CinematicNode_Response_6,"Wszystko dobrze, zamyśliłem się tylko. Będę grzeczny, obiecuję.","Her şey yolunda, sadece dalıp gitmiştim. Uslu duracağım, söz.",
-518D27F94D6A8CDA1BCC31B68DA2279D,CinematicNode_Response_7,Pokręcę się tu jeszcze. Spotkamy się na górze.,Burada biraz daha gezineyim. Yukarıda buluşuruz.,
-F51982804067B84FE0B213889854AE0E,CinematicNode_Response_7,Do zobaczenia.,Görüşürüz.,
+"Hash","NodeName","PL","TR","Notes"
+"031E735848733D782395C2A4DE6A87C5","CinematicNode_Choice_1","Uspokój ją, wszystko w porządku.","Onu sakinleştir, her şey yolunda.",""
+"3F744CFF42028F25175A979139F4E32C","CinematicNode_Choice_1","Powiedz, że dołączysz do niej za chwilę.","Ona birazdan katılacağını söyle.",""
+"F62F56EA4D98A6E145FA7A8BF8069C78","CinematicNode_Response_4","Kim jesteś, mój złoty, śliski przyjacielu...?","Kimsin, altın, kaygan dostum…?","Wiktor Weles vizyonuna kapılıyor — yılan imgesi"
+"AB9E4DB34F2FC040AF31B59935E6ADA5","CinematicNode_Response_4","Wiktor?","Wiktor?",""
+"E893268042362B4CAB7D699BDF203A40","CinematicNode_Response_5","...Wiktor? Wiktor. Słyszysz mnie?","…Wiktor? Wiktor. Duyuyor musun beni?",""
+"77AD5950461F082DE3183182B7A46C8F","CinematicNode_Response_5","Tak... Oczywiście.","Evet… Elbette.",""
+"948224B44CF9790E0B4BA09468DA7E3F","CinematicNode_Response_5","Ci ludzie tylko czekają, aż powinie nam się noga, rozumiesz? Wchodzimy w gniazdo żmij, bracie. ","Bu insanlar ayağımız sürçsün diye bekliyor, anlıyor musun? Yılan yuvasına giriyoruz, ağabey. ","Ligia Wiktor'a — yılan göndermesi (Weles!)"
+"B5CE799C4E76A473BF0CBFA2294375B5","CinematicNode_Response_6","Wszystko dobrze, zamyśliłem się tylko. Będę grzeczny, obiecuję.","Her şey yolunda, sadece dalıp gitmiştim. Uslu duracağım, söz.",""
+"518D27F94D6A8CDA1BCC31B68DA2279D","CinematicNode_Response_7","Pokręcę się tu jeszcze. Spotkamy się na górze.","Burada biraz daha gezineyim. Yukarıda buluşuruz.",""
+"F51982804067B84FE0B213889854AE0E","CinematicNode_Response_7","Do zobaczenia.","Görüşürüz.",""

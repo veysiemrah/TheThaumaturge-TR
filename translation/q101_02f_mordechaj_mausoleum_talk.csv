@@ -1,14 +1,14 @@
-Hash,NodeName,PL,TR,Notes
-B28C154B43D3AEF3EBE9DBAD55EFDDED,CinematicNode_Choice_1,"Powiedz, że nie znasz przyczyny śmierci ojca.","Babanın ölüm sebebini bilmediğini söyle.",
-FE35AA724F9398B46B24B6B75425E83D,CinematicNode_Choice_1,"Zakpij, że twój ojciec nie miał serca.",Babanın kalpsiz olduğu esprisini patlat.,"'Nie miał serca' = kalpsiz (tılsım edinirken kalbi alınan karakter — çifte anlam)"
-7CCC8450481E2E4CC5D26CB9E426EF2A,CinematicNode_Choice_1,"Zapytaj, czemu go to tak interesuje.",Bu meseleye neden bu kadar meraklı olduğunu sor.,
-8AFEE8DE445411C461FE93A07C1B22B6,CinematicNode_Response_0,Zostawię pana w spokoju. Z pewnością chce się pan pożegnać z ojcem.,Sizi rahat bırakayım. Elbette babanızla vedalaşmak istersiniz.,"Mordechaj Wiktor'a 'pan' — karşılıklı 'siz'"
-E939636F4CB18362BFB2648F2AE74FF9,CinematicNode_Response_5,"Pan pewnie mnie nie pamięta, Chajat jestem, Mordechaj Chajat. Chciałem panu złożyć moje kondolencje.","Siz beni muhtemelen hatırlamıyorsunuz, Chajat'ım ben, Mordechaj Chajat. Başsağlığı dilemek istedim.",
-2B9A1CBB4C871C405472D2B55FDD0182,CinematicNode_Response_5,Dziękuję.,Teşekkür ederim.,
-87A4B6C641AFE4DFB3FAC1B51EC7824D,CinematicNode_Response_5,"Proszę wybaczyć moje wścibstwo, ale... Wiem, że pan Szulski zażywał nitroglicerynę na serce, ale... Jak odszedł?","Meraklılığımı bağışlayın ama... Pan Szulski'nin kalp için nitrogliserin kullandığını biliyorum, ama... Nasıl vefat etti?",
-72AD4F2B42397AD24DE5D6A0882C81FC,CinematicNode_Response_5,"Czy taki był powód jego zgonu, serce?","Ölüm sebebi bu muydu, kalbi mi?",
-49935735470D8E0DA5319C81C5312439,CinematicNode_Response_6,"Sam jestem ciekaw, nie miałem okazji, żeby się dowiedzieć.","Ben de merak ediyorum, öğrenme fırsatım olmadı.",
-27C12DA3424C449300658ABD93DDF810,CinematicNode_Response_7,"Wykluczyliśmy wszelkie przyczyny wieńcowe, bowiem lekarze nie stwierdzili obecności serca w denacie.","Koroner nedenleri eledik, zira doktorlar müteveffanın göğsünde kalp bulamadı.","Wiktor'un kara espri — tılsımkâr olarak babasının kalbini çıkardı"
-C79E232F4B81F76A4D321ABDFC7B4386,CinematicNode_Response_8,"Tak, rozumiem. Wyrazy współczucia, raz jeszcze.","Anladım, evet. Başsağlığı dileklerim, bir kez daha.",
-20144ADE43F6ADD3EA8C9FB84CB9789E,CinematicNode_Response_9,Czemu tak pana ciekawi przyczyna zgonu mojego ojca?,Babamın ölüm sebebi sizi neden bu kadar meraklandırıyor?,
-3054C2324848D4BD371C8E94A713BE92,CinematicNode_Response_9,"Przepraszam, nie powinienem był. Przepraszam.","Özür dilerim, yapmamalıydım. Özür dilerim.",
+"Hash","NodeName","PL","TR","Notes"
+"B28C154B43D3AEF3EBE9DBAD55EFDDED","CinematicNode_Choice_1","Powiedz, że nie znasz przyczyny śmierci ojca.","Babanın ölüm sebebini bilmediğini söyle.",""
+"FE35AA724F9398B46B24B6B75425E83D","CinematicNode_Choice_1","Zakpij, że twój ojciec nie miał serca.","Babanın kalpsiz olduğu esprisini patlat.","'Nie miał serca' = kalpsiz (tılsım edinirken kalbi alınan karakter — çifte anlam)"
+"7CCC8450481E2E4CC5D26CB9E426EF2A","CinematicNode_Choice_1","Zapytaj, czemu go to tak interesuje.","Bu meseleye neden bu kadar meraklı olduğunu sor.",""
+"8AFEE8DE445411C461FE93A07C1B22B6","CinematicNode_Response_0","Zostawię pana w spokoju. Z pewnością chce się pan pożegnać z ojcem.","Sizi rahat bırakayım. Elbette babanızla vedalaşmak istersiniz.","Mordechaj Wiktor'a 'pan' — karşılıklı 'siz'"
+"E939636F4CB18362BFB2648F2AE74FF9","CinematicNode_Response_5","Pan pewnie mnie nie pamięta, Chajat jestem, Mordechaj Chajat. Chciałem panu złożyć moje kondolencje.","Siz beni muhtemelen hatırlamıyorsunuz, Chajat'ım ben, Mordechaj Chajat. Başsağlığı dilemek istedim.",""
+"2B9A1CBB4C871C405472D2B55FDD0182","CinematicNode_Response_5","Dziękuję.","Teşekkür ederim.",""
+"87A4B6C641AFE4DFB3FAC1B51EC7824D","CinematicNode_Response_5","Proszę wybaczyć moje wścibstwo, ale... Wiem, że pan Szulski zażywał nitroglicerynę na serce, ale... Jak odszedł?","Meraklılığımı bağışlayın ama… Pan Szulski'nin kalp için nitrogliserin kullandığını biliyorum, ama… Nasıl vefat etti?",""
+"72AD4F2B42397AD24DE5D6A0882C81FC","CinematicNode_Response_5","Czy taki był powód jego zgonu, serce?","Ölüm sebebi bu muydu, kalbi mi?",""
+"49935735470D8E0DA5319C81C5312439","CinematicNode_Response_6","Sam jestem ciekaw, nie miałem okazji, żeby się dowiedzieć.","Ben de merak ediyorum, öğrenme fırsatım olmadı.",""
+"27C12DA3424C449300658ABD93DDF810","CinematicNode_Response_7","Wykluczyliśmy wszelkie przyczyny wieńcowe, bowiem lekarze nie stwierdzili obecności serca w denacie.","Koroner nedenleri eledik, zira doktorlar müteveffanın göğsünde kalp bulamadı.","Wiktor'un kara espri — tılsımkâr olarak babasının kalbini çıkardı"
+"C79E232F4B81F76A4D321ABDFC7B4386","CinematicNode_Response_8","Tak, rozumiem. Wyrazy współczucia, raz jeszcze.","Anladım, evet. Başsağlığı dileklerim, bir kez daha.",""
+"20144ADE43F6ADD3EA8C9FB84CB9789E","CinematicNode_Response_9","Czemu tak pana ciekawi przyczyna zgonu mojego ojca?","Babamın ölüm sebebi sizi neden bu kadar meraklandırıyor?",""
+"3054C2324848D4BD371C8E94A713BE92","CinematicNode_Response_9","Przepraszam, nie powinienem był. Przepraszam.","Özür dilerim, yapmamalıydım. Özür dilerim.",""

@@ -1,78 +1,78 @@
-Hash,NodeName,PL,TR,Notes
-AC58EE9645928BBEBB91E093EB2CB127,CinematicNode_Choice_5,Zapytaj ją o firmę. ,Ona şirketi sor. ,
-F3BDADBD4F8C5C3FA46591881E588136,CinematicNode_Choice_5,Zauważ jej niecodzienny ubiór.,Alışılmadık kıyafetine dikkat çek.,
-05D2868A4CD74F72F4472288F5676D06,CinematicNode_Choice_5,Skomentuj jej palenie. ,Sigara içmesi hakkında yorum yap. ,
-F31B738A4D8B64C36CD10F93DD929985,CinematicNode_Choice_5,Zapytaj o ślad kobiety znaleziony w gabinecie.,Çalışma odasında bulunan kadın izi hakkında sor.,"'Ślad' = İz (glossary)"
-AD5C35C14430E45E1AA29FBDCAE20C25,CinematicNode_Choice_5,Odejdź.,Uzaklaş.,
-92F33AF1469E0ADE0B2B6BAB85FB86B8,CinematicNode_Choice_6,Wykręć się.,Kaçamak cevap ver.,
-A9290759419460698AE5418E9CC127FA,CinematicNode_Choice_6,Zaprzecz. Nie chcesz tego.,Reddet. Bunu istemiyorsun.,
-CFD0313F4239C0EF8664D6AC462EC30B,CinematicNode_Choice_6,"Zapewnij ją, że może na ciebie liczyć.",Sana güvenebileceğine dair güvence ver.,
-71CAAD95436669714BCE04B6CF1FCAE6,CinematicNode_Choice_7,Dopytaj o Rumiancewę.,Rumiancewa hakkında soruyu derinleştir.,
-AFA2C7944368620BE85FA6B9AA5A984F,CinematicNode_Choice_7,"Dowiedz się, gdzie możesz ją znaleźć. ",Onu nerede bulabileceğini öğren. ,
-2529BD724AE07618E2021980385C831B,CinematicNode_Choice_8,"Przyznaj, że jest odważna.",Cesur olduğunu kabul et.,
-72AF4C8D4084704749E3ADA194F66877,CinematicNode_Choice_8,"Powiedz, że nie jesteś entuzjastą takiej mody.",Böyle modanın tutkunu olmadığını söyle.,
-7125D95E4D5D663C90552FABDA8A3EFE,CinematicNode_Choice_9,"Dopytaj, co to <fr>soirée</>.",<fr>Soirée</>'nin ne olduğunu sor.,"<fr> = Fransızca tag; soirée aynen"
-98C6601A4969C5FAB8C213AF9EEF8736,CinematicNode_Choice_9,Pozwól jej mówić.,Konuşmasına izin ver.,
-8BCCF82E4A5F1B96148FF9AF3BC09BA7,CinematicNode_Response_0,"Mamy też w Warszawie golibrodów, gdybyś zechciał coś zrobić z tym, co wyhodowałeś na głowie... i twarzy.","Varşova'da berberlerimiz de var, kafanda ve yüzünde yetiştirdiklerinle bir şeyler yapmak istersen.",
-907974C44967ADB4D668439B66140E88,CinematicNode_Response_18,Ligia? ,Ligia? ,
-68AAC880450E62405BE2E48179450C51,CinematicNode_Response_18,Tak?,Efendim?,
-8BFEB7A648CAF0E2B0CB849522CC67C7,CinematicNode_Response_19,Co zamierzasz? Teraz ty tu rządzisz. Masz jakiś wielki plan?,Ne yapacaksın? Artık burayı sen yönetiyorsun. Büyük bir planın var mı?,
-53207F7D443CE23A84AB9698CA84DC47,CinematicNode_Response_19,Wielki plan... Na razie staram się utrzymać na powierzchni.,Büyük plan... Şimdilik yüzeyde kalmaya çalışıyorum.,
-B96719EF4032A1AF850F45918C0B58A7,CinematicNode_Response_19,"Pewni klienci są zdania, że kobieta nie podoła prowadzeniu przedsiębiorstwa. Co gorsza, kobieta <i>bez mocy</>.","Bazı müşteriler bir kadının işletmeyi yürütemeyeceği görüşünde. Daha da kötüsü, <i>güçsüz</> bir kadın.",Ligia thaumaturgiyası olmayan kadın
-9E3BB3474746C66CF2F3CA892513CE0F,CinematicNode_Response_19,"Wiesz, o czym mówię. Thaumaturg u mojego boku zamknąłby im wszystkim usta.","Ne demek istediğimi anlıyorsun. Yanımda bir tılsımkâr olsa, hepsinin ağzı kapanırdı.",
-D117863F454E5DB5284CCA903B70D62A,CinematicNode_Response_19,W sumie to też twoje dziedzictwo...,Nihayetinde bu senin de mirasın...,
-FE4EE6C849C62EA17786D28DDDDCA63D,CinematicNode_Response_20,"Nie sądzę, abym się na coś zdał. Marny ze mnie thaumaturg i brak mi kompetencji.","Bir işe yarayacağımı sanmıyorum. Zayıf bir tılsımkârım, yeterliliğim yok.",
-A2C2A2FD47C4C3E99FBB71989408ADC4,CinematicNode_Response_20,"Nie wiedziałbym, jak wciskać ludziom te wszystkie osobliwości i antyki, którymi handlował ojciec.",Babamın alıp sattığı tüm bu tuhaflıkları ve antikaları insanlara nasıl yutturacağımı bilemezdim.,
-64B72A2B4037A666143E2EA001A1D731,CinematicNode_Response_20,"Dziękuję ci, braciszku. Tylko mnie upewniłeś w tym, że tata oddał interes właściwemu dziecku.","Teşekkür ederim, kardeşim. Babamın işi doğru çocuğa bıraktığına beni iyice inandırdın.",
-7DA813154FAF37125A173786877DEA14,CinematicNode_Response_21,Nie. Całość należy się tobie. Ten dom i wszystko inne. ,Hayır. Her şey senin hakkın. Bu ev ve diğer her şey. ,
-F1F107384C00671918371683AFA9EC6D,CinematicNode_Response_21,Dla siebie chcę jedynie Czarnego Grymuaru.,Kendim için sadece Kara Grimuar'ı istiyorum.,
-ACEE46744F67F96AFB95B1AD7D3BC53D,CinematicNode_Response_21,"Chcesz o tym porozmawiać? Nie spodziewałeś się go dostać, prawda?","Bunun hakkında konuşmak ister misin? Onu almayı beklemiyordun, değil mi?",
-454EBDDD4FC2E9A1843A22B6BDC3A1FF,CinematicNode_Response_21,"Na nic nie liczyłem. Nie wierzyłem, że w jego oczach byłem godzien.","Hiçbir şey ummuyordum. Onun gözünde bunu hak ettiğime inanmıyordum.",
-FDCCC2BE4B4711E92038DB919A476264,CinematicNode_Response_21,"Ojciec słusznie zrobił, że zapisał większość tobie. Nadajesz się do tego. Ja? Zrujnowałbym nas w przeciągu chwili. ","Babam büyük kısmını sana bırakmakla doğru yaptı. Sen bu işin ehlisin. Ben mi? Kısa sürede bizi iflasa sürüklerdim. ",
-D5B8BEDA475C6E5F207BB6924BB432DE,CinematicNode_Response_21,"Nie bądź taki surowy. Choć to fakt, ja się do tego nadaję lepiej. Bez urazy, braciszku.","Bu kadar sert olma. Gerçek olan şu ki ben bu işe daha yatkınım. Alınma, kardeşim.",
-002D88F54C4A427F97AF57B0946D681E,CinematicNode_Response_21,Nie biorę tego do siebie.,Alınmıyorum.,
-CD1599EF4D0FFDD6F5AC4A96335F0622,CinematicNode_Response_22,"Ufam, że dym ci nie przeszkadza?","Umarım duman rahatsız etmiyordur, değil mi?",
-0C42C28144CAABE6110956B21A753EE9,CinematicNode_Response_23,"Znalazłem u ojca Ślad nieznajomej kobiety, którego nie potrafię przypasować.",Babamın yanında eşleştiremediğim yabancı bir kadının İzini buldum.,"'Ślad' = İz"
-6C69C5B6476CF440DE2AF084965E6824,CinematicNode_Response_23,Pewnie Swietłana Rumiancewa.,Muhtemelen Swietłana Rumiancewa.,
-007826634EDC7AECFC78AA9D42830698,CinematicNode_Response_24,Kim ona jest i co ojciec miał z nią wspólnego? ,O kim ve babamın onunla ne ilgisi vardı? ,
-0AD7A09B406F939CE783209DF35BDD89,CinematicNode_Response_24,"Swietłana to rosyjska arystokratka. Podróżuje z dworem Romanowów. Powiem tylko, że była klientką ojca. ","Swietłana bir Rus aristokrat. Romanov sarayıyla seyahat eder. Bu kadarını söyleyeyim, babamın müşterisiydi. ",
-D410A9B542E8E0A183071D91845D7672,CinematicNode_Response_24,"Klientką? Nie chcesz mówić, to nie.","Müşteri mi? Konuşmak istemiyorsan, istemez.",
-2E5B4C0E47EA432A4B541385BF9467F4,CinematicNode_Response_25,Gdzie ją znajdę? ,Onu nerede bulurum? ,
-E77EEC1D4CF69E123F627ABD4B453E1B,CinematicNode_Response_25,"Kiedy jest w mieście, zatrzymuje się w Hotelu Imperialnym.","Şehirdeyken, Hotel Imperialny'de kalır.","Hotel Imperialny özel isim"
-85FDD4924A6EB7675EACC680BEF2F3E4,CinematicNode_Response_25,"Ona może wiedzieć coś, co pomoże mi znaleźć grymuar.","Grimuarı bulmamda yardımcı olacak bir şey biliyor olabilir.",
-ABD971A542B3FFB6069C2DAE6F2DFBC2,CinematicNode_Response_25,"Nie tak prędko. Do tego, aby się tam dostać, będę ci potrzebna ja i moje koneksje.","Bu kadar acele etme. Oraya girebilmen için sana ben ve bağlantılarım lazım.",
-701E3E5848236424933B0FAC771E09DB,CinematicNode_Response_25,"Swietłana słynie ze swoich <fr>soirée</>, na których gości warszawską śmietankę.","Swietłana, Varşova'nın kreması olan konukları ağırladığı <fr>soirée</>'leriyle ünlüdür.",
-18C5DC434DEB405AD94FB5BD4C64796C,CinematicNode_Response_26,Pójdę już.,Gideyim artık.,
-A91F71084E6496196A71BF872450749C,CinematicNode_Response_27,Spodnie to... niecodzienny styl.,Pantolon... sıradışı bir stil.,
-DBE1721A4C0A4082170C7787F03E9760,CinematicNode_Response_27,Do tej pory widywałem kobiety w spodniach jedynie na Wschodzie.,Şimdiye kadar pantolonlu kadınları yalnız Doğu'da görmüştüm.,
-172EE0D2441D240BE2747FBA72D26BF7,CinematicNode_Response_27,Przede wszystkim praktyczny. Mamy dwudziesty wiek. ,Her şeyden önce pratik. Yirminci yüzyıldayız. ,
-D658561343884F6D962A13A9F06F8C58,CinematicNode_Response_27,"Najwyższa pora, żebyśmy zaczęły się nosić wygodnie.",Rahat giyinmeye başlamamızın tam zamanı.,
-A9C645BF4B8C309FE71A38A87CE4C704,CinematicNode_Response_28,"Kiedyś stroniłaś od zapachu tytoniu. Wchodząc do gabinetu ojca, wstrzymywałaś oddech.",Eskiden tütün kokusundan uzak dururdun. Babamın çalışma odasına girerken nefesini tutardın.,
-E3BB6C0D4DCC81D2F4FD81829D9C0A67,CinematicNode_Response_28,Tak było. Ale potem zostałam sama z tatą i jakoś przez lata przywykłam. ,Öyleydi. Ama sonra babamla baş başa kaldım ve yıllar içinde bir şekilde alıştım. ,
-61D6EA99404B0F007D15D4A01669E5EA,CinematicNode_Response_28,"Nawet nie wiem, kiedy zaczęłam go naśladować. ",Onu ne zaman taklit etmeye başladığımı bile bilmiyorum. ,
-D4B709574196B1547684E1ACCB71C125,CinematicNode_Response_28,"Córeczka tatusia. Zawsze byłaś z nim bliżej. ","Babacığının kızı. Ona her zaman daha yakındın. ",
-1B202FDF4E822B01255C5F8B34EC2D65,CinematicNode_Response_28,"Nieprawda, byłam po prostu mniej niepokorna, niż ty, jego synek thaumaturg. ","Doğru değil, sadece senden daha az asiydim, onun tılsımkâr oğlu. ",
-02F730A04BE12FD125591A8578D57E46,CinematicNode_Response_28,"Mów, co jeszcze zajmuje twoje myśli?","Söyle, aklını başka ne meşgul ediyor?",
-279883154145158CAC130C9A1C11F26B,CinematicNode_Response_29,Znalazłeś już coś na temat grymuaru? Mogę ci jakoś pomóc?,Grimuar hakkında bir şey bulabildin mi? Nasıl yardım edebilirim?,
-E955159241AA945D5E63EB976075152A,CinematicNode_Response_30,"Nie wiem nic o prowadzeniu firmy. Ale jeśli mogę jakoś pomóc, to wiedz, że możesz na mnie liczyć.","Şirket yönetmek hakkında bir şey bilmem. Ama bir şekilde yardım edebiliyorsam, bana güvenebileceğini bil.",
-8D856C6C4BE4605DE1E643B7B5FA2466,CinematicNode_Response_30,"Dziękuję, to wiele dla mnie znaczy.","Teşekkür ederim, benim için çok şey ifade ediyor.",
-17251E7C4277539C4D494680846DDC50,CinematicNode_Response_31,Zawsze byłaś odważna. Niczego i nikogo się nie bałaś.,Her zaman cesurdun. Hiçbir şeyden ve kimseden korkmazdın.,
-B3784CDF480B00A46D3D61A7D7646F84,CinematicNode_Response_31,"Jak wtedy, kiedy matka prawie dostała apopleksji, bo utopiłaś mi w kakao odświętny krawat.",Annem neredeyse felç geçiriyordu çünkü bayramlık kravatımı kakaoma batırmıştın.,
-535C297F48728230E246EE8CBA480CB6,CinematicNode_Response_31,"Jej gniew nie miał znaczenia, chciałam się odegrać, bo nie chciałeś się ze mną bawić!","Onun öfkesi önemli değildi, öcümü almak istiyordum çünkü benimle oynamıyordun!",
-F20FE40B450286480870E8B391DF1F69,CinematicNode_Response_31,Bo byłaś nieznośna!,Çünkü çekilmezdin!,
-B265256E4EDF97A4862E3D8B162434C0,CinematicNode_Response_31,"Chciałeś powiedzieć: odważna.",Demek istediğin: cesur.,
-8F0A0A674DB818B1AB153CA20758D694,CinematicNode_Response_31,"Swoją drogą, Grażyna wciąż co wieczór parzy kakao. Możesz sobie przypomnieć smak dzieciństwa, jeśli chcesz. ","Ha bu arada, Grażyna hâlâ her akşam kakao demliyor. İstersen çocukluğunun tadını hatırlayabilirsin. ",
-F91931DC44D81E0BBB0C4E8D279A5FF0,CinematicNode_Response_32,"Wygodę, w tym wypadku, stawiałbym na drugim miejscu, ale znowu... to nie ja w tym będę chodził. ","Bu durumda rahatlığı ikinci sıraya koyardım, ama yine de... onu giyip dolaşacak olan ben değilim. ",
-15C4447646A4305BF1AE25AF4DFE6DBE,CinematicNode_Response_32,"Świat zjeździłeś, a taki z ciebie konserwatysta? Nie spodziewałabym się.","Dünyayı gezmişsin, ama bu kadar tutucu musun? Bunu beklemezdim.",
-F444CE934956F6B2C4185A815EE38BA5,CinematicNode_Response_32,Nasze gusta się po prostu różnią. ,Zevklerimiz basitçe farklı. ,
-EEED4CE94B8B07AF40476EBB32498059,CinematicNode_Response_32,"To nie kwestia gustu, ale... nie kłóćmy się, dopiero co przyjechałeś.","Zevk meselesi değil, ama... tartışmayalım, daha yeni geldin.",
-7F01EB5B42F9A3454F89EAB3952FF53A,CinematicNode_Response_33,Chcesz jeszcze o czymś porozmawiać?,Başka bir şey konuşmak ister misin?,
-C28832F948B8E41AE33288B164F84698,CinematicNode_Response_34,"Moglibyśmy pójść razem. Zróbmy tak, ty odkurzysz strój wieczorowy, a ja załatwię zaproszenia.","Birlikte gidebiliriz. Şöyle yapalım: sen gece kıyafetini hazırla, ben davetiyeleri halledeyim.",
-289582C943850C3D1ED75A9B3968632D,CinematicNode_Response_34,"I nie chcę słyszeć, że nie.",Ve hayır duymak istemiyorum.,
-725B9F514CCDE03C59B2A19A0C91B218,CinematicNode_Response_34,"Nie dałaś mi, niestety, żadnych szans.","Maalesef hiçbir şans tanımadın bana.",
-873F80334E5DA45F85D82997AEC87B38,CinematicNode_Response_34,Wszystko z mojej szafy jest niestety przedpotopowe. Potrzebuję krawca.,Dolabımdakilerin hepsi maalesef Nuh nebiden kalma. Bir terziye ihtiyacım var.,
-D3319C32441EEC13F1C4A5ADA4B66710,CinematicNode_Response_34,"Na Próżnej jedenaście jest jeden zakład, całkiem solidny. I szybki.","Próżna 11'de bir dükkan var, oldukça sağlam. Hızlı da.",
-849481F1451FF7C90E8538BA27302B86,CinematicNode_Response_35,Co to jest <fr>soirée</>?,<fr>Soirée</> nedir?,
-0BC3E99B4B6B258D1280428297F1BDE8,CinematicNode_Response_35,"Ile, mówisz, że mieszkałeś u matki w Paryżu?","Söylediğine göre Paris'te annenin yanında ne kadar kalmıştın?",
-41B47F704C9FA4517DA5A0837E173E98,CinematicNode_Response_35,"Po prostu wieczorek, jeśli wolisz. Wiesz, co to?","Dilersen basitçe bir akşam daveti, bilirsin?",
-503B08524D984E3B8BF6D5A69A8279ED,CinematicNode_Response_35,Zabawne.,Komik.,
+"Hash","NodeName","PL","TR","Notes"
+"AC58EE9645928BBEBB91E093EB2CB127","CinematicNode_Choice_5","Zapytaj ją o firmę. ","Ona şirketi sor. ",""
+"F3BDADBD4F8C5C3FA46591881E588136","CinematicNode_Choice_5","Zauważ jej niecodzienny ubiór.","Alışılmadık kıyafetine dikkat çek.",""
+"05D2868A4CD74F72F4472288F5676D06","CinematicNode_Choice_5","Skomentuj jej palenie. ","Sigara içmesi hakkında yorum yap. ",""
+"F31B738A4D8B64C36CD10F93DD929985","CinematicNode_Choice_5","Zapytaj o ślad kobiety znaleziony w gabinecie.","Çalışma odasında bulunan kadın izi hakkında sor.","'Ślad' = İz (glossary)"
+"AD5C35C14430E45E1AA29FBDCAE20C25","CinematicNode_Choice_5","Odejdź.","Uzaklaş.",""
+"92F33AF1469E0ADE0B2B6BAB85FB86B8","CinematicNode_Choice_6","Wykręć się.","Kaçamak cevap ver.",""
+"A9290759419460698AE5418E9CC127FA","CinematicNode_Choice_6","Zaprzecz. Nie chcesz tego.","Reddet. Bunu istemiyorsun.",""
+"CFD0313F4239C0EF8664D6AC462EC30B","CinematicNode_Choice_6","Zapewnij ją, że może na ciebie liczyć.","Sana güvenebileceğine dair güvence ver.",""
+"71CAAD95436669714BCE04B6CF1FCAE6","CinematicNode_Choice_7","Dopytaj o Rumiancewę.","Rumiancewa hakkında soruyu derinleştir.",""
+"AFA2C7944368620BE85FA6B9AA5A984F","CinematicNode_Choice_7","Dowiedz się, gdzie możesz ją znaleźć. ","Onu nerede bulabileceğini öğren. ",""
+"2529BD724AE07618E2021980385C831B","CinematicNode_Choice_8","Przyznaj, że jest odważna.","Cesur olduğunu kabul et.",""
+"72AF4C8D4084704749E3ADA194F66877","CinematicNode_Choice_8","Powiedz, że nie jesteś entuzjastą takiej mody.","Böyle modanın tutkunu olmadığını söyle.",""
+"7125D95E4D5D663C90552FABDA8A3EFE","CinematicNode_Choice_9","Dopytaj, co to <fr>soirée</>.","<fr>Soirée</>'nin ne olduğunu sor.","<fr> = Fransızca tag; soirée aynen"
+"98C6601A4969C5FAB8C213AF9EEF8736","CinematicNode_Choice_9","Pozwól jej mówić.","Konuşmasına izin ver.",""
+"8BCCF82E4A5F1B96148FF9AF3BC09BA7","CinematicNode_Response_0","Mamy też w Warszawie golibrodów, gdybyś zechciał coś zrobić z tym, co wyhodowałeś na głowie... i twarzy.","Varşova'da berberlerimiz de var, kafanda ve yüzünde yetiştirdiklerinle bir şeyler yapmak istersen.",""
+"907974C44967ADB4D668439B66140E88","CinematicNode_Response_18","Ligia? ","Ligia? ",""
+"68AAC880450E62405BE2E48179450C51","CinematicNode_Response_18","Tak?","Efendim?",""
+"8BFEB7A648CAF0E2B0CB849522CC67C7","CinematicNode_Response_19","Co zamierzasz? Teraz ty tu rządzisz. Masz jakiś wielki plan?","Ne yapacaksın? Artık burayı sen yönetiyorsun. Büyük bir planın var mı?",""
+"53207F7D443CE23A84AB9698CA84DC47","CinematicNode_Response_19","Wielki plan... Na razie staram się utrzymać na powierzchni.","Büyük plan… Şimdilik yüzeyde kalmaya çalışıyorum.",""
+"B96719EF4032A1AF850F45918C0B58A7","CinematicNode_Response_19","Pewni klienci są zdania, że kobieta nie podoła prowadzeniu przedsiębiorstwa. Co gorsza, kobieta <i>bez mocy</>.","Bazı müşteriler bir kadının işletmeyi yürütemeyeceği görüşünde. Daha da kötüsü, <i>güçsüz</> bir kadın.","Ligia thaumaturgiyası olmayan kadın"
+"9E3BB3474746C66CF2F3CA892513CE0F","CinematicNode_Response_19","Wiesz, o czym mówię. Thaumaturg u mojego boku zamknąłby im wszystkim usta.","Ne demek istediğimi anlıyorsun. Yanımda bir tılsımkâr olsa, hepsinin ağzı kapanırdı.",""
+"D117863F454E5DB5284CCA903B70D62A","CinematicNode_Response_19","W sumie to też twoje dziedzictwo...","Nihayetinde bu senin de mirasın…",""
+"FE4EE6C849C62EA17786D28DDDDCA63D","CinematicNode_Response_20","Nie sądzę, abym się na coś zdał. Marny ze mnie thaumaturg i brak mi kompetencji.","Bir işe yarayacağımı sanmıyorum. Zayıf bir tılsımkârım, yeterliliğim yok.",""
+"A2C2A2FD47C4C3E99FBB71989408ADC4","CinematicNode_Response_20","Nie wiedziałbym, jak wciskać ludziom te wszystkie osobliwości i antyki, którymi handlował ojciec.","Babamın alıp sattığı tüm bu tuhaflıkları ve antikaları insanlara nasıl yutturacağımı bilemezdim.",""
+"64B72A2B4037A666143E2EA001A1D731","CinematicNode_Response_20","Dziękuję ci, braciszku. Tylko mnie upewniłeś w tym, że tata oddał interes właściwemu dziecku.","Teşekkür ederim, kardeşim. Babamın işi doğru çocuğa bıraktığına beni iyice inandırdın.",""
+"7DA813154FAF37125A173786877DEA14","CinematicNode_Response_21","Nie. Całość należy się tobie. Ten dom i wszystko inne. ","Hayır. Her şey senin hakkın. Bu ev ve diğer her şey. ",""
+"F1F107384C00671918371683AFA9EC6D","CinematicNode_Response_21","Dla siebie chcę jedynie Czarnego Grymuaru.","Kendim için sadece Kara Grimuar'ı istiyorum.",""
+"ACEE46744F67F96AFB95B1AD7D3BC53D","CinematicNode_Response_21","Chcesz o tym porozmawiać? Nie spodziewałeś się go dostać, prawda?","Bunun hakkında konuşmak ister misin? Onu almayı beklemiyordun, değil mi?",""
+"454EBDDD4FC2E9A1843A22B6BDC3A1FF","CinematicNode_Response_21","Na nic nie liczyłem. Nie wierzyłem, że w jego oczach byłem godzien.","Hiçbir şey ummuyordum. Onun gözünde bunu hak ettiğime inanmıyordum.",""
+"FDCCC2BE4B4711E92038DB919A476264","CinematicNode_Response_21","Ojciec słusznie zrobił, że zapisał większość tobie. Nadajesz się do tego. Ja? Zrujnowałbym nas w przeciągu chwili. ","Babam büyük kısmını sana bırakmakla doğru yaptı. Sen bu işin ehlisin. Ben mi? Kısa sürede bizi iflasa sürüklerdim. ",""
+"D5B8BEDA475C6E5F207BB6924BB432DE","CinematicNode_Response_21","Nie bądź taki surowy. Choć to fakt, ja się do tego nadaję lepiej. Bez urazy, braciszku.","Bu kadar sert olma. Gerçek olan şu ki ben bu işe daha yatkınım. Alınma, kardeşim.",""
+"002D88F54C4A427F97AF57B0946D681E","CinematicNode_Response_21","Nie biorę tego do siebie.","Alınmıyorum.",""
+"CD1599EF4D0FFDD6F5AC4A96335F0622","CinematicNode_Response_22","Ufam, że dym ci nie przeszkadza?","Umarım duman rahatsız etmiyordur, değil mi?",""
+"0C42C28144CAABE6110956B21A753EE9","CinematicNode_Response_23","Znalazłem u ojca Ślad nieznajomej kobiety, którego nie potrafię przypasować.","Babamın yanında eşleştiremediğim yabancı bir kadının İzini buldum.","'Ślad' = İz"
+"6C69C5B6476CF440DE2AF084965E6824","CinematicNode_Response_23","Pewnie Swietłana Rumiancewa.","Muhtemelen Swietłana Rumiancewa.",""
+"007826634EDC7AECFC78AA9D42830698","CinematicNode_Response_24","Kim ona jest i co ojciec miał z nią wspólnego? ","O kim ve babamın onunla ne ilgisi vardı? ",""
+"0AD7A09B406F939CE783209DF35BDD89","CinematicNode_Response_24","Swietłana to rosyjska arystokratka. Podróżuje z dworem Romanowów. Powiem tylko, że była klientką ojca. ","Swietłana bir Rus aristokrat. Romanov sarayıyla seyahat eder. Bu kadarını söyleyeyim, babamın müşterisiydi. ",""
+"D410A9B542E8E0A183071D91845D7672","CinematicNode_Response_24","Klientką? Nie chcesz mówić, to nie.","Müşteri mi? Konuşmak istemiyorsan, istemez.",""
+"2E5B4C0E47EA432A4B541385BF9467F4","CinematicNode_Response_25","Gdzie ją znajdę? ","Onu nerede bulurum? ",""
+"E77EEC1D4CF69E123F627ABD4B453E1B","CinematicNode_Response_25","Kiedy jest w mieście, zatrzymuje się w Hotelu Imperialnym.","Şehirdeyken, Hotel Imperialny'de kalır.","Hotel Imperialny özel isim"
+"85FDD4924A6EB7675EACC680BEF2F3E4","CinematicNode_Response_25","Ona może wiedzieć coś, co pomoże mi znaleźć grymuar.","Grimuarı bulmamda yardımcı olacak bir şey biliyor olabilir.",""
+"ABD971A542B3FFB6069C2DAE6F2DFBC2","CinematicNode_Response_25","Nie tak prędko. Do tego, aby się tam dostać, będę ci potrzebna ja i moje koneksje.","Bu kadar acele etme. Oraya girebilmen için sana ben ve bağlantılarım lazım.",""
+"701E3E5848236424933B0FAC771E09DB","CinematicNode_Response_25","Swietłana słynie ze swoich <fr>soirée</>, na których gości warszawską śmietankę.","Swietłana, Varşova'nın kreması olan konukları ağırladığı <fr>soirée</>'leriyle ünlüdür.",""
+"18C5DC434DEB405AD94FB5BD4C64796C","CinematicNode_Response_26","Pójdę już.","Gideyim artık.",""
+"A91F71084E6496196A71BF872450749C","CinematicNode_Response_27","Spodnie to... niecodzienny styl.","Pantolon… sıradışı bir stil.",""
+"DBE1721A4C0A4082170C7787F03E9760","CinematicNode_Response_27","Do tej pory widywałem kobiety w spodniach jedynie na Wschodzie.","Şimdiye kadar pantolonlu kadınları yalnız Doğu'da görmüştüm.",""
+"172EE0D2441D240BE2747FBA72D26BF7","CinematicNode_Response_27","Przede wszystkim praktyczny. Mamy dwudziesty wiek. ","Her şeyden önce pratik. Yirminci yüzyıldayız. ",""
+"D658561343884F6D962A13A9F06F8C58","CinematicNode_Response_27","Najwyższa pora, żebyśmy zaczęły się nosić wygodnie.","Rahat giyinmeye başlamamızın tam zamanı.",""
+"A9C645BF4B8C309FE71A38A87CE4C704","CinematicNode_Response_28","Kiedyś stroniłaś od zapachu tytoniu. Wchodząc do gabinetu ojca, wstrzymywałaś oddech.","Eskiden tütün kokusundan uzak dururdun. Babamın çalışma odasına girerken nefesini tutardın.",""
+"E3BB6C0D4DCC81D2F4FD81829D9C0A67","CinematicNode_Response_28","Tak było. Ale potem zostałam sama z tatą i jakoś przez lata przywykłam. ","Öyleydi. Ama sonra babamla baş başa kaldım ve yıllar içinde bir şekilde alıştım. ",""
+"61D6EA99404B0F007D15D4A01669E5EA","CinematicNode_Response_28","Nawet nie wiem, kiedy zaczęłam go naśladować. ","Onu ne zaman taklit etmeye başladığımı bile bilmiyorum. ",""
+"D4B709574196B1547684E1ACCB71C125","CinematicNode_Response_28","Córeczka tatusia. Zawsze byłaś z nim bliżej. ","Babacığının kızı. Ona her zaman daha yakındın. ",""
+"1B202FDF4E822B01255C5F8B34EC2D65","CinematicNode_Response_28","Nieprawda, byłam po prostu mniej niepokorna, niż ty, jego synek thaumaturg. ","Doğru değil, sadece senden daha az asiydim, onun tılsımkâr oğlu. ",""
+"02F730A04BE12FD125591A8578D57E46","CinematicNode_Response_28","Mów, co jeszcze zajmuje twoje myśli?","Söyle, aklını başka ne meşgul ediyor?",""
+"279883154145158CAC130C9A1C11F26B","CinematicNode_Response_29","Znalazłeś już coś na temat grymuaru? Mogę ci jakoś pomóc?","Grimuar hakkında bir şey bulabildin mi? Nasıl yardım edebilirim?",""
+"E955159241AA945D5E63EB976075152A","CinematicNode_Response_30","Nie wiem nic o prowadzeniu firmy. Ale jeśli mogę jakoś pomóc, to wiedz, że możesz na mnie liczyć.","Şirket yönetmek hakkında bir şey bilmem. Ama bir şekilde yardım edebiliyorsam, bana güvenebileceğini bil.",""
+"8D856C6C4BE4605DE1E643B7B5FA2466","CinematicNode_Response_30","Dziękuję, to wiele dla mnie znaczy.","Teşekkür ederim, benim için çok şey ifade ediyor.",""
+"17251E7C4277539C4D494680846DDC50","CinematicNode_Response_31","Zawsze byłaś odważna. Niczego i nikogo się nie bałaś.","Her zaman cesurdun. Hiçbir şeyden ve kimseden korkmazdın.",""
+"B3784CDF480B00A46D3D61A7D7646F84","CinematicNode_Response_31","Jak wtedy, kiedy matka prawie dostała apopleksji, bo utopiłaś mi w kakao odświętny krawat.","Annem neredeyse felç geçiriyordu çünkü bayramlık kravatımı kakaoma batırmıştın.",""
+"535C297F48728230E246EE8CBA480CB6","CinematicNode_Response_31","Jej gniew nie miał znaczenia, chciałam się odegrać, bo nie chciałeś się ze mną bawić!","Onun öfkesi önemli değildi, öcümü almak istiyordum çünkü benimle oynamıyordun!",""
+"F20FE40B450286480870E8B391DF1F69","CinematicNode_Response_31","Bo byłaś nieznośna!","Çünkü çekilmezdin!",""
+"B265256E4EDF97A4862E3D8B162434C0","CinematicNode_Response_31","Chciałeś powiedzieć: odważna.","Demek istediğin: cesur.",""
+"8F0A0A674DB818B1AB153CA20758D694","CinematicNode_Response_31","Swoją drogą, Grażyna wciąż co wieczór parzy kakao. Możesz sobie przypomnieć smak dzieciństwa, jeśli chcesz. ","Ha bu arada, Grażyna hâlâ her akşam kakao demliyor. İstersen çocukluğunun tadını hatırlayabilirsin. ",""
+"F91931DC44D81E0BBB0C4E8D279A5FF0","CinematicNode_Response_32","Wygodę, w tym wypadku, stawiałbym na drugim miejscu, ale znowu... to nie ja w tym będę chodził. ","Bu durumda rahatlığı ikinci sıraya koyardım, ama yine de… onu giyip dolaşacak olan ben değilim. ",""
+"15C4447646A4305BF1AE25AF4DFE6DBE","CinematicNode_Response_32","Świat zjeździłeś, a taki z ciebie konserwatysta? Nie spodziewałabym się.","Dünyayı gezmişsin, ama bu kadar tutucu musun? Bunu beklemezdim.",""
+"F444CE934956F6B2C4185A815EE38BA5","CinematicNode_Response_32","Nasze gusta się po prostu różnią. ","Zevklerimiz basitçe farklı. ",""
+"EEED4CE94B8B07AF40476EBB32498059","CinematicNode_Response_32","To nie kwestia gustu, ale... nie kłóćmy się, dopiero co przyjechałeś.","Zevk meselesi değil, ama… tartışmayalım, daha yeni geldin.",""
+"7F01EB5B42F9A3454F89EAB3952FF53A","CinematicNode_Response_33","Chcesz jeszcze o czymś porozmawiać?","Başka bir şey konuşmak ister misin?",""
+"C28832F948B8E41AE33288B164F84698","CinematicNode_Response_34","Moglibyśmy pójść razem. Zróbmy tak, ty odkurzysz strój wieczorowy, a ja załatwię zaproszenia.","Birlikte gidebiliriz. Şöyle yapalım: sen gece kıyafetini hazırla, ben davetiyeleri halledeyim.",""
+"289582C943850C3D1ED75A9B3968632D","CinematicNode_Response_34","I nie chcę słyszeć, że nie.","Ve hayır duymak istemiyorum.",""
+"725B9F514CCDE03C59B2A19A0C91B218","CinematicNode_Response_34","Nie dałaś mi, niestety, żadnych szans.","Maalesef hiçbir şans tanımadın bana.",""
+"873F80334E5DA45F85D82997AEC87B38","CinematicNode_Response_34","Wszystko z mojej szafy jest niestety przedpotopowe. Potrzebuję krawca.","Dolabımdakilerin hepsi maalesef Nuh nebiden kalma. Bir terziye ihtiyacım var.",""
+"D3319C32441EEC13F1C4A5ADA4B66710","CinematicNode_Response_34","Na Próżnej jedenaście jest jeden zakład, całkiem solidny. I szybki.","Próżna 11'de bir dükkan var, oldukça sağlam. Hızlı da.",""
+"849481F1451FF7C90E8538BA27302B86","CinematicNode_Response_35","Co to jest <fr>soirée</>?","<fr>Soirée</> nedir?",""
+"0BC3E99B4B6B258D1280428297F1BDE8","CinematicNode_Response_35","Ile, mówisz, że mieszkałeś u matki w Paryżu?","Söylediğine göre Paris'te annenin yanında ne kadar kalmıştın?",""
+"41B47F704C9FA4517DA5A0837E173E98","CinematicNode_Response_35","Po prostu wieczorek, jeśli wolisz. Wiesz, co to?","Dilersen basitçe bir akşam daveti, bilirsin?",""
+"503B08524D984E3B8BF6D5A69A8279ED","CinematicNode_Response_35","Zabawne.","Komik.",""

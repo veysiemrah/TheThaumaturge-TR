@@ -1,121 +1,121 @@
-Hash,NodeName,PL,TR,Notes
-21FEEB444FBC3F0D1336C2AE0494B462,CinematicNode_Choice_10,"Zapytaj, czemu cię porwał.",Neden seni kaçırdığını sor.,
-BECD577B4C644C1418CA818FB2452A7B,CinematicNode_Choice_10,"Nalegaj, żeby cię uwolnił. ",Serbest bırakmasını iste. ,
-B2F664094F735FDD4F9D3E867D3A297B,CinematicNode_Choice_11,"Dopytaj, co ma na myśli.",Ne demek istediğini sor.,
-9C7F0E6547CF15C872F6319D152E90C9,CinematicNode_Choice_11,"Zapytaj, jakie są jego warunki.",Koşullarının ne olduğunu sor.,
-ED33FB74454A259904134E8773BE1B90,CinematicNode_Choice_12,Przeproś.,Özür dile.,
-82DA9898475679ECEDC996B3CB2F1372,CinematicNode_Choice_12,"Powiedz, że pamiętasz to inaczej. ",Farklı hatırladığını söyle. ,
-C45CEA4948FC3F5DC8555BB53C2B4FB4,CinematicNode_Choice_12,"Udawaj, że nie wiesz, o co chodzi. ",Neyden bahsettiğini bilmiyormuş gibi davran. ,
-3A17527D4E3721EA125B8ABC4EF175AD,CinematicNode_Choice_13,"Powiedz, że złe. ",Kötü olduğunu söyle. ,
-FF4456A54D32C6B003F1E2AB08569774,CinematicNode_Choice_13,"Zażądaj, żeby z tym skończył. ",Buna son vermesini talep et. ,
-CBB5EC9248C66236954F6CA6D630C22E,CinematicNode_Choice_14,Przyznaj.,Kabul et.,
-000F5F2E4300EF69FCF0F1A02709421C,CinematicNode_Choice_14,"Powiedz, że to nie tak. ",Öyle olmadığını söyle. ,
-7277077D45BE3B3D8A7D459FF79510F5,CinematicNode_Choice_15,"Powiedz, że nie jesteś swoim ojcem.",Baban olmadığını söyle.,
-FE479BC046A030BCA2193EA9035D2645,CinematicNode_Choice_15,Porozmawiaj o śmierci Stanisława. ,Stanisław'ın ölümü hakkında konuş. ,
-A9072D4E41CD7FB79243A09D3EE9DE4F,CinematicNode_Choice_8,"Zapytaj, kim jest.",Kim olduğunu sor.,
-1E5ECE27467831DB95AB538DCCC7007D,CinematicNode_Choice_8,"Zapytaj, czego się spodziewał.",Ne beklediğini sor.,
-A808DEF94A258AFC0706C8A45F71581A,CinematicNode_Choice_8,Nic nie mów.,Bir şey söyleme.,
-2EBACF2747BE80EB2E23C695BF79DCEC,CinematicNode_Choice_9,Nastrasz go.,Onu korkut.,
-C7353B7942F25B9EC274E3B962FBF7BF,CinematicNode_Choice_9,"Zapytaj, czego chce.",Ne istediğini sor.,
-5DB34D204AFBDCE625E29F9EAD436E03,CinematicNode_Choice_9,"Spróbuj go przekupić, żeby cię wypuścił.",Seni bırakması için ona rüşvet teklif et.,
-9718FADA4233B6FF123269928A7AEE9A,CinematicNode_Response_29,"Nie robiłbym tego. Gdy niszczysz grymuar, uciekają z niego demony. A ja mam tam kilka szczególnie parszywych.","Yapmazdım. Bir grimuarı yok ettiğinde içinden şeytanlar kaçar. Benim de birkaç özellikle pis olanım var orada.",
-DDE09C87415D4CC1E296C68059D052B5,CinematicNode_Response_29,"Jeden pozbawi was wzroku, inny sprawi, że będziecie konać w konwulsjach, taplając się we własnym gównie.","Biri sizi kör eder, öbürü de kendi bokunuza bulanarak sarsılarak can çekişmenize yol açar.",
-7A5DBF6549FA6D5CF6DC1198A2DADB77,CinematicNode_Response_29,"Słyszałem ostatnio, że Bolek tak zdechł. Że demon jaki do mózgowiny mu się dostał i...","Geçen gün duydum, Bolek öyle gebermiş. Beynine bir şeytan girmiş de...",
-C842C3B244F638289222058BD6B502F0,CinematicNode_Response_29,"Dobra, dobra... Może cię uwolnię, ale książki ci jeszcze nie oddam, nie wszystko naraz.","Tamam tamam... Seni belki bırakırım, ama kitabı hemen vermem, hepsi bir anda olmaz.",
-FAE33C704FBABC7ED2CF87AED3114E0B,CinematicNode_Response_29,"Szefie, tylko żeby zaraz na mieście nie gadali, że się Niedzic demonów boi. ","Patron, sonra şehirde Niedzic'in şeytanlardan korktuğunu konuşmasınlar. ",
-EBA8CD9C4EF958F37081A6980F8DB4FE,CinematicNode_Response_29,"To, kurwa, gęba na kłódkę. ","O zaman, lan, ağzını sıkı tut. ",
-F70581F74AEFC70B078327A75ED7B802,CinematicNode_Response_29,Niedzic. Nazywasz się Niedzic?,Niedzic. Adın Niedzic mi?,
-F24409424748F77F6F131A994D3F51C7,CinematicNode_Response_29,No i masz. Wszystko w łeb wzięło.,Al sana. Her şey boka sardı.,
-5B70A21844234660EE468FBE3D47A705,CinematicNode_Response_29,"Się masz, Wiktor. ","Selamün aleyküm, Wiktor. ",
-DE9CE4B34392DBB6B82DDFA2BD7D5E43,CinematicNode_Response_30,Zwiąż go. O tu. Mocniej...,Bağla onu. İşte buraya. Daha sıkı...,
-6447A1D2413DE98AEA2B2D84E8121BA0,CinematicNode_Response_30,Zabraliśmy mu książkę. ,Kitabını aldık. ,
-77A82B5F4AF961EA9DE119A0B5849543,CinematicNode_Response_30,"No i pięknie! Dobra, budzimy zasrańca. ","Ne güzel! Tamam, uyandıralım piçi. ",
-175EC900420FB2D7C00BCD8B40ECEAA8,CinematicNode_Response_30,"[Zbir ściąga Wiktorowi worek z głowy. Wiktor siedzi na krześle, ręce ma związane z tyłu. Przed nim 3 osoby. Zbiry, które go porwały i ktoś jeszcze. Trzeci stoi nonszalancko oparty o stół.]","[Tetikçi Wiktor'un kafasındaki torbayı çeker. Wiktor sandalyede oturuyor, eller arkasında bağlı. Karşısında 3 kişi var. Onu kaçıran iki tetikçi ve biri daha. Üçüncüsü kayıtsızca masaya yaslanmış.]",Sahne yönergesi
-EBB530AF400124E8C9E3579A447F3D97,CinematicNode_Response_30,Pobudka!,Uyan bakalım!,
-C44BA6124C91526DF08150852126BBBF,CinematicNode_Response_30,C-co... co jest...? ,N-ne... ne oluyor...? ,
-07AB2B984A0419F798087BB35818F6E5,CinematicNode_Response_30,"No już, śpiąca królewno. Nie mam całego dnia. Niech no ci się przyjrzę...","Hadi bakalım, uyuyan güzel. Bütün günüm yok. Şöyle bir bakayım sana...",
-83EB06F4466EE97D0F427D9470F04DFB,CinematicNode_Response_31,...,...,
-C032919348A7AF1CC3A403A4F6F33DC2,CinematicNode_Response_31,Więc tak chcesz grać? Nie z takimi już tutaj miałem do czynienia.,Demek böyle oynamak istiyorsun? Burada senin gibilerle çok uğraştım.,
-15425C314572F484087DFBB8203D8FD4,CinematicNode_Response_31,"To co, prosto do Wisły z nim, czy trochę go pomęczymy?","E, onu doğrudan Wisła'ya mı atalım, yoksa biraz eziyet mi edelim?",Wisła = nehir adı aynen
-61CB166A47E8ADF402D01AAABBC47315,CinematicNode_Response_31,"Zero wyobraźni, chłopcy, zero... ","Hiç hayal gücü yok çocuklar, hiç... ",
-24B496AC4E620514D1AB66B8156C5BF3,CinematicNode_Response_31,"[Abaurycy trzyma grymuar nad płonącą świeczką. Wydaje się nieostrożny. Nie patrzy na Wiktora, tylko igra z płomieniem.]","[Abaurycy grimuarı yanan bir mumun üzerinde tutuyor. Dikkatsiz görünüyor. Wiktor'a bakmıyor, alevle oynuyor.]",
-D88BB80E41CF13521AFB6787182A51DE,CinematicNode_Response_31,"Szkoda byłoby ją stracić, co? Założę się, że w środku jest wiele cennych informacji...",Onu kaybetmek yazık olurdu değil mi? Bahse girerim içinde bir sürü değerli bilgi var...,
-5305EBDC4CB49B30E47A4A9DEE0D95E6,CinematicNode_Response_31,"To jak będzie? Pogadamy?","E, ne diyorsun? Konuşacak mıyız?",
-13D982D7459AA60719040094A5E5F87A,CinematicNode_Response_32,"Powiedz po prostu, czego chcesz i miejmy to z głowy.",Ne istediğini söyle de bu iş bitsin.,
-A88B377546CDD330650991BC0B82E85D,CinematicNode_Response_32,Nie ty tu będziesz warunki stawiał. ,Burada koşulları sen belirlemeyeceksin. ,
-55D3D9A142257D81AF444C84826FEAE1,CinematicNode_Response_32,"Ta, tym razem nie ty będziesz warunki stawiał. ","Evet, bu sefer koşulları sen belirlemeyeceksin. ",
-0C6E864D468D8F7004EB51AFAC86FA2F,CinematicNode_Response_33,Niedzic! Gdzie ta szuja?!,Niedzic! Nerede o serseri?!,
-5177D23B4C761CD0235FCCA213F26020,CinematicNode_Response_33,"Co, do kurwy...? ","Ne lan...? ",
-933D37A140D856C4BAA76F86BA5FB263,CinematicNode_Response_33,"Szefie, to znowu Kozacy. ","Patron, yine Kazaklar. ",
-8CACDAC14188B23A7FC08D96BD585BB0,CinematicNode_Response_33,"Chodź, tchórzu!",Gel ödlek!,
-5FFE912A4BF5BE931DEA3C859120D1B9,CinematicNode_Response_33,"Wygląda na to, że masz szansę na odkupienie!",Görünüşe göre kefaret şansın var!,
-C005137F436B7969E8C40992C305FF78,CinematicNode_Response_33,"Pokażmy tym chujom, że z Mojkami się nie zadziera!",Şu piçlere gösterelim ki Mojki'lerle dalaşılmaz!,
-104A58D5484B018AA7DFB79798026AFB,CinematicNode_Response_34,"Chodzi o pieniędze? Nie mam nic przy sobie, ale możemy się dogadać.",Para meselesi mi? Üzerimde hiçbir şey yok ama anlaşabiliriz.,
-D4EFC6BC4A7EEC5C5E685DA21BCB9E79,CinematicNode_Response_34,No niech sczeznę. Słyszeliście go? Sram na twoje pieniądze! ,Vay canına. Duydunuz mu adamı? Paranın üstüne sıçarım! ,
-A889F34A4ECBB1BC7B816B97CA569F88,CinematicNode_Response_34,Śmierci mojego tatki pieniędzmi nie odkupisz!,Babamın ölümünü parayla satın alamazsın!,
-FA57D5B24556EC903E83F7ACF5B9076B,CinematicNode_Response_35,Pamiętam to trochę inaczej.,Ben biraz farklı hatırlıyorum.,
-CE0EE05D4F620677CFB968B68348B104,CinematicNode_Response_35,"O, to mnie zaciekawiłeś. Dobrze myślę, że w twojej wersji wydarzeń jesteś niewinny?","Aa, ilgimi çektin. Senin hikayende masum olduğunu mu söylüyorsun?",
-FB1C49E248FF896500607EA020DA87C0,CinematicNode_Response_35,"Nie, nie jestem. Tak jak i ty nie jesteś. Ale największym winnym jest mój ojciec.","Hayır, değilim. Senin de olmadığın gibi. Ama asıl suçlu babam.",
-7E94AEF6440595564CDADABA33E1558E,CinematicNode_Response_35,"Jakie to wygodne. Ten już się raczej nie obroni, co?",Ne de kolay. O artık kendini savunamaz değil mi?,
-4B1A8B17466BD88980F454B33FF953D3,CinematicNode_Response_35,"Nie mam zamiaru cię do niczego przekonywać. Byliśmy głupimi dzieciakami, nie zmienię przeszłości.","Seni hiçbir şeye inandırmaya niyetim yok. Aptal çocuklardık, geçmişi değiştiremem.",
-A4BF246E462139A62C2E15B50E00A200,CinematicNode_Response_35,"Ta... <i>złe przeczuwając, pamięć wspomnień odepchnąć pragnął...</>","Aynen... <i>kötüyü sezerek, anıların belleğini itmek istiyordu...</>",Abaurycy şiirsel konuşur
-D82FC0664E2C09212BC3789539197DBF,CinematicNode_Response_36,Co to ma być? Kim ty jesteś?,Bu da nesi? Sen kimsin?,
-AE7E39D94556A092FDFECF8DEFE9C27D,CinematicNode_Response_36,"<i>Jestem spadającą gwiazdą, co na chwilę zabłyśnie, nadzieję dając, w przestrachu ludzkość za gardziele trzymając, a potem nagle... niknie.</>","<i>Ben bir kayan yıldızım, bir an için parlayan, umut veren, korkuyla insanlığı gırtlağından tutan, sonra birden... kaybolan.</>",
-4AC52A3D46744803C79792A43F2D720C,CinematicNode_Response_36,Czekaj... Abaurycy?!,Dur... Abaurycy?!,
-430D20DB4D16BCDB198280984A07D4A6,CinematicNode_Response_36,Ta poezja wpędzi mnie kiedyś do grobu...,Bu şiir bir gün beni mezara sokacak...,
-62D0752F405678CB0D6813840B5EE059,CinematicNode_Response_37,A czego się spodziewałeś?,Ne bekliyordun ki?,
-83128C1348F4782B1BD934A9FC913F19,CinematicNode_Response_37,Że po latach spędzonych na paryskich salonach wrócisz piękny i wymuskany.,Paris salonlarında geçirdiğin yıllardan sonra güzel ve bakımlı dönmeni.,
-4A6EB32A4A2CB834F7A1D18F2B65686E,CinematicNode_Response_37,Skąd wiesz o Paryżu?,Paris'i nereden biliyorsun?,
-2031AC27404AFEB86F9651A24668A4E5,CinematicNode_Response_37,"Przed Niedzicem nic się nie ukryje, nie?!",Niedzic'in gözünden hiçbir şey kaçmaz değil mi?!,
-7C7B1A2644F2C81D21AD5AAD829A3848,CinematicNode_Response_37,Kurwa... Może od razu moją metrykę urodzenia wyrecytuj.,Lan... Hemen doğum belgemi de ezbere oku bari.,
-327CA86C42856B31934469B460A57CCE,CinematicNode_Response_37,Abaurycy Niedzic.,Abaurycy Niedzic.,
-233F1DEB47B8280868A5FD938AB68127,CinematicNode_Response_38,"Kopę lat, Szulski.","Nice seneler sonra, Szulski.",
-8103EA4849F55961C46BF998AE2798E4,CinematicNode_Response_39,"Jakie ""tym razem""? Kiedy był poprzedni raz?","""Bu sefer"" ne demek? Önceki sefer ne zamandı?",
-BC7BD90042F5D794F6338DAFA0D1B448,CinematicNode_Response_39,"Wtedy, jak kazałeś mi czekać na pomoc w swoim domku letniskowym, ale zamiast tego przyszły <dl>gliny</>. ",Yazlık evinizde yardım için beklemeni söylediğinde ama onun yerine <dl>polis</> geldi. ,"'gliny' = polis argosu; <dl> tag aynen"
-F55E25264CE09BFE08B044A0E48B6E5E,CinematicNode_Response_39,"Potem trafiłem na ulicę, a tatko do więzienia, gdzie umarł. ","Sonra ben sokağa düştüm, babam da hapse, orada öldü. ",
-8CCF4FCB47BBBCD8EE5F8A87E4652098,CinematicNode_Response_40,To jakie są twoje?,E seninkiler ne?,
-F78373A94B0815105AA7259D7A40AF4C,CinematicNode_Response_40,"Ładnie przeprosisz. A ja ocenię, czy jesteś w tym szczery i zobaczę, co dalej.",Güzelce özür dileyeceksin. Ben de samimi olup olmadığına karar verip sonrasına bakacağım.,
-B04830FE4A96C971B8E3F2AC919D4483,CinematicNode_Response_40,Niby za co?,Ne için?,
-D1766B1142D0E4E4B21B4D90D340B9C8,CinematicNode_Response_40,"Za to, że wystawiłeś mnie <dl>gliniarzom</>.","Beni <dl>polislere</> ihbar ettiğin için.",
-39A1194F4A78D0135F8869BACEE69FEA,CinematicNode_Response_40,"Za to, że umyłeś ręce od tego, co razem odjebaliśmy.",Birlikte yaptığımız boktan işten sıyrılıp ellerini yıkadığın için.,
-F368DD9D47F771B096FCEBBAFE603FA4,CinematicNode_Response_40,"I może za to, że mój ojciec zgnił za to w więzieniu.",Ve belki de babamın bu yüzden hapishanede çürüdüğü için.,
-704754AF49F52F8CFBBD96B33544D47B,CinematicNode_Response_41,"Jeśli to coś da, to przepraszam. ","Bir şey ifade edecekse, özür dilerim. ",
-AF7BC3814347725932E91A9B56DC5B00,CinematicNode_Response_41,No! Nie można było tak od razu?!,Ha! Baştan öyle deseydin olmaz mıydı?!,
-09854135417B1CEB9F5F63879E9AB4D1,CinematicNode_Response_41,Nie jestem jedynym winnym tej sytuacji.Ty też masz swoje na sumieniu. ,Bu durumda tek suçlu ben değilim. Senin de vicdanında bir şeyler var. ,
-A34BFF2A47DD304AC94413BA59022ABF,CinematicNode_Response_41,Moje sumienie zostaw ty mnie!,Vicdanımı bana bırak sen!,
-8B806D7F4DC54705E5A0C6936ACAD62F,CinematicNode_Response_42,"Nie wiem, o czym mówisz. ",Neyden bahsettiğini bilmiyorum. ,
-6D4A711848F2C6476F0F52B270A1E1DE,CinematicNode_Response_42,"A kurwa, masz tupet... Ojciec tyle lat dupę Stanisława woził, my pół dzieciństwa razem spędziliśmy, ale teraz, gdzie tam, nie wiesz, z kim masz do czynienia... ","Vay be, küstahsın... Babam yıllarca Stanisław'a kulluk etti, biz çocukluğumuzun yarısını birlikte geçirdik, ama şimdi hâlt, kiminle muhatap olduğunu bilmiyormuşsun... ",
-E36B119A4E565839EE2960A0109793A3,CinematicNode_Response_42,"Chyba nic z tego nie będzie, Wiktor...",Bundan bir şey çıkmayacak sanırım Wiktor...,
-B4F62F094E4910654CE3079FDBF4C53C,CinematicNode_Response_43,Co to za chory pomysł z tym porwaniem?,Şu kaçırma fikri de ne hastalık?,
-AEC1C18B463331E3E0F1668602841F68,CinematicNode_Response_43,Taki żart. Nieśmieszny?,Bir şakaydı. Komik değil mi?,
-7690B4424A2BC1A19A990098F0D51FB9,CinematicNode_Response_43,Nie. ,Değil. ,
-D969E0364BC3679B9277E28C933997A5,CinematicNode_Response_44,"Zwariowałeś? Uwolnij mnie, to porozmawiamy, jak równy z równym.","Delirdin mi? Beni çöz, eşit eşite konuşalım.",
-F9519570450AE0149207EFB3C08C2C67,CinematicNode_Response_44,"Nie, Wiktor... tym razem to ja będę górą. ","Hayır Wiktor... bu sefer üstte olan ben olacağım. ",
-F2C5B8034C8003F35FEA448FDAA2721B,CinematicNode_Response_45,"Nie najlepsze. Słuchaj, rozumiem, że nosisz w sobie jakiś żal o to, co się stało. Ale przeszłości nie zmienię. ","Pek iyi değil. Bak, yaşananlara dair bir pişmanlık taşıdığını anlıyorum. Ama geçmişi değiştiremem. ",
-2CEDD1C94C945050511D78B57C966869,CinematicNode_Response_45,"No tak... Ale, kurwa! Kazałeś mi czekać na pomoc, zamiast tego przyszły <dl>gliny</>, a wy umyliście ręce i daliście mojemu tatkowi zgnić w więzieniu. ","E evet... Ama lan! Yardım için beklemeni söyledin, onun yerine <dl>polis</> geldi, siz de ellerinizi yıkadınız ve babamın hapishanede çürümesine göz yumdunuz. ",
-F0268C8140B1F26A4C5E46AF70975F1C,CinematicNode_Response_45,"Przyznaj chociaż, że zachowałeś się jak chuj.",Hiç değilse pislik gibi davrandığını kabul et.,
-F08B9319483798652313E5A4CBAFF727,CinematicNode_Response_46,"Skończ z tym. Ni to śmieszne, ni straszne.",Bu işe son ver. Ne komik ne korkutucu.,
-65564B5142966822CC26B1BBA458CB00,CinematicNode_Response_47,"Przyznaję, było to chujowe posunięcie ze strony mojego ojca. ","Kabul ediyorum, babam tarafından adice bir hamleydi. ",
-6526C7F946E41C1263DA9A9C83EA4E74,CinematicNode_Response_47,"Ojca?! No i patrzcie go, od razu się menda wybiela!","Baba mı?! Hele bak şuna, hemen pislik kendini aklıyor!",
-E0C774754CC78E56ABF6B486ED257577,CinematicNode_Response_47,"Nazwisko zobowiązuje, co?",Soyad mesuliyet getirir demişler değil mi?,
-9C49825F46704832EA26C6A01232A60F,CinematicNode_Response_48,"To nie tak. Nie planowałem cię wystawić, poszedłem po pomoc, tylko...","Öyle değil. Seni ele vermeye niyetim yoktu, yardıma gittim sadece...",
-16F962BA4999EF2C3ECDFB8E7A360730,CinematicNode_Response_48,"Co, we Francji to atramentu nie mają? Czas na tłumaczenie był piętnaście lat temu.","Ne, Fransa'da mürekkep mi yok? Açıklama yapma zamanı on beş yıl önceydi.",
-6CC61C184478BD30E8C3F6BD153A1E6E,CinematicNode_Response_48,Niedaleko pada jabłko od jabłoni. Jesteś taki jak twój ojciec. ,Armut dibine düşer. Sen de baban gibisin. ,"'Niedaleko pada jabłko...' = armut dibine düşer"
-4862B10F4FCE2C26E7569189228DFD1F,CinematicNode_Response_49,Zasrani Szulscy! Zawsze patrzą z góry! ,Hödük Szulski'ler! Hep tepeden bakar! ,
-EF3BF83444BFE8E806534795D9C46C8A,CinematicNode_Response_49,"To przez ciebie tatko skończył, jak skończył. To przez ciebie trafiłem na ulicę!",Babamın böyle bitmesi senin yüzünden. Sokağa düşmem senin yüzünden!,
-EB613AB242A2843413BFF482997017FD,CinematicNode_Response_50,Abaurycy...,Abaurycy...,
-67B8AF5046FC1389509AAAA953C84E9E,CinematicNode_Response_51,"Jakie to uczucie, gdy to ode mnie zależy twoje życie?",Hayatın benim elimdeyken nasıl hissediyorsun?,
-168C325F4D0EB841A1C0BAA3929BC979,CinematicNode_Response_52,"Nie byłoby tematu, gdybyś nie podwędził wtedy tatusiowi <dl>gnata</>...","O zaman babacığının <dl>silahını</> aşırmasaydın, ortada mesele olmayacaktı...",
-25E191B5448F15628F0EFFB796306395,CinematicNode_Response_52,"Siedzi to we mnie, Wiktor, że razem pociągnęliśmy za spust, razem!","İçimde duruyor Wiktor, tetiği birlikte çektik, birlikte!",
-392240624F3DBA8DE71A44BBAEC50ECF,CinematicNode_Response_53,"Kurwa, no przecież razem pociagnęliśmy za spust! Nie byłoby tematu, gdybyś tatusiowi pistoletu nie podwędził.",Lan birlikte çektik tetiği! Babacığının tabancasını aşırmasaydın ortada mesele olmazdı.,
-6F71516345264AD8BF500183369794CF,CinematicNode_Response_53,"Więc jak to jest, że to ja z moim tatkiem za to bekliśmy, co?!",E nasıl oluyor da bunun bedelini ben ve babam ödedik?!,
-2D1F855E4C71B8592E09719B044626B6,CinematicNode_Response_54,"Tak, noszę to samo nazwisko i też jestem thaumaturgiem. Ale na tym podobieństwa się kończą.","Evet, aynı soyadı taşıyorum ve ben de tılsımkârım. Ama benzerlikler orada bitiyor.",
-8E7FB0C549B07C12783FD2A0F73822A0,CinematicNode_Response_54,"Myślę, że nawet ty nie gardziłeś nim tak, jak ja, jego własny syn. ","Bence sen bile ondan benim, kendi oğlu olan kadar nefret etmemişsindir.",
-B6BABECD4304EB44145868AB0B6611FE,CinematicNode_Response_54,"No nie wiem, nie wiem. Teraz po latach to może jest inaczej, ale kiedyś...","Bilmem ki, bilmem. Yıllar geçtikten sonra belki farklıdır, ama eskiden...",
-9F698D244055FFA5C9C45997D939FD23,CinematicNode_Response_55,"Do mojego ojca karma wróciła. Zapłacił paskudną śmiercią za to, jakim był człowiekiem. Pewnie słyszałeś.","Babama karma geri döndü. Nasıl bir adam olduğu için iğrenç bir ölümle ödedi. Duymuşsundur.",
-F977AC6A422B82B5E810B996AB7F844C,CinematicNode_Response_55,"No nie powiem, dawno nic mnie tak nie ucieszyło, jak wiadomość o tym, że Szulski skończył jako breja na chodniku. ","Şöyle söyleyeyim, Szulski'nin kaldırımda lapa halinde bittiği haberi kadar beni sevindiren bir şey çok uzun zamandır olmamıştı. ",
-7B8991304A12999EB4516783B81ECE09,CinematicNode_Response_55,"Niby złego licho nie bierze, ale dla twojego starego zrobiło wyjątek! ","Derler ki kötü adamı şeytan almaz, ama senin ihtiyar için istisna yapmış! ",
-BED5AB55472C850A58D3FBB023FC8108,CinematicNode_Response_55,Wraz z jego śmiercią zostawmy przeszłość za sobą. ,Onun ölümüyle birlikte geçmişi geride bırakalım. ,
-6EA7E65C4C53FB8BDE63F597BAF091E8,CinematicNode_Response_56,Niech mnie! Dla mnie się tak odwaliłeś?,Vay be! Benim için mi bu kadar güzel giyindin?,
-F6830714456D456F65F6CDA1662DB24B,CinematicNode_Response_57,"Nie najlepiej wyglądasz, paniczyku.","Pek iyi görünmüyorsun, küçük beycik.",
-BA85B5AC4A57216AD0B9AB8778BB5AEA,CinematicNode_Response_57,Nie tego się spodziewałem.,Bunu beklemiyordum.,
+"Hash","NodeName","PL","TR","Notes"
+"21FEEB444FBC3F0D1336C2AE0494B462","CinematicNode_Choice_10","Zapytaj, czemu cię porwał.","Neden seni kaçırdığını sor.",""
+"BECD577B4C644C1418CA818FB2452A7B","CinematicNode_Choice_10","Nalegaj, żeby cię uwolnił. ","Serbest bırakmasını iste. ",""
+"B2F664094F735FDD4F9D3E867D3A297B","CinematicNode_Choice_11","Dopytaj, co ma na myśli.","Ne demek istediğini sor.",""
+"9C7F0E6547CF15C872F6319D152E90C9","CinematicNode_Choice_11","Zapytaj, jakie są jego warunki.","Koşullarının ne olduğunu sor.",""
+"ED33FB74454A259904134E8773BE1B90","CinematicNode_Choice_12","Przeproś.","Özür dile.",""
+"82DA9898475679ECEDC996B3CB2F1372","CinematicNode_Choice_12","Powiedz, że pamiętasz to inaczej. ","Farklı hatırladığını söyle. ",""
+"C45CEA4948FC3F5DC8555BB53C2B4FB4","CinematicNode_Choice_12","Udawaj, że nie wiesz, o co chodzi. ","Neyden bahsettiğini bilmiyormuş gibi davran. ",""
+"3A17527D4E3721EA125B8ABC4EF175AD","CinematicNode_Choice_13","Powiedz, że złe. ","Kötü olduğunu söyle. ",""
+"FF4456A54D32C6B003F1E2AB08569774","CinematicNode_Choice_13","Zażądaj, żeby z tym skończył. ","Buna son vermesini talep et. ",""
+"CBB5EC9248C66236954F6CA6D630C22E","CinematicNode_Choice_14","Przyznaj.","Kabul et.",""
+"000F5F2E4300EF69FCF0F1A02709421C","CinematicNode_Choice_14","Powiedz, że to nie tak. ","Öyle olmadığını söyle. ",""
+"7277077D45BE3B3D8A7D459FF79510F5","CinematicNode_Choice_15","Powiedz, że nie jesteś swoim ojcem.","Baban olmadığını söyle.",""
+"FE479BC046A030BCA2193EA9035D2645","CinematicNode_Choice_15","Porozmawiaj o śmierci Stanisława. ","Stanisław'ın ölümü hakkında konuş. ",""
+"A9072D4E41CD7FB79243A09D3EE9DE4F","CinematicNode_Choice_8","Zapytaj, kim jest.","Kim olduğunu sor.",""
+"1E5ECE27467831DB95AB538DCCC7007D","CinematicNode_Choice_8","Zapytaj, czego się spodziewał.","Ne beklediğini sor.",""
+"A808DEF94A258AFC0706C8A45F71581A","CinematicNode_Choice_8","Nic nie mów.","Bir şey söyleme.",""
+"2EBACF2747BE80EB2E23C695BF79DCEC","CinematicNode_Choice_9","Nastrasz go.","Onu korkut.",""
+"C7353B7942F25B9EC274E3B962FBF7BF","CinematicNode_Choice_9","Zapytaj, czego chce.","Ne istediğini sor.",""
+"5DB34D204AFBDCE625E29F9EAD436E03","CinematicNode_Choice_9","Spróbuj go przekupić, żeby cię wypuścił.","Seni bırakması için ona rüşvet teklif et.",""
+"9718FADA4233B6FF123269928A7AEE9A","CinematicNode_Response_29","Nie robiłbym tego. Gdy niszczysz grymuar, uciekają z niego demony. A ja mam tam kilka szczególnie parszywych.","Yapmazdım. Bir grimuarı yok ettiğinde içinden şeytanlar kaçar. Benim de birkaç özellikle pis olanım var orada.",""
+"DDE09C87415D4CC1E296C68059D052B5","CinematicNode_Response_29","Jeden pozbawi was wzroku, inny sprawi, że będziecie konać w konwulsjach, taplając się we własnym gównie.","Biri sizi kör eder, öbürü de kendi bokunuza bulanarak sarsılarak can çekişmenize yol açar.",""
+"7A5DBF6549FA6D5CF6DC1198A2DADB77","CinematicNode_Response_29","Słyszałem ostatnio, że Bolek tak zdechł. Że demon jaki do mózgowiny mu się dostał i...","Geçen gün duydum, Bolek öyle gebermiş. Beynine bir şeytan girmiş de…",""
+"C842C3B244F638289222058BD6B502F0","CinematicNode_Response_29","Dobra, dobra... Może cię uwolnię, ale książki ci jeszcze nie oddam, nie wszystko naraz.","Tamam tamam… Seni belki bırakırım, ama kitabı hemen vermem, hepsi bir anda olmaz.",""
+"FAE33C704FBABC7ED2CF87AED3114E0B","CinematicNode_Response_29","Szefie, tylko żeby zaraz na mieście nie gadali, że się Niedzic demonów boi. ","Patron, sonra şehirde Niedzic'in şeytanlardan korktuğunu konuşmasınlar. ",""
+"EBA8CD9C4EF958F37081A6980F8DB4FE","CinematicNode_Response_29","To, kurwa, gęba na kłódkę. ","O zaman, lan, ağzını sıkı tut. ",""
+"F70581F74AEFC70B078327A75ED7B802","CinematicNode_Response_29","Niedzic. Nazywasz się Niedzic?","Niedzic. Adın Niedzic mi?",""
+"F24409424748F77F6F131A994D3F51C7","CinematicNode_Response_29","No i masz. Wszystko w łeb wzięło.","Al sana. Her şey boka sardı.",""
+"5B70A21844234660EE468FBE3D47A705","CinematicNode_Response_29","Się masz, Wiktor. ","Selamün aleyküm, Wiktor. ",""
+"DE9CE4B34392DBB6B82DDFA2BD7D5E43","CinematicNode_Response_30","Zwiąż go. O tu. Mocniej...","Bağla onu. İşte buraya. Daha sıkı…",""
+"6447A1D2413DE98AEA2B2D84E8121BA0","CinematicNode_Response_30","Zabraliśmy mu książkę. ","Kitabını aldık. ",""
+"77A82B5F4AF961EA9DE119A0B5849543","CinematicNode_Response_30","No i pięknie! Dobra, budzimy zasrańca. ","Ne güzel! Tamam, uyandıralım piçi. ",""
+"175EC900420FB2D7C00BCD8B40ECEAA8","CinematicNode_Response_30","[Zbir ściąga Wiktorowi worek z głowy. Wiktor siedzi na krześle, ręce ma związane z tyłu. Przed nim 3 osoby. Zbiry, które go porwały i ktoś jeszcze. Trzeci stoi nonszalancko oparty o stół.]","[Tetikçi Wiktor'un kafasındaki torbayı çeker. Wiktor sandalyede oturuyor, eller arkasında bağlı. Karşısında 3 kişi var. Onu kaçıran iki tetikçi ve biri daha. Üçüncüsü kayıtsızca masaya yaslanmış.]","Sahne yönergesi"
+"EBB530AF400124E8C9E3579A447F3D97","CinematicNode_Response_30","Pobudka!","Uyan bakalım!",""
+"C44BA6124C91526DF08150852126BBBF","CinematicNode_Response_30","C-co... co jest...? ","N-ne… ne oluyor…? ",""
+"07AB2B984A0419F798087BB35818F6E5","CinematicNode_Response_30","No już, śpiąca królewno. Nie mam całego dnia. Niech no ci się przyjrzę...","Hadi bakalım, uyuyan güzel. Bütün günüm yok. Şöyle bir bakayım sana…",""
+"83EB06F4466EE97D0F427D9470F04DFB","CinematicNode_Response_31","...","…",""
+"C032919348A7AF1CC3A403A4F6F33DC2","CinematicNode_Response_31","Więc tak chcesz grać? Nie z takimi już tutaj miałem do czynienia.","Demek böyle oynamak istiyorsun? Burada senin gibilerle çok uğraştım.",""
+"15425C314572F484087DFBB8203D8FD4","CinematicNode_Response_31","To co, prosto do Wisły z nim, czy trochę go pomęczymy?","E, onu doğrudan Wisła'ya mı atalım, yoksa biraz eziyet mi edelim?","Wisła = nehir adı aynen"
+"61CB166A47E8ADF402D01AAABBC47315","CinematicNode_Response_31","Zero wyobraźni, chłopcy, zero... ","Hiç hayal gücü yok çocuklar, hiç… ",""
+"24B496AC4E620514D1AB66B8156C5BF3","CinematicNode_Response_31","[Abaurycy trzyma grymuar nad płonącą świeczką. Wydaje się nieostrożny. Nie patrzy na Wiktora, tylko igra z płomieniem.]","[Abaurycy grimuarı yanan bir mumun üzerinde tutuyor. Dikkatsiz görünüyor. Wiktor'a bakmıyor, alevle oynuyor.]",""
+"D88BB80E41CF13521AFB6787182A51DE","CinematicNode_Response_31","Szkoda byłoby ją stracić, co? Założę się, że w środku jest wiele cennych informacji...","Onu kaybetmek yazık olurdu değil mi? Bahse girerim içinde bir sürü değerli bilgi var…",""
+"5305EBDC4CB49B30E47A4A9DEE0D95E6","CinematicNode_Response_31","To jak będzie? Pogadamy?","E, ne diyorsun? Konuşacak mıyız?",""
+"13D982D7459AA60719040094A5E5F87A","CinematicNode_Response_32","Powiedz po prostu, czego chcesz i miejmy to z głowy.","Ne istediğini söyle de bu iş bitsin.",""
+"A88B377546CDD330650991BC0B82E85D","CinematicNode_Response_32","Nie ty tu będziesz warunki stawiał. ","Burada koşulları sen belirlemeyeceksin. ",""
+"55D3D9A142257D81AF444C84826FEAE1","CinematicNode_Response_32","Ta, tym razem nie ty będziesz warunki stawiał. ","Evet, bu sefer koşulları sen belirlemeyeceksin. ",""
+"0C6E864D468D8F7004EB51AFAC86FA2F","CinematicNode_Response_33","Niedzic! Gdzie ta szuja?!","Niedzic! Nerede o serseri?!",""
+"5177D23B4C761CD0235FCCA213F26020","CinematicNode_Response_33","Co, do kurwy...? ","Ne lan…? ",""
+"933D37A140D856C4BAA76F86BA5FB263","CinematicNode_Response_33","Szefie, to znowu Kozacy. ","Patron, yine Kazaklar. ",""
+"8CACDAC14188B23A7FC08D96BD585BB0","CinematicNode_Response_33","Chodź, tchórzu!","Gel ödlek!",""
+"5FFE912A4BF5BE931DEA3C859120D1B9","CinematicNode_Response_33","Wygląda na to, że masz szansę na odkupienie!","Görünüşe göre kefaret şansın var!",""
+"C005137F436B7969E8C40992C305FF78","CinematicNode_Response_33","Pokażmy tym chujom, że z Mojkami się nie zadziera!","Şu piçlere gösterelim ki Mojki'lerle dalaşılmaz!",""
+"104A58D5484B018AA7DFB79798026AFB","CinematicNode_Response_34","Chodzi o pieniędze? Nie mam nic przy sobie, ale możemy się dogadać.","Para meselesi mi? Üzerimde hiçbir şey yok ama anlaşabiliriz.",""
+"D4EFC6BC4A7EEC5C5E685DA21BCB9E79","CinematicNode_Response_34","No niech sczeznę. Słyszeliście go? Sram na twoje pieniądze! ","Vay canına. Duydunuz mu adamı? Paranın üstüne sıçarım! ",""
+"A889F34A4ECBB1BC7B816B97CA569F88","CinematicNode_Response_34","Śmierci mojego tatki pieniędzmi nie odkupisz!","Babamın ölümünü parayla satın alamazsın!",""
+"FA57D5B24556EC903E83F7ACF5B9076B","CinematicNode_Response_35","Pamiętam to trochę inaczej.","Ben biraz farklı hatırlıyorum.",""
+"CE0EE05D4F620677CFB968B68348B104","CinematicNode_Response_35","O, to mnie zaciekawiłeś. Dobrze myślę, że w twojej wersji wydarzeń jesteś niewinny?","Aa, ilgimi çektin. Senin hikayende masum olduğunu mu söylüyorsun?",""
+"FB1C49E248FF896500607EA020DA87C0","CinematicNode_Response_35","Nie, nie jestem. Tak jak i ty nie jesteś. Ale największym winnym jest mój ojciec.","Hayır, değilim. Senin de olmadığın gibi. Ama asıl suçlu babam.",""
+"7E94AEF6440595564CDADABA33E1558E","CinematicNode_Response_35","Jakie to wygodne. Ten już się raczej nie obroni, co?","Ne de kolay. O artık kendini savunamaz değil mi?",""
+"4B1A8B17466BD88980F454B33FF953D3","CinematicNode_Response_35","Nie mam zamiaru cię do niczego przekonywać. Byliśmy głupimi dzieciakami, nie zmienię przeszłości.","Seni hiçbir şeye inandırmaya niyetim yok. Aptal çocuklardık, geçmişi değiştiremem.",""
+"A4BF246E462139A62C2E15B50E00A200","CinematicNode_Response_35","Ta... <i>złe przeczuwając, pamięć wspomnień odepchnąć pragnął...</>","Aynen… <i>kötüyü sezerek, anıların belleğini itmek istiyordu…</>","Abaurycy şiirsel konuşur"
+"D82FC0664E2C09212BC3789539197DBF","CinematicNode_Response_36","Co to ma być? Kim ty jesteś?","Bu da nesi? Sen kimsin?",""
+"AE7E39D94556A092FDFECF8DEFE9C27D","CinematicNode_Response_36","<i>Jestem spadającą gwiazdą, co na chwilę zabłyśnie, nadzieję dając, w przestrachu ludzkość za gardziele trzymając, a potem nagle... niknie.</>","<i>Ben bir kayan yıldızım, bir an için parlayan, umut veren, korkuyla insanlığı gırtlağından tutan, sonra birden… kaybolan.</>",""
+"4AC52A3D46744803C79792A43F2D720C","CinematicNode_Response_36","Czekaj... Abaurycy?!","Dur… Abaurycy?!",""
+"430D20DB4D16BCDB198280984A07D4A6","CinematicNode_Response_36","Ta poezja wpędzi mnie kiedyś do grobu...","Bu şiir bir gün beni mezara sokacak…",""
+"62D0752F405678CB0D6813840B5EE059","CinematicNode_Response_37","A czego się spodziewałeś?","Ne bekliyordun ki?",""
+"83128C1348F4782B1BD934A9FC913F19","CinematicNode_Response_37","Że po latach spędzonych na paryskich salonach wrócisz piękny i wymuskany.","Paris salonlarında geçirdiğin yıllardan sonra güzel ve bakımlı dönmeni.",""
+"4A6EB32A4A2CB834F7A1D18F2B65686E","CinematicNode_Response_37","Skąd wiesz o Paryżu?","Paris'i nereden biliyorsun?",""
+"2031AC27404AFEB86F9651A24668A4E5","CinematicNode_Response_37","Przed Niedzicem nic się nie ukryje, nie?!","Niedzic'in gözünden hiçbir şey kaçmaz değil mi?!",""
+"7C7B1A2644F2C81D21AD5AAD829A3848","CinematicNode_Response_37","Kurwa... Może od razu moją metrykę urodzenia wyrecytuj.","Lan… Hemen doğum belgemi de ezbere oku bari.",""
+"327CA86C42856B31934469B460A57CCE","CinematicNode_Response_37","Abaurycy Niedzic.","Abaurycy Niedzic.",""
+"233F1DEB47B8280868A5FD938AB68127","CinematicNode_Response_38","Kopę lat, Szulski.","Nice seneler sonra, Szulski.",""
+"8103EA4849F55961C46BF998AE2798E4","CinematicNode_Response_39","Jakie ""tym razem""? Kiedy był poprzedni raz?","""Bu sefer"" ne demek? Önceki sefer ne zamandı?",""
+"BC7BD90042F5D794F6338DAFA0D1B448","CinematicNode_Response_39","Wtedy, jak kazałeś mi czekać na pomoc w swoim domku letniskowym, ale zamiast tego przyszły <dl>gliny</>. ","Yazlık evinizde yardım için beklemeni söylediğinde ama onun yerine <dl>polis</> geldi. ","'gliny' = polis argosu; <dl> tag aynen"
+"F55E25264CE09BFE08B044A0E48B6E5E","CinematicNode_Response_39","Potem trafiłem na ulicę, a tatko do więzienia, gdzie umarł. ","Sonra ben sokağa düştüm, babam da hapse, orada öldü. ",""
+"8CCF4FCB47BBBCD8EE5F8A87E4652098","CinematicNode_Response_40","To jakie są twoje?","E seninkiler ne?",""
+"F78373A94B0815105AA7259D7A40AF4C","CinematicNode_Response_40","Ładnie przeprosisz. A ja ocenię, czy jesteś w tym szczery i zobaczę, co dalej.","Güzelce özür dileyeceksin. Ben de samimi olup olmadığına karar verip sonrasına bakacağım.",""
+"B04830FE4A96C971B8E3F2AC919D4483","CinematicNode_Response_40","Niby za co?","Ne için?",""
+"D1766B1142D0E4E4B21B4D90D340B9C8","CinematicNode_Response_40","Za to, że wystawiłeś mnie <dl>gliniarzom</>.","Beni <dl>polislere</> ihbar ettiğin için.",""
+"39A1194F4A78D0135F8869BACEE69FEA","CinematicNode_Response_40","Za to, że umyłeś ręce od tego, co razem odjebaliśmy.","Birlikte yaptığımız boktan işten sıyrılıp ellerini yıkadığın için.",""
+"F368DD9D47F771B096FCEBBAFE603FA4","CinematicNode_Response_40","I może za to, że mój ojciec zgnił za to w więzieniu.","Ve belki de babamın bu yüzden hapishanede çürüdüğü için.",""
+"704754AF49F52F8CFBBD96B33544D47B","CinematicNode_Response_41","Jeśli to coś da, to przepraszam. ","Bir şey ifade edecekse, özür dilerim. ",""
+"AF7BC3814347725932E91A9B56DC5B00","CinematicNode_Response_41","No! Nie można było tak od razu?!","Ha! Baştan öyle deseydin olmaz mıydı?!",""
+"09854135417B1CEB9F5F63879E9AB4D1","CinematicNode_Response_41","Nie jestem jedynym winnym tej sytuacji.Ty też masz swoje na sumieniu. ","Bu durumda tek suçlu ben değilim. Senin de vicdanında bir şeyler var. ",""
+"A34BFF2A47DD304AC94413BA59022ABF","CinematicNode_Response_41","Moje sumienie zostaw ty mnie!","Vicdanımı bana bırak sen!",""
+"8B806D7F4DC54705E5A0C6936ACAD62F","CinematicNode_Response_42","Nie wiem, o czym mówisz. ","Neyden bahsettiğini bilmiyorum. ",""
+"6D4A711848F2C6476F0F52B270A1E1DE","CinematicNode_Response_42","A kurwa, masz tupet... Ojciec tyle lat dupę Stanisława woził, my pół dzieciństwa razem spędziliśmy, ale teraz, gdzie tam, nie wiesz, z kim masz do czynienia... ","Vay be, küstahsın… Babam yıllarca Stanisław'a kulluk etti, biz çocukluğumuzun yarısını birlikte geçirdik, ama şimdi hâlt, kiminle muhatap olduğunu bilmiyormuşsun… ",""
+"E36B119A4E565839EE2960A0109793A3","CinematicNode_Response_42","Chyba nic z tego nie będzie, Wiktor...","Bundan bir şey çıkmayacak sanırım Wiktor…",""
+"B4F62F094E4910654CE3079FDBF4C53C","CinematicNode_Response_43","Co to za chory pomysł z tym porwaniem?","Şu kaçırma fikri de ne hastalık?",""
+"AEC1C18B463331E3E0F1668602841F68","CinematicNode_Response_43","Taki żart. Nieśmieszny?","Bir şakaydı. Komik değil mi?",""
+"7690B4424A2BC1A19A990098F0D51FB9","CinematicNode_Response_43","Nie. ","Değil. ",""
+"D969E0364BC3679B9277E28C933997A5","CinematicNode_Response_44","Zwariowałeś? Uwolnij mnie, to porozmawiamy, jak równy z równym.","Delirdin mi? Beni çöz, eşit eşite konuşalım.",""
+"F9519570450AE0149207EFB3C08C2C67","CinematicNode_Response_44","Nie, Wiktor... tym razem to ja będę górą. ","Hayır Wiktor… bu sefer üstte olan ben olacağım. ",""
+"F2C5B8034C8003F35FEA448FDAA2721B","CinematicNode_Response_45","Nie najlepsze. Słuchaj, rozumiem, że nosisz w sobie jakiś żal o to, co się stało. Ale przeszłości nie zmienię. ","Pek iyi değil. Bak, yaşananlara dair bir pişmanlık taşıdığını anlıyorum. Ama geçmişi değiştiremem. ",""
+"2CEDD1C94C945050511D78B57C966869","CinematicNode_Response_45","No tak... Ale, kurwa! Kazałeś mi czekać na pomoc, zamiast tego przyszły <dl>gliny</>, a wy umyliście ręce i daliście mojemu tatkowi zgnić w więzieniu. ","E evet… Ama lan! Yardım için beklemeni söyledin, onun yerine <dl>polis</> geldi, siz de ellerinizi yıkadınız ve babamın hapishanede çürümesine göz yumdunuz. ",""
+"F0268C8140B1F26A4C5E46AF70975F1C","CinematicNode_Response_45","Przyznaj chociaż, że zachowałeś się jak chuj.","Hiç değilse pislik gibi davrandığını kabul et.",""
+"F08B9319483798652313E5A4CBAFF727","CinematicNode_Response_46","Skończ z tym. Ni to śmieszne, ni straszne.","Bu işe son ver. Ne komik ne korkutucu.",""
+"65564B5142966822CC26B1BBA458CB00","CinematicNode_Response_47","Przyznaję, było to chujowe posunięcie ze strony mojego ojca. ","Kabul ediyorum, babam tarafından adice bir hamleydi. ",""
+"6526C7F946E41C1263DA9A9C83EA4E74","CinematicNode_Response_47","Ojca?! No i patrzcie go, od razu się menda wybiela!","Baba mı?! Hele bak şuna, hemen pislik kendini aklıyor!",""
+"E0C774754CC78E56ABF6B486ED257577","CinematicNode_Response_47","Nazwisko zobowiązuje, co?","Soyad mesuliyet getirir demişler değil mi?",""
+"9C49825F46704832EA26C6A01232A60F","CinematicNode_Response_48","To nie tak. Nie planowałem cię wystawić, poszedłem po pomoc, tylko...","Öyle değil. Seni ele vermeye niyetim yoktu, yardıma gittim sadece…",""
+"16F962BA4999EF2C3ECDFB8E7A360730","CinematicNode_Response_48","Co, we Francji to atramentu nie mają? Czas na tłumaczenie był piętnaście lat temu.","Ne, Fransa'da mürekkep mi yok? Açıklama yapma zamanı on beş yıl önceydi.",""
+"6CC61C184478BD30E8C3F6BD153A1E6E","CinematicNode_Response_48","Niedaleko pada jabłko od jabłoni. Jesteś taki jak twój ojciec. ","Armut dibine düşer. Sen de baban gibisin. ","'Niedaleko pada jabłko...' = armut dibine düşer"
+"4862B10F4FCE2C26E7569189228DFD1F","CinematicNode_Response_49","Zasrani Szulscy! Zawsze patrzą z góry! ","Hödük Szulski'ler! Hep tepeden bakar! ",""
+"EF3BF83444BFE8E806534795D9C46C8A","CinematicNode_Response_49","To przez ciebie tatko skończył, jak skończył. To przez ciebie trafiłem na ulicę!","Babamın böyle bitmesi senin yüzünden. Sokağa düşmem senin yüzünden!",""
+"EB613AB242A2843413BFF482997017FD","CinematicNode_Response_50","Abaurycy...","Abaurycy…",""
+"67B8AF5046FC1389509AAAA953C84E9E","CinematicNode_Response_51","Jakie to uczucie, gdy to ode mnie zależy twoje życie?","Hayatın benim elimdeyken nasıl hissediyorsun?",""
+"168C325F4D0EB841A1C0BAA3929BC979","CinematicNode_Response_52","Nie byłoby tematu, gdybyś nie podwędził wtedy tatusiowi <dl>gnata</>...","O zaman babacığının <dl>silahını</> aşırmasaydın, ortada mesele olmayacaktı…",""
+"25E191B5448F15628F0EFFB796306395","CinematicNode_Response_52","Siedzi to we mnie, Wiktor, że razem pociągnęliśmy za spust, razem!","İçimde duruyor Wiktor, tetiği birlikte çektik, birlikte!",""
+"392240624F3DBA8DE71A44BBAEC50ECF","CinematicNode_Response_53","Kurwa, no przecież razem pociagnęliśmy za spust! Nie byłoby tematu, gdybyś tatusiowi pistoletu nie podwędził.","Lan birlikte çektik tetiği! Babacığının tabancasını aşırmasaydın ortada mesele olmazdı.",""
+"6F71516345264AD8BF500183369794CF","CinematicNode_Response_53","Więc jak to jest, że to ja z moim tatkiem za to bekliśmy, co?!","E nasıl oluyor da bunun bedelini ben ve babam ödedik?!",""
+"2D1F855E4C71B8592E09719B044626B6","CinematicNode_Response_54","Tak, noszę to samo nazwisko i też jestem thaumaturgiem. Ale na tym podobieństwa się kończą.","Evet, aynı soyadı taşıyorum ve ben de tılsımkârım. Ama benzerlikler orada bitiyor.",""
+"8E7FB0C549B07C12783FD2A0F73822A0","CinematicNode_Response_54","Myślę, że nawet ty nie gardziłeś nim tak, jak ja, jego własny syn. ","Bence sen bile ondan benim, kendi oğlu olan kadar nefret etmemişsindir.",""
+"B6BABECD4304EB44145868AB0B6611FE","CinematicNode_Response_54","No nie wiem, nie wiem. Teraz po latach to może jest inaczej, ale kiedyś...","Bilmem ki, bilmem. Yıllar geçtikten sonra belki farklıdır, ama eskiden…",""
+"9F698D244055FFA5C9C45997D939FD23","CinematicNode_Response_55","Do mojego ojca karma wróciła. Zapłacił paskudną śmiercią za to, jakim był człowiekiem. Pewnie słyszałeś.","Babama karma geri döndü. Nasıl bir adam olduğu için iğrenç bir ölümle ödedi. Duymuşsundur.",""
+"F977AC6A422B82B5E810B996AB7F844C","CinematicNode_Response_55","No nie powiem, dawno nic mnie tak nie ucieszyło, jak wiadomość o tym, że Szulski skończył jako breja na chodniku. ","Şöyle söyleyeyim, Szulski'nin kaldırımda lapa halinde bittiği haberi kadar beni sevindiren bir şey çok uzun zamandır olmamıştı. ",""
+"7B8991304A12999EB4516783B81ECE09","CinematicNode_Response_55","Niby złego licho nie bierze, ale dla twojego starego zrobiło wyjątek! ","Derler ki kötü adamı şeytan almaz, ama senin ihtiyar için istisna yapmış! ",""
+"BED5AB55472C850A58D3FBB023FC8108","CinematicNode_Response_55","Wraz z jego śmiercią zostawmy przeszłość za sobą. ","Onun ölümüyle birlikte geçmişi geride bırakalım. ",""
+"6EA7E65C4C53FB8BDE63F597BAF091E8","CinematicNode_Response_56","Niech mnie! Dla mnie się tak odwaliłeś?","Vay be! Benim için mi bu kadar güzel giyindin?",""
+"F6830714456D456F65F6CDA1662DB24B","CinematicNode_Response_57","Nie najlepiej wyglądasz, paniczyku.","Pek iyi görünmüyorsun, küçük beycik.",""
+"BA85B5AC4A57216AD0B9AB8778BB5AEA","CinematicNode_Response_57","Nie tego się spodziewałem.","Bunu beklemiyordum.",""

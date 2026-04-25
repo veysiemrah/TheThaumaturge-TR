@@ -1,72 +1,72 @@
-Hash,NodeName,PL,TR,Notes
-3883B21E4FDF3AB0EA4831B030C682BF,CinematicNode_Choice_4,"Do rzeczy. Dowiedz się, o co chodzi.",Sadede gel. Meselenin ne olduğunu öğren.,
-76B6478C4223F1C397B86DBF8DF281E6,CinematicNode_Choice_4,"Przyznaj, że nie znasz zasad tej gry.",Bu oyunun kurallarını bilmediğini kabul et.,
-BD6F0C9D487CD86CE72DA8A97BA0D47C,CinematicNode_Choice_4,"Zauważ, że jej ojciec nie lubi thaumaturgów.",Babasının tılsımkârlardan hoşlanmadığını belirt.,
-FFAED7844723402BB43B6A909A40697D,CinematicNode_Choice_5,Podziel się sekretem Iriny.,Irina'nın sırrını paylaş.,
-9E5DCCB14DEAAD831658CABFC31E91CE,CinematicNode_Choice_5,Zdradź sekret Maksyma.,Maksym'ın sırrını açıkla.,
-673C66494EB3632D884B96AB53795457,CinematicNode_Choice_5,Opowiedz o sekrecie Siergieja.,Siergiej'in sırrından bahset.,
-5AAF30E04BB417685EA94F8B8579B922,CinematicNode_Choice_5,Oddaj Zosi jej wachlarz.,Zosia'ya yelpazesini geri ver.,
-8E45FA9D459DD7C6A7311286C2953030,CinematicNode_Choice_5,"Powiedz, że wciąż szukasz.",Hâlâ aradığını söyle.,
-74D37C2D470A230F5B9E5AB0ED5FB78B,CinematicNode_Choice_6,"Powiedz, że twoje serce jest już zajęte.",Kalbinin dolu olduğunu söyle.,
-E2632B3540E1E55EA6918189D08F689E,CinematicNode_Choice_6,Wykręć się od odpowiedzi.,Cevaptan kaçamak yap.,
-525F2FA94E6D9E51069EBCB80EA6CA00,CinematicNode_Choice_7,"Powiedz, że przyjmujesz wyzwanie.",Meydan okumayı kabul ettiğini söyle.,
-461E0A52413E413E49EC9DA9DD67C359,CinematicNode_Choice_7,"Zauważ, że to oszustwo.",Bunun hile olduğunu belirt.,
-0140C79E481D50B890831B8BBC50DCE4,CinematicNode_Response_29,I jak moje moce miałyby się panience przysłużyć?,Peki güçlerim küçük hanıma nasıl fayda sağlayabilir?,
-C9AAB7B84CD836D1F207288ECE2F987D,CinematicNode_Response_29,"Otóż, zamiast prawdy, przypadło mi wyzwanie.","Şöyle ki, gerçek yerine meydan okuma düştü bana.",
-6681106A424CF94047359C9542B2AB72,CinematicNode_Response_30,"Panienki ojciec nie byłby zachwycony, że jego córka bawi się z thaumaturgiem.",Küçük hanımın babası kızının bir tılsımkârla eğlenmesinden hoşlanmazdı.,
-A698E41D4269E59C6194ADAF92633261,CinematicNode_Response_30,Może właśnie o to mi chodzi?,Belki de demek istediğim tam budur?,
-AF6866404C2E9150D0000F80CCD91EF4,CinematicNode_Response_30,Żeby nie spełniać ciągle jego życzeń?,Sürekli onun isteklerini yerine getirmemek için?,
-C93928E147A9E1BCD498B687B4A4FEA1,CinematicNode_Response_31,"Panie Wiktorze, mogę panu zająć chwilę?","Pan Wiktor, bir dakikanızı alabilir miyim?",
-29C86D33416F40BD44A05D8DB5F55EEC,CinematicNode_Response_32,Czym mogę służyć?,Nasıl yardımcı olabilirim?,
-6C17021E4FD83F9E7461F08952A3FDED,CinematicNode_Response_32,Czy nie zachwyciłby mnie pan swoimi mocami?,Beni güçlerinizle büyülemez misiniz?,
-0EB318704DC494282BCD2CB8DA8F300B,CinematicNode_Response_33,"Pan jest thaumaturgiem, prawda?","Siz bir tılsımkârsınız, değil mi?",
-5C0032B34392AC235984859D5D67FFDB,CinematicNode_Response_33,Zgadza się. Nazywam się Wiktor Szulski.,Doğru. Adım Wiktor Szulski.,
-9CDB57094E7B9E0901E8CBBE80661313,CinematicNode_Response_33,Zofia Georgijewna Skałon.,Zofia Georgijewna Skałon.,
-0D2754EF4B5F82C75F0573BBEE4728F3,CinematicNode_Response_34,Najpierw poproszę panienkę o przybliżenie mi zasad tej gry.,Önce küçük hanımdan bu oyunun kurallarını anlatmasını rica edeyim.,
-9B7C7DFB45464D927313D08883A2EB0B,CinematicNode_Response_34,"Oczywiście, jestem niemądra. Przecież dawno pana tu nie było.",Elbette akılsızlık ettim. Çünkü uzun zamandır burada değildiniz.,
-8266CBA4458096E17D3C9BB5C9ADB4BE,CinematicNode_Response_34,"Kto nie sprosta, odpada z gry i tym samym przegrywa.",Yapamayan oyundan düşer ve böylece kaybeder.,
-5DB5238745B428A8CFF250ABF3621368,CinematicNode_Response_34,A ja nie lubię przegrywać.,Ben de kaybetmeyi sevmem.,
-FE7B936D45AC7E99818D05AD1F6A4182,CinematicNode_Response_35,"Panienka Irina chciałaby bliżej poznać Maksyma, ale wciąż się waha.","Küçük hanım Irina Maksym'ı daha yakından tanımak istiyor, ama hâlâ tereddüt ediyor.",
-BC518D32433FA39D3B2615BEFD5E4C20,CinematicNode_Response_35,"Coś takiego, nie zwierzała mi się. Taka to przyjaciółka.","Vay vay, bana açılmamıştı. Ne dost ama.",
-1A416D404981FCADEBFF2F86E9C625DF,CinematicNode_Response_36,Maksym ma tylko jedno w głowie. Panienkę Irinę.,Maksym'ın aklında tek bir şey var. Küçük hanım Irina.,
-FAB55336451B87E3385E9D8E576DBCE6,CinematicNode_Response_36,"Ach, wiedziałam!","Ah, biliyordum!",
-CEBB9A9C41721157903D498B085E78FC,CinematicNode_Response_37,Razem z panem Wiktorem sprostaliśmy mojemu arcytrudnemu wyzwaniu.,Pan Wiktor ile birlikte son derece zor olan meydan okumamın üstesinden geldik.,
-5DBA5AF844E46E861A5CB48B8874E939,CinematicNode_Response_37,Polecam się.,Emrinizdeyim.,
-80F6024B436D1E00541B0D86EE1F56A9,CinematicNode_Response_37, Teraz kolej na prawdę. Czy pan się z kimś widuje?, Şimdi sıra gerçekte. Biriyle görüşüyor musunuz?,
-119B460949498A9A3312D9BDA15DBB4D,CinematicNode_Response_38,Moje serce jest już zajęte.,Kalbim çoktan dolu.,
-E5B7B26D4CCB3E099DA9EDBA7E181F04,CinematicNode_Response_38,Liczyłam na inną odpowiedź.,Farklı bir cevap umuyordum.,
-ACFD3C404B1E713CA567A6A17664020A,CinematicNode_Response_39,Może nie odkrywajmy od razu wszystkich swoich tajemnic?,Tüm sırlarımızı hemen açmayalım belki?,
-2654B35F426D0A34D7BEA099AE2537B4,CinematicNode_Response_40,Jeszcze inwestyguję problem.,Hâlâ meseleyi araştırıyorum.,
-3825A72B4448CA1DB2153BBB5995B7B4,CinematicNode_Response_41,"Och, nie pamiętałam właśnie, gdzie mógł się podziać...","Ah, tam da nerede kalmış olabileceğini hatırlamıyordum...",
-8BC5F8684F9179F522DD5CBCADAF5259,CinematicNode_Response_41,"Bardzo ciekawe. Wachlarz zdradził mi, że upuściła go panienka celowo.",Çok ilginç. Yelpaze bana küçük hanımın onu bilerek düşürdüğünü söyledi.,
-D642270E47AB7C4A48209BA1F63BE550,CinematicNode_Response_41,"Przyłapał mnie pan. Liczyłam, że ktoś <i>odpowiedni</> go znajdzie.","Yakalandım. <i>Uygun</> birinin bulmasını umuyordum.",
-D26A1D4F465392CDF670D385B98C3190,CinematicNode_Response_41,"I proszę, udało się.","Ve bakın, başardık.",
-7C09AEE4497B7CF692D431B4BFCBEDB2,CinematicNode_Response_42,Niecierpliwią się. Czego się pan dowiedział?,Sabırsızlanıyorlar. Ne öğrendiniz?,
-B0654EEE40D18BE5EDAB7585A325C952,CinematicNode_Response_43,"Jak się domyślam, u panienki, z dwojga złego, padło na <i>wyzwanie</>...","Tahmin ettiğim kadarıyla, küçük hanımın iki kötüden biri olarak payına <i>meydan okuma</> düştü...",
-CAB68AF646DC4062E2FE0884316114D0,CinematicNode_Response_43,Pan jest szalenie zmyślny.,Olağanüstü zekilisiniz.,
-5C08522142B742130AEFE48F4388CFC4,CinematicNode_Response_44,"Polega ono na odkryciu sekretów moich towarzyszy. Iriny, Maksyma bądź Siergieja.","Arkadaşlarımın sırlarını açığa çıkarmamdan ibaret. Irina, Maksym ya da Siergiej.",
-6F3147C24D359DB38641B7B706A5B095,CinematicNode_Response_44,"Sęk w tym, że pan jest w tym bieglejszy niż ja.",İş şu ki bu konuda siz benden daha ustasınız.,
-F87C645745FF47BAD4A7FD97C696B420,CinematicNode_Response_45,Przyjmuję.,Kabul ediyorum.,
-51AABC164EF5EC2FB7CB9594030F9F9F,CinematicNode_Response_45,"Wiedziałam, że mnie pan nie zawiedzie.",Beni hayal kırıklığına uğratmayacağınızı biliyordum.,
-7F10655744156798E9573F832C8A135D,CinematicNode_Response_46,Panienki towarzysze nie mają nic przeciwko takiemu małemu fortelowi?,Küçük hanımın arkadaşlarının bu küçük hileye itirazı yok mu?,
-44825C564AC1AC45747323B9616B7BC8,CinematicNode_Response_46,"To nie oszustwo, tylko zaradność. W zasadach nie stoi nic o zakazie proszenia o pomoc.","Bu hile değil, beceriklilik. Kurallarda yardım istemenin yasaklandığı yazmıyor.",
-FABB2BBB420380AACA16948620B331F7,CinematicNode_Response_46,"Niech się pan nie da prosić, panie Wiktorze.","Nazlanmayın, Pan Wiktor.",
-F5BD788449050BD6FD4B209308E78FE4,CinematicNode_Response_47,"Zobaczę, co uda mi się znaleźć. Wystarczy jakikolwiek sekret?",Ne bulabileceğime bakayım. Herhangi bir sır yeter mi?,
-5E21339B4E097D2203CE99B6B3BCA34A,CinematicNode_Response_47,Jakikolwiek. Będę niecierpliwie czekała pańskiego powrotu.,Herhangi biri. Dönüşünüzü sabırsızlıkla bekleyeceğim.,
-1F10C33E44E71BCEA7C36D867A45A5B1,CinematicNode_Response_48,Tego jeszcze nie udało mi się ustalić.,Bunu henüz tespit edemedim.,
-D5F91320467F36CEA69C13991BD8F9C7,CinematicNode_Response_49,Czy Irina może odwzajemnia zainteresowanie?,Irina bu ilgiyi karşılıyor olabilir mi?,
-BCB2522F44C332D289ED80A95B34AA08,CinematicNode_Response_50,A co na to drogi Maksym?,Sevgili Maksym'ın buna ne diyeceği var?,
-BF01D801454CB7FD66B228BEB0E551AD,CinematicNode_Response_51,Co do Siergieja...,Siergiej'e gelince...,
-B48086244F3722AF9F25759E992C2AE3,CinematicNode_Response_51,Tak?,Evet?,
-48037D684C5AF4A964EE9AA11BCCA7F9,CinematicNode_Response_51,Będę szczery. Zrobiłby dla panienki wszystko.,Dürüst olayım. Küçük hanım için her şeyi yapardı.,
-0B0C9E494B224DD102759BBC5349A5C8,CinematicNode_Response_52,O wilku mowa.,İti an taşı hazırla.,
-381331844C66FE901733959B71E7186D,CinematicNode_Response_53,"Wszystko, mówi pan?","Her şeyi mi, diyorsunuz?",
-F2C77B2F4E9D45752253CBB667CC6FB5,CinematicNode_Response_54,"Zastanawiałem się, gdzie znikłaś.",Nereye kaybolduğunu merak ediyordum.,
-0937C79A41DB7B6EFF9452806E22D991,CinematicNode_Response_55,"Siergieja pan zna, prawda?","Siergiej'i tanıyorsunuz, değil mi?",
-A29196134CE9D72619C38EB66E8BADEF,CinematicNode_Response_55,Mieliśmy przyjemność.,Tanışma zevkine erdik.,
-D0B44268488D8383EEABD791A857680B,CinematicNode_Response_56,"Siergiej, to jest pan Wiktor Szulski. Thaumaturg.","Siergiej, bu Pan Wiktor Szulski. Tılsımkâr.",
-AB7266DE4C29A10A94CF05B895A6DC6C,CinematicNode_Response_56,Miło mi.,Memnun oldum.,
-DE9D31D8496D06FA0D64CF9850D5BA48,CinematicNode_Response_56,Panie Szulski.,Pan Szulski.,
-5E23431F44D982AEBAA34FA4B6A97B99,CinematicNode_Response_57,"Panie Szulski, na nas już czas. Zofia i ja musimy udać się na seans. Madame czeka.","Pan Szulski, bizim gitme vaktimiz geldi. Zofia ve ben seansa gitmeliyiz. Madame bekliyor.",
-2A76D535437AC860EB4576A7720943F0,CinematicNode_Response_57,Jeszcze raz dziękuję.,Bir kez daha teşekkür ederim.,
-DE4D915244AED86602BE5186618C697E,CinematicNode_Response_57,Do zobaczenia.,Görüşürüz.,
+"Hash","NodeName","PL","TR","Notes"
+"3883B21E4FDF3AB0EA4831B030C682BF","CinematicNode_Choice_4","Do rzeczy. Dowiedz się, o co chodzi.","Sadede gel. Meselenin ne olduğunu öğren.",""
+"76B6478C4223F1C397B86DBF8DF281E6","CinematicNode_Choice_4","Przyznaj, że nie znasz zasad tej gry.","Bu oyunun kurallarını bilmediğini kabul et.",""
+"BD6F0C9D487CD86CE72DA8A97BA0D47C","CinematicNode_Choice_4","Zauważ, że jej ojciec nie lubi thaumaturgów.","Babasının tılsımkârlardan hoşlanmadığını belirt.",""
+"FFAED7844723402BB43B6A909A40697D","CinematicNode_Choice_5","Podziel się sekretem Iriny.","Irina'nın sırrını paylaş.",""
+"9E5DCCB14DEAAD831658CABFC31E91CE","CinematicNode_Choice_5","Zdradź sekret Maksyma.","Maksym'ın sırrını açıkla.",""
+"673C66494EB3632D884B96AB53795457","CinematicNode_Choice_5","Opowiedz o sekrecie Siergieja.","Siergiej'in sırrından bahset.",""
+"5AAF30E04BB417685EA94F8B8579B922","CinematicNode_Choice_5","Oddaj Zosi jej wachlarz.","Zosia'ya yelpazesini geri ver.",""
+"8E45FA9D459DD7C6A7311286C2953030","CinematicNode_Choice_5","Powiedz, że wciąż szukasz.","Hâlâ aradığını söyle.",""
+"74D37C2D470A230F5B9E5AB0ED5FB78B","CinematicNode_Choice_6","Powiedz, że twoje serce jest już zajęte.","Kalbinin dolu olduğunu söyle.",""
+"E2632B3540E1E55EA6918189D08F689E","CinematicNode_Choice_6","Wykręć się od odpowiedzi.","Cevaptan kaçamak yap.",""
+"525F2FA94E6D9E51069EBCB80EA6CA00","CinematicNode_Choice_7","Powiedz, że przyjmujesz wyzwanie.","Meydan okumayı kabul ettiğini söyle.",""
+"461E0A52413E413E49EC9DA9DD67C359","CinematicNode_Choice_7","Zauważ, że to oszustwo.","Bunun hile olduğunu belirt.",""
+"0140C79E481D50B890831B8BBC50DCE4","CinematicNode_Response_29","I jak moje moce miałyby się panience przysłużyć?","Peki güçlerim küçük hanıma nasıl fayda sağlayabilir?",""
+"C9AAB7B84CD836D1F207288ECE2F987D","CinematicNode_Response_29","Otóż, zamiast prawdy, przypadło mi wyzwanie.","Şöyle ki, gerçek yerine meydan okuma düştü bana.",""
+"6681106A424CF94047359C9542B2AB72","CinematicNode_Response_30","Panienki ojciec nie byłby zachwycony, że jego córka bawi się z thaumaturgiem.","Küçük hanımın babası kızının bir tılsımkârla eğlenmesinden hoşlanmazdı.",""
+"A698E41D4269E59C6194ADAF92633261","CinematicNode_Response_30","Może właśnie o to mi chodzi?","Belki de demek istediğim tam budur?",""
+"AF6866404C2E9150D0000F80CCD91EF4","CinematicNode_Response_30","Żeby nie spełniać ciągle jego życzeń?","Sürekli onun isteklerini yerine getirmemek için?",""
+"C93928E147A9E1BCD498B687B4A4FEA1","CinematicNode_Response_31","Panie Wiktorze, mogę panu zająć chwilę?","Pan Wiktor, bir dakikanızı alabilir miyim?",""
+"29C86D33416F40BD44A05D8DB5F55EEC","CinematicNode_Response_32","Czym mogę służyć?","Nasıl yardımcı olabilirim?",""
+"6C17021E4FD83F9E7461F08952A3FDED","CinematicNode_Response_32","Czy nie zachwyciłby mnie pan swoimi mocami?","Beni güçlerinizle büyülemez misiniz?",""
+"0EB318704DC494282BCD2CB8DA8F300B","CinematicNode_Response_33","Pan jest thaumaturgiem, prawda?","Siz bir tılsımkârsınız, değil mi?",""
+"5C0032B34392AC235984859D5D67FFDB","CinematicNode_Response_33","Zgadza się. Nazywam się Wiktor Szulski.","Doğru. Adım Wiktor Szulski.",""
+"9CDB57094E7B9E0901E8CBBE80661313","CinematicNode_Response_33","Zofia Georgijewna Skałon.","Zofia Georgijewna Skałon.",""
+"0D2754EF4B5F82C75F0573BBEE4728F3","CinematicNode_Response_34","Najpierw poproszę panienkę o przybliżenie mi zasad tej gry.","Önce küçük hanımdan bu oyunun kurallarını anlatmasını rica edeyim.",""
+"9B7C7DFB45464D927313D08883A2EB0B","CinematicNode_Response_34","Oczywiście, jestem niemądra. Przecież dawno pana tu nie było.","Elbette akılsızlık ettim. Çünkü uzun zamandır burada değildiniz.",""
+"8266CBA4458096E17D3C9BB5C9ADB4BE","CinematicNode_Response_34","Kto nie sprosta, odpada z gry i tym samym przegrywa.","Yapamayan oyundan düşer ve böylece kaybeder.",""
+"5DB5238745B428A8CFF250ABF3621368","CinematicNode_Response_34","A ja nie lubię przegrywać.","Ben de kaybetmeyi sevmem.",""
+"FE7B936D45AC7E99818D05AD1F6A4182","CinematicNode_Response_35","Panienka Irina chciałaby bliżej poznać Maksyma, ale wciąż się waha.","Küçük hanım Irina Maksym'ı daha yakından tanımak istiyor, ama hâlâ tereddüt ediyor.",""
+"BC518D32433FA39D3B2615BEFD5E4C20","CinematicNode_Response_35","Coś takiego, nie zwierzała mi się. Taka to przyjaciółka.","Vay vay, bana açılmamıştı. Ne dost ama.",""
+"1A416D404981FCADEBFF2F86E9C625DF","CinematicNode_Response_36","Maksym ma tylko jedno w głowie. Panienkę Irinę.","Maksym'ın aklında tek bir şey var. Küçük hanım Irina.",""
+"FAB55336451B87E3385E9D8E576DBCE6","CinematicNode_Response_36","Ach, wiedziałam!","Ah, biliyordum!",""
+"CEBB9A9C41721157903D498B085E78FC","CinematicNode_Response_37","Razem z panem Wiktorem sprostaliśmy mojemu arcytrudnemu wyzwaniu.","Pan Wiktor ile birlikte son derece zor olan meydan okumamın üstesinden geldik.",""
+"5DBA5AF844E46E861A5CB48B8874E939","CinematicNode_Response_37","Polecam się.","Emrinizdeyim.",""
+"80F6024B436D1E00541B0D86EE1F56A9","CinematicNode_Response_37","Teraz kolej na prawdę. Czy pan się z kimś widuje?","Şimdi sıra gerçekte. Biriyle görüşüyor musunuz?",""
+"119B460949498A9A3312D9BDA15DBB4D","CinematicNode_Response_38","Moje serce jest już zajęte.","Kalbim çoktan dolu.",""
+"E5B7B26D4CCB3E099DA9EDBA7E181F04","CinematicNode_Response_38","Liczyłam na inną odpowiedź.","Farklı bir cevap umuyordum.",""
+"ACFD3C404B1E713CA567A6A17664020A","CinematicNode_Response_39","Może nie odkrywajmy od razu wszystkich swoich tajemnic?","Tüm sırlarımızı hemen açmayalım belki?",""
+"2654B35F426D0A34D7BEA099AE2537B4","CinematicNode_Response_40","Jeszcze inwestyguję problem.","Hâlâ meseleyi araştırıyorum.",""
+"3825A72B4448CA1DB2153BBB5995B7B4","CinematicNode_Response_41","Och, nie pamiętałam właśnie, gdzie mógł się podziać...","Ah, tam da nerede kalmış olabileceğini hatırlamıyordum…",""
+"8BC5F8684F9179F522DD5CBCADAF5259","CinematicNode_Response_41","Bardzo ciekawe. Wachlarz zdradził mi, że upuściła go panienka celowo.","Çok ilginç. Yelpaze bana küçük hanımın onu bilerek düşürdüğünü söyledi.",""
+"D642270E47AB7C4A48209BA1F63BE550","CinematicNode_Response_41","Przyłapał mnie pan. Liczyłam, że ktoś <i>odpowiedni</> go znajdzie.","Yakalandım. <i>Uygun</> birinin bulmasını umuyordum.",""
+"D26A1D4F465392CDF670D385B98C3190","CinematicNode_Response_41","I proszę, udało się.","Ve bakın, başardık.",""
+"7C09AEE4497B7CF692D431B4BFCBEDB2","CinematicNode_Response_42","Niecierpliwią się. Czego się pan dowiedział?","Sabırsızlanıyorlar. Ne öğrendiniz?",""
+"B0654EEE40D18BE5EDAB7585A325C952","CinematicNode_Response_43","Jak się domyślam, u panienki, z dwojga złego, padło na <i>wyzwanie</>...","Tahmin ettiğim kadarıyla, küçük hanımın iki kötüden biri olarak payına <i>meydan okuma</> düştü…",""
+"CAB68AF646DC4062E2FE0884316114D0","CinematicNode_Response_43","Pan jest szalenie zmyślny.","Olağanüstü zekilisiniz.",""
+"5C08522142B742130AEFE48F4388CFC4","CinematicNode_Response_44","Polega ono na odkryciu sekretów moich towarzyszy. Iriny, Maksyma bądź Siergieja.","Arkadaşlarımın sırlarını açığa çıkarmamdan ibaret. Irina, Maksym ya da Siergiej.",""
+"6F3147C24D359DB38641B7B706A5B095","CinematicNode_Response_44","Sęk w tym, że pan jest w tym bieglejszy niż ja.","İş şu ki bu konuda siz benden daha ustasınız.",""
+"F87C645745FF47BAD4A7FD97C696B420","CinematicNode_Response_45","Przyjmuję.","Kabul ediyorum.",""
+"51AABC164EF5EC2FB7CB9594030F9F9F","CinematicNode_Response_45","Wiedziałam, że mnie pan nie zawiedzie.","Beni hayal kırıklığına uğratmayacağınızı biliyordum.",""
+"7F10655744156798E9573F832C8A135D","CinematicNode_Response_46","Panienki towarzysze nie mają nic przeciwko takiemu małemu fortelowi?","Küçük hanımın arkadaşlarının bu küçük hileye itirazı yok mu?",""
+"44825C564AC1AC45747323B9616B7BC8","CinematicNode_Response_46","To nie oszustwo, tylko zaradność. W zasadach nie stoi nic o zakazie proszenia o pomoc.","Bu hile değil, beceriklilik. Kurallarda yardım istemenin yasaklandığı yazmıyor.",""
+"FABB2BBB420380AACA16948620B331F7","CinematicNode_Response_46","Niech się pan nie da prosić, panie Wiktorze.","Nazlanmayın, Pan Wiktor.",""
+"F5BD788449050BD6FD4B209308E78FE4","CinematicNode_Response_47","Zobaczę, co uda mi się znaleźć. Wystarczy jakikolwiek sekret?","Ne bulabileceğime bakayım. Herhangi bir sır yeter mi?",""
+"5E21339B4E097D2203CE99B6B3BCA34A","CinematicNode_Response_47","Jakikolwiek. Będę niecierpliwie czekała pańskiego powrotu.","Herhangi biri. Dönüşünüzü sabırsızlıkla bekleyeceğim.",""
+"1F10C33E44E71BCEA7C36D867A45A5B1","CinematicNode_Response_48","Tego jeszcze nie udało mi się ustalić.","Bunu henüz tespit edemedim.",""
+"D5F91320467F36CEA69C13991BD8F9C7","CinematicNode_Response_49","Czy Irina może odwzajemnia zainteresowanie?","Irina bu ilgiyi karşılıyor olabilir mi?",""
+"BCB2522F44C332D289ED80A95B34AA08","CinematicNode_Response_50","A co na to drogi Maksym?","Sevgili Maksym'ın buna ne diyeceği var?",""
+"BF01D801454CB7FD66B228BEB0E551AD","CinematicNode_Response_51","Co do Siergieja...","Siergiej'e gelince…",""
+"B48086244F3722AF9F25759E992C2AE3","CinematicNode_Response_51","Tak?","Evet?",""
+"48037D684C5AF4A964EE9AA11BCCA7F9","CinematicNode_Response_51","Będę szczery. Zrobiłby dla panienki wszystko.","Dürüst olayım. Küçük hanım için her şeyi yapardı.",""
+"0B0C9E494B224DD102759BBC5349A5C8","CinematicNode_Response_52","O wilku mowa.","İti an taşı hazırla.",""
+"381331844C66FE901733959B71E7186D","CinematicNode_Response_53","Wszystko, mówi pan?","Her şeyi mi, diyorsunuz?",""
+"F2C77B2F4E9D45752253CBB667CC6FB5","CinematicNode_Response_54","Zastanawiałem się, gdzie znikłaś.","Nereye kaybolduğunu merak ediyordum.",""
+"0937C79A41DB7B6EFF9452806E22D991","CinematicNode_Response_55","Siergieja pan zna, prawda?","Siergiej'i tanıyorsunuz, değil mi?",""
+"A29196134CE9D72619C38EB66E8BADEF","CinematicNode_Response_55","Mieliśmy przyjemność.","Tanışma zevkine erdik.",""
+"D0B44268488D8383EEABD791A857680B","CinematicNode_Response_56","Siergiej, to jest pan Wiktor Szulski. Thaumaturg.","Siergiej, bu Pan Wiktor Szulski. Tılsımkâr.",""
+"AB7266DE4C29A10A94CF05B895A6DC6C","CinematicNode_Response_56","Miło mi.","Memnun oldum.",""
+"DE9D31D8496D06FA0D64CF9850D5BA48","CinematicNode_Response_56","Panie Szulski.","Pan Szulski.",""
+"5E23431F44D982AEBAA34FA4B6A97B99","CinematicNode_Response_57","Panie Szulski, na nas już czas. Zofia i ja musimy udać się na seans. Madame czeka.","Pan Szulski, bizim gitme vaktimiz geldi. Zofia ve ben seansa gitmeliyiz. Madame bekliyor.",""
+"2A76D535437AC860EB4576A7720943F0","CinematicNode_Response_57","Jeszcze raz dziękuję.","Bir kez daha teşekkür ederim.",""
+"DE4D915244AED86602BE5186618C697E","CinematicNode_Response_57","Do zobaczenia.","Görüşürüz.",""

@@ -1,35 +1,35 @@
-Hash,NodeName,PL,TR,Notes
-A85C90C64F38FDEB7F41CFA5E23262E4,CinematicNode_Choice_1,Przyznaj im rację. ,Onlara hak ver. ,
-8C7327AC4C54F8E1C660CD849BF4E2FD,CinematicNode_Choice_1,Stań po stronie latarni.,Sokak lambasının tarafını tut.,"'Latarnia' sokak lambası — sarhoş kazaklar lambaya saldırır"
-5F7113504191546F2C69C0916434AAED,CinematicNode_Response_11,"Co, poddajesz się, śmieciu?!",Ne oldu pis herif teslim mi oluyorsun?!,
-D41430BD429FFB17BDF69A9B3F7C3F08,CinematicNode_Response_11,"Ty widzisz to, co ja?",Sen de benim gördüğümü görüyor musun?,
-52A275EB41CE099B24348C9CA377AEC4,CinematicNode_Response_11,"Widzę dwóch debili, siłujących się z latarnią.",Bir sokak lambasıyla güreşen iki gerzek görüyorum.,
-187907EA40DAAC0344AFB79921820242,CinematicNode_Response_11,Jak wam idzie? Kto wygrywa?,Nasıl gidiyor? Kim kazanıyor?,
-0FB6D479492E4A2ECC2DBF924364278A,CinematicNode_Response_11,"To kolos! Patrzy z góry, ma się za lepszego... Przysięgam, że od psich synów nas wyzwał! ","Devin teki bu! Yukarıdan bakıyor, kendini üstün sayıyor... Yemin ederim bize 'köpek evladı' dedi! ",
-7DDF8E3A4B03C7B49C52B694C01D573A,CinematicNode_Response_11,No i jak tu się nie wkurwić?,E böyle durumda insan nasıl sinirlenmez?,
-48A33B6A45A51F61412172B9AD1F8029,CinematicNode_Response_12,"W sumie... Spójrz pod tym kątem, Abaurycy. Trochę taka pyszałkowata.","Aslında... şu açıdan bak Abaurycy. Biraz kasıntı duruyor.",Wiktor lambaya 'o' diyerek
-F64E3D5D46A4198EE95C739B6E48D5E2,CinematicNode_Response_12,"No faktycznie. Jak się przypatrzeć, to... to może wkurwić.","Vallahi evet. Dikkatli bakınca... insanı sinir edebilir.",
-38FE34B344F86166CF36D7B778926FDC,CinematicNode_Response_12,To powiedziałem!,Ben de diyordum!,
-05F3BEAC40419E61284167BFBE0644BA,CinematicNode_Response_12,"Dobrze jej pokazaliście, dzielne z was <dl>sołdaty</>! Prosto już nie stoi, więc ma nauczkę!","İyi gösterdiniz ona, yiğit <dl>sołdaty</>'siniz! Artık dimdik duramaz, dersini aldı!","'sołdaty' = asker (Rusça/argo); <dl> tag aynen"
-C931505349044DA9479B3C95D2C3579C,CinematicNode_Response_12,"Czy ja dobrze widzę, że własność miasta dewastujecie? Dokumenty!","Doğru mu görüyorum, şehir mülkünü tahrip mi ediyorsunuz? Kimlikler!",
-5E2823E54D8DFE7ED162A0B75960748E,CinematicNode_Response_12,"Coś wam chyba w głowie jebło, panowie. Na dzielnicy barowej inne panują zasady.","Beyinleriniz sallanmış galiba beyler. Bar mahallesinde farklı kurallar geçerlidir.",
-8EAFFB834F43D653DAE17CB532918219,CinematicNode_Response_12,"Ty się, Niedzic, legitymować nie musisz. Cela już na ciebie czeka.",Niedzic sen kimlik göstermek zorunda değilsin. Hücre seni bekliyor zaten.,
-9F2B0D5848ABE89CA89359AF99726E29,CinematicNode_Response_12,"No chyba nie! Dawaj, Wiktor.","Öyle yağma yok! Hadi Wiktor, başlat.",
-249ED14347466572E834D8BC836C0227,CinematicNode_Response_13,"Jak tak patrzę na nią i na was... to muszę przyznać rację latarni.",Şöyle bir lambaya bir de size bakıyorum da... lambaya hak vermem gerek.,
-B846DCBC46B35ECA8FA0F7910B3159CB,CinematicNode_Response_13,Że co?,Ne?,
-3D24D3964D75DCA3C56CF1850C55CCC4,CinematicNode_Response_13,"Że para z was psich synów, ot co!","İkinizin köpek evladı olduğuna, işte o!",
-1CA3CC8345E16864C91E6AB2C011F3BD,CinematicNode_Response_13,Stajecie po stronie wroga? Niech będzie! My się nie poddamy!,Düşman tarafına mı geçtiniz? Öyle olsun! Biz teslim olmayız!,
-9EA10797483A6DC9921F75A1EFE54E52,CinematicNode_Response_14,"No, i to jest owocna noc! Im więcej mordobicia, tym lepiej! ","İşte verimli bir gece! Ne kadar dayak varsa o kadar iyi! ",
-5DA8256A457C8D23EEA45D90035259C1,CinematicNode_Response_14,Polecamy się na przyszłość. ,Gelecekte de tavsiye ederiz. ,
-A213A6B14397A61408F059B2989C3DF4,CinematicNode_Response_15,"Pora poszukać Danisa. Został ranny w boju z kolosem i się zgubił. Chyba.","Danis'i aramanın vakti. Devle savaşta yaralandı ve kayboldu. Sanırım.",
-552EB62045D16EB24C808B8056228426,CinematicNode_Response_15,"Może się <i>ataman</> w <i>Mecie, Secie</> znajdzie?","Belki <i>ataman</> <i>Meta, Seta</>'da çıkıverir?","ataman = Kazak reisi; Meta Seta bar adı — italik özel isim"
-523A165344E55C4567F078B0553463E5,CinematicNode_Response_16,"No, no... załatwiliście to po kozacku! ","Helal helal... işi hakkıyla hallettiniz! ",
-6D55C22C462CF0208E36DBB721D6EADD,CinematicNode_Response_16,"Ta, a wy co, bitką z latarnią zmęczeni, że nie pomogliście? ","Hadi canım, siz de sokak lambasıyla güreşten yorulup yardım edemediniz mi? ",
-AAC8869E4EBADF4685063D9E2D160B3D,CinematicNode_Response_16,Dobrze się patrzyło. Niedzica z magikiem w akcji to się ogląda!,İzlemesi keyifliydi. Niedzic ile büyücü iş başındayken seyirlik oluyor!,
-EB6FBEEE4B5C27F1B2D861AE0467BE04,CinematicNode_Response_17,"Idziemy za nimi. Skoro do tej pory nie znalazłem Lelka, to może jest właśnie tam. ","Onları takip edelim. Lelek'i şimdiye kadar bulamadığıma göre, orada olabilir. ",
-959DA10A48A858E8877F23973512D120,CinematicNode_Response_18,"E, damy radę. Chodź, wiem gdzie może siedzieć. Sam bym się tam zaszył.","Eh, hallederiz. Hadi gidelim, nerede olabileceğini biliyorum. Ben olsam ben de oraya çekilirdim.",
-1CA044F7422584CCD90CE9B6CBC7CB80,CinematicNode_Response_19,"Noc jeszcze młoda, to i będzie się działo!","Gece daha genç, daha neler olacak neler!",
-5AFBC54746205788F00780B155C0765A,CinematicNode_Response_20,Gdzie?,Nerede?,
-E7041299471A8F88D8DAA4B0A873193F,CinematicNode_Response_20,"<i>Meta, Seta i Lorneta</>. Taki ruski bar, tu po schodach. Konkurencja, tfu.","<i>Meta, Seta ve Lorneta</>. Şu merdivenden çıkılan bir Rus barı. Rakip, tüh.","Bar adı — kafiyeli üç kadeh türü; aynen korundu"
-6A12E4FE410BD24AD87E2A9EFB2DC481,CinematicNode_Response_21,Ten twój diabeł wciąż się nie ujawnił?,Şu senin şeytanın hâlâ ortaya çıkmadı mı?,
-60A01BC54070DF1549A721A9FF3E6506,CinematicNode_Response_21,"Jak do tej pory, nie.","Şimdiye kadar, hayır.",
+"Hash","NodeName","PL","TR","Notes"
+"A85C90C64F38FDEB7F41CFA5E23262E4","CinematicNode_Choice_1","Przyznaj im rację. ","Onlara hak ver. ",""
+"8C7327AC4C54F8E1C660CD849BF4E2FD","CinematicNode_Choice_1","Stań po stronie latarni.","Sokak lambasının tarafını tut.","'Latarnia' sokak lambası — sarhoş kazaklar lambaya saldırır"
+"5F7113504191546F2C69C0916434AAED","CinematicNode_Response_11","Co, poddajesz się, śmieciu?!","Ne oldu pis herif teslim mi oluyorsun?!",""
+"D41430BD429FFB17BDF69A9B3F7C3F08","CinematicNode_Response_11","Ty widzisz to, co ja?","Sen de benim gördüğümü görüyor musun?",""
+"52A275EB41CE099B24348C9CA377AEC4","CinematicNode_Response_11","Widzę dwóch debili, siłujących się z latarnią.","Bir sokak lambasıyla güreşen iki gerzek görüyorum.",""
+"187907EA40DAAC0344AFB79921820242","CinematicNode_Response_11","Jak wam idzie? Kto wygrywa?","Nasıl gidiyor? Kim kazanıyor?",""
+"0FB6D479492E4A2ECC2DBF924364278A","CinematicNode_Response_11","To kolos! Patrzy z góry, ma się za lepszego... Przysięgam, że od psich synów nas wyzwał! ","Devin teki bu! Yukarıdan bakıyor, kendini üstün sayıyor… Yemin ederim bize 'köpek evladı' dedi! ",""
+"7DDF8E3A4B03C7B49C52B694C01D573A","CinematicNode_Response_11","No i jak tu się nie wkurwić?","E böyle durumda insan nasıl sinirlenmez?",""
+"48A33B6A45A51F61412172B9AD1F8029","CinematicNode_Response_12","W sumie... Spójrz pod tym kątem, Abaurycy. Trochę taka pyszałkowata.","Aslında… şu açıdan bak Abaurycy. Biraz kasıntı duruyor.","Wiktor lambaya 'o' diyerek"
+"F64E3D5D46A4198EE95C739B6E48D5E2","CinematicNode_Response_12","No faktycznie. Jak się przypatrzeć, to... to może wkurwić.","Vallahi evet. Dikkatli bakınca… insanı sinir edebilir.",""
+"38FE34B344F86166CF36D7B778926FDC","CinematicNode_Response_12","To powiedziałem!","Ben de diyordum!",""
+"05F3BEAC40419E61284167BFBE0644BA","CinematicNode_Response_12","Dobrze jej pokazaliście, dzielne z was <dl>sołdaty</>! Prosto już nie stoi, więc ma nauczkę!","İyi gösterdiniz ona, yiğit <dl>sołdaty</>'siniz! Artık dimdik duramaz, dersini aldı!","'sołdaty' = asker (Rusça/argo); <dl> tag aynen"
+"C931505349044DA9479B3C95D2C3579C","CinematicNode_Response_12","Czy ja dobrze widzę, że własność miasta dewastujecie? Dokumenty!","Doğru mu görüyorum, şehir mülkünü tahrip mi ediyorsunuz? Kimlikler!",""
+"5E2823E54D8DFE7ED162A0B75960748E","CinematicNode_Response_12","Coś wam chyba w głowie jebło, panowie. Na dzielnicy barowej inne panują zasady.","Beyinleriniz sallanmış galiba beyler. Bar mahallesinde farklı kurallar geçerlidir.",""
+"8EAFFB834F43D653DAE17CB532918219","CinematicNode_Response_12","Ty się, Niedzic, legitymować nie musisz. Cela już na ciebie czeka.","Niedzic sen kimlik göstermek zorunda değilsin. Hücre seni bekliyor zaten.",""
+"9F2B0D5848ABE89CA89359AF99726E29","CinematicNode_Response_12","No chyba nie! Dawaj, Wiktor.","Öyle yağma yok! Hadi Wiktor, başlat.",""
+"249ED14347466572E834D8BC836C0227","CinematicNode_Response_13","Jak tak patrzę na nią i na was... to muszę przyznać rację latarni.","Şöyle bir lambaya bir de size bakıyorum da… lambaya hak vermem gerek.",""
+"B846DCBC46B35ECA8FA0F7910B3159CB","CinematicNode_Response_13","Że co?","Ne?",""
+"3D24D3964D75DCA3C56CF1850C55CCC4","CinematicNode_Response_13","Że para z was psich synów, ot co!","İkinizin köpek evladı olduğuna, işte o!",""
+"1CA3CC8345E16864C91E6AB2C011F3BD","CinematicNode_Response_13","Stajecie po stronie wroga? Niech będzie! My się nie poddamy!","Düşman tarafına mı geçtiniz? Öyle olsun! Biz teslim olmayız!",""
+"9EA10797483A6DC9921F75A1EFE54E52","CinematicNode_Response_14","No, i to jest owocna noc! Im więcej mordobicia, tym lepiej! ","İşte verimli bir gece! Ne kadar dayak varsa o kadar iyi! ",""
+"5DA8256A457C8D23EEA45D90035259C1","CinematicNode_Response_14","Polecamy się na przyszłość. ","Gelecekte de tavsiye ederiz. ",""
+"A213A6B14397A61408F059B2989C3DF4","CinematicNode_Response_15","Pora poszukać Danisa. Został ranny w boju z kolosem i się zgubił. Chyba.","Danis'i aramanın vakti. Devle savaşta yaralandı ve kayboldu. Sanırım.",""
+"552EB62045D16EB24C808B8056228426","CinematicNode_Response_15","Może się <i>ataman</> w <i>Mecie, Secie</> znajdzie?","Belki <i>ataman</> <i>Meta, Seta</>'da çıkıverir?","ataman = Kazak reisi; Meta Seta bar adı — italik özel isim"
+"523A165344E55C4567F078B0553463E5","CinematicNode_Response_16","No, no... załatwiliście to po kozacku! ","Helal helal… işi hakkıyla hallettiniz! ",""
+"6D55C22C462CF0208E36DBB721D6EADD","CinematicNode_Response_16","Ta, a wy co, bitką z latarnią zmęczeni, że nie pomogliście? ","Hadi canım, siz de sokak lambasıyla güreşten yorulup yardım edemediniz mi? ",""
+"AAC8869E4EBADF4685063D9E2D160B3D","CinematicNode_Response_16","Dobrze się patrzyło. Niedzica z magikiem w akcji to się ogląda!","İzlemesi keyifliydi. Niedzic ile büyücü iş başındayken seyirlik oluyor!",""
+"EB6FBEEE4B5C27F1B2D861AE0467BE04","CinematicNode_Response_17","Idziemy za nimi. Skoro do tej pory nie znalazłem Lelka, to może jest właśnie tam. ","Onları takip edelim. Lelek'i şimdiye kadar bulamadığıma göre, orada olabilir. ",""
+"959DA10A48A858E8877F23973512D120","CinematicNode_Response_18","E, damy radę. Chodź, wiem gdzie może siedzieć. Sam bym się tam zaszył.","Eh, hallederiz. Hadi gidelim, nerede olabileceğini biliyorum. Ben olsam ben de oraya çekilirdim.",""
+"1CA044F7422584CCD90CE9B6CBC7CB80","CinematicNode_Response_19","Noc jeszcze młoda, to i będzie się działo!","Gece daha genç, daha neler olacak neler!",""
+"5AFBC54746205788F00780B155C0765A","CinematicNode_Response_20","Gdzie?","Nerede?",""
+"E7041299471A8F88D8DAA4B0A873193F","CinematicNode_Response_20","<i>Meta, Seta i Lorneta</>. Taki ruski bar, tu po schodach. Konkurencja, tfu.","<i>Meta, Seta ve Lorneta</>. Şu merdivenden çıkılan bir Rus barı. Rakip, tüh.","Bar adı — kafiyeli üç kadeh türü; aynen korundu"
+"6A12E4FE410BD24AD87E2A9EFB2DC481","CinematicNode_Response_21","Ten twój diabeł wciąż się nie ujawnił?","Şu senin şeytanın hâlâ ortaya çıkmadı mı?",""
+"60A01BC54070DF1549A721A9FF3E6506","CinematicNode_Response_21","Jak do tej pory, nie.","Şimdiye kadar, hayır.",""

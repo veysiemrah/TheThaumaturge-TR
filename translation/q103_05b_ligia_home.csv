@@ -1,26 +1,26 @@
-Hash,NodeName,PL,TR,Notes
-863BAFF849D78FFFB5341181EDC2E91F,CinematicNode_Choice_2,Pozwól jej się gniewać.,Bırak öfkelensin.,
-50196CC24A582017546E31BBEE21F705,CinematicNode_Choice_2,Przeproś ją.,Ondan özür dile.,
-FDA5AF084490527B081F6E889737D375,CinematicNode_Choice_2,"Upewnij się, czy to była ironia.",İroni miydi emin olmak için sor.,
-916F359145184607695C2280691F23B3,CinematicNode_Choice_3,Życz jej dobrej nocy.,Ona iyi geceler dile.,
-669D1F024511AA3C1B7021B176F6FF7F,CinematicNode_Choice_3,Wspomnij Konieczkina.,Konieczkin'den söz et.,
-8D33987F4F1F061F92CB9DB54743EAB8,CinematicNode_Choice_3,"Powiedz, że wychodzisz.",Çıktığını söyle.,
-D1FEB3154F8AB7E13DF601B6916F507C,CinematicNode_Response_10,"Przepraszam, że tak to wszystko wyszło.",Her şeyin böyle olduğu için özür dilerim.,
-F03431FB464ED9896174248095FBA2EB,CinematicNode_Response_10,"Nie dzisiaj, proszę.","Bugün değil, lütfen.",
-EC2DA1D343CD08177A28F3A3B9DABA51,CinematicNode_Response_11,Gniewasz się?,Kızgın mısın?,
-629214544DFFEBF817683CBFC1C1A895,CinematicNode_Response_11,Muszę odpocząć.,Dinlenmem gerek.,
-5D1809EA4E0E9AF2B3FEF899E0956F0A,CinematicNode_Response_12,Nie chcę już dzisiaj o tym rozmawiać.,Bugün artık bu konuda konuşmak istemiyorum.,
-12D2388B477EA7537A30AC9354B460F9,CinematicNode_Response_12,Dobranoc.,İyi geceler.,
-3B9E2DBB46E44A21E04DB9B1B1A26951,CinematicNode_Response_13,Śpij dobrze. Wrócę rano.,İyi uyu. Sabah dönerim.,
-E11A37414A5756483CA9B4A4E70C5F0C,CinematicNode_Response_13,Wychodzisz? Gdzie?,Çıkıyor musun? Nereye?,
-6FBC816045393CC559A4578F5DB4C032,CinematicNode_Response_13,Pozbyć się bólu.,Acıdan kurtulmaya.,
-632518C1463C022743C4C58536B8C5B4,CinematicNode_Response_14,Ligia.,Ligia.,
-5A277EE24678C903EFF00EAF789FEDD8,CinematicNode_Response_14,...,...,
-6A657C12497BEF96A41F739278303A8A,CinematicNode_Response_14,Dobranoc.,İyi geceler.,
-39D92C704028430075DC39888D521C19,CinematicNode_Response_15,Podejrzana ta interesowność Konieczkina.,Konieczkin'in bu ilgisi şüpheli.,
-6EED1AED45B27D26573C9582F5C69146,CinematicNode_Response_15,"Wiktor, gdyby nie on... Bardzo nam dziś pomógł.",Wiktor o olmasaydı... Bugün bize çok yardımı dokundu.,
-132FBFFA4595D701701155B35482A6F1,CinematicNode_Response_8,Dziękuję za ciekawy wieczór.,İlginç bir akşam için teşekkürler.,
-F42780DF4EAAA9752F70CC8C4A4C4CF3,CinematicNode_Response_9,...,...,
-C44133424E0046BA09E9CBA4E9B9C6AA,CinematicNode_Response_9,Co?,Ne?,
-945D9236493A9763E8025A9E46DA15F0,CinematicNode_Response_9,Nic nie mówiłem.,Bir şey demedim.,
-D4BDC7C4480043F238048B9D739750FF,CinematicNode_Response_9,Dobrze.,Tamam.,
+"Hash","NodeName","PL","TR","Notes"
+"863BAFF849D78FFFB5341181EDC2E91F","CinematicNode_Choice_2","Pozwól jej się gniewać.","Bırak öfkelensin.",""
+"50196CC24A582017546E31BBEE21F705","CinematicNode_Choice_2","Przeproś ją.","Ondan özür dile.",""
+"FDA5AF084490527B081F6E889737D375","CinematicNode_Choice_2","Upewnij się, czy to była ironia.","İroni miydi emin olmak için sor.",""
+"916F359145184607695C2280691F23B3","CinematicNode_Choice_3","Życz jej dobrej nocy.","Ona iyi geceler dile.",""
+"669D1F024511AA3C1B7021B176F6FF7F","CinematicNode_Choice_3","Wspomnij Konieczkina.","Konieczkin'den söz et.",""
+"8D33987F4F1F061F92CB9DB54743EAB8","CinematicNode_Choice_3","Powiedz, że wychodzisz.","Çıktığını söyle.",""
+"D1FEB3154F8AB7E13DF601B6916F507C","CinematicNode_Response_10","Przepraszam, że tak to wszystko wyszło.","Her şeyin böyle olduğu için özür dilerim.",""
+"F03431FB464ED9896174248095FBA2EB","CinematicNode_Response_10","Nie dzisiaj, proszę.","Bugün değil, lütfen.",""
+"EC2DA1D343CD08177A28F3A3B9DABA51","CinematicNode_Response_11","Gniewasz się?","Kızgın mısın?",""
+"629214544DFFEBF817683CBFC1C1A895","CinematicNode_Response_11","Muszę odpocząć.","Dinlenmem gerek.",""
+"5D1809EA4E0E9AF2B3FEF899E0956F0A","CinematicNode_Response_12","Nie chcę już dzisiaj o tym rozmawiać.","Bugün artık bu konuda konuşmak istemiyorum.",""
+"12D2388B477EA7537A30AC9354B460F9","CinematicNode_Response_12","Dobranoc.","İyi geceler.",""
+"3B9E2DBB46E44A21E04DB9B1B1A26951","CinematicNode_Response_13","Śpij dobrze. Wrócę rano.","İyi uyu. Sabah dönerim.",""
+"E11A37414A5756483CA9B4A4E70C5F0C","CinematicNode_Response_13","Wychodzisz? Gdzie?","Çıkıyor musun? Nereye?",""
+"6FBC816045393CC559A4578F5DB4C032","CinematicNode_Response_13","Pozbyć się bólu.","Acıdan kurtulmaya.",""
+"632518C1463C022743C4C58536B8C5B4","CinematicNode_Response_14","Ligia.","Ligia.",""
+"5A277EE24678C903EFF00EAF789FEDD8","CinematicNode_Response_14","...","…",""
+"6A657C12497BEF96A41F739278303A8A","CinematicNode_Response_14","Dobranoc.","İyi geceler.",""
+"39D92C704028430075DC39888D521C19","CinematicNode_Response_15","Podejrzana ta interesowność Konieczkina.","Konieczkin'in bu ilgisi şüpheli.",""
+"6EED1AED45B27D26573C9582F5C69146","CinematicNode_Response_15","Wiktor, gdyby nie on... Bardzo nam dziś pomógł.","Wiktor o olmasaydı… Bugün bize çok yardımı dokundu.",""
+"132FBFFA4595D701701155B35482A6F1","CinematicNode_Response_8","Dziękuję za ciekawy wieczór.","İlginç bir akşam için teşekkürler.",""
+"F42780DF4EAAA9752F70CC8C4A4C4CF3","CinematicNode_Response_9","...","…",""
+"C44133424E0046BA09E9CBA4E9B9C6AA","CinematicNode_Response_9","Co?","Ne?",""
+"945D9236493A9763E8025A9E46DA15F0","CinematicNode_Response_9","Nic nie mówiłem.","Bir şey demedim.",""
+"D4BDC7C4480043F238048B9D739750FF","CinematicNode_Response_9","Dobrze.","Tamam.",""

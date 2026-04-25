@@ -1,8 +1,8 @@
-Hash,NodeName,PL,TR,Notes
-521F051B460FE9B000BE2487A245C867,CinematicNode_Response_2,"Wiedziałem, że się zjawisz.","Geleceğini biliyordum.",Wujek Woronin Wiktor'a 'sen'
-F5FFC5884E975BE6232AE79FED69FF91,CinematicNode_Response_2,Nie mogłem przegapić tego momentu.,Bu anı kaçıramazdım.,
-11F434D44B33921259164BA19B608F92,CinematicNode_Response_2,"Stasio cię kochał. Na swój sposób. Dobrze wyglądasz. Ligia mówiła, że znalazłeś jakiegoś znachora.","Stasio seni seviyordu. Kendince. İyi görünüyorsun. Ligia bir tür hekim bulduğunu söyledi.","Stasio = Stanisław kısaltma; znachor = köy hekim/üfürükçü"
-BD558DAB44AF71FA81087AB969F69BA2,CinematicNode_Response_2,Tak... Dziękuję...?,Evet... Teşekkür ederim...?,
-29F5F89F4F1280701408B9B4EAA1A34C,CinematicNode_Response_2,"Nie poznajesz mnie, prawda? A pamiętasz, kto cię uczył strzelać do szpaków?","Beni tanımıyorsun, değil mi? Peki sana sığırcık vurmayı kim öğretmişti, hatırlar mısın?",
-B92C8645453045D46FCDAF9858105376,CinematicNode_Response_2,Wujek Woronin! Przepraszam...,Wujek Woronin! Özür dilerim...,"Wujek = dayı/amca hitabı; özel isim olarak aynen"
-DBCF57BE4789D28A9DDFA4AD82162D35,CinematicNode_Response_2,"Nie szkodzi, sam bym już chyba siebie nie poznał. Idź, pokaż się siostrze, martwi się. Pogadamy w domu.","Önemli değil, kendimi ben de artık tanımazdım galiba. Git kız kardeşine görün, merak ediyor. Evde konuşuruz.",
+"Hash","NodeName","PL","TR","Notes"
+"521F051B460FE9B000BE2487A245C867","CinematicNode_Response_2","Wiedziałem, że się zjawisz.","Geleceğini biliyordum.","Wujek Woronin Wiktor'a 'sen'"
+"F5FFC5884E975BE6232AE79FED69FF91","CinematicNode_Response_2","Nie mogłem przegapić tego momentu.","Bu anı kaçıramazdım.",""
+"11F434D44B33921259164BA19B608F92","CinematicNode_Response_2","Stasio cię kochał. Na swój sposób. Dobrze wyglądasz. Ligia mówiła, że znalazłeś jakiegoś znachora.","Stasio seni seviyordu. Kendince. İyi görünüyorsun. Ligia bir tür hekim bulduğunu söyledi.","Stasio = Stanisław kısaltma; znachor = köy hekim/üfürükçü"
+"BD558DAB44AF71FA81087AB969F69BA2","CinematicNode_Response_2","Tak... Dziękuję...?","Evet… Teşekkür ederim…?",""
+"29F5F89F4F1280701408B9B4EAA1A34C","CinematicNode_Response_2","Nie poznajesz mnie, prawda? A pamiętasz, kto cię uczył strzelać do szpaków?","Beni tanımıyorsun, değil mi? Peki sana sığırcık vurmayı kim öğretmişti, hatırlar mısın?",""
+"B92C8645453045D46FCDAF9858105376","CinematicNode_Response_2","Wujek Woronin! Przepraszam...","Wujek Woronin! Özür dilerim…","Wujek = dayı/amca hitabı; özel isim olarak aynen"
+"DBCF57BE4789D28A9DDFA4AD82162D35","CinematicNode_Response_2","Nie szkodzi, sam bym już chyba siebie nie poznał. Idź, pokaż się siostrze, martwi się. Pogadamy w domu.","Önemli değil, kendimi ben de artık tanımazdım galiba. Git kız kardeşine görün, merak ediyor. Evde konuşuruz.",""

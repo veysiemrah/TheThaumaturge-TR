@@ -1,86 +1,86 @@
-Hash,NodeName,PL,TR,Notes
-31A56A304C1BA3A97D1C4493EC956C13,CinematicNode_Choice_5,"Powiedz, że chcesz wejść do warszawskiej socjety.",Varşova sosyetesine girmek istediğini söyle.,
-C2D8FF624FE969129966B7A3E97A53E7,CinematicNode_Choice_5,"Zapytaj, co on tu robi.",Onun burada ne yaptığını sor.,
-E2BDC2F1472ED7B3FC9736AC5627746E,CinematicNode_Choice_5,"Zapytaj, kim on jest.",Kim olduğunu sor.,
-DE4A6AFA449BB1265933AAB85244FA74,CinematicNode_Choice_5,"Zapytaj, skąd ma tyle blizn.",Bu kadar yara izinin nereden geldiğini sor.,
-FB56F1D84849C74C09B0D8994D562C06,CinematicNode_Choice_5,"Zapytaj, skąd znał ojca.",Babanı nereden tanıdığını sor.,
-4716FBD0402184DF41DBC4A9E780830D,CinematicNode_Choice_5,Odejdź.,Uzaklaş.,
-2A5C4DF54DD834EA84BE908DCEDC120B,CinematicNode_Choice_6,"Zapytaj, skąd o tym wie.",Bunu nereden bildiğini sor.,
-7EF3387C4E1DC482285267AA79981CA5,CinematicNode_Choice_6,"Powiedz, że na niczym ci nie zależy.",Hiçbir şey umurunda olmadığını söyle.,
-B17432344330BB6B01361DACB361B309,CinematicNode_Choice_6,"Powiedz, że nie cały.",Tam öyle olmadığını söyle.,
-03C6ECC64B43973F49B700ADF1284ACA,CinematicNode_Choice_7,"Powiedz, że znasz Swietłanę.",Swietłana'yı tanıdığını söyle.,
-F35D826548F4D482C572399EB08D2A6A,CinematicNode_Choice_7,"Powiedz, że przyszedłeś z siostrą. ",Kız kardeşinle geldiğini söyle. ,
-BD173D244197B816E6194CBA790A99B1,CinematicNode_Choice_8,"Zapytaj, czym się zajmuje.",Ne iş yaptığını sor.,
-3301BDA54BB12CC1450DBB9866441671,CinematicNode_Choice_8,"Zapytaj, co może ci powiedzieć o gościach.",Konuklar hakkında sana ne söyleyebileceğini sor.,
-22E5A6D54B71F534C911F68F3F765F41,CinematicNode_Choice_9,"Powiedz, że grymuar został w domu.",Grimuar'ın evde kaldığını söyle.,
-B45BF1B04FFE38BF7D1FFBA22E395BE0,CinematicNode_Choice_9,"Przyznaj, że nie wiesz, gdzie jest.",Nerede olduğunu bilmediğini kabul et.,
-380FC3594EBFA08E0A33AABE6FF60E14,CinematicNode_Response_23,Nie spodziewałem się tutaj spotkać akurat pana.,Tam da sizinle burada karşılaşmayı beklemiyordum.,
-AC5B43724F8F566D1F7F8BBB7DD77563,CinematicNode_Response_23,"Nawet pan nie wie, jak bardzo mi to schlebia.","Bu ne kadar gurur okşayıcı, bilemezsiniz.",
-8097A98B4D88AD83E1C39883D95F038A,CinematicNode_Response_23,A co pana sprowadza do Imperialnego?,Imperialny'ye gelmenizin sebebi nedir?,
-1B2AE6BC4EBDFD6D843B999A859F47A2,CinematicNode_Response_24,Zabijam czas.,Zaman öldürüyorum.,
-C446385A4443159154F57F9220D65BA7,CinematicNode_Response_24,Ciekawe hobby. ,İlginç bir hobi. ,
-0634A1CC4CBB6E3368B44CBB64301FD8,CinematicNode_Response_24,Zwyczajnie interesują mnie ludzie.,Sadece insanlar ilgimi çeker.,
-EDEB2B8344398A8FBF27D49705CE8391,CinematicNode_Response_25,"Zebrała się tu śmietanka towarzyska Warszawy, pomyślałem, że warto by się tu pokazać. ","Varşova sosyetesinin kaymağı burada toplanmış, görünmenin değeceğini düşündüm. ",
-F381662049C9FCB4C788AD8C4D8873CA,CinematicNode_Response_25,Z takim nazwiskiem już zapewne jest pan w towarzystwie. ,Böyle bir soyadla zaten sosyetedesinizdir muhtemelen. ,
-9A10A7FB49606C7EB237FAAFB878EE8C,CinematicNode_Response_25,Ktoś musiał przecież tu pana zaprosić. ,Birinin sizi buraya davet etmiş olması lazım. ,
-F6F0DEB1496DB50EE30AE89BC4A5154B,CinematicNode_Response_26,Na co pan liczy tego wieczoru?,Bu akşamdan ne umuyorsunuz?,
-0EDDEC0A4B5935109D2C2DAEEC6789A4,CinematicNode_Response_26,Kto wie? Być może rozglądam się za przyszłą panią Szulską. ,Kim bilir? Belki gelecekteki Bayan Szulska'yı arıyorum. ,
-6CD529434D071B4D685A76AF29CA4FC4,CinematicNode_Response_26,Życzę powodzenia. ,Başarılar dilerim. ,
-49D6ADE7403D626BE454CF9DA41C963B,CinematicNode_Response_26,"Będzie panu potrzebne, skoro to Ligii przypadł w udziale cały spadek.","Lazım olur, ne de olsa miras Ligia'ya düştü.",
-2209266548FCA76DB388BA8B9921886B,CinematicNode_Response_27,Skąd pan wie te wszystkie rzeczy?,Bütün bunları nereden biliyorsunuz?,
-4D98C59D458C3BBC74BC2FAF992E1C66,CinematicNode_Response_27,"Ludzie mówią, ja słucham. To wszystko. ","İnsanlar konuşur, ben dinlerim. Hepsi bu. ",
-2E77F96E421732A3CDA476AC370F7FA6,CinematicNode_Response_28,Moja siostra nie dostała w spadku <i>wszystkiego</>.,Kız kardeşim mirastan <i>her şeyi</> almadı.,
-83A27031403AB6BC4D11ADBFAF3BE52B,CinematicNode_Response_28,"Tak, faktycznie. Stanisław miał przecież swoją małą, czarną, magiczną książeczkę.","Evet, gerçekten öyle. Stanisław'ın kendi küçük, kara, büyülü kitabı vardı.",
-EF6F447B448857F1B1F89F8C9341B4E4,CinematicNode_Response_28,"Ale nie widzę, żeby miał ją pan przy sobie.",Ama onu yanınızda taşıdığınızı görmüyorum.,
-97670E3E401DF9267CD11DAEC63F367D,CinematicNode_Response_29,Kim pan właściwie jest?,Siz aslında kimsiniz?,
-798B66084F0A1F97C6C38E843878D3CF,CinematicNode_Response_29,"Kimś, kto chce się jedynie dobrze bawić na przyjęciu. ",Davette sadece keyifli vakit geçirmek isteyen biri. ,
-77940BCC4E74F60F8CB1FCB1DFF07F80,CinematicNode_Response_30,"Mówił pan, że kim był dla mojego ojca?",Babam için kim olduğunuzu söylemiştiniz?,
-D7DE4AF348C1B374945B2D940A405128,CinematicNode_Response_30,"Zaufanym znajomym. Wspierałem go dobrą radą, choć po prawdzie rzadko jej potrzebował.","Güvenilir bir tanıdık. Ona iyi tavsiyelerde bulundum, ama doğrusu pek ihtiyacı olmazdı.",
-8369C24544D9946F4AD05F8EAB012DA0,CinematicNode_Response_30,Pański ojciec miał dar podejmowania dobrych decyzji.,Babanızın iyi kararlar verme yeteneği vardı.,
-3C16E4E244D69E77D38AE29A3BA793FC,CinematicNode_Response_30,O jakie decyzje mojego ojca chodzi?,Babanın hangi kararlarından bahsediyorsunuz?,
-06DACCBB41703451326D838265867716,CinematicNode_Response_30,"O te, które były dobre dla waszej rodziny. Może jeszcze będziemy mieli kiedyś okazję do tego wrócić. ","Ailenize iyi gelen kararlardan. Belki bir gün buna geri dönme fırsatımız olur. ",
-A58C2F98445B0C75753FE7A98F5C5F9C,CinematicNode_Response_30,"Do zobaczenia, panie Szulski.","Görüşmek üzere, Pan Szulski.",
-A6797E964079BE468CBDEB802499F368,CinematicNode_Response_30,Tak. Na pewno. ,Evet. Elbette. ,
-0D7A00FE46F4A14113B5998759C18884,CinematicNode_Response_31,"Znajoma znajomego mojej znajomej organizuje to przyjęcie, więc można powiedzieć, że znam gospodynię. ","Bir tanıdığımın tanıdığının tanıdığı bu daveti düzenliyor, yani ev sahibesini tanıdığım söylenebilir. ",
-1F4859E344D78EFECFBF05934FDA5693,CinematicNode_Response_31,Samą Rumiancewę? No proszę. ,Rumiancewa'nın kendisini mi? Vay canına. ,
-A725EE564AF1619D25E7859896873667,CinematicNode_Response_31,A pana kto zaprosił?,Peki sizi kim davet etti?,
-5D9563BA4B5107AEB845B8BA371F5DAD,CinematicNode_Response_31,Znajoma znajomego mojej znajomej.,Bir tanıdığımın tanıdığının tanıdığı.,
-2BF0F40A450C887AA1FF83B3EA110C4B,CinematicNode_Response_32,"Ja nie jestem godzien, moja siostra wzięła mnie ze sobą, chyba z litości.","Ben layık değilim, kız kardeşim beni yanında getirdi, muhtemelen acımasından.",
-3870A7DA428DFF334FB3DE8727680151,CinematicNode_Response_32,A więc panna Ligia też tu jest?,Demek küçük hanım Ligia da burada?,
-A2E5D3B94A16D614F41D88A374AF2415,CinematicNode_Response_32,Czemu pan pyta? ,Neden soruyorsunuz? ,
-73FB92474F35C023AAD39A9D8540893A,CinematicNode_Response_32,Bez powodu.,Sebepsiz.,
-D789F54E448B24F96C4069B026155B26,CinematicNode_Response_33,Dobrze pan zna to towarzystwo?,Bu topluluğu iyi tanıyor musunuz?,
-5FB429074AB50AC41B3848A6A191E6B5,CinematicNode_Response_33,"Nie trudno ich rozgryźć. Grupa niespecjalnie bystrych próżniaków, którzy gonią za uciechą, za uciechą i za uciechą...","Onları çözmek zor değil. Pek de zeki olmayan, zevkin, zevkin ve yine zevkin peşinde koşan bir avare grubu...",
-666B737C4427737CBFCF67A875292C74,CinematicNode_Response_33,Czuje się pan częścią tej grupy?,Kendinizi bu grubun parçası mı hissediyorsunuz?,
-FA2413A14CDC12C5DB517C8B11A25F7F,CinematicNode_Response_33,Nie należę do nich. Ty też nie.,Ben onlardan değilim. Sen de değilsin.,
-394D849749B8940A239A26A7DB5E5281,CinematicNode_Response_33,Ani twój ojciec nie należał. ,Baban da onlardan değildi. ,
-0D1DAB5F40E4D3882FC8C48B52CB12B9,CinematicNode_Response_34,"To samo mógłby powiedzieć lekarz, thaumaturg albo policjant. ","Aynı şeyi bir doktor, bir tılsımkâr ya da bir polis de söyleyebilirdi. ",
-F3B6A2F9418003332A8FE38D6621D0B5,CinematicNode_Response_34,Schlebia mi pańskie zainteresowanie.,İlginiz bana gurur veriyor.,
-199DE68548174EDE2CDF1795A1C89761,CinematicNode_Response_34,"Kto wie, może niedaleko pada jabłko od jabłoni i jeszcze się kiedyś zaprzyjaźnimy?","Kim bilir, belki armut dibine düşer ve bir gün dostluk ederiz?",
-774719CF4AB836D48C1C969E7B69B581,CinematicNode_Response_35,Jak dobrze znał pan moją jabłoń?,Benim armut ağacımı ne kadar iyi tanıyordunuz?,
-5D0550934AB50F8258AE959D76EA10E4,CinematicNode_Response_35,"Lubiliśmy ze sobą rozmawiać, pomagać sobie. ","Konuşmayı, birbirimize yardım etmeyi severdik. ",
-3C88355E43DDA193AC5F9FBA1D6AFF43,CinematicNode_Response_36,"Na nic nie liczyłem. No, może poza tym, żeby dobrze się teraz napić.","Hiçbir şey ummuyordum. Ya, belki şimdi güzel bir içki içmek dışında.",
-8D82AD2F413FFBCD7587B1A974110CF7,CinematicNode_Response_36,"Może niektóre jabłka faktycznie padają dalej od jabłoni?",Belki bazı armutlar gerçekten dibine düşmez?,
-62378DD649C93F21FEDE9985E1736DC0,CinematicNode_Response_37,Panie Szulski.,Pan Szulski.,
-CE18A7B0487F3030B062E599F2B61D53,CinematicNode_Response_37,Zdradzi mi pan powody swojej wizyty tutaj?,Buradaki ziyaretinizin sebebini söyler misiniz?,
-D2898E1444A6F0B4B8160A9423DB2E00,CinematicNode_Response_38,"Proszę wybaczyć, mam zobowiązania, do których spieszę.",Bağışlayın — yetişmem gereken meşgaleler var.,
-9B33E31C4ED0AF8C442B739ABF52FDD6,CinematicNode_Response_38,Dobrej zabawy.,İyi eğlenceler.,
-B7C9184C462758E17009129C6D1C068B,CinematicNode_Response_39,Pan Szulski.,Pan Szulski.,
-875658E04A49A547B7EACA951569827A,CinematicNode_Response_40,Zdecydował się pan zostać jednak na dłużej w Warszawie?,Varşova'da daha uzun süre kalmaya karar mı verdiniz?,
-5022BF274CD659165ED7C19D79EB82B5,CinematicNode_Response_40,Słucham?,Efendim?,
-A2139C7F43DA3A8A5E877DBABF77F3EE,CinematicNode_Response_40,Poznaliśmy się na cmentarzu.,Mezarlıkta tanışmıştık.,
-AAC191FF4080499C2EB0708A2C74AC7C,CinematicNode_Response_40,"Tak, pamiętam, po prostu...","Evet, hatırlıyorum, sadece...",
-FDE1337F44DC3910463FF9968EFC7D7C,CinematicNode_Response_41,Mógłbym zadać panu to samo pytanie.,Aynı soruyu size de sorabilirdim.,
-DD01AEC04EF7BF29CCBA82AEEA8582EF,CinematicNode_Response_42,"A co pan tu robi, Konieczkin?","Peki siz burada ne yapıyorsunuz, Konieczkin?",
-E177D892423D68F4F02CA383D9317719,CinematicNode_Response_43,Dwóch nie dam rady nosić. Zostawiłem go w domu.,İki tanesini taşıyamam. Evde bıraktım.,
-25F097DC449E9E46262F38A2448B679A,CinematicNode_Response_43,Zrozumiałe.,Anlaşılabilir.,
-DDD48E0B4BC15C7B1EC835A6A925D632,CinematicNode_Response_44,"Prawda jest taka, że... Czarny Grymuar zaginął.",Gerçek şu ki... Kara Grimuar kayboldu.,
-DBF799FB4E5298CF2833F7B5FAAE863B,CinematicNode_Response_44,I tutaj prowadzi pan poszukiwania?,Aramayı burada mı yürütüyorsunuz?,
-32FAA1C046ED8F45D57B51A7EBAC941E,CinematicNode_Response_44,"Gdzie indziej szukać informacji, jak nie w siedlisku plotek?",Bilgi dedikodu yuvası dışında nerede aranır?,
-17B5D43447112317AB26E7B8FA94FFAC,CinematicNode_Response_44,Nie mogę się z panem nie zgodzić.,Size hak vermekten başka çarem yok.,
-00166C6F42F7E539CBE8518E91FB11F6,CinematicNode_Response_45,"Jeśli pan pozwoli, nurtuje mnie pewne pytanie. Jak pan zdobył tyle blizn?","İzninizle, aklımı kurcalayan bir soru var. Bu kadar yara izini nasıl aldınız?",
-1D5ED45049A6D40F441C89AFA284FAA1,CinematicNode_Response_45,Czemu pan pyta?,Neden soruyorsunuz?,
-95557C6A4C49E035F1557E8D8C28EE8D,CinematicNode_Response_45,"Słyszałem, że rosyjscy oficerowie podczas szkolenia, po godzinach, pojedynkują się na szable po pijaku.","Duyduğuma göre Rus subayları eğitim sırasında, mesai sonrası, sarhoşken kılıçla düello ediyorlarmış.",
-6E2E3E7E4F55D683DA7F7ABB75BA697A,CinematicNode_Response_45,"Bardzo dziwny zwyczaj, jeżeli to prawda.","Doğruysa, çok tuhaf bir gelenek.",
-73C0E877488FD9ED5AD13CA4527C230A,CinematicNode_Response_45,A więc skąd te blizny?,Peki o yara izleri nereden?,
-8379AB2D4A5A576AE6BA1E8B24D5E0A0,CinematicNode_Response_45,Wiodłem ciekawe życie.,İlginç bir hayat yaşadım.,
+"Hash","NodeName","PL","TR","Notes"
+"31A56A304C1BA3A97D1C4493EC956C13","CinematicNode_Choice_5","Powiedz, że chcesz wejść do warszawskiej socjety.","Varşova sosyetesine girmek istediğini söyle.",""
+"C2D8FF624FE969129966B7A3E97A53E7","CinematicNode_Choice_5","Zapytaj, co on tu robi.","Onun burada ne yaptığını sor.",""
+"E2BDC2F1472ED7B3FC9736AC5627746E","CinematicNode_Choice_5","Zapytaj, kim on jest.","Kim olduğunu sor.",""
+"DE4A6AFA449BB1265933AAB85244FA74","CinematicNode_Choice_5","Zapytaj, skąd ma tyle blizn.","Bu kadar yara izinin nereden geldiğini sor.",""
+"FB56F1D84849C74C09B0D8994D562C06","CinematicNode_Choice_5","Zapytaj, skąd znał ojca.","Babanı nereden tanıdığını sor.",""
+"4716FBD0402184DF41DBC4A9E780830D","CinematicNode_Choice_5","Odejdź.","Uzaklaş.",""
+"2A5C4DF54DD834EA84BE908DCEDC120B","CinematicNode_Choice_6","Zapytaj, skąd o tym wie.","Bunu nereden bildiğini sor.",""
+"7EF3387C4E1DC482285267AA79981CA5","CinematicNode_Choice_6","Powiedz, że na niczym ci nie zależy.","Hiçbir şey umurunda olmadığını söyle.",""
+"B17432344330BB6B01361DACB361B309","CinematicNode_Choice_6","Powiedz, że nie cały.","Tam öyle olmadığını söyle.",""
+"03C6ECC64B43973F49B700ADF1284ACA","CinematicNode_Choice_7","Powiedz, że znasz Swietłanę.","Swietłana'yı tanıdığını söyle.",""
+"F35D826548F4D482C572399EB08D2A6A","CinematicNode_Choice_7","Powiedz, że przyszedłeś z siostrą. ","Kız kardeşinle geldiğini söyle. ",""
+"BD173D244197B816E6194CBA790A99B1","CinematicNode_Choice_8","Zapytaj, czym się zajmuje.","Ne iş yaptığını sor.",""
+"3301BDA54BB12CC1450DBB9866441671","CinematicNode_Choice_8","Zapytaj, co może ci powiedzieć o gościach.","Konuklar hakkında sana ne söyleyebileceğini sor.",""
+"22E5A6D54B71F534C911F68F3F765F41","CinematicNode_Choice_9","Powiedz, że grymuar został w domu.","Grimuar'ın evde kaldığını söyle.",""
+"B45BF1B04FFE38BF7D1FFBA22E395BE0","CinematicNode_Choice_9","Przyznaj, że nie wiesz, gdzie jest.","Nerede olduğunu bilmediğini kabul et.",""
+"380FC3594EBFA08E0A33AABE6FF60E14","CinematicNode_Response_23","Nie spodziewałem się tutaj spotkać akurat pana.","Tam da sizinle burada karşılaşmayı beklemiyordum.",""
+"AC5B43724F8F566D1F7F8BBB7DD77563","CinematicNode_Response_23","Nawet pan nie wie, jak bardzo mi to schlebia.","Bu ne kadar gurur okşayıcı, bilemezsiniz.",""
+"8097A98B4D88AD83E1C39883D95F038A","CinematicNode_Response_23","A co pana sprowadza do Imperialnego?","Imperialny'ye gelmenizin sebebi nedir?",""
+"1B2AE6BC4EBDFD6D843B999A859F47A2","CinematicNode_Response_24","Zabijam czas.","Zaman öldürüyorum.",""
+"C446385A4443159154F57F9220D65BA7","CinematicNode_Response_24","Ciekawe hobby. ","İlginç bir hobi. ",""
+"0634A1CC4CBB6E3368B44CBB64301FD8","CinematicNode_Response_24","Zwyczajnie interesują mnie ludzie.","Sadece insanlar ilgimi çeker.",""
+"EDEB2B8344398A8FBF27D49705CE8391","CinematicNode_Response_25","Zebrała się tu śmietanka towarzyska Warszawy, pomyślałem, że warto by się tu pokazać. ","Varşova sosyetesinin kaymağı burada toplanmış, görünmenin değeceğini düşündüm. ",""
+"F381662049C9FCB4C788AD8C4D8873CA","CinematicNode_Response_25","Z takim nazwiskiem już zapewne jest pan w towarzystwie. ","Böyle bir soyadla zaten sosyetedesinizdir muhtemelen. ",""
+"9A10A7FB49606C7EB237FAAFB878EE8C","CinematicNode_Response_25","Ktoś musiał przecież tu pana zaprosić. ","Birinin sizi buraya davet etmiş olması lazım. ",""
+"F6F0DEB1496DB50EE30AE89BC4A5154B","CinematicNode_Response_26","Na co pan liczy tego wieczoru?","Bu akşamdan ne umuyorsunuz?",""
+"0EDDEC0A4B5935109D2C2DAEEC6789A4","CinematicNode_Response_26","Kto wie? Być może rozglądam się za przyszłą panią Szulską. ","Kim bilir? Belki gelecekteki Bayan Szulska'yı arıyorum. ",""
+"6CD529434D071B4D685A76AF29CA4FC4","CinematicNode_Response_26","Życzę powodzenia. ","Başarılar dilerim. ",""
+"49D6ADE7403D626BE454CF9DA41C963B","CinematicNode_Response_26","Będzie panu potrzebne, skoro to Ligii przypadł w udziale cały spadek.","Lazım olur, ne de olsa miras Ligia'ya düştü.",""
+"2209266548FCA76DB388BA8B9921886B","CinematicNode_Response_27","Skąd pan wie te wszystkie rzeczy?","Bütün bunları nereden biliyorsunuz?",""
+"4D98C59D458C3BBC74BC2FAF992E1C66","CinematicNode_Response_27","Ludzie mówią, ja słucham. To wszystko. ","İnsanlar konuşur, ben dinlerim. Hepsi bu. ",""
+"2E77F96E421732A3CDA476AC370F7FA6","CinematicNode_Response_28","Moja siostra nie dostała w spadku <i>wszystkiego</>.","Kız kardeşim mirastan <i>her şeyi</> almadı.",""
+"83A27031403AB6BC4D11ADBFAF3BE52B","CinematicNode_Response_28","Tak, faktycznie. Stanisław miał przecież swoją małą, czarną, magiczną książeczkę.","Evet, gerçekten öyle. Stanisław'ın kendi küçük, kara, büyülü kitabı vardı.",""
+"EF6F447B448857F1B1F89F8C9341B4E4","CinematicNode_Response_28","Ale nie widzę, żeby miał ją pan przy sobie.","Ama onu yanınızda taşıdığınızı görmüyorum.",""
+"97670E3E401DF9267CD11DAEC63F367D","CinematicNode_Response_29","Kim pan właściwie jest?","Siz aslında kimsiniz?",""
+"798B66084F0A1F97C6C38E843878D3CF","CinematicNode_Response_29","Kimś, kto chce się jedynie dobrze bawić na przyjęciu. ","Davette sadece keyifli vakit geçirmek isteyen biri. ",""
+"77940BCC4E74F60F8CB1FCB1DFF07F80","CinematicNode_Response_30","Mówił pan, że kim był dla mojego ojca?","Babam için kim olduğunuzu söylemiştiniz?",""
+"D7DE4AF348C1B374945B2D940A405128","CinematicNode_Response_30","Zaufanym znajomym. Wspierałem go dobrą radą, choć po prawdzie rzadko jej potrzebował.","Güvenilir bir tanıdık. Ona iyi tavsiyelerde bulundum, ama doğrusu pek ihtiyacı olmazdı.",""
+"8369C24544D9946F4AD05F8EAB012DA0","CinematicNode_Response_30","Pański ojciec miał dar podejmowania dobrych decyzji.","Babanızın iyi kararlar verme yeteneği vardı.",""
+"3C16E4E244D69E77D38AE29A3BA793FC","CinematicNode_Response_30","O jakie decyzje mojego ojca chodzi?","Babanın hangi kararlarından bahsediyorsunuz?",""
+"06DACCBB41703451326D838265867716","CinematicNode_Response_30","O te, które były dobre dla waszej rodziny. Może jeszcze będziemy mieli kiedyś okazję do tego wrócić. ","Ailenize iyi gelen kararlardan. Belki bir gün buna geri dönme fırsatımız olur. ",""
+"A58C2F98445B0C75753FE7A98F5C5F9C","CinematicNode_Response_30","Do zobaczenia, panie Szulski.","Görüşmek üzere, Pan Szulski.",""
+"A6797E964079BE468CBDEB802499F368","CinematicNode_Response_30","Tak. Na pewno. ","Evet. Elbette. ",""
+"0D7A00FE46F4A14113B5998759C18884","CinematicNode_Response_31","Znajoma znajomego mojej znajomej organizuje to przyjęcie, więc można powiedzieć, że znam gospodynię. ","Bir tanıdığımın tanıdığının tanıdığı bu daveti düzenliyor, yani ev sahibesini tanıdığım söylenebilir. ",""
+"1F4859E344D78EFECFBF05934FDA5693","CinematicNode_Response_31","Samą Rumiancewę? No proszę. ","Rumiancewa'nın kendisini mi? Vay canına. ",""
+"A725EE564AF1619D25E7859896873667","CinematicNode_Response_31","A pana kto zaprosił?","Peki sizi kim davet etti?",""
+"5D9563BA4B5107AEB845B8BA371F5DAD","CinematicNode_Response_31","Znajoma znajomego mojej znajomej.","Bir tanıdığımın tanıdığının tanıdığı.",""
+"2BF0F40A450C887AA1FF83B3EA110C4B","CinematicNode_Response_32","Ja nie jestem godzien, moja siostra wzięła mnie ze sobą, chyba z litości.","Ben layık değilim, kız kardeşim beni yanında getirdi, muhtemelen acımasından.",""
+"3870A7DA428DFF334FB3DE8727680151","CinematicNode_Response_32","A więc panna Ligia też tu jest?","Demek küçük hanım Ligia da burada?",""
+"A2E5D3B94A16D614F41D88A374AF2415","CinematicNode_Response_32","Czemu pan pyta? ","Neden soruyorsunuz? ",""
+"73FB92474F35C023AAD39A9D8540893A","CinematicNode_Response_32","Bez powodu.","Sebepsiz.",""
+"D789F54E448B24F96C4069B026155B26","CinematicNode_Response_33","Dobrze pan zna to towarzystwo?","Bu topluluğu iyi tanıyor musunuz?",""
+"5FB429074AB50AC41B3848A6A191E6B5","CinematicNode_Response_33","Nie trudno ich rozgryźć. Grupa niespecjalnie bystrych próżniaków, którzy gonią za uciechą, za uciechą i za uciechą...","Onları çözmek zor değil. Pek de zeki olmayan, zevkin, zevkin ve yine zevkin peşinde koşan bir avare grubu…",""
+"666B737C4427737CBFCF67A875292C74","CinematicNode_Response_33","Czuje się pan częścią tej grupy?","Kendinizi bu grubun parçası mı hissediyorsunuz?",""
+"FA2413A14CDC12C5DB517C8B11A25F7F","CinematicNode_Response_33","Nie należę do nich. Ty też nie.","Ben onlardan değilim. Sen de değilsin.",""
+"394D849749B8940A239A26A7DB5E5281","CinematicNode_Response_33","Ani twój ojciec nie należał. ","Baban da onlardan değildi. ",""
+"0D1DAB5F40E4D3882FC8C48B52CB12B9","CinematicNode_Response_34","To samo mógłby powiedzieć lekarz, thaumaturg albo policjant. ","Aynı şeyi bir doktor, bir tılsımkâr ya da bir polis de söyleyebilirdi. ",""
+"F3B6A2F9418003332A8FE38D6621D0B5","CinematicNode_Response_34","Schlebia mi pańskie zainteresowanie.","İlginiz bana gurur veriyor.",""
+"199DE68548174EDE2CDF1795A1C89761","CinematicNode_Response_34","Kto wie, może niedaleko pada jabłko od jabłoni i jeszcze się kiedyś zaprzyjaźnimy?","Kim bilir, belki armut dibine düşer ve bir gün dostluk ederiz?",""
+"774719CF4AB836D48C1C969E7B69B581","CinematicNode_Response_35","Jak dobrze znał pan moją jabłoń?","Benim armut ağacımı ne kadar iyi tanıyordunuz?",""
+"5D0550934AB50F8258AE959D76EA10E4","CinematicNode_Response_35","Lubiliśmy ze sobą rozmawiać, pomagać sobie. ","Konuşmayı, birbirimize yardım etmeyi severdik. ",""
+"3C88355E43DDA193AC5F9FBA1D6AFF43","CinematicNode_Response_36","Na nic nie liczyłem. No, może poza tym, żeby dobrze się teraz napić.","Hiçbir şey ummuyordum. Ya, belki şimdi güzel bir içki içmek dışında.",""
+"8D82AD2F413FFBCD7587B1A974110CF7","CinematicNode_Response_36","Może niektóre jabłka faktycznie padają dalej od jabłoni?","Belki bazı armutlar gerçekten dibine düşmez?",""
+"62378DD649C93F21FEDE9985E1736DC0","CinematicNode_Response_37","Panie Szulski.","Pan Szulski.",""
+"CE18A7B0487F3030B062E599F2B61D53","CinematicNode_Response_37","Zdradzi mi pan powody swojej wizyty tutaj?","Buradaki ziyaretinizin sebebini söyler misiniz?",""
+"D2898E1444A6F0B4B8160A9423DB2E00","CinematicNode_Response_38","Proszę wybaczyć, mam zobowiązania, do których spieszę.","Bağışlayın — yetişmem gereken meşgaleler var.",""
+"9B33E31C4ED0AF8C442B739ABF52FDD6","CinematicNode_Response_38","Dobrej zabawy.","İyi eğlenceler.",""
+"B7C9184C462758E17009129C6D1C068B","CinematicNode_Response_39","Pan Szulski.","Pan Szulski.",""
+"875658E04A49A547B7EACA951569827A","CinematicNode_Response_40","Zdecydował się pan zostać jednak na dłużej w Warszawie?","Varşova'da daha uzun süre kalmaya karar mı verdiniz?",""
+"5022BF274CD659165ED7C19D79EB82B5","CinematicNode_Response_40","Słucham?","Efendim?",""
+"A2139C7F43DA3A8A5E877DBABF77F3EE","CinematicNode_Response_40","Poznaliśmy się na cmentarzu.","Mezarlıkta tanışmıştık.",""
+"AAC191FF4080499C2EB0708A2C74AC7C","CinematicNode_Response_40","Tak, pamiętam, po prostu...","Evet, hatırlıyorum, sadece…",""
+"FDE1337F44DC3910463FF9968EFC7D7C","CinematicNode_Response_41","Mógłbym zadać panu to samo pytanie.","Aynı soruyu size de sorabilirdim.",""
+"DD01AEC04EF7BF29CCBA82AEEA8582EF","CinematicNode_Response_42","A co pan tu robi, Konieczkin?","Peki siz burada ne yapıyorsunuz, Konieczkin?",""
+"E177D892423D68F4F02CA383D9317719","CinematicNode_Response_43","Dwóch nie dam rady nosić. Zostawiłem go w domu.","İki tanesini taşıyamam. Evde bıraktım.",""
+"25F097DC449E9E46262F38A2448B679A","CinematicNode_Response_43","Zrozumiałe.","Anlaşılabilir.",""
+"DDD48E0B4BC15C7B1EC835A6A925D632","CinematicNode_Response_44","Prawda jest taka, że... Czarny Grymuar zaginął.","Gerçek şu ki… Kara Grimuar kayboldu.",""
+"DBF799FB4E5298CF2833F7B5FAAE863B","CinematicNode_Response_44","I tutaj prowadzi pan poszukiwania?","Aramayı burada mı yürütüyorsunuz?",""
+"32FAA1C046ED8F45D57B51A7EBAC941E","CinematicNode_Response_44","Gdzie indziej szukać informacji, jak nie w siedlisku plotek?","Bilgi dedikodu yuvası dışında nerede aranır?",""
+"17B5D43447112317AB26E7B8FA94FFAC","CinematicNode_Response_44","Nie mogę się z panem nie zgodzić.","Size hak vermekten başka çarem yok.",""
+"00166C6F42F7E539CBE8518E91FB11F6","CinematicNode_Response_45","Jeśli pan pozwoli, nurtuje mnie pewne pytanie. Jak pan zdobył tyle blizn?","İzninizle, aklımı kurcalayan bir soru var. Bu kadar yara izini nasıl aldınız?",""
+"1D5ED45049A6D40F441C89AFA284FAA1","CinematicNode_Response_45","Czemu pan pyta?","Neden soruyorsunuz?",""
+"95557C6A4C49E035F1557E8D8C28EE8D","CinematicNode_Response_45","Słyszałem, że rosyjscy oficerowie podczas szkolenia, po godzinach, pojedynkują się na szable po pijaku.","Duyduğuma göre Rus subayları eğitim sırasında, mesai sonrası, sarhoşken kılıçla düello ediyorlarmış.",""
+"6E2E3E7E4F55D683DA7F7ABB75BA697A","CinematicNode_Response_45","Bardzo dziwny zwyczaj, jeżeli to prawda.","Doğruysa, çok tuhaf bir gelenek.",""
+"73C0E877488FD9ED5AD13CA4527C230A","CinematicNode_Response_45","A więc skąd te blizny?","Peki o yara izleri nereden?",""
+"8379AB2D4A5A576AE6BA1E8B24D5E0A0","CinematicNode_Response_45","Wiodłem ciekawe życie.","İlginç bir hayat yaşadım.",""
