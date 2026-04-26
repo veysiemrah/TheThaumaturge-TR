@@ -183,8 +183,9 @@ $benioku = @"
 ╚══════════════════════════════════════════════════════════════╝
 
 Bu yama The Thaumaturge oyununu Türkçe'ye çevirir. Yaklaşık
-20.500 satır metin insan gözüyle gözden geçirilerek çevrilmiştir:
-diyaloglar, menüler, codex, journal, başarımlar ve daha fazlası.
+22.900 satır metin insan gözüyle gözden geçirilerek çevrilmiştir:
+diyaloglar, ortam mırıltıları, menüler, codex, journal, başarımlar
+ve daha fazlası.
 
 Ses değişmez (Lehçe/İngilizce seslendirme korunur).
 

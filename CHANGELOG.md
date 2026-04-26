@@ -10,6 +10,49 @@ Bir sonraki yayın için birikecek değişiklikler.
 
 ---
 
+## [0.10.0] — 2026-04-26
+
+Büyük sıçrama: **Vset (ortam NPC mırıltıları) kategorisi %63 → %99 (252 → 394 asset)**. 12 bölgeye yayılan ortam NPC fısıltıları artık tamamen Türkçe — sokak satıcıları, dilenciler, fahişeler, polisler, denizciler, balıkçılar, dok işçileri, salonda dans eden zenginler, fabrikadaki işçiler. Toplam yaklaşık 22.931 satır metin Türkçedir.
+
+### Eklendi
+
+**Vset (304 yeni asset / ~1.130 satır)** — kategori %99:
+
+- **DS Skałon balosu** (37 asset) — courtlady/diplomat/rich_citizen/rich_russian/soldier/waiter; q301 baloyla bağlantılı (Çar audience çevresi)
+- **PRL q001 Rasputin köyü** (18 asset) — köylü kadın/erkek (kış/hasat/"licho"=cin), meyhane patron (siwuszka), askerler (firari, Viyana), tradeswoman (firarilerle takas), çocuk halk şarkısı "Hu-hu-ha"
+- **GRZ Mirów Yahudi semti** (35 asset) — Yidişçe `<yd>...</>` korunarak: berber, dilenci (akwawita kâbusu), inananlar (Sofer/Feldman/szacharit/mincha/ma'ariw — Nożyk sinagogu), commoner (Yidiş atasözleri), goon (Mojki gösterişi/Loch boks salonu), tüccarlar (Łokszyny/Kreplech/Cymesik/challah)
+- **PR Praga (cerkiew + hastane)** (37 asset) — q202 ortodoks kilisesi mucizesi + Ujazdowski hastanesi: Ojczulek pederim, "<dl>cichodajka</> ladacznicę" söylenti, "<i>hameryka</>", <dl>doliniarz</> yankesici, kolera/tifüs/histeri vakaları, askerler nöbet
+- **SMG Smolna semti** (38 asset) — q102 + lw_smg01 paralel: butik müşterileri (Klimkiewicz Avrupa malları), priest m_01 sempatik / m_02 sert, gizli üniversite öğrencileri (Dickstein/Skłodowska/Prus/Freud), hizmetkârlar, kokain "Koka", Smolna terzisi (21 satır küfürlü argo)
+- **PW Powiśle bohem semt** (51 asset) — q201 polis seri katil bölgesi: dilenciler, balıkçılar, goon_child fabrika çocukları, Mietek Koniokrad kabadayı, "<dl>klawisz</>" gardiyan göndermeleri, Sobieski cahili, fahişeler (Ciotka Jadzia + Patrycja işi + Karın Deşen Jack imali + Mojki çetesi), ring_commoner boks tribün küfürü
+- **PP Praga liman/bohem** (44 asset) — q104 Krampus + Wiktor finali: berber, abartılı kabadayı "ja tu jestem królem", balık adı serisi, "ankohol na angielki" İngiliz votkası, dock_worker "<dl>cewilizacja</>" yanlış telaffuz, Rus polisi <ru>Blyat/Polyaki</>, denizkızı doğumlu fahişe, Fransız <fr>Marseillaise</>, Latający Holender
+- **SMC Śródmieście kent merkezi** (44 asset) — q201/q202/q203 ana hikâye: Londyński Bar, "<dl>Faytoncular</> kazıkçı", Mojki''ye borç + Imperial önü taciz, kıskanç koca "<dl>ressamı</> obiję", Skałonówna baloya geliyor (q302 çapraz), borsa krizi/altın yatırım, <i>Wyklęty powstań</> Internationale alıntısı
+- **q104 quest-spesifik** (3 asset) — Ariel Rofe (Yidiş), Javier (İspanyolca), Oksana (Rusça) yabancı dil mırıltısı
+
+**Diyalog ek (5 asset)** — global_chats + lw ek + Mojki çetesi sahneleri. 555/687 (%80.8).
+
+### Düzeltildi
+
+**18 review turu / 846 düzeltme** (10 önceki + 8 bu sürümde):
+- Pakt → Ant (q301 yemin sahnesi), Ohrana → Ochrana, Doktor → Hekim, konował → şarlatan
+- TR sütun toplu `...` → `…` (165 dosya, scripts/fix_tr_triple_dots.ps1)
+- Naczelnik → Amir/amir bey, Çar konuşması çift olumsuz düzeltme, Cytadela → Sitadel tutarsızlık
+- Mikołaj Çar adı + Rzeczpospolita özel ad tutarlılığı
+
+**Glossary kararları**: q104 yabancı dil koruma kuralı (`<i>Muy bien</>`/`<ru>moya golova</>`/`<fr>Marseillaise</>` aynen), `<dl>` argo etiketleri (klawisz → gardiyan, gliny/glina → aynasız, kapuś → muhbir, fart → şans, wersal → saray, Mojki çetesi adı korundu, Cytadela → Sitadel).
+
+### Proje durumu (v0.10.0)
+
+- UI / StringTable: 26/27 (%96)
+- Diyalog: **555/687 asset** (%80.8)
+- **Vset: 394/398 asset (%99)** — yeni
+- Journal: 91/91 (%100)
+- Codex DT: 5/5 (%100)
+- Readables: 47/47 (%100)
+- Toplam: **~22.931 satır**
+- Deploy: `pakchunk99-WinGDK_P.ucas` 15.46 MB
+
+---
+
 ## [0.9.1] — 2026-04-23
 
 Beta içeriğine ekleme: GenericEncounters kategorisi %100 kapandı, LivingWorld kategorisi eklendi. Toplam 44 diyalog asset / ~910 satır.
