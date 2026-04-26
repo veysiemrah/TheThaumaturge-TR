@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-25 (Vset DS+PRL+GRZ+PR+SMG bölgeleri 165 asset deploy — toplam Vset 252/398)
+**Son güncelleme:** 2026-04-26 (Vset PW Powiśle bölgesi 51 asset deploy — toplam Vset 303/398)
 
 ---
 
@@ -12,13 +12,13 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog (ana story + Default + Chat)** | 555 asset | 687 asset | %80.8 | ~16564 |
-| **Vset (ortam NPC mırıltı)** | 252 asset | 398 asset | %63 | ~892 |
+| **Vset (ortam NPC mırıltı)** | 303 asset | 398 asset | %76 | ~1200 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~22311 satır** |
+| **GENEL** | — | — | — | **~22619 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
@@ -337,9 +337,9 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - Örnek IC_bzr01: 13 satır (eşya açıklamaları + İzler + Çıkarımlar)
 - **Tahmini 400–600 satır** toplamda
 
-### Vset — ortam NPC mırıltıları (124/398 ✓)
+### Vset — ortam NPC mırıltıları (303/398 ✓)
 
-**398 asset**, `GrimoireContent/Quests/Vset/` altında. Çevrilen 124 asset (~397 satır):
+**398 asset**, `GrimoireContent/Quests/Vset/` altında. Çevrilen 303 asset (~1200 satır):
 - **Important_NPCs + General_crowd** (15) — Wiktor/Abaurycy/Ligia/Woronin + coachman/paperboy/russian + Wiktor success/failure/searching iç sesleri
 - **CM Mezarlık** (26) — gravedigger, mourner, undertaker, commoner, goon, trader, policeman, barber + 01i_bandits_funeral
 - **CYT Sitadel** (7) — prisoner, soldier, soldier_officer
@@ -349,8 +349,9 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - **GRZ Mirów Yahudi semti** (35) — Yidişçe `<yd>...</>` tag'leri korunarak: berber (sakal/Yahudi atasözü), dilenci (akwawita kâbusu), inananlar (rabbi Sofer / Feldman / şacharit / mincha / ma'ariw — Nożyk sinagogu çevresi), commoner (Lehçe-Yidiş atasözleri), goon (kitap kurdu / Mojki gösterişi / Loch boks salonu), tüccarlar (Łokszyny/Kreplech/Cymesik/challah pazar bağırması)
 - **PR Praga (Ortodoks kilisesi + hastane)** (37) — q202 ortodoks kilisesi mucizesi + Ujazdowski hastanesi: dilenciler (kilise önü), inananlar f+m (Ojczulek pederim, "Magik w cerkwi" Wiktor şaşkınlığı, "<dl>cichodajka</> ladacznicę" söylenti), commoner f/m + poor + rich (cerkiew şikayet, "<i>hameryka</>"), goon ("<dl>doliniarz</>"/yankesici), medic f+m (kolera/tifüs/histeri, ampul takılı vaka, <i>Różyc</> kabadayıları), patient (gruźlica/morfin/lazımlık takası), askerler (kilise önü <dl>doliniarz</> nöbeti)
 - **SMG Smolna semti** (38) — q102 + lw_smg01 paralel: dilenciler (kilise önü, fabrika kazası), butik müşterileri (Klimkiewicz/Avrupa malları), Katolik commoner (anti-Yahudi vaaz "thaumat"lara çatma), priest m_01 sempatik / m_02 sert (anti-magia), gizli üniversite öğrencileri (Dickstein hocası, Tomaszewicz-Dobrska + Skłodowska + Prus + Freud referansları), hizmetkârlar (lazımlık taşıyan çocuk + soylu ev şikayet), öğrenciler (Skłodowska Nobel, kokain "Koka" gazlı içecek, Latin-Roma hukuku şikayeti, Niepodległa konuşma "Bağımsız Polonya'ya"), Smolna terzisi (21 satır küfürlü Lehçe argo: <dl>kurewniki</>/sürtükçüler, <dl>kortyzanki</>, <dl>kurwi macierzy synu</>, <dl>kiepa</>, <dl>murwy</>, <dl>Pokrzywnik</>)
+- **PW Powiśle (Wisła kıyısı bohem semt)** (51) — q201 polis seri katil bölgesi: dilenciler (filozofik/aç/yaşlı + tuvalet meraklısı umumî helâ esprileri), commoner (taşralı şikayet/Halinka annesi/yabancı düşmanı/sarhoş depresif/ayyaş + dindar Latin dua), balıkçılar (paranoyak/küfürbaz/heyecanlı Wisła oltası), goon_child (fabrikada çalışan/dilenci/yetim çocuk haydutlar), goon (magik adamı/cep hırsızı/Mietek Koniokrad kabadayı/<dl>klawisz</> gardiyan göndermeleri/Sobieski cahili), polis (melankolik/psikolojik/zalim "yasayım sayım cellatım"/dindar Latin dua), fahişeler (Ciotka Jadzia kontrol + Patrycja işi + sağlık/kürtaj + Karın Deşen Jack imali + Różyc'te aşk + Mojki çetesi), ring_commoner (kumar kaybı + boks tribün küfürü "<dl>luju</> cepem chędożony"), worker (ayyaş/sendikacı/iş kazası/aile baskısı + fahişe övgüsü)
 
-Kalan 146 asset (en düşük öncelik): PP (44), PW (51), SMC (44), Quest (~7). Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
+Kalan 95 asset (en düşük öncelik): PP (50), SMC (50), Quest (~7). Bootstrap hazır (build/vset_extract + build/vset_json + source/pl/*vset*.csv); sadece TR yazımı + apply.
 
 ### ImprintsDescription_DT — 1 asset
 
