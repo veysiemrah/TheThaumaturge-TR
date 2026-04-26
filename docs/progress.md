@@ -2,7 +2,11 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-26 (Vset PW + PP + SMC + q104 bölgeleri 142 asset deploy — toplam Vset 394/398)
+**Son güncelleme:** 2026-04-26 (Vset PW + PP + SMC + q104 142 asset deploy — toplam Vset 394/398. **Oturum sonu keşfi:** LW yan görev ana sahneleri 90 asset / ~4.176 satır çevrilmemiş — v0.11.0'a kalan iş.)
+
+> **⚠️ 2026-04-26 keşfi:** Diyalog audit'i `build/audit_content/.../Quests/Dialogues/lw_*/Assets/` altında 90 asset / 4.176 satır LW yan görev ana sahnesinin çevrilmemiş olduğunu ortaya çıkardı. Eski "lw_* %100 ✓" kaydı sadece Chat varyantlarını sayıyormuş; ana karşılaşmalar açıkta. Detay: CLAUDE.md "Sonraki oturumda" bölümü.
+>
+> Aynı oturumda ayrıca: `sq001/Chats` ve `sq001/GameplayFluffs` klasörlerinin **boş** olduğu doğrulandı (kapsam dışı varsayımı haklı). `lw_timeSkipScenes` (8 asset / 319 satır) kısa metin içeriyor (zaman atlama seçenekleri).
 
 ---
 
