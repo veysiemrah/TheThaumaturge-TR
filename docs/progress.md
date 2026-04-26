@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-26 (Vset PW + PP + SMC bölgeleri 139 asset deploy — toplam Vset 391/398)
+**Son güncelleme:** 2026-04-26 (Vset PW + PP + SMC + q104 bölgeleri 142 asset deploy — toplam Vset 394/398)
 
 ---
 
@@ -12,13 +12,13 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
 | **Diyalog (ana story + Default + Chat)** | 555 asset | 687 asset | %80.8 | ~16564 |
-| **Vset (ortam NPC mırıltı)** | 391 asset | 398 asset | %98 | ~1503 |
+| **Vset (ortam NPC mırıltı)** | 394 asset | 398 asset | %99 | ~1512 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~22922 satır** |
+| **GENEL** | — | — | — | **~22931 satır** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
@@ -337,9 +337,9 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - Örnek IC_bzr01: 13 satır (eşya açıklamaları + İzler + Çıkarımlar)
 - **Tahmini 400–600 satır** toplamda
 
-### Vset — ortam NPC mırıltıları (391/398 ✓)
+### Vset — ortam NPC mırıltıları (394/398 ✓)
 
-**398 asset**, `GrimoireContent/Quests/Vset/` altında. Çevrilen 391 asset (~1503 satır):
+**398 asset**, `GrimoireContent/Quests/Vset/` altında. Çevrilen 394 asset (~1512 satır):
 - **Important_NPCs + General_crowd** (15) — Wiktor/Abaurycy/Ligia/Woronin + coachman/paperboy/russian + Wiktor success/failure/searching iç sesleri
 - **CM Mezarlık** (26) — gravedigger, mourner, undertaker, commoner, goon, trader, policeman, barber + 01i_bandits_funeral
 - **CYT Sitadel** (7) — prisoner, soldier, soldier_officer
@@ -353,7 +353,7 @@ Oyundaki **tüm çevrilebilir metnin** %100'ünü kapsaması için keşfedilen e
 - **PP Praga (Wisła doğu yakası, liman/bohem semt)** (44) — q104 Krampus + Wiktor finali bölgesi: berber Praga argosu, beggar f+m (kanaatkar/aç/abartılı kabadayı "ja tu jestem królem"/intihar imalı/balık adı serisi tek-kelimelik komedi), commoner f+m + commoner_poor (İngiliz votkası/koleradan boğulan baba/küflü tütün şüphesi/eski banka veznedarı derbi kaybı), dock_worker (Amerika hayali/sosyetik argo "ecie-pecie pelcowiznę dryndą"/<dl>cewilizacja</> yanlış telaffuz), goon (Praga rewir kontrolü, "Pary z pyska nikt nie puści", Zdzisiek "więcej bulić"), polis (Rus polisi <ru>Blyat</> + <ru>Polyaki</>/rüşvetçi <i>egzotyk</> ceplere/zalim baskın fantazileri/kibirli kâfir vahşiler), fahişeler (denizkızı doğumlu, denizci tipi, hayalperest <i>kiszeniasa</> özlemi, doğrudan rubel teklifi, hayatta kalan + erkek fahişe denizcilere), denizciler (rom + Varşovalı kızlar şarkısı, kara sıçanı kıyas, Fransız <fr>Bonne prise/Marseillaise</>, Latający Holender/Uçan Hollandalı, <i>Syreni Gród</> denizkızı şehri lakabı)
 - **SMC Śródmieście (kent merkezi, q201/q202/q203 ana hikâye bölgesi)** (44) — Londyński Bar müşterileri (votka, "rozwadniają piwo"), commoner f+m kentli (tramvay/tamirat/kalabalıklık şikâyeti, "<dl>Faytoncular</> kazıkçı"), commoner_poor f+m (aç çocuklar, sigaraya gidip dönmeyen koca, Imperial önü taciz, Mojki''ye borç, Cytadela soran taşralı, "pańska skórka" merakı), goon (kıskanç koca <dl>ressamı</> dövme, "Stodoła i komora w Imperialnym", Imperial Imperial avantasındaki üç kuruşluklar şikayeti, "<dl>jartiyere bağlamak</>" + "<dl>tabana çekmek</>" tehditleri, "<dl>Fart</> dönmek zorunda" hayalleri), polis (rüşvet kazancı azlığı/Jadzia Teyzenin Evine bütçe yetmiyor, "<dl>jeleń przyfilować</>" enayi avı, son kasa hırsızı rüya mıydı, "fazla yaşlıyım bu boktan iş için", Aleje atlardan kurtarma kahramanlık), rich_party f+m (Skałon kızı dedikodusu/Polewska terzi/Paris elbiseleri, borsa krizi/altın yatırım, çiftlikte yeni tazı, derbi kazançları), worker m (vardiya bitmiyor, fabrika "<dl>fucha</>", grev beklentisi + "Mecie, Secie" kacap tükürmesi + <i>Wyklęty powstań, ludu ziemi</> Internationale alıntısı, kanalizasyon "Yahudi tezgâhı" şüphesi, "po szychcie kremówki" özlemi)
 
-Kalan 7 asset (en düşük öncelik): Quest (~7) — `q103_04g_countess_vset_chats`, `q103_04h_scientist_vset_chats`, `q104_vset_ariel_rofe_pp` + javier_pp + oksana_pp + krampus_pp + Krampus_after gibi quest-spesifik vset asset''leri.
+Kalan ~4 asset (en düşük öncelik): bilinmeyen quest-spesifik vset asset''leri varsa kalmıştır; `q103_04g_countess_vset_chats` + `q103_04h_scientist_vset_chats` (q103 paketinde) + `q104_vset_ariel_rofe_pp/javier_pp/oksana_pp` (Yidiş/İspanyolca/Rusça yabancı dil mırıltısı) hep çevrildi.
 
 ### ImprintsDescription_DT — 1 asset
 
