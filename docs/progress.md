@@ -2,11 +2,13 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-04-26 (Vset PW + PP + SMC + q104 142 asset deploy — toplam Vset 394/398. **Oturum sonu keşfi:** LW yan görev ana sahneleri 90 asset / ~4.176 satır çevrilmemiş — v0.11.0'a kalan iş.)
+**Son güncelleme:** 2026-04-27 (regresyon tarama + 2 LOSS asset düzeltildi + InsightsConclusions kapsamı netleşti — 40 asset / 2581 entry).
 
-> **⚠️ 2026-04-26 keşfi:** Diyalog audit'i `build/audit_content/.../Quests/Dialogues/lw_*/Assets/` altında 90 asset / 4.176 satır LW yan görev ana sahnesinin çevrilmemiş olduğunu ortaya çıkardı. Eski "lw_* %100 ✓" kaydı sadece Chat varyantlarını sayıyormuş; ana karşılaşmalar açıkta. Detay: CLAUDE.md "Sonraki oturumda" bölümü.
+> **⚠️ 2026-04-27 keşfi:** `InsightsConclusions/IC_*.uasset` ailesinin "metin İÇERMEZ" kaydı **yanlıştı**. Bu 40 asset gerçek içerik taşıyor (NPC çıkarım metinleri, eşya gözlem başlık+açıklama çiftleri = 2.581 entry). Dump'lar `source/pl/IC_*.csv`, TR boş iskelet `translation/IC_*.csv` hazır — çeviri başlamadı.
 >
-> Aynı oturumda ayrıca: `sq001/Chats` ve `sq001/GameplayFluffs` klasörlerinin **boş** olduğu doğrulandı (kapsam dışı varsayımı haklı). `lw_timeSkipScenes` (8 asset / 319 satır) kısa metin içeriyor (zaman atlama seçenekleri).
+> **Regresyon olayı:** 2026-04-25 oturumunda `tmp_apply_changed.ps1` (chat-only `-AllRawExports` heuristic'i) `CM_scene_suspicious_guy` (3 hash) ve `q103_02b_elegant_men_after_fight` (4 hash) asset'lerinde TR kaybına yol açtı. Tüm 691 non-vset CSV taraması bu 2 olayı tespit etti; 27.04'te onarıldı. Riskli `tmp_apply_*` script'leri silindi.
+>
+> **2026-04-26 keşfi devam eder:** LW yan görev ana sahneleri (90 asset / 4.176 satır) hâlâ açık. `sq001/Chats` ve `sq001/GameplayFluffs` boş klasörler (kapsam dışı doğru). `lw_timeSkipScenes` (8 asset / 319 satır kısa metin) opsiyonel.
 
 ---
 
@@ -22,7 +24,8 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
-| **GENEL** | — | — | — | **~22931 satır** |
+| **InsightsConclusions** | 0 asset | 40 asset | %0 | ~2581 (iskelet hazır) |
+| **GENEL** | — | — | — | **~22931 satır deploy / +2581 IC + ~4176 LW açık** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47).
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).

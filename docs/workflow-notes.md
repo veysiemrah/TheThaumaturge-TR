@@ -23,7 +23,8 @@ Bu dosya projenin **kanonik oturum aktarma notudur**. Yeni bir oturum başlarsa,
 - **`.locres` / `.locmeta` dosyası YOK.** UE'nin standart lokalizasyon yapısı bu oyunda kullanılmıyor.
 - **UI metinleri:** `GrimoireContent/**/StringTables/*_ST.uasset` içindeki **StringTable** asset'lerinde gömülü (Polonya baseline değerleri).
 - **Dil seçimi özelliği:** Oyun dili ayarı StringTable'ları etkilemiyor; yani UI'a dair bizim değiştirdiğimiz bir StringTable değeri **tüm dillerde aynı görünür**. Diğer dillerin UI metni nereden geliyor hâlâ tam bilinmiyor ama bu bizi kısıtlamıyor — bir StringTable çevirsek, **her dil seçiminde Türkçe çıkar**.
-- **Diyalog metinleri:** `Quests/Dialogues/<quest>/Assets/<scene_GRAPH>/Seq/{en,pl}/Lines/Seq-*.uasset` — dile özel klasörler. Oyuncu dil seçimine göre yüklenir. (Henüz diyalog çevirisine geçilmedi.)
+- **Diyalog metinleri:** `Quests/Dialogues/<quest>/{Assets,Chats}/<name>.uasset` — **dile özel değil, ortak**. Oyun dili ne seçilse aynı asset yüklenir. Hash+text çiftleri export blob'larına gömülü (`CinematicNode_Choice_*` / `CinematicNode_Response_*` ve Chat asset'lerinde `RawExport.Data` base64). Pipeline: `scripts/dialog_dump.ps1` + `scripts/dialog_apply.ps1`. Chat / GameplayChat / Vset / Journal / Readable / InsightsConclusions için `-AllRawExports` flag'i **zorunlu**.
+- **Vset / Journal / Readable / InsightsConclusions metinleri:** Aynı dialog graph yapısı, farklı klasörler — `Quests/Vset/<bölge>/...uasset`, `Quests/Journal/...`, `Quests/Readables/...`, `Quests/InsightsConclusions/...`. Hepsi dile özel değil (tek ortak dosya).
 - **Mod pak stratejisi:** Orijinal `pakchunk0-WinGDK.*` dokunulmaz. Bizim çıktı: `pakchunk99-WinGDK_P.{pak,ucas,utoc}` — alfabetik sonda yüklenir, üstüne yazar.
 
 ---
@@ -171,15 +172,14 @@ Türkçe diakritik içeren değerler otomatik olarak UTF-16LE'ye geçer (negatif
 
 **Tam ilerleme çizelgesi:** `docs/progress.md` — kanonik kayıt. Kategori/bölüm bazında asset/satır sayıları, ✓/✗ işaretli. Her çeviri seti sonrası önce orası güncellenir.
 
-### Hızlı özet (2026-04-19)
+### Hızlı özet
 
-- **StringTable:** 26/27 ✓ (~1539 entry). Kalan: `DebugText_ST` (opsiyonel, oyuncu görmez).
-- **Diyalog:** 148/687 asset ✓ (~3810 satır) — Bölüm 1 (q001-q103) + Default + Chat.
-- **Journal:** 91/91 ✓ (%100) — ana story 25 + LW 14 + POI/Postcards 47 + Codex DT 5; ~1337 satır.
-- **Readables:** 15/47 ✓ (ana story quest q001-q302, ~811 satır). Kalan 32 asset / ~1178 satır; source'lar `source/pl_readables/` hazır.
-- **Review:** Tam kapalı (2026-04-18); 28 düzeltme deploy'lu. Günlük: `docs/translation-review.md` → Bölüm 7.
+Detaylı kayıt için **`docs/progress.md`** (kanonik). CLAUDE.md "Proje durumu" bölümünde hep güncel özet bulunur. Burada sadece pipeline-ilişkili durum:
+
+- **StringTable:** 26/27 ✓; tek kalan `DebugText_ST` (oyuncu görmez, opsiyonel).
+- **Diyalog/Journal/Readable/Vset:** Çoğu kategori ✓; LW yan görev ana sahneleri (~90 asset / ~4.176 satır) ve InsightsConclusions (40 asset / ~2.581 entry) açık.
+- **Review:** 18+ tur kapanmış; her review fix'inden sonra `scripts/validate_csv_columns.ps1` çalıştırılır.
 - **Deploy'lu mod pak:** `C:\XboxGames\The Thaumaturge\Content\TheThaumaturge\Content\Paks\pakchunk99-WinGDK_P.*`
-- **Sıradaki iş:** Readables (LW + POI + ortam = 32 asset), sonra q104+ dialog ve sq001. Detay: `docs/progress.md`.
 
 ### StringTable byte layout'u (doğrulandı)
 
@@ -202,7 +202,11 @@ Tüm `*_ST.uasset` dosyalarındaki `RawExport.Data` base64 blob'u şu yapıya sa
 
 ### QA aşaması — bekleyen belirsizlikler
 
-Tek istisna: `ImprintsDescription_ST` Maria → "Sigara İçen Kadın" (Palaczka hem tiryaki hem ateşçi anlamına gelir; kullanıcı oyunda karakteri görünce netleşecek). Diğer tüm belirsizlikler 2026-04-18 review turunda kapandı — detay: `docs/translation-review.md`.
+Tek istisna: `ImprintsDescription_ST` Maria → "Sigara İçen Kadın" (Palaczka hem tiryaki hem ateşçi anlamına gelir; kullanıcı oyunda karakteri görünce netleşecek). Diğer tüm belirsizlikler review turlarında kapandı — detay: `docs/translation-review.md`.
+
+### Riskli pipeline tuzağı (2026-04-25 olayı)
+
+Toplu apply yapan herhangi bir script `-AllRawExports`'u **her zaman** vermelidir; naming-tabanlı heuristic (`*_chat*`) güvensizdir. 2026-04-25'te kullanılan `tmp_apply_changed.ps1` / `tmp_apply_all_changed.ps1` script'leri, chat naming taşımayan `CM_scene_suspicious_guy` ve `q103_02b_elegant_men_after_fight` asset'lerinde ek RawExport blob'larındaki TR'yi PL'ye geri çevirdi. Tarama tüm 691 non-vset CSV'de yalnızca bu 2 olay buldu, 27.04'te düzeltildi. Riskli script'ler silindi. Yeni: `scripts/diag_dialog_tr_loss.ps1` (gelecekte regresyon kontrolü için).
 
 ---
 
