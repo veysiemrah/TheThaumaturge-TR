@@ -10,6 +10,35 @@ Bir sonraki yayın için birikecek değişiklikler.
 
 ---
 
+## [0.10.1] — 2026-04-27
+
+**Hata düzeltme sürümü:** Önceki bir oturumdaki bir araç-script regresyonunu (heuristic-tabanlı toplu apply) gideren acil yama. Naming'inde "_chat" geçmeyen 12 dialog asset'inde ek RawExport blob'larındaki Türkçe metin Polonyaca'ya geri çevrilmişti — 691 dialog CSV'lik tam tarama bu kayıpları tespit etti, hepsi onarıldı.
+
+### Düzeltildi
+
+**12 asset / 41 hash TR'ye geri yazıldı:**
+- `CM_scene_suspicious_guy` (3) + `q103_02b_elegant_men_after_fight` (4) — Hotel Imperialny lobi
+- `lw_cm01_02a_wta_headquaters` (7) — WTA agent karargâh
+- `q104_02d_karas_wagon` (5), `q104_00d_gossiping_woman` (4), `q104_01g_rasputin_party` (3) — q104 sahneleri
+- `smc_scene_police_station_01-04` (10) — Śródmieście polis karakolu 4 sohbet
+- `lw_smc01_journalist_knocking` (3), `lw_smc03_03a_station_guard` (2) — LW yan görev sahneleri
+
+### Eklendi
+
+- `scripts/diag_dialog_tr_loss.ps1` — kayıp tarayıcı + `-Repair` modu (gelecekte regresyonları otomatik tespit eder)
+- `scripts/fix_journal_readable_apply.ps1` — Journal/Readables için aynı türden hatayı onarıcı
+
+### Hazırlık (sonraki sürüm için)
+
+- **40 InsightsConclusions iskelet** (`translation/IC_*.csv`, 2.581 entry) — TR boş; çıkarım/gözlem panelleri için. Daha önce "metin İÇERMEZ" kaydı yanlıştı; bu kategori ciddi içerik taşıyor.
+- **85 LW yan görev iskelet** (4.172 entry) — Powiśle Karın Deşen Jack arc'ı, CM mezarlık WTA agent zinciri, Śródmieście fabrika grevi vb. dahil.
+
+### Risk Yönetimi
+
+Heuristic tabanlı (`*_chat*`) toplu apply script'leri (`tmp_apply_changed`, `tmp_apply_all_changed`) silindi. Toplu pipeline'da `-AllRawExports` koşulsuz verilmesi kuralı `docs/workflow-notes.md`'ye eklendi.
+
+---
+
 ## [0.10.0] — 2026-04-26
 
 Büyük sıçrama: **Vset (ortam NPC mırıltıları) kategorisi %63 → %99 (252 → 394 asset)**. 12 bölgeye yayılan ortam NPC fısıltıları artık tamamen Türkçe — sokak satıcıları, dilenciler, fahişeler, polisler, denizciler, balıkçılar, dok işçileri, salonda dans eden zenginler, fabrikadaki işçiler. Toplam yaklaşık 22.931 satır metin Türkçedir.
