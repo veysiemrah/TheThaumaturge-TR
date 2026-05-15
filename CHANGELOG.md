@@ -10,6 +10,51 @@ Bir sonraki yayın için birikecek değişiklikler.
 
 ---
 
+## [0.11.0] — 2026-05-16
+
+**InsightsConclusions kategorisi tamamlandı.** Oyuncunun NPC ve eşya analizi (Çıkarım & Sonuç panelleri) artık tamamen Türkçe — 40/40 asset / **~2.581 entry**. Bu sürümle yaklaşık **25.500 satır** metin Türkçedir.
+
+### Eklendi
+
+**InsightsConclusions (40 asset / ~2.581 entry)** — kategori %100:
+
+- **Ana hikâye (12 asset / ~1.282 entry)** — q001 (Rasputin köyü) + q101–q104 (Wanda + Wiktor babası + Hotel Imperialny + Powiśle Krampus) + q201a/b–q203 (Mirów/Golem + Ariel Rofe + Cemiyet + Rasputin "diriliş") + q301/q302 (Cemiyet + Skałon + Rasputin son akşam yemeği)
+- **LW Tailor (8 asset / ~140 entry)** — 8 bölge terzi imzaları (BZR/CM/GRZ/PP/PR/PW/SMC/SMG)
+- **LW POI (7 asset / ~231 entry)** — POI grupları, gizli kütüphane, dans dersleri, briç partisi, halıcı, masaj salonu, vb.
+- **LW yan görev arc (12 asset / ~886 entry)** — bu sürüm:
+  - **CM** — `lw_cm01` (84) WTA mezarlık zinciri (Wendeta + Mieczysława muhbir + Włodzimierz)
+  - **GRZ** — `lw_grz01` (110) Mirów Leila/Pęseta hırsızlık ve Harem (Djinn salutoru)
+  - **PP** — `lw_pp01` (48) Praga liman silah hırsızlığı + Edek/Krampus + Jemioł intikam
+  - **PW** — `lw_pw01` (48) Powiśle Morana + Kajetan ressam + Rybak; `lw_pw02` (108) Karın Deşen Jack arc'ı (Klara/Pielewin/lombardzista)
+  - **SMC** — `lw_smc01` (93) Hotel Imperialny Ludwik ölümü + Pietia Skaza; `lw_smc02` (63) Neumayer fabrika grevi + Bukefalos at; `lw_smc03` (116) Polonyalı vatansever zinciri (Lipnicka ihaneti + Lechit'ler + Żukow)
+  - **SMG** — `lw_smg01` (48) Dickstein sahaf cilt hırsızlığı + Cecylia oyunu; `lw_smg02` (52) Polina sınanması + ders hazırlığı; `lw_smg03` (46) Smolna kumar/holiganlar + Uçan Üniversite mektupları; `lw_smg04` (70) Wiesław arc + Cecylia mesajı + Polina tutuklanması
+
+**WTA tutarlılık düzeltmesi:** `IC_lw_cm01`'de `vu-te-a` / `VTKC` → `WTA` (`CodexFactionsDT.csv`'deki yerleşik karara hizalama).
+
+### Eklendi (script)
+
+- `scripts/tmp_ic_lw_apply.ps1` — 12 IC_lw asset için batch apply (`dialog_apply -AllRawExports` + UAssetGUI fromjson + staging).
+
+### Kapsam
+
+- UI / StringTable: 26/27 (%96)
+- Diyaloglar: 555/687 asset (%80.8)
+- Vset (ortam NPC mırıltı): 394/398 (%99)
+- Journal: 91/91 (%100)
+- Codex DT: 5/5 (%100)
+- Readables: 47/47 (%100)
+- **InsightsConclusions: 40/40 (%100)** — yeni
+- Toplam: **~25.500 satır**
+- Pak: ~16.86 MB
+
+### Açık (sonraki sürüm)
+
+- LW yan görev ana diyalog sahneleri (~90 asset / ~4.176 satır) — `lw_pw02`, `lw_smc03`, `lw_cm01`, `lw_smc02`, `lw_smc01`, `lw_pp01`, `lw_bzr01`, `lw_smg03`, `lw_pw01` ana sahne setleri
+- `lw_timeSkipScenes` (8 asset / 319 satır) — opsiyonel
+- `DebugText_ST` — opsiyonel
+
+---
+
 ## [0.10.1] — 2026-04-27
 
 **Hata düzeltme sürümü:** Önceki bir oturumdaki bir araç-script regresyonunu (heuristic-tabanlı toplu apply) gideren acil yama. Naming'inde "_chat" geçmeyen 12 dialog asset'inde ek RawExport blob'larındaki Türkçe metin Polonyaca'ya geri çevrilmişti — 691 dialog CSV'lik tam tarama bu kayıpları tespit etti, hepsi onarıldı.
