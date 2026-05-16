@@ -6,7 +6,42 @@ Format: [Keep a Changelog](https://keepachangelog.com/) — sürüm: [Semantic V
 
 ## [Yayınlanmamış]
 
-- `DebugText_ST` (22 entry) çevrildi — geliştirici test menüsü etiketleri (Eğitici dövüş 1-5, Dövüş 1-2, Temel dövüş mekanikleri, Ritüel, Salutor değişimi, fare tuşu etiketleri). Oyuncu normal akışta görmez ama StringTable kategorisi artık 27/27 (%100).
+Bir sonraki yayın için birikecek değişiklikler.
+
+---
+
+## [0.12.2] — 2026-05-16
+
+**Tüm bilinen oyuncu-görünür kategoriler %100.** Bu küçük patch sürümü `DebugText_ST` ile StringTable kategorisini 27/27, son 3 vset asset'i ile de vset kategorisini 400/400 yapıyor.
+
+### Eklendi
+
+- **`DebugText_ST` (22 entry)** — Geliştirici test menüsü etiketleri (Eğitici dövüş 1-5, Dövüş 1-2, Temel dövüş mekanikleri, Odak ve Güçlü saldırılar, Ritüel, Salutor değişimi/İmalar, Özellikler, perde-konum etiketleri, fare/boşluk tuşu adları). Oyuncu normal akışta görmez ama StringTable kategorisi artık **27/27 (%100)**.
+- **3 kalan vset asset (7 entry)** — `lw_pw01_vset_main_policeman_pw` (1 — Powiśle ana polis "Başımı ağrıtmayın."), `lw_pw01_vset_rookie_policeman_pw` (3 — Suç mahalli koruyan acemi polis: "Burası suç mahalli."/"Geri çekil dostum."/"Nereye gidiyorsun? Burada soruşturma yürüyor."), `SMC_Bar_vset_scene_01a_happy_client` (3 — Bar memnun müşteri Rasputin sonrası: "Aferin sana dostum!"/"Saygıyı hak ediyorsun."/"Ben zaten o Rusları hiç sevmemiştim."). **Vset kategorisi artık 400/400 (%100)** (eski "4 belirsiz" raporu yanlıştı — 3 idi).
+
+### Kalite/tutarlılık (Tur 20 review)
+
+- 92 yeni asset (v0.12.0 LW main + v0.12.1 timeSkip) için kapsamlı Grep taraması: Pakt → Ant tutarlı; Komiser (Pielewin = Komisarz Rusça polis unvanı) doğru; Polonyaca özel ad bağlamında korunmuş; Mikołaj diakritik tutarlı; Çar/Naczelnik/Cytadel/Berek/Ochrana yeni asset'lerde sıfır regresyon.
+- Validator scriptleri: `validate_csv_columns.ps1` (0), `validate_tag_balance.ps1` (1 pre-existing PL bug), `find_tr_triple_dots.ps1` (0).
+- **Sıfır yeni düzeltme** — Tur 11-18'deki tüm pattern düzeltmeleri yeni asset'lerde başarıyla taşınmış.
+
+### Kapsam (kümülatif — tüm bilinen oyuncu-görünür kategoriler %100)
+
+- UI / StringTable: **27/27 (%100)**
+- Diyaloglar: 655/687 asset (%95.3)
+- Vset: **400/400 (%100)**
+- Journal: 91/91 (%100)
+- Codex DT: 5/5 (%100)
+- Readables: 47/47 (%100)
+- InsightsConclusions: 40/40 (%100)
+- lw_TimeSkipScenes: 8/8 (%100)
+- **Toplam: ~30.000 satır**
+- Pak: 19.90 MB
+
+### Açık (artık yalnız test)
+
+- Oyunculuk testi sırasında çıkacak ad-hoc düzeltmeler
+- Daha derin review turu (oturum bazlı)
 
 ---
 

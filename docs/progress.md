@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-05-16 (v0.12.1 — `lw_timeSkipScenes` %100, 8 asset / 319 entry; v0.12.0 — LW yan görev ana sahneleri %100, 84 asset / ~4.165 entry).
+**Son güncelleme:** 2026-05-16 (v0.12.2 — DebugText_ST + 3 kalan vset asset; **StringTable 27/27 + Vset 400/400 → tüm bilinen oyuncu-görünür kategoriler %100**).
 
 > **🟢 2026-05-16 — LW yan görev ana sahneleri kapandı:** 9 LW arc'ının ana sahne setleri (toplam 84 asset, ~4.165 entry) artık Türkçe. Karın Deşen Jack (pw02), WTA mezarlık (cm01), Polonyalı vatansever (smc03), fabrika grevi (smc02), Woronin gazeteci (smc01), Smolna kumar (smg03), Bazar (bzr01), Praga Krampus (pp01), Powiśle Morana 1 (pw01). Pak: 19.66 MB.
 >
@@ -16,9 +16,9 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
-| **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
+| **StringTable (UI)** | 27 | 27 | %100 | ~1561 |
 | **Diyalog (ana story + Default + Chat)** | 647 asset | 687 asset | %94.2 | ~21048 |
-| **Vset (ortam NPC mırıltı)** | 394 asset | 398 asset | %99 | ~1512 |
+| **Vset (ortam NPC mırıltı)** | 400 asset | 400 asset | %100 | ~1519 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
 | **Journal (POI + Postcard)** | 47 asset | 47 asset | %100 | ~212 |
