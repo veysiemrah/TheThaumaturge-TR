@@ -10,6 +10,44 @@ Bir sonraki yayın için birikecek değişiklikler.
 
 ---
 
+## [0.12.0] — 2026-05-16
+
+**LW yan görev ana sahneleri tamamlandı.** Powiśle Karın Deşen Jack arc'ı, CM mezarlık WTA agent zinciri, Śródmieście Polonyalı vatansever / fabrika grevi / gazete olayı, Praga Krampus ve diğer LW yan görev ana diyalog sahneleri artık tamamen Türkçe — 9 arc / 84 asset / ~4.165 entry. Bu sürümle yaklaşık **29.700 satır** metin Türkçedir.
+
+### Eklendi
+
+**LW yan görev ana sahneleri (84 asset / ~4.165 entry)**:
+
+- **PW (Powiśle)** — `lw_pw01` (6 / 199) Morana 1 + Kajetan ressam ön bölüm; `lw_pw02` (15 / 865) Karın Deşen Jack arc'ı (Tadeusz Pielecha cinayeti → Klara fahişe / Rybak ifşası, Pielewin komiser, lombardzista, kerhane, rıhtım batakhaneleri)
+- **CM (Cmentarz)** — `lw_cm01` (10 / 564) WTA mezarlık zinciri (Wendeta + Mieczysława muhbir + Włodzimierz tetikçi)
+- **SMC (Śródmieście)** — `lw_smc01` (11 / 522) Hotel Imperialny Ludwik ölümü + Woronin gazeteci + Pietia; `lw_smc02` (9 / 551) Neumayer fabrika grevi + Bukefalos at + foreman; `lw_smc03` (14 / 727) Polonyalı vatansever zinciri (Lipnicka ihaneti + Lechit'ler + Żukow + istasyon nöbeti + gazeteci telefon)
+- **SMG (Smolna)** — `lw_smg03` (5 / 218) Smolna Üniversite/kumar — bu sürümde ana sahne setlerinin tek SMG arc'ı
+- **BZR (Bazar Różyckiego)** — `lw_bzr01` (7 / 260) Bazar yan görev ana sahnesi
+- **PP (Praga)** — `lw_pp01` (7 / 259) Praga Krampus aile sahnesi + Edek/Jemioł
+
+**Kalite/tutarlılık kontrolü**: çeviri yapılırken arada arada Polonya argosu (`<dl>...</>` ile işaretli `kacapy`, `glina`, `aligant`, `chojracz`, `pacykarz` vb.) doğal Türkçe karşılıklarıyla; küfür yelpazesi Türkçe karşılıklarına uyarlandı; özel adlar (Pielecha, Pielewin, Kajetan, Klara, Józta) ve placeholder'lar (`<i>...</>`, `<dl>...</>`) korundu.
+
+### Kapsam
+
+- UI / StringTable: 26/27 (%96)
+- Diyaloglar: 639/687 asset (%93) — LW ana sahne setleri kapatıldı
+- Vset (ortam NPC mırıltı): 394/398 (%99)
+- Journal: 91/91 (%100)
+- Codex DT: 5/5 (%100)
+- Readables: 47/47 (%100)
+- InsightsConclusions: 40/40 (%100)
+- Toplam: **~29.700 satır**
+- Pak: ~19.66 MB
+
+### Açık (sonraki sürüm)
+
+- `lw_timeSkipScenes` (8 asset / 319 satır) — opsiyonel zaman atlama varyantları
+- `DebugText_ST` — opsiyonel, oyuncu görmez
+- Vset 4 belirsiz asset — quest-spesifik vset varsa
+- Daha derin oyunculuk testi + tutarlılık review turu
+
+---
+
 ## [0.11.0] — 2026-05-16
 
 **InsightsConclusions kategorisi tamamlandı.** Oyuncunun NPC ve eşya analizi (Çıkarım & Sonuç panelleri) artık tamamen Türkçe — 40/40 asset / **~2.581 entry**. Bu sürümle yaklaşık **25.500 satır** metin Türkçedir.
