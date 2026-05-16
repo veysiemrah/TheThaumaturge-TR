@@ -6,7 +6,7 @@ Format: [Keep a Changelog](https://keepachangelog.com/) — sürüm: [Semantic V
 
 ## [Yayınlanmamış]
 
-Bir sonraki yayın için birikecek değişiklikler.
+- `DebugText_ST` (22 entry) çevrildi — geliştirici test menüsü etiketleri (Eğitici dövüş 1-5, Dövüş 1-2, Temel dövüş mekanikleri, Ritüel, Salutor değişimi, fare tuşu etiketleri). Oyuncu normal akışta görmez ama StringTable kategorisi artık 27/27 (%100).
 
 ---
 
