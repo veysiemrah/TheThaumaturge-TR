@@ -10,6 +10,29 @@ Bir sonraki yayın için birikecek değişiklikler.
 
 ---
 
+## [0.12.1] — 2026-05-16
+
+**`lw_timeSkipScenes` tamamlandı.** Wiktor + Upyr zaman atlama menüsü ("sabah/öğlen/ikindi/gece kadar bekle") ve bekleme sırasında Wiktor'ın iç-monolog yorumları (Burnakowicz şüphesi, Rasputin merakı, Swietłana endişesi, Abaurycy Niedzic gözlemi) artık Türkçe — 8 asset / 319 entry (8 bölge varyantı: index + BZR/CM/GRZ/PP/PR/PW/SMC).
+
+### Eklendi
+
+- `translation/lw_TimeSkip*.csv` (8 dosya / 319 satır) — bekleme menüsü + 7 Wiktor-Upyr kısa diyaloglu Bölüm 2 atmosferik replikler. Tüm bölgeler aynı metin havuzunu paylaşır (yalnızca region-spesifik hash'ler farklı), tek bir PL→TR sözlüğüyle toplu çevrildi.
+- `scripts/tmp_timeskip_translate.ps1` + `scripts/tmp_timeskip_apply.ps1` — PL→TR map tabanlı toplu çeviri + dialog_apply + UAssetGUI fromjson + staging zinciri.
+
+### Kapsam
+
+- Diyaloglar: 647/687 asset (%94.2)
+- **Toplam: ~30.000 satır**
+- Pak: 19.90 MB
+
+### Açık (tek opsiyonel kalan)
+
+- `DebugText_ST` — opsiyonel, oyuncu görmez
+- Vset 4 belirsiz asset
+- Daha derin oyunculuk testi + tutarlılık review
+
+---
+
 ## [0.12.0] — 2026-05-16
 
 **LW yan görev ana sahneleri tamamlandı.** Powiśle Karın Deşen Jack arc'ı, CM mezarlık WTA agent zinciri, Śródmieście Polonyalı vatansever / fabrika grevi / gazete olayı, Praga Krampus ve diğer LW yan görev ana diyalog sahneleri artık tamamen Türkçe — 9 arc / 84 asset / ~4.165 entry. Bu sürümle yaklaşık **29.700 satır** metin Türkçedir.

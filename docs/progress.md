@@ -2,7 +2,7 @@
 
 Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası buradaki tablolar güncellenir; CLAUDE.md ve workflow-notes yalnızca özet + bu dosyaya link tutar.
 
-**Son güncelleme:** 2026-05-16 (v0.12.0 — LW yan görev ana sahneleri %100, 84 asset / ~4.165 entry; 9 arc tamamlandı: smg03, pw01, bzr01, pp01, smc02, cm01, smc01, smc03, pw02).
+**Son güncelleme:** 2026-05-16 (v0.12.1 — `lw_timeSkipScenes` %100, 8 asset / 319 entry; v0.12.0 — LW yan görev ana sahneleri %100, 84 asset / ~4.165 entry).
 
 > **🟢 2026-05-16 — LW yan görev ana sahneleri kapandı:** 9 LW arc'ının ana sahne setleri (toplam 84 asset, ~4.165 entry) artık Türkçe. Karın Deşen Jack (pw02), WTA mezarlık (cm01), Polonyalı vatansever (smc03), fabrika grevi (smc02), Woronin gazeteci (smc01), Smolna kumar (smg03), Bazar (bzr01), Praga Krampus (pp01), Powiśle Morana 1 (pw01). Pak: 19.66 MB.
 >
@@ -17,7 +17,7 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | Kategori | Çevrilen | Toplam | % | Satır |
 |---|---|---|---|---|
 | **StringTable (UI)** | 26 | 27 | %96 | ~1539 |
-| **Diyalog (ana story + Default + Chat)** | 639 asset | 687 asset | %93.0 | ~20729 |
+| **Diyalog (ana story + Default + Chat)** | 647 asset | 687 asset | %94.2 | ~21048 |
 | **Vset (ortam NPC mırıltı)** | 394 asset | 398 asset | %99 | ~1512 |
 | **Journal (ana story)** | 25 asset | 91 asset | %27 | ~386 |
 | **Journal (LW)** | 14 asset | 14 asset | %100 | ~242 |
@@ -25,7 +25,7 @@ Bu dosya **tek kanonik ilerleme kaydıdır**. Her yeni çeviri seti sonrası bur
 | **Codex DT** | 5 asset | 5 asset | %100 | ~497 |
 | **Readables** | 47 asset | 47 asset | %100 | ~1979 |
 | **InsightsConclusions** | 40 asset | 40 asset | %100 | ~2581 |
-| **GENEL** | — | — | — | **~29.677 satır deploy / yalnızca opsiyonel timeSkip + Debug açık** |
+| **GENEL** | — | — | — | **~29.996 satır deploy / yalnızca opsiyonel Debug açık** |
 
 **%100 tamam:** StringTable %96 (DebugText hariç), Journal (91/91), Codex DT (5/5), Readables (47/47), **InsightsConclusions (40/40)**.
 Diyalog ana story: Default + q001 + q101 + q102 + q103 + q104 + q201 + q201b + q202 + q203 + q301 + q302 + q401 ✓, sq001 visions (7/39 ✓), lw_* 12/12 quest ✓ + lw_smg04 ✓ + lw_grz01 ✓ + lw_smg02 ✓ + **GenericEncounters 45/45 ✓** + **LivingWorld 30/30 ✓ (3 berber + lw_smg01 27)** + **Global_chats 5/5 ✓** (555/687 asset, %80.8). Kalan lw: lw_timeSkipScenes (muhtemelen cutscene tetikleri, metin yok).
